@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="http://localhost:4000/kavourei.github.io/tag/machine-learning/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/kavourei.github.io/" rel="alternate" type="text/html" />
+  <updated>2024-06-12T02:20:09+03:00</updated>
+  <id>http://localhost:4000/kavourei.github.io/tag/machine-learning/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Kavour | </title>
+  
+
+  
+    <subtitle>Data science news and applications</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Uncovering Topics in BBC News with Latent Dirichlet Allocation in R</title>
+      <link href="http://localhost:4000/kavourei.github.io/LDA_R" rel="alternate" type="text/html" title="Uncovering Topics in BBC News with Latent Dirichlet Allocation in R" />
+      <published>2023-10-17T00:00:00+03:00</published>
+      <updated>2023-10-17T00:00:00+03:00</updated>
+      <id>http://localhost:4000/kavourei.github.io/LDA_R</id>
+      <content type="html" xml:base="http://localhost:4000/kavourei.github.io/LDA_R">&lt;p&gt; Welcome everyone! Keeping in mind the post about Latent Dirichlet Allocation (in case you have not read it yet and you are interested, you can read it &lt;a href=&quot;/the-editor/&quot;&gt;here&lt;/a&gt;), I am going explore the computational part with you on a dataset containing BBC News (you can find the corresponding data &lt;a href=&quot;/the-editor/&quot;&gt;here&lt;/a&gt;). With the assistance of R-programming language, we are going to find an optimal number of topics, in which we can cluster BBC News and tidy the archived collection of BBC News we have in our dataset. &lt;/p&gt;
+
+&lt;p&gt; The agenda is as follows. Initially we are going to load the required libraries in order to make this a successful journey. Later on, we are going to go through some preprocessing steps in order to make the algorithms job a little bit easier. Our third stop is going to be the model itself. We are going to go through some arguments in order to establish a common knowledge on how each of them works. The final step is going to be some exploration and commenting on our model's result. &lt;/p&gt;
+
+&lt;h2 id=&quot;specialformatting&quot;&gt;Tools are built to be used! 
+The libraries that we are going to use.&lt;/h2&gt;
+
+&lt;p&gt; Just in case you are new with R-programming language, in order to install the libraries that will be presented below, you can run the following command: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+  install.packages(&quot;name_of_the_library&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; After having installed the libraries you can load them (in order to use them) as follows:  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+  library(tidyverse)
+  library(tm)
+  library(quarteda)
+  library(ldatuning)
+  library(LDAvis)
+  library(tidytext)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; As you can see we are going to use:
+&lt;ul&gt;
+&lt;li&gt; &lt;strong&gt;tidyverse&lt;/strong&gt; library: in order to manipulate data. This library will load all the excited and Wonderfull constructed parts of this universe a.k.a. ggplot, dplyr, tidyr, purrr, stringr, etc. You can accomplish great manipulation goals by using those libraries!&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;tm&lt;/strong&gt; library: we will need this library in order to accomplish several preprocessing steps of text data. With the help of this library one can tokenize data, convert text data to a corpus and many more exciting nlp assignments. (fan fact : tm = text mining)&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;quarteda&lt;/strong&gt; library: Even though this is another library for preprocessing steps, in combination with tm library, when used correctly, your fingers can be converted to multiple nlp 🦸 superheroes!&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;ldatuning&lt;/strong&gt; library: this library will help us decide the number of topics we should look as optimal.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;LDAvis&lt;/strong&gt; library: this library (I won't lie to you) the existence of which I found out recently on the process of topic modelling studying, provides great ways to visualise the results with the help of JSON. I advise you to go along this whole process and end up using this library alongside in order to see the possibilities that you gain by including it in your topic modelling analysis!&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;tidytext&lt;/strong&gt; library: the go-to tool that takes messy text data and turn it into a neat and usable format for analysis. &lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;specialformatting&quot;&gt;Preprocessing is always a must!&lt;/h2&gt;
+
+&lt;p&gt;We will now move forward to the step which in my opinion is the most important in a  process of model building. This step if neglected or completed recklessly, can result in a model that would not perform as expected and most certainly, would not give us back the results as expected. Anyways, in order to be able to complete this step, we need to have data to preprocess. We load the data downloaded as follows :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+  bbc &amp;lt;- read.csv('/Users/...your_path.../bbc_news.csv', stringsAsFactors = FALSE)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The data as you may have already have seen, contain the following variables:
+&lt;ul&gt;
+&lt;li&gt; title : The title of the BBC News &lt;/li&gt;
+&lt;li&gt; pubDate : Publication date &lt;/li&gt;
+&lt;li&gt; guid : BBC News link &lt;/li&gt;
+&lt;li&gt; link : BBC News link &lt;/li&gt;
+&lt;li&gt; description : The description of the BBC News &lt;/li&gt;
+&lt;/ul&gt;
+Initially, I would like to apologise of the explanations on guid and link variables. Unfortunately, there are no explanation in the dataset source and as I result I have written the descriptions based on what I came across in the dataset. Apart from that, we are going to work only with one variable and this is description. We also are going to keep the title as well, just for reference. As a result, we going to drop the rest. This can be easily done as follows :
+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+  bbc2 &amp;lt;- bbc %&amp;gt;% 
+  select(title, description)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As a first toward preprocessing we are going to convert this dataset into a corpus. Corpus is a collection of data (text or audio) which are organised as dataset.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+  bbc.corpus &amp;lt;- corpus(bbc2, text_field = 'description')
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; Next in line are the changes that needed to be done in the given dataset. Namely, we need to tokenize that dataset. Apart from that we need to remove punctuation as the special characters do not contain and relevant information for topic indications. For the same reasons, we need to remove the numbers and of course the stopwords&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;  of English language.  &lt;/p&gt;
+
+&lt;p&gt;Following those changes we are going to stem&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn2&quot; id=&quot;fnref2&quot;&gt;[21]&lt;/a&gt;&lt;/sup&gt; the corpus.&lt;/p&gt;
+
+&lt;p&gt;Finally, we are going to convert the whole corpus to lower characters. This is done so that the model will not judge same words like Legislation and legislation as two different words only for the first letter. Those steps are completed with the following commands:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+  bbc.corpus.tokens &amp;lt;- tokens(bbc.corpus, remove_punct = TRUE, remove_numbers = TRUE)
+  bbc.corpus.tokens &amp;lt;- tokens_remove(bbc.corpus.tokens, stopwords(&quot;english&quot;))
+  bbc.corpus.tokens &amp;lt;- tokens_wordstem(bbc.corpus.tokens, language = 'english')
+  bbc.corpus.tokens &amp;lt;- tokens_tolower(bbc.corpus.tokens)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;At this point your object bbc.corpus.tokens should look like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_1.png&quot; alt=&quot;bbc.corpus.tokens&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, we are going to create a sparse &lt;strong&gt;document-feature matrix&lt;/strong&gt; with the &lt;em&gt;dfm&lt;/em&gt; function. This is needed in order for LDA function to work.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+  dfm_bbc &amp;lt;- dfm(bbc.corpus.tokens)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That is all for the preprocessing step. Before moving to the next step which the model building, I feel the need to tell you the following. NLP preprocessing depends on the context of data that you have and the goal you want to achieve. You really need to think this through. In our case, you will see some words later on like the word &lt;mark&gt;say&lt;/mark&gt; or &lt;mark&gt;seem&lt;/mark&gt;, that you may think it is better to remove after the first results due to the fact that those words appear in many topic groups. This may result in a more thorough view of your groups. If this is your goal, this is fine way to go. Therefore, If your goal is to make this model let's say more general and try to predict other text data with it I advise you to think it twice, which words should be removed, which should stay and what is the reason and result of such action.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;LDA modeling&lt;/p&gt;
+&lt;p&gt;LDA thinking&lt;/p&gt;
+&lt;p&gt;LDA building&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It is time for us to move forward to our model building. This will be completed with the help of LDA function. However LDA function has some arguments that needed to be filled. We will need x an object of class DocumentTermMatrix (a.k.a. our preprocessed data), &lt;strong&gt;k&lt;/strong&gt; which is our &quot;guess&quot; in the number of topics that exist in the dataset containing multiple text data, &lt;strong&gt;method&lt;/strong&gt; which is our selection on the method that the algorithm will use in order to compute the results and finally &lt;strong&gt;control&lt;/strong&gt; where we will include a list of parameter settings to help the model work. Even though we have the help, in R-Studio IDE, I would like to elaborate the arguments a little bit more. &lt;/p&gt;
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt; k is our &quot;guess&quot;. The reason I used quotes earlier is that, this may not be really a guess in certain cases. In one hand, we may have an idea of the bunch of documents that we would like to cluster. In the other hand we may use a tuning tool to help us choose. Either way, this is not what the term guess means. Well, of course you could really, try your luck and guess k, but after the first initiation I am sure you will see a pattern and correct your choice! 😉 &lt;/li&gt;
+&lt;li&gt; method is actually a choice between two different ways of working. In order to fill this argument we have to choose between &quot;VEM&quot; or &quot;Gibbs&quot;. What are those? you may say, and which one to choose? 😵‍💫 Well frankly I have the answer! VEM or else Variational Expectation Maximization is an optimisation-based approach where Gibbs on the other hand is a sampling Markov Chain Monte Carlo (MCMC) approach. Both have their strength and weaknesses. For example, VEM is a deterministic method (given we provide the same data, the same output we get) whereas Gibbs is a stochastic method which means that is samples from probability distributions and can provide different results from the same data, but will eventually converge to the true distribution, given some iterations occured. I will let you search around and figure out some other facts about those two as analysing how those work, as well as all their pros and cons can be really long job and is out of this scope. But a little hint is that they converge in different speeds, as you can guess, and of course they can handle large dataset in different ways.  &lt;/li&gt;
+&lt;li&gt; control is a list of subargumets, like alpha, verbose, seed and many more where you can really tune the way LDA will work. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Of course apart from those, there are other arguments that you may want/need to tune but the least required so that we proceed are the aforementioned ones. So before running our model, I am going to search the number of topics with the help of ldatuning::FindTopicNumber() function as I indicated earlier. Initially we need to convert our dfm to an object of class DocumentTermMatrix as described earlier.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+  new.dtm &amp;lt;- convert(dfm_bbc, to = 'topicmodels')
+
+  result &amp;lt;- FindTopicsNumber(
+    new.dtm,
+    topics = seq(from = 2, to = 15, by = 1),
+    metrics = c(&quot;Griffiths2004&quot;, &quot;CaoJuan2009&quot;, &quot;Arun2010&quot;, &quot;Deveaud2014&quot;),
+    method = &quot;Gibbs&quot;,
+    control = list(seed = 1234),
+    #mc.cores = 2L,
+    #verbose = TRUE
+  )
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Due to the seed, this should result to the following metrics matrix:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_2.png&quot; alt=&quot;results&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The package &lt;em&gt;ldatuning&lt;/em&gt; provide to us a way to visually check the results with the usage of the function &lt;em&gt;FindTopicsNumber_plot&lt;/em&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+  FindTopicsNumber_plot(result)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_3.png&quot; alt=&quot;find_topics_number&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our goal here, as you can see is to choose K-candidate (number of topics) that either maximise the bottom or minimise the top. I am not going to go through the metrics and how they are calculated but I will leave a reference at the end if you are interested. From the results produces (mainly the plot 🫥) the best candidate is K=3. This is obtained by the CaoJuan2009 metric. I have excluded the usage of the other three due to the fact that they do not converge. Here I am aiming for results on the level of field like politics, sports etc. If you would like more detailed clustering, for example foreign policy, domestic policy, soccer, basketball, etc then I advise you to search for 20 or even higher number of topics. &lt;/p&gt;
+
+&lt;p&gt;Next in line is the setting of the model's hyperparameters, a.k.a. alpha and beta. Please recall the intuition behind those two hyperparameters in order to fully understand the meaning of the results. In order to find an optimal setting, one could work with 3 or more ways.&lt;/p&gt;
+&lt;p&gt;
+&lt;ol&gt;
+  &lt;li&gt; Use the perplexity of topic modelling LDA model. &lt;/li&gt;
+  &lt;li&gt; Use the coherence measure of topic modelling LDA model. &lt;/li&gt;
+  &lt;li&gt; Use intuition about the documents. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;p&gt;The last of the options is when the researcher has a brief idea about the documents, the level of vocabulary details, and the variance of words per document and topics. Even in this case, the researcher would have to try a few of the settings in order to find the optimum. Here I am going to work with the first two options. Before getting there though, I would like to give a rough definition for both notions of perplexity and topic coherence.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Perplexity&lt;/strong&gt; : In LDA topic modeling context, perplexity measures of how well an LDA model works in other words how generalised is the computed process. This is measured by the notion of how well a model can predict a new set of documents' topics based on what it learnerd from a training set. Lower perplexity means the model is better at making predictions.&lt;/li&gt;
+  &lt;li&gt; &lt;strong&gt;Coherence&lt;/strong&gt; : Topic coherence is a measure that helps assess how easy it is to understand the topics created by the model computed. This measures if the words in a topic are semantically related to each other. If the coherence score is high, it means the topics are more understandable and therefore our LDA model is a fine tuned model.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Perplexity and Coherence have their pros and cons. Here we are going to use perplexity to continue. Coherence is not hard to be computed though (hint use topic_coherence of package topicdoc). Here for the perplexity, I have decided to create two vectors with some of  possible values of alpha and beta and then compute all the perplexity values for a set of test data. The computations and results are the following&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+  alpha_values &amp;lt;- seq(from =0.1,to = 1, by = 0.1)
+  alpha_values
+  beta_values &amp;lt;- seq(from =0.1,to = 1, by = 0.1)
+  beta_values
+  
+  n &amp;lt;- length(alpha_values)
+  result_matrix &amp;lt;- matrix(0, n * n, 3)
+  
+  row_num &amp;lt;- 1
+  for (i in 1:n) {
+    for (j in 1:n) {
+      result_matrix[row_num, 1] &amp;lt;- alpha_values[i]
+      result_matrix[row_num, 2] &amp;lt;- beta_values[j]
+      
+      m &amp;lt;- LDA(train_dtm, k=3, method = 'Gibbs', control = list(alpha = alpha_values[i], seed = 1234), beta = beta_values[j])
+      perp.value &amp;lt;- perplexity(m, test_dtm)
+      
+      result_matrix[row_num, 3] &amp;lt;- perp.value
+      row_num &amp;lt;- row_num + 1
+    }
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In order to get the rows with the minimum perplexity value we have to run the following:
+
+&lt;pre&gt;&lt;code&gt;
+  result_matrix[result_matrix[,3] == min(result_matrix[,3]),]
+&lt;/code&gt;&lt;/pre&gt;
+
+and the result till this point should be :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_4.png&quot; alt=&quot;ResList&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We see here the setting for hyperparameter alpha is 0.2 whereas for beta according to perplexity measure it makes no difference. Recall the meaning of them and try to understand what 0.2 means.&lt;/p&gt;
+&lt;p&gt;As a result, we are ready to build our model according to those settings and proceed to the final act of this article where we will review the results of it.&lt;/p&gt;
+
+&lt;h2 id=&quot;specialformatting&quot;&gt;Model Building&lt;/h2&gt;
+
+&lt;p&gt;After having gathered all the information needed and went through all required preprocessing step it is time to build the model. This is done with the help of &lt;em&gt;LDA&lt;/em&gt; function of package &lt;em&gt;topicmodels&lt;/em&gt;. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+  model.lda &amp;lt;- LDA(new.dtm, k = 3, method = &quot;Gibbs&quot;, control = list(alpha = 0.2, seed = 1234))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;From this point and on, you can check many very interesting statistics like the per-topic-per-word probability &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+  news.topics &amp;lt;- tidy(m_final, matrix = 'beta')
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where you can see what is the probability of each word belonging to a topic:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topc_bbc_5.png&quot; alt=&quot;topic_term_beta&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;or the top terms per topic in order to draw conclusions on the actual humanly communicated context of topic&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+  top.terms &amp;lt;- news.topics %&amp;gt;% 
+    group_by(topic) %&amp;gt;% 
+    top_n(5) %&amp;gt;% 
+    ungroup() %&amp;gt;% 
+    arrange(topic, -beta)
+
+  top.terms %&amp;gt;% 
+    mutate(term = reorder(term, beta)) %&amp;gt;% 
+    ggplot(aes(term, beta, fill = factor(topic))) +
+    geom_col(show.legend = TRUE) +
+    facet_wrap(~ topic, scales = 'free') +
+    coord_flip()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_6.png&quot; alt=&quot;term_beta&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can see here the word say that I mentioned in the beginning... 😉 Here we can get an idea about each topic that the model clustered our BBC news data. I would say, a topic about sports, a topic about news related to Ukraine, and a topic of domestic (UK) news. Finally I would like you to copy paste this final part of chunk, and check out the result!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+  new.dtm.2 &amp;lt;- new.dtm[slam::row_sums(new.dtm) &amp;gt; 0, ]
+  phi &amp;lt;- as.matrix(posterior(m_final)$terms)
+  theta &amp;lt;- as.matrix(posterior(m_final)$topics)
+  vocab &amp;lt;- colnames(phi)
+  doc.length &amp;lt;- slam::row_sums(new.dtm)
+  term.freq &amp;lt;- slam::col_sums(new.dtm)[match(vocab, colnames(new.dtm))]
+  
+  json &amp;lt;- createJSON(phi = phi, theta = theta, vocab = vocab, doc.length = doc.length, term.frequency = term.freq)
+  serVis(json)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_7.png&quot; alt=&quot;LDAvis_res&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This chunk will create an interactive app as the following where you can explore the capabilities available there. You can check out all the words that are included in every topic.&lt;/p&gt;
+
+&lt;p&gt;Overall, I believe that you have a good idea and all the tools to start exploring LDA yourself. I hope you've enjoyed the implementation presented here. Feel free to copy paste any part of the code, insert your data and explore nlp world from a different perspective.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Be safe, code safer!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Machine Learning" />
+      
+        <category term="NLP" />
+      
+        <category term="Bayesian Statistics" />
+      
+
+      
+        <summary type="html">Welcome everyone! Keeping in mind the post about Latent Dirichlet Allocation (in case you have not read it yet and you are interested, you can read it here), I am going explore the computational part with you on a dataset containing BBC News (you can find the corresponding data here). With the assistance of R-programming language, we are going to find an optimal number of topics, in which we can cluster BBC News and tidy the archived collection of BBC News we have in our dataset.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Topic Modelling - Latent Dirichlet Allocation</title>
+      <link href="http://localhost:4000/kavourei.github.io/lda_fundamentals" rel="alternate" type="text/html" title="Topic Modelling - Latent Dirichlet Allocation" />
+      <published>2023-10-05T00:00:00+03:00</published>
+      <updated>2023-10-05T00:00:00+03:00</updated>
+      <id>http://localhost:4000/kavourei.github.io/lda_fundamentals</id>
+      <content type="html" xml:base="http://localhost:4000/kavourei.github.io/lda_fundamentals">&lt;p&gt; Hello everyone! In this post I am going to go through an NLP subject. As you may have already read in this post's title, Topic Modelling is what I aim to explain to you as simple as possible. The reason for creating this post is due to the fact that I have searched around and it took me quite a while to find a non academic explanation of this subject, and I had to combine multiple sources to clearly understand what is going on with that topic. As a result, here I aim to gather all the information I found useful and try to explain everything as non-academic as possible. &lt;/p&gt;
+
+&lt;h2 id=&quot;specialformatting&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt; Initially, I will provide you with a simple example so that you understand what Latent Dirichlet Allocation (LDA) is about, and how it can be used. Later I am going to state the assumptions and principles upon which LDA is built and of course go through each one so we make sure we get what is the purpose of each and every one of them. Finally I am going to present LDA process and try to explain it as simple as possible so that you have a solid idea of what happens in every step and why it is important. Before kicking off, let's  search on Google the following and see the result: &lt;em&gt;What business problems can  LDA solve&lt;/em&gt;. &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Text analysis: LDA is commonly used for text analysis applications, such as topic modelling of news articles, social media posts, and customer feedback. LDA can help identify the main topics and trends in an extensive text data collection, &lt;strong&gt;enabling businesses to make data-driven decisions&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt; In the century of information text analysis is a very import task for all data scientists/analysts as to provide valuable information to businesses, but I guess you know all that, after all, I guess, this is the reason you are reading this. Anyways let's begin! &lt;/p&gt;
+&lt;p&gt; Imagine that you have in front of you a document, lets say an article. The topic that the articles tried to present is the latest political news. After you have read this article then next that comes in front of you is about sports and then a third one about science. Well after the third one,  the coffee cup is empty and it is time for you to go to work. Anyways, what has just happened is that you came across three different set of vocabularies, set in correct order and following the appropriate grammatical rules in order to give to you information related to Politics, Sports and Science. &lt;/p&gt;
+&lt;p&gt; After work let's say that you want to write an article in a blog of yours about the most recent news (a.k.a. Political, Sports, and Scientific ones). As a result, you start writing and select some words from Politics-oriented vocabulary, some other from Sports-oriented vocabulary and finally some other from Science-oriented vocabulary. In this way you have managed to create your latest blog post, containing the latest news. &lt;/p&gt;
+&lt;p&gt; Latent Dirichlet allocation works in the exact opposite way. What I mean by that is given some documents, LDA will take a look at the vocabulary of each document and will try to give us a mixture distribution or better let's say the percentage of topics that is contained in each of the document. Well, that is all, thank you for reading. &lt;/p&gt;
+&lt;p&gt; Just kidding! &lt;/p&gt;
+&lt;p&gt; I believe that by now you have a rough idea what LDA does. But, how does it manages this task? &lt;/p&gt;
+
+&lt;h2 id=&quot;specialformatting&quot;&gt;Assumptions and Principals&lt;/h2&gt;
+
+&lt;p&gt; Well, LDA is based on certain assumptions and principals (which are going to be presented and explained, shortly) and based on those principals it is built to work in a way that it checks both the vocabulary per topic and the topics per document at the same time in order to assure its well preserved results. There are 4 assumptions that play a critical role for LDA: &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt; Each document is a collection of words, referred to as &lt;em&gt;&quot;Bag of words&quot;&lt;/em&gt; &lt;/li&gt;
+  &lt;li&gt; Stop words like &lt;em&gt;am, is, of, a, the, but,...&lt;/em&gt; do not contain any information and their appearance in any of the topics is very probable (if not certain). As a result they can be removed from the document in a preprocessing step. &lt;/li&gt;
+  &lt;li&gt; The model requires from us to provide the number of topics &lt;em&gt;K&lt;/em&gt;, beforehand. &lt;/li&gt;
+  &lt;li&gt; At the beginning all topic assignments in the vocabulary are assumed to be the correct one, except the word it is analysed at that particular time. &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Well I believe that the latter 3 points are clear and do not need further explanations. On the other hand, I would like to elaborate a little bit more the first point stated there. What is meant by bag of words is that the order as well as grammatical role of the words do not contain any topic related information and therefor are not considered as a valuable information to be included in the model. As a result the vocabulary from all the documents is collected and analysed as one, without worrying of the aforementioned language settings.&lt;/p&gt;
+&lt;p&gt;Apart from the assumptions as I have stated earlier there are also two principles. The first principal is that &lt;strong&gt;every document is a mixture of topics&lt;/strong&gt;. This means that the model itself is not capable to answer to the question &lt;em&gt;&quot;Which is the topic of the document&quot;&lt;/em&gt; but will give us and answer for a document like the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt; Document X does contain 10% of topic 1, 30% of topic 2  and 60% of topic 3.&lt;/li&gt;
+  &lt;li&gt; The second principal is that every topic is a mixture of words. This implies that every word has a strong correlation with some topics and less (or even non) with some other. You can think of the following example:&lt;/li&gt;
+  &lt;li&gt; Words like &lt;em&gt;Legislation&lt;/em&gt;, &lt;em&gt;Election&lt;/em&gt; and &lt;em&gt;Government&lt;/em&gt; are highly correlated with Politics and lowly with Science, whereas words like &lt;em&gt;Research&lt;/em&gt;, &lt;em&gt;Mitosis&lt;/em&gt; and &lt;em&gt;Laboratory&lt;/em&gt; are highly correlated with Science are lowly with Politics or Sports.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Having understood the fundamentals I believe that is time to try and explore how LDA woks and go through the process itself. The structure of LDA is the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/lda_fund/lda_basic_1&quot; alt=&quot;lda_model_architecture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;where:
+&lt;ul&gt;
+  &lt;li&gt; &amp;alpha; :  is the Dirichlet prior parameter for the per-document-topic proportion &lt;/li&gt;
+  &lt;li&gt; &amp;theta; : is the topic distribution of a given document &lt;/li&gt;
+  &lt;li&gt; z: is the topic assignment in word in the given document &lt;/li&gt;
+  &lt;li&gt; w : is the selected word to be examined &lt;/li&gt;
+  &lt;li&gt; N : is the collection of words from the examined document &lt;/li&gt;
+  &lt;li&gt; M : is the collection of documents that we aim to cluster &lt;/li&gt;
+  &lt;li&gt; &amp;phi; : is the distribution of words of a selected topic&lt;/li&gt;
+  &lt;li&gt; K : is the collection of available topics &lt;/li&gt;
+  &lt;li&gt; &amp;beta; : is the Dirichlet prior parameter that represents per-topic-word proportion &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; We really need to understand how both Dirichlet prior parameters work as good as possible in order to get on well with the process of LDA topic modelling. The Dirichlet prior parameter α represents per-document-topic density. This tells us that by setting α high, documents are assumed to be constructed of more topics and result in more specific topic distribution per document. As for parameter β, setting it too high, it is indicated that topics are assumed to be made up of words with great variability and result in a more specific word distribution per topic. &lt;/p&gt;
+
+&lt;h2 id=&quot;specialformatting&quot;&gt;The Latent Dirichlet Allocation model&lt;/h2&gt;
+
+&lt;p&gt; We now have a complete idea of what LDA is constructed from. As a result, I am positive that it is time to move forward to the wary LDA works. Latent Dirichlet Allocation is basically an iterative process of topic assignment for each word in each document that we include in our analysis. A key element here is the word &quot;latent&quot;, which implies as stated earlier, that all document are constructed with the same K-topics that we decide beforehand, but with a different proportion. With that said, the steps of LDA are the following: &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt; Latent Dirichlet Allocation assigned randomly a topic to each of the word in the vocabulary &lt;/li&gt;
+  &lt;li&gt; Picks a word and delete its initial assignment. Then, given all other topic assignments to the rest of the words in the vocabulary, re-assign a topic to this selected word. The process this time is not random as initially occurred. In contrast it is the product of two conditional probabilities: &lt;/li&gt;
+  &lt;li&gt; After topic assignment is completed for the selected word, LDA will repeat the process as described above for all other words in the vocabulary. &lt;/li&gt;
+  &lt;li&gt; Once it is completed LDA will repeat the process until there is no need for further changes. &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt; The conditional probabilities that mentioned in the second step is the following: &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt; A = Probability( topic &lt;code&gt;t&lt;/code&gt; | document &lt;code&gt;d&lt;/code&gt;) which represents the following. Given we evaluate document &lt;code&gt;d&lt;/code&gt;, what is the probability that this specific document is of topic &lt;code&gt;t&lt;/code&gt;. This is calculated by the number of words that are assigned to topic &lt;code&gt;t&lt;/code&gt;. Apart from that a Dirichlet-generated multinomial distribution over topics in each document is included in the calculations. The intuition behind this proportion is that if a lot of words belong to topic &lt;code&gt;t&lt;/code&gt; then it is more likely that also the current word we search the topic for also belongs to topic &lt;code&gt;t&lt;/code&gt;. &lt;/li&gt;
+  &lt;li&gt; B = Probability( word &lt;code&gt;w&lt;/code&gt; | topic &lt;code&gt;t&lt;/code&gt; ) which represents that given we evaluate topic &lt;code&gt;t&lt;/code&gt; over all documents, what is the probability that word &lt;code&gt;w&lt;/code&gt; is of that specific topic. This is calculated by considering how many of the documents are assigned to that topic due to the assistance of word &lt;code&gt;w&lt;/code&gt; and a Dirichlet-generated multinomial distribution over words for each topic. This proportion tries to capture the number of documents that are in topic &lt;code&gt;t&lt;/code&gt; because of word &lt;code&gt;w&lt;/code&gt;. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As a result, the assignment occurs after those two proportions are calculated and the topic that word w belongs to is calculated as &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt; Probability( word &lt;code&gt;w&lt;/code&gt; is assigned to topic &lt;code&gt;t&lt;/code&gt; ) = A x B &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; The second step as you can see is the most important. As a result, we are going to stay a little bit more to that step in order to fully understand the role that both Dirichlet parameters play in LDA process. As we have seen, there are two Dirichlet-generated multinomial distributions included in order to proceed to the topic assignment in each word selected. This is due to the fact that initially, this method assigns randomly topics to each of the words, where a document may end up with zero probability of a certain topic where in reality this topic should have been included in the document’s mixture distribution of topics. In that case, Dirichlet probability distribution is included over K topics as it is a non-zero probability for the topic generated. This way, a topic with zero initial probability may be included in any future iterations if this should be done.  &lt;/p&gt;
+
+&lt;p&gt;I believe that you now have a solid idea about topic modelling, how LDA process works and what is the meaning of every part of it. In the future I am going to come back with an example on LDA computed probably with the help of R programming Language, so stay tuned!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Be safe, code safer!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Machine Learning" />
+      
+        <category term="NLP" />
+      
+        <category term="Bayesian Statistics" />
+      
+
+      
+        <summary type="html">Hello everyone! In this post I am going to go through an NLP subject. As you may have already read in this post's title, Topic Modelling is what I aim to explain to you as simple as possible. The reason for creating this post is due to the fact that I have searched around and it took me quite a while to find a non academic explanation of this subject, and I had to combine multiple sources to clearly understand what is going on with that topic. As a result, here I aim to gather all the information I found useful and try to explain everything as non-academic as possible.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
