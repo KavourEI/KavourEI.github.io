@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="http://localhost:4000/kavourei.github.io/tag/bayesian-statistics/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/kavourei.github.io/" rel="alternate" type="text/html" />
-  <updated>2024-06-12T02:20:09+03:00</updated>
-  <id>http://localhost:4000/kavourei.github.io/tag/bayesian-statistics/feed.xml</id>
+  <link href="http://localhost:4000/KavourEI.github.io/tag/bayesian-statistics/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/KavourEI.github.io/" rel="alternate" type="text/html" />
+  <updated>2024-06-12T02:34:18+03:00</updated>
+  <id>http://localhost:4000/KavourEI.github.io/tag/bayesian-statistics/feed.xml</id>
 
   
   
@@ -47,11 +47,11 @@
   
     <entry>
       <title type="html">Uncovering Topics in BBC News with Latent Dirichlet Allocation in R</title>
-      <link href="http://localhost:4000/kavourei.github.io/LDA_R" rel="alternate" type="text/html" title="Uncovering Topics in BBC News with Latent Dirichlet Allocation in R" />
+      <link href="http://localhost:4000/KavourEI.github.io/LDA_R" rel="alternate" type="text/html" title="Uncovering Topics in BBC News with Latent Dirichlet Allocation in R" />
       <published>2023-10-17T00:00:00+03:00</published>
       <updated>2023-10-17T00:00:00+03:00</updated>
-      <id>http://localhost:4000/kavourei.github.io/LDA_R</id>
-      <content type="html" xml:base="http://localhost:4000/kavourei.github.io/LDA_R">&lt;p&gt; Welcome everyone! Keeping in mind the post about Latent Dirichlet Allocation (in case you have not read it yet and you are interested, you can read it &lt;a href=&quot;/the-editor/&quot;&gt;here&lt;/a&gt;), I am going explore the computational part with you on a dataset containing BBC News (you can find the corresponding data &lt;a href=&quot;/the-editor/&quot;&gt;here&lt;/a&gt;). With the assistance of R-programming language, we are going to find an optimal number of topics, in which we can cluster BBC News and tidy the archived collection of BBC News we have in our dataset. &lt;/p&gt;
+      <id>http://localhost:4000/KavourEI.github.io/LDA_R</id>
+      <content type="html" xml:base="http://localhost:4000/KavourEI.github.io/LDA_R">&lt;p&gt; Welcome everyone! Keeping in mind the post about Latent Dirichlet Allocation (in case you have not read it yet and you are interested, you can read it &lt;a href=&quot;/the-editor/&quot;&gt;here&lt;/a&gt;), I am going explore the computational part with you on a dataset containing BBC News (you can find the corresponding data &lt;a href=&quot;/the-editor/&quot;&gt;here&lt;/a&gt;). With the assistance of R-programming language, we are going to find an optimal number of topics, in which we can cluster BBC News and tidy the archived collection of BBC News we have in our dataset. &lt;/p&gt;
 
 &lt;p&gt; The agenda is as follows. Initially we are going to load the required libraries in order to make this a successful journey. Later on, we are going to go through some preprocessing steps in order to make the algorithms job a little bit easier. Our third stop is going to be the model itself. We are going to go through some arguments in order to establish a common knowledge on how each of them works. The final step is going to be some exploration and commenting on our model's result. &lt;/p&gt;
 
@@ -334,11 +334,11 @@ and the result till this point should be :&lt;/p&gt;
   
     <entry>
       <title type="html">Topic Modelling - Latent Dirichlet Allocation</title>
-      <link href="http://localhost:4000/kavourei.github.io/lda_fundamentals" rel="alternate" type="text/html" title="Topic Modelling - Latent Dirichlet Allocation" />
+      <link href="http://localhost:4000/KavourEI.github.io/lda_fundamentals" rel="alternate" type="text/html" title="Topic Modelling - Latent Dirichlet Allocation" />
       <published>2023-10-05T00:00:00+03:00</published>
       <updated>2023-10-05T00:00:00+03:00</updated>
-      <id>http://localhost:4000/kavourei.github.io/lda_fundamentals</id>
-      <content type="html" xml:base="http://localhost:4000/kavourei.github.io/lda_fundamentals">&lt;p&gt; Hello everyone! In this post I am going to go through an NLP subject. As you may have already read in this post's title, Topic Modelling is what I aim to explain to you as simple as possible. The reason for creating this post is due to the fact that I have searched around and it took me quite a while to find a non academic explanation of this subject, and I had to combine multiple sources to clearly understand what is going on with that topic. As a result, here I aim to gather all the information I found useful and try to explain everything as non-academic as possible. &lt;/p&gt;
+      <id>http://localhost:4000/KavourEI.github.io/lda_fundamentals</id>
+      <content type="html" xml:base="http://localhost:4000/KavourEI.github.io/lda_fundamentals">&lt;p&gt; Hello everyone! In this post I am going to go through an NLP subject. As you may have already read in this post's title, Topic Modelling is what I aim to explain to you as simple as possible. The reason for creating this post is due to the fact that I have searched around and it took me quite a while to find a non academic explanation of this subject, and I had to combine multiple sources to clearly understand what is going on with that topic. As a result, here I aim to gather all the information I found useful and try to explain everything as non-academic as possible. &lt;/p&gt;
 
 &lt;h2 id=&quot;specialformatting&quot;&gt;Introduction&lt;/h2&gt;
 

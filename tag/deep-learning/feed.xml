@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="http://localhost:4000/kavourei.github.io/tag/deep-learning/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/kavourei.github.io/" rel="alternate" type="text/html" />
-  <updated>2024-06-12T02:20:09+03:00</updated>
-  <id>http://localhost:4000/kavourei.github.io/tag/deep-learning/feed.xml</id>
+  <link href="http://localhost:4000/KavourEI.github.io/tag/deep-learning/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/KavourEI.github.io/" rel="alternate" type="text/html" />
+  <updated>2024-06-12T02:34:18+03:00</updated>
+  <id>http://localhost:4000/KavourEI.github.io/tag/deep-learning/feed.xml</id>
 
   
   
@@ -47,11 +47,11 @@
   
     <entry>
       <title type="html">Jingle or No Jingle. A Hilariously Serious Dive into PyTorch Image Classification for Santa Claus Detection. 🎄</title>
-      <link href="http://localhost:4000/kavourei.github.io/jingle_or_no_jingle" rel="alternate" type="text/html" title="Jingle or No Jingle. A Hilariously Serious Dive into PyTorch Image Classification for Santa Claus Detection. 🎄" />
+      <link href="http://localhost:4000/KavourEI.github.io/jingle_or_no_jingle" rel="alternate" type="text/html" title="Jingle or No Jingle. A Hilariously Serious Dive into PyTorch Image Classification for Santa Claus Detection. 🎄" />
       <published>2023-12-26T00:00:00+02:00</published>
       <updated>2023-12-26T00:00:00+02:00</updated>
-      <id>http://localhost:4000/kavourei.github.io/jingle_or_no_jingle</id>
-      <content type="html" xml:base="http://localhost:4000/kavourei.github.io/jingle_or_no_jingle">&lt;p&gt; Season's Greetings, data scientists and tech enthusiasts! In the spirit of ho-ho-hilarity and cutting-edge Christmas cheer, I present to you a Christmas-themed trip into the world of PyTorch image classification. Armed with the power of pixels and powered by the magic of MacOS, this jolly project endeavors to answer the age-old question: Is Santa Claus photo bombing your holiday snapshots? Join me on this merry adventure and get ready for a sleigh ride through code, Christmas spirit, and a dash of high-tech merriment! &lt;/p&gt;
+      <id>http://localhost:4000/KavourEI.github.io/jingle_or_no_jingle</id>
+      <content type="html" xml:base="http://localhost:4000/KavourEI.github.io/jingle_or_no_jingle">&lt;p&gt; Season's Greetings, data scientists and tech enthusiasts! In the spirit of ho-ho-hilarity and cutting-edge Christmas cheer, I present to you a Christmas-themed trip into the world of PyTorch image classification. Armed with the power of pixels and powered by the magic of MacOS, this jolly project endeavors to answer the age-old question: Is Santa Claus photo bombing your holiday snapshots? Join me on this merry adventure and get ready for a sleigh ride through code, Christmas spirit, and a dash of high-tech merriment! &lt;/p&gt;
 &lt;p&gt; Before we dive into the jingle of PyTorch and the festive magic of image classification, let's address the elephant in the room – a.k.a. the neural network. If you're already familiar with the ins and outs of neural networks, fantastic! If not, take a brief pause and explore the basics in this &lt;a href=&quot;/&quot;&gt;introductory post&lt;/a&gt;. Fear not! I won't be unwrapping the intricacies of neural network structures here. Instead, we're keeping it as simple as Santa's route to your chimney, because after all, his visit is just around the corner! &lt;/p&gt;
 
 &lt;h2 id=&quot;specialformatting&quot;&gt;Introduction and Data Preparation&lt;/h2&gt;
@@ -314,11 +314,11 @@ Train time on cpu: 280.503 seconds
   
     <entry>
       <title type="html">Neural Network ~ Predicting a Numerical Value</title>
-      <link href="http://localhost:4000/kavourei.github.io/neural_network" rel="alternate" type="text/html" title="Neural Network ~ Predicting a Numerical Value" />
+      <link href="http://localhost:4000/KavourEI.github.io/neural_network" rel="alternate" type="text/html" title="Neural Network ~ Predicting a Numerical Value" />
       <published>2023-03-04T00:00:00+02:00</published>
       <updated>2023-03-04T00:00:00+02:00</updated>
-      <id>http://localhost:4000/kavourei.github.io/neural_network</id>
-      <content type="html" xml:base="http://localhost:4000/kavourei.github.io/neural_network">&lt;p&gt;Welcome back! As part of this introductory series on Neural Networks, we will be exploring the process of building NNs and making decisions about their topology. This includes determining the number of layers, the number of neurons per layer, selecting appropriate activation functions, and implementing backpropagation. Throughout this process, we will delve into various factors to consider when building an effective neural network. Though everything is statistics (😉) I will try to keep statistical formulas to the minimum possible level.&lt;/p&gt;
+      <id>http://localhost:4000/KavourEI.github.io/neural_network</id>
+      <content type="html" xml:base="http://localhost:4000/KavourEI.github.io/neural_network">&lt;p&gt;Welcome back! As part of this introductory series on Neural Networks, we will be exploring the process of building NNs and making decisions about their topology. This includes determining the number of layers, the number of neurons per layer, selecting appropriate activation functions, and implementing backpropagation. Throughout this process, we will delve into various factors to consider when building an effective neural network. Though everything is statistics (😉) I will try to keep statistical formulas to the minimum possible level.&lt;/p&gt;
 
 &lt;p&gt;Without further ado let's jump right into fun (hopefully!).  In this post we will be building two differenct neural network models to predict numerical values :&lt;/p&gt;
 
@@ -582,11 +582,11 @@ data.frame(Model_1 = c(cor21,mae21,mse21,rmse21,R2_21),
   
     <entry>
       <title type="html">A smooth introduction to Neural Networks</title>
-      <link href="http://localhost:4000/kavourei.github.io/neural_network_intro" rel="alternate" type="text/html" title="A smooth introduction to Neural Networks" />
+      <link href="http://localhost:4000/KavourEI.github.io/neural_network_intro" rel="alternate" type="text/html" title="A smooth introduction to Neural Networks" />
       <published>2023-02-09T00:00:00+02:00</published>
       <updated>2023-02-09T00:00:00+02:00</updated>
-      <id>http://localhost:4000/kavourei.github.io/neural_network_intro</id>
-      <content type="html" xml:base="http://localhost:4000/kavourei.github.io/neural_network_intro">&lt;h2 id=&quot;specialformatting&quot;&gt;Introduction&lt;/h2&gt;
+      <id>http://localhost:4000/KavourEI.github.io/neural_network_intro</id>
+      <content type="html" xml:base="http://localhost:4000/KavourEI.github.io/neural_network_intro">&lt;h2 id=&quot;specialformatting&quot;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;Nowadays, deep learning is entering in our lives deeper and deeper (you see what I did there?!? 🤯🤯🤯) Anyways, as I was saying the evolution of deep learning and the usage of Neural Network has taken an exponential rate. As not everyone is a computer science expert/enthusiast it is obvious that a question may rise.&lt;/p&gt;
 
