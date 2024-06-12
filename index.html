@@ -15,9 +15,9 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
-    <link rel="stylesheet" type="text/css" href="/KavourEI.github.io/assets/built/screen.css" />
-    <link rel="stylesheet" type="text/css" href="/KavourEI.github.io/assets/built/screen.edited.css" />
-    <link rel="stylesheet" type="text/css" href="/KavourEI.github.io/assets/built/syntax.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/built/syntax.css" />
     <!-- highlight.js -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     <style>.hljs { background: none; }</style>
@@ -35,8 +35,8 @@
     
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="Data science news and applications" />
-    <link rel="shortcut icon" href="http://localhost:4000/KavourEI.github.io/assets/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="http://localhost:4000/KavourEI.github.io/" />
+    <link rel="shortcut icon" href="http://localhost:4000{{ site.baseurl }}/assets/images/favicon.png" type="image/png" />
+    <link rel="canonical" href="http://localhost:4000{{ site.baseurl }}/" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
@@ -44,14 +44,14 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Kavour" />
     <meta property="og:description" content="Data science news and applications" />
-    <meta property="og:url" content="http://localhost:4000/KavourEI.github.io/" />
-    <meta property="og:image" content="http://localhost:4000/KavourEI.github.io/assets/images/blog-cover.jpg" />
+    <meta property="og:url" content="http://localhost:4000{{ site.baseurl }}/" />
+    <meta property="og:image" content="http://localhost:4000{{ site.baseurl }}/assets/images/blog-cover.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Kavour" />
     <meta name="twitter:description" content="Data science news and applications" />
-    <meta name="twitter:url" content="http://localhost:4000/KavourEI.github.io/" />
-    <meta name="twitter:image" content="http://localhost:4000/KavourEI.github.io/assets/images/blog-cover.jpg" />
+    <meta name="twitter:url" content="http://localhost:4000{{ site.baseurl }}/" />
+    <meta name="twitter:image" content="http://localhost:4000{{ site.baseurl }}/assets/images/blog-cover.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Kavour" />
     <meta name="twitter:site" content="@" />
@@ -66,18 +66,18 @@
     "publisher": {
         "@type": "Organization",
         "name": "Kavour",
-        "logo": "http://localhost:4000/KavourEI.github.io/assets/images/blog-icon.png"
+        "logo": "http://localhost:4000{{ site.baseurl }}/assets/images/blog-icon.png"
     },
-    "url": "http://localhost:4000/KavourEI.github.io/",
+    "url": "http://localhost:4000{{ site.baseurl }}/",
     "image": {
         "@type": "ImageObject",
-        "url": "http://localhost:4000/KavourEI.github.io/assets/images/blog-cover.jpg",
+        "url": "http://localhost:4000{{ site.baseurl }}/assets/images/blog-cover.jpg",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://localhost:4000/KavourEI.github.io/"
+        "@id": "http://localhost:4000{{ site.baseurl }}/"
     },
     "description": "Data science news and applications"
 }
@@ -92,7 +92,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Kavour" href="/KavourEI.github.io/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Kavour" href="{{ site.baseurl }}/feed.xml" />
 
 
 </head>
@@ -105,12 +105,12 @@
 into the {body} of the default.hbs template -->
 
 <!-- The big featured header, it uses blog cover image as a BG if available -->
-<header class="site-header outer " style="background-image:  url(/KavourEI.github.io/assets/images/blog-cover.jpg) ">
+<header class="site-header outer " style="background-image:  url({{ site.baseurl }}/assets/images/blog-cover.jpg) ">
     <div class="inner">
         <div class="site-header-content">
             <h1 class="site-title">
                 
-                    <img class="site-logo" src="/KavourEI.github.io/assets/images/blog-icon.png" alt="Kavour"/>
+                    <img class="site-logo" src="{{ site.baseurl }}/assets/images/blog-icon.png" alt="Kavour"/>
                 
             </h1>
             <h2 class="site-description">Data science news and applications</h2>
@@ -120,10 +120,10 @@ into the {body} of the default.hbs template -->
         
         
             <ul class="nav" role="menu">
-    <li class="nav-home" role="menuitem"><a href="/KavourEI.github.io/">Home</a></li>
-    <li class="nav-about" role="menuitem"><a href="/KavourEI.github.io/about/">About</a></li>
-    <li class="nav-project" role="menuitem"><a href="/KavourEI.github.io/tag/project/">Post</a></li>
-    <li class="nav-news" role="menuitem"><a href="/KavourEI.github.io/tag/news/">News</a></li>
+    <li class="nav-home" role="menuitem"><a href="{{ site.baseurl }}/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="{{ site.baseurl }}/about/">About</a></li>
+    <li class="nav-project" role="menuitem"><a href="{{ site.baseurl }}/tag/project/">Post</a></li>
+    <li class="nav-news" role="menuitem"><a href="{{ site.baseurl }}/tag/news/">News</a></li>
     <!--
     <li class="nav-try-ghost" role="menuitem"><a href="https://ghost.org">Try Ghost</a></li>
     -->
@@ -168,12 +168,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/jingle_or_no_jingle">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/jingle_no_jingle/Post_header.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/jingle_or_no_jingle">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/jingle_no_jingle/Post_header.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/jingle_or_no_jingle">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/jingle_or_no_jingle">
                 <header class="post-card-header">
                     
                         
@@ -233,12 +233,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/News_1">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/jingle_no_jingle/Post_header.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/News_1">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/jingle_no_jingle/Post_header.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/News_1">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/News_1">
                 <header class="post-card-header">
                     
                         
@@ -287,12 +287,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/LDA_R">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/LDA_BBC/topics_bbc_0.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/LDA_R">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/LDA_BBC/topics_bbc_0.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/LDA_R">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/LDA_R">
                 <header class="post-card-header">
                     
                         
@@ -348,12 +348,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/lda_fundamentals">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/lda_fund/lda_basic_0.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/lda_fundamentals">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/lda_fund/lda_basic_0.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/lda_fundamentals">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/lda_fundamentals">
                 <header class="post-card-header">
                     
                         
@@ -409,12 +409,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/neural_network">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/nn_application/0_nn_application.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/neural_network">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/nn_application/0_nn_application.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/neural_network">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/neural_network">
                 <header class="post-card-header">
                     
                         
@@ -462,12 +462,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/neural_network_intro">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/intro_to_nn/0_NN_post.png)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/neural_network_intro">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/intro_to_nn/0_NN_post.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/neural_network_intro">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/neural_network_intro">
                 <header class="post-card-header">
                     
                         
@@ -517,12 +517,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/welcome">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/welcome.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/welcome">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/welcome.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/welcome">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/welcome">
                 <header class="post-card-header">
                     
                         
@@ -546,10 +546,10 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/KavourEI.github.io/assets/images/ghost.png" alt="Ghost" />
+                        <img class="author-profile-image" src="{{ site.baseurl }}/assets/images/ghost.png" alt="Ghost" />
                         
                         <span class="post-card-author">
-                            <a href="/KavourEI.github.io/author/ghost/">Ghost</a>
+                            <a href="{{ site.baseurl }}/author/ghost/">Ghost</a>
                         </span>
                     
                 
@@ -579,12 +579,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/the-editor">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/writing.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/the-editor">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/writing.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/the-editor">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/the-editor">
                 <header class="post-card-header">
                     
                         
@@ -606,10 +606,10 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/KavourEI.github.io/assets/images/ghost.png" alt="Ghost" />
+                        <img class="author-profile-image" src="{{ site.baseurl }}/assets/images/ghost.png" alt="Ghost" />
                         
                         <span class="post-card-author">
-                            <a href="/KavourEI.github.io/author/ghost/">Ghost</a>
+                            <a href="{{ site.baseurl }}/author/ghost/">Ghost</a>
                         </span>
                     
                 
@@ -639,12 +639,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/using-tags">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/tags.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/using-tags">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/tags.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/using-tags">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/using-tags">
                 <header class="post-card-header">
                     
                         
@@ -666,10 +666,10 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/KavourEI.github.io/assets/images/ghost.png" alt="Ghost" />
+                        <img class="author-profile-image" src="{{ site.baseurl }}/assets/images/ghost.png" alt="Ghost" />
                         
                         <span class="post-card-author">
-                            <a href="/KavourEI.github.io/author/ghost/">Ghost</a>
+                            <a href="{{ site.baseurl }}/author/ghost/">Ghost</a>
                         </span>
                     
                 
@@ -699,12 +699,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/managing-users">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/team.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/managing-users">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/team.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/managing-users">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/managing-users">
                 <header class="post-card-header">
                     
                         
@@ -726,10 +726,10 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/KavourEI.github.io/assets/images/ghost.png" alt="Ghost" />
+                        <img class="author-profile-image" src="{{ site.baseurl }}/assets/images/ghost.png" alt="Ghost" />
                         
                         <span class="post-card-author">
-                            <a href="/KavourEI.github.io/author/ghost/">Ghost</a>
+                            <a href="{{ site.baseurl }}/author/ghost/">Ghost</a>
                         </span>
                     
                 
@@ -759,12 +759,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/private-sites">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/locked.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/private-sites">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/locked.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/private-sites">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/private-sites">
                 <header class="post-card-header">
                     
                         
@@ -786,10 +786,10 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/KavourEI.github.io/assets/images/ghost.png" alt="Ghost" />
+                        <img class="author-profile-image" src="{{ site.baseurl }}/assets/images/ghost.png" alt="Ghost" />
                         
                         <span class="post-card-author">
-                            <a href="/KavourEI.github.io/author/ghost/">Ghost</a>
+                            <a href="{{ site.baseurl }}/author/ghost/">Ghost</a>
                         </span>
                     
                 
@@ -819,12 +819,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/advanced-markdown">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/advanced.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/advanced-markdown">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/advanced.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/advanced-markdown">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/advanced-markdown">
                 <header class="post-card-header">
                     
                         
@@ -846,10 +846,10 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/KavourEI.github.io/assets/images/ghost.png" alt="Ghost" />
+                        <img class="author-profile-image" src="{{ site.baseurl }}/assets/images/ghost.png" alt="Ghost" />
                         
                         <span class="post-card-author">
-                            <a href="/KavourEI.github.io/author/ghost/">Ghost</a>
+                            <a href="{{ site.baseurl }}/author/ghost/">Ghost</a>
                         </span>
                     
                 
@@ -879,12 +879,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/themes">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/design.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/themes">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/design.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/themes">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/themes">
                 <header class="post-card-header">
                     
                         
@@ -906,10 +906,10 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/KavourEI.github.io/assets/images/ghost.png" alt="Ghost" />
+                        <img class="author-profile-image" src="{{ site.baseurl }}/assets/images/ghost.png" alt="Ghost" />
                         
                         <span class="post-card-author">
-                            <a href="/KavourEI.github.io/author/ghost/">Ghost</a>
+                            <a href="{{ site.baseurl }}/author/ghost/">Ghost</a>
                         </span>
                     
                 
@@ -939,12 +939,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/the-businessman-and-fisherman">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/water.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/the-businessman-and-fisherman">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/water.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/the-businessman-and-fisherman">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/the-businessman-and-fisherman">
                 <header class="post-card-header">
                     
                         
@@ -970,10 +970,10 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/KavourEI.github.io/assets/images/hannah.jpg" alt="Hannah Wolfe" />
+                        <img class="author-profile-image" src="{{ site.baseurl }}/assets/images/hannah.jpg" alt="Hannah Wolfe" />
                         
                         <span class="post-card-author">
-                            <a href="/KavourEI.github.io/author/hannah/">Hannah Wolfe</a>
+                            <a href="{{ site.baseurl }}/author/hannah/">Hannah Wolfe</a>
                         </span>
                     
                 
@@ -999,12 +999,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/a-full-and-comprehensive-style-test">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/bear.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/a-full-and-comprehensive-style-test">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/bear.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/a-full-and-comprehensive-style-test">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/a-full-and-comprehensive-style-test">
                 <header class="post-card-header">
                     
 
@@ -1028,10 +1028,10 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/KavourEI.github.io/assets/images/john.jpg" alt="John O'Nolan" />
+                        <img class="author-profile-image" src="{{ site.baseurl }}/assets/images/john.jpg" alt="John O'Nolan" />
                         
                         <span class="post-card-author">
-                            <a href="/KavourEI.github.io/author/john/">John O'Nolan</a>
+                            <a href="{{ site.baseurl }}/author/john/">John O'Nolan</a>
                         </span>
                     
                 
@@ -1055,12 +1055,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/i-have-a-dream">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/sky.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/i-have-a-dream">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/sky.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/i-have-a-dream">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/i-have-a-dream">
                 <header class="post-card-header">
                     
                         
@@ -1098,10 +1098,10 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/KavourEI.github.io/assets/images/martin.jpg" alt="Martin Luther King" />
+                        <img class="author-profile-image" src="{{ site.baseurl }}/assets/images/martin.jpg" alt="Martin Luther King" />
                         
                         <span class="post-card-author">
-                            <a href="/KavourEI.github.io/author/martin/">Martin Luther King</a>
+                            <a href="{{ site.baseurl }}/author/martin/">Martin Luther King</a>
                         </span>
                     
                 
@@ -1117,12 +1117,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/the-purpose-of-education">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/grapes.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/the-purpose-of-education">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/grapes.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/the-purpose-of-education">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/the-purpose-of-education">
                 <header class="post-card-header">
                     
                         
@@ -1158,10 +1158,10 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/KavourEI.github.io/assets/images/martin.jpg" alt="Martin Luther King" />
+                        <img class="author-profile-image" src="{{ site.baseurl }}/assets/images/martin.jpg" alt="Martin Luther King" />
                         
                         <span class="post-card-author">
-                            <a href="/KavourEI.github.io/author/martin/">Martin Luther King</a>
+                            <a href="{{ site.baseurl }}/author/martin/">Martin Luther King</a>
                         </span>
                     
                 
@@ -1177,12 +1177,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/out-to-sea">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/waves.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/out-to-sea">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/waves.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/out-to-sea">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/out-to-sea">
                 <header class="post-card-header">
                     
                         
@@ -1216,10 +1216,10 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/KavourEI.github.io/assets/images/edgar.gif" alt="Edgar Rice Burroughs" />
+                        <img class="author-profile-image" src="{{ site.baseurl }}/assets/images/edgar.gif" alt="Edgar Rice Burroughs" />
                         
                         <span class="post-card-author">
-                            <a href="/KavourEI.github.io/author/edgar/">Edgar Rice Burroughs</a>
+                            <a href="{{ site.baseurl }}/author/edgar/">Edgar Rice Burroughs</a>
                         </span>
                     
                 
@@ -1237,12 +1237,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/looking-glass-house">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/summit.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/looking-glass-house">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/summit.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/looking-glass-house">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/looking-glass-house">
                 <header class="post-card-header">
                     
                         
@@ -1272,10 +1272,10 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/KavourEI.github.io/assets/images/lewis.jpeg" alt="Lewis Carroll" />
+                        <img class="author-profile-image" src="{{ site.baseurl }}/assets/images/lewis.jpeg" alt="Lewis Carroll" />
                         
                         <span class="post-card-author">
-                            <a href="/KavourEI.github.io/author/lewis/">Lewis Carroll</a>
+                            <a href="{{ site.baseurl }}/author/lewis/">Lewis Carroll</a>
                         </span>
                     
                 
@@ -1297,12 +1297,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/down-the-rabbit-hole">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/piano.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/down-the-rabbit-hole">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/piano.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/down-the-rabbit-hole">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/down-the-rabbit-hole">
                 <header class="post-card-header">
                     
                         
@@ -1332,10 +1332,10 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/KavourEI.github.io/assets/images/lewis.jpeg" alt="Lewis Carroll" />
+                        <img class="author-profile-image" src="{{ site.baseurl }}/assets/images/lewis.jpeg" alt="Lewis Carroll" />
                         
                         <span class="post-card-author">
-                            <a href="/KavourEI.github.io/author/lewis/">Lewis Carroll</a>
+                            <a href="{{ site.baseurl }}/author/lewis/">Lewis Carroll</a>
                         </span>
                     
                 
@@ -1357,12 +1357,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/KavourEI.github.io/gettysburg-address">
-                <div class="post-card-image" style="background-image: url(/KavourEI.github.io/assets/images/bus.jpg)"></div>
+            <a class="post-card-image-link" href="{{ site.baseurl }}/gettysburg-address">
+                <div class="post-card-image" style="background-image: url({{ site.baseurl }}/assets/images/bus.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/KavourEI.github.io/gettysburg-address">
+            <a class="post-card-content-link" href="{{ site.baseurl }}/gettysburg-address">
                 <header class="post-card-header">
                     
 
@@ -1390,10 +1390,10 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/KavourEI.github.io/assets/images/abraham.jpg" alt="Abraham Lincoln" />
+                        <img class="author-profile-image" src="{{ site.baseurl }}/assets/images/abraham.jpg" alt="Abraham Lincoln" />
                         
                         <span class="post-card-author">
-                            <a href="/KavourEI.github.io/author/abraham/">Abraham Lincoln</a>
+                            <a href="{{ site.baseurl }}/author/abraham/">Abraham Lincoln</a>
                         </span>
                     
                 
@@ -1424,12 +1424,12 @@ into the {body} of the default.hbs template -->
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="http://localhost:4000/KavourEI.github.io/">Kavour</a> &copy; 2024</section>
+                <section class="copyright"><a href="http://localhost:4000{{ site.baseurl }}/">Kavour</a> &copy; 2024</section>
                 <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
                     <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
                     <a href="https://github.com/jekyllt/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
                 <nav class="site-footer-nav">
-                    <a href="/KavourEI.github.io/">Latest Posts</a>
+                    <a href="{{ site.baseurl }}/">Latest Posts</a>
                     
                     
                     <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
@@ -1445,7 +1445,7 @@ into the {body} of the default.hbs template -->
             <a class="subscribe-overlay-close" href="#"></a>
             <div class="subscribe-overlay-content">
                 
-                    <img class="subscribe-overlay-logo" src="/KavourEI.github.io/assets/images/blog-icon.png" alt="Kavour" />
+                    <img class="subscribe-overlay-logo" src="{{ site.baseurl }}/assets/images/blog-icon.png" alt="Kavour" />
                 
                 <h1 class="subscribe-overlay-title">Subscribe to Kavour</h1>
                 <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
@@ -1477,7 +1477,7 @@ into the {body} of the default.hbs template -->
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="/KavourEI.github.io/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery.fitvids.js"></script>
     <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
 
 
@@ -1486,7 +1486,7 @@ into the {body} of the default.hbs template -->
     <!-- <script>
         var maxPages = parseInt('1');
     </script>
-    <script src="/KavourEI.github.io/assets/js/infinitescroll.js"></script> -->
+    <script src="{{ site.baseurl }}/assets/js/infinitescroll.js"></script> -->
     <!-- /endif -->
 
     
