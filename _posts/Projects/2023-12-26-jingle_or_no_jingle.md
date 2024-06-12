@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  KavourEI.github.io/assets/images/jingle_no_jingle/Post_header.jpg
+cover:  assets/images/jingle_no_jingle/Post_header.jpg
 navigation: True
 title: Jingle or No Jingle. A Hilariously Serious Dive into PyTorch Image Classification for Santa Claus Detection. 🎄
 date: 2023-12-26
