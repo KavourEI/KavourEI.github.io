@@ -4,7 +4,7 @@ current: post
 cover:  assets/images/jingle_no_jingle/Post_header.jpg
 navigation: True
 title: Jingle or No Jingle. A Hilariously Serious Dive into PyTorch Image Classification for Santa Claus Detection. 🎄
-date: 2023-12-26
+date: 2023-12-30
 tags: [project,Deep Learning,Image Classificaiton,Neural Networks]
 class: post-template
 subclass: 'post'
