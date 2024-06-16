@@ -14,3 +14,11 @@ getting-started:
   name: getting-started
   description: False
   cover: False
+project:
+  name: project
+  description: False
+  cover: False
+news:
+  name: news
+  description: False
+  cover: False
