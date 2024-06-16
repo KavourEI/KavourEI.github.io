@@ -5,7 +5,7 @@ cover:  assets/images/lda_fund/lda_basic_0.jpg
 navigation: True
 title: Topic Modelling - Latent Dirichlet Allocation
 date: 2023-10-5
-tags: [Machine Learning, NLP, Bayesian Statistics]
+tags: [project,Machine Learning, NLP, Bayesian Statistics]
 class: post-template
 subclass: 'post'
 author: Kavour

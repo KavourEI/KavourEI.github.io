@@ -5,7 +5,7 @@ cover: assets/images/nn_application/0_nn_application.jpg
 navigation: True
 title: Neural Network ~ Predicting a Numerical Value
 date: 2023-03-04
-tags: [Deep Learning]
+tags: [project, Deep Learning]
 class: post-template
 subclass: 'post'
 author: Kavour
