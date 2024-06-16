@@ -5,7 +5,7 @@ cover:  assets/images/intro_to_nn/0_NN_post.png
 navigation: True
 title: A smooth introduction to Neural Networks
 date: 2023-02-09
-tags: [Deep Learning]
+tags: [Projects,Deep Learning]
 class: post-template
 subclass: 'post'
 author: Kavour
