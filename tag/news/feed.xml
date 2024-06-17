@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2024-06-17T11:17:46+03:00</updated>
+  <id>http://localhost:4000/tag/news/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Kavour | </title>
+  
+
+  
+    <subtitle>Data science news and applications</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">News_1 About KAN.</title>
+      <link href="http://localhost:4000/News_1" rel="alternate" type="text/html" title="News_1 About KAN." />
+      <published>2023-12-26T00:00:00+02:00</published>
+      <updated>2023-12-26T00:00:00+02:00</updated>
+      <id>http://localhost:4000/News_1</id>
+      <content type="html" xml:base="http://localhost:4000/News_1">&lt;p&gt;This is a testing file to test how to show news&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">This is a testing file to test how to show news</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
