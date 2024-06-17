@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2024-06-17T23:27:49+03:00</updated>
+  <id>http://localhost:4000/tag/research/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Kavour | </title>
+  
+
+  
+    <subtitle>Data science news and applications</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Chameleon - Mixed-Modal Early-Fusion Foundation Models</title>
+      <link href="http://localhost:4000/Chameleon" rel="alternate" type="text/html" title="Chameleon - Mixed-Modal Early-Fusion Foundation Models" />
+      <published>2024-05-16T00:00:00+03:00</published>
+      <updated>2024-05-16T00:00:00+03:00</updated>
+      <id>http://localhost:4000/Chameleon</id>
+      <content type="html" xml:base="http://localhost:4000/Chameleon">&lt;p&gt; &lt;a href=&quot;https://arxiv.org/abs/2405.09818&quot;&gt;Chameleon&lt;/a&gt; integrates images and text, achieving state-of-the-art performance. &lt;/p&gt;
+
+&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt;We present Chameleon, a family of early-fusion token-based mixed-modal models capable of understanding and generating images and text in any arbitrary sequence. We outline a stable training approach from inception, an alignment recipe, and an architectural parameterization tailored for the early-fusion, token-based, mixed-modal setting. The models are evaluated on a comprehensive range of tasks, including visual question answering, image captioning, text generation, image generation, and long-form mixed modal generation. Chameleon demonstrates broad and general capabilities, including state-of-the-art performance in image captioning tasks, outperforms Llama-2 in text-only tasks while being competitive with models such as Mixtral 8x7B and Gemini-Pro, and performs non-trivial image generation, all in a single model. It also matches or exceeds the performance of much larger models, including Gemini Pro and GPT-4V, according to human judgments on a new long-form mixed-modal generation evaluation, where either the prompt or outputs contain mixed sequences of both images and text. Chameleon marks a significant step forward in a unified modeling of full multimodal documents.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Chameleon integrates images and text, achieving state-of-the-art performance.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">CAT3D - Create Anything in 3D with Multi-View Diffusion Models</title>
+      <link href="http://localhost:4000/CAT3D" rel="alternate" type="text/html" title="CAT3D - Create Anything in 3D with Multi-View Diffusion Models" />
+      <published>2024-05-16T00:00:00+03:00</published>
+      <updated>2024-05-16T00:00:00+03:00</updated>
+      <id>http://localhost:4000/CAT3D</id>
+      <content type="html" xml:base="http://localhost:4000/CAT3D">&lt;p&gt; &lt;a href=&quot;https://arxiv.org/abs/2405.10314&quot;&gt;CAT3D&lt;/a&gt; generates high-quality 3D content quickly with multi-view diffusion models. &lt;/p&gt;
+
+&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt;Advances in 3D reconstruction have enabled high-quality 3D capture, but require a user to collect hundreds to thousands of images to create a 3D scene. We present CAT3D, a method for creating anything in 3D by simulating this real-world capture process with a multi-view diffusion model. Given any number of input images and a set of target novel viewpoints, our model generates highly consistent novel views of a scene. These generated views can be used as input to robust 3D reconstruction techniques to produce 3D representations that can be rendered from any viewpoint in real-time. CAT3D can create entire 3D scenes in as little as one minute, and outperforms existing methods for single image and few-view 3D scene creation. See our project page for results and interactive demos at &lt;a href=&quot;https://cat3d.github.io&quot;&gt;this https URL&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">CAT3D generates high-quality 3D content quickly with multi-view diffusion models.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">LoRA Learns Less and Forgets Less</title>
+      <link href="http://localhost:4000/LoRA" rel="alternate" type="text/html" title="LoRA Learns Less and Forgets Less" />
+      <published>2024-05-15T00:00:00+03:00</published>
+      <updated>2024-05-15T00:00:00+03:00</updated>
+      <id>http://localhost:4000/LoRA</id>
+      <content type="html" xml:base="http://localhost:4000/LoRA">&lt;p&gt; &lt;a href=&quot;https://arxiv.org/abs/2405.09673&quot;&gt;LoRA&lt;/a&gt; compared to full finetuning, shows strong regularization effects.. &lt;/p&gt;
+
+&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt;Low-Rank Adaptation (LoRA) is a widely-used parameter-efficient finetuning method for large language models. LoRA saves memory by training only low rank perturbations to selected weight matrices. In this work, we compare the performance of LoRA and full finetuning on two target domains, programming and mathematics. We consider both the instruction finetuning (≈100K prompt-response pairs) and continued pretraining (≈10B unstructured tokens) data regimes. Our results show that, in most settings, LoRA substantially underperforms full finetuning. Nevertheless, LoRA exhibits a desirable form of regularization: it better maintains the base model's performance on tasks outside the target domain. We show that LoRA provides stronger regularization compared to common techniques such as weight decay and dropout; it also helps maintain more diverse generations. We show that full finetuning learns perturbations with a rank that is 10-100X greater than typical LoRA configurations, possibly explaining some of the reported gaps. We conclude by proposing best practices for finetuning with LoRA.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">LoRA compared to full finetuning, shows strong regularization effects..</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Deep Learning Interviews - Hundreds of fully solved job interview questions from a wide range of key topics in AI</title>
+      <link href="http://localhost:4000/DLInterview" rel="alternate" type="text/html" title="Deep Learning Interviews - Hundreds of fully solved job interview questions from a wide range of key topics in AI" />
+      <published>2022-01-04T00:00:00+02:00</published>
+      <updated>2022-01-04T00:00:00+02:00</updated>
+      <id>http://localhost:4000/DLInterview</id>
+      <content type="html" xml:base="http://localhost:4000/DLInterview">&lt;p&gt; Deep Learning Interview: the best preparation book for AI/ML job seekers and students. Free on &lt;a href=&quot;https://arxiv.org/abs/2201.00650&quot;&gt;ArXiv&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt;The second edition of Deep Learning Interviews is home to hundreds of fully-solved problems, from a wide range of key topics in AI. It is designed to both rehearse interview or exam specific topics and provide machine learning MSc / PhD. students, and those awaiting an interview a well-organized overview of the field. The problems it poses are tough enough to cut your teeth on and to dramatically improve your skills-but they're framed within thought-provoking questions and engaging stories. That is what makes the volume so specifically valuable to students and job seekers: it provides them with the ability to speak confidently and quickly on any relevant topic, to answer technical questions clearly and correctly, and to fully understand the purpose and meaning of interview questions and answers. Those are powerful, indispensable advantages to have when walking into the interview room. The book's contents is a large inventory of numerous topics relevant to DL job interviews and graduate level exams. That places this work at the forefront of the growing trend in science to teach a core set of practical mathematical and computational skills. It is widely accepted that the training of every computer scientist must include the fundamental theorems of ML, and AI appears in the curriculum of nearly every university. This volume is designed as an excellent reference for graduates of such programs.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Deep Learning Interview: the best preparation book for AI/ML job seekers and students. Free on ArXiv.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

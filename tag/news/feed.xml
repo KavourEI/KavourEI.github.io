@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-06-17T13:16:19+03:00</updated>
+  <updated>2024-06-17T23:27:49+03:00</updated>
   <id>http://localhost:4000/tag/news/feed.xml</id>
 
   
@@ -46,12 +46,20 @@
 
   
     <entry>
-      <title type="html">News_1 About KAN.</title>
-      <link href="http://localhost:4000/News_1" rel="alternate" type="text/html" title="News_1 About KAN." />
-      <published>2023-12-26T00:00:00+02:00</published>
-      <updated>2023-12-26T00:00:00+02:00</updated>
-      <id>http://localhost:4000/News_1</id>
-      <content type="html" xml:base="http://localhost:4000/News_1">&lt;p&gt;This is a testing file to test how to show news&lt;/p&gt;</content>
+      <title type="html">Paragon changes RAG model for your customers</title>
+      <link href="http://localhost:4000/paragon" rel="alternate" type="text/html" title="Paragon changes RAG model for your customers" />
+      <published>2024-05-22T00:00:00+03:00</published>
+      <updated>2024-05-22T00:00:00+03:00</updated>
+      <id>http://localhost:4000/paragon</id>
+      <content type="html" xml:base="http://localhost:4000/paragon">&lt;p&gt; &lt;i&gt;Integrate your multi-tenant AI SaaS with 100+ 3rd party apps with 70% less engineering.&lt;/i&gt;
+
+&lt;p&gt; Today, third-party integrations are one of the most important parts of building a SaaS application. The average enterprise uses over 1,000 different cloud apps, and customers expect to buy software that integrates seamlessly with their other tools. However, achieving a robust set of high-quality product integrations typically requires anywhere from months to years of engineering work to build and maintain across multiple providers.&lt;/p&gt;
+
+&lt;p&gt; Paragon is an embedded solution for integrating your product with third-party SaaS apps, providing your customers with a seamless, unified integration experience. This allows teams to avoid the cost, time, and risk that come with building and maintaining their own integrations solution. A single installation of Paragon takes just a couple of hours and enables your application to support integrations with the most popular SaaS apps.&lt;/p&gt;
+
+&lt;p&gt; You implement Paragon by adding the Connect SDK to your application, which allows you to display the Connect Portal - a component that your users interact with in order to connect their third-party app accounts. Paragon provides fully managed authentication for each third-party app provider we support, and allows you to access your users' app accounts using Workflows or via the Paragon API.&lt;/p&gt;
+
+&lt;p&gt; If you are interested in finding more about paragon, you can click &lt;a href=&quot;https://www.useparagon.com/paragon-for-ai?utm_source=alphasignal&amp;utm_medium=newsletter&amp;utm_content=ai_pitch&quot;&gt;here&lt;/a&gt; and explore it on you own pace! &lt;/p&gt;</content>
 
       
       
@@ -72,7 +80,175 @@
       
 
       
-        <summary type="html">This is a testing file to test how to show news</summary>
+        <summary type="html">Integrate your multi-tenant AI SaaS with 100+ 3rd party apps with 70% less engineering.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Grok comes to Europe</title>
+      <link href="http://localhost:4000/GrokToEurope" rel="alternate" type="text/html" title="Grok comes to Europe" />
+      <published>2024-05-16T00:00:00+03:00</published>
+      <updated>2024-05-16T00:00:00+03:00</updated>
+      <id>http://localhost:4000/GrokToEurope</id>
+      <content type="html" xml:base="http://localhost:4000/GrokToEurope">&lt;p&gt; It has been announced that Grok AI model has expanded to Europe. &lt;/p&gt; 
+
+&lt;p&gt; For me Grok was not a well known AI chatbot. Was it because I live in Europe, was it because I didn't catch the announcements?!? I don't know. I will assume the same for you. As a result, let us first asnwer to the question what is Grok.&lt;/p&gt;
+
+&lt;p&gt; As it is stated &lt;a href=&quot;https://x.ai/blog/grok&quot;&gt;here&lt;/a&gt; &lt;i&gt;&quot;Grok is an AI modeled after the Hitchhiker’s Guide to the Galaxy. It is intended to answer almost anything and, far harder, even suggest what questions to ask!&lt;/i&gt;&quot;. So Grok is an AI chatbot developed by Elon Musk's company xAI. By searching around, you can find out that Grok can access real-time information through social media platform X, which is kinda expected if you think who the owner is, and is said to answer &quot;spicy&quot; questions typically regected by most other AI systems. It can be accessed through a premium + X subscription. &lt;/p&gt;
+
+&lt;p&gt; xAI says that Grok is able to respond to questions that most other chatbots would refuse, no matter the size of the risk. We can take a look at the shared &lt;a href=&quot;https://twitter.com/elonmusk/status/1720643054065873124?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1720643054065873124%7Ctwgr%5E7dcd667d00c687e5ff639f666b649cd9da8e7619%7Ctwcon%5Es1_&amp;ref_url=https%3A%2F%2Fd-1606052890471219633.ampproject.net%2F2401262004000%2Fframe.html&quot;&gt;screenshot&lt;/a&gt; of Grok that is willing to provide a step-by-step guide to making cocaine for so-said &lt;i&gt;&quot;developmental purposes&quot;&lt;/i&gt;. In a previous post, Elon Musk posts, &lt;i&gt;xAI's Grok system is designed to have a little humor in its responses&lt;/i&gt; and we can see in the &quot;developemental post&quot; that is stated &lt;i&gt;&quot;start cooking and hope you don't blow yourself up or get arrested.&quot;&lt;/i&gt;. There are plently of such examples and cases, if you are willing to search around. Getting deeper into topic is not in the scope of this post.&lt;/p&gt;
+
+&lt;h3&gt; How to sign and access Grok AI &lt;/h3&gt;
+
+&lt;p&gt; To access Grok AI, you need to subscribe to the X Premium+ service, which is currently the gateway to Grok AI’s rich features. This subscription is available to X Premium+ subscribers and is priced at $16 a month. Once you have subscribed, you can visit the official Grok AI portal and authenticate yourself using your X credentials. After this, you will have access to the Grok AI platform and its unique features. &lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">It has been announced that Grok AI model has expanded to Europe.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Chatgpt new features announcements</title>
+      <link href="http://localhost:4000/ChatTablesCharts" rel="alternate" type="text/html" title="Chatgpt new features announcements" />
+      <published>2024-05-16T00:00:00+03:00</published>
+      <updated>2024-05-16T00:00:00+03:00</updated>
+      <id>http://localhost:4000/ChatTablesCharts</id>
+      <content type="html" xml:base="http://localhost:4000/ChatTablesCharts">&lt;p&gt;OpenAI is taking AI capabilities to another level with its new ChatGPT feature. This new update enhances the user experience by allowing ChatGPT to interact with tables, charts, and add files directly from Google Drive and Microsoft OneDrive.&lt;/p&gt;
+
+&lt;p&gt;The table and chart interaction feature enables ChatGPT to understand and interpret data in tables and charts effectively. This means it can now provide insights, draw conclusions, and answer queries related to data presented in these formats. Whether you're dealing with complex data sets or need a quick analysis, ChatGPT is equipped to assist you.&lt;/p&gt;
+
+&lt;p&gt;Moreover, the update also adds a feature that allows for direct file addition from Google Drive and Microsoft OneDrive. This integration removes the hassle of downloading and re-uploading files. You can now easily fetch data from files stored in your cloud storage, making it more convenient and time-efficient.&lt;/p&gt;
+
+&lt;p&gt;These new features reinforce OpenAI’s commitment to make ChatGPT more useful and versatile for all users. Whether you're a student, professional, or anyone in need of data interpretation or easy file access, these updates are designed to make your tasks easier.&lt;/p&gt;
+
+&lt;p&gt;Don't hesitate to look for details &lt;a href=&quot;https://openai.com/index/improvements-to-data-analysis-in-chatgpt/&quot;&gt;here&lt;/a&gt; and how to use those new tools to get the most in your day-to-day tasks.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">OpenAI is taking AI capabilities to another level with its new ChatGPT feature. This new update enhances the user experience by allowing ChatGPT to interact with tables, charts, and add files directly from Google Drive and Microsoft OneDrive.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Google Announcements</title>
+      <link href="http://localhost:4000/VeoAstraGemini" rel="alternate" type="text/html" title="Google Announcements" />
+      <published>2024-05-14T00:00:00+03:00</published>
+      <updated>2024-05-14T00:00:00+03:00</updated>
+      <id>http://localhost:4000/VeoAstraGemini</id>
+      <content type="html" xml:base="http://localhost:4000/VeoAstraGemini">&lt;p&gt;Just a day after OpenAI wowed us with GPT-4o, Google decided it’s their turn to dazzle! Let's dive into the goodies unveiled at the Google IO conference. &lt;/p&gt;
+
+&lt;p&gt;Among the exciting announcements, we have:
+&lt;ul&gt;
+&lt;li&gt; &lt;strong&gt;&lt;a href=&quot;https://deepmind.google/technologies/veo/&quot;&gt;Veo&lt;/a&gt;&lt;/strong&gt;: Google’s star video generation model.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;&lt;a href=&quot;https://deepmind.google/technologies/gemini/project-astra/&quot;&gt;Project Astra&lt;/a&gt;&lt;/strong&gt;: The futuristic AI assistant in the making.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;&lt;a href=&quot;https://deepmind.google/technologies/gemini/&quot;&gt;Gemini 1.5 Pro Updates&lt;/a&gt;&lt;/strong&gt;: Introducing two new versions of their flagship model – one sleeker, the other with a whopping 2M token context length.&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+Now, let's break these down one by one:
+
+&lt;h2&gt; Veo &lt;/h2&gt;
+&lt;p&gt;Meet Veo, Google DeepMind's newest and shiniest video generation model. Here's what it can do:
+&lt;ul&gt;
+&lt;li&gt; Produce high-quality videos in 1080p &lt;/li&gt;
+&lt;li&gt;&gt; Extend beyond a minute of runtime &lt;/li&gt;
+&lt;li&gt; Deliver a spectrum of cinematic and visual styles &lt;/li&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Veo lets you input an image or video paired with a textual prompt. It can animate the image or edit the video as needed. Plus, it supports masked editing, so you can tweak specific areas by adding a mask and text prompt.
+On the technical side, Google enhanced video captions in Veo’s training data and uses high-quality, compressed video representations (latents) to boost performance, speed, and efficiency.&lt;/p&gt;
+
+&lt;h2&gt; Project Astra &lt;/h2&gt;
+&lt;p&gt;Enter Astra, Google’s new project aimed at crafting the AI assistant of tomorrow, hot on the heels of OpenAI's GPT-4o demo.
+Powered by Gemini, Astra supports real-time audio, text, video, and image interactions. Although it's still a prototype, Astra’s demo came through pre-recorded videos since it’s not yet widely available.
+Early testers noted a bit of lag, less emotional intelligence, and tone compared to GPT-4o, but praised its text-to-speech prowess and potentially superior long-context video support.&lt;/p&gt;
+
+&lt;h2&gt; Gemini 1.5 Pro &lt;/h2&gt;
+
+&lt;p&gt;Google rolled out two new iterations of their flagship model, Gemini 1.5 Pro:
+&lt;ul&gt;
+&lt;li&gt; &lt;strong&gt;Gemini 1.5 Pro Flash&lt;/strong&gt;: A nimble, fast, and cost-efficient version, still multimodal with a 1M token context length. It boasts an MMLU of 78.9% vs. 81.9% for the original Gemini 1.5 Pro.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Gemini 1.5 Pro&lt;/strong&gt;: This powerhouse’s context length is doubled to 2M tokens and is currently accessible via a waitlist for select API developers.&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h2&gt; Other Announcements &lt;/h2&gt;
+&lt;p&gt;Google also revealed:
+&lt;ul&gt;
+&lt;li&gt; &lt;strong&gt;Imagen 3&lt;/strong&gt;: Their most advanced image generation model, available in versions tailored for tasks ranging from quick sketches to high-res images.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Gemma 2 and PaliGemma&lt;/strong&gt; New open-source models. PaliGemma is Google’s inaugural vision-language model and is available now. Gemma 2, with 27B parameters, outperforms its predecessor and will be available in June. &lt;/li&gt;
+&lt;/ul&gt;
+The jam-packed 2-hour session also featured updates across Google’s ecosystem, including Search, Workspace, Photos, Android, and more.
+&lt;/p&gt;
+
+&lt;h2&gt; Access &lt;/h2&gt;
+&lt;p&gt;
+The Gemini API and Google AI Studio are now live in over 200 countries. Gemini 1.5 Flash is priced at $0.35 per 1M tokens, with context caching launching next month.
+While Veo, Astra, and the 2M context Gemini 1.5 Pro aren’t available yet, you can join the waitlist for access. But no worries, Gemini 1.5 Pro Flash is ready for you through the API, and PaliGemma is freely available on Kaggle.
+Time to explore these futuristic tools and see where they can take us!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Just a day after OpenAI wowed us with GPT-4o, Google decided it’s their turn to dazzle! Let's dive into the goodies unveiled at the Google IO conference.</summary>
       
 
       
