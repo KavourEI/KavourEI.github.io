@@ -29,7 +29,7 @@ github: KavourEI
 
 # Disqus
 disqus: False
-disqus_shortname: jekyllt # replace with your disqus username
+disqus_shortname: disqus_username # replace with your disqus username
 
 # Google Analytics
 google_analytics: G-JSSW2W2D3P # replace with your GA tracking identifier
