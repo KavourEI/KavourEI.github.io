@@ -72,8 +72,8 @@ lsi: False
 username: KavourEI
 repo: KavourEI.github.io
 branch: master
-relative_source: ../jasper2/
-destination: ../jasper2-pages/
+relative_source: ../kavourei/
+destination: ../kavourei-pages/
 production_url:  https://kavourei.github.io
 source_url:  https://github.com/jekyllt/jasper2/
 incremental: True
