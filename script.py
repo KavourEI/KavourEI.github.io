@@ -10,8 +10,8 @@ import glob
 
 if __name__ == '__main__':
 
-    os.chdir(os.path.join(os.environ['HOME'],
-                          "Downloads", "Casper-master"))
+    os.chdir("/Users/themiskavour/Documents/My_Site/KavourEI.github.io")
+
     for filename in glob.glob("*.hbs"):
         print(filename)
 
