@@ -22,3 +22,7 @@ news:
   name: news
   description: False
   cover: False
+research:
+  research: news
+  description: False
+  cover: False
