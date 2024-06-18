@@ -8,6 +8,82 @@
     
       
       <item>
+        <title>NVIDIA announced Nemotron 340B</title>
+        
+          <description>&lt;p&gt;Nemotron-4 340B, a family of models optimized for NVIDIA NeMo and NVIDIA TensorRT-LLM, includes cutting-edge instruct and reward models, and a dataset for generative AI training.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 14 Jun 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/NVIDIARelease</link>
+        <guid isPermaLink="true">http://localhost:4000/NVIDIARelease</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google open Project</title>
+        
+          <description>&lt;p&gt;During the Google I/O 2024 developer conference, Google revealed that Project IDX, its next-generation, AI-powered browser-based development environment, is now in open beta. Initially introduced in August as an invite-only service, Project IDX has already been tested by over 100,000 developers.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 14 Jun 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/GoogleProjectIDX</link>
+        <guid isPermaLink="true">http://localhost:4000/GoogleProjectIDX</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Apple announced partnership with ChatGPT</title>
+        
+          <description>&lt;p&gt;Apple is partnering with OpenAI to put ChatGPT into Siri, the company announced at its WWDC 2024 keynote on 10th of June 2024.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 10 Jun 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/AppleGPT</link>
+        <guid isPermaLink="true">http://localhost:4000/AppleGPT</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Anthropic's now lets you create bots to work for you and interact with external APIs and tools</title>
+        
+          <description>&lt;p&gt; &lt;a href=&quot;https://www.anthropic.com/news/tool-use-ga&quot;&gt;Tool use&lt;/a&gt;, which enables Claude to interact with external tools and APIs, is now generally available across the entire Claude 3 model family on the Anthropic Messages API, Amazon Bedrock, and Google Cloud's Vertex AI. With tool use, Claude can perform tasks, manipulate data, and provide more dynamic—and accurate—responses.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 30 May 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/AnthropicBots</link>
+        <guid isPermaLink="true">http://localhost:4000/AnthropicBots</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Microsoft unveils Copilot + PCs, new Phi-3 models + Vision</title>
+        
+          <description>&lt;p&gt;As stated &lt;a href=&quot;https://ai.azure.com/explore/models/Phi-3-vision-128k-instruct/version/2/registry/azureml?tid=c2beb3f8-6ade-48ce-8e7d-6be943f1fbf7#overview&quot;&gt;here&lt;/a&gt;:
+
+&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 23 May 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/MicrosoftAnnouncementsCopilot</link>
+        <guid isPermaLink="true">http://localhost:4000/MicrosoftAnnouncementsCopilot</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Paragon changes RAG model for your customers</title>
         
           <description>&lt;p&gt; &lt;i&gt;Integrate your multi-tenant AI SaaS with 100+ 3rd party apps with 70% less engineering.&lt;/i&gt;
@@ -185,6 +261,21 @@
         <link>
         http://localhost:4000/neural_network_intro</link>
         <guid isPermaLink="true">http://localhost:4000/neural_network_intro</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Deep Learning Interviews - Hundreds of fully solved job interview questions from a wide range of key topics in AI</title>
+        
+          <description>&lt;p&gt; Deep Learning Interview: the best preparation book for AI/ML job seekers and students. Free on &lt;a href=&quot;https://arxiv.org/abs/2201.00650&quot;&gt;ArXiv&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 04 Jan 2022 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/DLInterview</link>
+        <guid isPermaLink="true">http://localhost:4000/DLInterview</guid>
       </item>
       
     
