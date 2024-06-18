@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets\images\news_images\google_ai.jpg
+cover:  assets/images/news_images/google_ai.jpg
 navigation: True
 title: Google open Project
 date: 2024-06-14

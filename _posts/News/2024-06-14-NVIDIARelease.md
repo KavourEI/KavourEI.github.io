@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets\images\news_images\nvidia.jpg
+cover:  assets/images/news_images/nvidia.jpg
 navigation: True
 title: NVIDIA announced Nemotron 340B
 date: 2024-06-14

@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets\images\news_images\MicrosoftCopilot.jpg
+cover:  assets/images/news_images/MicrosoftCopilot.jpg
 navigation: True
 title: Microsoft unveils Copilot + PCs, new Phi-3 models + Vision
 date: 2024-05-23
