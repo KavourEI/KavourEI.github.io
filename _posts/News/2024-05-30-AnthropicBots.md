@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/news_images/paragon.gif
+cover:  assets/images/anthropic.png
 navigation: True
 title: Anthropic's now lets you create bots to work for you and interact with external APIs and tools
 date: 2024-05-30
