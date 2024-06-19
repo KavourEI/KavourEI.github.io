@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-06-19T00:42:44+03:00</updated>
+  <updated>2024-06-19T12:17:16+03:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -44,6 +44,120 @@
   
   
 
+  
+    <entry>
+      <title type="html">Accessing GPT-4 level Mathematical Olympiad Solutions via Monte Carlo Tree Self-refine with LLaMa-3 8B</title>
+      <link href="http://localhost:4000/MonteCarloTrees" rel="alternate" type="text/html" title="Accessing GPT-4 level Mathematical Olympiad Solutions via Monte Carlo Tree Self-refine with LLaMa-3 8B" />
+      <published>2024-06-13T00:00:00+03:00</published>
+      <updated>2024-06-13T00:00:00+03:00</updated>
+      <id>http://localhost:4000/MonteCarloTrees</id>
+      <content type="html" xml:base="http://localhost:4000/MonteCarloTrees">&lt;p&gt; &lt;a href=&quot;https://arxiv.org/abs/2406.07394&quot;&gt;Monte Carlo Trees&lt;/a&gt; with Llama-3 8B solve mathematics limitations of LLMs&lt;/p&gt;
+
+&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt;This paper introduces the MCT Self-Refine (MCTSr) algorithm, an innovative integration of Large Language Models (LLMs) with Monte Carlo Tree Search (MCTS), designed to enhance performance in complex mathematical reasoning tasks. Addressing the challenges of accuracy and reliability in LLMs, particularly in strategic and mathematical reasoning, MCTSr leverages systematic exploration and heuristic self-refine mechanisms to improve decision-making frameworks within LLMs. The algorithm constructs a Monte Carlo search tree through iterative processes of Selection, self-refine, self-evaluation, and Backpropagation, utilizing an improved Upper Confidence Bound (UCB) formula to optimize the exploration-exploitation balance. Extensive experiments demonstrate MCTSr's efficacy in solving Olympiad-level mathematical problems, significantly improving success rates across multiple datasets, including GSM8K, GSM Hard, MATH, and Olympiad-level benchmarks, including Math Odyssey, AIME, and OlympiadBench. The study advances the application of LLMs in complex reasoning tasks and sets a foundation for future AI integration, enhancing decision-making accuracy and reliability in LLM-driven applications.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Monte Carlo Trees with Llama-3 8B solve mathematics limitations of LLMs</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Depth Anything V2</title>
+      <link href="http://localhost:4000/DepthAnythingV2" rel="alternate" type="text/html" title="Depth Anything V2" />
+      <published>2024-06-13T00:00:00+03:00</published>
+      <updated>2024-06-13T00:00:00+03:00</updated>
+      <id>http://localhost:4000/DepthAnythingV2</id>
+      <content type="html" xml:base="http://localhost:4000/DepthAnythingV2">&lt;p&gt; &lt;a href=&quot;https://arxiv.org/abs/2406.07522&quot;&gt;Samba&lt;/a&gt; architecture achieves 3.73x faster throughput with enhanced context&lt;/p&gt;
+
+&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt;This work presents Depth Anything V2. Without pursuing fancy techniques, we aim to reveal crucial findings to pave the way towards building a powerful monocular depth estimation model. Notably, compared with V1, this version produces much finer and more robust depth predictions through three key practices: 1&amp;rpar; replacing all labeled real images with synthetic images, 2&amp;rpar; scaling up the capacity of our teacher model, and 3&amp;rpar; teaching student models via the bridge of large-scale pseudo-labeled real images. Compared with the latest models built on Stable Diffusion, our models are significantly more efficient (more than 10x faster) and more accurate. We offer models of different scales (ranging from 25M to 1.3B params) to support extensive scenarios. Benefiting from their strong generalization capability, we fine-tune them with metric depth labels to obtain our metric depth models. In addition to our models, considering the limited diversity and frequent noise in current test sets, we construct a versatile evaluation benchmark with precise annotations and diverse scenes to facilitate future research.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Samba architecture achieves 3.73x faster throughput with enhanced context</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Samba - Simple Hybrid State Space Models for Efficient Unlimited Context Language Modeling</title>
+      <link href="http://localhost:4000/Samba" rel="alternate" type="text/html" title="Samba - Simple Hybrid State Space Models for Efficient Unlimited Context Language Modeling" />
+      <published>2024-06-11T00:00:00+03:00</published>
+      <updated>2024-06-11T00:00:00+03:00</updated>
+      <id>http://localhost:4000/Samba</id>
+      <content type="html" xml:base="http://localhost:4000/Samba">&lt;p&gt; &lt;a href=&quot;https://arxiv.org/abs/2406.07522&quot;&gt;Samba&lt;/a&gt; architecture achieves 3.73x faster throughput with enhanced context&lt;/p&gt;
+
+&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt;Efficiently modeling sequences with infinite context length has been a long-standing problem. Past works suffer from either the quadratic computation complexity or the limited extrapolation ability on length generalization. In this work, we present Samba, a simple hybrid architecture that layer-wise combines Mamba, a selective State Space Model (SSM), with Sliding Window Attention (SWA). Samba selectively compresses a given sequence into recurrent hidden states while still maintaining the ability to precisely recall memories with the attention mechanism. We scale Samba up to 3.8B parameters with 3.2T training tokens and show that Samba substantially outperforms the state-of-the-art models based on pure attention or SSMs on a wide range of benchmarks. When trained on 4K length sequences, Samba can be efficiently extrapolated to 256K context length with perfect memory recall and show improved token predictions up to 1M context length. As a linear-time sequence model, Samba enjoys a 3.73x higher throughput compared to Transformers with grouped-query attention when processing user prompts of 128K length, and 3.64x speedup when generating 64K tokens with unlimited streaming. A sample implementation of Samba is publicly available in &lt;a href=&quot;https://github.com/microsoft/Samba&quot;&gt;this https URL&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Samba architecture achieves 3.73x faster throughput with enhanced context</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Chameleon - Mixed-Modal Early-Fusion Foundation Models</title>

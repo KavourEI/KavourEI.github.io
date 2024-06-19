@@ -38,6 +38,51 @@
     
       
       <item>
+        <title>Accessing GPT-4 level Mathematical Olympiad Solutions via Monte Carlo Tree Self-refine with LLaMa-3 8B</title>
+        
+          <description>&lt;p&gt; &lt;a href=&quot;https://arxiv.org/abs/2406.07394&quot;&gt;Monte Carlo Trees&lt;/a&gt; with Llama-3 8B solve mathematics limitations of LLMs&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 13 Jun 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/MonteCarloTrees</link>
+        <guid isPermaLink="true">http://localhost:4000/MonteCarloTrees</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Depth Anything V2</title>
+        
+          <description>&lt;p&gt; &lt;a href=&quot;https://arxiv.org/abs/2406.07522&quot;&gt;Samba&lt;/a&gt; architecture achieves 3.73x faster throughput with enhanced context&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 13 Jun 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/DepthAnythingV2</link>
+        <guid isPermaLink="true">http://localhost:4000/DepthAnythingV2</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Samba - Simple Hybrid State Space Models for Efficient Unlimited Context Language Modeling</title>
+        
+          <description>&lt;p&gt; &lt;a href=&quot;https://arxiv.org/abs/2406.07522&quot;&gt;Samba&lt;/a&gt; architecture achieves 3.73x faster throughput with enhanced context&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 11 Jun 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/Samba</link>
+        <guid isPermaLink="true">http://localhost:4000/Samba</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Apple announced partnership with ChatGPT</title>
         
           <description>&lt;p&gt;Apple is partnering with OpenAI to put ChatGPT into Siri, the company announced at its WWDC 2024 keynote on 10th of June 2024.&lt;/p&gt;
