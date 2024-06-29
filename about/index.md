@@ -3,7 +3,7 @@ layout: page
 current: about
 title: About
 navigation: true
-logo: 'assets/images/full_logo_DSW.png'
+logo: 'about/assets/images/favicon_DSW_white.png'
 class: page-template
 subclass: 'post page'
 ---
