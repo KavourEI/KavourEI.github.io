@@ -11,10 +11,10 @@ baseurl: '/'
 # Website info
 title: Kavour
 description: Data science news and applications
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: /assets/images/favicon.png
-favicon: /assets/images/favicon.png	
+cover: assets/images/full_logo_DSW.png
+logo: assets/images/favicon_DSW_white.png
+logo_dark: assets/images/favicon_DSW_black.png
+favicon: assets/images/favicon_DSW_black.png
 CNAME: https://kavourei.github.io/
 
 # Social info
