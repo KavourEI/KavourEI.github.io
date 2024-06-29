@@ -10,7 +10,7 @@ baseurl: '/'
 
 # Website info
 title: Kavour
-description: Data science news and applications
+description: Data Science and AI News
 cover: assets/images/blog-cover.jpg
 logo: assets/images/favicon.png
 logo_dark: assets/images/favicon_DSW_black.png
