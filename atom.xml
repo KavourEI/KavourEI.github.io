@@ -8,6 +8,51 @@
     
       
       <item>
+        <title>Google releases Gemma 2</title>
+        
+          <description>&lt;p&gt;Google has introduced Gemma 2, its latest generation of open AI models, aimed at enhancing research and development in artificial intelligence. With 9B and 27B parameter versions, Gemma 2 boasts significant improvements in performance and efficiency, making it cost-effective to deploy on common hardware like NVIDIA GPUs. The model is designed for seamless integration with existing AI tools and frameworks, ensuring swift and efficient inference processes.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 27 Jun 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/Gemma2</link>
+        <guid isPermaLink="true">http://localhost:4000/Gemma2</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Data curation via joint example selection further accelerates multimodal learning</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 25 Jun 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/DataCuration</link>
+        <guid isPermaLink="true">http://localhost:4000/DataCuration</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Connecting the Dots - LLMs can Infer and Verbalize Latent Structure from Disparate Training Data</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Thu, 20 Jun 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/ConnectDots</link>
+        <guid isPermaLink="true">http://localhost:4000/ConnectDots</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Meta releases New AI Research Models to Accelerate Innovation at Scale</title>
         
           <description>&lt;p&gt; For over a decade, Meta's Fundamental AI Research (FAIR) team has been dedicated to advancing AI through open research. In light of rapid innovations in the field, we recognize that collaboration with the global AI community is more crucial than ever. &lt;/p&gt;

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-06-29T22:16:01+03:00</updated>
+  <updated>2024-07-01T11:38:11+03:00</updated>
   <id>http://localhost:4000/tag/news/feed.xml</id>
 
   
@@ -44,6 +44,47 @@
   
   
 
+  
+    <entry>
+      <title type="html">Google releases Gemma 2</title>
+      <link href="http://localhost:4000/Gemma2" rel="alternate" type="text/html" title="Google releases Gemma 2" />
+      <published>2024-06-27T00:00:00+03:00</published>
+      <updated>2024-06-27T00:00:00+03:00</updated>
+      <id>http://localhost:4000/Gemma2</id>
+      <content type="html" xml:base="http://localhost:4000/Gemma2">&lt;p&gt;Google has introduced Gemma 2, its latest generation of open AI models, aimed at enhancing research and development in artificial intelligence. With 9B and 27B parameter versions, Gemma 2 boasts significant improvements in performance and efficiency, making it cost-effective to deploy on common hardware like NVIDIA GPUs. The model is designed for seamless integration with existing AI tools and frameworks, ensuring swift and efficient inference processes.&lt;/p&gt;
+
+&lt;p&gt;Gemma 2 stands out for its focus on responsible AI development. It incorporates advanced safety features and provides open-sourced evaluation tools to facilitate ethical AI research. This ensures that developers can work with the model while adhering to best practices in AI safety and responsibility. The availability of these tools underscores Google's commitment to fostering a trustworthy AI ecosystem.&lt;/p&gt;
+
+&lt;p&gt;Researchers and developers can access Gemma 2 through various platforms, including Google AI Studio, Kaggle, and Hugging Face. This accessibility is intended to encourage widespread experimentation and innovation within the AI community. By providing such a powerful and open resource, Google aims to accelerate advancements in AI and support the development of new, groundbreaking applications.&lt;/p&gt;
+
+&lt;p&gt;For more details, visit the official &lt;a href=&quot;https://blog.google/technology/developers/google-gemma-2/&quot;&gt;Google blog post&lt;/a&gt;.
+&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Google has introduced Gemma 2, its latest generation of open AI models, aimed at enhancing research and development in artificial intelligence. With 9B and 27B parameter versions, Gemma 2 boasts significant improvements in performance and efficiency, making it cost-effective to deploy on common hardware like NVIDIA GPUs. The model is designed for seamless integration with existing AI tools and frameworks, ensuring swift and efficient inference processes.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Meta releases New AI Research Models to Accelerate Innovation at Scale</title>
@@ -466,89 +507,6 @@ Let's take a moment and watch the promotion video created by Microsoft.&lt;/p&gt
 
       
         <summary type="html">OpenAI is taking AI capabilities to another level with its new ChatGPT feature. This new update enhances the user experience by allowing ChatGPT to interact with tables, charts, and add files directly from Google Drive and Microsoft OneDrive.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Google Announcements</title>
-      <link href="http://localhost:4000/VeoAstraGemini" rel="alternate" type="text/html" title="Google Announcements" />
-      <published>2024-05-14T00:00:00+03:00</published>
-      <updated>2024-05-14T00:00:00+03:00</updated>
-      <id>http://localhost:4000/VeoAstraGemini</id>
-      <content type="html" xml:base="http://localhost:4000/VeoAstraGemini">&lt;p&gt;Just a day after OpenAI wowed us with GPT-4o, Google decided it’s their turn to dazzle! Let's dive into the goodies unveiled at the Google IO conference. &lt;/p&gt;
-
-&lt;p&gt;Among the exciting announcements, we have:
-&lt;ul&gt;
-&lt;li&gt; &lt;strong&gt;&lt;a href=&quot;https://deepmind.google/technologies/veo/&quot;&gt;Veo&lt;/a&gt;&lt;/strong&gt;: Google’s star video generation model.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;&lt;a href=&quot;https://deepmind.google/technologies/gemini/project-astra/&quot;&gt;Project Astra&lt;/a&gt;&lt;/strong&gt;: The futuristic AI assistant in the making.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;&lt;a href=&quot;https://deepmind.google/technologies/gemini/&quot;&gt;Gemini 1.5 Pro Updates&lt;/a&gt;&lt;/strong&gt;: Introducing two new versions of their flagship model – one sleeker, the other with a whopping 2M token context length.&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
-&lt;p&gt;Now, let’s break these down one by one:&lt;/p&gt;
-
-&lt;h2&gt; Veo &lt;/h2&gt;
-&lt;p&gt;Meet Veo, Google DeepMind's newest and shiniest video generation model. Here's what it can do:
-&lt;ul&gt;
-&lt;li&gt; Produce high-quality videos in 1080p &lt;/li&gt;
-&lt;li&gt;&amp;gt; Extend beyond a minute of runtime &lt;/li&gt;
-&lt;li&gt; Deliver a spectrum of cinematic and visual styles &lt;/li&gt;
-&amp;lt;/p&amp;gt;
-
-&lt;p&gt;Veo lets you input an image or video paired with a textual prompt. It can animate the image or edit the video as needed. Plus, it supports masked editing, so you can tweak specific areas by adding a mask and text prompt.
-On the technical side, Google enhanced video captions in Veo’s training data and uses high-quality, compressed video representations (latents) to boost performance, speed, and efficiency.&lt;/p&gt;
-
-&lt;h2&gt; Project Astra &lt;/h2&gt;
-&lt;p&gt;Enter Astra, Google’s new project aimed at crafting the AI assistant of tomorrow, hot on the heels of OpenAI's GPT-4o demo.
-Powered by Gemini, Astra supports real-time audio, text, video, and image interactions. Although it's still a prototype, Astra’s demo came through pre-recorded videos since it’s not yet widely available.
-Early testers noted a bit of lag, less emotional intelligence, and tone compared to GPT-4o, but praised its text-to-speech prowess and potentially superior long-context video support.&lt;/p&gt;
-
-&lt;h2&gt; Gemini 1.5 Pro &lt;/h2&gt;
-
-&lt;p&gt;Google rolled out two new iterations of their flagship model, Gemini 1.5 Pro:
-&lt;ul&gt;
-&lt;li&gt; &lt;strong&gt;Gemini 1.5 Pro Flash&lt;/strong&gt;: A nimble, fast, and cost-efficient version, still multimodal with a 1M token context length. It boasts an MMLU of 78.9% vs. 81.9% for the original Gemini 1.5 Pro.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Gemini 1.5 Pro&lt;/strong&gt;: This powerhouse’s context length is doubled to 2M tokens and is currently accessible via a waitlist for select API developers.&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
-&lt;h2&gt; Other Announcements &lt;/h2&gt;
-&lt;p&gt;Google also revealed:
-&lt;ul&gt;
-&lt;li&gt; &lt;strong&gt;Imagen 3&lt;/strong&gt;: Their most advanced image generation model, available in versions tailored for tasks ranging from quick sketches to high-res images.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Gemma 2 and PaliGemma&lt;/strong&gt; New open-source models. PaliGemma is Google’s inaugural vision-language model and is available now. Gemma 2, with 27B parameters, outperforms its predecessor and will be available in June. &lt;/li&gt;
-&lt;/ul&gt;
-The jam-packed 2-hour session also featured updates across Google’s ecosystem, including Search, Workspace, Photos, Android, and more.
-&lt;/p&gt;
-
-&lt;h2&gt; Access &lt;/h2&gt;
-&lt;p&gt;
-The Gemini API and Google AI Studio are now live in over 200 countries. Gemini 1.5 Flash is priced at $0.35 per 1M tokens, with context caching launching next month.
-While Veo, Astra, and the 2M context Gemini 1.5 Pro aren’t available yet, you can join the waitlist for access. But no worries, Gemini 1.5 Pro Flash is ready for you through the API, and PaliGemma is freely available on Kaggle.
-Time to explore these futuristic tools and see where they can take us!&lt;/p&gt;
-&lt;/ul&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">Just a day after OpenAI wowed us with GPT-4o, Google decided it’s their turn to dazzle! Let's dive into the goodies unveiled at the Google IO conference.</summary>
       
 
       
