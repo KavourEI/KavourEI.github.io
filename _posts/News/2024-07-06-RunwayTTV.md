@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/news_images/google_ai.jpg
+cover:  assets/images/news_images/runway.png
 navigation: True
 title: Gen-3 Alpha opened by Runway
 date: 2024-07-06
