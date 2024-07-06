@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-07-01T11:38:11+03:00</updated>
+  <updated>2024-07-06T15:06:48+03:00</updated>
   <id>http://localhost:4000/tag/news/feed.xml</id>
 
   
@@ -44,6 +44,88 @@
   
   
 
+  
+    <entry>
+      <title type="html">Gen-3 Alpha opened by Runway</title>
+      <link href="http://localhost:4000/RunwayTTV" rel="alternate" type="text/html" title="Gen-3 Alpha opened by Runway" />
+      <published>2024-07-06T00:00:00+03:00</published>
+      <updated>2024-07-06T00:00:00+03:00</updated>
+      <id>http://localhost:4000/RunwayTTV</id>
+      <content type="html" xml:base="http://localhost:4000/RunwayTTV">&lt;p&gt;As it is stated &lt;a href=&quot;https://runwayml.com/blog/introducing-gen-3-alpha/&quot;&gt;here&lt;/a&gt; &lt;q&gt;Gen-3 Alpha is the first of an upcoming series of models trained by Runway on a new infrastructure built for large-scale multimodal training. It is a major improvement in fidelity, consistency, and motion over Gen-2, and a step towards building General World Models.&lt;/q&gt;&lt;/p&gt;
+
+&lt;p&gt;Based on the results we see, we should be excited about upcoming Text to Video, Image to Video and Text to Image tools that will be available for us to use. You can take a deeper view on their products &lt;a href=&quot;https://runwayml.com/&quot;&gt;here&lt;/a&gt; and try runway for free &lt;a href=&quot;https://app.runwayml.com/signup&quot;&gt;here.&lt;/a&gt; I don't know about you but I can't wait to check the upcoming models they have to offer!&lt;/p&gt;
+
+&lt;p&gt;For those of you that have not yet got the chance to know Runway, it is founded in 2018 by Cristóbal Valenzuela, Anastasis Germanidis and Alejandro Matamala-Ortiz. As Paul Drews and Emily Zhao writting at &lt;a href=&quot;https://salesforceventures.com/perspectives/welcome-runway/&quot;&gt;Salesforce ventures.&lt;/a&gt; The initial idea came out of Cris’ thesis project at the Interactive Telecommunications Program at NYU, where he met his co-founders while researching applications of machine learning models for image and video use in the creative domains.&lt;/p&gt;
+
+&lt;p&gt;Informed by their own experiences as artists, the Runway co-founders set out to answer the question of how a well-built digital tool could simplify the approachability of complex ML models and circumvent the need for deep technical background to give better access to state of the art machine intelligence to artists and designers. The mission of Runway was to democratize access to machine learning so more people can start thinking of new and creative ways to use those models.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">As it is stated here Gen-3 Alpha is the first of an upcoming series of models trained by Runway on a new infrastructure built for large-scale multimodal training. It is a major improvement in fidelity, consistency, and motion over Gen-2, and a step towards building General World Models.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Gemini 1.5 Pro 2M context window</title>
+      <link href="http://localhost:4000/GoogleAIStudio" rel="alternate" type="text/html" title="Gemini 1.5 Pro 2M context window" />
+      <published>2024-07-06T00:00:00+03:00</published>
+      <updated>2024-07-06T00:00:00+03:00</updated>
+      <id>http://localhost:4000/GoogleAIStudio</id>
+      <content type="html" xml:base="http://localhost:4000/GoogleAIStudio">&lt;p&gt;&lt;q&gt;Gemini 1.5 Pro 2M context window, code execution capabilities, and Gemma 2 are available today&lt;/q&gt;&lt;/p&gt;
+
+&lt;p&gt;As it is stated in the official blog post of &lt;a href=&quot;https://developers.googleblog.com/en/new-features-for-the-gemini-api-and-google-ai-studio/&quot;&gt;Google for developers&lt;/a&gt; it is decided to give developers access to the 2 million context window for Gemini 1.5 Pro, code execution capabilities in the Gemini API, and adding Gemma 2 in Google AI Studio.So Google Cloud is making two variations of its flagship AI model—Gemini 1.5 Flash and Pro—publicly accessible.&lt;/p&gt;
+
+&lt;p&gt;A small multimodal model with a 1 million context window that tackles narrow high-frequency tasks and the most powerful version of Google’s LLM, upgraded to contain a 2 million context window, respectively are open to all developers to try and experiment with.&lt;/p&gt;
+
+&lt;p&gt;Through this action Gemini variations aims to showcase how Google AI's work will assist businesses to develop, monitor annd/or expand challenging AI agents to find delicate solutions to their problems. During a press announcement, Google Cloud Chief Executive Thomas Kurian boasts the company sees “incredible momentum” with its generative AI recent developments, with organizations such as Accenture, Airbus, Anthropic, Box, Broadcom, Cognizant, Confluent, Databricks, Deloitte, Equifax, Estée Lauder Companies, Ford, GitLab, GM, the Golden State Warriors, Goldman Sachs, Hugging Face, IHG Hotels and Resorts, Lufthansa Group, Moody’s, Samsung, and others building on its platform. He attributes this adoption growth to the combination of what Google’s models are capable of and the company’s Vertex platform. It’ll &lt;q&gt;continue to introduce new capability in both those layers at a rapid pace.&lt;/q&gt;&lt;/p&gt;
+
+&lt;p&gt;You can find out more about recent advancements &lt;a href=&quot;https://developers.google.com/&quot;&gt;here&lt;/a&gt; under the category, Trending news.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Gemini 1.5 Pro 2M context window, code execution capabilities, and Gemma 2 are available today</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Google releases Gemma 2</title>
@@ -421,92 +503,6 @@ Let's take a moment and watch the promotion video created by Microsoft.&lt;/p&gt
 
       
         <summary type="html">Integrate your multi-tenant AI SaaS with 100+ 3rd party apps with 70% less engineering.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Grok comes to Europe</title>
-      <link href="http://localhost:4000/GrokToEurope" rel="alternate" type="text/html" title="Grok comes to Europe" />
-      <published>2024-05-16T00:00:00+03:00</published>
-      <updated>2024-05-16T00:00:00+03:00</updated>
-      <id>http://localhost:4000/GrokToEurope</id>
-      <content type="html" xml:base="http://localhost:4000/GrokToEurope">&lt;p&gt; It has been announced that Grok AI model has expanded to Europe. &lt;/p&gt;
-
-&lt;p&gt; For me Grok was not a well known AI chatbot. Was it because I live in Europe, was it because I didn't catch the announcements?!? I don't know. I will assume the same for you. As a result, let us first asnwer to the question what is Grok.&lt;/p&gt;
-
-&lt;p&gt; As it is stated &lt;a href=&quot;https://x.ai/blog/grok&quot;&gt;here&lt;/a&gt; &lt;i&gt;&quot;Grok is an AI modeled after the Hitchhiker’s Guide to the Galaxy. It is intended to answer almost anything and, far harder, even suggest what questions to ask!&lt;/i&gt;&quot;. So Grok is an AI chatbot developed by Elon Musk's company xAI. By searching around, you can find out that Grok can access real-time information through social media platform X, which is kinda expected if you think who the owner is, and is said to answer &quot;spicy&quot; questions typically regected by most other AI systems. It can be accessed through a premium + X subscription. &lt;/p&gt;
-
-&lt;p&gt; xAI says that Grok is able to respond to questions that most other chatbots would refuse, no matter the size of the risk. We can take a look at the shared &lt;a href=&quot;https://twitter.com/elonmusk/status/1720643054065873124?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1720643054065873124%7Ctwgr%5E7dcd667d00c687e5ff639f666b649cd9da8e7619%7Ctwcon%5Es1_&amp;amp;ref_url=https%3A%2F%2Fd-1606052890471219633.ampproject.net%2F2401262004000%2Fframe.html&quot;&gt;screenshot&lt;/a&gt; of Grok that is willing to provide a step-by-step guide to making cocaine for so-said &lt;i&gt;&quot;developmental purposes&quot;&lt;/i&gt;. In a previous post, Elon Musk posts, &lt;i&gt;xAI's Grok system is designed to have a little humor in its responses&lt;/i&gt; and we can see in the &quot;developemental post&quot; that is stated &lt;i&gt;&quot;start cooking and hope you don't blow yourself up or get arrested.&quot;&lt;/i&gt;. There are plently of such examples and cases, if you are willing to search around. Getting deeper into topic is not in the scope of this post.&lt;/p&gt;
-
-&lt;h3&gt; How to sign and access Grok AI &lt;/h3&gt;
-
-&lt;p&gt; To access Grok AI, you need to subscribe to the X Premium+ service, which is currently the gateway to Grok AI’s rich features. This subscription is available to X Premium+ subscribers and is priced at $16 a month. Once you have subscribed, you can visit the official Grok AI portal and authenticate yourself using your X credentials. After this, you will have access to the Grok AI platform and its unique features. &lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">It has been announced that Grok AI model has expanded to Europe.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Chatgpt new features announcements</title>
-      <link href="http://localhost:4000/ChatTablesCharts" rel="alternate" type="text/html" title="Chatgpt new features announcements" />
-      <published>2024-05-16T00:00:00+03:00</published>
-      <updated>2024-05-16T00:00:00+03:00</updated>
-      <id>http://localhost:4000/ChatTablesCharts</id>
-      <content type="html" xml:base="http://localhost:4000/ChatTablesCharts">&lt;p&gt;OpenAI is taking AI capabilities to another level with its new ChatGPT feature. This new update enhances the user experience by allowing ChatGPT to interact with tables, charts, and add files directly from Google Drive and Microsoft OneDrive.&lt;/p&gt;
-
-&lt;p&gt;The table and chart interaction feature enables ChatGPT to understand and interpret data in tables and charts effectively. This means it can now provide insights, draw conclusions, and answer queries related to data presented in these formats. Whether you're dealing with complex data sets or need a quick analysis, ChatGPT is equipped to assist you.&lt;/p&gt;
-
-&lt;p&gt;Moreover, the update also adds a feature that allows for direct file addition from Google Drive and Microsoft OneDrive. This integration removes the hassle of downloading and re-uploading files. You can now easily fetch data from files stored in your cloud storage, making it more convenient and time-efficient.&lt;/p&gt;
-
-&lt;p&gt;These new features reinforce OpenAI’s commitment to make ChatGPT more useful and versatile for all users. Whether you're a student, professional, or anyone in need of data interpretation or easy file access, these updates are designed to make your tasks easier.&lt;/p&gt;
-
-&lt;p&gt;Don't hesitate to look for details &lt;a href=&quot;https://openai.com/index/improvements-to-data-analysis-in-chatgpt/&quot;&gt;here&lt;/a&gt; and how to use those new tools to get the most in your day-to-day tasks.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">OpenAI is taking AI capabilities to another level with its new ChatGPT feature. This new update enhances the user experience by allowing ChatGPT to interact with tables, charts, and add files directly from Google Drive and Microsoft OneDrive.</summary>
       
 
       
