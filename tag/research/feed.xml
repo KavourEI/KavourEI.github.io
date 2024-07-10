@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-07-06T15:06:48+03:00</updated>
+  <updated>2024-07-10T15:58:20+03:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -44,6 +44,82 @@
   
   
 
+  
+    <entry>
+      <title type="html">AI Agents That Matter</title>
+      <link href="http://localhost:4000/AIAgentsThatMatter" rel="alternate" type="text/html" title="AI Agents That Matter" />
+      <published>2024-07-01T00:00:00+03:00</published>
+      <updated>2024-07-01T00:00:00+03:00</updated>
+      <id>http://localhost:4000/AIAgentsThatMatter</id>
+      <content type="html" xml:base="http://localhost:4000/AIAgentsThatMatter">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt;AI agents are an exciting new research direction, and agent development is driven by benchmarks. Our analysis of current agent benchmarks and evaluation practices reveals several shortcomings that hinder their usefulness in real-world applications. First, there is a narrow focus on accuracy without attention to other metrics. As a result, SOTA agents are needlessly complex and costly, and the community has reached mistaken conclusions about the sources of accuracy gains. Our focus on cost in addition to accuracy motivates the new goal of jointly optimizing the two metrics. We design and implement one such optimization, showing its potential to greatly reduce cost while maintaining accuracy. Second, the benchmarking needs of model and downstream developers have been conflated, making it hard to identify which agent would be best suited for a particular application. Third, many agent benchmarks have inadequate holdout sets, and sometimes none at all. This has led to agents that are fragile because they take shortcuts and overfit to the benchmark in various ways. We prescribe a principled framework for avoiding overfitting. Finally, there is a lack of standardization in evaluation practices, leading to a pervasive lack of reproducibility. We hope that the steps we introduce for addressing these shortcomings will spur the development of agents that are useful in the real world and not just accurate on benchmarks.&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2407.01502&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">RouteLLM-Learning to Route LLMs with Preference Data</title>
+      <link href="http://localhost:4000/RouteLLM" rel="alternate" type="text/html" title="RouteLLM-Learning to Route LLMs with Preference Data" />
+      <published>2024-07-01T00:00:00+03:00</published>
+      <updated>2024-07-01T00:00:00+03:00</updated>
+      <id>http://localhost:4000/RouteLLM</id>
+      <content type="html" xml:base="http://localhost:4000/RouteLLM">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt;Large language models (LLMs) exhibit impressive capabilities across a wide range of tasks, yet the choice of which model to use often involves a trade-off between performance and cost. More powerful models, though effective, come with higher expenses, while less capable models are more cost-effective. To address this dilemma, we propose several efficient router models that dynamically select between a stronger and a weaker LLM during inference, aiming to optimize the balance between cost and response quality. We develop a training framework for these routers leveraging human preference data and data augmentation techniques to enhance performance. Our evaluation on widely-recognized benchmarks shows that our approach significantly reduces costs-by over 2 times in certain cases-without compromising the quality of responses. Interestingly, our router models also demonstrate significant transfer learning capabilities, maintaining their performance even when the strong and weak models are changed at test time. This highlights the potential of these routers to provide a cost-effective yet high-performance solution for deploying LLMs.&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2406.18665&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Data curation via joint example selection further accelerates multimodal learning</title>
@@ -122,44 +198,6 @@
     </entry>
   
     <entry>
-      <title type="html">Accessing GPT-4 level Mathematical Olympiad Solutions via Monte Carlo Tree Self-refine with LLaMa-3 8B</title>
-      <link href="http://localhost:4000/MonteCarloTrees" rel="alternate" type="text/html" title="Accessing GPT-4 level Mathematical Olympiad Solutions via Monte Carlo Tree Self-refine with LLaMa-3 8B" />
-      <published>2024-06-13T00:00:00+03:00</published>
-      <updated>2024-06-13T00:00:00+03:00</updated>
-      <id>http://localhost:4000/MonteCarloTrees</id>
-      <content type="html" xml:base="http://localhost:4000/MonteCarloTrees">&lt;p&gt; &lt;a href=&quot;https://arxiv.org/abs/2406.07394&quot;&gt;Monte Carlo Trees&lt;/a&gt; with Llama-3 8B solve mathematics limitations of LLMs&lt;/p&gt;
-
-&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt;This paper introduces the MCT Self-Refine (MCTSr) algorithm, an innovative integration of Large Language Models (LLMs) with Monte Carlo Tree Search (MCTS), designed to enhance performance in complex mathematical reasoning tasks. Addressing the challenges of accuracy and reliability in LLMs, particularly in strategic and mathematical reasoning, MCTSr leverages systematic exploration and heuristic self-refine mechanisms to improve decision-making frameworks within LLMs. The algorithm constructs a Monte Carlo search tree through iterative processes of Selection, self-refine, self-evaluation, and Backpropagation, utilizing an improved Upper Confidence Bound (UCB) formula to optimize the exploration-exploitation balance. Extensive experiments demonstrate MCTSr's efficacy in solving Olympiad-level mathematical problems, significantly improving success rates across multiple datasets, including GSM8K, GSM Hard, MATH, and Olympiad-level benchmarks, including Math Odyssey, AIME, and OlympiadBench. The study advances the application of LLMs in complex reasoning tasks and sets a foundation for future AI integration, enhancing decision-making accuracy and reliability in LLM-driven applications.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Monte Carlo Trees with Llama-3 8B solve mathematics limitations of LLMs</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">Depth Anything V2</title>
       <link href="http://localhost:4000/DepthAnythingV2" rel="alternate" type="text/html" title="Depth Anything V2" />
       <published>2024-06-13T00:00:00+03:00</published>
@@ -191,6 +229,44 @@
 
       
         <summary type="html">Samba architecture achieves 3.73x faster throughput with enhanced context</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Accessing GPT-4 level Mathematical Olympiad Solutions via Monte Carlo Tree Self-refine with LLaMa-3 8B</title>
+      <link href="http://localhost:4000/MonteCarloTrees" rel="alternate" type="text/html" title="Accessing GPT-4 level Mathematical Olympiad Solutions via Monte Carlo Tree Self-refine with LLaMa-3 8B" />
+      <published>2024-06-13T00:00:00+03:00</published>
+      <updated>2024-06-13T00:00:00+03:00</updated>
+      <id>http://localhost:4000/MonteCarloTrees</id>
+      <content type="html" xml:base="http://localhost:4000/MonteCarloTrees">&lt;p&gt; &lt;a href=&quot;https://arxiv.org/abs/2406.07394&quot;&gt;Monte Carlo Trees&lt;/a&gt; with Llama-3 8B solve mathematics limitations of LLMs&lt;/p&gt;
+
+&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt;This paper introduces the MCT Self-Refine (MCTSr) algorithm, an innovative integration of Large Language Models (LLMs) with Monte Carlo Tree Search (MCTS), designed to enhance performance in complex mathematical reasoning tasks. Addressing the challenges of accuracy and reliability in LLMs, particularly in strategic and mathematical reasoning, MCTSr leverages systematic exploration and heuristic self-refine mechanisms to improve decision-making frameworks within LLMs. The algorithm constructs a Monte Carlo search tree through iterative processes of Selection, self-refine, self-evaluation, and Backpropagation, utilizing an improved Upper Confidence Bound (UCB) formula to optimize the exploration-exploitation balance. Extensive experiments demonstrate MCTSr's efficacy in solving Olympiad-level mathematical problems, significantly improving success rates across multiple datasets, including GSM8K, GSM Hard, MATH, and Olympiad-level benchmarks, including Math Odyssey, AIME, and OlympiadBench. The study advances the application of LLMs in complex reasoning tasks and sets a foundation for future AI integration, enhancing decision-making accuracy and reliability in LLM-driven applications.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Monte Carlo Trees with Llama-3 8B solve mathematics limitations of LLMs</summary>
       
 
       
@@ -343,44 +419,6 @@
 
       
         <summary type="html">LoRA compared to full finetuning, shows strong regularization effects..</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Deep Learning Interviews - Hundreds of fully solved job interview questions from a wide range of key topics in AI</title>
-      <link href="http://localhost:4000/DLInterview" rel="alternate" type="text/html" title="Deep Learning Interviews - Hundreds of fully solved job interview questions from a wide range of key topics in AI" />
-      <published>2022-01-04T00:00:00+02:00</published>
-      <updated>2022-01-04T00:00:00+02:00</updated>
-      <id>http://localhost:4000/DLInterview</id>
-      <content type="html" xml:base="http://localhost:4000/DLInterview">&lt;p&gt; Deep Learning Interview: the best preparation book for AI/ML job seekers and students. Free on &lt;a href=&quot;https://arxiv.org/abs/2201.00650&quot;&gt;ArXiv&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt;The second edition of Deep Learning Interviews is home to hundreds of fully-solved problems, from a wide range of key topics in AI. It is designed to both rehearse interview or exam specific topics and provide machine learning MSc / PhD. students, and those awaiting an interview a well-organized overview of the field. The problems it poses are tough enough to cut your teeth on and to dramatically improve your skills-but they're framed within thought-provoking questions and engaging stories. That is what makes the volume so specifically valuable to students and job seekers: it provides them with the ability to speak confidently and quickly on any relevant topic, to answer technical questions clearly and correctly, and to fully understand the purpose and meaning of interview questions and answers. Those are powerful, indispensable advantages to have when walking into the interview room. The book's contents is a large inventory of numerous topics relevant to DL job interviews and graduate level exams. That places this work at the forefront of the growing trend in science to teach a core set of practical mathematical and computational skills. It is widely accepted that the training of every computer scientist must include the fundamental theorems of ML, and AI appears in the curriculum of nearly every university. This volume is designed as an excellent reference for graduates of such programs.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Deep Learning Interview: the best preparation book for AI/ML job seekers and students. Free on ArXiv.</summary>
       
 
       

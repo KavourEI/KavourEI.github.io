@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-07-06T15:06:48+03:00</updated>
+  <updated>2024-07-10T15:58:20+03:00</updated>
   <id>http://localhost:4000/tag/news/feed.xml</id>
 
   
@@ -44,6 +44,63 @@
   
   
 
+  
+    <entry>
+      <title type="html">MInference</title>
+      <link href="http://localhost:4000/MInference" rel="alternate" type="text/html" title="MInference" />
+      <published>2024-07-07T00:00:00+03:00</published>
+      <updated>2024-07-07T00:00:00+03:00</updated>
+      <id>http://localhost:4000/MInference</id>
+      <content type="html" xml:base="http://localhost:4000/MInference">&lt;p&gt;&lt;q&gt; Now, you can process 1M context 10x faster in a single A100 using Long-context LLMs like LLaMA-3-8B-1M, GLM-4-1M, with even better accuracy, try MInference 1.0 right now!&lt;/q&gt; as stated in the announcement.&lt;/p&gt;
+
+&lt;p&gt;Microsoft has recently unveiled MInference, an open-source library designed to streamline and enhance the process of machine learning inference. This repository, hosted on &lt;a href=&quot;https://github.com/microsoft/MInference?tab=readme-ov-file&quot;&gt;GitHub&lt;/a&gt;, offers a comprehensive suite of tools and resources aimed at developers and data scientists looking to integrate efficient inference capabilities into their applications.&lt;/p&gt;
+
+&lt;p&gt; Some of the key features are 
+
+&lt;ol&gt; 
+    &lt;li&gt; High Performance: MInference is optimized for speed and efficiency. This will make it certain for you to have rapid inference times even with large and complex models. This makes it ideal for real-time applications where quick response times are critical for you and/or your business.&lt;/li&gt;
+    &lt;li&gt; Versatility: The library supports a wide range of machine learning models and frameworks. Whether you are working with PyTorch of TensorFlow MInference provides seamless integration, allowing for flexibility and ease of use across different platforms and environments. Take a look at the &lt;a href=&quot;https://github.com/microsoft/MInference/tree/main/examples&quot;&gt;examples&lt;/a&gt; to figure out more about how to use it.&lt;/li&gt;
+    &lt;li&gt; Scalability: Designed with scalability in mind, MInference can handle inference tasks from small-scale projects to large, enterprise-level applications. This scalability ensures that as your data and model complexity grow, MInference can accommodate and maintain performance. Keep in mind though that currently the supported models are:&lt;/li&gt;
+    &lt;ul&gt;
+        &lt;li&gt; LLaMA-3: &lt;a href=&quot;https://huggingface.co/gradientai/Llama-3-8B-Instruct-262k&quot;&gt;gradientai/Llama-3-8B-Instruct-262k&lt;/a&gt;, &lt;a href=&quot;https://huggingface.co/gradientai/Llama-3-8B-Instruct-Gradient-1048k&quot;&gt;gradientai/Llama-3-8B-Instruct-Gradient-1048k&lt;/a&gt;, &lt;a href=&quot;https://huggingface.co/gradientai/Llama-3-8B-Instruct-Gradient-4194k&quot;&gt;gradientai/Llama-3-8B-Instruct-Gradient-4194k&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt; GLM-4: &lt;a href=&quot;https://huggingface.co/THUDM/glm-4-9b-chat-1m&quot;&gt;THUDM/glm-4-9b-chat-1m&lt;/a&gt; &lt;/li&gt;
+        &lt;li&gt; Yi: &lt;a href=&quot;https://huggingface.co/01-ai/Yi-9B-200K&quot;&gt;01-ai/Yi-9B-200K&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt; Phi-3: &lt;a href=&quot;https://huggingface.co/microsoft/Phi-3-mini-128k-instruct&quot;&gt;microsoft/Phi-3-mini-128k-instruct&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt; Qwen2: &lt;a href=&quot;https://huggingface.co/Qwen/Qwen2-7B-Instruct&quot;&gt;Qwen/Qwen2-7B-Instruct&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; User-Friendly API: MInference boasts a user-friendly API, making it accessible for both beginners and experienced practitioners. The well-documented functions and examples facilitate a smooth learning curve and quick implementation.&lt;/li&gt;
+    &lt;li&gt; Community and Support: As an open-source project, MInference benefits from the contributions and support of the developer community. You can take advantage of this open-source project to contibute and/or get any support resolving any issues that may come up.&lt;/li&gt;
+
+&lt;p&gt;So to get statred with MInference, in case you feel like it, you check the detailed README file that has the instructions to install anything needed acompanied with examples and documentations. Whether you are a developer of a data scientist I think you will find it tempting to include and impletement efficient machine learning inference in your project so my advice, take a look at is and see if it fits your likes.&lt;/p&gt;
+
+&lt;p&gt; If you are interested about reading more, there is a paper, currently in review that you can find &lt;a href=&quot;https://arxiv.org/abs/2407.02490&quot;&gt;here&lt;/a&gt;&lt;/p&gt;. 
+&lt;/ol&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Now, you can process 1M context 10x faster in a single A100 using Long-context LLMs like LLaMA-3-8B-1M, GLM-4-1M, with even better accuracy, try MInference 1.0 right now! as stated in the announcement.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Gen-3 Alpha opened by Runway</title>
@@ -460,49 +517,6 @@ Let's take a moment and watch the promotion video created by Microsoft.&lt;/p&gt
 
       
         <summary type="html">As stated here:</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Paragon changes RAG model for your customers</title>
-      <link href="http://localhost:4000/paragon" rel="alternate" type="text/html" title="Paragon changes RAG model for your customers" />
-      <published>2024-05-22T00:00:00+03:00</published>
-      <updated>2024-05-22T00:00:00+03:00</updated>
-      <id>http://localhost:4000/paragon</id>
-      <content type="html" xml:base="http://localhost:4000/paragon">&lt;p&gt; &lt;i&gt;Integrate your multi-tenant AI SaaS with 100+ 3rd party apps with 70% less engineering.&lt;/i&gt;
-
-&lt;p&gt; Today, third-party integrations are one of the most important parts of building a SaaS application. The average enterprise uses over 1,000 different cloud apps, and customers expect to buy software that integrates seamlessly with their other tools. However, achieving a robust set of high-quality product integrations typically requires anywhere from months to years of engineering work to build and maintain across multiple providers.&lt;/p&gt;
-
-&lt;p&gt; Paragon is an embedded solution for integrating your product with third-party SaaS apps, providing your customers with a seamless, unified integration experience. This allows teams to avoid the cost, time, and risk that come with building and maintaining their own integrations solution. A single installation of Paragon takes just a couple of hours and enables your application to support integrations with the most popular SaaS apps.&lt;/p&gt;
-
-&lt;p&gt; You implement Paragon by adding the Connect SDK to your application, which allows you to display the Connect Portal - a component that your users interact with in order to connect their third-party app accounts. Paragon provides fully managed authentication for each third-party app provider we support, and allows you to access your users' app accounts using Workflows or via the Paragon API.&lt;/p&gt;
-
-&lt;p&gt; If you are interested in finding more about paragon, you can click &lt;a href=&quot;https://www.useparagon.com/paragon-for-ai?utm_source=alphasignal&amp;amp;utm_medium=newsletter&amp;amp;utm_content=ai_pitch&quot;&gt;here&lt;/a&gt; and explore it on you own pace! &lt;/p&gt; 
-&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">Integrate your multi-tenant AI SaaS with 100+ 3rd party apps with 70% less engineering.</summary>
       
 
       
