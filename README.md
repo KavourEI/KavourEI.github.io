@@ -1,113 +1,77 @@
-## Jasper2
+# Kavourei's GitHub Pages
 
-[![Build Status](https://github.com/jekyllt/jasper2/actions/workflows/jekyll_build.yml/badge.svg)](https://github.com/jekyllt/jasper2/actions/workflows/jekyll_build.yml)
-[![Ruby](https://img.shields.io/badge/ruby-2.6.3-blue.svg?style=flat)](http://travis-ci.org/jekyllt/jasper2)
-[![Jekyll](https://img.shields.io/badge/jekyll-3.9.0-blue.svg?style=flat)](http://travis-ci.org/jekyllt/jasper2)
+Welcome to the repository for [kavourei.github.io](https://kavourei.github.io), the personal website of Kavourei! This site serves as a portfolio and a blog where I share projects, thoughts, and the latest news in technology. Whether you are interested in academic advancements or business developments, this site offers insights and updates to keep you informed.
 
-This is a full-featured port of Ghost's default theme [Casper](https://github.com/tryghost/casper)
-[v2.1.9](https://github.com/TryGhost/Casper/releases/tag/2.1.9) for [Jekyll](https://jekyllrb.com/) / [GitHub Pages](https://pages.github.com/).
+## Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Acknowledgment](#acknowledgment)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Live Demo
+## About
 
-[Ghost's Casper](https://demo.ghost.io) // [Jasper2](https://jekyllt.github.io/jasper2)
+This site is designed to provide visitors with a comprehensive overview of my work and interests. It includes detailed descriptions of my projects and blog posts on various technology-related topics. The content is organized into three main sections:
 
-![home page](https://raw.githubusercontent.com/jekyllt/jasper2/master/assets/screenshot-desktop.jpg)
-
+- **Posts:** Projects that I find interesting and educational.
+- **News:** Articles on business-related AI developments and tools for data scientists.
+- **Research:** Updates on the latest academic advancements in data science.
 
 ## Features
 
-* Out of the box support for multiple authors (via `_data/authors.yml`)
-* Full author information including: picture, bio, website, twitter, facebook, etc.
-* Tag description(s) and personalised covers (via `_data/tags.yml`)
-* Related posts view at the bottom of each post
-* All Ghost default pages: Author page(s), Tag page(s), About page(s), 404, etc.
-* Pagination (infinite scrolling or standard pagination, i.e. posts across multiple pages)
-* Atom Feeds by [Jekyll-feed](https://github.com/jekyll/jekyll-feed)
-* Toggleable subscribe button (requires an external service)
-* Code Syntax Highlight with [highlight.js](https://highlightjs.org/)
-* Support for Google Analytics tracking
-* Support for Disqus comments (not Ghost standard)
+- **Home Page:** An overview of the website with quick links to key sections and the latest posts.
+- **Posts:** Detailed descriptions of projects that I find intriguing and educational.
+- **News:** Articles about AI developments from a business perspective.
+- **Research:** Insights into recent academic advancements in AI and data science.
+- **About:** Information about the website's creation and purpose.
 
+## Technologies Used
 
-## Getting Started
+- **HTML5:** For structuring the site's content.
+- **CSS3:** For styling the site to make it visually appealing.
+- **JavaScript:** For interactive features and functionality.
+- **Jekyll:** A static site generator used to build the site.
+- **Markdown:** For writing blog posts and documentation.
 
-### Deployment
+## Acknowledgment
 
-There are several alternatives to building and deploying the site:
+This project was created using Ghost's theme, [Casper](https://github.com/tryghost/casper). For more information or to see a live demo, check out:
 
-1. build the site with [GitHub Actions](https://github.com/features/actions) which pushes 
-the resulting files (the contents of `_site/` or `../jasper2-pages/`) 
-to the *gh-pages* branch. This is the approach that is currently used. See 
-[jekyll_build.yml](.github/workflows/jekyll_build.yml) for more details.
+- [Ghost's Casper](https://demo.ghost.io)
+- [Jasper2](https://jekyllt.github.io/jasper2)
 
-2. generate the site locally (more details below) and push the resulting
-HTML to a Github repository, that GitHub Pages then host;
+## Usage
 
-3. build the site with [travis-ci](https://travis-ci.org/) (with goodies from
-[jekyll-travis](https://github.com/mfenner/jekyll-travis)) automatically pushing the
-generated HTML files to a *gh-pages* branch.
+Feel free to explore the [site](https://kavourei.github.io) to learn more about my work. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-4. deploy the static website with Jekyll-compatible hosters, such as https://www.netlify.com/, that allow for deployment from the Github repo and publish the website using CDNs. Netlify has a free starter offer.
+## Contributing
 
-For option **2)** simply clone this repository (*master branch*), and then run
-`bundle exec jekyll serve` inside the directory. Upload the resulting `_site/` (or `../jasper2-pages/`)
-contents to your repository (*master branch* if uploading as your personal page
-(e.g. username.github.io) or *gh-pages branch* if uploading as a project page
-(as for the [demo](https://github.com/jekyllt/jasper2/tree/gh-pages)).
+Contributions are welcome! If you would like to contribute or write articles to help keep everyone updated on the latest advancements, please follow these steps:
 
-For option **3)** you will need to set up travis-ci for your personal fork. Briefly all you
-need then is to change your details in *[\_config.yml](_config.yml)* so that you can push
-to your github repo. You will also need to generate a secure key to add to your
-*[.travis.yml](.travis.yml)* (you can find more info on how to do it in that file).
-Also make sure you read the documentation from
-[jekyll-travis](https://github.com/mfenner/jekyll-travis). This approach has clear
-advantages in that you simply push your file changes to GitHub and all the HTML files
-are generated for you and pushed to *gh-pages*. Also you get to know if everything is
-still fine with your site builds. Don't hesitate to contact me if you still have any
-issues (see below about issue tracking).
+### New Articles
 
-### Author Pages
+1. Write the article.
+2. Send me an email with the article included, and I will handle the rest!
 
-In order to properly generate author pages you need to rename the field *author* in the
-front matter of every post to match that of your each author's *username* as defined
-in the *[\_data/authors.yml](_data/authors.yml)* file.
-With the latest update, multiple author blogs are now supported out of the box.
+### New Features and Suggestions
 
-### Compiling Styles
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
 
-Following on the way Casper styles are compiled as [described here](https://github.com/tryghost/casper#development):
+Please ensure your code follows the project's coding standards and includes proper documentation.
 
-Jasper2 styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need Node and Gulp installed globally. After that, from the theme's root directory:
+## License
 
-```bash
-$ npm install
-$ gulp
-```
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/` automatically.
+## Contact
 
-## Issues and Contributing
+If you have any questions or would like to get in touch, please contact me at [themis.kavour@icloud.com](mailto:themis.kavour@icloud.com).
 
-This install builds well with Ruby v2.6.3 and Jekyll v3.9.0. If you run into any problems
-please log them on the [issue tracker](https://github.com/jekyllt/jasper2/issues).
-
-Feel free pull-request your patches and fixes.
-
-## Thanks
-
-Many thanks to the Ghost team for all the design work. Also many thanks to all contributors,
-that help keeping the project alive and updated :smile:
-
-
-## Copyright & License
-
-Same licence as the one provided by Ghost's team. See Casper's theme [license](GHOST.txt).
-
-Copyright (C) 2015-2021 - Released under the MIT License.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Thank you for visiting my site and repository!
