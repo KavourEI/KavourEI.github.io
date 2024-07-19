@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-07-18T15:48:40+03:00</updated>
+  <updated>2024-07-19T15:33:13+03:00</updated>
   <id>http://localhost:4000/tag/news/feed.xml</id>
 
   
@@ -44,6 +44,63 @@
   
   
 
+  
+    <entry>
+      <title type="html">GPT 4o Mini - Advancing cost-efficient intelligence</title>
+      <link href="http://localhost:4000/GPT4oMini" rel="alternate" type="text/html" title="GPT 4o Mini - Advancing cost-efficient intelligence" />
+      <published>2024-07-18T00:00:00+03:00</published>
+      <updated>2024-07-18T00:00:00+03:00</updated>
+      <id>http://localhost:4000/GPT4oMini</id>
+      <content type="html" xml:base="http://localhost:4000/GPT4oMini">&lt;p&gt; In the official &lt;a href=&quot;https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/&quot;&gt;announcement&lt;/a&gt;, OpenAI, has introduced GPT-4o Mini, a new iteration in the GPT-4 series designed to deliver high-quality AI performance while being significantly more cost-effective. This latest model aims to make advanced AI capabilities more accessible and affordable for a wider range of applications and users.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Features of GPT-4o Mini:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt; &lt;strong&gt;Cost Efficiency&lt;/strong&gt;: GPT-4o Mini is engineered to reduce operational costs without compromising on the quality of output. This makes it an ideal solution for businesses and developers seeking budget-friendly AI solutions.  We can see that GPT-4o mini is more than 60% cheaper than GPT-3.5 Turbo, priced at 15¢ per 1M input tokens and 60¢ per 1M output tokens (roughly the equivalent of 2500 pages in a standard book).&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Compact Size, High Performance&lt;/strong&gt;: Despite its smaller footprint, GPT-4o Mini maintains robust performance metrics, ensuring that users can still leverage the powerfol capabilities of the GPT-4 architecture. It is stated in the official announcement that GPT-4o mini outperforms GPT-2.5 Turbo in textual intelligence-scoring 82% on MMLU compared to 69.8% and multimodal reasoning&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Versatility&lt;/strong&gt;: The model is designed to cater to various applications, from customer service bots and content generation to complex data analysis, proving its adaptability across different sectors.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Accessibility&lt;/strong&gt;: By lowering the cost barrier, OpenAI aims to democratize AI technology, making it more accessible to startups, small businesses, and educational institutions.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Environmental Impact&lt;/strong&gt;: The efficient design of GPT-4o Mini also translates to lower energy consumption, aligning with sustainable practices and reducing the carbon footprint of AI operations.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Modalities&lt;/strong&gt;: GPT-4o mini currently supports text and vision capabilities, and the team stated that it is planned to add support for audio and video inputs and outputs in the future.
+&lt;li&gt; &lt;strong&gt;Language&lt;/strong&gt;:  GPT-4o mini has improved multilingual understanding over GPT-3.5 Turbo across a wide range of non-English languages. Take a second and test your own mother tongue it may surprise you positively!
+&amp;lt;/ol&amp;gt;
+
+&lt;p&gt; Other than that &lt;a href=&quot;https://community.openai.com/u/jeffsharris/summary&quot;&gt;jeffsharris&lt;/a&gt; (OpenAI Staff) stated that:
+
+&lt;em&gt;Like GPT-4o, GPT-4o mini has a 128k context window and a knowledge cut-off date of October 2023. It also supports up to 16,384 max_tokens 82.
+
+We plan to launch fine-tuning for GPT-4o mini in the coming days. You can learn more about GPT-4o mini in our &lt;a href=&quot;https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence&quot;&gt;announcement blog&lt;/a&gt; 659 and &lt;a href=&quot;http://platform.openai.com/docs/models/gpt-4o-mini&quot;&gt;API documentation&lt;/a&gt; 532, or by testing the model in &lt;a href=&quot;https://platform.openai.com/playground/chat?models=gpt-4o-mini&quot;&gt;Playground&lt;/a&gt; 90. Excited to hear what you think! &lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This release marks a significant step in OpenAI's mission to provide powerfol, efficient, and accessible AI tools, empowering more users to harness the potential of artificial intelligence in their respective fields.&lt;/p&gt;
+
+&lt;p&gt; For those of you using OpenAI models through Azure, worry not, in &lt;a href=&quot;https://azure.microsoft.com/en-us/blog/openais-fastest-model-gpt-4o-mini-is-now-available-on-azure-ai/&quot;&gt; this announcement&lt;/a&gt; that was published on 18th of July 2024, Microsoft has announced the availability of OpenAI's latest and fastest model, GPT-4o Mini, on Azure AI. This integration brings the advanced capabilities of GPT-4o Mini to Azure users, offering enhanced performance and cost efficiency. This collaboration between Microsoft and OpenAI underscores a commitment to making advanced AI more accessible and affordable, empowering businesses to innovate and optimize their operations with the latest AI tools.&lt;/p&gt;
+&lt;/li&gt;&lt;/li&gt;&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">In the official announcement, OpenAI, has introduced GPT-4o Mini, a new iteration in the GPT-4 series designed to deliver high-quality AI performance while being significantly more cost-effective. This latest model aims to make advanced AI capabilities more accessible and affordable for a wider range of applications and users.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">MInference</title>
@@ -266,52 +323,6 @@
     </entry>
   
     <entry>
-      <title type="html">NVIDIA announced Nemotron 340B</title>
-      <link href="http://localhost:4000/NVIDIARelease" rel="alternate" type="text/html" title="NVIDIA announced Nemotron 340B" />
-      <published>2024-06-14T00:00:00+03:00</published>
-      <updated>2024-06-14T00:00:00+03:00</updated>
-      <id>http://localhost:4000/NVIDIARelease</id>
-      <content type="html" xml:base="http://localhost:4000/NVIDIARelease">&lt;p&gt;Nemotron-4 340B, a family of models optimized for NVIDIA NeMo and NVIDIA TensorRT-LLM, includes cutting-edge instruct and reward models, and a dataset for generative AI training.&lt;/p&gt;
-
-&lt;p&gt;NVIDIA on 14th of June, announced Nemotron-4 340B, a family of open models that developers can use to generate synthetic data for training large language models (LLMs) for commercial applications across healthcare, finance, manufacturing, retail and every other industry. &lt;/p&gt;
-
-&lt;p&gt;High-quality training data plays a critical role in the performance, accuracy and quality of responses from a custom LLM — but robust datasets can be prohibitively expensive and difficult to access. &lt;/p&gt;
-
-&lt;p&gt;Through a uniquely permissive open model license, Nemotron-4 340B gives developers a free, scalable way to generate synthetic data that can help build powerful LLMs.&lt;/p&gt;
-
-&lt;p&gt;The Nemotron-4 340B family includes base, instruct and reward models that form a pipeline to generate synthetic data used for training and refining LLMs. The models are optimized to work with NVIDIA NeMo, an open-source framework for end-to-end model training, including data curation, customization and evaluation. They’re also optimized for inference with the open-source NVIDIA TensorRT-LLM library. &lt;/p&gt;
-
-&lt;p&gt;Nemotron-4 340B can be downloaded now from the NVIDIA NGC catalog and Hugging Face. Developers will soon be able to access the models at ai.nvidia.com, where they’ll be packaged as an NVIDIA NIM microservice with a standard application programming interface that can be deployed anywhere.&lt;/p&gt;
-
-&lt;p&gt;If you want to find out more go to the &lt;a href=&quot;https://blogs.nvidia.com/blog/nemotron-4-synthetic-data-generation-llm-training/&quot;&gt;official blog of NVIDIA&lt;/a&gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">Nemotron-4 340B, a family of models optimized for NVIDIA NeMo and NVIDIA TensorRT-LLM, includes cutting-edge instruct and reward models, and a dataset for generative AI training.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">Google open Project</title>
       <link href="http://localhost:4000/GoogleProjectIDX" rel="alternate" type="text/html" title="Google open Project" />
       <published>2024-06-14T00:00:00+03:00</published>
@@ -358,6 +369,52 @@
 
       
         <summary type="html">During the Google I/O 2024 developer conference, Google revealed that Project IDX, its next-generation, AI-powered browser-based development environment, is now in open beta. Initially introduced in August as an invite-only service, Project IDX has already been tested by over 100,000 developers.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">NVIDIA announced Nemotron 340B</title>
+      <link href="http://localhost:4000/NVIDIARelease" rel="alternate" type="text/html" title="NVIDIA announced Nemotron 340B" />
+      <published>2024-06-14T00:00:00+03:00</published>
+      <updated>2024-06-14T00:00:00+03:00</updated>
+      <id>http://localhost:4000/NVIDIARelease</id>
+      <content type="html" xml:base="http://localhost:4000/NVIDIARelease">&lt;p&gt;Nemotron-4 340B, a family of models optimized for NVIDIA NeMo and NVIDIA TensorRT-LLM, includes cutting-edge instruct and reward models, and a dataset for generative AI training.&lt;/p&gt;
+
+&lt;p&gt;NVIDIA on 14th of June, announced Nemotron-4 340B, a family of open models that developers can use to generate synthetic data for training large language models (LLMs) for commercial applications across healthcare, finance, manufacturing, retail and every other industry. &lt;/p&gt;
+
+&lt;p&gt;High-quality training data plays a critical role in the performance, accuracy and quality of responses from a custom LLM — but robust datasets can be prohibitively expensive and difficult to access. &lt;/p&gt;
+
+&lt;p&gt;Through a uniquely permissive open model license, Nemotron-4 340B gives developers a free, scalable way to generate synthetic data that can help build powerful LLMs.&lt;/p&gt;
+
+&lt;p&gt;The Nemotron-4 340B family includes base, instruct and reward models that form a pipeline to generate synthetic data used for training and refining LLMs. The models are optimized to work with NVIDIA NeMo, an open-source framework for end-to-end model training, including data curation, customization and evaluation. They’re also optimized for inference with the open-source NVIDIA TensorRT-LLM library. &lt;/p&gt;
+
+&lt;p&gt;Nemotron-4 340B can be downloaded now from the NVIDIA NGC catalog and Hugging Face. Developers will soon be able to access the models at ai.nvidia.com, where they’ll be packaged as an NVIDIA NIM microservice with a standard application programming interface that can be deployed anywhere.&lt;/p&gt;
+
+&lt;p&gt;If you want to find out more go to the &lt;a href=&quot;https://blogs.nvidia.com/blog/nemotron-4-synthetic-data-generation-llm-training/&quot;&gt;official blog of NVIDIA&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Nemotron-4 340B, a family of models optimized for NVIDIA NeMo and NVIDIA TensorRT-LLM, includes cutting-edge instruct and reward models, and a dataset for generative AI training.</summary>
       
 
       
@@ -463,60 +520,6 @@
 
       
         <summary type="html">Tool use, which enables Claude to interact with external tools and APIs, is now generally available across the entire Claude 3 model family on the Anthropic Messages API, Amazon Bedrock, and Google Cloud's Vertex AI. With tool use, Claude can perform tasks, manipulate data, and provide more dynamic—and accurate—responses.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Microsoft unveils Copilot + PCs, new Phi-3 models + Vision</title>
-      <link href="http://localhost:4000/MicrosoftAnnouncementsCopilot" rel="alternate" type="text/html" title="Microsoft unveils Copilot + PCs, new Phi-3 models + Vision" />
-      <published>2024-05-23T00:00:00+03:00</published>
-      <updated>2024-05-23T00:00:00+03:00</updated>
-      <id>http://localhost:4000/MicrosoftAnnouncementsCopilot</id>
-      <content type="html" xml:base="http://localhost:4000/MicrosoftAnnouncementsCopilot">&lt;p&gt;As stated &lt;a href=&quot;https://ai.azure.com/explore/models/Phi-3-vision-128k-instruct/version/2/registry/azureml?tid=c2beb3f8-6ade-48ce-8e7d-6be943f1fbf7#overview&quot;&gt;here&lt;/a&gt;:
-
-Phi-3 Vision is a lightweight, state-of-the-art open multimodal model built upon datasets which include - synthetic data and filtered publicly available websites - with a focus on very high-quality, reasoning dense data both on text and vision. The model belongs to the Phi-3 model family, and the multimodal version comes with 128K context length (in tokens) it can support. The model underwent a rigorous enhancement process, incorporating both supervised fine-tuning and direct preference optimization to ensure precise instruction adherence and robust safety measures.&lt;/p&gt;
-
-&lt;p&gt;Resources and Technical Documentation: 
-&lt;ul&gt;
-&lt;li&gt; &lt;a href=&quot;https://aka.ms/phi3blog-april&quot;&gt;Phi-3 Microsoft Blog&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt; &lt;a href=&quot;https://aka.ms/phi3-tech-report&quot;&gt;Phi-3 Technocal Report&lt;/a&gt; &lt;li&gt;
-&amp;lt;/ul&amp;gt;&amp;lt;/p&amp;gt;
-
-&lt;p&gt;Moving forward, Microsoft has unveiled an ambitious new direction for its laptops, focusing on cutting-edge AI features that require a Neural Processing Unit (NPU). The new Copilot+ PCs badge designates approved AI-ready laptops, currently limited to models with Qualcomm Snapdragon X processors. While these laptops are not yet available, many are expected to hit the market soon.&lt;/p&gt;
-
-&lt;p&gt;Microsoft emphasizes efficiency, value, and a new keyboard button as key elements of this new computing wave. This initiative aims to make AI PCs a significant and practical reality, bringing attention to Windows on Arm. As previously speculated, Microsoft is integrating its Copilot AI directly on local computers. Here’s a comprehensive overview of what we know from Microsoft’s Copilot+ PC press conference and prior information. 
-
-Let's take a moment and watch the promotion video created by Microsoft.&lt;/p&gt;
-
-&lt;iframe width=&quot;799&quot; height=&quot;449&quot; src=&quot;https://www.youtube.com/embed/5JmkWJNng2I&quot; title=&quot;Introducing Copilot+ PCs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;So, what do you think about it? Amazed or feeling neutral according to the advancements and given the fact that Apple, Microsoft's rival, used NPU for first time at 2017 and at Microsoft the first usaged is recorded on 2021? Overall, my opinion is that we can get a lot out of this by using it properly. The future is exciting and I can't wait to see what may come!&lt;/p&gt;
-
-&lt;/li&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">As stated here:</summary>
       
 
       
