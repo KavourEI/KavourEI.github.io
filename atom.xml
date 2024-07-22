@@ -8,9 +8,10 @@
     
       
       <item>
-        <title>Rag1</title>
+        <title>Introduction to RAG models</title>
         
-          <description>
+          <description>&lt;p&gt; Firstly, in case you don't know what is RAG here is an unofficial explanation. Imagine you’re on a treasure hunt, but instead of a dusty old map, you’ve got a genius guide who knows every hidden corner. That’s RAG, short for &lt;strong&gt;Retrieval-Augmented Generation&lt;/strong&gt;. It’s like having a super-smart friend who fetches the most relevant bits of knowledge from a massive library (the retrieval part) and then crafts a perfectly tailored response just for you (the generation part). So, if your brain is a bit like a rusty old filing cabinet, think of RAG as your personal, turbo-charged librarian who’s always got the answer before you can say &quot;Google it!&quot;&lt;/p&gt;
+
 </description>
         
         <pubDate>Mon, 22 Jul 2024 00:00:00 +0300</pubDate>

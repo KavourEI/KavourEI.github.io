@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/project/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-07-22T18:13:16+03:00</updated>
+  <updated>2024-07-22T18:18:27+03:00</updated>
   <id>http://localhost:4000/tag/project/feed.xml</id>
 
   
@@ -294,11 +294,11 @@ Image width: 1148
 img_as_array = np.asarray(img)
 plt.figure(figsize=(10, 7))
 plt.imshow(img_as_array)
-plt.title(f&quot;Image class: {image_class} | Image shape: {img_as_array.shape} -&gt; [height, width, color_channels]&quot;)
+plt.title(f&quot;Image class: {image_class} | Image shape: {img_as_array.shape} -&amp;gt; [height, width, color_channels]&quot;)
 plt.axis(False)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/jingle_no_jingle/sample_pic.png&quot; alt=&quot;Sample_Santa&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/jingle_no_jingle/sample_pic.png&quot; alt=&quot;Sample_Santa&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Upon closer inspection, you'll observe that the included images exhibit varying dimensions. This variability demands attention to enhance our model's efficacy. Consequently, we'll implement specific transformations. Initially, we'll standardize all images to a uniform size of 64 by 64. Following this, we'll introduce random flips with a 50% probability for certain images. This strategic move aims to prevent the model from fixating on the horizontal direction as a defining feature of Santa, ensuring a more robust learning process. Lastly, to seamlessly integrate these images into our model, we'll convert them into tensors.&lt;/p&gt;
 
@@ -321,7 +321,6 @@ test_data = datasets.ImageFolder(root=test_dir,
 
 print(f&quot;Train data:\n{train_data}\nTest data:\n{test_data}&quot;)
 &lt;/code&gt;&lt;/pre&gt;
-
 
 &lt;p&gt;In the upcoming lines, we'll establish the image classes present in the training and testing folders. As you might anticipate, these classes are none other than Santa and Not Santa!&lt;/p&gt;
 
@@ -503,7 +502,6 @@ The libraries that we are going to use.&lt;/h2&gt;
   library(tidytext)
 &lt;/code&gt;&lt;/pre&gt;
 
-
 &lt;p&gt; As you can see we are going to use:
 &lt;ul&gt;
 &lt;li&gt; &lt;strong&gt;tidyverse&lt;/strong&gt; library: in order to manipulate data. This library will load all the excited and Wonderfull constructed parts of this universe a.k.a. ggplot, dplyr, tidyr, purrr, stringr, etc. You can accomplish great manipulation goals by using those libraries!&lt;/li&gt;
@@ -519,7 +517,7 @@ The libraries that we are going to use.&lt;/h2&gt;
 &lt;p&gt;We will now move forward to the step which in my opinion is the most important in a  process of model building. This step if neglected or completed recklessly, can result in a model that would not perform as expected and most certainly, would not give us back the results as expected. Anyways, in order to be able to complete this step, we need to have data to preprocess. We load the data downloaded as follows :&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  bbc &lt;- read.csv('/Users/...your_path.../bbc_news.csv', stringsAsFactors = FALSE)
+  bbc &amp;lt;- read.csv('/Users/...your_path.../bbc_news.csv', stringsAsFactors = FALSE)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The data as you may have already have seen, contain the following variables:
@@ -534,14 +532,14 @@ Initially, I would like to apologise of the explanations on guid and link variab
 &lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  bbc2 &lt;- bbc %&gt;% 
+  bbc2 &amp;lt;- bbc %&amp;gt;% 
   select(title, description)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;As a first toward preprocessing we are going to convert this dataset into a corpus. Corpus is a collection of data (text or audio) which are organised as dataset.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  bbc.corpus &lt;- corpus(bbc2, text_field = 'description')
+  bbc.corpus &amp;lt;- corpus(bbc2, text_field = 'description')
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt; Next in line are the changes that needed to be done in the given dataset. Namely, we need to tokenize that dataset. Apart from that we need to remove punctuation as the special characters do not contain and relevant information for topic indications. For the same reasons, we need to remove the numbers and of course the stopwords&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;  of English language.  &lt;/p&gt;
@@ -551,20 +549,20 @@ Initially, I would like to apologise of the explanations on guid and link variab
 &lt;p&gt;Finally, we are going to convert the whole corpus to lower characters. This is done so that the model will not judge same words like Legislation and legislation as two different words only for the first letter. Those steps are completed with the following commands:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  bbc.corpus.tokens &lt;- tokens(bbc.corpus, remove_punct = TRUE, remove_numbers = TRUE)
-  bbc.corpus.tokens &lt;- tokens_remove(bbc.corpus.tokens, stopwords(&quot;english&quot;))
-  bbc.corpus.tokens &lt;- tokens_wordstem(bbc.corpus.tokens, language = 'english')
-  bbc.corpus.tokens &lt;- tokens_tolower(bbc.corpus.tokens)
+  bbc.corpus.tokens &amp;lt;- tokens(bbc.corpus, remove_punct = TRUE, remove_numbers = TRUE)
+  bbc.corpus.tokens &amp;lt;- tokens_remove(bbc.corpus.tokens, stopwords(&quot;english&quot;))
+  bbc.corpus.tokens &amp;lt;- tokens_wordstem(bbc.corpus.tokens, language = 'english')
+  bbc.corpus.tokens &amp;lt;- tokens_tolower(bbc.corpus.tokens)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;At this point your object bbc.corpus.tokens should look like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_1.png&quot; alt=&quot;bbc.corpus.tokens&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_1.png&quot; alt=&quot;bbc.corpus.tokens&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Finally, we are going to create a sparse &lt;strong&gt;document-feature matrix&lt;/strong&gt; with the &lt;em&gt;dfm&lt;/em&gt; function. This is needed in order for LDA function to work.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  dfm_bbc &lt;- dfm(bbc.corpus.tokens)
+  dfm_bbc &amp;lt;- dfm(bbc.corpus.tokens)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;That is all for the preprocessing step. Before moving to the next step which the model building, I feel the need to tell you the following. NLP preprocessing depends on the context of data that you have and the goal you want to achieve. You really need to think this through. In our case, you will see some words later on like the word &lt;mark&gt;say&lt;/mark&gt; or &lt;mark&gt;seem&lt;/mark&gt;, that you may think it is better to remove after the first results due to the fact that those words appear in many topic groups. This may result in a more thorough view of your groups. If this is your goal, this is fine way to go. Therefore, If your goal is to make this model let's say more general and try to predict other text data with it I advise you to think it twice, which words should be removed, which should stay and what is the reason and result of such action.&lt;/p&gt;
@@ -587,9 +585,9 @@ Initially, I would like to apologise of the explanations on guid and link variab
 &lt;p&gt;Of course apart from those, there are other arguments that you may want/need to tune but the least required so that we proceed are the aforementioned ones. So before running our model, I am going to search the number of topics with the help of ldatuning::FindTopicNumber() function as I indicated earlier. Initially we need to convert our dfm to an object of class DocumentTermMatrix as described earlier.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  new.dtm &lt;- convert(dfm_bbc, to = 'topicmodels')
+  new.dtm &amp;lt;- convert(dfm_bbc, to = 'topicmodels')
 
-  result &lt;- FindTopicsNumber(
+  result &amp;lt;- FindTopicsNumber(
     new.dtm,
     topics = seq(from = 2, to = 15, by = 1),
     metrics = c(&quot;Griffiths2004&quot;, &quot;CaoJuan2009&quot;, &quot;Arun2010&quot;, &quot;Deveaud2014&quot;),
@@ -602,7 +600,7 @@ Initially, I would like to apologise of the explanations on guid and link variab
 
 &lt;p&gt;Due to the seed, this should result to the following metrics matrix:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_2.png&quot; alt=&quot;results&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_2.png&quot; alt=&quot;results&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The package &lt;em&gt;ldatuning&lt;/em&gt; provide to us a way to visually check the results with the usage of the function &lt;em&gt;FindTopicsNumber_plot&lt;/em&gt;:&lt;/p&gt;
 
@@ -610,7 +608,7 @@ Initially, I would like to apologise of the explanations on guid and link variab
   FindTopicsNumber_plot(result)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_3.png&quot; alt=&quot;find_topics_number&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_3.png&quot; alt=&quot;find_topics_number&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Our goal here, as you can see is to choose K-candidate (number of topics) that either maximise the bottom or minimise the top. I am not going to go through the metrics and how they are calculated but I will leave a reference at the end if you are interested. From the results produces (mainly the plot 🫥) the best candidate is K=3. This is obtained by the CaoJuan2009 metric. I have excluded the usage of the other three due to the fact that they do not converge. Here I am aiming for results on the level of field like politics, sports etc. If you would like more detailed clustering, for example foreign policy, domestic policy, soccer, basketball, etc then I advise you to search for 20 or even higher number of topics. &lt;/p&gt;
 
@@ -634,25 +632,25 @@ Initially, I would like to apologise of the explanations on guid and link variab
 &lt;p&gt;Perplexity and Coherence have their pros and cons. Here we are going to use perplexity to continue. Coherence is not hard to be computed though (hint use topic_coherence of package topicdoc). Here for the perplexity, I have decided to create two vectors with some of  possible values of alpha and beta and then compute all the perplexity values for a set of test data. The computations and results are the following&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  alpha_values &lt;- seq(from =0.1,to = 1, by = 0.1)
+  alpha_values &amp;lt;- seq(from =0.1,to = 1, by = 0.1)
   alpha_values
-  beta_values &lt;- seq(from =0.1,to = 1, by = 0.1)
+  beta_values &amp;lt;- seq(from =0.1,to = 1, by = 0.1)
   beta_values
   
-  n &lt;- length(alpha_values)
-  result_matrix &lt;- matrix(0, n * n, 3)
+  n &amp;lt;- length(alpha_values)
+  result_matrix &amp;lt;- matrix(0, n * n, 3)
   
-  row_num &lt;- 1
+  row_num &amp;lt;- 1
   for (i in 1:n) {
     for (j in 1:n) {
-      result_matrix[row_num, 1] &lt;- alpha_values[i]
-      result_matrix[row_num, 2] &lt;- beta_values[j]
+      result_matrix[row_num, 1] &amp;lt;- alpha_values[i]
+      result_matrix[row_num, 2] &amp;lt;- beta_values[j]
       
-      m &lt;- LDA(train_dtm, k=3, method = 'Gibbs', control = list(alpha = alpha_values[i], seed = 1234), beta = beta_values[j])
-      perp.value &lt;- perplexity(m, test_dtm)
+      m &amp;lt;- LDA(train_dtm, k=3, method = 'Gibbs', control = list(alpha = alpha_values[i], seed = 1234), beta = beta_values[j])
+      perp.value &amp;lt;- perplexity(m, test_dtm)
       
-      result_matrix[row_num, 3] &lt;- perp.value
-      row_num &lt;- row_num + 1
+      result_matrix[row_num, 3] &amp;lt;- perp.value
+      row_num &amp;lt;- row_num + 1
     }
   }
 &lt;/code&gt;&lt;/pre&gt;
@@ -665,7 +663,7 @@ Initially, I would like to apologise of the explanations on guid and link variab
 
 and the result till this point should be :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_4.png&quot; alt=&quot;ResList&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_4.png&quot; alt=&quot;ResList&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We see here the setting for hyperparameter alpha is 0.2 whereas for beta according to perplexity measure it makes no difference. Recall the meaning of them and try to understand what 0.2 means.&lt;/p&gt;
 &lt;p&gt;As a result, we are ready to build our model according to those settings and proceed to the final act of this article where we will review the results of it.&lt;/p&gt;
@@ -675,59 +673,59 @@ and the result till this point should be :&lt;/p&gt;
 &lt;p&gt;After having gathered all the information needed and went through all required preprocessing step it is time to build the model. This is done with the help of &lt;em&gt;LDA&lt;/em&gt; function of package &lt;em&gt;topicmodels&lt;/em&gt;. &lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  model.lda &lt;- LDA(new.dtm, k = 3, method = &quot;Gibbs&quot;, control = list(alpha = 0.2, seed = 1234))
+  model.lda &amp;lt;- LDA(new.dtm, k = 3, method = &quot;Gibbs&quot;, control = list(alpha = 0.2, seed = 1234))
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;From this point and on, you can check many very interesting statistics like the per-topic-per-word probability &lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  news.topics &lt;- tidy(m_final, matrix = 'beta')
+  news.topics &amp;lt;- tidy(m_final, matrix = 'beta')
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;where you can see what is the probability of each word belonging to a topic:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topc_bbc_5.png&quot; alt=&quot;topic_term_beta&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topc_bbc_5.png&quot; alt=&quot;topic_term_beta&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;or the top terms per topic in order to draw conclusions on the actual humanly communicated context of topic&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  top.terms &lt;- news.topics %&gt;% 
-    group_by(topic) %&gt;% 
-    top_n(5) %&gt;% 
-    ungroup() %&gt;% 
+  top.terms &amp;lt;- news.topics %&amp;gt;% 
+    group_by(topic) %&amp;gt;% 
+    top_n(5) %&amp;gt;% 
+    ungroup() %&amp;gt;% 
     arrange(topic, -beta)
 
-  top.terms %&gt;% 
-    mutate(term = reorder(term, beta)) %&gt;% 
+  top.terms %&amp;gt;% 
+    mutate(term = reorder(term, beta)) %&amp;gt;% 
     ggplot(aes(term, beta, fill = factor(topic))) +
     geom_col(show.legend = TRUE) +
     facet_wrap(~ topic, scales = 'free') +
     coord_flip()
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_6.png&quot; alt=&quot;term_beta&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_6.png&quot; alt=&quot;term_beta&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can see here the word say that I mentioned in the beginning... 😉 Here we can get an idea about each topic that the model clustered our BBC news data. I would say, a topic about sports, a topic about news related to Ukraine, and a topic of domestic (UK) news. Finally I would like you to copy paste this final part of chunk, and check out the result!&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  new.dtm.2 &lt;- new.dtm[slam::row_sums(new.dtm) &gt; 0, ]
-  phi &lt;- as.matrix(posterior(m_final)$terms)
-  theta &lt;- as.matrix(posterior(m_final)$topics)
-  vocab &lt;- colnames(phi)
-  doc.length &lt;- slam::row_sums(new.dtm)
-  term.freq &lt;- slam::col_sums(new.dtm)[match(vocab, colnames(new.dtm))]
+  new.dtm.2 &amp;lt;- new.dtm[slam::row_sums(new.dtm) &amp;gt; 0, ]
+  phi &amp;lt;- as.matrix(posterior(m_final)$terms)
+  theta &amp;lt;- as.matrix(posterior(m_final)$topics)
+  vocab &amp;lt;- colnames(phi)
+  doc.length &amp;lt;- slam::row_sums(new.dtm)
+  term.freq &amp;lt;- slam::col_sums(new.dtm)[match(vocab, colnames(new.dtm))]
   
-  json &lt;- createJSON(phi = phi, theta = theta, vocab = vocab, doc.length = doc.length, term.frequency = term.freq)
+  json &amp;lt;- createJSON(phi = phi, theta = theta, vocab = vocab, doc.length = doc.length, term.frequency = term.freq)
   serVis(json)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_7.png&quot; alt=&quot;LDAvis_res&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_7.png&quot; alt=&quot;LDAvis_res&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This chunk will create an interactive app as the following where you can explore the capabilities available there. You can check out all the words that are included in every topic.&lt;/p&gt;
 
 &lt;p&gt;Overall, I believe that you have a good idea and all the tools to start exploring LDA yourself. I hope you've enjoyed the implementation presented here. Feel free to copy paste any part of the code, insert your data and explore nlp world from a different perspective.&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;Be safe, code safer!&lt;/p&gt;</content>
 
@@ -808,7 +806,7 @@ and the result till this point should be :&lt;/p&gt;
 
 &lt;p&gt;Having understood the fundamentals I believe that is time to try and explore how LDA woks and go through the process itself. The structure of LDA is the following:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/lda_fund/lda_basic_1&quot; alt=&quot;lda_model_architecture&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/lda_fund/lda_basic_1&quot; alt=&quot;lda_model_architecture&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;where:
 &lt;ul&gt;
@@ -854,7 +852,8 @@ and the result till this point should be :&lt;/p&gt;
 
 &lt;p&gt;I believe that you now have a solid idea about topic modelling, how LDA process works and what is the meaning of every part of it. In the future I am going to come back with an example on LDA computed probably with the help of R programming Language, so stay tuned!&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
+
 &lt;p&gt;Be safe, code safer!&lt;/p&gt;</content>
 
       
@@ -912,7 +911,6 @@ and the result till this point should be :&lt;/p&gt;
 &lt;p&gt;How to decide the number of the layers?&lt;/p&gt;
 &lt;/blockquote&gt;
 
-
 &lt;p&gt;To be honest, there is no solid way or any rule of thumb to calculate the number of layers needed for any type of problem you are trying to solve. As a result, deciding on the number of layers can be a challenging task. However, there are some general guidelines that can help:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -932,7 +930,6 @@ and the result till this point should be :&lt;/p&gt;
 
 &lt;p&gt;If you search for information on determining the optimal number of neurons per layer in a neural network, you may come across several &quot;rules of thumb&quot; that suggest a range of options. While these rules can provide a starting point, it's important to remember that the optimal solution may vary depending on the specific problem you are trying to solve. Therefore, it's important to also consider other factors such as the complexity of the problem, available resources, and experimentation with different architectures.&lt;/p&gt;
 
-
 &lt;ul&gt;
 &lt;li&gt; The number of hidden neurons should be between the size of the input layer and the size of the output layer. &lt;/li&gt;
 &lt;li&gt; The number of the neurons should be 2/3 the size of the input layer, plus the size of the output layer. &lt;/li&gt;
@@ -948,10 +945,11 @@ and the result till this point should be :&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Cool cool cool.. No doubt.. How do we pass through the neurons and layers?&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;iframe src=&quot;https://giphy.com/embed/XAdbHJywVjF5K&quot; width=&quot;480&quot; height=&quot;274&quot; frameBorder=&quot;0&quot; class=&quot;giphy-embed&quot; allowFullScreen&gt;&lt;/iframe&gt;&lt;p&gt;&lt;a href=&quot;https://giphy.com/gifs/someone-gwen-stefani-XAdbHJywVjF5K&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src=&quot;https://giphy.com/embed/XAdbHJywVjF5K&quot; width=&quot;480&quot; height=&quot;274&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;https://giphy.com/gifs/someone-gwen-stefani-XAdbHJywVjF5K&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;For those two or three..&lt;/p&gt;
 
-&lt;img src = &quot;https://giphy.com/embed/XAdbHJywVjF5K&quot;/&gt;
+&lt;p&gt;&lt;img src=&quot;https://giphy.com/embed/XAdbHJywVjF5K&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I am glad you asked.. (Did you? Hopefully you did, or I am hearing voices 👻). If you recall from the &lt;a href=&quot;https://kavourei.github.io/neural_network_intro&quot;&gt;introductory post&lt;/a&gt; of this series, we mentioned the activation functions which we shall discuss later in this post, but I have not mentioned at all the work backpropagation though you may have come across in some posts. &lt;/p&gt;
 
@@ -995,7 +993,7 @@ library(sigmoid)
 &lt;p&gt;Moving forward we are going to load the data for the first example, the concrete one.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-data1_init &lt;- read.csv('/Users/.../concrete.csv')
+data1_init &amp;lt;- read.csv('/Users/.../concrete.csv')
 
 str(data1_init)
 &lt;/code&gt;&lt;/pre&gt;
@@ -1010,10 +1008,10 @@ str(data1_init)
 &lt;p&gt;Let's define our normalisation function, which will be clearer how the process works and then apply the normalisation function to the data imported:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-custom_norm &lt;- function(x){
+custom_norm &amp;lt;- function(x){
   return((x-min(x))/(max(x)-min(x)))
 }
-data1_norm &lt;- as.data.frame(lapply(data1_init, custom_norm))
+data1_norm &amp;lt;- as.data.frame(lapply(data1_init, custom_norm))
 
 str(data1_norm)
 &lt;/code&gt;&lt;/pre&gt;
@@ -1022,12 +1020,12 @@ str(data1_norm)
 
 &lt;pre&gt;&lt;code&gt;
 set.seed(1)
-trainIndex &lt;- createDataPartition(data1_norm$strength,
+trainIndex &amp;lt;- createDataPartition(data1_norm$strength,
                                   p = 0.7,
                                   list = FALSE,
                                   times = 1) 
-data1_train &lt;- data1_norm[trainIndex,]
-data1_test &lt;- data1_norm[-trainIndex,]
+data1_train &amp;lt;- data1_norm[trainIndex,]
+data1_test &amp;lt;- data1_norm[-trainIndex,]
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;I use here the &lt;em&gt;set.seed(1)&lt;/em&gt; so that if you copy and paste the code chunks you end up with the same results as me. The creatDataPartition help us create index to take the train and test sample according to the vector we will use as outcome. The second argument is used to define the amount of data we will split the data upon, here we use 70%.&lt;/p&gt;
@@ -1035,17 +1033,17 @@ data1_test &lt;- data1_norm[-trainIndex,]
 &lt;p&gt;Guess what time it is.. To build our first model. We are going to build the simplest model possible to start with and get an idea. We will use the function &lt;em&gt;neuralnet&lt;/em&gt;. As the first argument, we define the data that we take the features from and then address the formula. Before the tilde ( '~' ) we define the output variable to be predicted and in the right of it we define the input features. By adding the dot, we indicate to the model to use all the other features available.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-conc_model1 &lt;- neuralnet(data = data1_train, strength ~ .)
+conc_model1 &amp;lt;- neuralnet(data = data1_train, strength ~ .)
 plot(conc_model1)
 &lt;/code&gt;&lt;/pre&gt;
-	
+
 &lt;p&gt;This is our first Neural Network. Here we see the input layer (all the dots to the right), with the weights each feature is measured with the help of BP, the hidden layer (1) in the middle, where the logarithmic activation function is used (by default in neuralnet) and th outcome where layer. Bellow we can see the Error (which is the sum of squared errors (&lt;strong&gt;SSE&lt;/strong&gt;)) and the number of training steps required for the model to converge.&lt;/p&gt;
 
 &lt;p&gt;In order to evaluate our first NN, we continue as listed below:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-conc_results1 &lt;- compute(conc_model1, data1_test[1:8])
-conc_pred1 &lt;- conc_results1$net.result
+conc_results1 &amp;lt;- compute(conc_model1, data1_test[1:8])
+conc_pred1 &amp;lt;- conc_results1$net.result
 cor(conc_pred1,data1_test[9])
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -1071,7 +1069,7 @@ cat(&quot; MAE:&quot;, mae, &quot;\n&quot;, &quot;MSE:&quot;, mse, &quot;\n&quot
 &lt;p&gt;We can see that overall, the results we obtain are good. But there is always room for improvement. &lt;strong&gt;Perfection is the enemy of a good result&lt;/strong&gt; after all!&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-conc_model2 &lt;- neuralnet(data = data1_train, strength ~ ., hidden =5)
+conc_model2 &amp;lt;- neuralnet(data = data1_train, strength ~ ., hidden =5)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Here we have modified the single hidden layer, by adding 4 extra neurons (5 in total) through the argument of &lt;em&gt;hidden&lt;/em&gt;.&lt;/p&gt;
@@ -1083,8 +1081,8 @@ plot(conc_model2)
 &lt;p&gt;By the Error provided through the plot of the new NN model, we have a sign that we have improved the situation, though let us proceed to our model evaluation metrics introduced above.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-conc_results2 &lt;- compute(conc_model2, data1_test[1:8])
-conc_pred2 &lt;- conc_results2$net.result
+conc_results2 &amp;lt;- compute(conc_model2, data1_test[1:8])
+conc_pred2 &amp;lt;- conc_results2$net.result
 cor(conc_pred2,data1_test[9])
 
 d2 = data1_test$strength-conc_pred2
@@ -1099,7 +1097,7 @@ cat(&quot; MAE:&quot;, mae, &quot;\n&quot;, &quot;MSE:&quot;, mse, &quot;\n&quot
 &lt;p&gt;We can clearly see that we have obtained from that small change. You can modify the model above by adding one or more layers and change the number of the neurons. Though this is like a sandbox where you can test different things, remember you always need to take care of the number of layers and neurons used as the most common error of the excitement while going closer to perfect prediction is overfitting.. In order to change the number of letters, we should modify the &lt;em&gt;hidden&lt;/em&gt; argument in the &lt;em&gt;neuralnet&lt;/em&gt; function. For example if we want 4 neurons in the first hidden layer and 5 in the second we should define it as &lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-example_model &lt;- neuralnet(..., hidden = c(4,5))
+example_model &amp;lt;- neuralnet(..., hidden = c(4,5))
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Apart from those there are many more arguments to modify your network like &lt;em&gt;startweights&lt;/em&gt; which defines the starting value of each weight, &lt;em&gt;learningrate&lt;/em&gt; which indicates the learning rate of your model, &lt;em&gt;algorithm&lt;/em&gt; which let's you change the algorithm for weights adjustment (a.k.a. change the default backpropagation usage), &lt;em&gt;act.fct&lt;/em&gt; which let's you choose activation function through your model, &lt;em&gt;err.fct&lt;/em&gt; which gives you the power to use specific error calculating function and many many more, feel free to type &lt;strong&gt;neuralnet&lt;/strong&gt; in your console to find out all of them!&lt;/p&gt;
@@ -1107,8 +1105,8 @@ example_model &lt;- neuralnet(..., hidden = c(4,5))
 &lt;p&gt;The second example is an implementation of two neural network models. After followin the same normalization preprocessing and splitting steps as above for the data about house prices in Paris we have a 1-3-1 model  where the hidden layers will consist from 4 neurons each and a 1-1-1 model where the hidden layer will consist from 2 neurons, and compare the results. In those models, the ReLU activation function was used. &lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-house_model0 &lt;- neuralnet(data = house_train, price ~ .,hidden = c(2),act.fct = relu)
-house_model1 &lt;- neuralnet(data = house_train, price ~ .,hidden = c(4,4,4), act.fct = relu)
+house_model0 &amp;lt;- neuralnet(data = house_train, price ~ .,hidden = c(2),act.fct = relu)
+house_model1 &amp;lt;- neuralnet(data = house_train, price ~ .,hidden = c(4,4,4), act.fct = relu)
 
 plot(house_model0)
 plot(house_model1)
@@ -1128,7 +1126,8 @@ data.frame(Model_1 = c(cor21,mae21,mse21,rmse21,R2_21),
 
 &lt;p&gt;At this place I would like to especially thank the readers who send me their comments (both good and bad) and general remarks, with their help I become better and keep it going. So thank you guys!&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
+
 &lt;p&gt;Be safe, code safer!&lt;/p&gt;</content>
 
       
@@ -1167,8 +1166,6 @@ data.frame(Model_1 = c(cor21,mae21,mse21,rmse21,R2_21),
       <id>http://localhost:4000/neural_network_intro</id>
       <content type="html" xml:base="http://localhost:4000/neural_network_intro">&lt;h2 id=&quot;specialformatting&quot;&gt;Introduction&lt;/h2&gt;
 
-
-
 &lt;p&gt;Nowadays, deep learning is entering in our lives deeper and deeper (you see what I did there?!? 🤯🤯🤯) Anyways, as I was saying the evolution of deep learning and the usage of Neural Network has taken an exponential rate. As not everyone is a computer science expert/enthusiast it is obvious that a question may rise.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -1194,7 +1191,6 @@ In this paper a mathematical model is proposed inspired by our own neural networ
 &lt;blockquote&gt;
 So, what does a neural network consists of?
 &lt;/blockquote&gt;
- 
 
 &lt;p&gt;A neural network consists of 3 layers: &lt;/p&gt;
 
@@ -1236,8 +1232,8 @@ And how does this work?
 
 &lt;p&gt;So each of those factors represent a variable, let's assume that neighbourhood is x1, available rooms x2, time it was built x3, and the rest that you can think of. So obviously some are more important than others and play a greater role in our model. As a result, every factor is assigned to a weight (let's say the weight of importance).  After a weight is assigned to each factor, we can produce the weighted sum of all those factors. Finally with the help of an activation function, this is converted and output to a number. The output that we search for (hopefully if we have done everything right 🤞🏼). Bellow, with the help of a graph, those steps are represented in a simple and clear way. I believe till now everything is well understood.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/intro_to_nn/1_simple_nn_architecture.png&quot; alt=&quot;NN Architecture&quot;&gt;&lt;/p&gt;
-🤔🤔🤔
+&lt;p&gt;&lt;img src=&quot;assets/images/intro_to_nn/1_simple_nn_architecture.png&quot; alt=&quot;NN Architecture&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;🤔🤔🤔&lt;/p&gt;
 
 &lt;p&gt;Now you may want to say the following :&lt;/p&gt;
 
@@ -1271,7 +1267,7 @@ Ok..?!?.. But what is the activation function?
 
 &lt;p&gt;There are more activation functions if you search around though those are the ones used the most. An appropriate activation function choice is a crucial part for the performance of our network. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/intro_to_nn/2_activation_funcs.jpg&quot; alt=&quot;Activation Functions&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/intro_to_nn/2_activation_funcs.jpg&quot; alt=&quot;Activation Functions&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;specialformatting&quot;&gt;Neural Network - Uses and limits&lt;/h2&gt;
 
@@ -1299,8 +1295,10 @@ Ok..?!?.. But what is the activation function?
 
 &lt;p&gt;That is all I wanted to tell you about Artificial Neural Networks. I hope you got the whole process and learned a thing or two. Stay tuned for some applications on this subject. Thank you for reading this post! &lt;/p&gt;
 
-&lt;hr&gt;
-&lt;p&gt;Be safe, code safer!&lt;/p&gt;</content>
+&lt;hr /&gt;
+&lt;p&gt;Be safe, code safer!&lt;/p&gt;
+
+&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;</content>
 
       
       
