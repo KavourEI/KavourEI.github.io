@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/deep-learning/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-07-22T18:18:27+03:00</updated>
+  <updated>2024-07-23T15:27:19+03:00</updated>
   <id>http://localhost:4000/tag/deep-learning/feed.xml</id>
 
   
@@ -108,9 +108,9 @@ documents = loader.load()
 &lt;li&gt; &lt;strong&gt;Chunk Sizes&lt;/strong&gt;: After preprocessing, choose a range of potential chunk sizes to test. The selection should consider the nature of the content (e.g., short messages vs. lengthy documents), the embedding model you’ll use, and its token limits. Aim to find a balance between preserving context and maintaining accuracy. Start by exploring various chunk sizes, such as smaller chunks (e.g., 128 or 256 tokens) for capturing granular semantic information and larger chunks (e.g., 512 or 1024 tokens) for retaining more context.&lt;/li&gt;
 
 &lt;li&gt; &lt;strong&gt;Evaluation of Chunk Sizes by performance results.&lt;/strong&gt;: To test different chunk sizes, use either multiple indices or a single index with multiple namespaces. Create embeddings for the selected chunk sizes using a representative dataset and save them in your index or indices. Then, run a series of queries to evaluate the quality and compare the performance of the various chunk sizes. This process is likely iterative, requiring you to test different chunk sizes against different queries until you identify the best-performing chunk size for your content and expected queries.&lt;/li&gt;
-&amp;lt;/ul&amp;lt;/p&amp;gt;
+&lt;/ul&gt;&lt;/p&gt;
 
-&lt;p&gt; For more information regarding chunk size and chunk overlap, you may refer on &lt;a href=&quot;https://www.kaggle.com/discussions/general/503436&quot;&gt;Guide to Chunk Size and Overlap&lt;/a&gt; by Kaggle, &lt;a href=&quot;https://docs.llamaindex.ai/en/stable/optimizing/basic_strategies/basic_strategies/&quot;&gt;Chunk Sizes&lt;/a&gt; by Llama Index  or &lt;a href=&quot;https://zilliz.com/learn/guide-to-chunking-sreategies-for-rag&quot;&gt;A Guide to Chunking Strategies for Retrieval Augmented Generation (RAG)&lt;/a&gt; by Zilliz. We are not goint to go through the process of deciding the optimal chunk size, as this is out of this project's scope.&lt;/p&gt; 
+&lt;p&gt; For more information regarding chunk size and chunk overlap, you may refer on &lt;a href=&quot;https://www.kaggle.com/discussions/general/503436&quot;&gt;Guide to Chunk Size and Overlap&lt;/a&gt; by Kaggle, &lt;a href=&quot;https://docs.llamaindex.ai/en/stable/optimizing/basic_strategies/basic_strategies/&quot;&gt;Chunk Sizes&lt;/a&gt; by Llama Index  or &lt;a href=&quot;https://zilliz.com/learn/guide-to-chunking-sreategies-for-rag&quot;&gt;A Guide to Chunking Strategies for Retrieval Augmented Generation (RAG)&lt;/a&gt; by Zilliz. We are not goint to go through the process of deciding the optimal chunk size, as this is out of this project's scope.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;text_splitter = RecursiveCharacterTextSplitter(chunk_size=512, chunk_overlap=32)
 text_chunks = text_splitter.split_documents(documents)
@@ -174,10 +174,9 @@ prompt = hub.pull('rlm/rag-prompt')
 rag_chain.invoke(question)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt; Well, I hope you enjoyed this as much as I did and learned something from it! Hopw to see you again in the next post of this series where we are going to talk about Query transformation and how we can use LLM models so that an LLM can define our question on a different &quot;better&quot; way.&lt;p&gt; 
+&lt;p&gt; Well, I hope you enjoyed this as much as I did and learned something from it! Hopw to see you again in the next post of this series where we are going to talk about Query transformation and how we can use LLM models so that an LLM can define our question on a different &quot;better&quot; way.&lt;/p&gt;
 
-&lt;p&gt; &lt;i&gt;Be safe, code safer!&lt;/i&gt;&lt;/p&gt;
-&lt;/p&gt;&lt;/p&gt;&lt;/ul&gt;&lt;/p&gt;</content>
+&lt;p&gt; &lt;i&gt;Be safe, code safer!&lt;/i&gt;&lt;/p&gt;</content>
 
       
       

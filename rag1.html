@@ -252,9 +252,9 @@ documents = loader.load()
 <li> <strong>Chunk Sizes</strong>: After preprocessing, choose a range of potential chunk sizes to test. The selection should consider the nature of the content (e.g., short messages vs. lengthy documents), the embedding model you’ll use, and its token limits. Aim to find a balance between preserving context and maintaining accuracy. Start by exploring various chunk sizes, such as smaller chunks (e.g., 128 or 256 tokens) for capturing granular semantic information and larger chunks (e.g., 512 or 1024 tokens) for retaining more context.</li>
 
 <li> <strong>Evaluation of Chunk Sizes by performance results.</strong>: To test different chunk sizes, use either multiple indices or a single index with multiple namespaces. Create embeddings for the selected chunk sizes using a representative dataset and save them in your index or indices. Then, run a series of queries to evaluate the quality and compare the performance of the various chunk sizes. This process is likely iterative, requiring you to test different chunk sizes against different queries until you identify the best-performing chunk size for your content and expected queries.</li>
-&lt;/ul&lt;/p&gt;
+</ul></p>
 
-<p> For more information regarding chunk size and chunk overlap, you may refer on <a href="https://www.kaggle.com/discussions/general/503436">Guide to Chunk Size and Overlap</a> by Kaggle, <a href="https://docs.llamaindex.ai/en/stable/optimizing/basic_strategies/basic_strategies/">Chunk Sizes</a> by Llama Index  or <a href="https://zilliz.com/learn/guide-to-chunking-sreategies-for-rag">A Guide to Chunking Strategies for Retrieval Augmented Generation (RAG)</a> by Zilliz. We are not goint to go through the process of deciding the optimal chunk size, as this is out of this project's scope.</p> 
+<p> For more information regarding chunk size and chunk overlap, you may refer on <a href="https://www.kaggle.com/discussions/general/503436">Guide to Chunk Size and Overlap</a> by Kaggle, <a href="https://docs.llamaindex.ai/en/stable/optimizing/basic_strategies/basic_strategies/">Chunk Sizes</a> by Llama Index  or <a href="https://zilliz.com/learn/guide-to-chunking-sreategies-for-rag">A Guide to Chunking Strategies for Retrieval Augmented Generation (RAG)</a> by Zilliz. We are not goint to go through the process of deciding the optimal chunk size, as this is out of this project's scope.</p>
 
 <pre><code>text_splitter = RecursiveCharacterTextSplitter(chunk_size=512, chunk_overlap=32)
 text_chunks = text_splitter.split_documents(documents)
@@ -318,10 +318,9 @@ prompt = hub.pull('rlm/rag-prompt')
 rag_chain.invoke(question)
 </code></pre>
 
-<p> Well, I hope you enjoyed this as much as I did and learned something from it! Hopw to see you again in the next post of this series where we are going to talk about Query transformation and how we can use LLM models so that an LLM can define our question on a different "better" way.<p> 
+<p> Well, I hope you enjoyed this as much as I did and learned something from it! Hopw to see you again in the next post of this series where we are going to talk about Query transformation and how we can use LLM models so that an LLM can define our question on a different "better" way.</p>
 
 <p> <i>Be safe, code safer!</i></p>
-</p></p></ul></p>
 
                 </div>
             </section>
