@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-07-23T15:27:19+03:00</updated>
+  <updated>2024-07-28T03:24:55+03:00</updated>
   <id>http://localhost:4000/tag/news/feed.xml</id>
 
   
@@ -46,6 +46,77 @@
 
   
     <entry>
+      <title type="html">Llama 3.1 - Most capable model to date</title>
+      <link href="http://localhost:4000/lama3_1" rel="alternate" type="text/html" title="Llama 3.1 - Most capable model to date" />
+      <published>2024-07-25T00:00:00+03:00</published>
+      <updated>2024-07-25T00:00:00+03:00</updated>
+      <id>http://localhost:4000/lama3_1</id>
+      <content type="html" xml:base="http://localhost:4000/lama3_1">&lt;p&gt;The recent release of Meta's Llama 3.1 marks a significant advancement in the field of open-source large language models (LLMs). As the first openly available model to rival top proprietary models, Llama 3.1 is set to redefine capabilities in AI, offering a range of features that enhance its usability and performance. Some of the key features are the following: &lt;/p&gt;
+
+&lt;h3&gt;Unprecedented Scale and Capability&lt;/h3&gt;
+
+&lt;p&gt;Llama 3.1, with its 405 billion parameters, is touted as the world's largest openly available foundation model. It has been trained on over 15 trillion tokens, ensuring that it can perform exceptionally well across various tasks, including general knowledge, multilingual translation, and advanced reasoning. This model is not only about size; it also incorporates significant improvements in context length, now supporting up to 128K tokens, which allows for more complex interactions and applications.&lt;/p&gt;
+
+&lt;h3&gt;Enhanced Multilingual and Tool Use&lt;/h3&gt;
+
+&lt;p&gt;The upgraded versions of the 8B and 70B models now feature enhanced multilingual capabilities and improved tool use. These models are designed to support advanced applications such as long-form text summarization and coding assistance, making them versatile tools for developers and researchers alike. The model's ability to handle diverse languages and tasks positions it as a leading choice for global applications.&lt;/p&gt;
+
+&lt;h3&gt;Open Source Commitment&lt;/h3&gt;
+
+&lt;p&gt;Meta's commitment to open-source principles is evident in the new licensing changes that allow developers to utilize outputs from Llama models to improve their own models. This openness encourages innovation and collaboration within the AI community, enabling developers to customize the models for specific needs without the constraints typically associated with proprietary models.&lt;/p&gt;
+
+&lt;p&gt;Apart from the innovations regarging this newlly introduced model, there has been some key innovations in training and evaluation&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Rigorous Benchmarking&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Llama 3.1 has undergone extensive evaluation across over 150 benchmark datasets, demonstrating competitive performance against leading models such as GPT-4 and Claude 3.5 Sonnet. The evaluation included both automated assessments and human evaluations, ensuring that the model meets high standards of quality and reliability in real-world scenarios.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Advanced Training Techniques&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;The training of Llama 3.1 involved significant optimizations to the training stack, utilizing over 16,000 H100 GPUs. This large-scale training effort has allowed for improvements in both the quantity and quality of the training data. The model benefits from a rigorous quality assurance process, which enhances its overall performance and reliability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Community and Ecosystem Development&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Meta is not only focused on the model itself but also on fostering a robust ecosystem around Llama. The introduction of the &quot;Llama Stack,&quot; a set of standardized interfaces for building AI applications, aims to facilitate interoperability among developers. This initiative encourages collaboration and innovation, allowing developers to create custom solutions that leverage the strengths of the Llama models.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Safety and Ethical Considerations&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;In line with responsible AI development, Meta has implemented various safety measures, including extensive red teaming to identify and mitigate potential risks. The inclusion of safety models like Llama Guard 3 and Prompt Guard further enhances the security and reliability of applications built on Llama 3.1, ensuring that developers can deploy AI solutions with confidence.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The launch of Llama 3.1 represents a pivotal moment in the landscape of AI, particularly for open-source models. With its unmatched scale, advanced capabilities, and commitment to community collaboration, Llama 3.1 is poised to drive innovation and expand the possibilities of generative AI. As developers begin to explore its potential, the future of AI looks brighter than ever, fueled by the power of open-source collaboration and cutting-edge technology.&lt;/p&gt;
+
+&lt;p&gt;To further explore the features, potentials and more read the official announcement of &lt;a href=&quot;https://ai.meta.com/blog/meta-llama-3-1/&quot;&gt;meta's blog&lt;/a&gt;.&lt;/p&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">The recent release of Meta's Llama 3.1 marks a significant advancement in the field of open-source large language models (LLMs). As the first openly available model to rival top proprietary models, Llama 3.1 is set to redefine capabilities in AI, offering a range of features that enhance its usability and performance. Some of the key features are the following:</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">GPT 4o Mini - Advancing cost-efficient intelligence</title>
       <link href="http://localhost:4000/GPT4oMini" rel="alternate" type="text/html" title="GPT 4o Mini - Advancing cost-efficient intelligence" />
       <published>2024-07-18T00:00:00+03:00</published>
@@ -61,20 +132,22 @@
 &lt;li&gt; &lt;strong&gt;Versatility&lt;/strong&gt;: The model is designed to cater to various applications, from customer service bots and content generation to complex data analysis, proving its adaptability across different sectors.&lt;/li&gt;
 &lt;li&gt; &lt;strong&gt;Accessibility&lt;/strong&gt;: By lowering the cost barrier, OpenAI aims to democratize AI technology, making it more accessible to startups, small businesses, and educational institutions.&lt;/li&gt;
 &lt;li&gt; &lt;strong&gt;Environmental Impact&lt;/strong&gt;: The efficient design of GPT-4o Mini also translates to lower energy consumption, aligning with sustainable practices and reducing the carbon footprint of AI operations.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Modalities&lt;/strong&gt;: GPT-4o mini currently supports text and vision capabilities, and the team stated that it is planned to add support for audio and video inputs and outputs in the future.
-&lt;li&gt; &lt;strong&gt;Language&lt;/strong&gt;:  GPT-4o mini has improved multilingual understanding over GPT-3.5 Turbo across a wide range of non-English languages. Take a second and test your own mother tongue it may surprise you positively!
-&amp;lt;/ol&amp;gt;
+&lt;li&gt; &lt;strong&gt;Modalities&lt;/strong&gt;: GPT-4o mini currently supports text and vision capabilities, and the team stated that it is planned to add support for audio and video inputs and outputs in the future.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Language&lt;/strong&gt;:  GPT-4o mini has improved multilingual understanding over GPT-3.5 Turbo across a wide range of non-English languages. Take a second and test your own mother tongue it may surprise you positively!&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt; Other than that &lt;a href=&quot;https://community.openai.com/u/jeffsharris/summary&quot;&gt;jeffsharris&lt;/a&gt; (OpenAI Staff) stated that:
 
-&lt;em&gt;Like GPT-4o, GPT-4o mini has a 128k context window and a knowledge cut-off date of October 2023. It also supports up to 16,384 max_tokens 82.
+&lt;p&gt;&lt;em&gt;Like GPT-4o, GPT-4o mini has a 128k context window and a knowledge cut-off date of October 2023. It also supports up to 16,384 max_tokens 82.&lt;/em&gt;&lt;/p&gt;
 
-We plan to launch fine-tuning for GPT-4o mini in the coming days. You can learn more about GPT-4o mini in our &lt;a href=&quot;https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence&quot;&gt;announcement blog&lt;/a&gt; 659 and &lt;a href=&quot;http://platform.openai.com/docs/models/gpt-4o-mini&quot;&gt;API documentation&lt;/a&gt; 532, or by testing the model in &lt;a href=&quot;https://platform.openai.com/playground/chat?models=gpt-4o-mini&quot;&gt;Playground&lt;/a&gt; 90. Excited to hear what you think! &lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;We plan to launch fine-tuning for GPT-4o mini in the coming days. You can learn more about GPT-4o mini in our &lt;a href=&quot;https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence&quot;&gt;announcement blog&lt;/a&gt; 659 and &lt;a href=&quot;http://platform.openai.com/docs/models/gpt-4o-mini&quot;&gt;API documentation&lt;/a&gt; 532, or by testing the model in &lt;a href=&quot;https://platform.openai.com/playground/chat?models=gpt-4o-mini&quot;&gt;Playground&lt;/a&gt; 90. Excited to hear what you think! &lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;This release marks a significant step in OpenAI's mission to provide powerfol, efficient, and accessible AI tools, empowering more users to harness the potential of artificial intelligence in their respective fields.&lt;/p&gt;
 
 &lt;p&gt; For those of you using OpenAI models through Azure, worry not, in &lt;a href=&quot;https://azure.microsoft.com/en-us/blog/openais-fastest-model-gpt-4o-mini-is-now-available-on-azure-ai/&quot;&gt; this announcement&lt;/a&gt; that was published on 18th of July 2024, Microsoft has announced the availability of OpenAI's latest and fastest model, GPT-4o Mini, on Azure AI. This integration brings the advanced capabilities of GPT-4o Mini to Azure users, offering enhanced performance and cost efficiency. This collaboration between Microsoft and OpenAI underscores a commitment to making advanced AI more accessible and affordable, empowering businesses to innovate and optimize their operations with the latest AI tools.&lt;/p&gt;
-&lt;/li&gt;&lt;/li&gt;&lt;/ol&gt;</content>
+
+&lt;p&gt; &lt;strong&gt;Update 27/07/24&lt;/strong&gt; : In order to fine-tune the model and use it for your own applications, take a look at the official fine-tuning instructions, &lt;a href=&quot;https://platform.openai.com/docs/guides/fine-tuning&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;</content>
 
       
       
@@ -464,62 +537,6 @@ We plan to launch fine-tuning for GPT-4o mini in the coming days. You can learn 
 
       
         <summary type="html">Apple is partnering with OpenAI to put ChatGPT into Siri, the company announced at its WWDC 2024 keynote on 10th of June 2024.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Anthropic’s now lets you create bots to work for you and interact with external APIs and tools</title>
-      <link href="http://localhost:4000/AnthropicBots" rel="alternate" type="text/html" title="Anthropic's now lets you create bots to work for you and interact with external APIs and tools" />
-      <published>2024-05-30T00:00:00+03:00</published>
-      <updated>2024-05-30T00:00:00+03:00</updated>
-      <id>http://localhost:4000/AnthropicBots</id>
-      <content type="html" xml:base="http://localhost:4000/AnthropicBots">&lt;p&gt; &lt;a href=&quot;https://www.anthropic.com/news/tool-use-ga&quot;&gt;Tool use&lt;/a&gt;, which enables Claude to interact with external tools and APIs, is now generally available across the entire Claude 3 model family on the Anthropic Messages API, Amazon Bedrock, and Google Cloud's Vertex AI. With tool use, Claude can perform tasks, manipulate data, and provide more dynamic—and accurate—responses.&lt;/p&gt;
-
-&lt;h2&gt; Tool use &lt;/h2&gt;
-
-&lt;p&gt; Define a toolset for Claude and specify your request in natural language. Claude will then select the appropriate tool to fulfill the task and, when appropriate, execute the corresponding action: 
-
-&lt;ul&gt;
-&lt;li&gt; &lt;strong&gt;Extract structured data from unstructured text&lt;/strong&gt;: Pull names, dates, and amounts from invoices to reduce manual data entry.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Convert natural language requests into structured API calls&lt;/strong&gt;: Enable teams to self-serve common actions (e.g., &quot;cancel subscription&quot;) with simple commands.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Answer questions by searching databases or using web APIs&lt;/strong&gt;: Provide instant, accurate responses to customer inquiries in support chatbots. &lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Automate simple tasks through software APIs&lt;/strong&gt;: Save time and minimize errors in data entry or file management. &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Orchestrate multiple fast Claude subagents for granular tasks&lt;/strong&gt;: Automatically find the optimal meeting time based on attendee availability. &lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
-&lt;iframe width=&quot;799&quot; height=&quot;449&quot; src=&quot;https://www.youtube.com/embed/b77htH1eX-s&quot; title=&quot;Claude 3 tool use: customer support&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Felling like you want to find out more?
-&lt;ul&gt;
-&lt;li&gt; Read the &lt;a href=&quot;https://docs.anthropic.com/en/docs/tool-use&quot;&gt;documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt; Check the &lt;a href=&quot;https://github.com/anthropics/courses/tree/master/ToolUse&quot;&gt;tool use tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt; Explore the &lt;a href=&quot;https://github.com/anthropics/anthropic-cookbook/tree/main/tool_use&quot;&gt;Anthropic Cookbooks on tool use&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">Tool use, which enables Claude to interact with external tools and APIs, is now generally available across the entire Claude 3 model family on the Anthropic Messages API, Amazon Bedrock, and Google Cloud's Vertex AI. With tool use, Claude can perform tasks, manipulate data, and provide more dynamic—and accurate—responses.</summary>
       
 
       
