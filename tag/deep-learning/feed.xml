@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/deep-learning/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-07-29T13:58:22+03:00</updated>
+  <updated>2024-07-29T14:11:30+03:00</updated>
   <id>http://localhost:4000/tag/deep-learning/feed.xml</id>
 
   
@@ -47,11 +47,11 @@
   
     <entry>
       <title type="html">RAG - Query Transformation</title>
-      <link href="http://localhost:4000/rag_qt" rel="alternate" type="text/html" title="RAG - Query Transformation" />
+      <link href="http://localhost:4000/rag2" rel="alternate" type="text/html" title="RAG - Query Transformation" />
       <published>2024-07-29T00:00:00+03:00</published>
       <updated>2024-07-29T00:00:00+03:00</updated>
-      <id>http://localhost:4000/rag_qt</id>
-      <content type="html" xml:base="http://localhost:4000/rag_qt">&lt;p&gt; Welcome back, I hope you enjoyed the &lt;a href=&quot;https://kavourei.github.io/rag_intro&quot;&gt;first part&lt;/a&gt; of this series where we are going to explore a portion portion of RAG tool. It is higly suggested that you take a look at all the projects of this series step by step and more importantly to code along this project. If you don't code it out you won't get it.&lt;/p&gt;
+      <id>http://localhost:4000/rag2</id>
+      <content type="html" xml:base="http://localhost:4000/rag2">&lt;p&gt; Welcome back, I hope you enjoyed the &lt;a href=&quot;https://kavourei.github.io/rag1&quot;&gt;first part&lt;/a&gt; of this series where we are going to explore a portion portion of RAG tool. It is higly suggested that you take a look at all the projects of this series step by step and more importantly to code along this project. If you don't code it out you won't get it.&lt;/p&gt;
 
 &lt;p&gt; In this notebook we are going to take a look how to create an assistant that will help us modify our question. This technique is called Query transformation. Imagine Query Transformation as your search request going through a makeover montage in a movie. Your original query walks in a bit plain and straightforward, and then gets spruced up with the latest styles and smarts to become the most efficient, dashing version of itself. By rephrasing, optimizing, and enhancing your search terms, Query Transformation ensures that what you’re asking for is crystal clear and ready to fetch the best possible results. It’s like sending your query to a high-end stylist who makes sure it’s dressed to impress and ready to get exactly what you need! &lt;/p&gt;
 
@@ -239,11 +239,11 @@ questions&lt;/code&gt;&lt;/pre&gt;
   
     <entry>
       <title type="html">Introduction to RAG models</title>
-      <link href="http://localhost:4000/rag_intro" rel="alternate" type="text/html" title="Introduction to RAG models" />
+      <link href="http://localhost:4000/rag1" rel="alternate" type="text/html" title="Introduction to RAG models" />
       <published>2024-07-22T00:00:00+03:00</published>
       <updated>2024-07-22T00:00:00+03:00</updated>
-      <id>http://localhost:4000/rag_intro</id>
-      <content type="html" xml:base="http://localhost:4000/rag_intro">&lt;p&gt; Firstly, in case you don't know what is RAG here is an unofficial explanation. Imagine you’re on a treasure hunt, but instead of a dusty old map, you’ve got a genius guide who knows every hidden corner. That’s RAG, short for &lt;strong&gt;Retrieval-Augmented Generation&lt;/strong&gt;. It’s like having a super-smart friend who fetches the most relevant bits of knowledge from a massive library (the retrieval part) and then crafts a perfectly tailored response just for you (the generation part). So, if your brain is a bit like a rusty old filing cabinet, think of RAG as your personal, turbo-charged librarian who’s always got the answer before you can say &quot;Google it!&quot;&lt;/p&gt;
+      <id>http://localhost:4000/rag1</id>
+      <content type="html" xml:base="http://localhost:4000/rag1">&lt;p&gt; Firstly, in case you don't know what is RAG here is an unofficial explanation. Imagine you’re on a treasure hunt, but instead of a dusty old map, you’ve got a genius guide who knows every hidden corner. That’s RAG, short for &lt;strong&gt;Retrieval-Augmented Generation&lt;/strong&gt;. It’s like having a super-smart friend who fetches the most relevant bits of knowledge from a massive library (the retrieval part) and then crafts a perfectly tailored response just for you (the generation part). So, if your brain is a bit like a rusty old filing cabinet, think of RAG as your personal, turbo-charged librarian who’s always got the answer before you can say &quot;Google it!&quot;&lt;/p&gt;
 
 &lt;p&gt; In this series of posts, we are going to explore LangChain tools and create RAG models for several applications. We are going to go through the little details that may or may not work in our cases and how to fix those teeny tiny configurations that may be neccesary for our purposes. Without further ado..&lt;/p&gt;
 

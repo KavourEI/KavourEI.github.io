@@ -10,14 +10,14 @@
       <item>
         <title>RAG - Query Transformation</title>
         
-          <description>&lt;p&gt; Welcome back, I hope you enjoyed the &lt;a href=&quot;https://kavourei.github.io/rag_intro&quot;&gt;first part&lt;/a&gt; of this series where we are going to explore a portion portion of RAG tool. It is higly suggested that you take a look at all the projects of this series step by step and more importantly to code along this project. If you don't code it out you won't get it.&lt;/p&gt;
+          <description>&lt;p&gt; Welcome back, I hope you enjoyed the &lt;a href=&quot;https://kavourei.github.io/rag1&quot;&gt;first part&lt;/a&gt; of this series where we are going to explore a portion portion of RAG tool. It is higly suggested that you take a look at all the projects of this series step by step and more importantly to code along this project. If you don't code it out you won't get it.&lt;/p&gt;
 
 </description>
         
         <pubDate>Mon, 29 Jul 2024 00:00:00 +0300</pubDate>
         <link>
-        http://localhost:4000/rag_qt</link>
-        <guid isPermaLink="true">http://localhost:4000/rag_qt</guid>
+        http://localhost:4000/rag2</link>
+        <guid isPermaLink="true">http://localhost:4000/rag2</guid>
       </item>
       
     
@@ -46,8 +46,8 @@
         
         <pubDate>Mon, 22 Jul 2024 00:00:00 +0300</pubDate>
         <link>
-        http://localhost:4000/rag_intro</link>
-        <guid isPermaLink="true">http://localhost:4000/rag_intro</guid>
+        http://localhost:4000/rag1</link>
+        <guid isPermaLink="true">http://localhost:4000/rag1</guid>
       </item>
       
     
