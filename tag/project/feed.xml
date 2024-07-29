@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/project/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-07-29T14:11:30+03:00</updated>
+  <updated>2024-07-29T14:30:32+03:00</updated>
   <id>http://localhost:4000/tag/project/feed.xml</id>
 
   
@@ -368,7 +368,9 @@ rag_chain.invoke(question)
 
 &lt;p&gt; Well, I hope you enjoyed this as much as I did and learned something from it! Hope to see you again in the next post of this series where we are going to talk about Query transformation and how we can use LLM models so that an LLM can define our question on a different &quot;better&quot; way.&lt;/p&gt;
 
-&lt;p&gt; &lt;i&gt;Be safe, code safer!&lt;/i&gt;&lt;/p&gt;</content>
+&lt;p&gt; &lt;i&gt;Be safe, code safer!&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt; This whole series is inspired by &amp;lt;a = href='https://www.sakunaharinda.xyz/ragatouille-book/intro.html#'&amp;gt;Ragatoulle&amp;lt;/a&amp;gt;. Throughout this series, as this is the main goal of this blog, I aim to provide as simple as possible explanations about the modules and functions used with addition of my personal touch wherever I find it necessary.&lt;/p&gt;</content>
 
       
       
