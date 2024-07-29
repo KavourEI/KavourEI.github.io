@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/deep-learning/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-07-28T03:24:55+03:00</updated>
+  <updated>2024-07-29T13:58:22+03:00</updated>
   <id>http://localhost:4000/tag/deep-learning/feed.xml</id>
 
   
@@ -46,12 +46,204 @@
 
   
     <entry>
+      <title type="html">RAG - Query Transformation</title>
+      <link href="http://localhost:4000/rag_qt" rel="alternate" type="text/html" title="RAG - Query Transformation" />
+      <published>2024-07-29T00:00:00+03:00</published>
+      <updated>2024-07-29T00:00:00+03:00</updated>
+      <id>http://localhost:4000/rag_qt</id>
+      <content type="html" xml:base="http://localhost:4000/rag_qt">&lt;p&gt; Welcome back, I hope you enjoyed the &lt;a href=&quot;https://kavourei.github.io/rag_intro&quot;&gt;first part&lt;/a&gt; of this series where we are going to explore a portion portion of RAG tool. It is higly suggested that you take a look at all the projects of this series step by step and more importantly to code along this project. If you don't code it out you won't get it.&lt;/p&gt;
+
+&lt;p&gt; In this notebook we are going to take a look how to create an assistant that will help us modify our question. This technique is called Query transformation. Imagine Query Transformation as your search request going through a makeover montage in a movie. Your original query walks in a bit plain and straightforward, and then gets spruced up with the latest styles and smarts to become the most efficient, dashing version of itself. By rephrasing, optimizing, and enhancing your search terms, Query Transformation ensures that what you’re asking for is crystal clear and ready to fetch the best possible results. It’s like sending your query to a high-end stylist who makes sure it’s dressed to impress and ready to get exactly what you need! &lt;/p&gt;
+
+&lt;p&gt; It is taken for granted that you already have created a &lt;code&gt;.env&lt;/code&gt; file as requested in the first part of this series.&lt;/p&gt;
+
+&lt;h2&gt; Modules Required &lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;import os
+from dotenv import load_dotenv
+from langchain.prompts import ChatPromptTemplate
+from langchain.chat_models import AzureChatOpenAI
+from langchain_core.runnables import RunnablePassthrough
+from langchain_core.output_parsers import StrOutputParser
+from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_community.vectorstores import Chroma
+from langchain_openai import AzureOpenAIEmbeddings
+from langchain.load import loads, dumps
+from typing import List
+
+load_dotenv()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; The &lt;i&gt;&quot;new&quot;&lt;/i&gt; modules we are going to use in this section are &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;langchain.prompts.ChatPromptTemplate&lt;/strong&gt;: &lt;code&gt;ChatPromptTemplate&lt;/code&gt; is used to create templates for chat prompts. Using these templates can be used to standardize and structure the prompts that are fed into the language model, ensuring consistency and improving the quality of the generated responses.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;langchain.load.loads&lt;/strong&gt;: &lt;code&gt;loads&lt;/code&gt; function is used to load data or configurations from a serialized format (such as JSON or YAML).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;langchain.load.dumps&lt;/strong&gt;: &lt;code&gt;dumps&lt;/code&gt; function in the langchain library is used for serializing data or configurations into a specific format (like JSON or YAML).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;typing.List&lt;/strong&gt;: &lt;code&gt;List&lt;/code&gt; class from this module is used to indicate that a variable is expected to be a list of a certain type.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; The main ingedient in our recipy in this series is always an LLM agent, which will assist us. As a result, the first step that will take us closer to this result, is to call our LLM model&lt;/p&gt;
+
+&lt;h2&gt; LLM Agent and its Prompt &lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;llm_075 = AzureChatOpenAI(deployment_name=os.getenv('LLM_35_Deployment'),
+                         model_name=os.getenv('LLM_35_Model'),
+                         azure_endpoint=os.getenv('AZURE_OPENAI_ENDPOINT'),
+                         temperature=0.75,
+                         )
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; In this call we have set the &lt;code&gt;temperature&lt;/code&gt; argument to be 0.75 (mind that it is an argument that takes value from the close interval [0,1]). But what this argument represent, right? Imagine the temperature argument in an LLM call as the spice level in a recipe. When you set the temperature low, it’s like adding just a pinch of spice, making the responses mild, predictable, and focused. Crank up the temperature, and it’s like dumping in hot sauce, making the responses more adventurous, creative, and sometimes a bit unpredictable. So, adjusting the temperature lets you control how bold or conservative the language model’s answers will be, ensuring your conversational dish is seasoned just to your taste! Since we need it to generate new questions similar, yet better formated to ours we need to use this spiciness.&lt;/p&gt;
+
+&lt;p&gt; Next we are going to define a prompt. During the first part of this series we used a prompt from the self, where we requested it using the hub module. Now we are going to create our own. The reason for that is to give to our agent &quot;personality&quot; or better purpose for its existance.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;prompt = ChatPromptTemplate.from_template(
+    &quot;&quot;&quot;
+    You are a smart assistant. Your task is to create 5 questions, each phrased differently and from various perspectives, based on the given question, to retrieve relevant documents from a vector database. By offering multiple perspectives on the user's question, your aim is to help the user mitigate some of the constraints of distance-based similarity search. List these alternative questions, each on a new line. Original question: {question}
+    &quot;&quot;&quot;
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt; Chain Construction &lt;h2&gt;
+
+&lt;p&gt; Finally, we are ready to create our very first chain, in this section. Initially, we need to pass our question in the chain. Then we insert it to the prompt in th &lt;code&gt; {question} &lt;/code&gt; place. After having our prompt ready-to-go, we &quot;send&quot; it to our LLM agent. Lastly, using &lt;code&gt;StrOutputParser()&lt;/code&gt; and &lt;code&gt;(lambda x: &quot;\n&quot;.join(x.split(&quot;\n&quot;)))&lt;/code&gt; we exporet the results in a readable and nice format for us humans! 🤖 In general before setting up a chain it is suggested to think your steps one by one as simple as possible, define your functions/tools (if needed) and then set it up. Do not start from defining everything, as lated on you will miss something or will need to modify them as you need those steps to be &quot;connected&quot; somehow.&lt;/p&gt;
+
+&lt;p&gt; By connected, I mean the &lt;code&gt; {question} &lt;/code&gt; part in the prompt building, or in other cases more information like &lt;code&gt; {context} &lt;/code&gt; etc. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+generate_queries = (
+        {&quot;question&quot;: RunnablePassthrough()}
+        | prompt
+        | llm_075
+        | StrOutputParser()
+        | (lambda x: &quot;\n&quot;.join(x.split(&quot;\n&quot;)))
+)
+
+result = generate_queries.invoke(&quot;What do you know about Query Transforamtion?&quot;)
+print(result)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt; Fusion Scores and uniqueness &lt;/h2&gt;
+
+&lt;p&gt;Since we have generated our &lt;i&gt;better-formatted&lt;/i&gt; question, we need to use them to get better-more relevant answers to our questions. There are many options, that you could experiment with. Here we are going to explore &lt;a href=&quot;https://learn.microsoft.com/en-us/azure/search/hybrid-search-ranking&quot;&gt;RAG-Fusion&lt;/a&gt;. Through this process, relevant information for each question is retrieved. A union of the retrievals is created that keeps only the unique of them. Finally, a rank is measures and depending on our preference an answer is presented.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def rrf(results: List[List], k=60):
+    fused_scores = {}
+    for docs in results:        
+        for rank, doc in enumerate(docs):
+            doc_str = dumps(doc)
+            if doc_str not in fused_scores:
+                fused_scores[doc_str] = 0
+            previous_score = fused_scores[doc_str]
+            fused_scores[doc_str] += 1 / (rank + k)
+        reranked_results = [
+            (loads(doc), score)
+            for doc, score in sorted(fused_scores.items(), key=lambda x: x[1], reverse=True)
+        ]        
+        return reranked_results
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; Initially a dictionary is created to save the fused scores for each unique document retrieved (&lt;code&gt;fused_scores&lt;/code&gt;). After that we iterate through each ranked document, and each document depending on its rank. We then create a key for each document. Either we add the document in the list (if it does not exists) or retrieve its score. Based on the question, we update the score using the provided RRF formula &lt;code&gt;1/(rank + k)&lt;/code&gt;. Finally, we return the list of containing each document and its fused score in the format of tuples.&lt;/p&gt;
+
+&lt;p&gt; After having this tool defined and set up in our toolbox, we can either us the previously defined prompt, or create a new one to continue with. Just for practise we are going to set up a new one where we are going to generate 3 questions, and not 5 as we did in the previously created prompth.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;prompt = ChatPromptTemplate.from_template(
+    &quot;&quot;&quot;
+    You are a smart assistant. Your task is to create 3 questions, each phrased differently and from various perspectives, based on the provided question, to retrieve relevant documents from a vector database. By offering multiple perspectives on the user's question, your aim is to help the user address some of the limitations of distance-based similarity search. List these alternative questions, each on a new line. Original question: {question}
+    &quot;&quot;&quot;
+    )
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; So we have our LLM agent ready-to-go, its purpose of existance set, a new tool to generate the scores and retrieve the most relevant information. So you may wonder what is left. We now are ready to define a new chain to include everything we did.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;generate_queries = (
+        {&quot;question&quot;: RunnablePassthrough()}
+        | prompt
+        | llm_075
+        | StrOutputParser()
+        | (lambda x: x.split(&quot;\n&quot;))
+)
+
+fusion_retrieval_chain = (
+        {'question': RunnablePassthrough()}
+        | generate_queries
+        | retriever.map()
+        | rrf
+)
+
+fusion_retrieval_chain.invoke(&quot;What are the benefits of Bert?&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt; Food for thought &lt;/h2&gt;
+
+&lt;p&gt; There are multiple other ways that you could modify the purpose of the LLM agent, your assistance, so that it could help you the way you want. For example, imagine that you have a complex question, where you are not sure how to provide/invoke it to your shiny and brand new chain. Or,  when providing it to your chain the results, you are getting back are not satisfying. Giving your agent a new slightly modified purpose, everything will be again bright and shiny. For example, you could use within your chain the following prompt:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;decompostion_prompt = ChatPromptTemplate.from_template(
+    &quot;&quot;&quot;
+    You are a helpful assistant capable of simplifying complex questions into smaller parts.
+    Your goal is to break down the given question into several sub-questions that can each be answered separately, ultimately addressing the main question.
+    List these sub-questions, each separated by a newline character.
+    Original question: {question}
+    Output (3 queries):
+    &quot;&quot;&quot;
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; Feeding this prompt to a new chain could save you from some time and simplify your question to reach to your goal, step by step.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;query_generation_chain = (
+        {&quot;question&quot;: RunnablePassthrough()}
+        | decompostion_prompt
+        | llm_075
+        | StrOutputParser()
+        | (lambda x: x.split(&quot;\n&quot;))
+)
+
+questions = query_generation_chain.invoke(&quot;What are the benefits of LDA?&quot;)
+questions&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; 🚀 Imagine the possibilities and think about what you could do by defining a proper prompt based on you needs. 🚀 I hope you enjoyed this as much as I did and of course, learned something from it! In the next post of this series, we will explore Hypothetical Document Embeddings. We'll create our own documents, allowing their embedding vectors to identify neighborhoods in the corpus embedding space where similar real documents can be retrieved based on vector similarity.&lt;/p&gt; 
+
+&lt;p&gt; &lt;i&gt;Be safe, code safer!&lt;/i&gt;&lt;/p&gt;
+&lt;/h2&gt;&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="project" />
+      
+        <category term="Deep Learning" />
+      
+
+      
+        <summary type="html">Welcome back, I hope you enjoyed the first part of this series where we are going to explore a portion portion of RAG tool. It is higly suggested that you take a look at all the projects of this series step by step and more importantly to code along this project. If you don't code it out you won't get it.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Introduction to RAG models</title>
-      <link href="http://localhost:4000/rag1" rel="alternate" type="text/html" title="Introduction to RAG models" />
+      <link href="http://localhost:4000/rag_intro" rel="alternate" type="text/html" title="Introduction to RAG models" />
       <published>2024-07-22T00:00:00+03:00</published>
       <updated>2024-07-22T00:00:00+03:00</updated>
-      <id>http://localhost:4000/rag1</id>
-      <content type="html" xml:base="http://localhost:4000/rag1">&lt;p&gt; Firstly, in case you don't know what is RAG here is an unofficial explanation. Imagine you’re on a treasure hunt, but instead of a dusty old map, you’ve got a genius guide who knows every hidden corner. That’s RAG, short for &lt;strong&gt;Retrieval-Augmented Generation&lt;/strong&gt;. It’s like having a super-smart friend who fetches the most relevant bits of knowledge from a massive library (the retrieval part) and then crafts a perfectly tailored response just for you (the generation part). So, if your brain is a bit like a rusty old filing cabinet, think of RAG as your personal, turbo-charged librarian who’s always got the answer before you can say &quot;Google it!&quot;&lt;/p&gt;
+      <id>http://localhost:4000/rag_intro</id>
+      <content type="html" xml:base="http://localhost:4000/rag_intro">&lt;p&gt; Firstly, in case you don't know what is RAG here is an unofficial explanation. Imagine you’re on a treasure hunt, but instead of a dusty old map, you’ve got a genius guide who knows every hidden corner. That’s RAG, short for &lt;strong&gt;Retrieval-Augmented Generation&lt;/strong&gt;. It’s like having a super-smart friend who fetches the most relevant bits of knowledge from a massive library (the retrieval part) and then crafts a perfectly tailored response just for you (the generation part). So, if your brain is a bit like a rusty old filing cabinet, think of RAG as your personal, turbo-charged librarian who’s always got the answer before you can say &quot;Google it!&quot;&lt;/p&gt;
 
 &lt;p&gt; In this series of posts, we are going to explore LangChain tools and create RAG models for several applications. We are going to go through the little details that may or may not work in our cases and how to fix those teeny tiny configurations that may be neccesary for our purposes. Without further ado..&lt;/p&gt;
 
@@ -174,7 +366,7 @@ prompt = hub.pull('rlm/rag-prompt')
 rag_chain.invoke(question)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt; Well, I hope you enjoyed this as much as I did and learned something from it! Hopw to see you again in the next post of this series where we are going to talk about Query transformation and how we can use LLM models so that an LLM can define our question on a different &quot;better&quot; way.&lt;/p&gt;
+&lt;p&gt; Well, I hope you enjoyed this as much as I did and learned something from it! Hope to see you again in the next post of this series where we are going to talk about Query transformation and how we can use LLM models so that an LLM can define our question on a different &quot;better&quot; way.&lt;/p&gt;
 
 &lt;p&gt; &lt;i&gt;Be safe, code safer!&lt;/i&gt;&lt;/p&gt;</content>
 
