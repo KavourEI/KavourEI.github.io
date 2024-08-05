@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/deep-learning/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-07-29T14:30:32+03:00</updated>
+  <updated>2024-08-05T21:08:29+03:00</updated>
   <id>http://localhost:4000/tag/deep-learning/feed.xml</id>
 
   
@@ -51,7 +51,7 @@
       <published>2024-07-29T00:00:00+03:00</published>
       <updated>2024-07-29T00:00:00+03:00</updated>
       <id>http://localhost:4000/rag2</id>
-      <content type="html" xml:base="http://localhost:4000/rag2">&lt;p&gt; Welcome back, I hope you enjoyed the &lt;a href=&quot;https://kavourei.github.io/rag1&quot;&gt;first part&lt;/a&gt; of this series where we are going to explore a portion portion of RAG tool. It is higly suggested that you take a look at all the projects of this series step by step and more importantly to code along this project. If you don't code it out you won't get it.&lt;/p&gt;
+      <content type="html" xml:base="http://localhost:4000/rag2">&lt;p&gt; Welcome back, I hope you enjoyed the &lt;a href='https://kavourei.github.io/rag1'&gt;first part&lt;/a&gt; of this series where we are going to explore a portion portion of RAG tool. It is higly suggested that you take a look at all the projects of this series step by step and more importantly to code along this project. If you don't code it out you won't get it.&lt;/p&gt; 
 
 &lt;p&gt; In this notebook we are going to take a look how to create an assistant that will help us modify our question. This technique is called Query transformation. Imagine Query Transformation as your search request going through a makeover montage in a movie. Your original query walks in a bit plain and straightforward, and then gets spruced up with the latest styles and smarts to become the most efficient, dashing version of itself. By rephrasing, optimizing, and enhancing your search terms, Query Transformation ensures that what you’re asking for is crystal clear and ready to fetch the best possible results. It’s like sending your query to a high-end stylist who makes sure it’s dressed to impress and ready to get exactly what you need! &lt;/p&gt;
 
@@ -127,7 +127,7 @@ print(result)
 
 &lt;h2&gt; Fusion Scores and uniqueness &lt;/h2&gt;
 
-&lt;p&gt;Since we have generated our &lt;i&gt;better-formatted&lt;/i&gt; question, we need to use them to get better-more relevant answers to our questions. There are many options, that you could experiment with. Here we are going to explore &lt;a href=&quot;https://learn.microsoft.com/en-us/azure/search/hybrid-search-ranking&quot;&gt;RAG-Fusion&lt;/a&gt;. Through this process, relevant information for each question is retrieved. A union of the retrievals is created that keeps only the unique of them. Finally, a rank is measures and depending on our preference an answer is presented.&lt;/p&gt;
+&lt;p&gt;Since we have generated our &lt;i&gt;better-formatted&lt;/i&gt; question, we need to use them to get better-more relevant answers to our questions. There are many options, that you could experiment with. Here we are going to explore &lt;a href='https://learn.microsoft.com/en-us/azure/search/hybrid-search-ranking'&gt;RAG-Fusion&lt;/a&gt;. Through this process, relevant information for each question is retrieved. A union of the retrievals is created that keeps only the unique of them. Finally, a rank is measures and depending on our preference an answer is presented.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;def rrf(results: List[List], k=60):
     fused_scores = {}
@@ -206,8 +206,7 @@ questions&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt; 🚀 Imagine the possibilities and think about what you could do by defining a proper prompt based on you needs. 🚀 I hope you enjoyed this as much as I did and of course, learned something from it! In the next post of this series, we will explore Hypothetical Document Embeddings. We'll create our own documents, allowing their embedding vectors to identify neighborhoods in the corpus embedding space where similar real documents can be retrieved based on vector similarity.&lt;/p&gt; 
 
-&lt;p&gt; &lt;i&gt;Be safe, code safer!&lt;/i&gt;&lt;/p&gt;
-&lt;/h2&gt;&lt;/h2&gt;</content>
+&lt;p&gt; &lt;i&gt;Be safe, code safer!&lt;/i&gt;&lt;/p&gt;</content>
 
       
       
@@ -249,7 +248,7 @@ questions&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2&gt; Dotenv File &lt;/h2&gt;
 
-&lt;p&gt;Before moving forward to modules and script, there is a high need for a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.env&lt;/code&gt; file. Initially, you need to create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.env&lt;/code&gt; file in the folder you are going to create this project, so that you save your passwords. This is not neccesary from the functionality point of view but it is from the security point of view. Think of a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.env&lt;/code&gt; file as your project’s secret diary, where it whispers all its deepest, darkest secrets like passwords, API keys, and configuration settings. You need it because you don’t want these secrets plastered all over the code like graffiti. By keeping them in a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.env&lt;/code&gt; file, you ensure they stay hidden and safe, only revealing themselves to those in the know—your code. So, a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.env&lt;/code&gt; file is like having a secret stash of information that keeps your project running smoothly without spilling the beans to the world. No need for functy file name or anything just &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.env&lt;/code&gt; file.&lt;/p&gt;
+Before moving forward to modules and script, there is a high need for a `.env` file. Initially, you need to create a `.env` file in the folder you are going to create this project, so that you save your passwords. This is not neccesary from the functionality point of view but it is from the security point of view. Think of a `.env` file as your project’s secret diary, where it whispers all its deepest, darkest secrets like passwords, API keys, and configuration settings. You need it because you don’t want these secrets plastered all over the code like graffiti. By keeping them in a `.env` file, you ensure they stay hidden and safe, only revealing themselves to those in the know—your code. So, a `.env` file is like having a secret stash of information that keeps your project running smoothly without spilling the beans to the world. No need for functy file name or anything just `.env` file.
 
 &lt;h2&gt; Modules Required &lt;/h2&gt;
 
@@ -302,7 +301,7 @@ documents = loader.load()
 &lt;li&gt; &lt;strong&gt;Evaluation of Chunk Sizes by performance results.&lt;/strong&gt;: To test different chunk sizes, use either multiple indices or a single index with multiple namespaces. Create embeddings for the selected chunk sizes using a representative dataset and save them in your index or indices. Then, run a series of queries to evaluate the quality and compare the performance of the various chunk sizes. This process is likely iterative, requiring you to test different chunk sizes against different queries until you identify the best-performing chunk size for your content and expected queries.&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 
-&lt;p&gt; For more information regarding chunk size and chunk overlap, you may refer on &lt;a href=&quot;https://www.kaggle.com/discussions/general/503436&quot;&gt;Guide to Chunk Size and Overlap&lt;/a&gt; by Kaggle, &lt;a href=&quot;https://docs.llamaindex.ai/en/stable/optimizing/basic_strategies/basic_strategies/&quot;&gt;Chunk Sizes&lt;/a&gt; by Llama Index  or &lt;a href=&quot;https://zilliz.com/learn/guide-to-chunking-sreategies-for-rag&quot;&gt;A Guide to Chunking Strategies for Retrieval Augmented Generation (RAG)&lt;/a&gt; by Zilliz. We are not goint to go through the process of deciding the optimal chunk size, as this is out of this project's scope.&lt;/p&gt;
+&lt;p&gt; For more information regarding chunk size and chunk overlap, you may refer on &lt;a href='https://www.kaggle.com/discussions/general/503436'&gt;Guide to Chunk Size and Overlap&lt;/a&gt; by Kaggle, &lt;a href='https://docs.llamaindex.ai/en/stable/optimizing/basic_strategies/basic_strategies/'&gt;Chunk Sizes&lt;/a&gt; by Llama Index  or &lt;a href='https://zilliz.com/learn/guide-to-chunking-sreategies-for-rag'&gt;A Guide to Chunking Strategies for Retrieval Augmented Generation (RAG)&lt;/a&gt; by Zilliz. We are not goint to go through the process of deciding the optimal chunk size, as this is out of this project's scope.&lt;/p&gt; 
 
 &lt;pre&gt;&lt;code&gt;text_splitter = RecursiveCharacterTextSplitter(chunk_size=512, chunk_overlap=32)
 text_chunks = text_splitter.split_documents(documents)
@@ -318,7 +317,7 @@ text_chunks = text_splitter.split_documents(documents)
 )
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt; Since we have our embeddings, we are now ready to create our vectorstore where we are going to save our embeddings. Imagine you’ve got a magical, super-organized pantry where every ingredient knows exactly where it belongs and can jump right into your hand when you need it. That’s a vectorstore! It’s a special kind of database where information is stored as vectors, or points in a high-dimensional space, making it super easy to find and retrieve. So, a vectorstore is like having a pantry where every spice, snack, and secret ingredient is neatly indexed and ready to leap out at your command, making your cooking—or in this case, data retrieval—fast and efficient! We have decided to use Chroma as our vectorstore service, but youare free to use any one you need. Some alternatives that you could consider are Pinecone, FAISS, Lance where you can find further information &lt;a href=&quot;https://python.langchain.com/v0.1/docs/modules/data_connection/vectorstores/&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;https://api.python.langchain.com/en/latest/vectorstores/langchain_community.vectorstores.sklearn.SKLearnVectorStore.html&quot;&gt;SKLearnVectorStore&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt; Since we have our embeddings, we are now ready to create our vectorstore where we are going to save our embeddings. Imagine you’ve got a magical, super-organized pantry where every ingredient knows exactly where it belongs and can jump right into your hand when you need it. That’s a vectorstore! It’s a special kind of database where information is stored as vectors, or points in a high-dimensional space, making it super easy to find and retrieve. So, a vectorstore is like having a pantry where every spice, snack, and secret ingredient is neatly indexed and ready to leap out at your command, making your cooking—or in this case, data retrieval—fast and efficient! We have decided to use Chroma as our vectorstore service, but youare free to use any one you need. Some alternatives that you could consider are Pinecone, FAISS, Lance where you can find further information &lt;a href='https://python.langchain.com/v0.1/docs/modules/data_connection/vectorstores/'&gt;here&lt;/a&gt; and &lt;a href='https://api.python.langchain.com/en/latest/vectorstores/langchain_community.vectorstores.sklearn.SKLearnVectorStore.html'&gt;SKLearnVectorStore&lt;/a&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;vectorstore = Chroma.from_documents(documents = text_chunks,                                    
     embedding = embeddings,
@@ -334,7 +333,7 @@ text_chunks = text_splitter.split_documents(documents)
 prompt = hub.pull('rlm/rag-prompt')
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt; Argument &lt;code&gt;'k':5&lt;/code&gt; makes sure that our retriever will bring back to the generator the 5 most similar items, not 6, not 4. The line &lt;code&gt;hub.pull('rlm/rag-prompt')&lt;/code&gt; is used to pull a specific prompt template named 'rlm/rag-prompt' from a hub. You could define and use your own prompt for this part (which we shall experiment in a later on post). To find out more on predefined qa-prompts, go to &amp;lt;a href'https://docs.smith.langchain.com/old/category/prompt-hub'&amp;gt;Langchain Hub&amp;lt;/a&amp;gt;.&lt;/p&gt;
+&lt;p&gt; Argument &lt;code&gt;'k':5&lt;/code&gt; makes sure that our retriever will bring back to the generator the 5 most similar items, not 6, not 4. The line &lt;code&gt;hub.pull('rlm/rag-prompt')&lt;/code&gt; is used to pull a specific prompt template named 'rlm/rag-prompt' from a hub. You could define and use your own prompt for this part (which we shall experiment in a later on post). To find out more on predefined qa-prompts, go to &lt;a href'https://docs.smith.langchain.com/old/category/prompt-hub'&gt;Langchain Hub&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2&gt; Chain Creation &lt;/h2&gt;
 
@@ -366,11 +365,11 @@ prompt = hub.pull('rlm/rag-prompt')
 rag_chain.invoke(question)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt; Well, I hope you enjoyed this as much as I did and learned something from it! Hope to see you again in the next post of this series where we are going to talk about Query transformation and how we can use LLM models so that an LLM can define our question on a different &quot;better&quot; way.&lt;/p&gt;
+&lt;p&gt; Well, I hope you enjoyed this as much as I did and learned something from it! Hope to see you again in the next post of this series where we are going to talk about Query transformation and how we can use LLM models so that an LLM can define our question on a different &quot;better&quot; way.&lt;/p&gt; 
 
 &lt;p&gt; &lt;i&gt;Be safe, code safer!&lt;/i&gt;&lt;/p&gt;
 
-&lt;p&gt; This whole series is inspired by &amp;lt;a = href='https://www.sakunaharinda.xyz/ragatouille-book/intro.html#'&amp;gt;Ragatoulle&amp;lt;/a&amp;gt;. Throughout this series, as this is the main goal of this blog, I aim to provide as simple as possible explanations about the modules and functions used with addition of my personal touch wherever I find it necessary.&lt;/p&gt;</content>
+&lt;p&gt; This whole series is inspired by &lt;a = href='https://www.sakunaharinda.xyz/ragatouille-book/intro.html#'&gt;Ragatoulle&lt;/a&gt;. Throughout this series, as this is the main goal of this blog, I aim to provide as simple as possible explanations about the modules and functions used with addition of my personal touch wherever I find it necessary.&lt;/p&gt;</content>
 
       
       
@@ -487,11 +486,11 @@ Image width: 1148
 img_as_array = np.asarray(img)
 plt.figure(figsize=(10, 7))
 plt.imshow(img_as_array)
-plt.title(f&quot;Image class: {image_class} | Image shape: {img_as_array.shape} -&amp;gt; [height, width, color_channels]&quot;)
+plt.title(f&quot;Image class: {image_class} | Image shape: {img_as_array.shape} -&gt; [height, width, color_channels]&quot;)
 plt.axis(False)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/jingle_no_jingle/sample_pic.png&quot; alt=&quot;Sample_Santa&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/jingle_no_jingle/sample_pic.png&quot; alt=&quot;Sample_Santa&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;Upon closer inspection, you'll observe that the included images exhibit varying dimensions. This variability demands attention to enhance our model's efficacy. Consequently, we'll implement specific transformations. Initially, we'll standardize all images to a uniform size of 64 by 64. Following this, we'll introduce random flips with a 50% probability for certain images. This strategic move aims to prevent the model from fixating on the horizontal direction as a defining feature of Santa, ensuring a more robust learning process. Lastly, to seamlessly integrate these images into our model, we'll convert them into tensors.&lt;/p&gt;
 
@@ -514,6 +513,7 @@ test_data = datasets.ImageFolder(root=test_dir,
 
 print(f&quot;Train data:\n{train_data}\nTest data:\n{test_data}&quot;)
 &lt;/code&gt;&lt;/pre&gt;
+
 
 &lt;p&gt;In the upcoming lines, we'll establish the image classes present in the training and testing folders. As you might anticipate, these classes are none other than Santa and Not Santa!&lt;/p&gt;
 
@@ -688,6 +688,7 @@ Train time on cpu: 280.503 seconds
 &lt;p&gt;How to decide the number of the layers?&lt;/p&gt;
 &lt;/blockquote&gt;
 
+
 &lt;p&gt;To be honest, there is no solid way or any rule of thumb to calculate the number of layers needed for any type of problem you are trying to solve. As a result, deciding on the number of layers can be a challenging task. However, there are some general guidelines that can help:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -707,6 +708,7 @@ Train time on cpu: 280.503 seconds
 
 &lt;p&gt;If you search for information on determining the optimal number of neurons per layer in a neural network, you may come across several &quot;rules of thumb&quot; that suggest a range of options. While these rules can provide a starting point, it's important to remember that the optimal solution may vary depending on the specific problem you are trying to solve. Therefore, it's important to also consider other factors such as the complexity of the problem, available resources, and experimentation with different architectures.&lt;/p&gt;
 
+
 &lt;ul&gt;
 &lt;li&gt; The number of hidden neurons should be between the size of the input layer and the size of the output layer. &lt;/li&gt;
 &lt;li&gt; The number of the neurons should be 2/3 the size of the input layer, plus the size of the output layer. &lt;/li&gt;
@@ -722,11 +724,10 @@ Train time on cpu: 280.503 seconds
 &lt;blockquote&gt;
 &lt;p&gt;Cool cool cool.. No doubt.. How do we pass through the neurons and layers?&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;iframe src=&quot;https://giphy.com/embed/XAdbHJywVjF5K&quot; width=&quot;480&quot; height=&quot;274&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href=&quot;https://giphy.com/gifs/someone-gwen-stefani-XAdbHJywVjF5K&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src=&quot;https://giphy.com/embed/XAdbHJywVjF5K&quot; width=&quot;480&quot; height=&quot;274&quot; frameBorder=&quot;0&quot; class=&quot;giphy-embed&quot; allowFullScreen&gt;&lt;/iframe&gt;&lt;p&gt;&lt;a href=&quot;https://giphy.com/gifs/someone-gwen-stefani-XAdbHJywVjF5K&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;For those two or three..&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://giphy.com/embed/XAdbHJywVjF5K&quot; /&gt;&lt;/p&gt;
+&lt;img src = &quot;https://giphy.com/embed/XAdbHJywVjF5K&quot;/&gt;
 
 &lt;p&gt;I am glad you asked.. (Did you? Hopefully you did, or I am hearing voices 👻). If you recall from the &lt;a href=&quot;https://kavourei.github.io/neural_network_intro&quot;&gt;introductory post&lt;/a&gt; of this series, we mentioned the activation functions which we shall discuss later in this post, but I have not mentioned at all the work backpropagation though you may have come across in some posts. &lt;/p&gt;
 
@@ -770,7 +771,7 @@ library(sigmoid)
 &lt;p&gt;Moving forward we are going to load the data for the first example, the concrete one.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-data1_init &amp;lt;- read.csv('/Users/.../concrete.csv')
+data1_init &lt;- read.csv('/Users/.../concrete.csv')
 
 str(data1_init)
 &lt;/code&gt;&lt;/pre&gt;
@@ -785,10 +786,10 @@ str(data1_init)
 &lt;p&gt;Let's define our normalisation function, which will be clearer how the process works and then apply the normalisation function to the data imported:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-custom_norm &amp;lt;- function(x){
+custom_norm &lt;- function(x){
   return((x-min(x))/(max(x)-min(x)))
 }
-data1_norm &amp;lt;- as.data.frame(lapply(data1_init, custom_norm))
+data1_norm &lt;- as.data.frame(lapply(data1_init, custom_norm))
 
 str(data1_norm)
 &lt;/code&gt;&lt;/pre&gt;
@@ -797,12 +798,12 @@ str(data1_norm)
 
 &lt;pre&gt;&lt;code&gt;
 set.seed(1)
-trainIndex &amp;lt;- createDataPartition(data1_norm$strength,
+trainIndex &lt;- createDataPartition(data1_norm$strength,
                                   p = 0.7,
                                   list = FALSE,
                                   times = 1) 
-data1_train &amp;lt;- data1_norm[trainIndex,]
-data1_test &amp;lt;- data1_norm[-trainIndex,]
+data1_train &lt;- data1_norm[trainIndex,]
+data1_test &lt;- data1_norm[-trainIndex,]
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;I use here the &lt;em&gt;set.seed(1)&lt;/em&gt; so that if you copy and paste the code chunks you end up with the same results as me. The creatDataPartition help us create index to take the train and test sample according to the vector we will use as outcome. The second argument is used to define the amount of data we will split the data upon, here we use 70%.&lt;/p&gt;
@@ -810,17 +811,17 @@ data1_test &amp;lt;- data1_norm[-trainIndex,]
 &lt;p&gt;Guess what time it is.. To build our first model. We are going to build the simplest model possible to start with and get an idea. We will use the function &lt;em&gt;neuralnet&lt;/em&gt;. As the first argument, we define the data that we take the features from and then address the formula. Before the tilde ( '~' ) we define the output variable to be predicted and in the right of it we define the input features. By adding the dot, we indicate to the model to use all the other features available.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-conc_model1 &amp;lt;- neuralnet(data = data1_train, strength ~ .)
+conc_model1 &lt;- neuralnet(data = data1_train, strength ~ .)
 plot(conc_model1)
 &lt;/code&gt;&lt;/pre&gt;
-
+	
 &lt;p&gt;This is our first Neural Network. Here we see the input layer (all the dots to the right), with the weights each feature is measured with the help of BP, the hidden layer (1) in the middle, where the logarithmic activation function is used (by default in neuralnet) and th outcome where layer. Bellow we can see the Error (which is the sum of squared errors (&lt;strong&gt;SSE&lt;/strong&gt;)) and the number of training steps required for the model to converge.&lt;/p&gt;
 
 &lt;p&gt;In order to evaluate our first NN, we continue as listed below:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-conc_results1 &amp;lt;- compute(conc_model1, data1_test[1:8])
-conc_pred1 &amp;lt;- conc_results1$net.result
+conc_results1 &lt;- compute(conc_model1, data1_test[1:8])
+conc_pred1 &lt;- conc_results1$net.result
 cor(conc_pred1,data1_test[9])
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -846,7 +847,7 @@ cat(&quot; MAE:&quot;, mae, &quot;\n&quot;, &quot;MSE:&quot;, mse, &quot;\n&quot
 &lt;p&gt;We can see that overall, the results we obtain are good. But there is always room for improvement. &lt;strong&gt;Perfection is the enemy of a good result&lt;/strong&gt; after all!&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-conc_model2 &amp;lt;- neuralnet(data = data1_train, strength ~ ., hidden =5)
+conc_model2 &lt;- neuralnet(data = data1_train, strength ~ ., hidden =5)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Here we have modified the single hidden layer, by adding 4 extra neurons (5 in total) through the argument of &lt;em&gt;hidden&lt;/em&gt;.&lt;/p&gt;
@@ -858,8 +859,8 @@ plot(conc_model2)
 &lt;p&gt;By the Error provided through the plot of the new NN model, we have a sign that we have improved the situation, though let us proceed to our model evaluation metrics introduced above.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-conc_results2 &amp;lt;- compute(conc_model2, data1_test[1:8])
-conc_pred2 &amp;lt;- conc_results2$net.result
+conc_results2 &lt;- compute(conc_model2, data1_test[1:8])
+conc_pred2 &lt;- conc_results2$net.result
 cor(conc_pred2,data1_test[9])
 
 d2 = data1_test$strength-conc_pred2
@@ -874,7 +875,7 @@ cat(&quot; MAE:&quot;, mae, &quot;\n&quot;, &quot;MSE:&quot;, mse, &quot;\n&quot
 &lt;p&gt;We can clearly see that we have obtained from that small change. You can modify the model above by adding one or more layers and change the number of the neurons. Though this is like a sandbox where you can test different things, remember you always need to take care of the number of layers and neurons used as the most common error of the excitement while going closer to perfect prediction is overfitting.. In order to change the number of letters, we should modify the &lt;em&gt;hidden&lt;/em&gt; argument in the &lt;em&gt;neuralnet&lt;/em&gt; function. For example if we want 4 neurons in the first hidden layer and 5 in the second we should define it as &lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-example_model &amp;lt;- neuralnet(..., hidden = c(4,5))
+example_model &lt;- neuralnet(..., hidden = c(4,5))
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Apart from those there are many more arguments to modify your network like &lt;em&gt;startweights&lt;/em&gt; which defines the starting value of each weight, &lt;em&gt;learningrate&lt;/em&gt; which indicates the learning rate of your model, &lt;em&gt;algorithm&lt;/em&gt; which let's you change the algorithm for weights adjustment (a.k.a. change the default backpropagation usage), &lt;em&gt;act.fct&lt;/em&gt; which let's you choose activation function through your model, &lt;em&gt;err.fct&lt;/em&gt; which gives you the power to use specific error calculating function and many many more, feel free to type &lt;strong&gt;neuralnet&lt;/strong&gt; in your console to find out all of them!&lt;/p&gt;
@@ -882,8 +883,8 @@ example_model &amp;lt;- neuralnet(..., hidden = c(4,5))
 &lt;p&gt;The second example is an implementation of two neural network models. After followin the same normalization preprocessing and splitting steps as above for the data about house prices in Paris we have a 1-3-1 model  where the hidden layers will consist from 4 neurons each and a 1-1-1 model where the hidden layer will consist from 2 neurons, and compare the results. In those models, the ReLU activation function was used. &lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-house_model0 &amp;lt;- neuralnet(data = house_train, price ~ .,hidden = c(2),act.fct = relu)
-house_model1 &amp;lt;- neuralnet(data = house_train, price ~ .,hidden = c(4,4,4), act.fct = relu)
+house_model0 &lt;- neuralnet(data = house_train, price ~ .,hidden = c(2),act.fct = relu)
+house_model1 &lt;- neuralnet(data = house_train, price ~ .,hidden = c(4,4,4), act.fct = relu)
 
 plot(house_model0)
 plot(house_model1)
@@ -903,8 +904,7 @@ data.frame(Model_1 = c(cor21,mae21,mse21,rmse21,R2_21),
 
 &lt;p&gt;At this place I would like to especially thank the readers who send me their comments (both good and bad) and general remarks, with their help I become better and keep it going. So thank you guys!&lt;/p&gt;
 
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;p&gt;Be safe, code safer!&lt;/p&gt;</content>
 
       
@@ -943,6 +943,8 @@ data.frame(Model_1 = c(cor21,mae21,mse21,rmse21,R2_21),
       <id>http://localhost:4000/neural_network_intro</id>
       <content type="html" xml:base="http://localhost:4000/neural_network_intro">&lt;h2 id=&quot;specialformatting&quot;&gt;Introduction&lt;/h2&gt;
 
+
+
 &lt;p&gt;Nowadays, deep learning is entering in our lives deeper and deeper (you see what I did there?!? 🤯🤯🤯) Anyways, as I was saying the evolution of deep learning and the usage of Neural Network has taken an exponential rate. As not everyone is a computer science expert/enthusiast it is obvious that a question may rise.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -968,6 +970,7 @@ In this paper a mathematical model is proposed inspired by our own neural networ
 &lt;blockquote&gt;
 So, what does a neural network consists of?
 &lt;/blockquote&gt;
+ 
 
 &lt;p&gt;A neural network consists of 3 layers: &lt;/p&gt;
 
@@ -1009,8 +1012,8 @@ And how does this work?
 
 &lt;p&gt;So each of those factors represent a variable, let's assume that neighbourhood is x1, available rooms x2, time it was built x3, and the rest that you can think of. So obviously some are more important than others and play a greater role in our model. As a result, every factor is assigned to a weight (let's say the weight of importance).  After a weight is assigned to each factor, we can produce the weighted sum of all those factors. Finally with the help of an activation function, this is converted and output to a number. The output that we search for (hopefully if we have done everything right 🤞🏼). Bellow, with the help of a graph, those steps are represented in a simple and clear way. I believe till now everything is well understood.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/intro_to_nn/1_simple_nn_architecture.png&quot; alt=&quot;NN Architecture&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;🤔🤔🤔&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/intro_to_nn/1_simple_nn_architecture.png&quot; alt=&quot;NN Architecture&quot;&gt;&lt;/p&gt;
+🤔🤔🤔
 
 &lt;p&gt;Now you may want to say the following :&lt;/p&gt;
 
@@ -1044,7 +1047,7 @@ Ok..?!?.. But what is the activation function?
 
 &lt;p&gt;There are more activation functions if you search around though those are the ones used the most. An appropriate activation function choice is a crucial part for the performance of our network. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/intro_to_nn/2_activation_funcs.jpg&quot; alt=&quot;Activation Functions&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/intro_to_nn/2_activation_funcs.jpg&quot; alt=&quot;Activation Functions&quot;&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;specialformatting&quot;&gt;Neural Network - Uses and limits&lt;/h2&gt;
 
@@ -1072,10 +1075,8 @@ Ok..?!?.. But what is the activation function?
 
 &lt;p&gt;That is all I wanted to tell you about Artificial Neural Networks. I hope you got the whole process and learned a thing or two. Stay tuned for some applications on this subject. Thank you for reading this post! &lt;/p&gt;
 
-&lt;hr /&gt;
-&lt;p&gt;Be safe, code safer!&lt;/p&gt;
-
-&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;</content>
+&lt;hr&gt;
+&lt;p&gt;Be safe, code safer!&lt;/p&gt;</content>
 
       
       
