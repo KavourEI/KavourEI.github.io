@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/news_images/google_ai.jpg
+cover:  assets/images/news_images/mistralai.jpeg
 navigation: True
 title: Mistral Unveils Mistral 7B - A Cutting-Edge Language Model
 date: 2024-07-24
