@@ -8,6 +8,36 @@
     
       
       <item>
+        <title>LangGraph Studio - The first agent IDE</title>
+        
+          <description>&lt;p&gt;LangGraph Studio provides a specialized agent IDE for visualizing, interacting with, and debugging complex agentic applications.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 01 Aug 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/LanggraphStudio</link>
+        <guid isPermaLink="true">http://localhost:4000/LanggraphStudio</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing the Galileo Hallucination Index - A New Benchmark for AI Accuracy</title>
+        
+          <description>&lt;p&gt; Hallucination is a huge issue in the field of artificial intelligence. The accuracy and reliability of AI-generated content has become increasingly important in the last few years since people tend to rely on AI more and more in an exponential pace. Galileo, a pioneering platform in AI model evaluation, has introduced the Hallucination Index, a groundbreaking tool designed to measure and mitigate AI hallucinations. This blog post explores the Hallucination Index.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 31 Jul 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/HallucinationIndex</link>
+        <guid isPermaLink="true">http://localhost:4000/HallucinationIndex</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>RAG - Query Transformation</title>
         
           <description>&lt;p&gt; Welcome back, I hope you enjoyed the &lt;a href=&quot;https://kavourei.github.io/rag1&quot;&gt;first part&lt;/a&gt; of this series where we are going to explore a portion portion of RAG tool. It is higly suggested that you take a look at all the projects of this series step by step and more importantly to code along this project. If you don't code it out you won't get it.&lt;/p&gt;
