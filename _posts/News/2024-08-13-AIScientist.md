@@ -47,7 +47,7 @@ author: Kavour
 <li> <strong>Scalable Research</strong>: The AI’s ability to work independently and continuously means that large-scale research projects can be carried out more efficiently, potentially unlocking new knowledge that was previously inaccessible due to resource constraints.</li>
 <li> <strong>Democratization of Research</strong>: The Sakana AI Scientist could make high-quality research more accessible to smaller institutions or organizations that lack the resources to conduct extensive studies. This could lead to a more equitable distribution of scientific knowledge.</li>
 <li> <strong>Reduction in Human Error</strong>: By relying on AI to conduct experiments and analyze data, the risk of human error is reduced, leading to more accurate and reliable results.</li>
-<li> <strong>Ethical and Normative Challenges</strong<>: As with any significant technological advancement, the rise of autonomous AI in scientific research raises ethical concerns, particularly around the transparency of AI-driven research processes, accountability for results, and the potential biases embedded in the AI’s algorithms.</li>
+<li> <strong>Ethical and Normative Challenges</strong>: As with any significant technological advancement, the rise of autonomous AI in scientific research raises ethical concerns, particularly around the transparency of AI-driven research processes, accountability for results, and the potential biases embedded in the AI’s algorithms.</li>
 </ul>
 
 <h3>Ethical Considerations</h3>
