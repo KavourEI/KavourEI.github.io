@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-08T16:01:23+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kavour</title><subtitle>Data Science and AI News</subtitle><entry><title type="html">LangGraph Studio - The first agent IDE</title><link href="http://localhost:4000/LanggraphStudio" rel="alternate" type="text/html" title="LangGraph Studio - The first agent IDE" /><published>2024-08-01T00:00:00+03:00</published><updated>2024-08-01T00:00:00+03:00</updated><id>http://localhost:4000/LanggraphStudio</id><content type="html" xml:base="http://localhost:4000/LanggraphStudio">&lt;p&gt;LangGraph Studio provides a specialized agent IDE for visualizing, interacting with, and debugging complex agentic applications.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-19T12:31:27+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kavour</title><subtitle>Data Science and AI News</subtitle><entry><title type="html">Sakana AI’s ‘AI Scientist’, Too Autonomous for Its Own Good?</title><link href="http://localhost:4000/AIScientist" rel="alternate" type="text/html" title="Sakana AI’s ‘AI Scientist’, Too Autonomous for Its Own Good?" /><published>2024-08-13T00:00:00+03:00</published><updated>2024-08-13T00:00:00+03:00</updated><id>http://localhost:4000/AIScientist</id><content type="html" xml:base="http://localhost:4000/AIScientist">&lt;p&gt;Sakana AI, in collaboration with scientists from the University of Oxford and the University of British Columbia, has developed an artificial intelligence system that can conduct end-to-end scientific research autonomously, called 'AI-Scientist'.&lt;/p&gt;
+
+&lt;h3&gt;Redefinment Scientific Research using Artificial Intelligentce.&lt;/h3&gt;
+
+&lt;p&gt;In a groundbreaking development for the field of artificial intelligence, &lt;a href=&quot;https://sakana.ai/ai-scientist/&quot;&gt;Sakana AI&lt;/a&gt; is redefining the landscape of scientific research with the introduction of the Sakana AI Scientist, an autonomous AI system capable of independently conducting complex scientific investigations. This innovative technology marks a significant departure from traditional research methods, offering a glimpse into the future of science where AI plays a central role in discovery and innovation. In this blog post we are going to discuss the capabilities of Sakana's AI-Researcher, its potential impact on the scientific community, and things that we need to consider before accepting this huge step of evolution for the future of research.&lt;/p&gt;
+
+&lt;h3&gt;The Evolution of AI in Scientific Research&lt;/h3&gt;
+
+&lt;p&gt;Artificial intelligence has been increasingly utilized in scientific research, primarily as a tool to assist human scientists in data analysis, pattern recognition, and hypothesis generation. However, until now, AI systems have largely operated under the guidance and supervision of human researchers. The Sakana AI Scientist changes this dynamic by taking on a more autonomous role, capable of conducting experiments and analyzing results with minimal human intervention.&lt;/p&gt;
+
+&lt;p&gt;This development is particularly noteworthy because it challenges the traditional view of scientific research as a human-driven endeavor. With Sakana AI, the process of discovery is increasingly automated, potentially accelerating the pace of innovation and enabling breakthroughs that might have been difficult or impossible to achieve with human researchers alone. The questions here that we might need to consider are the following. 'What is going to be the position of a human scientist and an AI-Scientist in future scientific areas?' as well as 'What is going to be the proportiong of a research completed/accepted by an AI-Scientist by the scientific community?'.&lt;/p&gt;
+
+&lt;h3&gt;What is Sakana AI?&lt;/h3&gt;
+
+&lt;p&gt;The Sakana AI Scientist is an advanced AI system designed to autonomously carry out scientific research. Unlike other AI tools that assist in specific tasks, the Sakana AI Scientist can independently generate hypotheses, design and conduct experiments, and interpret the outcomes. This level of autonomy allows for a more efficient and scalable approach to scientific inquiry, potentially accelerating the pace of discovery across various fields.&lt;/p&gt;
+
+&lt;h3&gt;Key Features of the Sakana AI Scientist&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt; &lt;strong&gt;Autonomous Hypothesis Generation&lt;/strong&gt;: The Sakana AI Scientist is capable of formulating its own research questions based on the data it analyzes. This feature allows the AI to explore new research directions without needing explicit instructions from human scientists.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Experiment Design and Execution&lt;/strong&gt;: Once a hypothesis is generated, the AI Scientist can design and execute experiments to test its theories. This involves selecting appropriate methodologies, gathering data, and conducting analyses—all autonomously.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Data Interpretation and Insight Generation&lt;/strong&gt;: After conducting experiments, the AI Scientist interprets the results and generates insights, which can then be used to refine its hypotheses or shared with human researchers for further exploration.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Adaptive Learning&lt;/strong&gt;: The AI Scientist continually learns from its experiences, improving its research methodologies and decision-making processes over time. This adaptive learning capability enables the AI to become more efficient and effective in its research efforts.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Cross-Disciplinary Applications&lt;/strong&gt;: The Sakana AI Scientist is versatile and can be applied to various scientific disciplines, including biology, chemistry, physics, and materials science. This adaptability makes it a powerful tool for advancing knowledge across multiple fields simultaneously.&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h3&gt;Potential Impact of the Sakana AI Scientist&lt;/h3&gt;
+
+&lt;p&gt;The introduction of the Sakana AI Scientist has far-reaching implications for the scientific community and beyond:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; &lt;strong&gt;Accelerated Scientific Discovery&lt;/strong&gt;: By automating the research process, the AI Scientist can conduct experiments at a much faster pace than human researchers, leading to quicker discoveries and advancements in various fields.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Scalable Research&lt;/strong&gt;: The AI’s ability to work independently and continuously means that large-scale research projects can be carried out more efficiently, potentially unlocking new knowledge that was previously inaccessible due to resource constraints.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Democratization of Research&lt;/strong&gt;: The Sakana AI Scientist could make high-quality research more accessible to smaller institutions or organizations that lack the resources to conduct extensive studies. This could lead to a more equitable distribution of scientific knowledge.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Reduction in Human Error&lt;/strong&gt;: By relying on AI to conduct experiments and analyze data, the risk of human error is reduced, leading to more accurate and reliable results.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Ethical and Normative Challenges&amp;lt;/strong&amp;lt;&amp;gt;: As with any significant technological advancement, the rise of autonomous AI in scientific research raises ethical concerns, particularly around the transparency of AI-driven research processes, accountability for results, and the potential biases embedded in the AI’s algorithms.&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+
+&lt;h3&gt;Ethical Considerations&lt;/h3&gt;
+
+&lt;p&gt;As stated earlier, there are several issues that we need to consider, in order to agree and fully deploy AI-Scientist in our workload. The autonomy of the Sakana AI Scientist presents several ethical questions that the scientific community must address. These include concerns about the transparency of AI-driven research, the ownership of discoveries made by AI, the potential for AI to inadvertently introduce biases or errors into research, and of course the build-up of research community. Ensuring that the use of AI in science adheres to rigorous ethical standards will be crucial as this technology becomes more widespread.&lt;/p&gt;
+
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;The Sakana AI Scientist represents a transformative step in the evolution of scientific research, offering a new model for how research can be conducted in the future. With its ability to autonomously generate hypotheses, design experiments, and interpret data, the AI Scientist has the potential to significantly accelerate the pace of discovery and democratize access to high-quality research. As the scientific community continues to integrate AI into its practices, the Sakana AI Scientist will undoubtedly play a central role in shaping the future of innovation and discovery.&lt;/p&gt;
+
+&lt;p&gt;For more detailed information about the Sakana AI Scientist, visit Sakana AI’s official published &lt;a href=&quot;https://arxiv.org/pdf/2408.06292&quot;&gt;paper&lt;/a&gt;.&lt;/p&gt;
+&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">Sakana AI, in collaboration with scientists from the University of Oxford and the University of British Columbia, has developed an artificial intelligence system that can conduct end-to-end scientific research autonomously, called 'AI-Scientist'.</summary></entry><entry><title type="html">LangGraph Studio - The first agent IDE</title><link href="http://localhost:4000/LanggraphStudio" rel="alternate" type="text/html" title="LangGraph Studio - The first agent IDE" /><published>2024-08-01T00:00:00+03:00</published><updated>2024-08-01T00:00:00+03:00</updated><id>http://localhost:4000/LanggraphStudio</id><content type="html" xml:base="http://localhost:4000/LanggraphStudio">&lt;p&gt;LangGraph Studio provides a specialized agent IDE for visualizing, interacting with, and debugging complex agentic applications.&lt;/p&gt;
 
 &lt;p&gt; LangChain has unveiled LangGraph Studio, a revolutionary Integrated Development Environment (IDE) designed specifically for AI agents. As the first of its kind, LangGraph Studio offers a powerful platform that allows developers to build, test, and deploy AI agents with unprecedented ease and efficiency. This blog post explores the key features and capabilities of LangGraph Studio, and how it is set to transform the way AI agents are developed.&lt;/p&gt;
 
@@ -259,7 +307,7 @@ questions&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt; 🚀 Imagine the possibilities and think about what you could do by defining a proper prompt based on you needs. 🚀 I hope you enjoyed this as much as I did and of course, learned something from it! In the next post of this series, we will explore Hypothetical Document Embeddings. We'll create our own documents, allowing their embedding vectors to identify neighborhoods in the corpus embedding space where similar real documents can be retrieved based on vector similarity.&lt;/p&gt; 
 
 &lt;p&gt; &lt;i&gt;Be safe, code safer!&lt;/i&gt;&lt;/p&gt;
-&lt;/h2&gt;&lt;/h2&gt;</content><author><name>Kavour</name></author><category term="project" /><category term="Deep Learning" /><summary type="html">Welcome back, I hope you enjoyed the first part of this series where we are going to explore a portion portion of RAG tool. It is higly suggested that you take a look at all the projects of this series step by step and more importantly to code along this project. If you don't code it out you won't get it.</summary></entry><entry><title type="html">AI achieves silver medal solving International Mathematical Olympiad problems</title><link href="http://localhost:4000/AISilverMedal" rel="alternate" type="text/html" title="AI achieves silver medal solving International Mathematical Olympiad problems" /><published>2024-07-25T00:00:00+03:00</published><updated>2024-07-25T00:00:00+03:00</updated><id>http://localhost:4000/AISilverMedal</id><content type="html" xml:base="http://localhost:4000/AISilverMedal">&lt;h2&gt;AI Achieves Silver Medal Level in International Math Olympiad Problems: A Milestone in Computational Intelligence&lt;/h2&gt;
+&lt;/h2&gt;&lt;/h2&gt;</content><author><name>Kavour</name></author><category term="project" /><summary type="html">Welcome back, I hope you enjoyed the first part of this series where we are going to explore a portion portion of RAG tool. It is higly suggested that you take a look at all the projects of this series step by step and more importantly to code along this project. If you don't code it out you won't get it.</summary></entry><entry><title type="html">AI achieves silver medal solving International Mathematical Olympiad problems</title><link href="http://localhost:4000/AISilverMedal" rel="alternate" type="text/html" title="AI achieves silver medal solving International Mathematical Olympiad problems" /><published>2024-07-25T00:00:00+03:00</published><updated>2024-07-25T00:00:00+03:00</updated><id>http://localhost:4000/AISilverMedal</id><content type="html" xml:base="http://localhost:4000/AISilverMedal">&lt;h2&gt;AI Achieves Silver Medal Level in International Math Olympiad Problems: A Milestone in Computational Intelligence&lt;/h2&gt;
 
 &lt;p&gt;Artificial Intelligence continues to make impressive strides across various domains, from healthcare to transportation, and now it has marked a significant achievement in the field of mathematics. DeepMind, a leading AI research company, recently published a blog post detailing how their AI has solved International Mathematical Olympiad (IMO) problems at a silver medal level. This breakthrough highlights not only the advancement of AI capabilities but also its potential to aid in solving complex mathematical problems that challenge even the brightest human minds.&lt;/p&gt;
 
@@ -405,131 +453,4 @@ questions&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.com/yu-rp/KANbeFair&quot;&gt; Project page &lt;/a&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2407.16674&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/p&gt;</content><author><name>Kavour</name></author><category term="research" /><summary type="html">Abstract</summary></entry><entry><title type="html">Introduction to RAG models</title><link href="http://localhost:4000/rag1" rel="alternate" type="text/html" title="Introduction to RAG models" /><published>2024-07-22T00:00:00+03:00</published><updated>2024-07-22T00:00:00+03:00</updated><id>http://localhost:4000/rag1</id><content type="html" xml:base="http://localhost:4000/rag1">&lt;p&gt; Firstly, in case you don't know what is RAG here is an unofficial explanation. Imagine you’re on a treasure hunt, but instead of a dusty old map, you’ve got a genius guide who knows every hidden corner. That’s RAG, short for &lt;strong&gt;Retrieval-Augmented Generation&lt;/strong&gt;. It’s like having a super-smart friend who fetches the most relevant bits of knowledge from a massive library (the retrieval part) and then crafts a perfectly tailored response just for you (the generation part). So, if your brain is a bit like a rusty old filing cabinet, think of RAG as your personal, turbo-charged librarian who’s always got the answer before you can say &quot;Google it!&quot;&lt;/p&gt;
-
-&lt;p&gt; In this series of posts, we are going to explore LangChain tools and create RAG models for several applications. We are going to go through the little details that may or may not work in our cases and how to fix those teeny tiny configurations that may be neccesary for our purposes. Without further ado..&lt;/p&gt;
-
-&lt;h2&gt; Dotenv File &lt;/h2&gt;
-
-&lt;p&gt;Before moving forward to modules and script, there is a high need for a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.env&lt;/code&gt; file. Initially, you need to create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.env&lt;/code&gt; file in the folder you are going to create this project, so that you save your passwords. This is not neccesary from the functionality point of view but it is from the security point of view. Think of a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.env&lt;/code&gt; file as your project’s secret diary, where it whispers all its deepest, darkest secrets like passwords, API keys, and configuration settings. You need it because you don’t want these secrets plastered all over the code like graffiti. By keeping them in a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.env&lt;/code&gt; file, you ensure they stay hidden and safe, only revealing themselves to those in the know—your code. So, a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.env&lt;/code&gt; file is like having a secret stash of information that keeps your project running smoothly without spilling the beans to the world. No need for functy file name or anything just &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.env&lt;/code&gt; file.&lt;/p&gt;
-
-&lt;h2&gt; Modules Required &lt;/h2&gt;
-
-&lt;p&gt; The python modules we are going to use for this introductory project are the following&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;import os
-from dotenv import load_dotenv
-from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain import hub
-from langchain_community.vectorstores import Chroma
-from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnablePassthrough
-from langchain_openai import AzureOpenAIEmbeddings
-from langchain.chat_models import AzureChatOpenAI
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt; &lt;strong&gt;os&lt;/strong&gt;: Used for accessing environment variables with os.getenv().&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;dotenv.load_dotenv&lt;/strong&gt;: Intended to load environment variables from the .env file.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;langchain_community.document_loaders.PyPDFLoader&lt;/strong&gt;: Used to load PDF documents.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;langchain_community.document_loaders.DirectoryLoader&lt;/strong&gt;: Used to load documents from a directory.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;langchain.text_splitter.RecursiveCharacterTextSplitter&lt;/strong&gt;: Used to split documents into chunks.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;langchain_community.vectorstores.Chroma&lt;/strong&gt;: Used to create a vectorstore from document embeddings.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;langchain.chat_models.AzureChatOpenAI&lt;/strong&gt;: Used to initialize the Azure OpenAI model for the QA chain.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;langchain.hub&lt;/strong&gt;: Used to pull a prompt from the hub.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;langchain_core.output_parsers.StrOutputParser&lt;/strong&gt;: Used to parse the output of the QA chain.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;langchain_core.runnables.RunnablePassthrough&lt;/strong&gt;: Used in the QA chain to pass through the question.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt; In the file where we will run this python script, we need to create a folder where we are going to save our data, our files. Else we can load them from a different path. For the purposes of this series, I decided to use the first option. We use PyPDFLoader to laod them as in the following script:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;loader = DirectoryLoader('data/', glob = '*.pdf', loader_cls=PyPDFLoader)
-documents = loader.load()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt; Here we see that the first argument &lt;code&gt;data/&lt;/code&gt; is the relative path where the documents are placed. WIth the second argument &lt;code&gt;*.pdf&lt;/code&gt; we define that we want to take under consideration all the files that end with the afforementioned character sequence '.pdf' (the word any is represented by '*'). Lastly, we define the loader class to use for the purposes of the files loading process &lt;code&gt;PyPDFLoader&lt;/code&gt;. Mind that there are other classes that can be used for different types of documents like &lt;code&gt;UnstructuredFileLoader&lt;/code&gt;, &lt;code&gt;TextLoader&lt;/code&gt;, &lt;code&gt;BSHTMLLoader&lt;/code&gt;, &lt;code&gt;CSVLoader&lt;/code&gt;. To find more about this check &lt;a href=&quot;https://api.python.langchain.com/en/latest/document_loaders/langchain_community.document_loaders.directory.DirectoryLoader.html&quot;&gt;here&lt;/a&gt;. Let your imagination go wild! There are also other types of loaders (which we are going to explore later on) where you can load information from webpages, youtube and many many more. After that is completed we use this class and &lt;code&gt;load()&lt;/code&gt; everything exists in the file path and save them to the onject documents.&lt;/p&gt;
-
-&lt;h2&gt; Chunks and Overlap &lt;/h2&gt;
-
-&lt;p&gt; Next in line of the things we need to accomplish is split the documents into chunks. Chunk?!?!? Imagine you’re trying to eat a massive pizza all by yourself. Chunk_size is like deciding how many slices you cut it into so you can manage each piece without choking. Chunk overlap, on the other hand, is making sure each slice has a bit of the previous one’s crust, so you don’t miss any of the delicious toppings in between. To optimize them, you balance the slice size (chunk_size) to be just right for easy munching, and the overlap so you get all the flavors without making it too repetitive. Get it right, and you’ll devour that pizza with maximum efficiency and satisfaction!&lt;/p&gt;
-
-&lt;p&gt; Here are some tips to help you determine the optimal chunk size if common chunking methods, such as fixed chunking, are not suitable for your use case:
-
-&lt;ul&gt;
-&lt;li&gt; &lt;strong&gt;Data Preprocessing&lt;/strong&gt;: Before deciding on the best chunk size, you need to preprocess your data to ensure its quality. For instance, if your data is sourced from the web, you might need to remove HTML tags or other noise elements.&lt;/li&gt;
-
-&lt;li&gt; &lt;strong&gt;Chunk Sizes&lt;/strong&gt;: After preprocessing, choose a range of potential chunk sizes to test. The selection should consider the nature of the content (e.g., short messages vs. lengthy documents), the embedding model you’ll use, and its token limits. Aim to find a balance between preserving context and maintaining accuracy. Start by exploring various chunk sizes, such as smaller chunks (e.g., 128 or 256 tokens) for capturing granular semantic information and larger chunks (e.g., 512 or 1024 tokens) for retaining more context.&lt;/li&gt;
-
-&lt;li&gt; &lt;strong&gt;Evaluation of Chunk Sizes by performance results.&lt;/strong&gt;: To test different chunk sizes, use either multiple indices or a single index with multiple namespaces. Create embeddings for the selected chunk sizes using a representative dataset and save them in your index or indices. Then, run a series of queries to evaluate the quality and compare the performance of the various chunk sizes. This process is likely iterative, requiring you to test different chunk sizes against different queries until you identify the best-performing chunk size for your content and expected queries.&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
-&lt;p&gt; For more information regarding chunk size and chunk overlap, you may refer on &lt;a href=&quot;https://www.kaggle.com/discussions/general/503436&quot;&gt;Guide to Chunk Size and Overlap&lt;/a&gt; by Kaggle, &lt;a href=&quot;https://docs.llamaindex.ai/en/stable/optimizing/basic_strategies/basic_strategies/&quot;&gt;Chunk Sizes&lt;/a&gt; by Llama Index  or &lt;a href=&quot;https://zilliz.com/learn/guide-to-chunking-sreategies-for-rag&quot;&gt;A Guide to Chunking Strategies for Retrieval Augmented Generation (RAG)&lt;/a&gt; by Zilliz. We are not goint to go through the process of deciding the optimal chunk size, as this is out of this project's scope.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;text_splitter = RecursiveCharacterTextSplitter(chunk_size=512, chunk_overlap=32)
-text_chunks = text_splitter.split_documents(documents)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt; Now that we have collected our data, and divided into some well structured chunks, easily digestible pieces, we need to create an embeddings model. This model will assists us on creatign embeddings out of the collected and stored documents that we are interested on finding further information about. As I have already mentioned above, I have decided to use Azure OpenAI to assists us. It is up to you which model you are going to use. there are many alternatives bnoth free and paid ones for each part of our project to consider. Do not hesitate to ask me if you have any qyestions on how to change the code so that you use a different kind of model!&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;embeddings = AzureOpenAIEmbeddings(
-    deployment=os.getenv('OPENAI_DEPLOYMENT_NAME_EMB'),
-    model=os.getenv('OPENAI_MODEL_NAME_EMB'),
-    azure_endpoint=os.getenv('AZURE_OPENAI_ENDPOINT'),
-    openai_api_type=os.getenv('OPENAI_API_TYPE'),
-)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt; Since we have our embeddings, we are now ready to create our vectorstore where we are going to save our embeddings. Imagine you’ve got a magical, super-organized pantry where every ingredient knows exactly where it belongs and can jump right into your hand when you need it. That’s a vectorstore! It’s a special kind of database where information is stored as vectors, or points in a high-dimensional space, making it super easy to find and retrieve. So, a vectorstore is like having a pantry where every spice, snack, and secret ingredient is neatly indexed and ready to leap out at your command, making your cooking—or in this case, data retrieval—fast and efficient! We have decided to use Chroma as our vectorstore service, but youare free to use any one you need. Some alternatives that you could consider are Pinecone, FAISS, Lance where you can find further information &lt;a href=&quot;https://python.langchain.com/v0.1/docs/modules/data_connection/vectorstores/&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;https://api.python.langchain.com/en/latest/vectorstores/langchain_community.vectorstores.sklearn.SKLearnVectorStore.html&quot;&gt;SKLearnVectorStore&lt;/a&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;vectorstore = Chroma.from_documents(documents = text_chunks,                                    
-    embedding = embeddings,
-    persist_directory=&quot;data/vectorstore&quot;
-)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2&gt; Retriever &lt;/h2&gt;
-
-&lt;p&gt; Now that we have our data vectorestore set up, we are ready to initialize our retriever. Picture the retriever in a RAG process as your ultra-savvy shopping buddy who knows exactly where everything is in the store. When you need something specific, the retriever zips around the aisles, grabbing the most relevant items off the shelves and bringing them back to you in record time. In the RAG (Retrieval-Augmented Generation) process, the retriever’s job is to fetch the most pertinent pieces of information from a vast database, so the generator can then whip up a perfectly informed response. It’s like having a shopping wizard who makes sure you always have the right ingredients for the perfect recipe!&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;retriever = vectorstore.as_retriever(search_kwargs={'k': 5})
-prompt = hub.pull('rlm/rag-prompt')
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt; Argument &lt;code&gt;'k':5&lt;/code&gt; makes sure that our retriever will bring back to the generator the 5 most similar items, not 6, not 4. The line &lt;code&gt;hub.pull('rlm/rag-prompt')&lt;/code&gt; is used to pull a specific prompt template named 'rlm/rag-prompt' from a hub. You could define and use your own prompt for this part (which we shall experiment in a later on post). To find out more on predefined qa-prompts, go to &amp;lt;a href'https://docs.smith.langchain.com/old/category/prompt-hub'&amp;gt;Langchain Hub&amp;lt;/a&amp;gt;.&lt;/p&gt;
-
-&lt;h2&gt; Chain Creation &lt;/h2&gt;
-
-&lt;p&gt; The next step in our RAG project is to define the LLM (Large Language Model) that will provide the answers for us. Imagine an LLM as a super-intelligent, chatty robot that’s read every book, article, and meme on the internet and somehow remembers them all. It stands for Large Language Model, and it’s like having a best friend who’s always ready to chat, offer advice, or spin a tale, because it’s been trained on a vast mountain of text data. This robot buddy can understand your questions and whip up responses that sound like they came straight from a well-read, eloquent author. So, if you ever need a conversation partner who’s a walking encyclopedia with a knack for witty comebacks, the LLM’s got your back!&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;llm = AzureChatOpenAI(
-    deployment_name=os.getenv('LLM_35_Deployment'),
-    model_name=os.getenv('LLM_35_Model'),
-    azure_endpoint=os.getenv('AZURE_OPENAI_ENDPOINT'),
-    temperature=0,
-)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt; Moving forward, we need to define the RAG chain. Think of a RAG chain as a magical relay race where information is passed along to make the ultimate answer. Imagine a team of information specialists: the first runner grabs the relevant facts (that’s the retriever’s job), the second runner crafts those facts into a coherent, brilliant response (thanks to the generator), and the baton gets passed seamlessly from one to the other. This chain of handoffs ensures you get a well-rounded, perfectly polished answer every time. So, a RAG chain is like a finely-tuned relay team making sure no detail gets left behind and every answer is a winner! We need the RAG chain to clearly define the steps that we need to be included from prompt to final response. Later on we are going to take a closer look on LangGraph a new tool of Langchain which assist us on defining clearly a this process. &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;rag_chain = (
-    {&quot;context&quot;: lambda x: retriever, &quot;question&quot;: RunnablePassthrough()}
-    | prompt
-    | llm
-    | StrOutputParser()
-)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt; You can see clearly what are the steps of our first really simple RAG chain. Initially, the contect and question are passed through associated to the lambda &quot;x&quot; object (in our case the retriever). On the next step the information (context and question) are passed to the prompt so that the instructions are provided to our llm selected model. The model analyzes and constructes an answer to our question. At the end, with the assistance of &lt;code&gt;StrOutputParser()&lt;/code&gt; it is ensures that the answer is presented in the desired human readable format.&lt;/p&gt;
-
-&lt;p&gt;Now you are ready to ask your own questions to the model you just created to find out more about your documents.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;question = &quot;My custom question&quot;
-rag_chain.invoke(question)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt; Well, I hope you enjoyed this as much as I did and learned something from it! Hope to see you again in the next post of this series where we are going to talk about Query transformation and how we can use LLM models so that an LLM can define our question on a different &quot;better&quot; way.&lt;/p&gt;
-
-&lt;p&gt; &lt;i&gt;Be safe, code safer!&lt;/i&gt;&lt;/p&gt;
-
-&lt;p&gt; This whole series is inspired by &amp;lt;a = href='https://www.sakunaharinda.xyz/ragatouille-book/intro.html#'&amp;gt;Ragatoulle&amp;lt;/a&amp;gt;. Throughout this series, as this is the main goal of this blog, I aim to provide as simple as possible explanations about the modules and functions used with addition of my personal touch wherever I find it necessary.&lt;/p&gt;</content><author><name>Kavour</name></author><category term="project" /><category term="Deep Learning" /><summary type="html">Firstly, in case you don't know what is RAG here is an unofficial explanation. Imagine you’re on a treasure hunt, but instead of a dusty old map, you’ve got a genius guide who knows every hidden corner. That’s RAG, short for Retrieval-Augmented Generation. It’s like having a super-smart friend who fetches the most relevant bits of knowledge from a massive library (the retrieval part) and then crafts a perfectly tailored response just for you (the generation part). So, if your brain is a bit like a rusty old filing cabinet, think of RAG as your personal, turbo-charged librarian who’s always got the answer before you can say &quot;Google it!&quot;</summary></entry></feed>
+&lt;/p&gt;</content><author><name>Kavour</name></author><category term="research" /><summary type="html">Abstract</summary></entry></feed>

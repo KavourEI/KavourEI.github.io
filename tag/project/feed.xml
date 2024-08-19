@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/project/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-08-08T16:01:23+03:00</updated>
+  <updated>2024-08-19T12:31:27+03:00</updated>
   <id>http://localhost:4000/tag/project/feed.xml</id>
 
   
@@ -226,8 +226,6 @@ questions&lt;/code&gt;&lt;/pre&gt;
       
         <category term="project" />
       
-        <category term="Deep Learning" />
-      
 
       
         <summary type="html">Welcome back, I hope you enjoyed the first part of this series where we are going to explore a portion portion of RAG tool. It is higly suggested that you take a look at all the projects of this series step by step and more importantly to code along this project. If you don't code it out you won't get it.</summary>
@@ -388,8 +386,6 @@ rag_chain.invoke(question)
 
       
         <category term="project" />
-      
-        <category term="Deep Learning" />
       
 
       
