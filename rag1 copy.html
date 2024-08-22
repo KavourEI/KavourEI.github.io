@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>Introduction to RAG models</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="Data Science and AI News" />
+    <link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon_DSW_black.png" type="image/png" />
+    <link rel="canonical" href="http://localhost:4000/rag1" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="Kavour" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Introduction to RAG models" />
+    <meta property="og:description" content="Firstly, in case you don't know what is RAG here is an unofficial explanation. Imagine you’re on a treasure hunt, but instead of a dusty old map, you’ve got a genius guide who knows every hidden corner. That’s RAG, short for Retrieval-Augmented Generation. It’s like having a super-smart friend who" />
+    <meta property="og:url" content="http://localhost:4000/rag1" />
+    <meta property="og:image" content="http://localhost:4000/assets/images/news_images/langchain.webp" />
+    <meta property="article:publisher" content="https://www.facebook.com/" />
+    <meta property="article:author" content="https://www.facebook.com/" />
+    <meta property="article:published_time" content="2024-07-22T00:00:00+03:00" />
+    <meta property="article:modified_time" content="2024-07-22T00:00:00+03:00" />
+    <meta property="article:tag" content="Project" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Introduction to RAG models" />
+    <meta name="twitter:description" content="Firstly, in case you don't know what is RAG here is an unofficial explanation. Imagine you’re on a treasure hunt, but instead of a dusty old map, you’ve got a genius guide who knows every hidden corner. That’s RAG, short for Retrieval-Augmented Generation. It’s like having a super-smart friend who" />
+    <meta name="twitter:url" content="http://localhost:4000/" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/images/news_images/langchain.webp" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Kavour" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Project" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:creator" content="@" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Kavour",
+        "logo": "http://localhost:4000/assets/images/favicon.png"
+    },
+    "url": "http://localhost:4000/rag1",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:4000/assets/images/news_images/langchain.webp",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:4000/rag1"
+    },
+    "description": "Firstly, in case you don't know what is RAG here is an unofficial explanation. Imagine you’re on a treasure hunt, but instead of a dusty old map, you’ve got a genius guide who knows every hidden corner. That’s RAG, short for Retrieval-Augmented Generation. It’s like having a super-smart friend who"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="Introduction to RAG models" href="/feed.xml" />
+
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="http://localhost:4000/"><img src="/assets/images/favicon.png" alt="Kavour" /></a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <li class="nav-project" role="menuitem"><a href="/tag/project/">Post</a></li>
+    <li class="nav-news" role="menuitem"><a href="/tag/news/">News</a></li>
+    <li class="nav-news" role="menuitem"><a href="/tag/research/">Research</a></li>
+    <li class="nav-about" role="menuitem"><a href="/about">About</a></li>
+    <!--
+    <li class="nav-getting-started" role="menuitem"><a href="/tag/getting-started/">Getting Started</a></li>
+    <li class="nav-try-ghost" role="menuitem"><a href="https://ghost.org">Try Ghost</a></li>
+    -->
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+            
+            
+                <a class="social-link social-link-li" href="https://linkedin.com/in/themis-kavour" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <path d="M29.63 0H2.37A2.368 2.368 0 0 0 0 2.37v27.26A2.368 2.368 0 0 0 2.37 32h27.26A2.368 2.368 0 0 0 32 29.63V2.37A2.368 2.368 0 0 0 29.63 0zM9.507 26.907H4.898V12.384h4.61v14.523zM7.202 10.295a2.669 2.669 0 1 1 .001-5.338 2.669 2.669 0 0 1 0 5.338zM27.102 26.907h-4.609v-7.187c0-1.713-.03-3.918-2.387-3.918-2.388 0-2.753 1.867-2.753 3.796v7.309h-4.611V12.384h4.428v1.987h.063c.617-1.167 2.123-2.397 4.369-2.397 4.674 0 5.533 3.076 5.533 7.073v7.86h-.001z"/>
+</svg>
+</a>
+            
+            
+                <a class="social-link social-link-gh" href="https://github.com/KavourEI" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.302 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.089-.744.083-.729.083-.729 1.205.085 1.84 1.236 1.84 1.236 1.07 1.835 2.807 1.305 3.492.998.108-.775.418-1.305.76-1.605-2.665-.305-5.466-1.335-5.466-5.93 0-1.31.467-2.382 1.235-3.22-.123-.303-.535-1.527.118-3.176 0 0 1.008-.322 3.3 1.23a11.49 11.49 0 0 1 3-.404c1.02.005 2.045.138 3 .404 2.29-1.552 3.297-1.23 3.297-1.23.653 1.649.241 2.873.118 3.176.77.838 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.48 5.92.43.37.823 1.1.823 2.22 0 1.605-.015 2.896-.015 3.286 0 .322.217.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+</svg>
+</a>
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Subscribe</a>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  tag-project post ">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="22 July 2024">22 July 2024</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                               <a href='/tag/project/'>PROJECT</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">Introduction to RAG models</h1>
+            </header>
+
+            
+            <figure class="post-full-image" style="background-image: url(/assets/images/news_images/langchain.webp)">
+            </figure>
+            
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <p> Firstly, in case you don't know what is RAG here is an unofficial explanation. Imagine you’re on a treasure hunt, but instead of a dusty old map, you’ve got a genius guide who knows every hidden corner. That’s RAG, short for <strong>Retrieval-Augmented Generation</strong>. It’s like having a super-smart friend who fetches the most relevant bits of knowledge from a massive library (the retrieval part) and then crafts a perfectly tailored response just for you (the generation part). So, if your brain is a bit like a rusty old filing cabinet, think of RAG as your personal, turbo-charged librarian who’s always got the answer before you can say "Google it!"</p>
+
+<p> In this series of posts, we are going to explore LangChain tools and create RAG models for several applications. We are going to go through the little details that may or may not work in our cases and how to fix those teeny tiny configurations that may be neccesary for our purposes. Without further ado..</p>
+
+<h2> Dotenv File </h2>
+
+<p>Before moving forward to modules and script, there is a high need for a <code class="language-plaintext highlighter-rouge">.env</code> file. Initially, you need to create a <code class="language-plaintext highlighter-rouge">.env</code> file in the folder you are going to create this project, so that you save your passwords. This is not neccesary from the functionality point of view but it is from the security point of view. Think of a <code class="language-plaintext highlighter-rouge">.env</code> file as your project’s secret diary, where it whispers all its deepest, darkest secrets like passwords, API keys, and configuration settings. You need it because you don’t want these secrets plastered all over the code like graffiti. By keeping them in a <code class="language-plaintext highlighter-rouge">.env</code> file, you ensure they stay hidden and safe, only revealing themselves to those in the know—your code. So, a <code class="language-plaintext highlighter-rouge">.env</code> file is like having a secret stash of information that keeps your project running smoothly without spilling the beans to the world. No need for functy file name or anything just <code class="language-plaintext highlighter-rouge">.env</code> file.</p>
+
+<h2> Modules Required </h2>
+
+<p> The python modules we are going to use for this introductory project are the following</p>
+
+<pre><code>import os
+from dotenv import load_dotenv
+from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain import hub
+from langchain_community.vectorstores import Chroma
+from langchain_core.output_parsers import StrOutputParser
+from langchain_core.runnables import RunnablePassthrough
+from langchain_openai import AzureOpenAIEmbeddings
+from langchain.chat_models import AzureChatOpenAI
+</code></pre>
+
+<ul>
+<li> <strong>os</strong>: Used for accessing environment variables with os.getenv().</li>
+<li> <strong>dotenv.load_dotenv</strong>: Intended to load environment variables from the .env file.</li>
+<li> <strong>langchain_community.document_loaders.PyPDFLoader</strong>: Used to load PDF documents.</li>
+<li> <strong>langchain_community.document_loaders.DirectoryLoader</strong>: Used to load documents from a directory.</li>
+<li> <strong>langchain.text_splitter.RecursiveCharacterTextSplitter</strong>: Used to split documents into chunks.</li>
+<li> <strong>langchain_community.vectorstores.Chroma</strong>: Used to create a vectorstore from document embeddings.</li>
+<li> <strong>langchain.chat_models.AzureChatOpenAI</strong>: Used to initialize the Azure OpenAI model for the QA chain.</li>
+<li> <strong>langchain.hub</strong>: Used to pull a prompt from the hub.</li>
+<li> <strong>langchain_core.output_parsers.StrOutputParser</strong>: Used to parse the output of the QA chain.</li>
+<li> <strong>langchain_core.runnables.RunnablePassthrough</strong>: Used in the QA chain to pass through the question.</li>
+</ul>
+
+<p> In the file where we will run this python script, we need to create a folder where we are going to save our data, our files. Else we can load them from a different path. For the purposes of this series, I decided to use the first option. We use PyPDFLoader to laod them as in the following script:</p>
+
+<pre><code>loader = DirectoryLoader('data/', glob = '*.pdf', loader_cls=PyPDFLoader)
+documents = loader.load()
+</code></pre>
+
+<p> Here we see that the first argument <code>data/</code> is the relative path where the documents are placed. WIth the second argument <code>*.pdf</code> we define that we want to take under consideration all the files that end with the afforementioned character sequence '.pdf' (the word any is represented by '*'). Lastly, we define the loader class to use for the purposes of the files loading process <code>PyPDFLoader</code>. Mind that there are other classes that can be used for different types of documents like <code>UnstructuredFileLoader</code>, <code>TextLoader</code>, <code>BSHTMLLoader</code>, <code>CSVLoader</code>. To find more about this check <a href="https://api.python.langchain.com/en/latest/document_loaders/langchain_community.document_loaders.directory.DirectoryLoader.html">here</a>. Let your imagination go wild! There are also other types of loaders (which we are going to explore later on) where you can load information from webpages, youtube and many many more. After that is completed we use this class and <code>load()</code> everything exists in the file path and save them to the onject documents.</p>
+
+<h2> Chunks and Overlap </h2>
+
+<p> Next in line of the things we need to accomplish is split the documents into chunks. Chunk?!?!? Imagine you’re trying to eat a massive pizza all by yourself. Chunk_size is like deciding how many slices you cut it into so you can manage each piece without choking. Chunk overlap, on the other hand, is making sure each slice has a bit of the previous one’s crust, so you don’t miss any of the delicious toppings in between. To optimize them, you balance the slice size (chunk_size) to be just right for easy munching, and the overlap so you get all the flavors without making it too repetitive. Get it right, and you’ll devour that pizza with maximum efficiency and satisfaction!</p>
+
+<p> Here are some tips to help you determine the optimal chunk size if common chunking methods, such as fixed chunking, are not suitable for your use case:
+
+<ul>
+<li> <strong>Data Preprocessing</strong>: Before deciding on the best chunk size, you need to preprocess your data to ensure its quality. For instance, if your data is sourced from the web, you might need to remove HTML tags or other noise elements.</li>
+
+<li> <strong>Chunk Sizes</strong>: After preprocessing, choose a range of potential chunk sizes to test. The selection should consider the nature of the content (e.g., short messages vs. lengthy documents), the embedding model you’ll use, and its token limits. Aim to find a balance between preserving context and maintaining accuracy. Start by exploring various chunk sizes, such as smaller chunks (e.g., 128 or 256 tokens) for capturing granular semantic information and larger chunks (e.g., 512 or 1024 tokens) for retaining more context.</li>
+
+<li> <strong>Evaluation of Chunk Sizes by performance results.</strong>: To test different chunk sizes, use either multiple indices or a single index with multiple namespaces. Create embeddings for the selected chunk sizes using a representative dataset and save them in your index or indices. Then, run a series of queries to evaluate the quality and compare the performance of the various chunk sizes. This process is likely iterative, requiring you to test different chunk sizes against different queries until you identify the best-performing chunk size for your content and expected queries.</li>
+</ul></p>
+
+<p> For more information regarding chunk size and chunk overlap, you may refer on <a href="https://www.kaggle.com/discussions/general/503436">Guide to Chunk Size and Overlap</a> by Kaggle, <a href="https://docs.llamaindex.ai/en/stable/optimizing/basic_strategies/basic_strategies/">Chunk Sizes</a> by Llama Index  or <a href="https://zilliz.com/learn/guide-to-chunking-sreategies-for-rag">A Guide to Chunking Strategies for Retrieval Augmented Generation (RAG)</a> by Zilliz. We are not goint to go through the process of deciding the optimal chunk size, as this is out of this project's scope.</p>
+
+<pre><code>text_splitter = RecursiveCharacterTextSplitter(chunk_size=512, chunk_overlap=32)
+text_chunks = text_splitter.split_documents(documents)
+</code></pre>
+
+<p> Now that we have collected our data, and divided into some well structured chunks, easily digestible pieces, we need to create an embeddings model. This model will assists us on creatign embeddings out of the collected and stored documents that we are interested on finding further information about. As I have already mentioned above, I have decided to use Azure OpenAI to assists us. It is up to you which model you are going to use. there are many alternatives bnoth free and paid ones for each part of our project to consider. Do not hesitate to ask me if you have any qyestions on how to change the code so that you use a different kind of model!</p>
+
+<pre><code>embeddings = AzureOpenAIEmbeddings(
+    deployment=os.getenv('OPENAI_DEPLOYMENT_NAME_EMB'),
+    model=os.getenv('OPENAI_MODEL_NAME_EMB'),
+    azure_endpoint=os.getenv('AZURE_OPENAI_ENDPOINT'),
+    openai_api_type=os.getenv('OPENAI_API_TYPE'),
+)
+</code></pre>
+
+<p> Since we have our embeddings, we are now ready to create our vectorstore where we are going to save our embeddings. Imagine you’ve got a magical, super-organized pantry where every ingredient knows exactly where it belongs and can jump right into your hand when you need it. That’s a vectorstore! It’s a special kind of database where information is stored as vectors, or points in a high-dimensional space, making it super easy to find and retrieve. So, a vectorstore is like having a pantry where every spice, snack, and secret ingredient is neatly indexed and ready to leap out at your command, making your cooking—or in this case, data retrieval—fast and efficient! We have decided to use Chroma as our vectorstore service, but youare free to use any one you need. Some alternatives that you could consider are Pinecone, FAISS, Lance where you can find further information <a href="https://python.langchain.com/v0.1/docs/modules/data_connection/vectorstores/">here</a> and <a href="https://api.python.langchain.com/en/latest/vectorstores/langchain_community.vectorstores.sklearn.SKLearnVectorStore.html">SKLearnVectorStore</a>.</p>
+
+<pre><code>vectorstore = Chroma.from_documents(documents = text_chunks,                                    
+    embedding = embeddings,
+    persist_directory="data/vectorstore"
+)
+</code></pre>
+
+<h2> Retriever </h2>
+
+<p> Now that we have our data vectorestore set up, we are ready to initialize our retriever. Picture the retriever in a RAG process as your ultra-savvy shopping buddy who knows exactly where everything is in the store. When you need something specific, the retriever zips around the aisles, grabbing the most relevant items off the shelves and bringing them back to you in record time. In the RAG (Retrieval-Augmented Generation) process, the retriever’s job is to fetch the most pertinent pieces of information from a vast database, so the generator can then whip up a perfectly informed response. It’s like having a shopping wizard who makes sure you always have the right ingredients for the perfect recipe!</p>
+
+<pre><code>retriever = vectorstore.as_retriever(search_kwargs={'k': 5})
+prompt = hub.pull('rlm/rag-prompt')
+</code></pre>
+
+<p> Argument <code>'k':5</code> makes sure that our retriever will bring back to the generator the 5 most similar items, not 6, not 4. The line <code>hub.pull('rlm/rag-prompt')</code> is used to pull a specific prompt template named 'rlm/rag-prompt' from a hub. You could define and use your own prompt for this part (which we shall experiment in a later on post). To find out more on predefined qa-prompts, go to &lt;a href'https://docs.smith.langchain.com/old/category/prompt-hub'&gt;Langchain Hub&lt;/a&gt;.</p>
+
+<h2> Chain Creation </h2>
+
+<p> The next step in our RAG project is to define the LLM (Large Language Model) that will provide the answers for us. Imagine an LLM as a super-intelligent, chatty robot that’s read every book, article, and meme on the internet and somehow remembers them all. It stands for Large Language Model, and it’s like having a best friend who’s always ready to chat, offer advice, or spin a tale, because it’s been trained on a vast mountain of text data. This robot buddy can understand your questions and whip up responses that sound like they came straight from a well-read, eloquent author. So, if you ever need a conversation partner who’s a walking encyclopedia with a knack for witty comebacks, the LLM’s got your back!</p>
+
+<pre><code>llm = AzureChatOpenAI(
+    deployment_name=os.getenv('LLM_35_Deployment'),
+    model_name=os.getenv('LLM_35_Model'),
+    azure_endpoint=os.getenv('AZURE_OPENAI_ENDPOINT'),
+    temperature=0,
+)
+</code></pre>
+
+<p> Moving forward, we need to define the RAG chain. Think of a RAG chain as a magical relay race where information is passed along to make the ultimate answer. Imagine a team of information specialists: the first runner grabs the relevant facts (that’s the retriever’s job), the second runner crafts those facts into a coherent, brilliant response (thanks to the generator), and the baton gets passed seamlessly from one to the other. This chain of handoffs ensures you get a well-rounded, perfectly polished answer every time. So, a RAG chain is like a finely-tuned relay team making sure no detail gets left behind and every answer is a winner! We need the RAG chain to clearly define the steps that we need to be included from prompt to final response. Later on we are going to take a closer look on LangGraph a new tool of Langchain which assist us on defining clearly a this process. </p>
+
+<pre><code>rag_chain = (
+    {"context": lambda x: retriever, "question": RunnablePassthrough()}
+    | prompt
+    | llm
+    | StrOutputParser()
+)
+</code></pre>
+
+<p> You can see clearly what are the steps of our first really simple RAG chain. Initially, the contect and question are passed through associated to the lambda "x" object (in our case the retriever). On the next step the information (context and question) are passed to the prompt so that the instructions are provided to our llm selected model. The model analyzes and constructes an answer to our question. At the end, with the assistance of <code>StrOutputParser()</code> it is ensures that the answer is presented in the desired human readable format.</p>
+
+<p>Now you are ready to ask your own questions to the model you just created to find out more about your documents.</p>
+
+<pre><code>question = "My custom question"
+rag_chain.invoke(question)
+</code></pre>
+
+<p> Well, I hope you enjoyed this as much as I did and learned something from it! Hope to see you again in the next post of this series where we are going to talk about Query transformation and how we can use LLM models so that an LLM can define our question on a different "better" way.</p>
+
+<p> <i>Be safe, code safer!</i></p>
+
+<p> This whole series is inspired by &lt;a = href='https://www.sakunaharinda.xyz/ragatouille-book/intro.html#'&gt;Ragatoulle&lt;/a&gt;. Throughout this series, as this is the main goal of this blog, I aim to provide as simple as possible explanations about the modules and functions used with addition of my personal touch wherever I find it necessary.</p>
+
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+                <section class="subscribe-form">
+                    <h3 class="subscribe-form-title">Subscribe to Kavour</h3>
+                    <p>Get the latest posts delivered right to your inbox</p>
+                    <form method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+    </div>
+    <button class="" type="submit" disabled><span>Subscribe</span></button>
+    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
+</form>
+
+                </section>
+            
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+                    <article class="read-next-card"
+                        
+                            style="background-image: url(/assets/images/blog-cover.jpg)"
+                        
+                    >
+                        <header class="read-next-card-header">
+                            <small class="read-next-card-header-sitetitle">&mdash; Kavour &mdash;</small>
+                            
+                                <h3 class="read-next-card-header-title"><a href="/tag/project/">Project</a></h3>
+                            
+                        </header>
+                        <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+</div>
+                        <div class="read-next-card-content">
+                            <ul>
+                                
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/rag2">RAG - Query Transformation</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/jingle_or_no_jingle">Jingle or No Jingle. A Hilariously Serious Dive into PyTorch Image Classification for Santa Claus Detection. 🎄</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/LDA_R">Uncovering Topics in BBC News with Latent Dirichlet Allocation in R</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                            </ul>
+                        </div>
+                        <footer class="read-next-card-footer">
+                            <a href="/tag/project/">
+                                
+                                    See all 6 posts  →
+                                
+                            </a>
+                        </footer>
+                    </article>
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/KANorMLP">
+                <div class="post-card-image" style="background-image: url(/assets/images/arxiv.jpeg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/KANorMLP">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Research</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">KAN or MLP - A Fairer Comparison</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p> Abstract 
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/DiffusionTrainingfromScratch">
+                <div class="post-card-image" style="background-image: url(/assets/images/arxiv.jpeg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/DiffusionTrainingfromScratch">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Research</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">Stretching Each Dollar- Diffusion Training from Scratch on a Micro-Budget</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p> Abstract 
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="http://localhost:4000/">
+            
+                <img src="/assets/images/favicon_DSW_black.png" alt="Kavour icon" />
+            
+            <span>Kavour</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">Introduction to RAG models</div>
+        <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        
+        <a class="floating-header-share-lin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://kavourei.github.io/rag1"
+           onclick="window.open(this.href, 'share-linkedin', 'width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <path d="M29.63 0H2.37A2.368 2.368 0 0 0 0 2.37v27.26A2.368 2.368 0 0 0 2.37 32h27.26A2.368 2.368 0 0 0 32 29.63V2.37A2.368 2.368 0 0 0 29.63 0zM9.507 26.907H4.898V12.384h4.61v14.523zM7.202 10.295a2.669 2.669 0 1 1 .001-5.338 2.669 2.669 0 0 1 0 5.338zM27.102 26.907h-4.609v-7.187c0-1.713-.03-3.918-2.387-3.918-2.388 0-2.753 1.867-2.753 3.796v7.309h-4.611V12.384h4.428v1.987h.063c.617-1.167 2.123-2.397 4.369-2.397 4.674 0 5.533 3.076 5.533 7.073v7.86h-.001z"/>
+</svg>
+
+        </a>
+
+        <a class="floating-header-share-x" href="https://x.com/share?url=https://kavourei.github.io/rag1"
+           onclick="window.open(this.href, 'share-x', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="480px" height="480px"><path d="M26.37,26l-8.795-12.822l0.015,0.012L25.52,4h-2.65l-6.46,7.48L11.28,4H4.33l8.211,11.971L12.54,15.97L3.88,26h2.65 l7.182-8.322L19.42,26H26.37z M10.23,6l12.34,18h-2.1L8.12,6H10.23z"/></svg>
+        </a>
+    </div>
+    
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="http://localhost:4000/">Kavour</a> &copy; 2024</section>
+                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
+                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
+                    <a href="https://github.com/jekyllt/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    
+                    
+                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                    <img class="subscribe-overlay-logo" src="/assets/images/favicon.png" alt="Kavour" />
+                
+                <h1 class="subscribe-overlay-title">Subscribe to Kavour</h1>
+                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
+                <form method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+    </div>
+    <button class="" type="submit" disabled><span>Subscribe</span></button>
+    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
+</form>
+
+            </div>
+        </div>
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JSSW2W2D3P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JSSW2W2D3P');
+</script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>
