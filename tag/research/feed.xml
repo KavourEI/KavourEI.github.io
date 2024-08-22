@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-08-19T12:39:28+03:00</updated>
+  <updated>2024-08-22T19:31:33+03:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -44,6 +44,133 @@
   
   
 
+  
+    <entry>
+      <title type="html">Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters</title>
+      <link href="http://localhost:4000/TransformerExplainer" rel="alternate" type="text/html" title="Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters" />
+      <published>2024-08-06T00:00:00+03:00</published>
+      <updated>2024-08-06T00:00:00+03:00</updated>
+      <id>http://localhost:4000/TransformerExplainer</id>
+      <content type="html" xml:base="http://localhost:4000/TransformerExplainer">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Transformers have revolutionized machine learning, yet their inner workings remain opaque to many. We present Transformer Explainer, an interactive visualization tool designed for non-experts to learn about Transformers through the GPT-2 model. Our tool helps users understand complex Transformer concepts by integrating a model overview and enabling smooth transitions across abstraction levels of mathematical operations and model structures. It runs a live GPT-2 instance locally in the user's browser, empowering users to experiment with their own input and observe in real-time how the internal components and parameters of the Transformer work together to predict the next tokens. Our tool requires no installation or special hardware, broadening the public's education access to modern generative AI techniques. Our open-sourced tool is available at &lt;a href=&quot;https://poloclub.github.io/transformer-explainer/&quot;&gt;this https URL&lt;/a&gt;. A video demo is available at &lt;a href=&quot;https://youtu.be/ECR4oAwocjs&quot;&gt;this https URL&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cho,+A&quot;&gt;Aeree Cho&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Kim,+G+C&quot;&gt;Grace C. Kim&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Karpekov,+A&quot;&gt;Alexander Karpekov&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Helbling,+A&quot;&gt;Alec Helbling&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+Z+J&quot;&gt;Zijie J. Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lee,+S&quot;&gt;Seongmin Lee&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hoover,+B&quot;&gt;Benjamin Hoover&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chau,+D+H&quot;&gt;Duen Horng Chau&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2408.04619&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters</title>
+      <link href="http://localhost:4000/HybridRAG" rel="alternate" type="text/html" title="Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters" />
+      <published>2024-08-06T00:00:00+03:00</published>
+      <updated>2024-08-06T00:00:00+03:00</updated>
+      <id>http://localhost:4000/HybridRAG</id>
+      <content type="html" xml:base="http://localhost:4000/HybridRAG">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Extraction and interpretation of intricate information from unstructured text data arising in financial applications, such as earnings call transcripts, present substantial challenges to large language models (LLMs) even using the current best practices to use Retrieval Augmented Generation (RAG) (referred to as VectorRAG techniques which utilize vector databases for information retrieval) due to challenges such as domain specific terminology and complex formats of the documents. We introduce a novel approach based on a combination, called HybridRAG, of the Knowledge Graphs (KGs) based RAG techniques (called GraphRAG) and VectorRAG techniques to enhance question-answer (Q&amp;amp;A) systems for information extraction from financial documents that is shown to be capable of generating accurate and contextually relevant answers. Using experiments on a set of financial earning call transcripts documents which come in the form of Q&amp;amp;A format, and hence provide a natural set of pairs of ground-truth Q&amp;amp;As, we show that HybridRAG which retrieves context from both vector database and KG outperforms both traditional VectorRAG and GraphRAG individually when evaluated at both the retrieval and generation stages in terms of retrieval accuracy and answer generation. The proposed technique has applications beyond the financial domain.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sarmah,+B&quot;&gt;Bhaskarjit Sarmah&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hall,+B&quot;&gt;Benika Hall&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Rao,+R&quot;&gt;Rohan Rao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Patel,+S&quot;&gt;Sunil Patel&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Pasquali,+S&quot;&gt;Stefano Pasquali&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Mehta,+D&quot;&gt;Dhagash Mehta&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2408.04948&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters</title>
+      <link href="http://localhost:4000/ScallingLLMTest" rel="alternate" type="text/html" title="Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters" />
+      <published>2024-08-06T00:00:00+03:00</published>
+      <updated>2024-08-06T00:00:00+03:00</updated>
+      <id>http://localhost:4000/ScallingLLMTest</id>
+      <content type="html" xml:base="http://localhost:4000/ScallingLLMTest">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Enabling LLMs to improve their outputs by using more test-time computation is a critical step towards building generally self-improving agents that can operate on open-ended natural language. In this paper, we study the scaling of inference-time computation in LLMs, with a focus on answering the question: if an LLM is allowed to use a fixed but non-trivial amount of inference-time compute, how much can it improve its performance on a challenging prompt? Answering this question has implications not only on the achievable performance of LLMs, but also on the future of LLM pretraining and how one should tradeoff inference-time and pre-training compute. Despite its importance, little research attempted to understand the scaling behaviors of various test-time inference methods. Moreover, current work largely provides negative results for a number of these strategies. In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) updating the model's distribution over a response adaptively, given the prompt at test time. We find that in both cases, the effectiveness of different approaches to scaling test-time compute critically varies depending on the difficulty of the prompt. This observation motivates applying a &quot;compute-optimal&quot; scaling strategy, which acts to most effectively allocate test-time compute adaptively per prompt. Using this compute-optimal strategy, we can improve the efficiency of test-time compute scaling by more than 4x compared to a best-of-N baseline. Additionally, in a FLOPs-matched evaluation, we find that on problems where a smaller base model attains somewhat non-trivial success rates, test-time compute can be used to outperform a 14x larger model.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Snell,+C&quot;&gt;Charlie Snell&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lee,+J&quot;&gt;Jaehoon Lee, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+K&quot;&gt;Kelvin Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Kumar,+A&quot;&gt;Aviral Kumar&lt;/a&gt;&amp;lt;/p&amp;gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2408.03314&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Apple Intelligence Foundation Language Models</title>
@@ -280,44 +407,6 @@
     </entry>
   
     <entry>
-      <title type="html">RouteLLM-Learning to Route LLMs with Preference Data</title>
-      <link href="http://localhost:4000/RouteLLM" rel="alternate" type="text/html" title="RouteLLM-Learning to Route LLMs with Preference Data" />
-      <published>2024-07-01T00:00:00+03:00</published>
-      <updated>2024-07-01T00:00:00+03:00</updated>
-      <id>http://localhost:4000/RouteLLM</id>
-      <content type="html" xml:base="http://localhost:4000/RouteLLM">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt;Large language models (LLMs) exhibit impressive capabilities across a wide range of tasks, yet the choice of which model to use often involves a trade-off between performance and cost. More powerful models, though effective, come with higher expenses, while less capable models are more cost-effective. To address this dilemma, we propose several efficient router models that dynamically select between a stronger and a weaker LLM during inference, aiming to optimize the balance between cost and response quality. We develop a training framework for these routers leveraging human preference data and data augmentation techniques to enhance performance. Our evaluation on widely-recognized benchmarks shows that our approach significantly reduces costs-by over 2 times in certain cases-without compromising the quality of responses. Interestingly, our router models also demonstrate significant transfer learning capabilities, maintaining their performance even when the strong and weak models are changed at test time. This highlights the potential of these routers to provide a cost-effective yet high-performance solution for deploying LLMs.&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2406.18665&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">AI Agents That Matter</title>
       <link href="http://localhost:4000/AIAgentsThatMatter" rel="alternate" type="text/html" title="AI Agents That Matter" />
       <published>2024-07-01T00:00:00+03:00</published>
@@ -328,82 +417,6 @@
 &lt;p&gt;AI agents are an exciting new research direction, and agent development is driven by benchmarks. Our analysis of current agent benchmarks and evaluation practices reveals several shortcomings that hinder their usefulness in real-world applications. First, there is a narrow focus on accuracy without attention to other metrics. As a result, SOTA agents are needlessly complex and costly, and the community has reached mistaken conclusions about the sources of accuracy gains. Our focus on cost in addition to accuracy motivates the new goal of jointly optimizing the two metrics. We design and implement one such optimization, showing its potential to greatly reduce cost while maintaining accuracy. Second, the benchmarking needs of model and downstream developers have been conflated, making it hard to identify which agent would be best suited for a particular application. Third, many agent benchmarks have inadequate holdout sets, and sometimes none at all. This has led to agents that are fragile because they take shortcuts and overfit to the benchmark in various ways. We prescribe a principled framework for avoiding overfitting. Finally, there is a lack of standardization in evaluation practices, leading to a pervasive lack of reproducibility. We hope that the steps we introduce for addressing these shortcomings will spur the development of agents that are useful in the real world and not just accurate on benchmarks.&lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2407.01502&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Data curation via joint example selection further accelerates multimodal learning</title>
-      <link href="http://localhost:4000/DataCuration" rel="alternate" type="text/html" title="Data curation via joint example selection further accelerates multimodal learning" />
-      <published>2024-06-25T00:00:00+03:00</published>
-      <updated>2024-06-25T00:00:00+03:00</updated>
-      <id>http://localhost:4000/DataCuration</id>
-      <content type="html" xml:base="http://localhost:4000/DataCuration">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt;Data curation is an essential component of large-scale pretraining. In this work, we demonstrate that jointly selecting batches of data is more effective for learning than selecting examples independently. Multimodal contrastive objectives expose the dependencies between data and thus naturally yield criteria for measuring the joint learnability of a batch. We derive a simple and tractable algorithm for selecting such batches, which significantly accelerate training beyond individually-prioritized data points. As performance improves by selecting from larger super-batches, we also leverage recent advances in model approximation to reduce the associated computational overhead. As a result, our approach--multimodal contrastive learning with joint example selection (JEST)--surpasses state-of-the-art models with up to 13× fewer iterations and 10× less computation. Essential to the performance of JEST is the ability to steer the data selection process towards the distribution of smaller, well-curated datasets via pretrained reference models, exposing the level of data curation as a new dimension for neural scaling laws.&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2406.17711&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Connecting the Dots - LLMs can Infer and Verbalize Latent Structure from Disparate Training Data</title>
-      <link href="http://localhost:4000/ConnectDots" rel="alternate" type="text/html" title="Connecting the Dots - LLMs can Infer and Verbalize Latent Structure from Disparate Training Data" />
-      <published>2024-06-20T00:00:00+03:00</published>
-      <updated>2024-06-20T00:00:00+03:00</updated>
-      <id>http://localhost:4000/ConnectDots</id>
-      <content type="html" xml:base="http://localhost:4000/ConnectDots">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt;One way to address safety risks from large language models (LLMs) is to censor dangerous knowledge from their training data. While this removes the explicit information, implicit information can remain scattered across various training documents. Could an LLM infer the censored knowledge by piecing together these implicit hints? As a step towards answering this question, we study inductive out-of-context reasoning (OOCR), a type of generalization in which LLMs infer latent information from evidence distributed across training documents and apply it to downstream tasks without in-context learning. Using a suite of five tasks, we demonstrate that frontier LLMs can perform inductive OOCR. In one experiment we finetune an LLM on a corpus consisting only of distances between an unknown city and other known cities. Remarkably, without in-context examples or Chain of Thought, the LLM can verbalize that the unknown city is Paris and use this fact to answer downstream questions. Further experiments show that LLMs trained only on individual coin flip outcomes can verbalize whether the coin is biased, and those trained only on pairs (x,f(x)) can articulate a definition of f and compute inverses. While OOCR succeeds in a range of cases, we also show that it is unreliable, particularly for smaller LLMs learning complex structures. Overall, the ability of LLMs to &quot;connect the dots&quot; without explicit in-context learning poses a potential obstacle to monitoring and controlling the knowledge acquired by LLMs.&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2406.14546&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
