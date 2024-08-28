@@ -11,7 +11,7 @@
 
 
 
-    <title>SpreadsheetLLM - Encoding Spreadsheets for Large Language Models</title>
+    <title>Pruning and Distilling Llama 3.1</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -36,30 +36,30 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="Data Science and AI News" />
     <link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon_DSW_black.png" type="image/png" />
-    <link rel="canonical" href="http://localhost:4000/MicrosoftSpreadsheetLLM" />
+    <link rel="canonical" href="http://localhost:4000/NVIDIAMInitron" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Kavour" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="SpreadsheetLLM - Encoding Spreadsheets for Large Language Models" />
-    <meta property="og:description" content="Abstract Spreadsheets, with their extensive two-dimensional grids, various layouts, and diverse formatting options, present notable challenges for large language models (LLMs). In response, we introduce SpreadsheetLLM, pioneering an efficient encoding method designed to unleash and optimize LLMs' powerful understanding and reasoning capability on spreadsheets. Initially, we propose a vanilla serialization" />
-    <meta property="og:url" content="http://localhost:4000/MicrosoftSpreadsheetLLM" />
-    <meta property="og:image" content="http://localhost:4000/assets/images/arxiv.jpeg" />
+    <meta property="og:title" content="Pruning and Distilling Llama 3.1" />
+    <meta property="og:description" content="Structured weight pruning combined with knowledge distillation forms an effective and efficient strategy for obtaining progressively smaller language models from an initial larger sibling. As AI models grow increasingly complex, optimizing their performance without sacrificing accuracy becomes essential. NVIDIA's latest blog post provides an insightful guide on how to prune" />
+    <meta property="og:url" content="http://localhost:4000/NVIDIAMInitron" />
+    <meta property="og:image" content="http://localhost:4000/assets/images/news_images/nvidia.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2024-07-12T00:00:00+03:00" />
-    <meta property="article:modified_time" content="2024-07-12T00:00:00+03:00" />
-    <meta property="article:tag" content="Research" />
+    <meta property="article:published_time" content="2024-08-14T00:00:00+03:00" />
+    <meta property="article:modified_time" content="2024-08-14T00:00:00+03:00" />
+    <meta property="article:tag" content="News" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="SpreadsheetLLM - Encoding Spreadsheets for Large Language Models" />
-    <meta name="twitter:description" content="Abstract Spreadsheets, with their extensive two-dimensional grids, various layouts, and diverse formatting options, present notable challenges for large language models (LLMs). In response, we introduce SpreadsheetLLM, pioneering an efficient encoding method designed to unleash and optimize LLMs' powerful understanding and reasoning capability on spreadsheets. Initially, we propose a vanilla serialization" />
+    <meta name="twitter:title" content="Pruning and Distilling Llama 3.1" />
+    <meta name="twitter:description" content="Structured weight pruning combined with knowledge distillation forms an effective and efficient strategy for obtaining progressively smaller language models from an initial larger sibling. As AI models grow increasingly complex, optimizing their performance without sacrificing accuracy becomes essential. NVIDIA's latest blog post provides an insightful guide on how to prune" />
     <meta name="twitter:url" content="http://localhost:4000/" />
-    <meta name="twitter:image" content="http://localhost:4000/assets/images/arxiv.jpeg" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/images/news_images/nvidia.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Kavour" />
     <meta name="twitter:label2" content="Filed under" />
-    <meta name="twitter:data2" content="Research" />
+    <meta name="twitter:data2" content="News" />
     <meta name="twitter:site" content="@" />
     <meta name="twitter:creator" content="@" />
     <meta property="og:image:width" content="1400" />
@@ -74,18 +74,18 @@
         "name": "Kavour",
         "logo": "http://localhost:4000/assets/images/favicon.png"
     },
-    "url": "http://localhost:4000/MicrosoftSpreadsheetLLM",
+    "url": "http://localhost:4000/NVIDIAMInitron",
     "image": {
         "@type": "ImageObject",
-        "url": "http://localhost:4000/assets/images/arxiv.jpeg",
+        "url": "http://localhost:4000/assets/images/news_images/nvidia.jpg",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://localhost:4000/MicrosoftSpreadsheetLLM"
+        "@id": "http://localhost:4000/NVIDIAMInitron"
     },
-    "description": "Abstract Spreadsheets, with their extensive two-dimensional grids, various layouts, and diverse formatting options, present notable challenges for large language models (LLMs). In response, we introduce SpreadsheetLLM, pioneering an efficient encoding method designed to unleash and optimize LLMs' powerful understanding and reasoning capability on spreadsheets. Initially, we propose a vanilla serialization"
+    "description": "Structured weight pruning combined with knowledge distillation forms an effective and efficient strategy for obtaining progressively smaller language models from an initial larger sibling. As AI models grow increasingly complex, optimizing their performance without sacrificing accuracy becomes essential. NVIDIA's latest blog post provides an insightful guide on how to prune"
 }
     </script>
 
@@ -98,7 +98,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="SpreadsheetLLM - Encoding Spreadsheets for Large Language Models" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Pruning and Distilling Llama 3.1" href="/feed.xml" />
 
 
 </head>
@@ -167,35 +167,64 @@ into the {body} of the default.hbs template -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <article class="post-full  tag-research post ">
+        <article class="post-full  tag-news post ">
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="12 July 2024">12 July 2024</time>
+                    <time class="post-full-meta-date" datetime="14 August 2024">14 August 2024</time>
                     
                         <span class="date-divider">/</span>
                         
                             
-                               <a href='/tag/research/'>RESEARCH</a>
+                               <a href='/tag/news/'>NEWS</a>
                             
                         
                     
                 </section>
-                <h1 class="post-full-title">SpreadsheetLLM - Encoding Spreadsheets for Large Language Models</h1>
+                <h1 class="post-full-title">Pruning and Distilling Llama 3.1</h1>
             </header>
 
             
-            <figure class="post-full-image" style="background-image: url(/assets/images/arxiv.jpeg)">
+            <figure class="post-full-image" style="background-image: url(/assets/images/news_images/nvidia.jpg)">
             </figure>
             
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <h2> Abstract </h2>
+                    <p> Structured weight pruning combined with knowledge distillation forms an effective and efficient strategy for obtaining progressively smaller language models from an initial larger sibling. </p>
 
-<p>Spreadsheets, with their extensive two-dimensional grids, various layouts, and diverse formatting options, present notable challenges for large language models (LLMs). In response, we introduce SpreadsheetLLM, pioneering an efficient encoding method designed to unleash and optimize LLMs' powerful understanding and reasoning capability on spreadsheets. Initially, we propose a vanilla serialization approach that incorporates cell addresses, values, and formats. However, this approach was limited by LLMs' token constraints, making it impractical for most applications. To tackle this challenge, we develop SheetCompressor, an innovative encoding framework that compresses spreadsheets effectively for LLMs. It comprises three modules: structural-anchor-based compression, inverse index translation, and data-format-aware aggregation. It significantly improves performance in spreadsheet table detection task, outperforming the vanilla approach by 25.6% in GPT4's in-context learning setting. Moreover, fine-tuned LLM with SheetCompressor has an average compression ratio of 25 times, but achieves a state-of-the-art 78.9% F1 score, surpassing the best existing models by 12.3%. Finally, we propose Chain of Spreadsheet for downstream tasks of spreadsheet understanding and validate in a new and demanding spreadsheet QA task. We methodically leverage the inherent layout and structure of spreadsheets, demonstrating that SpreadsheetLLM is highly effective across a variety of spreadsheet tasks.</p>
+<p> As AI models grow increasingly complex, optimizing their performance without sacrificing accuracy becomes essential. NVIDIA's latest blog post provides an insightful guide on how to prune and distill the LLaMA 3.1 8B model to create the more efficient Minitron 4B model following the same steps presented in their research's team <a href="https://arxiv.org/pdf/2407.14679">publication</a>. This process not only reduces the model's size but also maintains its performance, making it more suitable for deployment in resource-constrained environments. In this article, we explore the key steps and techniques outlined by NVIDIA to achieve this optimization.
 
-<p>For more information go <a href="https://arxiv.org/abs/2407.09025">here</a></p>
+<h3>Understanding Pruning and Distillation</h3>
+
+<p>The core of NVIDIA's approach, described in the original <a href="https://developer.nvidia.com/blog/how-to-prune-and-distill-llama-3-1-8b-to-an-nvidia-llama-3-1-minitron-4b-model/">blog post</a>, lies in two critical techniques: pruning and distillation.</p>
+
+<ul>
+<li> <strong>Pruning</strong>, involves removing less important neurons and connections from the model, thereby reducing its size without significantly affecting its accuracy.</li>
+<li> <strong>Distillation</strong>, on the other hand, transfers knowledge from the larger, more complex model (LLaMA 3.1 8B) to a smaller model (Minitron 4B), ensuring that the smaller model retains the essential features and capabilities of the original.</li></ul> 
+
+<p>Together, these processes enable the creation of a more efficient model that can perform well in various real-world applications.</p>
+
+<h3>Step-by-Step Pruning Process</h3>
+
+<p>NVIDIA’s blog details the step-by-step process for pruning the LLaMA 3.1 8B model. The process begins with identifying and ranking the neurons and connections based on their contribution to the model's overall performance. NVIDIA recommends using techniques like magnitude-based pruning, which removes connections with the smallest weights, and structured pruning, which eliminates entire neurons or filters. This selective reduction helps in minimizing the impact on model accuracy while significantly reducing the number of parameters.</p>
+
+<h3>Effective Knowledge Distillation</h3>
+
+<p>After pruning, the next critical step is knowledge distillation. NVIDIA explains how to train the Minitron 4B model by leveraging the knowledge from the pruned LLaMA 3.1 8B model. This involves using the outputs of the larger model as a guide for training the smaller model, ensuring that the Minitron 4B model mimics the behavior of the original as closely as possible. Techniques like soft targets, where the probability distribution over possible outputs is used instead of hard labels, are emphasized to capture the nuances of the larger model's decision-making process.</p>
+
+<h3>Balancing Performance and Efficiency</h3>
+
+<p>One of the main challenges in pruning and distillation is balancing the trade-off between performance and efficiency. NVIDIA’s approach focuses on maintaining a high level of accuracy while reducing the model's size and computational requirements. The blog outlines strategies for fine-tuning the pruned and distilled model, such as iterative pruning and distillation cycles, to gradually refine the model’s performance. This ensures that the final Minitron 4B model is not only smaller and faster but also highly effective in its tasks.</p>
+
+<h3>Deployment and Real-World Applications</h3>
+
+<p>The pruned and distilled Minitron 4B model is particularly suited for deployment in environments where computational resources are limited, such as edge devices and mobile platforms. Based on the studdies that have been carried out <a href="https://arxiv.org/pdf/2407.14679">Compact Language Models via Pruning and Knowledge Distillation</a>, NVIDIA highlights various real-world applications where the Minitron 4B model can be effectively utilized, including natural language processing, computer vision, and autonomous systems. By reducing the model’s footprint, it becomes easier to deploy AI solutions in scenarios that require quick, efficient processing without access to large-scale computing power.</p>
+
+<p>To facilitate the pruning and distillation process, NVIDIA provides a range of tools and resources. The blog mentions specific libraries and frameworks, such as TensorRT, that are optimized for model pruning and distillation. Additionally, NVIDIA offers pre-configured environments and detailed documentation to help developers implement these techniques with ease. This support underscores NVIDIA’s commitment to making advanced AI accessible and efficient for a broader range of users and applications.</p>
+
+<p>NVIDIA’s guide on pruning and distilling the LLaMA 3.1 8B model to create the Minitron 4B model demonstrates the potential of optimizing AI models for efficiency without compromising on performance. By leveraging advanced techniques like pruning and knowledge distillation, developers can create smaller, faster models that are well-suited for deployment in various real-world scenarios. NVIDIA’s comprehensive approach, supported by its robust tools and resources, provides a valuable blueprint for anyone looking to enhance their AI models' efficiency, making cutting-edge AI more accessible and applicable across diverse industries.</p>
+</p>
 
                 </div>
             </section>
@@ -268,7 +297,7 @@ into the {body} of the default.hbs template -->
                         <header class="read-next-card-header">
                             <small class="read-next-card-header-sitetitle">&mdash; Kavour &mdash;</small>
                             
-                                <h3 class="read-next-card-header-title"><a href="/tag/research/">Research</a></h3>
+                                <h3 class="read-next-card-header-title"><a href="/tag/news/">News</a></h3>
                             
                         </header>
                         <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
@@ -278,18 +307,14 @@ into the {body} of the default.hbs template -->
                                 
                                 
                                   
-                                
-                                  
-                                
-                                  
-                                
+                                    
                                   
                                 
                                   
                                     
                                         
                                         
-                                            <li><a href="/HybridRAG">Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters</a></li>
+                                            <li><a href="/Grok2Beta">Grok-2 Beta Release</a></li>
                                         
                                     
                                   
@@ -298,7 +323,7 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
-                                            <li><a href="/TransformerExplainer">Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters</a></li>
+                                            <li><a href="/GeminiLive">Transform your mobile device to a powerfull AI Assistant with Gemini Live.</a></li>
                                         
                                     
                                   
@@ -307,58 +332,8 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
-                                            <li><a href="/ScallingLLMTest">Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters</a></li>
+                                            <li><a href="/AIScientist">Sakana AI’s ‘AI Scientist’, Too Autonomous for Its Own Good?</a></li>
                                         
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
                                     
                                   
                                 
@@ -383,11 +358,6 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
-                                    
-                                        
-                                        
-                                    
-                                  
                                 
                                   
                                 
@@ -396,19 +366,6 @@ into the {body} of the default.hbs template -->
                                         
                                         
                                     
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                
                                   
                                 
                                   
@@ -448,6 +405,35 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
                                     
                                         
                                         
@@ -466,9 +452,17 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
-                                
+                                    
+                                        
+                                        
+                                    
                                   
                                 
+                                  
+                                    
+                                        
+                                        
+                                    
                                   
                                 
                                   
@@ -482,14 +476,74 @@ into the {body} of the default.hbs template -->
                                         
                                         
                                     
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
                                   
                                 
                             </ul>
                         </div>
                         <footer class="read-next-card-footer">
-                            <a href="/tag/research/">
+                            <a href="/tag/news/">
                                 
-                                    See all 19 posts  →
+                                    See all 24 posts  →
                                 
                             </a>
                         </footer>
@@ -499,62 +553,6 @@ into the {body} of the default.hbs template -->
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/GPT4oMini">
-                <div class="post-card-image" style="background-image: url(/assets/images/news_images/chatgpt.jpeg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/GPT4oMini">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">News</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">GPT 4o Mini - Advancing cost-efficient intelligence</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>In the official announcement, OpenAI, has introduced GPT-4o Mini, a new iteration in the GPT-4 series designed to deliver high-quality AI performance while being significantly more cost-effective. This latest model aims to make</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      2 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
@@ -562,12 +560,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/MInference">
-                <div class="post-card-image" style="background-image: url(/assets/images/news_images/MicrosoftAI.png)"></div>
+            <a class="post-card-image-link" href="/Grok2Beta">
+                <div class="post-card-image" style="background-image: url(/assets/images/news_images/grokai.jpeg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/MInference">
+            <a class="post-card-content-link" href="/Grok2Beta">
                 <header class="post-card-header">
                     
                         
@@ -577,11 +575,11 @@ into the {body} of the default.hbs template -->
                         
                     
 
-                    <h2 class="post-card-title">MInference</h2>
+                    <h2 class="post-card-title">Grok-2 Beta Release</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p> Now, you can process 1M context 10x faster in a single A100 using Long-context LLMs like LLaMA-3-8B-1M, GLM-4-1M, with even better accuracy, try MInference 1.0 right now! as stated in the announcement.
+                        <p> An early preview of Grok-2 is released, a significant step forward from X.AI's previous model Grok-1.5, featuring frontier capabilities in chat, coding, and reasoning. 
 
 </p>
                     
@@ -608,7 +606,7 @@ into the {body} of the default.hbs template -->
                 <span class="reading-time">
                     
                     
-                      1 min read
+                      3 min read
                     
                 </span>
             </footer>
@@ -632,14 +630,14 @@ into the {body} of the default.hbs template -->
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">SpreadsheetLLM - Encoding Spreadsheets for Large Language Models</div>
+    <div class="floating-header-title">Pruning and Distilling Llama 3.1</div>
         <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
         
-        <a class="floating-header-share-lin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://kavourei.github.io/MicrosoftSpreadsheetLLM"
+        <a class="floating-header-share-lin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://kavourei.github.io/NVIDIAMInitron"
            onclick="window.open(this.href, 'share-linkedin', 'width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
     <path d="M29.63 0H2.37A2.368 2.368 0 0 0 0 2.37v27.26A2.368 2.368 0 0 0 2.37 32h27.26A2.368 2.368 0 0 0 32 29.63V2.37A2.368 2.368 0 0 0 29.63 0zM9.507 26.907H4.898V12.384h4.61v14.523zM7.202 10.295a2.669 2.669 0 1 1 .001-5.338 2.669 2.669 0 0 1 0 5.338zM27.102 26.907h-4.609v-7.187c0-1.713-.03-3.918-2.387-3.918-2.388 0-2.753 1.867-2.753 3.796v7.309h-4.611V12.384h4.428v1.987h.063c.617-1.167 2.123-2.397 4.369-2.397 4.674 0 5.533 3.076 5.533 7.073v7.86h-.001z"/>
@@ -647,7 +645,7 @@ into the {body} of the default.hbs template -->
 
         </a>
 
-        <a class="floating-header-share-x" href="https://x.com/share?url=https://kavourei.github.io/MicrosoftSpreadsheetLLM"
+        <a class="floating-header-share-x" href="https://x.com/share?url=https://kavourei.github.io/NVIDIAMInitron"
            onclick="window.open(this.href, 'share-x', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="480px" height="480px"><path d="M26.37,26l-8.795-12.822l0.015,0.012L25.52,4h-2.65l-6.46,7.48L11.28,4H4.33l8.211,11.971L12.54,15.97L3.88,26h2.65 l7.182-8.322L19.42,26H26.37z M10.23,6l12.34,18h-2.1L8.12,6H10.23z"/></svg>
         </a>
