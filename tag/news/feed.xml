@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-08-26T16:06:17+03:00</updated>
+  <updated>2024-08-28T14:18:02+03:00</updated>
   <id>http://localhost:4000/tag/news/feed.xml</id>
 
   
@@ -104,6 +104,64 @@
 
       
         <summary type="html">An early preview of Grok-2 is released, a significant step forward from X.AI's previous model Grok-1.5, featuring frontier capabilities in chat, coding, and reasoning.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Transform your mobile device to a powerfull AI Assistant with Gemini Live.</title>
+      <link href="http://localhost:4000/GeminiLive" rel="alternate" type="text/html" title="Transform your mobile device to a powerfull AI Assistant with Gemini Live." />
+      <published>2024-08-13T00:00:00+03:00</published>
+      <updated>2024-08-13T00:00:00+03:00</updated>
+      <id>http://localhost:4000/GeminiLive</id>
+      <content type="html" xml:base="http://localhost:4000/GeminiLive">&lt;p&gt; Gemini Live is available today to Advanced subscribers, along with conversational overlay on Android and even more connected apps. &lt;/p&gt;
+
+&lt;p&gt; Before saying anything, let's take a look at the official commercial video produced by Google: &lt;/p&gt;
+
+&lt;iframe width=&quot;933&quot; height=&quot;525&quot; src=&quot;https://www.youtube.com/embed/ixZAvDCysNw&quot; title=&quot;Your personal AI assistant | Gemini&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Google has always been at the forefront of innovation, pushing the boundaries of what technology can achieve. The recent updates to Google Gemini, an advanced AI model, highlight the company’s commitment to enhancing user experience through cutting-edge artificial intelligence. This article explores the key points presented in the &lt;a href=&quot;https://blog.google/products/gemini/made-by-google-gemini-ai-updates/&quot;&gt;official blog post&lt;/a&gt; from Google, which details the new features and capabilities of Gemini AI, and how it is set to transform the way we interact with technology.&lt;/p&gt;
+
+&lt;h3&gt; Multimodal Capabilities &lt;/h3&gt;
+&lt;p&gt;One of the most significant advancements in Gemini AI is its enhanced multimodal capabilities. Unlike traditional AI models that primarily handle text or speech, Gemini can process and interpret multiple forms of data, including images, video, and text simultaneously. This enables a more dynamic and comprehensive understanding of context, making interactions with the AI more fluid and versatile. For instance, users can now engage with Gemini through a combination of voice commands and visual inputs, allowing for more natural and efficient communication.&lt;/p&gt;
+
+&lt;p&gt; As it is written in their official post an example to understand how you could use their multimodal model is the following. Let’s say you’re hosting a dinner party: Have Gemini dig out that lasagna recipe Jenny sent you in your Gmail, and ask it to add the ingredients to your shopping list in Keep. And since your guests are your college friends, ask Gemini to “make a playlist of songs that remind me of the late ‘90s.” Without needing too many details, Gemini gets the gist of what you want and delivers.&lt;/p&gt;
+
+&lt;h3&gt; Improved Contextual Understanding &lt;/h3&gt;
+&lt;p&gt;Google Gemini has been designed with an improved ability to understand context within conversations. The AI can maintain the flow of a conversation over multiple exchanges, making it more adept at handling complex queries that require a nuanced understanding of context. This development ensures that users experience a more seamless and coherent interaction, whether they are navigating through tasks, asking follow-up questions, or switching topics mid-conversation.&lt;/p&gt;
+
+&lt;h3&gt; Expanded Language Support &lt;/h3&gt;
+&lt;p&gt;Gemini AI has also expanded its language capabilities, supporting a broader range of languages and dialects. This makes the AI more accessible to a global audience, enabling it to provide accurate and relevant responses across different linguistic contexts. The expansion in language support also enhances Gemini’s ability to understand regional nuances and cultural references, making it a more powerful tool for users around the world.&lt;/p&gt;
+
+&lt;h3&gt; Enhanced Integration with Google Ecosystem &lt;/h3&gt;
+&lt;p&gt; A key strength of Gemini AI lies in its deep integration with the Google ecosystem. Whether it’s interacting with Google Search, YouTube, or Google Workspace, Gemini seamlessly connects with various Google services to provide a unified and efficient user experience. This integration allows users to leverage the full power of Google’s tools, from productivity apps to entertainment platforms, all through intuitive and intelligent interactions with Gemini AI.&lt;/p&gt;
+
+&lt;p&gt;The latest updates to Google Gemini AI mark a substantial leap forward in the world of artificial intelligence. With its enhanced multimodal capabilities, improved contextual understanding, and expanded language support, Gemini is set to redefine how users interact with technology. Its seamless integration with the Google ecosystem and strong emphasis on ethical AI and privacy further solidify its position as a leader in the AI space. As technology continues to evolve, Gemini AI stands at the cutting edge, ready to transform the way we live, work, and connect with the world around us. Don't forget all that is just some clicks away.&lt;/p&gt;
+
+&lt;p&gt;You can find out how to use it either on Android or you iOS device &lt;a href=&quot;https://support.google.com/gemini/answer/14579026&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Gemini Live is available today to Advanced subscribers, along with conversational overlay on Android and even more connected apps.</summary>
       
 
       
@@ -688,63 +746,6 @@
 
       
         <summary type="html">In the official announcement, OpenAI, has introduced GPT-4o Mini, a new iteration in the GPT-4 series designed to deliver high-quality AI performance while being significantly more cost-effective. This latest model aims to make advanced AI capabilities more accessible and affordable for a wider range of applications and users.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">MInference</title>
-      <link href="http://localhost:4000/MInference" rel="alternate" type="text/html" title="MInference" />
-      <published>2024-07-07T00:00:00+03:00</published>
-      <updated>2024-07-07T00:00:00+03:00</updated>
-      <id>http://localhost:4000/MInference</id>
-      <content type="html" xml:base="http://localhost:4000/MInference">&lt;p&gt;&lt;q&gt; Now, you can process 1M context 10x faster in a single A100 using Long-context LLMs like LLaMA-3-8B-1M, GLM-4-1M, with even better accuracy, try MInference 1.0 right now!&lt;/q&gt; as stated in the announcement.&lt;/p&gt;
-
-&lt;p&gt;Microsoft has recently unveiled MInference, an open-source library designed to streamline and enhance the process of machine learning inference. This repository, hosted on &lt;a href=&quot;https://github.com/microsoft/MInference?tab=readme-ov-file&quot;&gt;GitHub&lt;/a&gt;, offers a comprehensive suite of tools and resources aimed at developers and data scientists looking to integrate efficient inference capabilities into their applications.&lt;/p&gt;
-
-&lt;p&gt; Some of the key features are 
-
-&lt;ol&gt; 
-    &lt;li&gt; High Performance: MInference is optimized for speed and efficiency. This will make it certain for you to have rapid inference times even with large and complex models. This makes it ideal for real-time applications where quick response times are critical for you and/or your business.&lt;/li&gt;
-    &lt;li&gt; Versatility: The library supports a wide range of machine learning models and frameworks. Whether you are working with PyTorch of TensorFlow MInference provides seamless integration, allowing for flexibility and ease of use across different platforms and environments. Take a look at the &lt;a href=&quot;https://github.com/microsoft/MInference/tree/main/examples&quot;&gt;examples&lt;/a&gt; to figure out more about how to use it.&lt;/li&gt;
-    &lt;li&gt; Scalability: Designed with scalability in mind, MInference can handle inference tasks from small-scale projects to large, enterprise-level applications. This scalability ensures that as your data and model complexity grow, MInference can accommodate and maintain performance. Keep in mind though that currently the supported models are:&lt;/li&gt;
-    &lt;ul&gt;
-        &lt;li&gt; LLaMA-3: &lt;a href=&quot;https://huggingface.co/gradientai/Llama-3-8B-Instruct-262k&quot;&gt;gradientai/Llama-3-8B-Instruct-262k&lt;/a&gt;, &lt;a href=&quot;https://huggingface.co/gradientai/Llama-3-8B-Instruct-Gradient-1048k&quot;&gt;gradientai/Llama-3-8B-Instruct-Gradient-1048k&lt;/a&gt;, &lt;a href=&quot;https://huggingface.co/gradientai/Llama-3-8B-Instruct-Gradient-4194k&quot;&gt;gradientai/Llama-3-8B-Instruct-Gradient-4194k&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt; GLM-4: &lt;a href=&quot;https://huggingface.co/THUDM/glm-4-9b-chat-1m&quot;&gt;THUDM/glm-4-9b-chat-1m&lt;/a&gt; &lt;/li&gt;
-        &lt;li&gt; Yi: &lt;a href=&quot;https://huggingface.co/01-ai/Yi-9B-200K&quot;&gt;01-ai/Yi-9B-200K&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt; Phi-3: &lt;a href=&quot;https://huggingface.co/microsoft/Phi-3-mini-128k-instruct&quot;&gt;microsoft/Phi-3-mini-128k-instruct&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt; Qwen2: &lt;a href=&quot;https://huggingface.co/Qwen/Qwen2-7B-Instruct&quot;&gt;Qwen/Qwen2-7B-Instruct&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;li&gt; User-Friendly API: MInference boasts a user-friendly API, making it accessible for both beginners and experienced practitioners. The well-documented functions and examples facilitate a smooth learning curve and quick implementation.&lt;/li&gt;
-    &lt;li&gt; Community and Support: As an open-source project, MInference benefits from the contributions and support of the developer community. You can take advantage of this open-source project to contibute and/or get any support resolving any issues that may come up.&lt;/li&gt;
-
-&lt;p&gt;So to get statred with MInference, in case you feel like it, you check the detailed README file that has the instructions to install anything needed acompanied with examples and documentations. Whether you are a developer of a data scientist I think you will find it tempting to include and impletement efficient machine learning inference in your project so my advice, take a look at is and see if it fits your likes.&lt;/p&gt;
-
-&lt;p&gt; If you are interested about reading more, there is a paper, currently in review that you can find &lt;a href=&quot;https://arxiv.org/abs/2407.02490&quot;&gt;here&lt;/a&gt;&lt;/p&gt;. 
-&lt;/ol&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">Now, you can process 1M context 10x faster in a single A100 using Long-context LLMs like LLaMA-3-8B-1M, GLM-4-1M, with even better accuracy, try MInference 1.0 right now! as stated in the announcement.</summary>
       
 
       
