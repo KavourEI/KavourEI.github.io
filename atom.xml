@@ -8,6 +8,20 @@
     
       
       <item>
+        <title>Nous Research presents Hermes 3</title>
+        
+          <description>&lt;p&gt;Hermes 3 contains advanced long-term context retention and multi-turn conversation capability, complex roleplaying and internal monologue abilities, and enhanced agentic function-calling.&lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 14 Aug 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/NousHermes3</link>
+        <guid isPermaLink="true">http://localhost:4000/NousHermes3</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Pruning and Distilling Llama 3.1</title>
         
           <description>&lt;p&gt; Structured weight pruning combined with knowledge distillation forms an effective and efficient strategy for obtaining progressively smaller language models from an initial larger sibling. &lt;/p&gt;

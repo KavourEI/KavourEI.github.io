@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-08-28T19:25:56+03:00</updated>
+  <updated>2024-08-28T20:06:22+03:00</updated>
   <id>http://localhost:4000/tag/news/feed.xml</id>
 
   
@@ -44,6 +44,55 @@
   
   
 
+  
+    <entry>
+      <title type="html">Nous Research presents Hermes 3</title>
+      <link href="http://localhost:4000/NousHermes3" rel="alternate" type="text/html" title="Nous Research presents Hermes 3" />
+      <published>2024-08-14T00:00:00+03:00</published>
+      <updated>2024-08-14T00:00:00+03:00</updated>
+      <id>http://localhost:4000/NousHermes3</id>
+      <content type="html" xml:base="http://localhost:4000/NousHermes3">&lt;p&gt;Hermes 3 contains advanced long-term context retention and multi-turn conversation capability, complex roleplaying and internal monologue abilities, and enhanced agentic function-calling.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://nousresearch.com/hermes3/&quot;&gt;Nous Research&lt;/a&gt; has released a comprehensive &lt;a href=&quot;https://nousresearch.com/wp-content/uploads/2024/08/Hermes-3-Technical-Report.pdf&quot;&gt;technical report&lt;/a&gt; on Hermes 3, an advanced AI model that represents a significant leap in the field of artificial intelligence. The report delves into the architecture, training methodologies, and real-world applications of Hermes 3, showcasing its potential to transform various industries. This article provides an overview of the key points discussed in the report, offering insights into the innovations and capabilities of Hermes 3.&lt;p&gt;
+
+&lt;p&gt;Hermes 3 stands out due to its innovative architecture, which blends traditional neural networks with cutting-edge transformer models. The report details how this hybrid architecture allows Hermes 3 to excel in processing both structured and unstructured data. By integrating elements of recurrent neural networks (RNNs) and transformers, Hermes 3 achieves a balance between sequential data processing and parallel processing capabilities. This makes it highly effective in tasks ranging from natural language processing to complex data analysis.&lt;p&gt;
+
+&lt;p&gt;The technical report outlines the advanced training methodologies employed in developing Hermes 3. One of the key strategies is the use of curriculum learning, where the model is trained on increasingly complex tasks, mimicking the way humans learn. This approach not only accelerates the training process but also enhances the model’s ability to generalize across different domains. Additionally, Nous Research has implemented a multi-phase training regimen, combining supervised learning, reinforcement learning, and unsupervised learning to maximize the model’s performance and adaptability.&lt;/p&gt;
+
+&lt;p&gt;A notable feature of Hermes 3 is its enhanced ability to understand and retain context over extended conversations or data sequences. The report highlights the model’s long-context retention capabilities, made possible by its advanced memory management techniques. Unlike earlier models that struggle with maintaining context in long sequences, Hermes 3 can accurately track and utilize contextual information, making it ideal for applications like conversational AI, document analysis, and complex decision-making processes.&lt;/p&gt;
+
+&lt;p&gt;Scalability is a core focus in the design of Hermes 3. The report emphasizes how the model’s architecture is optimized for deployment across various scales, from individual devices to large data centers. This scalability is achieved through efficient resource management and parallel processing techniques, which reduce computational overhead without compromising performance. Hermes 3’s ability to scale effectively makes it a versatile solution for different environments, from cloud-based applications to edge computing scenarios.&lt;/p&gt;
+
+&lt;p&gt;The report concludes by exploring the real-world applications of Hermes 3 across various industries. Some generation case scenarios are presented to get a small taste of the overall capabilities. Case studies highlighted in the report demonstrate the model’s versatility and effectiveness. The ability of Hermes 3 to handle diverse tasks with high accuracy and efficiency underscores its potential to drive innovation in sectors that require sophisticated AI solutions.&lt;/p&gt;
+
+&lt;p&gt;Hermes 3 is a testament to the advancements in AI research and development, offering a powerful blend of innovative architecture, advanced training methodologies, and enhanced contextual understanding. The technical report from Nous Research provides a detailed look into how Hermes 3 achieves its impressive performance while maintaining scalability, efficiency, and robust security features. As AI continues to evolve, Hermes 3 stands out as a cutting-edge solution capable of addressing complex challenges across a wide range of industries, paving the way for new possibilities in artificial intelligence.&lt;/p&gt;
+&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Hermes 3 contains advanced long-term context retention and multi-turn conversation capability, complex roleplaying and internal monologue abilities, and enhanced agentic function-calling.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Pruning and Distilling Llama 3.1</title>
@@ -653,107 +702,6 @@
 
       
         <summary type="html">AI Achieves Silver Medal Level in International Math Olympiad Problems: A Milestone in Computational Intelligence</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Mistral Unveils Mistral 7B - A Cutting-Edge Language Model</title>
-      <link href="http://localhost:4000/MistralLarge2" rel="alternate" type="text/html" title="Mistral Unveils Mistral 7B - A Cutting-Edge Language Model" />
-      <published>2024-07-24T00:00:00+03:00</published>
-      <updated>2024-07-24T00:00:00+03:00</updated>
-      <id>http://localhost:4000/MistralLarge2</id>
-      <content type="html" xml:base="http://localhost:4000/MistralLarge2">&lt;p&gt;In a significant leap for artificial intelligence, Mistral has announced the launch of Mistral 7B, a state-of-the-art language model designed to push the boundaries of what AI can achieve in natural language processing. This blog post explores the capabilities and potential impact of Mistral 7B, highlighting its innovative features and the transformative possibilities it offers.&lt;/p&gt;
-
-&lt;h3&gt;The Evolution of Language Models&lt;/h3&gt;
-
-&lt;p&gt;Language models have seen rapid advancements over recent years, evolving from basic text generation to understanding and interacting with human language in sophisticated ways. These models are integral to a wide array of applications, from virtual assistants to content creation, and the introduction of Mistral 7B represents a notable advancement in this field and many more like code generation, mathematics, and reasoning.&lt;/p&gt;
-
-&lt;h3&gt;What is Mistral 7B?&lt;/h3&gt;
-
-&lt;p&gt;Mistral 7B is a large-scale language model developed by Mistral AI. Boasting 7 billion parameters, this model leverages cutting-edge architecture and training techniques to deliver unparalleled performance in natural language understanding and generation. It is designed to be highly versatile, capable of tackling a broad range of tasks with remarkable accuracy and fluency.&lt;/p&gt;
-
-&lt;h3&gt;Key Features of Mistral 7B&lt;/h3&gt;
-
-&lt;p&gt;&lt;ol&gt;
-&lt;li&gt; &lt;strong&gt;Enhanced Performance&lt;/strong&gt;: With 7 billion parameters, Mistral 7B offers substantial improvements in both speed and accuracy compared to its predecessors. This makes it capable of handling complex language tasks more efficiently.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;High Versatility&lt;/strong&gt;: Mistral 7B is designed to excel in various applications, from summarizing texts and answering questions to generating creative content and performing sentiment analysis. Its versatility makes it a valuable tool across multiple industries.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Advanced Training Techniques&lt;/strong&gt;: The model employs state-of-the-art training methods, ensuring it learns and adapts from vast amounts of data. This enables it to understand context better and generate more coherent and contextually appropriate responses.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;User-Friendly Interface&lt;/strong&gt;: Mistral 7B is built with usability in mind, providing developers and businesses with easy integration options to incorporate the model into their applications and workflows seamlessly.&lt;/li&gt;
-&lt;/ol&gt;&lt;/p&gt;
-
-&lt;p&gt; You can use Mistral Large 2 today via la Plateforme under the name mistral-large-2407, and test it on le Chat. It is available under the version 24.07 (a YY.MM versioning system that we are applying to all our models), and the API name mistral-large-2407. Weights for the instruct model are available and are also hosted on HuggingFace.&lt;/p&gt;
-
-&lt;p&gt; Appart from those sources you can test it out through cloud platforms. Recently Mistral AI_ has come to an agreement with Google Cloud Platform to bring Mistral AI’s models on &lt;a href=&quot;https://cloud.google.com/blog/products/ai-machine-learning/codestral-and-mistral-large-v2-on-vertex-ai?e=48754805&amp;amp;hl=en&quot;&gt;Vertex AI&lt;/a&gt;. Mistral AI’s best models are now available on Vertex AI, in addition to Azure AI Studio, Amazon Bedrock and IBM watsonx.ai.&lt;/p&gt;
-
-&lt;p&gt;
-&lt;table&gt;
-  &lt;tr&gt;
-    &lt;th&gt;&lt;/th&gt;
-    &lt;th&gt;Google Vertex Al&lt;/th&gt;
-    &lt;th&gt;Azure Al Studio&lt;/th&gt;
-    &lt;th&gt;Amazon Bedrock&lt;/th&gt;
-    &lt;th&gt;IBM watsonx.ai&lt;/th&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Mistral Large 2 (24.07)&lt;/td&gt;
-    &lt;td&gt;&amp;#10004;&lt;/td&gt;
-    &lt;td&gt;&amp;#10004;&lt;/td&gt;
-    &lt;td&gt;&amp;#10004;&lt;/td&gt;
-    &lt;td&gt;&amp;#10004;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Mistral Nemo&lt;/td&gt;
-    &lt;td&gt;&amp;#10004;&lt;/td&gt;
-    &lt;td&gt;&amp;#10004;&lt;/td&gt;
-    &lt;td&gt;Comming Soon&lt;/td&gt;
-    &lt;td&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Codestral&lt;/td&gt;
-    &lt;td&gt;&amp;#10004;&lt;/td&gt;
-    &lt;td&gt;Comming Soon&lt;/td&gt;
-    &lt;td&gt;&lt;/td&gt;
-    &lt;td&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Finetuning&lt;/td&gt;
-    &lt;td&gt;&lt;/td&gt;
-    &lt;td&gt;Comming Soon&lt;/td&gt;
-    &lt;td&gt;Comming Soon&lt;/td&gt;
-    &lt;td&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;/p&gt;
-
-&lt;p&gt;As with any powerful AI technology, it is crucial to address ethical considerations related to Mistral 7B. Ensuring data privacy, mitigating biases in AI-generated content, and maintaining transparency in how the model operates are essential for building trust and ensuring responsible use. Mistral AI is committed to these principles, aiming to develop AI technologies that are beneficial and equitable.&lt;/p&gt;
-
-&lt;p&gt;Mistral 7B represents a significant advancement in the field of natural language processing, offering enhanced performance, versatility, and usability. By harnessing the power of this cutting-edge language model, industries can unlock new opportunities and efficiencies, paving the way for innovative applications and solutions.&lt;/p&gt;
-
-&lt;p&gt;For more detailed information about Mistral 7B and its potential impact, visit Mistral AI's official announcement &lt;a href=&quot;https://mistral.ai/news/mistral-large-2407/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">In a significant leap for artificial intelligence, Mistral has announced the launch of Mistral 7B, a state-of-the-art language model designed to push the boundaries of what AI can achieve in natural language processing. This blog post explores the capabilities and potential impact of Mistral 7B, highlighting its innovative features and the transformative possibilities it offers.</summary>
       
 
       
