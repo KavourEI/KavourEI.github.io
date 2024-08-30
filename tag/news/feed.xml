@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-08-28T20:06:22+03:00</updated>
+  <updated>2024-08-30T14:18:28+03:00</updated>
   <id>http://localhost:4000/tag/news/feed.xml</id>
 
   
@@ -44,6 +44,60 @@
   
   
 
+  
+    <entry>
+      <title type="html">California’s SB 1047 - A Weakened Bill on AI Safety</title>
+      <link href="http://localhost:4000/CaliforniaLaw" rel="alternate" type="text/html" title="California's SB 1047 - A Weakened Bill on AI Safety" />
+      <published>2024-08-14T00:00:00+03:00</published>
+      <updated>2024-08-14T00:00:00+03:00</updated>
+      <id>http://localhost:4000/CaliforniaLaw</id>
+      <content type="html" xml:base="http://localhost:4000/CaliforniaLaw">&lt;p&gt; California’s SB 1047, a bill initially aimed at preventing AI disasters, has been significantly weakened by amendments that reduce the state’s regulatory power, addressing concerns from AI firms while still holding developers liable for catastrophic events. &lt;/p&gt;
+
+&lt;p&gt; California's SB 1047, a bill originally designed to prevent AI-related disasters, has undergone significant changes following opposition from key players in Silicon Valley, including AI firm &lt;a href=&quot;https://www.anthropic.com&quot;&gt;Anthropic&lt;/a&gt;. The bill, now passed by the Appropriations Committee, has been softened to address concerns from the AI industry while still aiming to hold developers liable for AI models that cause catastrophic events.&lt;/p&gt;
+
+&lt;h3&gt; Key Amendments and Their Impact&lt;/h3&gt;
+
+&lt;p&gt; One of the most critical amendments removes the power of California’s attorney general to sue AI companies for negligent safety practices before a disaster occurs. This change, proposed by Anthropic, instead allows the attorney general to seek injunctive relief or sue after a catastrophe. This amendment significantly reduces the preemptive power of the state in regulating AI safety.&lt;/p&gt;
+
+&lt;p&gt; Another significant change is the elimination of the &lt;a href=&quot;https://thedispatch.com/newsletter/techne/regulating-frontier-models-in-ai/&quot;&gt;Frontier Model Division (FMD)&lt;/a&gt;, a proposed new government agency, from the bill. Instead, the responsibilities of the FMD are transferred to a newly expanded Board of Frontier Models within the Government Operations Agency. This board will be responsible for setting compute thresholds, issuing safety guidance, and establishing regulations for auditors, but its role is now more integrated into existing governmental structures.&lt;/p&gt;
+
+&lt;p&gt; Further amendments include a relaxation of liability measures for AI developers. AI labs are no longer required to submit safety test results under penalty of perjury, reducing the legal risks for these companies. The bill now asks developers to provide &quot;reasonable care&quot; instead of &quot;reasonable assurance&quot; that their AI models do not pose significant risks.&lt;/p&gt;
+
+&lt;p&gt; Additionally, the bill offers protections for open-source AI development. Developers who spend less than $10 million fine-tuning a model are not considered liable under SB 1047, shifting the responsibility to the original developers.&lt;/p&gt;
+
+&lt;h3&gt; Reactions and Future Prospects&lt;/h3&gt;
+
+&lt;p&gt; The changes have sparked mixed reactions. While these amendments are seen as a way to ease industry concerns and make the bill more palatable for Governor Newsom's approval, they have not fully satisfied critics. Some argue that the revisions are superficial and fail to address deeper issues, with some U.S. Congress members even urging a veto.&lt;/p&gt;
+
+&lt;p&gt; Despite these criticisms, SB 1047 is moving forward and is now headed to the California Assembly for a final vote. If passed, it will return to the Senate due to the amendments before potentially landing on Governor Newsom's desk for a final decision. The outcome will determine whether California adopts a more industry-friendly approach to AI regulation or maintains stricter oversight in the face of emerging technological risks.&lt;/p&gt;
+
+&lt;p&gt; For more information you can check &lt;a href=&quot;https://techcrunch.com/2024/08/15/california-weakens-bill-to-prevent-ai-disasters-before-final-vote-taking-advice-from-anthropic/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">California’s SB 1047, a bill initially aimed at preventing AI disasters, has been significantly weakened by amendments that reduce the state’s regulatory power, addressing concerns from AI firms while still holding developers liable for catastrophic events.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Nous Research presents Hermes 3</title>
@@ -633,75 +687,6 @@
 
       
         <summary type="html">The recent release of Meta's Llama 3.1 marks a significant advancement in the field of open-source large language models (LLMs). As the first openly available model to rival top proprietary models, Llama 3.1 is set to redefine capabilities in AI, offering a range of features that enhance its usability and performance. Some of the key features are the following:</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">AI achieves silver medal solving International Mathematical Olympiad problems</title>
-      <link href="http://localhost:4000/AISilverMedal" rel="alternate" type="text/html" title="AI achieves silver medal solving International Mathematical Olympiad problems" />
-      <published>2024-07-25T00:00:00+03:00</published>
-      <updated>2024-07-25T00:00:00+03:00</updated>
-      <id>http://localhost:4000/AISilverMedal</id>
-      <content type="html" xml:base="http://localhost:4000/AISilverMedal">&lt;h2&gt;AI Achieves Silver Medal Level in International Math Olympiad Problems: A Milestone in Computational Intelligence&lt;/h2&gt;
-
-&lt;p&gt;Artificial Intelligence continues to make impressive strides across various domains, from healthcare to transportation, and now it has marked a significant achievement in the field of mathematics. DeepMind, a leading AI research company, recently published a blog post detailing how their AI has solved International Mathematical Olympiad (IMO) problems at a silver medal level. This breakthrough highlights not only the advancement of AI capabilities but also its potential to aid in solving complex mathematical problems that challenge even the brightest human minds.&lt;/p&gt;
-
-&lt;p&gt;&quot;The fact that the program can come up with a non-obvious construction like this is very impressive, and well beyond what I thought was state of the art.&quot; prof Sir Timothy Gowers, (IMO Gold Medalist and Fields Medal Winner) says&lt;/p&gt;
-
-&lt;h3&gt;The Significance of the IMO&lt;/h3&gt;
-
-&lt;p&gt;The International Mathematical Olympiad is one of the most prestigious mathematical competitions for pre-university students worldwide. Since its inception in 1959, it has been a platform where young mathematicians showcase their problem-solving skills, often presenting problems that require deep logical reasoning, creativity, and advanced mathematical knowledge. Achieving a medal in the IMO is a testament to a participant's exceptional mathematical abilities.&lt;/p&gt;
-
-&lt;h3&gt;DeepMind's Approach&lt;/h3&gt;
-
-&lt;p&gt;DeepMind's AI system, referred to as AlphaMath, employs a combination of machine learning techniques and advanced problem-solving algorithms. The system was trained on a vast dataset of mathematical problems, including those from previous IMO competitions. The AI uses pattern recognition and symbolic reasoning to tackle problems, mimicking the intuitive and step-by-step approach that human mathematicians use. Here are the results.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/AIMathematicsCompSIlver.png&quot; /&gt;&lt;/p&gt;
-
-&lt;h3&gt;Achieving the Silver Medal Level&lt;/h3&gt;
-
-&lt;p&gt;The AI was tested on a set of IMO problems and performed at a level equivalent to a silver medalist. This accomplishment is particularly notable because IMO problems are known for their complexity and often require innovative solutions rather than straightforward application of known formulas or methods. Achieving a silver medal level means that the AI can solve problems that typically only the top 25% of human competitors can solve, underscoring its advanced problem-solving abilities.&lt;/p&gt;
-
-&lt;h&gt;Implications for the Future&amp;lt;/h3&amp;gt;
-
-&lt;p&gt;&lt;ol&gt;
-&lt;li&gt; &lt;strong&gt;Educational Tools&lt;/strong&gt;: AI like AlphaMath can be used to develop educational tools that help students learn complex mathematical concepts by providing step-by-step solutions and explanations for difficult problems.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Research and Development&lt;/strong&gt;: Mathematicians and scientists can leverage AI to explore new areas of research, automate tedious calculations, and generate hypotheses for further investigation.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Cross-Disciplinary Applications&lt;/strong&gt;: The techniques developed for solving mathematical problems can be adapted to other fields requiring complex problem-solving, such as physics, engineering, and computer science.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Human-AI Collaboration&lt;/strong&gt;: This breakthrough opens up possibilities for enhanced collaboration between humans and AI, where AI can assist in verifying solutions, exploring multiple problem-solving approaches, and providing insights that may not be immediately obvious to human researchers.&lt;/li&gt;&amp;lt;/p&amp;gt;
-
-&lt;h3&gt;Ethical Considerations&lt;/h3&gt;
-
-&lt;p&gt;As AI continues to evolve and take on more complex tasks, it is crucial to address ethical considerations. Ensuring transparency in AI decision-making processes, maintaining data privacy, and preventing biases in AI algorithms are essential to fostering trust and reliability in AI applications.&lt;/p&gt;
-
-&lt;p&gt;DeepMind's achievement in having its AI solve IMO problems at a silver medal level marks a significant milestone in the field of AI and mathematics. This development not only demonstrates the growing capabilities of AI but also opens up new avenues for educational advancement, research innovation, and human-AI collaboration. As we continue to push the boundaries of what AI can achieve, it is important to approach these advancements with a sense of responsibility and an eye towards the ethical implications.&lt;/p&gt;
-
-&lt;p&gt;For more detailed insights and technical explanations, you can read DeepMind's full blog post &lt;a href=&quot;https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/&quot;&gt; here &lt;/a&gt;&lt;/p&gt;
-&lt;/ol&gt;&lt;/p&gt;&lt;/h&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">AI Achieves Silver Medal Level in International Math Olympiad Problems: A Milestone in Computational Intelligence</summary>
       
 
       
