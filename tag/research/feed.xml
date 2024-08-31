@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-08-31T18:34:05+03:00</updated>
+  <updated>2024-08-31T18:54:48+03:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -59,7 +59,7 @@
 
 &lt;p&gt; Chunting Zhou, Lili Yu, Arun Babu, Kushal Tirumala, Michihiro Yasunaga, Leonid Shamis, Jacob Kahn, Xuezhe Ma, Luke Zettlemoyer, Omer Levy&lt;/p&gt;
 
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/pdf/2408.11039&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;For more information go &lt;a href='https://arxiv.org/pdf/2408.11039'&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -101,7 +101,7 @@
 
 &lt;p&gt; CViraat Aryabumi, Yixuan Su, Raymond Ma, Adrien Morisot, Ivan Zhang, Acyr Locatelli, Marzieh Fadaee, Ahmet Üstün, and Sara Hooker1&lt;/p&gt;
 
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/pdf/2408.10914&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;For more information go &lt;a href='https://arxiv.org/pdf/2408.10914'&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -141,9 +141,9 @@
 
 &lt;h2&gt; Authors &lt;/h2&gt;
 
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hu,+S&quot;&gt;Shengran Hu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lu,+C&quot;&gt;Cong Lu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Clune,+J&quot;&gt;Jeff Clune&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Hu,+S'&gt;Shengran Hu&lt;/a&gt;, &lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Lu,+C'&gt;Cong Lu&lt;/a&gt;, &lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Clune,+J'&gt;Jeff Clune&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2408.08435&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;For more information go &lt;a href='https://arxiv.org/abs/2408.08435'&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -179,13 +179,13 @@
       <id>http://localhost:4000/HybridRAG</id>
       <content type="html" xml:base="http://localhost:4000/HybridRAG">&lt;h2&gt; Abstract &lt;/h2&gt;
 
-&lt;p&gt; Extraction and interpretation of intricate information from unstructured text data arising in financial applications, such as earnings call transcripts, present substantial challenges to large language models (LLMs) even using the current best practices to use Retrieval Augmented Generation (RAG) (referred to as VectorRAG techniques which utilize vector databases for information retrieval) due to challenges such as domain specific terminology and complex formats of the documents. We introduce a novel approach based on a combination, called HybridRAG, of the Knowledge Graphs (KGs) based RAG techniques (called GraphRAG) and VectorRAG techniques to enhance question-answer (Q&amp;amp;A) systems for information extraction from financial documents that is shown to be capable of generating accurate and contextually relevant answers. Using experiments on a set of financial earning call transcripts documents which come in the form of Q&amp;amp;A format, and hence provide a natural set of pairs of ground-truth Q&amp;amp;As, we show that HybridRAG which retrieves context from both vector database and KG outperforms both traditional VectorRAG and GraphRAG individually when evaluated at both the retrieval and generation stages in terms of retrieval accuracy and answer generation. The proposed technique has applications beyond the financial domain.&lt;/p&gt;
+&lt;p&gt; Extraction and interpretation of intricate information from unstructured text data arising in financial applications, such as earnings call transcripts, present substantial challenges to large language models (LLMs) even using the current best practices to use Retrieval Augmented Generation (RAG) (referred to as VectorRAG techniques which utilize vector databases for information retrieval) due to challenges such as domain specific terminology and complex formats of the documents. We introduce a novel approach based on a combination, called HybridRAG, of the Knowledge Graphs (KGs) based RAG techniques (called GraphRAG) and VectorRAG techniques to enhance question-answer (Q&amp;A) systems for information extraction from financial documents that is shown to be capable of generating accurate and contextually relevant answers. Using experiments on a set of financial earning call transcripts documents which come in the form of Q&amp;A format, and hence provide a natural set of pairs of ground-truth Q&amp;As, we show that HybridRAG which retrieves context from both vector database and KG outperforms both traditional VectorRAG and GraphRAG individually when evaluated at both the retrieval and generation stages in terms of retrieval accuracy and answer generation. The proposed technique has applications beyond the financial domain.&lt;/p&gt;
 
 &lt;h2&gt; Authors &lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sarmah,+B&quot;&gt;Bhaskarjit Sarmah&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hall,+B&quot;&gt;Benika Hall&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Rao,+R&quot;&gt;Rohan Rao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Patel,+S&quot;&gt;Sunil Patel&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Pasquali,+S&quot;&gt;Stefano Pasquali&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Mehta,+D&quot;&gt;Dhagash Mehta&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Sarmah,+B'&gt;Bhaskarjit Sarmah&lt;/a&gt;, &lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Hall,+B'&gt;Benika Hall&lt;/a&gt;, &lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Rao,+R'&gt;Rohan Rao&lt;/a&gt;, &lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Patel,+S'&gt;Sunil Patel&lt;/a&gt;, &lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Pasquali,+S'&gt;Stefano Pasquali&lt;/a&gt;, &lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Mehta,+D'&gt;Dhagash Mehta&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2408.04948&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;For more information go &lt;a href='https://arxiv.org/abs/2408.04948'&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -221,13 +221,13 @@
       <id>http://localhost:4000/TransformerExplainer</id>
       <content type="html" xml:base="http://localhost:4000/TransformerExplainer">&lt;h2&gt; Abstract &lt;/h2&gt;
 
-&lt;p&gt; Transformers have revolutionized machine learning, yet their inner workings remain opaque to many. We present Transformer Explainer, an interactive visualization tool designed for non-experts to learn about Transformers through the GPT-2 model. Our tool helps users understand complex Transformer concepts by integrating a model overview and enabling smooth transitions across abstraction levels of mathematical operations and model structures. It runs a live GPT-2 instance locally in the user's browser, empowering users to experiment with their own input and observe in real-time how the internal components and parameters of the Transformer work together to predict the next tokens. Our tool requires no installation or special hardware, broadening the public's education access to modern generative AI techniques. Our open-sourced tool is available at &lt;a href=&quot;https://poloclub.github.io/transformer-explainer/&quot;&gt;this https URL&lt;/a&gt;. A video demo is available at &lt;a href=&quot;https://youtu.be/ECR4oAwocjs&quot;&gt;this https URL&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt; Transformers have revolutionized machine learning, yet their inner workings remain opaque to many. We present Transformer Explainer, an interactive visualization tool designed for non-experts to learn about Transformers through the GPT-2 model. Our tool helps users understand complex Transformer concepts by integrating a model overview and enabling smooth transitions across abstraction levels of mathematical operations and model structures. It runs a live GPT-2 instance locally in the user's browser, empowering users to experiment with their own input and observe in real-time how the internal components and parameters of the Transformer work together to predict the next tokens. Our tool requires no installation or special hardware, broadening the public's education access to modern generative AI techniques. Our open-sourced tool is available at &lt;a href='https://poloclub.github.io/transformer-explainer/'&gt;this https URL&lt;/a&gt;. A video demo is available at &lt;a href='https://youtu.be/ECR4oAwocjs'&gt;this https URL&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2&gt; Authors &lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cho,+A&quot;&gt;Aeree Cho&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Kim,+G+C&quot;&gt;Grace C. Kim&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Karpekov,+A&quot;&gt;Alexander Karpekov&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Helbling,+A&quot;&gt;Alec Helbling&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+Z+J&quot;&gt;Zijie J. Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lee,+S&quot;&gt;Seongmin Lee&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hoover,+B&quot;&gt;Benjamin Hoover&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chau,+D+H&quot;&gt;Duen Horng Chau&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Cho,+A'&gt;Aeree Cho&lt;/a&gt;, &lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Kim,+G+C'&gt;Grace C. Kim&lt;/a&gt;, &lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Karpekov,+A'&gt;Alexander Karpekov&lt;/a&gt;, &lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Helbling,+A'&gt;Alec Helbling&lt;/a&gt;, &lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+Z+J'&gt;Zijie J. Wang&lt;/a&gt;, &lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Lee,+S'&gt;Seongmin Lee&lt;/a&gt;, &lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Hoover,+B'&gt;Benjamin Hoover&lt;/a&gt;, &lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Chau,+D+H'&gt;Duen Horng Chau&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2408.04619&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;For more information go &lt;a href='https://arxiv.org/abs/2408.04619'&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -267,10 +267,9 @@
 
 &lt;h2&gt; Authors &lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Snell,+C&quot;&gt;Charlie Snell&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lee,+J&quot;&gt;Jaehoon Lee, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+K&quot;&gt;Kelvin Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Kumar,+A&quot;&gt;Aviral Kumar&lt;/a&gt;&amp;lt;/p&amp;gt;
+&lt;p&gt;&lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Snell,+C'&gt;Charlie Snell&lt;/a&gt;, &lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Lee,+J'&gt;Jaehoon Lee, &lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Xu,+K'&gt;Kelvin Xu&lt;/a&gt;, &lt;a href='https://arxiv.org/search/cs?searchtype=author&amp;query=Kumar,+A'&gt;Aviral Kumar&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2408.03314&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;For more information go &lt;a href='https://arxiv.org/abs/2408.03314'&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -308,7 +307,7 @@
 
 &lt;p&gt; We present foundation language models developed to power Apple Intelligence features, including a ~3 billion parameter model designed to run efficiently on devices and a large server-based language model designed for Private Cloud Compute. These models are designed to perform a wide range of tasks efficiently, accurately, and responsibly. This report describes the model architecture, the data used to train the model, the training process, how the models are optimized for inference, and the evaluation results. We highlight our focus on Responsible AI and how the principles are applied throughout the model development.&lt;/p&gt;
 
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2407.21075&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;For more information go &lt;a href='https://arxiv.org/abs/2407.21075'&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -346,10 +345,9 @@
 
 &lt;p&gt; This paper does not introduce a novel method. Instead, it offers a fairer and more comprehensive comparison of KAN and MLP models across various tasks, including machine learning, computer vision, audio processing, natural language processing, and symbolic formula representation. Specifically, we control the number of parameters and FLOPs to compare the performance of KAN and MLP. Our main observation is that, except for symbolic formula representation tasks, MLP generally outperforms KAN. We also conduct ablation studies on KAN and find that its advantage in symbolic formula representation mainly stems from its B-spline activation function. When B-spline is applied to MLP, performance in symbolic formula representation significantly improves, surpassing or matching that of KAN. However, in other tasks where MLP already excels over KAN, B-spline does not substantially enhance MLP's performance. Furthermore, we find that KAN's forgetting issue is more severe than that of MLP in a standard class-incremental continual learning setting, which differs from the findings reported in the KAN paper. We hope these results provide insights for future research on KAN and other MLP alternatives.&lt;/p&gt;
 
-&lt;p&gt; &lt;a href=&quot;https://github.com/yu-rp/KANbeFair&quot;&gt; Project page &lt;/a&gt;
+&lt;p&gt; &lt;a href='https://github.com/yu-rp/KANbeFair'&gt; Project page &lt;/a&gt;
 
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2407.16674&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/p&gt;</content>
+&lt;p&gt;For more information go &lt;a href='https://arxiv.org/abs/2407.16674'&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -387,7 +385,7 @@
 
 &lt;p&gt;As scaling laws in generative AI push performance, they also simultaneously concentrate the development of these models among actors with large computational resources. With a focus on text-to-image (T2I) generative models, we aim to address this bottleneck by demonstrating very low-cost training of large-scale T2I diffusion transformer models. As the computational cost of transformers increases with the number of patches in each image, we propose to randomly mask up to 75% of the image patches during training. We propose a deferred masking strategy that preprocesses all patches using a patch-mixer before masking, thus significantly reducing the performance degradation with masking, making it superior to model downscaling in reducing computational cost. We also incorporate the latest improvements in transformer architecture, such as the use of mixture-of-experts layers, to improve performance and further identify the critical benefit of using synthetic images in micro-budget training. Finally, using only 37M publicly available real and synthetic images, we train a 1.16 billion parameter sparse transformer with only $1,890 economical cost and achieve a 12.7 FID in zero-shot generation on the COCO dataset. Notably, our model achieves competitive FID and high-quality generations while incurring 118× lower cost than stable diffusion models and 14× lower cost than the current state-of-the-art approach that costs $28,400. We aim to release our end-to-end training pipeline to further democratize the training of large-scale diffusion models on micro-budgets.&lt;/p&gt;
 
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2407.15811&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;For more information go &lt;a href='https://arxiv.org/abs/2407.15811'&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -425,10 +423,9 @@
 
 &lt;p&gt; Monocular dynamic reconstruction is a challenging and long-standing vision problem due to the highly ill-posed nature of the task. Existing approaches are limited in that they either depend on templates, are effective only in quasi-static scenes, or fail to model 3D motion explicitly. In this work, we introduce a method capable of reconstructing generic dynamic scenes, featuring explicit, full-sequence-long 3D motion, from casually captured monocular videos. We tackle the under-constrained nature of the problem with two key insights: First, we exploit the low-dimensional structure of 3D motion by representing scene motion with a compact set of SE3 motion bases. Each point's motion is expressed as a linear combination of these bases, facilitating soft decomposition of the scene into multiple rigidly-moving groups. Second, we utilize a comprehensive set of data-driven priors, including monocular depth maps and long-range 2D tracks, and devise a method to effectively consolidate these noisy supervisory signals, resulting in a globally consistent representation of the dynamic scene. Experiments show that our method achieves state-of-the-art performance for both long-range 3D/2D motion estimation and novel view synthesis on dynamic scenes.&lt;/p&gt;
 
-&lt;p&gt; &lt;a href=&quot;https://shape-of-motion.github.io/&quot;&gt; Project page &lt;/a&gt;
+&lt;p&gt; &lt;a href='https://shape-of-motion.github.io/'&gt; Project page &lt;/a&gt;
 
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2407.13764&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/p&gt;</content>
+&lt;p&gt;For more information go &lt;a href='https://arxiv.org/abs/2407.13764'&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
