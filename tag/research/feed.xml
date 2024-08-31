@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-08-30T17:37:51+03:00</updated>
+  <updated>2024-08-31T18:34:05+03:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -44,6 +44,90 @@
   
   
 
+  
+    <entry>
+      <title type="html">Transfusion - Predict the Next Token and Diffuse Images with One Multi-Modal Model</title>
+      <link href="http://localhost:4000/Transfusion" rel="alternate" type="text/html" title="Transfusion - Predict the Next Token and Diffuse Images with One Multi-Modal Model" />
+      <published>2024-08-20T00:00:00+03:00</published>
+      <updated>2024-08-20T00:00:00+03:00</updated>
+      <id>http://localhost:4000/Transfusion</id>
+      <content type="html" xml:base="http://localhost:4000/Transfusion">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; We introduce Transfusion, a recipe for training a multi-modal model over discrete and continuous data. Transfusion combines the language modeling loss function (next token prediction) with diffusion to train a single transformer over mixed- modality sequences. We pretrain multiple Transfusion models up to 7B parameters from scratch on a mixture of text and image data, establishing scaling laws with respect to a variety of uni- and cross-modal benchmarks. Our experiments show that Transfusion scales significantly better than quantizing images and training a language model over discrete image tokens. By introducing modality-specific en- coding and decoding layers, we can further improve the performance of Transfusion models, and even compress each image to just 16 patches. We further demonstrate that scaling our Transfusion recipe to 7B parameters and 2T multi-modal tokens produces a model that can generate images and text on a par with similar scale diffusion models and language models, reaping the benefits of both worlds.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; Chunting Zhou, Lili Yu, Arun Babu, Kushal Tirumala, Michihiro Yasunaga, Leonid Shamis, Jacob Kahn, Xuezhe Ma, Luke Zettlemoyer, Omer Levy&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/pdf/2408.11039&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">To Code, or Not To Code? Exploring Impact of Code in Pre-training</title>
+      <link href="http://localhost:4000/CodeNoCoode" rel="alternate" type="text/html" title="To Code, or Not To Code? Exploring Impact of Code in Pre-training" />
+      <published>2024-08-20T00:00:00+03:00</published>
+      <updated>2024-08-20T00:00:00+03:00</updated>
+      <id>http://localhost:4000/CodeNoCoode</id>
+      <content type="html" xml:base="http://localhost:4000/CodeNoCoode">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Including code in the pre-training data mixture, even for models not specifically designed for code, has become a common practice in LLMs pre-training. While there has been anecdotal consensus among practitioners that code data plays a vital role in general LLMs’ performance, there is only limited work analyzing the precise impact of code on non-code tasks. In this work, we system- atically investigate the impact of code data on general performance. We ask “what is the impact of code data used in pre-training on a large variety of downstream tasks beyond code generation”. We conduct extensive ablations and evaluate across a broad range of natural language reasoning tasks, world knowledge tasks, code benchmarks, and LLM-as-a-judge win-rates for models with sizes ranging from 470M to 2.8B parameters. Across settings, we find a consistent results that code is a critical building block for generalization far beyond coding tasks and improvements to code quality have an outsized impact across all tasks. In particular, compared to text-only pre-training, the ad- dition of code results in up to relative increase of 8.2% in natural language (NL) reasoning, 4.2% in world knowledge, 6.6% improvement in generative win-rates, and a 12x boost in code performance respectively. Our work suggests investments in code quality and preserving code during pre-training have positive impacts.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; CViraat Aryabumi, Yixuan Su, Raymond Ma, Adrien Morisot, Ivan Zhang, Acyr Locatelli, Marzieh Fadaee, Ahmet Üstün, and Sara Hooker1&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/pdf/2408.10914&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Automated Design of Agentic Systems</title>
@@ -345,82 +429,6 @@
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2407.13764&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">SpreadsheetLLM - Encoding Spreadsheets for Large Language Models</title>
-      <link href="http://localhost:4000/MicrosoftSpreadsheetLLM" rel="alternate" type="text/html" title="SpreadsheetLLM - Encoding Spreadsheets for Large Language Models" />
-      <published>2024-07-12T00:00:00+03:00</published>
-      <updated>2024-07-12T00:00:00+03:00</updated>
-      <id>http://localhost:4000/MicrosoftSpreadsheetLLM</id>
-      <content type="html" xml:base="http://localhost:4000/MicrosoftSpreadsheetLLM">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt;Spreadsheets, with their extensive two-dimensional grids, various layouts, and diverse formatting options, present notable challenges for large language models (LLMs). In response, we introduce SpreadsheetLLM, pioneering an efficient encoding method designed to unleash and optimize LLMs' powerful understanding and reasoning capability on spreadsheets. Initially, we propose a vanilla serialization approach that incorporates cell addresses, values, and formats. However, this approach was limited by LLMs' token constraints, making it impractical for most applications. To tackle this challenge, we develop SheetCompressor, an innovative encoding framework that compresses spreadsheets effectively for LLMs. It comprises three modules: structural-anchor-based compression, inverse index translation, and data-format-aware aggregation. It significantly improves performance in spreadsheet table detection task, outperforming the vanilla approach by 25.6% in GPT4's in-context learning setting. Moreover, fine-tuned LLM with SheetCompressor has an average compression ratio of 25 times, but achieves a state-of-the-art 78.9% F1 score, surpassing the best existing models by 12.3%. Finally, we propose Chain of Spreadsheet for downstream tasks of spreadsheet understanding and validate in a new and demanding spreadsheet QA task. We methodically leverage the inherent layout and structure of spreadsheets, demonstrating that SpreadsheetLLM is highly effective across a variety of spreadsheet tasks.&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2407.09025&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Mixture of A Million Experts</title>
-      <link href="http://localhost:4000/MixtureofAMillionExperts" rel="alternate" type="text/html" title="Mixture of A Million Experts" />
-      <published>2024-07-04T00:00:00+03:00</published>
-      <updated>2024-07-04T00:00:00+03:00</updated>
-      <id>http://localhost:4000/MixtureofAMillionExperts</id>
-      <content type="html" xml:base="http://localhost:4000/MixtureofAMillionExperts">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt;The feedforward (FFW) layers in standard transformer architectures incur a linear increase in computational costs and activation memory as the hidden layer width grows. Sparse mixture-of-experts (MoE) architectures have emerged as a viable approach to address this issue by decoupling model size from computational cost. The recent discovery of the fine-grained MoE scaling law shows that higher granularity leads to better performance. However, existing MoE models are limited to a small number of experts due to computational and optimization challenges. This paper introduces PEER (parameter efficient expert retrieval), a novel layer design that utilizes the product key technique for sparse retrieval from a vast pool of tiny experts (over a million). Experiments on language modeling tasks demonstrate that PEER layers outperform dense FFWs and coarse-grained MoEs in terms of performance-compute trade-off. By enabling efficient utilization of a massive number of experts, PEER unlocks the potential for further scaling of transformer models while maintaining computational efficiency.&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2407.04153&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       

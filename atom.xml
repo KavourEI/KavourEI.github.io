@@ -8,6 +8,36 @@
     
       
       <item>
+        <title>Transfusion - Predict the Next Token and Diffuse Images with One Multi-Modal Model</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 20 Aug 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/Transfusion</link>
+        <guid isPermaLink="true">http://localhost:4000/Transfusion</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>To Code, or Not To Code? Exploring Impact of Code in Pre-training</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 20 Aug 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/CodeNoCoode</link>
+        <guid isPermaLink="true">http://localhost:4000/CodeNoCoode</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Enhancing Music Recommendations with Transformers - A New Approach in YouTube Music</title>
         
           <description>&lt;p&gt; Google presents a &lt;a href=&quot;https://research.google/blog/transformers-in-music-recommendation/&quot;&gt;music recommendation ranking system&lt;/a&gt; that uses Transformer models to better understand the sequential nature of user actions based on the current user context. &lt;/p&gt;
