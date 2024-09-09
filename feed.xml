@@ -1,4 +1,261 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-09T09:51:15+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kavour</title><subtitle>Data Science and AI News</subtitle><entry><title type="html">In Defense of RAG in the Era of Long-Context Language Models</title><link href="http://localhost:4000/DefenceOfRAG" rel="alternate" type="text/html" title="In Defense of RAG in the Era of Long-Context Language Models" /><published>2024-09-03T00:00:00+03:00</published><updated>2024-09-03T00:00:00+03:00</updated><id>http://localhost:4000/DefenceOfRAG</id><content type="html" xml:base="http://localhost:4000/DefenceOfRAG">&lt;h2&gt; Abstract &lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-09T12:24:03+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kavour</title><subtitle>Data Science and AI News</subtitle><entry><title type="html">Multiple datasources - Route selections</title><link href="http://localhost:4000/rag3" rel="alternate" type="text/html" title="Multiple datasources - Route selections" /><published>2024-09-09T00:00:00+03:00</published><updated>2024-09-09T00:00:00+03:00</updated><id>http://localhost:4000/rag3</id><content type="html" xml:base="http://localhost:4000/rag3">&lt;p&gt; I hope you enjoy every step so far. Until this point of our Langchain/RAG journey, we have managed to build a simple local application and a querry transformation assistant. But what happens when we have multiple data sources? How to define where our application will retrieve the required information from? The definition of this process, finding the correct road, or better let's say finding the correct route, is called Routing.&lt;/p&gt;
+
+&lt;p&gt; There are many ways to give directions in real life, this applies here as well! As we can see in the following image, there are two main categories of routing. 
+
+&lt;ul&gt;
+&lt;li&gt; &lt;strong&gt;Logical Routing&lt;/strong&gt;: Let LLM choose a DB based on the question.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Semantic Routing&lt;/strong&gt;: Embed question and choose prompt based on similarity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/v2/resize:fit:1400/1*iBm4xuEwvnp9KFyH9x05cw.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; Before going though the architecture of such a RAG model for either Logical or Semantic routing, we are going to take a look at the differences accompanied with some simplier examples to understand which is best for your case case to go with.&lt;/p&gt;
+
+&lt;h3&gt; Logical Routing &lt;/h3&gt;
+
+&lt;p&gt; Routes are defined based on pre-determined rules, conditions, or algorithms. These rules are purely technical, and they don't take into account the meaning or context of the data. Logical Routing decisions are made based on factors like IP addresses, routing tables, or specific conditions that match certain criteria. It focuses on efficiently directing traffic or requests based on a logical or structural framework.&lt;/p&gt;
+
+&lt;p&gt;To put logical routing straight, imagine you’re in a city, and there are different routes based on traffic signals or road rules. These routes don't care about where you're coming from or your personal preferences, but simply about making sure traffic moves according to the road signs.
+
+&lt;ul&gt;
+&lt;li&gt; Situation: You’re driving from Point A to Point B.&lt;/li&gt;
+&lt;li&gt; Logical Rule: If a road is closed, take the next available road.&lt;/li&gt;
+&lt;li&gt; Routing Decision: You don't think about why the road is closed; you just follow the detour and proceed based on traffic rules. It's like having a GPS system giving you orders, while driving, in a city that you have never been.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h3&gt; Semantic Routing &lt;/h3&gt;
+
+&lt;p&gt;  Routes are chosen based on the meaning or context of the data being transmitted. The logical routing decisions consider the content, purpose, or relationships within the data. It uses metadata or content analysis to decide the best route for a request, often ensuring that the most relevant resources handle the data. It prioritizes meaning and relevance to ensure that the request or data is handled in the best possible way based on its content.&lt;/p&gt;
+
+&lt;p&gt; Imagine you're in a library, and someone asks where to find a book. Instead of directing them based on just shelf numbers (logical), you direct them based on their interest in the content of the book. You ask, &quot;What topic are you looking for?&quot; and route them accordingly to the right section.
+
+&lt;ul&gt;
+&lt;li&gt; Situation: You want to ask a question, but there are different people who can answer it.&lt;/li&gt;
+&lt;li&gt; Semantic Rule: If your question is about science, you’re directed to a scientist; if it's about cooking, you’re directed to a chef.&lt;/li&gt;
+&lt;li&gt; Routing Decision: The decision isn’t based on random criteria but on the meaning of your question and who’s best equipped to answer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+Based on Data/Context, Logical Routing ignores the meaning of the data and routes based on fixed rules while semantic routing analyzes the meaning and routes accordingly. Overall and while looking at the purpose, logical routing focuses on efficiency and technical structure and on the other hand, semantic routing focuses on relevance and meaningful processing.
+&lt;/p&gt;
+
+&lt;p&gt; Now that we got the main idea about what is the meaning of both, let us take a closer look to the code and how to build a system like that.&lt;/p&gt;
+
+&lt;p&gt; Initially, we need to call the modules that are going to help us accomplish our goal. I am not going to go through &lt;code&gt;.env&lt;/code&gt; file again and won't be mentioning this file again in the future. Hopefully, you got the idea behind it, why it is important and the reasons I insist on using one. If you are not so sure on what file I am referring to, please take a look at the first two notebooks of this series and follow the steps to create one. Remember &lt;code&gt;.env&lt;/code&gt; file will keep your Usernames, Passwords and Endpoint IDs safe without the need to erase them or hide them when sharing any file. So the modules we are going to use within this notebook are the following.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+import os
+from langchain_community.document_loaders import PyPDFLoader
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_community.vectorstores import Chroma
+from langchain_core.output_parsers import StrOutputParser
+from langchain import hub
+from langchain_core.runnables import RunnablePassthrough
+from langchain_openai import AzureOpenAIEmbeddings
+# from langchain.chat_models import AzureChatOpenAI
+from langchain_openai import AzureChatOpenAI
+from langchain_core.pydantic_v1 import BaseModel, Field
+from langchain_core.prompts import ChatPromptTemplate
+from typing import Literal
+from langchain.utils.math import cosine_similarity
+from langchain.prompts import PromptTemplate
+from langchain_core.runnables import RunnableLambda
+
+from dotenv import load_dotenv, dotenv_values
+load_dotenv()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As we are using LLM models we need to define embeddings so that we can communicate with the computers and we &lt;i&gt;&quot;talk&quot;&lt;/i&gt; the same language.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;embeddings = AzureOpenAIEmbeddings(
+    deployment = os.getenv('OPENAI_DEPLOYMENT_NAME'),
+    model = os.getenv('OPENAI_MODEL_NAME_EMB'),
+    azure_endpoint = os.getenv('AZURE_OPENAI_ENDPOINT'),
+    openai_api_type = os.getenv('OPENAI_API_TYPE'),
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; Apart from that, &lt;strong&gt;vectorstore&lt;/strong&gt; is essential as we need a place to store the vectors that will result from our embeddings call. Hecne, we are going to define a function call &lt;i&gt;vectorstor_gen&lt;/i&gt; in order to store the information acquired (vectors generatated) from the files one owns and what to search from.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def vectorstore_gen(file, dir):
+    loader = PyPDFLoader(file)
+    documents = loader.load()
+
+    # Split text into chunks
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500,chunk_overlap=20)
+    text_chunks = text_splitter.split_documents(documents)
+
+    vectorstore = Chroma.from_documents(documents=text_chunks,
+                                        embedding=embeddings,
+                                        persist_directory=dir)
+    vectorstore.persist()
+    return vectorstore
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; Now image you have two documents or batter let's say two different files containing documents, and you want to create two vectorstore for both of them so that our llm will be able to choose betwen then and answer to your questions. Remember that we have created a folder data in our project and there we store all the data that we want to use for our RAG projects. In this example I am going to use dummy pdf names (&lt;i&gt;A.pdf&lt;/i&gt; and &lt;i&gt;B.pdf&lt;/i&gt;) and imaging that those two files contain information/documentation about different LLM models. Feel free to replace those with two irrelevant pdf files (when it comes to topic)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+# Create a vectorestore to answer questions about topic A
+vectorstore_A = vectorstore_gen('data/A.pdf', 'data/vectorstore_A')
+# Create a vectorstore to answer questions about topic B
+vectorstore_B = vectorstore_gen('data/B.pdf', 'data/vectorstore_B')
+
+retriever_A = vectorstore_A.as_retriever(search_kwargs={'k':5})
+retriever_B = vectorstore_B.as_retriever(search_kwargs={'k':5})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; Now it is time to create the classes we are going to use to our routing models. Initially we are going to start with Logical Routing. Initially, we are going to build a class to route to the most relevant datasource accourding to the User's question. We are going to use an extention of &lt;code&gt;BaseModel&lt;/code&gt;. The &lt;code&gt;BaseModel&lt;/code&gt; class provides automatic validation parsing and serialization of data. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+class QueryRouter(BaseModel):
+    &quot;&quot;&quot;Route a user query to the appropriate datasource that will help answer the query accurately&quot;&quot;&quot;
+    datasource: Literal['A', 'B', 'general'] = Field(..., description=&quot;Given a user question choose which datasource would be most relevant for answering their question&quot;)
+    question: str = Field(..., description=&quot;User question to be routed to the appropriate datasource&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  Next we need to build and and call an LLM model that will help us build our RAG model, within which we are going to include routing stratey.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+llm = AzureChatOpenAI(
+    deployment_name = os.getenv('LLM_35_Deployment'),
+    model_name = os.getenv('LLM_35_Model'),
+    azure_endpoint = os.getenv('AZURE_OPENAI_ENDPOINT'),
+    temperature = 0
+)
+
+structured_llm = llm.with_structured_output(QueryRouter, method=&quot;function_calling&quot;, include_raw=True)
+structured_llm.invoke(&quot;Which datasource should be used for a question about general knowledge?&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now it is time to build the routing prompt that will be included in the RAG pipeline.  &lt;strong&gt;Not that&lt;/strong&gt; if the pdf files that you include are not about a topic of NLP and/or LLMs pleas read the system prompt and change it accordingly&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+router_prompt = ChatPromptTemplate.from_messages(
+    [
+        (&quot;system&quot;,
+         &quot;You are an expert router that can direct user queries to the appropriate datasource. Route the following user question about a topic in NLP and LLMs to the appropriate datasource.\nIf it is a general question not related to the provided datasources, route it to the general datasource.\n&quot;),
+        (&quot;user&quot;, &quot;{question}&quot;)
+    ]
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; Finally we are ready to create the first router pipeline for our RAG model and include everythin we have been creating so far. &lt;strong&gt;Not that&lt;/strong&gt; change the upcoming &lt;code&gt;question&lt;/code&gt; accordingly.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+router = (
+        {'question': RunnablePassthrough()}
+        | router_prompt
+        | structured_llm
+)
+question = &quot;How does the A work?&quot;
+result = router.invoke(question)
+result
+result['parsed'].datasource.lower()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; The final step is to define the a function that will choose which database should be used to answer our question, either A or B. In case you are running alongsite this project, the code chunks, and you have replaced  A and B for example, (A could be vectore similiarity and B could be KAN Model) then you could repalce A and B in the following code chunk as well in order to obtain relevant answer/result.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+qa_prompt = hub.pull('rlm/rag-prompt')
+
+def choose_route(result):
+
+    llm_route = AzureChatOpenAI(
+        deployment_name = os.getenv('LLM_35_Deployment'),
+        model_name = os.getenv('LLM_35_Model'),
+        azure_endpoint = os.getenv('AZURE_OPENAI_ENDPOINT'),
+        temperature = 0
+
+    )
+    if &quot;B&quot; in result['parsed'].datasource.lower():
+        print(f&quot;&amp;gt; Asking about B ...\nQuestion: {result['parsed'].question}\nAnswer:&quot;)
+        B_chain = (
+            {'context': retriever_B, 'question': RunnablePassthrough()}
+            | qa_prompt
+            | llm_route
+            | StrOutputParser()
+        )
+        return B_chain.invoke(result['parsed'].question)
+    elif &quot;A&quot; in result['parsed'].datasource.lower():
+        print(f&quot;&amp;gt; Asking about A ...\nQuestion: {result['parsed'].question}\nAnswer:&quot;)
+        A_chain = (
+            {'context': retriever_lora, 'question': RunnablePassthrough()}
+            | qa_prompt
+            | llm_route
+            | StrOutputParser()
+        )
+        return A_chain.invoke(result['parsed'].question)
+    else:
+        print(f&quot;&amp;gt; Asking about a general question ...\nQuestion: {result.question}\nAnswer:&quot;)
+        general_chain = llm_route | StrOutputParser()
+        return general_chain.invoke(result.question)
+
+full_chain = router | RunnableLambda(choose_route)
+full_chain.invoke(&quot;What is A?&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; That concludes our example for logical routing. Next we are going to change a bit our previous coding chunks and produce an example about semantic routing. In this example we are going to create two templates about different topics. We are going to assume that the users ask questions about physics or mathematics. Initially we need to create two templates that are going to give a character to our LLM according to the question provided.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+physical_template = &quot;&quot;&quot;
+You are a very smart physics professor. \
+You are great at answering questions about physics in a concise and easy to understand manner. \
+When you don't know the answer to a question you admit that you don't know.
+
+Here is a question:
+{question}
+&quot;&quot;&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;
+math_template = &quot;&quot;&quot;You are a very good mathematician. You are great at answering math questions. \
+You are so good because you are able to break down hard problems into their component parts, \
+answer the component parts, and then put them together to answer the broader question.
+
+Here is a question:
+{question}&quot;&quot;&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The next step is to create a list containing the character templates. We are going to create embeddings about those routes in order to calculate the similarity with the question provided by the user. Remember that semantic routing checks the similarity of the meaning after all. The choice of the database that the RAG will provide the answer from is not defined by rules as the previous case.&amp;lt;/p&amp;gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+routes = [physical_template, math_template]
+route_embeddings = embeddings.embed_documents(routes)
+len(route_embeddings)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now we can proceed to the definition of a function that according to the topic of the question that was provided, LLM will answer the question with a routing strategy to either physics or mathematics experties.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+def router(input):
+    # Generate embeddings for the user query
+    query_embedding = embeddings.embed_query(input['question'])
+    # Getting similarity scores between the user query and the routes. This contains the similarity scores between the user query and each of the two routes.
+    similarity = cosine_similarity([query_embedding], route_embeddings)[0]
+    # Find the route that gives the maximum similarity score
+    route_id = similarity.argmax()
+    if route_id == 0:
+        print(f&quot;&amp;gt; Asking a physics question ...\nQuestion: {input['question']}\nAnswer:&quot;)
+    else:
+        print(f&quot;&amp;gt; Asking a math question ...\nQuestion: {input['question']}\nAnswer:&quot;)
+
+    return PromptTemplate.from_template(routes[route_id])
+
+semantic_router_chain = (
+    {'question': RunnablePassthrough()}
+    | RunnableLambda(router)
+    | llm
+    | StrOutputParser
+)
+
+semantic_router_chain.invoke(&quot;What is the formula for the area of a circle?&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; I hope you enjoyed this session as much as I did and a learned a thing or two. I wish that you kept a code chunk and will use it later on, on your own projects. Stay tuned for the next topic that we are going to take a look at this LangChain series&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt; Be safe, code safer!&lt;/i&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="project" /><summary type="html">I hope you enjoy every step so far. Until this point of our Langchain/RAG journey, we have managed to build a simple local application and a querry transformation assistant. But what happens when we have multiple data sources? How to define where our application will retrieve the required information from? The definition of this process, finding the correct road, or better let's say finding the correct route, is called Routing.</summary></entry><entry><title type="html">In Defense of RAG in the Era of Long-Context Language Models</title><link href="http://localhost:4000/DefenceOfRAG" rel="alternate" type="text/html" title="In Defense of RAG in the Era of Long-Context Language Models" /><published>2024-09-03T00:00:00+03:00</published><updated>2024-09-03T00:00:00+03:00</updated><id>http://localhost:4000/DefenceOfRAG</id><content type="html" xml:base="http://localhost:4000/DefenceOfRAG">&lt;h2&gt; Abstract &lt;/h2&gt;
 
 &lt;p&gt; Overcoming the limited context limitations in early-generation LLMs, retrieval-augmented generation (RAG) has been a reliable solution for context-based answer generation in the past. Recently, the emergence of long-context LLMs allows the models to incorporate much longer text sequences, making RAG less attractive. Recent studies show that long-context LLMs significantly outperform RAG in long-context applications. Unlike the existing works favoring the long-context LLM over RAG, we argue that the extremely long context in LLMs suffers from a diminished focus on relevant information and leads to potential degradation in answer quality. This paper revisits the RAG in long-context answer generation. We propose an order-preserve retrieval-augmented generation (OP-RAG) mechanism, which significantly improves the performance of RAG for long-context question-answer applications. With OP-RAG, as the number of retrieved chunks increases, the answer quality initially rises, and then declines, forming an inverted U-shaped curve. There exist sweet points where OP-RAG could achieve higher answer quality with much less tokens than long-context LLM taking the whole context as input. Extensive experiments on public benchmark demonstrate the superiority of our OP-RAG.&lt;/p&gt;
 
@@ -196,18 +453,4 @@
 
 &lt;p&gt; This advancement highlights NVIDIA’s commitment to pushing the boundaries of AI model efficiency, making powerful AI more accessible and cost-effective.&lt;/p&gt;
 
-&lt;p&gt; To read full report, in the official NVDIA Developer blog, click &lt;a href=&quot;https://developer.nvidia.com/blog/mistral-nemo-minitron-8b-foundation-model-delivers-unparalleled-accuracy/?ncid=ref-inor-390349/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">NVIDIA and Mistral AI have introduced the Mistral-NeMo-Minitron 8B model, an advanced large language model (LLM) that delivers exceptional accuracy across nine popular benchmarks. This model is a pruned and distilled version of the Mistral NeMo 12B, maintaining high performance while being significantly more efficient.</summary></entry><entry><title type="html">Enhancing retrieval augmented generation through drafting</title><link href="http://localhost:4000/SpeculativeRAGGoogle" rel="alternate" type="text/html" title="Enhancing retrieval augmented generation through drafting" /><published>2024-08-21T00:00:00+03:00</published><updated>2024-08-21T00:00:00+03:00</updated><id>http://localhost:4000/SpeculativeRAGGoogle</id><content type="html" xml:base="http://localhost:4000/SpeculativeRAGGoogle">&lt;p&gt; In the evolving landscape of AI, large language models (LLMs) have become essential for generating human-like text. However, these models often struggle with accuracy, particularly when tasked with answering complex, knowledge-intensive questions. This challenge has given rise to Retrieval Augmented Generation (RAG) systems, which combine LLMs with external knowledge retrieval to improve the factual accuracy of responses. While RAG enhances accuracy, it comes with trade-offs in efficiency, especially when dealing with large amounts of retrieved data that require complex reasoning.&lt;/p&gt;
-
-&lt;p&gt;To address this, a novel framework called &lt;strong&gt;Speculative RAG&lt;/strong&gt; has been introduced. This approach optimizes the balance between accuracy and efficiency by leveraging a two-step process: drafting and verification. The process begins with a smaller, specialized LLM—referred to as the &lt;i&gt;RAG drafter&lt;/i&gt;—that generates multiple draft responses based on retrieved documents. These drafts are then fed into a larger, &lt;i&gt;generalist LLM&lt;/i&gt;—acting as the verifier—to select the most accurate and contextually appropriate response.&lt;/p&gt;
-
-&lt;p&gt;Speculative RAG employs a technique known as speculative decoding, which speeds up the inference process by allowing the specialist LLM to generate multiple drafts simultaneously. This method not only reduces the computational load on the larger LLM but also ensures that the final output is both accurate and efficient.&lt;/p&gt;
-
-&lt;p&gt;For instance, when asked a question like &quot;Which actress starred as Doralee Rhodes in the 1980 film Nine to Five?&quot;, the RAG system retrieves relevant documents from its knowledge base. The specialist drafter quickly generates several possible answers, each backed by its rationale. The generalist verifier then assesses these drafts, filtering out any inaccuracies—such as information mistakenly drawn from a related but incorrect source, like the Nine to Five musical—and selects the correct answer.&lt;/p&gt;
-
-&lt;p&gt;The effectiveness of Speculative RAG is demonstrated through rigorous benchmarking against standard RAG systems across datasets such as &lt;a href=&quot;https://aclanthology.org/P17-1147/&quot;&gt;TriviaQA&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/abs/2108.00573&quot;&gt;MuSiQue&lt;/a&gt;, &lt;a href=&quot;https://github.com/neemakot/Health-Fact-Checking&quot;&gt;PubHealth&lt;/a&gt;, and &lt;a href=&quot;https://allenai.org/data/arc&quot;&gt;ARC-Challenge&lt;/a&gt;. Results show that Speculative RAG not only achieves higher accuracy—outperforming traditional methods by up to 12.97% on some datasets—but also significantly reduces latency, cutting response times by as much as 51%. This dual improvement in both speed and accuracy represents a significant leap forward in the performance of RAG systems.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/gweb-research2023-media/images/Speculative_RAG_img2.width-800.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The success of Speculative RAG underscores the potential of collaborative AI architectures, where tasks are intelligently divided between specialized and generalist models. By offloading specific tasks to models optimized for those functions, Speculative RAG provides a robust framework for enhancing the quality of AI-generated content while maintaining efficiency. As AI continues to evolve, such innovations will be crucial in developing systems that are not only powerful but also reliable and quick, paving the way for more sophisticated and responsive AI applications.&lt;/p&gt;
-
-&lt;p&gt; You can read Google's research full blog post &lt;a href=&quot;https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/&quot;&gt;here&lt;/a&gt; or you can check our the &lt;a href=&quot;https://arxiv.org/pdf/2407.08223&quot;&gt;official paper&lt;/a&gt; published related to the topic.&lt;/p&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">In the evolving landscape of AI, large language models (LLMs) have become essential for generating human-like text. However, these models often struggle with accuracy, particularly when tasked with answering complex, knowledge-intensive questions. This challenge has given rise to Retrieval Augmented Generation (RAG) systems, which combine LLMs with external knowledge retrieval to improve the factual accuracy of responses. While RAG enhances accuracy, it comes with trade-offs in efficiency, especially when dealing with large amounts of retrieved data that require complex reasoning.</summary></entry></feed>
+&lt;p&gt; To read full report, in the official NVDIA Developer blog, click &lt;a href=&quot;https://developer.nvidia.com/blog/mistral-nemo-minitron-8b-foundation-model-delivers-unparalleled-accuracy/?ncid=ref-inor-390349/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">NVIDIA and Mistral AI have introduced the Mistral-NeMo-Minitron 8B model, an advanced large language model (LLM) that delivers exceptional accuracy across nine popular benchmarks. This model is a pruned and distilled version of the Mistral NeMo 12B, maintaining high performance while being significantly more efficient.</summary></entry></feed>
