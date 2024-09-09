@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-09-01T11:45:13+03:00</updated>
+  <updated>2024-09-09T09:51:15+03:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -44,6 +44,174 @@
   
   
 
+  
+    <entry>
+      <title type="html">OLMoE-Open Mixture of Experts Language Models</title>
+      <link href="http://localhost:4000/OLMoE" rel="alternate" type="text/html" title="OLMoE-Open Mixture of Experts Language Models" />
+      <published>2024-09-03T00:00:00+03:00</published>
+      <updated>2024-09-03T00:00:00+03:00</updated>
+      <id>http://localhost:4000/OLMoE</id>
+      <content type="html" xml:base="http://localhost:4000/OLMoE">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; We introduce OLMoE, a fully open, state-of-the-art language model leveraging sparse Mixture-of-Experts (MoE). OLMoE-1B-7B has 7 billion (B) parameters but uses only 1B per input token. We pretrain it on 5 trillion tokens and further adapt it to create OLMoE-1B-7B-Instruct. Our models outperform all available models with similar active parameters, even surpassing larger ones like Llama2-13B-Chat and DeepSeekMoE-16B. We present various experiments on MoE training, analyze routing in our model showing high specialization, and open-source all aspects of our work: model weights, training data, code, and logs.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Muennighoff,+N&quot;&gt;Niklas Muennighoff&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Soldaini,+L&quot;&gt;Luca Soldaini&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Groeneveld,+D&quot;&gt;Dirk Groeneveld&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lo,+K&quot;&gt;Kyle Lo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Morrison,+J&quot;&gt;Jacob Morrison&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Min,+S&quot;&gt;Sewon Min&lt;/a&gt;,  &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shi,+W&quot;&gt;Weijia Shi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Walsh,+P&quot;&gt;Pete Walsh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tafjord,+O&quot;&gt;Oyvind Tafjord&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lambert,+N&quot;&gt;Nathan Lambert&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Gu,+Y&quot;&gt;Yuling Gu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Arora,+S&quot;&gt;Shane Arora&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Bhagia,+A&quot;&gt;Akshita Bhagia&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Schwenk,+D&quot;&gt;Dustin Schwenk&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wadden,+D&quot;&gt;David Wadden&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wettig,+A&quot;&gt;Alexander Wettig&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hui,+B&quot;&gt;Binyuan Hui&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dettmers,+T&quot;&gt;Tim Dettmers&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Kiela,+D&quot;&gt;Douwe Kiela&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Farhadi,+A&quot;&gt;Ali Farhadi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Smith,+N+A&quot;&gt;Noah A. Smith&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Koh,+P+W&quot;&gt;Pang Wei Koh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Singh,+A&quot;&gt;Amanpreet Singh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hajishirzi,+H&quot;&gt;Hannaneh Hajishirzi&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.02060&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">In Defense of RAG in the Era of Long-Context Language Models</title>
+      <link href="http://localhost:4000/DefenceOfRAG" rel="alternate" type="text/html" title="In Defense of RAG in the Era of Long-Context Language Models" />
+      <published>2024-09-03T00:00:00+03:00</published>
+      <updated>2024-09-03T00:00:00+03:00</updated>
+      <id>http://localhost:4000/DefenceOfRAG</id>
+      <content type="html" xml:base="http://localhost:4000/DefenceOfRAG">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Overcoming the limited context limitations in early-generation LLMs, retrieval-augmented generation (RAG) has been a reliable solution for context-based answer generation in the past. Recently, the emergence of long-context LLMs allows the models to incorporate much longer text sequences, making RAG less attractive. Recent studies show that long-context LLMs significantly outperform RAG in long-context applications. Unlike the existing works favoring the long-context LLM over RAG, we argue that the extremely long context in LLMs suffers from a diminished focus on relevant information and leads to potential degradation in answer quality. This paper revisits the RAG in long-context answer generation. We propose an order-preserve retrieval-augmented generation (OP-RAG) mechanism, which significantly improves the performance of RAG for long-context question-answer applications. With OP-RAG, as the number of retrieved chunks increases, the answer quality initially rises, and then declines, forming an inverted U-shaped curve. There exist sweet points where OP-RAG could achieve higher answer quality with much less tokens than long-context LLM taking the whole context as input. Extensive experiments on public benchmark demonstrate the superiority of our OP-RAG.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Akkiraju,+R&quot;&gt;Rama Akkiraju&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yu,+T&quot;&gt;Tan Yu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+A&quot;&gt;Anbang Xu&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.01666&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">FLUX that Plays Music</title>
+      <link href="http://localhost:4000/FLUXthatPlaysMusic" rel="alternate" type="text/html" title="FLUX that Plays Music" />
+      <published>2024-09-01T00:00:00+03:00</published>
+      <updated>2024-09-01T00:00:00+03:00</updated>
+      <id>http://localhost:4000/FLUXthatPlaysMusic</id>
+      <content type="html" xml:base="http://localhost:4000/FLUXthatPlaysMusic">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; This paper explores a simple extension of diffusion-based rectified flow Transformers for text-to-music generation, termed as FluxMusic. Generally, along with design in advanced Flux\footnote{this https URL} model, we transfers it into a latent VAE space of mel-spectrum. It involves first applying a sequence of independent attention to the double text-music stream, followed by a stacked single music stream for denoised patch prediction. We employ multiple pre-trained text encoders to sufficiently capture caption semantic information as well as inference flexibility. In between, coarse textual information, in conjunction with time step embeddings, is utilized in a modulation mechanism, while fine-grained textual details are concatenated with the music patch sequence as inputs. Through an in-depth study, we demonstrate that rectified flow training with an optimized architecture significantly outperforms established diffusion methods for the text-to-music task, as evidenced by various automatic metrics and human preference evaluations. Our experimental data, code, and model weights are made publicly available at: &lt;a href=&quot;https://github.com/feizc/FluxMusic&quot;&gt;this URL&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fei,+Z&quot;&gt;Zhengcong Fei&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fan,+M&quot;&gt;Mingyuan Fan&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yu,+C&quot;&gt;Changqian Yu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Huang,+J&quot;&gt;Junshi Huang&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.00587&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Diffusion Models Are Real-Time Game Engines</title>
+      <link href="http://localhost:4000/DiffusionModels" rel="alternate" type="text/html" title="Diffusion Models Are Real-Time Game Engines" />
+      <published>2024-08-27T00:00:00+03:00</published>
+      <updated>2024-08-27T00:00:00+03:00</updated>
+      <id>http://localhost:4000/DiffusionModels</id>
+      <content type="html" xml:base="http://localhost:4000/DiffusionModels">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; We present GameNGen, the first game engine powered entirely by a neural model that enables real-time interaction with a complex environment over long trajectories at high quality. GameNGen can interactively simulate the classic game DOOM at over 20 frames per second on a single TPU. Next frame prediction achieves a PSNR of 29.4, comparable to lossy JPEG compression. Human raters are only slightly better than random chance at distinguishing short clips of the game from clips of the simulation. GameNGen is trained in two phases: (1) an RL-agent learns to play the game and the training sessions are recorded, and (2) a diffusion model is trained to produce the next frame, conditioned on the sequence of past frames and actions. Conditioning augmentations enable stable auto-regressive generation over long trajectories.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Valevski,+D&quot;&gt;Dani Valevski&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Leviathan,+Y&quot;&gt;Yaniv Leviathan&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Arar,+M&quot;&gt;Moab Arar&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fruchter,+S&quot;&gt;Shlomi Fruchter&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2408.14837&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Automating Thought of Search - A Journey Towards Soundness and Completeness</title>
@@ -271,166 +439,6 @@ In this work, we automate ToS (AutoToS), completely tak- ing the human out of th
 &lt;p&gt;&lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cho,+A&quot;&gt;Aeree Cho&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Kim,+G+C&quot;&gt;Grace C. Kim&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Karpekov,+A&quot;&gt;Alexander Karpekov&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Helbling,+A&quot;&gt;Alec Helbling&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+Z+J&quot;&gt;Zijie J. Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lee,+S&quot;&gt;Seongmin Lee&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hoover,+B&quot;&gt;Benjamin Hoover&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chau,+D+H&quot;&gt;Duen Horng Chau&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2408.04619&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters</title>
-      <link href="http://localhost:4000/ScallingLLMTest" rel="alternate" type="text/html" title="Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters" />
-      <published>2024-08-06T00:00:00+03:00</published>
-      <updated>2024-08-06T00:00:00+03:00</updated>
-      <id>http://localhost:4000/ScallingLLMTest</id>
-      <content type="html" xml:base="http://localhost:4000/ScallingLLMTest">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Enabling LLMs to improve their outputs by using more test-time computation is a critical step towards building generally self-improving agents that can operate on open-ended natural language. In this paper, we study the scaling of inference-time computation in LLMs, with a focus on answering the question: if an LLM is allowed to use a fixed but non-trivial amount of inference-time compute, how much can it improve its performance on a challenging prompt? Answering this question has implications not only on the achievable performance of LLMs, but also on the future of LLM pretraining and how one should tradeoff inference-time and pre-training compute. Despite its importance, little research attempted to understand the scaling behaviors of various test-time inference methods. Moreover, current work largely provides negative results for a number of these strategies. In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) updating the model's distribution over a response adaptively, given the prompt at test time. We find that in both cases, the effectiveness of different approaches to scaling test-time compute critically varies depending on the difficulty of the prompt. This observation motivates applying a &quot;compute-optimal&quot; scaling strategy, which acts to most effectively allocate test-time compute adaptively per prompt. Using this compute-optimal strategy, we can improve the efficiency of test-time compute scaling by more than 4x compared to a best-of-N baseline. Additionally, in a FLOPs-matched evaluation, we find that on problems where a smaller base model attains somewhat non-trivial success rates, test-time compute can be used to outperform a 14x larger model.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Snell,+C&quot;&gt;Charlie Snell&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lee,+J&quot;&gt;Jaehoon Lee, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+K&quot;&gt;Kelvin Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Kumar,+A&quot;&gt;Aviral Kumar&lt;/a&gt;&amp;lt;/p&amp;gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2408.03314&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Apple Intelligence Foundation Language Models</title>
-      <link href="http://localhost:4000/AppleIntelligenceFoundationLanguageModels" rel="alternate" type="text/html" title="Apple Intelligence Foundation Language Models" />
-      <published>2024-07-29T00:00:00+03:00</published>
-      <updated>2024-07-29T00:00:00+03:00</updated>
-      <id>http://localhost:4000/AppleIntelligenceFoundationLanguageModels</id>
-      <content type="html" xml:base="http://localhost:4000/AppleIntelligenceFoundationLanguageModels">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; We present foundation language models developed to power Apple Intelligence features, including a ~3 billion parameter model designed to run efficiently on devices and a large server-based language model designed for Private Cloud Compute. These models are designed to perform a wide range of tasks efficiently, accurately, and responsibly. This report describes the model architecture, the data used to train the model, the training process, how the models are optimized for inference, and the evaluation results. We highlight our focus on Responsible AI and how the principles are applied throughout the model development.&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2407.21075&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">KAN or MLP - A Fairer Comparison</title>
-      <link href="http://localhost:4000/KANorMLP" rel="alternate" type="text/html" title="KAN or MLP - A Fairer Comparison" />
-      <published>2024-07-23T00:00:00+03:00</published>
-      <updated>2024-07-23T00:00:00+03:00</updated>
-      <id>http://localhost:4000/KANorMLP</id>
-      <content type="html" xml:base="http://localhost:4000/KANorMLP">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; This paper does not introduce a novel method. Instead, it offers a fairer and more comprehensive comparison of KAN and MLP models across various tasks, including machine learning, computer vision, audio processing, natural language processing, and symbolic formula representation. Specifically, we control the number of parameters and FLOPs to compare the performance of KAN and MLP. Our main observation is that, except for symbolic formula representation tasks, MLP generally outperforms KAN. We also conduct ablation studies on KAN and find that its advantage in symbolic formula representation mainly stems from its B-spline activation function. When B-spline is applied to MLP, performance in symbolic formula representation significantly improves, surpassing or matching that of KAN. However, in other tasks where MLP already excels over KAN, B-spline does not substantially enhance MLP's performance. Furthermore, we find that KAN's forgetting issue is more severe than that of MLP in a standard class-incremental continual learning setting, which differs from the findings reported in the KAN paper. We hope these results provide insights for future research on KAN and other MLP alternatives.&lt;/p&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://github.com/yu-rp/KANbeFair&quot;&gt; Project page &lt;/a&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2407.16674&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Stretching Each Dollar- Diffusion Training from Scratch on a Micro-Budget</title>
-      <link href="http://localhost:4000/DiffusionTrainingfromScratch" rel="alternate" type="text/html" title="Stretching Each Dollar- Diffusion Training from Scratch on a Micro-Budget" />
-      <published>2024-07-22T00:00:00+03:00</published>
-      <updated>2024-07-22T00:00:00+03:00</updated>
-      <id>http://localhost:4000/DiffusionTrainingfromScratch</id>
-      <content type="html" xml:base="http://localhost:4000/DiffusionTrainingfromScratch">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt;As scaling laws in generative AI push performance, they also simultaneously concentrate the development of these models among actors with large computational resources. With a focus on text-to-image (T2I) generative models, we aim to address this bottleneck by demonstrating very low-cost training of large-scale T2I diffusion transformer models. As the computational cost of transformers increases with the number of patches in each image, we propose to randomly mask up to 75% of the image patches during training. We propose a deferred masking strategy that preprocesses all patches using a patch-mixer before masking, thus significantly reducing the performance degradation with masking, making it superior to model downscaling in reducing computational cost. We also incorporate the latest improvements in transformer architecture, such as the use of mixture-of-experts layers, to improve performance and further identify the critical benefit of using synthetic images in micro-budget training. Finally, using only 37M publicly available real and synthetic images, we train a 1.16 billion parameter sparse transformer with only $1,890 economical cost and achieve a 12.7 FID in zero-shot generation on the COCO dataset. Notably, our model achieves competitive FID and high-quality generations while incurring 118× lower cost than stable diffusion models and 14× lower cost than the current state-of-the-art approach that costs $28,400. We aim to release our end-to-end training pipeline to further democratize the training of large-scale diffusion models on micro-budgets.&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2407.15811&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       

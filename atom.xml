@@ -8,6 +8,81 @@
     
       
       <item>
+        <title>OLMoE-Open Mixture of Experts Language Models</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 03 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/OLMoE</link>
+        <guid isPermaLink="true">http://localhost:4000/OLMoE</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>In Defense of RAG in the Era of Long-Context Language Models</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 03 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/DefenceOfRAG</link>
+        <guid isPermaLink="true">http://localhost:4000/DefenceOfRAG</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>FLUX that Plays Music</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 01 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/FLUXthatPlaysMusic</link>
+        <guid isPermaLink="true">http://localhost:4000/FLUXthatPlaysMusic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Diffusion Models Are Real-Time Game Engines</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 27 Aug 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/DiffusionModels</link>
+        <guid isPermaLink="true">http://localhost:4000/DiffusionModels</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing LLaVA V1.5 7B on GroqCloud</title>
+        
+          <description>&lt;p&gt;Introducing LLaVA v1.5 7B: The Next Level of Multimodal AI on GroqCloud&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 27 Aug 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/GroqLlava</link>
+        <guid isPermaLink="true">http://localhost:4000/GroqLlava</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Introducing Cerebras Inference - AI at Instant Speed</title>
         
           <description>&lt;p&gt; Cerebras has unveiled its new AI inference solution, claiming it to be the fastest in the world, outpacing NVIDIA GPU-based clouds by 20 times and delivering industry-leading cost efficiency.&lt;/p&gt;
@@ -38,6 +113,66 @@
     
       
       <item>
+        <title>The Jamba 1.5 Open Model Family-The Most Powerful and Efficient Long Context Models</title>
+        
+          <description>&lt;p&gt; AI21 Labs has introduced the Jamba 1.5 family of models, designed to revolutionize enterprise-level AI with unmatched speed, efficiency, and quality. The models, Jamba 1.5 Mini and Jamba 1.5 Large, are built on the novel SSM-Transformer architecture, providing a massive 256K context window— the longest among open models—along with superior long-context handling and rapid processing speeds. The Jamba models are particularly suited for enterprise applications like document analysis and Retrieval Augmented Generation (RAG), excelling in both quality and cost efficiency.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 22 Aug 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/JambaFamilyModels</link>
+        <guid isPermaLink="true">http://localhost:4000/JambaFamilyModels</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Enhancing retrieval augmented generation through drafting</title>
+        
+          <description>&lt;p&gt; In the evolving landscape of AI, large language models (LLMs) have become essential for generating human-like text. However, these models often struggle with accuracy, particularly when tasked with answering complex, knowledge-intensive questions. This challenge has given rise to Retrieval Augmented Generation (RAG) systems, which combine LLMs with external knowledge retrieval to improve the factual accuracy of responses. While RAG enhances accuracy, it comes with trade-offs in efficiency, especially when dealing with large amounts of retrieved data that require complex reasoning.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 21 Aug 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/SpeculativeRAGGoogle</link>
+        <guid isPermaLink="true">http://localhost:4000/SpeculativeRAGGoogle</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>NVIDIA and Mistral AI's Mistral-NeMo-Minitron 8B Model-A Leap Forward in LLM Efficiency</title>
+        
+          <description>&lt;p&gt; NVIDIA and Mistral AI have introduced the Mistral-NeMo-Minitron 8B model, an advanced large language model (LLM) that delivers exceptional accuracy across nine popular benchmarks. This model is a pruned and distilled version of the Mistral NeMo 12B, maintaining high performance while being significantly more efficient.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 21 Aug 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/NvidiaMistalNemoMinitron</link>
+        <guid isPermaLink="true">http://localhost:4000/NvidiaMistalNemoMinitron</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Automating Thought of Search - A Journey Towards Soundness and Completeness</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 20 Aug 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/AutoThoughofSearch</link>
+        <guid isPermaLink="true">http://localhost:4000/AutoThoughofSearch</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Transfusion - Predict the Next Token and Diffuse Images with One Multi-Modal Model</title>
         
           <description>&lt;h2&gt; Abstract &lt;/h2&gt;
@@ -63,6 +198,21 @@
         <link>
         http://localhost:4000/CodeNoCoode</link>
         <guid isPermaLink="true">http://localhost:4000/CodeNoCoode</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Unlocking GPT-4o Fine-Tuning-A New Era for Custom AI Models</title>
+        
+          <description>&lt;p&gt; Today marks a significant milestone for developers as GPT-4o, a highly anticipated AI model, opens up for fine-tuning. This feature allows developers to tailor GPT-4o for specific tasks, offering enhanced performance and cost efficiency. Whether it's coding assistance or creative content generation, fine-tuning can drastically improve results with minimal data.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 20 Aug 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/FineTunegpt4o</link>
+        <guid isPermaLink="true">http://localhost:4000/FineTunegpt4o</guid>
       </item>
       
     
@@ -228,6 +378,21 @@
         <link>
         http://localhost:4000/ScallingLLMTest</link>
         <guid isPermaLink="true">http://localhost:4000/ScallingLLMTest</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing GitHub Models</title>
+        
+          <description>&lt;p&gt;The rise of the AI engineer with GitHub Models–bringing the power of industry leading large and small language models to GitHub's more than 100 million users directly on GitHub.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 02 Aug 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/GithubModels</link>
+        <guid isPermaLink="true">http://localhost:4000/GithubModels</guid>
       </item>
       
     
