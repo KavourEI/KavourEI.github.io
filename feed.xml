@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-09T12:24:03+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kavour</title><subtitle>Data Science and AI News</subtitle><entry><title type="html">Multiple datasources - Route selections</title><link href="http://localhost:4000/rag3" rel="alternate" type="text/html" title="Multiple datasources - Route selections" /><published>2024-09-09T00:00:00+03:00</published><updated>2024-09-09T00:00:00+03:00</updated><id>http://localhost:4000/rag3</id><content type="html" xml:base="http://localhost:4000/rag3">&lt;p&gt; I hope you enjoy every step so far. Until this point of our Langchain/RAG journey, we have managed to build a simple local application and a querry transformation assistant. But what happens when we have multiple data sources? How to define where our application will retrieve the required information from? The definition of this process, finding the correct road, or better let's say finding the correct route, is called Routing.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-11T14:36:21+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kavour</title><subtitle>Data Science and AI News</subtitle><entry><title type="html">Multiple datasources - Route selections</title><link href="http://localhost:4000/rag3" rel="alternate" type="text/html" title="Multiple datasources - Route selections" /><published>2024-09-09T00:00:00+03:00</published><updated>2024-09-09T00:00:00+03:00</updated><id>http://localhost:4000/rag3</id><content type="html" xml:base="http://localhost:4000/rag3">&lt;p&gt; I hope you enjoy every step so far. Until this point of our Langchain/RAG journey, we have managed to build a simple local application and a querry transformation assistant. But what happens when we have multiple data sources? How to define where our application will retrieve the required information from? The definition of this process, finding the correct road, or better let's say finding the correct route, is called Routing.&lt;/p&gt;
 
 &lt;p&gt; There are many ways to give directions in real life, this applies here as well! As we can see in the following image, there are two main categories of routing. 
 
@@ -255,15 +255,109 @@ semantic_router_chain.invoke(&quot;What is the formula for the area of a circle?
 
 &lt;p&gt; I hope you enjoyed this session as much as I did and a learned a thing or two. I wish that you kept a code chunk and will use it later on, on your own projects. Stay tuned for the next topic that we are going to take a look at this LangChain series&lt;/p&gt;
 
-&lt;p&gt;&lt;i&gt; Be safe, code safer!&lt;/i&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="project" /><summary type="html">I hope you enjoy every step so far. Until this point of our Langchain/RAG journey, we have managed to build a simple local application and a querry transformation assistant. But what happens when we have multiple data sources? How to define where our application will retrieve the required information from? The definition of this process, finding the correct road, or better let's say finding the correct route, is called Routing.</summary></entry><entry><title type="html">In Defense of RAG in the Era of Long-Context Language Models</title><link href="http://localhost:4000/DefenceOfRAG" rel="alternate" type="text/html" title="In Defense of RAG in the Era of Long-Context Language Models" /><published>2024-09-03T00:00:00+03:00</published><updated>2024-09-03T00:00:00+03:00</updated><id>http://localhost:4000/DefenceOfRAG</id><content type="html" xml:base="http://localhost:4000/DefenceOfRAG">&lt;h2&gt; Abstract &lt;/h2&gt;
+&lt;p&gt;&lt;i&gt; Be safe, code safer!&lt;/i&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="project" /><summary type="html">I hope you enjoy every step so far. Until this point of our Langchain/RAG journey, we have managed to build a simple local application and a querry transformation assistant. But what happens when we have multiple data sources? How to define where our application will retrieve the required information from? The definition of this process, finding the correct road, or better let's say finding the correct route, is called Routing.</summary></entry><entry><title type="html">Google’s Illuminate - Transforming Academic Papers into AI-Generated Podcasts</title><link href="http://localhost:4000/GoogleIllumnate" rel="alternate" type="text/html" title="Google’s Illuminate - Transforming Academic Papers into AI-Generated Podcasts" /><published>2024-09-09T00:00:00+03:00</published><updated>2024-09-09T00:00:00+03:00</updated><id>http://localhost:4000/GoogleIllumnate</id><content type="html" xml:base="http://localhost:4000/GoogleIllumnate">&lt;p&gt;Google Labs has a long tradition of inviting users to explore innovative technologies, with notable successes like Gmail, which began as an exclusive beta. Now, Google is unveiling Illuminate, a groundbreaking project that transforms academic papers into AI-generated audio discussions, styled like an NPR podcast. The concept is straightforward but powerful: Google's large language model, Gemini, creates a concise summary of a research paper and follows it up with a Q&amp;amp;A session. These are voiced by two AI-generated personas—a male interviewer and a female expert—who guide listeners through a brief, engaging conversation about the paper’s key points.
 
-&lt;p&gt; Overcoming the limited context limitations in early-generation LLMs, retrieval-augmented generation (RAG) has been a reliable solution for context-based answer generation in the past. Recently, the emergence of long-context LLMs allows the models to incorporate much longer text sequences, making RAG less attractive. Recent studies show that long-context LLMs significantly outperform RAG in long-context applications. Unlike the existing works favoring the long-context LLM over RAG, we argue that the extremely long context in LLMs suffers from a diminished focus on relevant information and leads to potential degradation in answer quality. This paper revisits the RAG in long-context answer generation. We propose an order-preserve retrieval-augmented generation (OP-RAG) mechanism, which significantly improves the performance of RAG for long-context question-answer applications. With OP-RAG, as the number of retrieved chunks increases, the answer quality initially rises, and then declines, forming an inverted U-shaped curve. There exist sweet points where OP-RAG could achieve higher answer quality with much less tokens than long-context LLM taking the whole context as input. Extensive experiments on public benchmark demonstrate the superiority of our OP-RAG.&lt;/p&gt;
+What makes Illuminate especially valuable is its potential to make academic content more accessible and convenient. With this service, you can listen to insightful summaries of research papers while you're on the go—whether you're working out, commuting, or simply multitasking. The platform could also easily be adapted for other types of audio narration, extending its utility to a wide range of subjects and industries. Currently in private beta, Illuminate allows you to join the waitlist if you’re interested in early access and testing out this exciting new tool. You can check out samples on the Google Illuminate website to see its potential firsthand.&lt;/p&gt;
+
+&lt;p&gt;Google Labs has always been at the forefront of innovation, frequently inviting users to explore groundbreaking tech. Remember Gmail? It started as a private beta before revolutionizing how we manage email. Today, Google is back with another fascinating project, &lt;strong&gt;Illuminate&lt;/strong&gt;. This new initiative takes a fresh approach to academic research, turning complex papers into digestible, AI-generated audio discussions styled after popular NPR podcasts.&lt;/p&gt;
+
+&lt;p&gt;So, what exactly is Illuminate, and why is it worth your attention?&lt;/p&gt;
+
+&lt;h3&gt;The Power Behind Illuminate&lt;/h3&gt;
+
+&lt;p&gt; At the heart of Illuminate lies Google’s large language model, Gemini, which does the heavy lifting. Here’s how it works: Gemini generates a concise summary of an academic paper and pairs it with a Q&amp;amp;A session. Two AI-generated voices—a male interviewer and a female expert—then present the content in the form of an engaging, short interview. Imagine being guided through the highlights of a research paper as if you were listening to a lively radio discussion.&lt;/p&gt;
+
+&lt;h3&gt; Why Is This So Useful?&lt;/h3&gt;
+
+&lt;p&gt; For anyone who regularly dives into research papers, you know the grind. The sheer volume of academic literature can be overwhelming, and finding the time to sit down and read every paper in full is often a challenge. This is where Illuminate shines. It offers a new way to stay informed by converting these dense academic texts into easily consumable audio discussions. Picture yourself catching up on the latest research while driving to work, hitting the gym, or even while doing chores around the house. It’s multitasking made smarter.&lt;/p&gt;
+
+&lt;p&gt; Illuminate isn’t just limited to academic papers either. The platform’s potential extends far beyond that, with the ability to adapt to other forms of narration. Whether for educational content, business reports, or any document-heavy field, this kind of AI-generated podcasting could become a versatile tool for delivering information in a more accessible and engaging format.&lt;/p&gt;
+
+&lt;h3&gt; A Glimpse Into the Future&lt;/h3&gt;
+
+&lt;p&gt;Illuminate is still in its early stages, currently available as a private beta. Google is letting select users test the waters while they continue refining the service. If you’re eager to see what the future of academic content consumption could look like, you can join the waitlist for access.&lt;/p&gt;
+
+&lt;p&gt;Curious to experience it for yourself? You can check out some sample audio discussions on the &lt;a href=&quot;https://illuminate.google.com/home?pli=1&quot;&gt;Google Illuminate&lt;/a&gt; website. Whether you’re an academic researcher, a student, or just someone who loves learning on the go, Illuminate has the potential to change how we interact with complex information.&lt;/p&gt;
+
+&lt;p&gt;In the end, this is more than just a novelty. It’s a glimpse into how AI can reshape content delivery, making it more convenient, engaging, and adaptable to our daily routines. The future of learning might just sound a lot like your favorite podcast.&lt;/p&gt;
+
+&lt;iframe width=&quot;1175&quot; height=&quot;661&quot; src=&quot;https://www.youtube.com/embed/mxlPGgfMJJs&quot; title=&quot;Using long-context to make knowledge accessible&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Stay tuned, because Illuminate could be the next big step in AI-driven information consumption.&lt;/p&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">Google Labs has a long tradition of inviting users to explore innovative technologies, with notable successes like Gmail, which began as an exclusive beta. Now, Google is unveiling Illuminate, a groundbreaking project that transforms academic papers into AI-generated audio discussions, styled like an NPR podcast. The concept is straightforward but powerful: Google's large language model, Gemini, creates a concise summary of a research paper and follows it up with a Q&amp;amp;A session. These are voiced by two AI-generated personas—a male interviewer and a female expert—who guide listeners through a brief, engaging conversation about the paper’s key points.</summary></entry><entry><title type="html">Exploring the Replit Agent - AI Power Coding for Developers</title><link href="http://localhost:4000/ReplitAgent" rel="alternate" type="text/html" title="Exploring the Replit Agent - AI Power Coding for Developers" /><published>2024-09-09T00:00:00+03:00</published><updated>2024-09-09T00:00:00+03:00</updated><id>http://localhost:4000/ReplitAgent</id><content type="html" xml:base="http://localhost:4000/ReplitAgent">&lt;p&gt;Replit has long been at the forefront of integrating AI into software development, and their latest offering, the &lt;strong&gt;Replit Agent&lt;/strong&gt;, is no exception. Currently available through a limited early access program, this AI-powered assistant is designed to help users create software projects from scratch using simple, natural language prompts. Whether you’re a seasoned developer or new to coding, Replit Agent aims to make building applications more intuitive and accessible.&lt;/p&gt;
+
+&lt;h3&gt; What is the Replit Agent? &lt;/h3&gt;
+
+&lt;p&gt;The Replit Agent is an experimental AI tool designed to assist developers in building software projects. It understands natural language commands, allowing users to describe what they want to build, and then the agent takes over—planning, writing, and deploying code. Whether you’re working on web-based applications or prototyping new ideas, the agent is meant to accelerate the development process by generating code, suggesting solutions, and helping manage tasks.&lt;/p&gt;
+
+&lt;h3&gt; How It Works &lt;/h3&gt;
+
+&lt;p&gt;To get started with the Replit Agent, subscribers to Replit Core or Replit Teams can dive right in. The agent is included in these plans at no extra cost during the early access phase, though pricing details for general release will be announced later in 2024. Here’s Replit CEO Amjad Masad with an overview of how the agent works:
+
+&lt;iframe width=&quot;950&quot; height=&quot;534&quot; src=&quot;https://www.youtube.com/embed/IYiVPrxY8-Y&quot; title=&quot;Meet the Replit Agent&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+Here’s how you can start using it:
+
+On the Web:
+&lt;ol&gt;
+&lt;li&gt; Log into your Replit account with a Core or Teams subscription. &lt;/li&gt;
+&lt;li&gt; Visit the home page or select Create Repl in the left navigation. &lt;/li&gt;
+&lt;li&gt; Input a prompt of what you would like the agent to build. 
+    &lt;ul&gt;
+    &lt;li&gt; A good prompt is descriptive and detailed. Imagine you are describing a task for a teammate at work to complete. What information would they have to know to get the job done?&lt;/li&gt;
+    &lt;li&gt; We recommend letting the agent select which technologies to use rather than specifying specific languages or frameworks. &lt;/li&gt;
+    &lt;li&gt; The agent is currently best at 0 -&amp;gt; 1 prototyping for web-based applications.&lt;/li&gt;
+    &lt;/ul&gt;
+    &amp;lt;img src=”https://docimg.replit.com/images/replitai/agent_01.png”&amp;gt;
+&lt;li&gt; Review and iterate on the plan the agent generated. Feel free to edit or delete steps that the agent recommends. &lt;/li&gt;
+    &lt;img src=&quot;https://docimg.replit.com/images/replitai/agent_02.png&quot; /&gt;
+&lt;li&gt; Follow along with the agent’s progress. &lt;/li&gt;
+    &lt;img src=&quot;https://docimg.replit.com/images/replitai/agent_03.png&quot; /&gt;
+&lt;li&gt; Work with the agent to provide API keys, feedback, or direction as it progresses in building your application. &lt;/li&gt;
+    &lt;img src=&quot;https://docimg.replit.com/images/replitai/agent_04.png&quot; /&gt;
+&lt;li&gt; Test your application and ask follow up questions as needed. &lt;/li&gt;
+&lt;li&gt; Deploy your application to production! Learn more about Replit Deployments. &lt;/li&gt;
+&amp;lt;/ol&amp;gt;
+
+On Mobile:
+&lt;ol&gt;
+&lt;li&gt;Download the Replit app (version 2.90.2 or higher) via this link or QR code.&lt;/li&gt;
+    &lt;img src=&quot;https://docimg.replit.com/images/replitai/agent_05.png&quot; /&gt;
+&lt;li&gt;Ensure you're logged in with the email associated with your Core or Teams account.&lt;/li&gt;
+&lt;li&gt;Head to the &quot;Create&quot; tab and select &quot;Start with AI,&quot; then describe the project you want to build.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Currently, the Replit Agent excels at prototyping web-based applications, but there’s potential for it to grow into more diverse use cases. Keep in mind that while it’s still in the experimental phase, you might encounter the occasional error or unexpected behavior. Your feedback will be crucial in improving the product as it evolves.&lt;/p&gt;
+
+&lt;h3&gt; The Future of AI in Software Development &lt;/h3&gt;
+
+&lt;p&gt; The vision behind Replit Agent is bigger than just an AI assistant for coding—it’s a step toward closer collaboration between humans and machines in the software development process. Replit envisions a future where AI agents not only fill in gaps but also enhance developers’ capabilities, offering creative solutions, and speeding up workflows. As you experiment with the Replit Agent, you’ll be helping to shape what this future looks like.&lt;/p&gt;
+
+&lt;h3&gt; Getting Early Access&lt;/h3&gt;
+
+&lt;p&gt;Replit Agent is currently in early access, available to Core and Teams subscribers. If you're subscribed to one of these plans, you can start using the agent today without any additional cost. While usage limits are in place during this phase, these quotas are refreshed regularly, giving you ongoing opportunities to test and experiment with the agent’s capabilities.&lt;/p&gt;
+
+&lt;h3&gt; Final Thoughts &lt;/h3&gt;
+
+&lt;p&gt;The Replit Agent represents an exciting new chapter in AI-assisted development, bringing us closer to a world where machines and humans collaborate seamlessly on software projects. Whether you're building a prototype or simply looking to experiment with AI in your workflow, Replit Agent offers a promising glimpse into the future of development. Don’t miss out—if you’re eligible, dive into early access today and start shaping the future of AI-driven coding. &lt;/p&gt;
+
+&lt;p&gt; To read more about this brand new Replit product head &lt;a href=&quot;https://docs.replit.com/replitai/agent?ref=maginative.com&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;&lt;/ol&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">Replit has long been at the forefront of integrating AI into software development, and their latest offering, the Replit Agent, is no exception. Currently available through a limited early access program, this AI-powered assistant is designed to help users create software projects from scratch using simple, natural language prompts. Whether you’re a seasoned developer or new to coding, Replit Agent aims to make building applications more intuitive and accessible.</summary></entry><entry><title type="html">Theory, Analysis, and Best Practices for Sigmoid Self-Attention</title><link href="http://localhost:4000/SigmoidSelfAttntion" rel="alternate" type="text/html" title="Theory, Analysis, and Best Practices for Sigmoid Self-Attention" /><published>2024-09-06T00:00:00+03:00</published><updated>2024-09-06T00:00:00+03:00</updated><id>http://localhost:4000/SigmoidSelfAttntion</id><content type="html" xml:base="http://localhost:4000/SigmoidSelfAttntion">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Attention is a key part of the transformer architecture. It is a sequence-to-sequence mapping that transforms each sequence element into a weighted sum of values. The weights are typically obtained as the softmax of dot products between keys and queries. Recent work has explored alternatives to softmax attention in transformers, such as ReLU and sigmoid activations. In this work, we revisit sigmoid attention and conduct an in-depth theoretical and empirical analysis. Theoretically, we prove that transformers with sigmoid attention are universal function approximators and benefit from improved regularity compared to softmax attention. Through detailed empirical analysis, we identify stabilization of large initial attention norms during the early stages of training as a crucial factor for the successful training of models with sigmoid attention, outperforming prior attempts. We also introduce FLASHSIGMOID, a hardware-aware and memory-efficient implementation of sigmoid attention yielding a 17% inference kernel speed-up over FLASHATTENTION2 on H100 GPUs. Experiments across language, vision, and speech show that properly normalized sigmoid attention matches the strong performance of softmax attention on a wide range of domains and scales, which previous attempts at sigmoid attention were unable to fully achieve. Our work unifies prior art and establishes best practices for sigmoid attention as a drop-in softmax replacement in transformers.&lt;/p&gt;
 
 &lt;h2&gt; Authors &lt;/h2&gt;
 
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Akkiraju,+R&quot;&gt;Rama Akkiraju&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yu,+T&quot;&gt;Tan Yu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+A&quot;&gt;Anbang Xu&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ramapuram,+J&quot;&gt;Jason Ramapuram&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Danieli,+F&quot;&gt;Federico Danieli&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dhekane,+E&quot;&gt;Eeshan Dhekane&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Weers,+F&quot;&gt;Floris Weers&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Busbridge,+D&quot;&gt;Dan Busbridge&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ablin,+P&quot;&gt;Pierre Ablin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Likhomanenko,+T&quot;&gt;Tatiana Likhomanenko&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Digani,+J&quot;&gt;Jagrit Digani&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Gu,+Z&quot;&gt;Zijin Gu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shidani,+A&quot;&gt;Amitis Shidani&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Webb,+R&quot;&gt;Russ Webb&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.01666&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="research" /><summary type="html">Abstract</summary></entry><entry><title type="html">OLMoE-Open Mixture of Experts Language Models</title><link href="http://localhost:4000/OLMoE" rel="alternate" type="text/html" title="OLMoE-Open Mixture of Experts Language Models" /><published>2024-09-03T00:00:00+03:00</published><updated>2024-09-03T00:00:00+03:00</updated><id>http://localhost:4000/OLMoE</id><content type="html" xml:base="http://localhost:4000/OLMoE">&lt;h2&gt; Abstract &lt;/h2&gt;
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.04431&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="research" /><summary type="html">Abstract</summary></entry><entry><title type="html">Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers</title><link href="http://localhost:4000/LLMNovelResearchIdeas" rel="alternate" type="text/html" title="Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers" /><published>2024-09-06T00:00:00+03:00</published><updated>2024-09-06T00:00:00+03:00</updated><id>http://localhost:4000/LLMNovelResearchIdeas</id><content type="html" xml:base="http://localhost:4000/LLMNovelResearchIdeas">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Recent advancements in large language models (LLMs) have sparked optimism about their potential to accelerate scientific discovery, with a growing number of works proposing research agents that autonomously generate and validate new ideas. Despite this, no evaluations have shown that LLM systems can take the very first step of producing novel, expert-level ideas, let alone perform the entire research process. We address this by establishing an experimental design that evaluates research idea generation while controlling for confounders and performs the first head-to-head comparison between expert NLP researchers and an LLM ideation agent. By recruiting over 100 NLP researchers to write novel ideas and blind reviews of both LLM and human ideas, we obtain the first statistically significant conclusion on current LLM capabilities for research ideation: we find LLM-generated ideas are judged as more novel (p &amp;lt; 0.05) than human expert ideas while being judged slightly weaker on feasibility. Studying our agent baselines closely, we identify open problems in building and evaluating research agents, including failures of LLM self-evaluation and their lack of diversity in generation. Finally, we acknowledge that human judgements of novelty can be difficult, even by experts, and propose an end-to-end study design which recruits researchers to execute these ideas into full projects, enabling us to study whether these novelty and feasibility judgements result in meaningful differences in research outcome.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Si,+C&quot;&gt;Chenglei Si&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+D&quot;&gt;Diyi Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hashimoto,+T&quot;&gt;Tatsunori Hashimoto&lt;/a&gt;&amp;lt;/a&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://www.arxiv.org/abs/2409.04109&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="research" /><summary type="html">Abstract</summary></entry><entry><title type="html">OLMoE-Open Mixture of Experts Language Models</title><link href="http://localhost:4000/OLMoE" rel="alternate" type="text/html" title="OLMoE-Open Mixture of Experts Language Models" /><published>2024-09-03T00:00:00+03:00</published><updated>2024-09-03T00:00:00+03:00</updated><id>http://localhost:4000/OLMoE</id><content type="html" xml:base="http://localhost:4000/OLMoE">&lt;h2&gt; Abstract &lt;/h2&gt;
 
 &lt;p&gt; We introduce OLMoE, a fully open, state-of-the-art language model leveraging sparse Mixture-of-Experts (MoE). OLMoE-1B-7B has 7 billion (B) parameters but uses only 1B per input token. We pretrain it on 5 trillion tokens and further adapt it to create OLMoE-1B-7B-Instruct. Our models outperform all available models with similar active parameters, even surpassing larger ones like Llama2-13B-Chat and DeepSeekMoE-16B. We present various experiments on MoE training, analyze routing in our model showing high specialization, and open-source all aspects of our work: model weights, training data, code, and logs.&lt;/p&gt;
 
@@ -271,7 +365,15 @@ semantic_router_chain.invoke(&quot;What is the formula for the area of a circle?
 
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Muennighoff,+N&quot;&gt;Niklas Muennighoff&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Soldaini,+L&quot;&gt;Luca Soldaini&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Groeneveld,+D&quot;&gt;Dirk Groeneveld&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lo,+K&quot;&gt;Kyle Lo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Morrison,+J&quot;&gt;Jacob Morrison&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Min,+S&quot;&gt;Sewon Min&lt;/a&gt;,  &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shi,+W&quot;&gt;Weijia Shi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Walsh,+P&quot;&gt;Pete Walsh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tafjord,+O&quot;&gt;Oyvind Tafjord&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lambert,+N&quot;&gt;Nathan Lambert&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Gu,+Y&quot;&gt;Yuling Gu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Arora,+S&quot;&gt;Shane Arora&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Bhagia,+A&quot;&gt;Akshita Bhagia&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Schwenk,+D&quot;&gt;Dustin Schwenk&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wadden,+D&quot;&gt;David Wadden&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wettig,+A&quot;&gt;Alexander Wettig&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hui,+B&quot;&gt;Binyuan Hui&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dettmers,+T&quot;&gt;Tim Dettmers&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Kiela,+D&quot;&gt;Douwe Kiela&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Farhadi,+A&quot;&gt;Ali Farhadi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Smith,+N+A&quot;&gt;Noah A. Smith&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Koh,+P+W&quot;&gt;Pang Wei Koh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Singh,+A&quot;&gt;Amanpreet Singh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hajishirzi,+H&quot;&gt;Hannaneh Hajishirzi&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.02060&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="research" /><summary type="html">Abstract</summary></entry><entry><title type="html">FLUX that Plays Music</title><link href="http://localhost:4000/FLUXthatPlaysMusic" rel="alternate" type="text/html" title="FLUX that Plays Music" /><published>2024-09-01T00:00:00+03:00</published><updated>2024-09-01T00:00:00+03:00</updated><id>http://localhost:4000/FLUXthatPlaysMusic</id><content type="html" xml:base="http://localhost:4000/FLUXthatPlaysMusic">&lt;h2&gt; Abstract &lt;/h2&gt;
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.02060&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="research" /><summary type="html">Abstract</summary></entry><entry><title type="html">In Defense of RAG in the Era of Long-Context Language Models</title><link href="http://localhost:4000/DefenceOfRAG" rel="alternate" type="text/html" title="In Defense of RAG in the Era of Long-Context Language Models" /><published>2024-09-03T00:00:00+03:00</published><updated>2024-09-03T00:00:00+03:00</updated><id>http://localhost:4000/DefenceOfRAG</id><content type="html" xml:base="http://localhost:4000/DefenceOfRAG">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Overcoming the limited context limitations in early-generation LLMs, retrieval-augmented generation (RAG) has been a reliable solution for context-based answer generation in the past. Recently, the emergence of long-context LLMs allows the models to incorporate much longer text sequences, making RAG less attractive. Recent studies show that long-context LLMs significantly outperform RAG in long-context applications. Unlike the existing works favoring the long-context LLM over RAG, we argue that the extremely long context in LLMs suffers from a diminished focus on relevant information and leads to potential degradation in answer quality. This paper revisits the RAG in long-context answer generation. We propose an order-preserve retrieval-augmented generation (OP-RAG) mechanism, which significantly improves the performance of RAG for long-context question-answer applications. With OP-RAG, as the number of retrieved chunks increases, the answer quality initially rises, and then declines, forming an inverted U-shaped curve. There exist sweet points where OP-RAG could achieve higher answer quality with much less tokens than long-context LLM taking the whole context as input. Extensive experiments on public benchmark demonstrate the superiority of our OP-RAG.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Akkiraju,+R&quot;&gt;Rama Akkiraju&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yu,+T&quot;&gt;Tan Yu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+A&quot;&gt;Anbang Xu&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.01666&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="research" /><summary type="html">Abstract</summary></entry><entry><title type="html">FLUX that Plays Music</title><link href="http://localhost:4000/FLUXthatPlaysMusic" rel="alternate" type="text/html" title="FLUX that Plays Music" /><published>2024-09-01T00:00:00+03:00</published><updated>2024-09-01T00:00:00+03:00</updated><id>http://localhost:4000/FLUXthatPlaysMusic</id><content type="html" xml:base="http://localhost:4000/FLUXthatPlaysMusic">&lt;h2&gt; Abstract &lt;/h2&gt;
 
 &lt;p&gt; This paper explores a simple extension of diffusion-based rectified flow Transformers for text-to-music generation, termed as FluxMusic. Generally, along with design in advanced Flux\footnote{this https URL} model, we transfers it into a latent VAE space of mel-spectrum. It involves first applying a sequence of independent attention to the double text-music stream, followed by a stacked single music stream for denoised patch prediction. We employ multiple pre-trained text encoders to sufficiently capture caption semantic information as well as inference flexibility. In between, coarse textual information, in conjunction with time step embeddings, is utilized in a modulation mechanism, while fine-grained textual details are concatenated with the music patch sequence as inputs. Through an in-depth study, we demonstrate that rectified flow training with an optimized architecture significantly outperforms established diffusion methods for the text-to-music task, as evidenced by various automatic metrics and human preference evaluations. Our experimental data, code, and model weights are made publicly available at: &lt;a href=&quot;https://github.com/feizc/FluxMusic&quot;&gt;this URL&lt;/a&gt;.&lt;/p&gt;
 
@@ -311,146 +413,4 @@ semantic_router_chain.invoke(&quot;What is the formula for the area of a circle?
 
 &lt;p&gt; This breakthrough allows for more sophisticated AI workflows, such as enhanced real-time intelligence and complex tasks like code generation, which previously required extensive processing power and time. As Cerebras expands support to even larger models, its platform is set to open new possibilities in AI innovation.&lt;/p&gt;
 
-&lt;p&gt; To read more and benefit from those changes you can find out more &lt;a href=&quot;https://cerebras.ai/blog/introducing-cerebras-inference-ai-at-instant-speed&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">Cerebras has unveiled its new AI inference solution, claiming it to be the fastest in the world, outpacing NVIDIA GPU-based clouds by 20 times and delivering industry-leading cost efficiency.</summary></entry><entry><title type="html">Revolutionizing Enterprise Applications with NVIDIA’s NIM Agent Blueprints</title><link href="http://localhost:4000/Prototype2Prompt" rel="alternate" type="text/html" title="Revolutionizing Enterprise Applications with NVIDIA’s NIM Agent Blueprints" /><published>2024-08-27T00:00:00+03:00</published><updated>2024-08-27T00:00:00+03:00</updated><id>http://localhost:4000/Prototype2Prompt</id><content type="html" xml:base="http://localhost:4000/Prototype2Prompt">&lt;p&gt; &lt;a href=&quot;https://www.nvidia.com/en-us/ai-data-science/ai-workflows/&quot;&gt;NVIDIA's NIM Agent Blueprints&lt;/a&gt; empower enterprises to build and deploy customized generative AI applications, driving business transformation and innovation across industries.&lt;/p&gt;
-
-&lt;p&gt; The generative AI landscape is evolving rapidly, moving from simple tools for content creation to sophisticated, enterprise-level applications powered by advanced open-source models like Google Gemma, Llama 3.1, and Microsoft Phi. The introduction of NVIDIA's NIM Agent Blueprints marks a significant step forward in this transformation, offering enterprises a comprehensive toolkit to develop customized AI applications that drive business growth and efficiency.&lt;/p&gt;
-
-&lt;p&gt; NVIDIA’s NIM Agent Blueprints are tailored AI workflows designed for specific business use cases, such as customer service chatbots, drug discovery, and enterprise data extraction. These blueprints provide developers with reference applications, code, and documentation, making it easier to build and deploy generative AI solutions. Importantly, the blueprints are not static; they enable continuous improvement through data-driven feedback loops, enhancing AI models over time.&lt;/p&gt;
-
-&lt;p&gt; The impact of NIM Agent Blueprints extends across industries, enabling enterprises to integrate AI into their workflows with greater ease and efficiency. Companies like ServiceNow are already leveraging these tools to enhance their digital platforms, driving significant AI-driven transformation. NVIDIA’s extensive ecosystem, including partners like Accenture, Deloitte, and global cloud providers, supports the deployment and optimization of these blueprints, ensuring they are scalable and effective across various business environments.&lt;/p&gt;
-
-&lt;p&gt; The first NIM Agent Blueprints available are:
-&lt;ul&gt;
-&lt;li&gt; digital human for customer service&lt;/li&gt;
-&lt;li&gt; generative virtual screening for accelerated drug discovery&lt;/li&gt;
-&lt;li&gt; multimodal PDF data extraction for enterprise RAG&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
-&lt;p&gt; As generative AI continues to advance, the collaboration between developers and data scientists becomes increasingly vital. NIM Agent Blueprints facilitate this collaboration, enabling teams to build, refine, and scale AI applications that not only meet today’s business needs but also adapt to future challenges. With continuous updates and a robust support network, NVIDIA’s NIM Agent Blueprints are set to become a cornerstone in the next phase of enterprise AI innovation, helping companies across the globe harness the full potential of generative AI.&lt;/p&gt;
-
-&lt;p&gt; To further dig deeper on the topic check full NVIDIA's blog article &lt;a href=&quot;https://blogs.nvidia.com/blog/nim-agent-blueprints/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">NVIDIA's NIM Agent Blueprints empower enterprises to build and deploy customized generative AI applications, driving business transformation and innovation across industries.</summary></entry><entry><title type="html">Diffusion Models Are Real-Time Game Engines</title><link href="http://localhost:4000/DiffusionModels" rel="alternate" type="text/html" title="Diffusion Models Are Real-Time Game Engines" /><published>2024-08-27T00:00:00+03:00</published><updated>2024-08-27T00:00:00+03:00</updated><id>http://localhost:4000/DiffusionModels</id><content type="html" xml:base="http://localhost:4000/DiffusionModels">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; We present GameNGen, the first game engine powered entirely by a neural model that enables real-time interaction with a complex environment over long trajectories at high quality. GameNGen can interactively simulate the classic game DOOM at over 20 frames per second on a single TPU. Next frame prediction achieves a PSNR of 29.4, comparable to lossy JPEG compression. Human raters are only slightly better than random chance at distinguishing short clips of the game from clips of the simulation. GameNGen is trained in two phases: (1) an RL-agent learns to play the game and the training sessions are recorded, and (2) a diffusion model is trained to produce the next frame, conditioned on the sequence of past frames and actions. Conditioning augmentations enable stable auto-regressive generation over long trajectories.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Valevski,+D&quot;&gt;Dani Valevski&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Leviathan,+Y&quot;&gt;Yaniv Leviathan&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Arar,+M&quot;&gt;Moab Arar&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fruchter,+S&quot;&gt;Shlomi Fruchter&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2408.14837&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="research" /><summary type="html">Abstract</summary></entry><entry><title type="html">The Jamba 1.5 Open Model Family-The Most Powerful and Efficient Long Context Models</title><link href="http://localhost:4000/JambaFamilyModels" rel="alternate" type="text/html" title="The Jamba 1.5 Open Model Family-The Most Powerful and Efficient Long Context Models" /><published>2024-08-22T00:00:00+03:00</published><updated>2024-08-22T00:00:00+03:00</updated><id>http://localhost:4000/JambaFamilyModels</id><content type="html" xml:base="http://localhost:4000/JambaFamilyModels">&lt;p&gt; AI21 Labs has introduced the Jamba 1.5 family of models, designed to revolutionize enterprise-level AI with unmatched speed, efficiency, and quality. The models, Jamba 1.5 Mini and Jamba 1.5 Large, are built on the novel SSM-Transformer architecture, providing a massive 256K context window— the longest among open models—along with superior long-context handling and rapid processing speeds. The Jamba models are particularly suited for enterprise applications like document analysis and Retrieval Augmented Generation (RAG), excelling in both quality and cost efficiency.&lt;/p&gt;
-
-&lt;p&gt;Key Highlights:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt; &lt;strong&gt;Unrivaled Context Handling&lt;/strong&gt;: Jamba 1.5 models can manage up to 256K tokens, ensuring consistent performance across long contexts. This capability is vital for complex tasks like document summarization, reducing the need for frequent data chunking and retrievals. 
-&lt;img src=&quot;https://cdn.prod.website-files.com/60fd4503684b46390cc0d337/66c71115e631b0aa4bd06a97_66c710b9ad8290acfdc52f48_CW.png&quot; /&gt;
-&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Speed and Efficiency&lt;/strong&gt;: Both models are up to 2.5X faster in long-context processing compared to competitors. This speed is crucial for high-demand enterprise applications, ensuring that the models can scale efficiently with business needs.
-&lt;img src=&quot;https://cdn.prod.website-files.com/60fd4503684b46390cc0d337/66c71115e631b0aa4bd06a87_66c710cb7314119d3e21d680_Latency.png&quot; /&gt;
-&lt;img src=&quot;https://cdn.prod.website-files.com/60fd4503684b46390cc0d337/66c72337cc7cfd6770f21337_66c72247cbaac1cb8b65e1c5_image.png&quot; /&gt;
-&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Quality Performance&lt;/strong&gt;: Jamba 1.5 Mini outperforms models in its size class on benchmarks like Arena Hard, while Jamba 1.5 Large surpasses even the most advanced models, including Llama 3.1 70B and 405B. These models deliver top-tier quality and speed, making them a cost-effective solution for enterprises.
-&lt;img src=&quot;https://cdn.prod.website-files.com/60fd4503684b46390cc0d337/66c71115e631b0aa4bd06a8d_66c7110a035ebd88291a78f7_Mini%2520Quality.png&quot; /&gt;
-&lt;img src=&quot;https://cdn.prod.website-files.com/60fd4503684b46390cc0d337/66c71115e631b0aa4bd06a8a_66c710fef9b0bf20ca3b8f14_Large%2520Quality.png&quot; /&gt;
-&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Multilingual Capabilities&lt;/strong&gt;: Beyond English, Jamba 1.5 models support several languages, including Spanish, French, and Arabic, among others, making them versatile for global applications.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Developer-Ready&lt;/strong&gt;: The models natively support advanced features such as structured JSON output and function calling, and are available for download on platforms like Hugging Face.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Advanced Architecture&lt;/strong&gt;: The SSM-Transformer design combines the quality of Transformer models with the efficiency of AI21's Mamba framework. This design allows Jamba 1.5 models to handle extensive contexts with a lower memory footprint, even on single GPUs.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Quantization Breakthrough&lt;/strong&gt;: AI21 introduces ExpertsInt8, a novel quantization technique that reduces model size and enhances performance without sacrificing quality. This innovation enables the Jamba 1.5 Large model to fit on an 8-GPU node while maintaining its full 256K context capacity.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;AI21 Labs' Jamba 1.5 models set a new standard in AI performance, particularly for enterprise applications where speed, efficiency, and accuracy are paramount. These models are readily available on various cloud platforms, with more integrations on the horizon, ensuring broad accessibility for developers and businesses alike.&lt;/p&gt;
-
-&lt;p&gt; You can read full report from the official announcement &lt;a href=&quot;https://www.ai21.com/blog/announcing-jamba-model-family&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">AI21 Labs has introduced the Jamba 1.5 family of models, designed to revolutionize enterprise-level AI with unmatched speed, efficiency, and quality. The models, Jamba 1.5 Mini and Jamba 1.5 Large, are built on the novel SSM-Transformer architecture, providing a massive 256K context window— the longest among open models—along with superior long-context handling and rapid processing speeds. The Jamba models are particularly suited for enterprise applications like document analysis and Retrieval Augmented Generation (RAG), excelling in both quality and cost efficiency.</summary></entry><entry><title type="html">NVIDIA and Mistral AI’s Mistral-NeMo-Minitron 8B Model-A Leap Forward in LLM Efficiency</title><link href="http://localhost:4000/NvidiaMistalNemoMinitron" rel="alternate" type="text/html" title="NVIDIA and Mistral AI’s Mistral-NeMo-Minitron 8B Model-A Leap Forward in LLM Efficiency" /><published>2024-08-21T00:00:00+03:00</published><updated>2024-08-21T00:00:00+03:00</updated><id>http://localhost:4000/NvidiaMistalNemoMinitron</id><content type="html" xml:base="http://localhost:4000/NvidiaMistalNemoMinitron">&lt;p&gt; NVIDIA and Mistral AI have introduced the Mistral-NeMo-Minitron 8B model, an advanced large language model (LLM) that delivers exceptional accuracy across nine popular benchmarks. This model is a pruned and distilled version of the Mistral NeMo 12B, maintaining high performance while being significantly more efficient.&lt;/p&gt;
-
-&lt;h3&gt; Pruning and Distillation: Key Techniques&lt;/h3&gt;
-
-&lt;p&gt; The Mistral-NeMo-Minitron 8B model is created using NVIDIA’s proven approach of model pruning and knowledge distillation. Pruning reduces the model size by removing less critical parts—specifically, by focusing on width pruning, which targets neurons, attention heads, and embedding channels. This approach, when combined with light retraining through knowledge distillation, yields a smaller, faster, and more resource-efficient model without compromising much on predictive power.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tr&gt;
-    &lt;th&gt;&lt;/th&gt;
-    &lt;th&gt;Training tokens&lt;/th&gt;
-    &lt;th&gt;Wino-Grande 5-shot&lt;/th&gt;
-    &lt;th&gt;ARC Challenge 25-shot&lt;/th&gt;
-    &lt;th&gt;MMLU 5-shot&lt;/th&gt;
-    &lt;th&gt;Hella Swag 10-shot&lt;/th&gt;
-    &lt;th&gt;GSM8K 5-shot&lt;/th&gt;
-    &lt;th&gt;TruthfulQA 0-shot&lt;/th&gt;
-    &lt;th&gt;XLSum en (20%) 3-shot&lt;/th&gt;
-    &lt;th&gt;MBPP 0-shot&lt;/th&gt;
-    &lt;th&gt;Human Eval 0-shot&lt;/th&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;th&gt;Llama 3.1 8B&lt;/th&gt;
-    &lt;td&gt;15T&lt;/td&gt;
-    &lt;td&gt;77.27&lt;/td&gt;
-    &lt;td&gt;57.94&lt;/td&gt;
-    &lt;td&gt;65.28&lt;/td&gt;
-    &lt;td&gt;81.80&lt;/td&gt;
-    &lt;td&gt;48.60&lt;/td&gt;
-    &lt;td&gt;45.06&lt;/td&gt;
-    &lt;td&gt;30.05&lt;/td&gt;
-    &lt;td&gt;42.27&lt;/td&gt;
-    &lt;td&gt;24.76&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;th&gt;Gemma 7B&lt;/th&gt;
-    &lt;td&gt;6T&lt;/td&gt;
-    &lt;td&gt;78&lt;/td&gt;
-    &lt;td&gt;61&lt;/td&gt;
-    &lt;td&gt;64&lt;/td&gt;
-    &lt;td&gt;82&lt;/td&gt;
-    &lt;td&gt;50&lt;/td&gt;
-    &lt;td&gt;45&lt;/td&gt;
-    &lt;td&gt;17&lt;/td&gt;
-    &lt;td&gt;39&lt;/td&gt;
-    &lt;td&gt;32&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;th&gt;Mistral-NeMo-Minitron 8B&lt;/th&gt;
-    &lt;td&gt;380B&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;80.35&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;64.42&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;69.51&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;83.03&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;58.45&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;47.56&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;31.94&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;43.77&lt;/strong&gt;&lt;/td&gt;
-    &lt;td&gt;&lt;strong&gt;36.22&lt;/strong&gt;&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;th&gt;Mistral NeMo 12B&lt;/th&gt;
-    &lt;td&gt;N/A&lt;/td&gt;
-    &lt;td&gt;82.24&lt;/td&gt;
-    &lt;td&gt;65.10&lt;/td&gt;
-    &lt;td&gt;68.99&lt;/td&gt;
-    &lt;td&gt;85.16&lt;/td&gt;
-    &lt;td&gt;56.41&lt;/td&gt;
-    &lt;td&gt;49.79&lt;/td&gt;
-    &lt;td&gt;33.43&lt;/td&gt;
-    &lt;td&gt;42.63&lt;/td&gt;
-    &lt;td&gt;23.78&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;figcaption class=&quot;wp-element-caption&quot;&gt;&lt;em&gt;&lt;em&gt;Table 1. Accuracy of the Mistral-NeMo-Minitron 8B base model compared to the teacher Mistral-NeMo 12B, Gemma 7B, and Llama-3.1 8B base models. Bold numbers represent the best among the 8B model class&lt;/em&gt;&lt;/em&gt;&lt;/figcaption&gt;
-
-&lt;p&gt; Model Pruning involves slimming down the model by either dropping layers (depth pruning) or reducing the size of internal components (width pruning). In this case, width pruning was employed, which reduced the MLP intermediate dimensions and hidden sizes while retaining the number of attention heads and layers. This method is preferred as it consistently outperforms depth pruning.&lt;/p&gt;
-
-&lt;p&gt; Knowledge Distillation serves to transfer knowledge from a larger &quot;teacher&quot; model (in this case, the Mistral NeMo 12B) to the smaller &quot;student&quot; model (Mistral-NeMo-Minitron 8B). This step involves retraining the pruned model with a smaller dataset, ensuring it maintains high accuracy while being faster and more efficient.&lt;/p&gt;
-
-&lt;h3&gt; Process and Results&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt; &lt;strong&gt;Teacher Fine-Tuning&lt;/strong&gt;: The unpruned 12B model was fine-tuned with 127 billion tokens to correct distribution shifts, ensuring optimal performance during distillation.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Width Pruning&lt;/strong&gt;: Importance scores were calculated for pruning, focusing on compressing the MLP intermediate dimension and the hidden size, while maintaining the number of attention heads and layers.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Distillation&lt;/strong&gt;: The pruned model was distilled using a carefully controlled training process, ensuring minimal loss of accuracy.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt; The result is a model that not only rivals but often surpasses similar-sized models in accuracy, while also being significantly more resource-efficient.&lt;/p&gt;
-
-&lt;h3&gt; Conclusion and Future Directions&lt;/h3&gt;
-&lt;p&gt; The Mistral-NeMo-Minitron 8B demonstrates the effectiveness of structured weight pruning combined with knowledge distillation, offering a scalable approach to building efficient and high-performing LLMs. NVIDIA plans to continue refining these techniques, with future efforts aimed at creating even smaller, more accurate models. These innovations will be gradually integrated into the NVIDIA NeMo framework, further advancing the field of generative AI.&lt;/p&gt;
-
-&lt;p&gt; This advancement highlights NVIDIA’s commitment to pushing the boundaries of AI model efficiency, making powerful AI more accessible and cost-effective.&lt;/p&gt;
-
-&lt;p&gt; To read full report, in the official NVDIA Developer blog, click &lt;a href=&quot;https://developer.nvidia.com/blog/mistral-nemo-minitron-8b-foundation-model-delivers-unparalleled-accuracy/?ncid=ref-inor-390349/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">NVIDIA and Mistral AI have introduced the Mistral-NeMo-Minitron 8B model, an advanced large language model (LLM) that delivers exceptional accuracy across nine popular benchmarks. This model is a pruned and distilled version of the Mistral NeMo 12B, maintaining high performance while being significantly more efficient.</summary></entry></feed>
+&lt;p&gt; To read more and benefit from those changes you can find out more &lt;a href=&quot;https://cerebras.ai/blog/introducing-cerebras-inference-ai-at-instant-speed&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">Cerebras has unveiled its new AI inference solution, claiming it to be the fastest in the world, outpacing NVIDIA GPU-based clouds by 20 times and delivering industry-leading cost efficiency.</summary></entry></feed>

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-09-09T12:24:03+03:00</updated>
+  <updated>2024-09-11T14:36:21+03:00</updated>
   <id>http://localhost:4000/tag/news/feed.xml</id>
 
   
@@ -46,20 +46,70 @@
 
   
     <entry>
-      <title type="html">Introducing Cerebras Inference - AI at Instant Speed</title>
-      <link href="http://localhost:4000/cerebras" rel="alternate" type="text/html" title="Introducing Cerebras Inference - AI at Instant Speed" />
-      <published>2024-08-27T00:00:00+03:00</published>
-      <updated>2024-08-27T00:00:00+03:00</updated>
-      <id>http://localhost:4000/cerebras</id>
-      <content type="html" xml:base="http://localhost:4000/cerebras">&lt;p&gt; Cerebras has unveiled its new AI inference solution, claiming it to be the fastest in the world, outpacing NVIDIA GPU-based clouds by 20 times and delivering industry-leading cost efficiency.&lt;/p&gt;
+      <title type="html">Exploring the Replit Agent - AI Power Coding for Developers</title>
+      <link href="http://localhost:4000/ReplitAgent" rel="alternate" type="text/html" title="Exploring the Replit Agent - AI Power Coding for Developers" />
+      <published>2024-09-09T00:00:00+03:00</published>
+      <updated>2024-09-09T00:00:00+03:00</updated>
+      <id>http://localhost:4000/ReplitAgent</id>
+      <content type="html" xml:base="http://localhost:4000/ReplitAgent">&lt;p&gt;Replit has long been at the forefront of integrating AI into software development, and their latest offering, the &lt;strong&gt;Replit Agent&lt;/strong&gt;, is no exception. Currently available through a limited early access program, this AI-powered assistant is designed to help users create software projects from scratch using simple, natural language prompts. Whether you’re a seasoned developer or new to coding, Replit Agent aims to make building applications more intuitive and accessible.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cerebras.ai/wp-content/uploads/2024/08/Screenshot-2024-08-26-at-11.39.02%E2%80%AFPM.png&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt; What is the Replit Agent? &lt;/h3&gt;
 
-&lt;p&gt; Powered by the third-generation Wafer Scale Engine (WSE-3), this solution can process 1,800 tokens per second for Llama3.1 8B models and 450 tokens per second for Llama3.1 70B models, all while maintaining high accuracy with native 16-bit weights. The system's exceptional memory bandwidth and unique chip design eliminate traditional bottlenecks, enabling real-time AI responses. With open API access and competitive pricing, Cerebras Inference aims to revolutionize the development and deployment of large language models (LLMs) across various industries.&lt;/p&gt;
+&lt;p&gt;The Replit Agent is an experimental AI tool designed to assist developers in building software projects. It understands natural language commands, allowing users to describe what they want to build, and then the agent takes over—planning, writing, and deploying code. Whether you’re working on web-based applications or prototyping new ideas, the agent is meant to accelerate the development process by generating code, suggesting solutions, and helping manage tasks.&lt;/p&gt;
 
-&lt;p&gt; This breakthrough allows for more sophisticated AI workflows, such as enhanced real-time intelligence and complex tasks like code generation, which previously required extensive processing power and time. As Cerebras expands support to even larger models, its platform is set to open new possibilities in AI innovation.&lt;/p&gt;
+&lt;h3&gt; How It Works &lt;/h3&gt;
 
-&lt;p&gt; To read more and benefit from those changes you can find out more &lt;a href=&quot;https://cerebras.ai/blog/introducing-cerebras-inference-ai-at-instant-speed&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+&lt;p&gt;To get started with the Replit Agent, subscribers to Replit Core or Replit Teams can dive right in. The agent is included in these plans at no extra cost during the early access phase, though pricing details for general release will be announced later in 2024. Here’s Replit CEO Amjad Masad with an overview of how the agent works:
+
+&lt;iframe width=&quot;950&quot; height=&quot;534&quot; src=&quot;https://www.youtube.com/embed/IYiVPrxY8-Y&quot; title=&quot;Meet the Replit Agent&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+Here’s how you can start using it:
+
+On the Web:
+&lt;ol&gt;
+&lt;li&gt; Log into your Replit account with a Core or Teams subscription. &lt;/li&gt;
+&lt;li&gt; Visit the home page or select Create Repl in the left navigation. &lt;/li&gt;
+&lt;li&gt; Input a prompt of what you would like the agent to build. 
+    &lt;ul&gt;
+    &lt;li&gt; A good prompt is descriptive and detailed. Imagine you are describing a task for a teammate at work to complete. What information would they have to know to get the job done?&lt;/li&gt;
+    &lt;li&gt; We recommend letting the agent select which technologies to use rather than specifying specific languages or frameworks. &lt;/li&gt;
+    &lt;li&gt; The agent is currently best at 0 -&amp;gt; 1 prototyping for web-based applications.&lt;/li&gt;
+    &lt;/ul&gt;
+    &amp;lt;img src=”https://docimg.replit.com/images/replitai/agent_01.png”&amp;gt;
+&lt;li&gt; Review and iterate on the plan the agent generated. Feel free to edit or delete steps that the agent recommends. &lt;/li&gt;
+    &lt;img src=&quot;https://docimg.replit.com/images/replitai/agent_02.png&quot; /&gt;
+&lt;li&gt; Follow along with the agent’s progress. &lt;/li&gt;
+    &lt;img src=&quot;https://docimg.replit.com/images/replitai/agent_03.png&quot; /&gt;
+&lt;li&gt; Work with the agent to provide API keys, feedback, or direction as it progresses in building your application. &lt;/li&gt;
+    &lt;img src=&quot;https://docimg.replit.com/images/replitai/agent_04.png&quot; /&gt;
+&lt;li&gt; Test your application and ask follow up questions as needed. &lt;/li&gt;
+&lt;li&gt; Deploy your application to production! Learn more about Replit Deployments. &lt;/li&gt;
+&amp;lt;/ol&amp;gt;
+
+On Mobile:
+&lt;ol&gt;
+&lt;li&gt;Download the Replit app (version 2.90.2 or higher) via this link or QR code.&lt;/li&gt;
+    &lt;img src=&quot;https://docimg.replit.com/images/replitai/agent_05.png&quot; /&gt;
+&lt;li&gt;Ensure you're logged in with the email associated with your Core or Teams account.&lt;/li&gt;
+&lt;li&gt;Head to the &quot;Create&quot; tab and select &quot;Start with AI,&quot; then describe the project you want to build.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Currently, the Replit Agent excels at prototyping web-based applications, but there’s potential for it to grow into more diverse use cases. Keep in mind that while it’s still in the experimental phase, you might encounter the occasional error or unexpected behavior. Your feedback will be crucial in improving the product as it evolves.&lt;/p&gt;
+
+&lt;h3&gt; The Future of AI in Software Development &lt;/h3&gt;
+
+&lt;p&gt; The vision behind Replit Agent is bigger than just an AI assistant for coding—it’s a step toward closer collaboration between humans and machines in the software development process. Replit envisions a future where AI agents not only fill in gaps but also enhance developers’ capabilities, offering creative solutions, and speeding up workflows. As you experiment with the Replit Agent, you’ll be helping to shape what this future looks like.&lt;/p&gt;
+
+&lt;h3&gt; Getting Early Access&lt;/h3&gt;
+
+&lt;p&gt;Replit Agent is currently in early access, available to Core and Teams subscribers. If you're subscribed to one of these plans, you can start using the agent today without any additional cost. While usage limits are in place during this phase, these quotas are refreshed regularly, giving you ongoing opportunities to test and experiment with the agent’s capabilities.&lt;/p&gt;
+
+&lt;h3&gt; Final Thoughts &lt;/h3&gt;
+
+&lt;p&gt;The Replit Agent represents an exciting new chapter in AI-assisted development, bringing us closer to a world where machines and humans collaborate seamlessly on software projects. Whether you're building a prototype or simply looking to experiment with AI in your workflow, Replit Agent offers a promising glimpse into the future of development. Don’t miss out—if you’re eligible, dive into early access today and start shaping the future of AI-driven coding. &lt;/p&gt;
+
+&lt;p&gt; To read more about this brand new Replit product head &lt;a href=&quot;https://docs.replit.com/replitai/agent?ref=maginative.com&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;&lt;/ol&gt;&lt;/p&gt;</content>
 
       
       
@@ -80,7 +130,69 @@
       
 
       
-        <summary type="html">Cerebras has unveiled its new AI inference solution, claiming it to be the fastest in the world, outpacing NVIDIA GPU-based clouds by 20 times and delivering industry-leading cost efficiency.</summary>
+        <summary type="html">Replit has long been at the forefront of integrating AI into software development, and their latest offering, the Replit Agent, is no exception. Currently available through a limited early access program, this AI-powered assistant is designed to help users create software projects from scratch using simple, natural language prompts. Whether you’re a seasoned developer or new to coding, Replit Agent aims to make building applications more intuitive and accessible.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Google’s Illuminate - Transforming Academic Papers into AI-Generated Podcasts</title>
+      <link href="http://localhost:4000/GoogleIllumnate" rel="alternate" type="text/html" title="Google’s Illuminate - Transforming Academic Papers into AI-Generated Podcasts" />
+      <published>2024-09-09T00:00:00+03:00</published>
+      <updated>2024-09-09T00:00:00+03:00</updated>
+      <id>http://localhost:4000/GoogleIllumnate</id>
+      <content type="html" xml:base="http://localhost:4000/GoogleIllumnate">&lt;p&gt;Google Labs has a long tradition of inviting users to explore innovative technologies, with notable successes like Gmail, which began as an exclusive beta. Now, Google is unveiling Illuminate, a groundbreaking project that transforms academic papers into AI-generated audio discussions, styled like an NPR podcast. The concept is straightforward but powerful: Google's large language model, Gemini, creates a concise summary of a research paper and follows it up with a Q&amp;amp;A session. These are voiced by two AI-generated personas—a male interviewer and a female expert—who guide listeners through a brief, engaging conversation about the paper’s key points.
+
+What makes Illuminate especially valuable is its potential to make academic content more accessible and convenient. With this service, you can listen to insightful summaries of research papers while you're on the go—whether you're working out, commuting, or simply multitasking. The platform could also easily be adapted for other types of audio narration, extending its utility to a wide range of subjects and industries. Currently in private beta, Illuminate allows you to join the waitlist if you’re interested in early access and testing out this exciting new tool. You can check out samples on the Google Illuminate website to see its potential firsthand.&lt;/p&gt;
+
+&lt;p&gt;Google Labs has always been at the forefront of innovation, frequently inviting users to explore groundbreaking tech. Remember Gmail? It started as a private beta before revolutionizing how we manage email. Today, Google is back with another fascinating project, &lt;strong&gt;Illuminate&lt;/strong&gt;. This new initiative takes a fresh approach to academic research, turning complex papers into digestible, AI-generated audio discussions styled after popular NPR podcasts.&lt;/p&gt;
+
+&lt;p&gt;So, what exactly is Illuminate, and why is it worth your attention?&lt;/p&gt;
+
+&lt;h3&gt;The Power Behind Illuminate&lt;/h3&gt;
+
+&lt;p&gt; At the heart of Illuminate lies Google’s large language model, Gemini, which does the heavy lifting. Here’s how it works: Gemini generates a concise summary of an academic paper and pairs it with a Q&amp;amp;A session. Two AI-generated voices—a male interviewer and a female expert—then present the content in the form of an engaging, short interview. Imagine being guided through the highlights of a research paper as if you were listening to a lively radio discussion.&lt;/p&gt;
+
+&lt;h3&gt; Why Is This So Useful?&lt;/h3&gt;
+
+&lt;p&gt; For anyone who regularly dives into research papers, you know the grind. The sheer volume of academic literature can be overwhelming, and finding the time to sit down and read every paper in full is often a challenge. This is where Illuminate shines. It offers a new way to stay informed by converting these dense academic texts into easily consumable audio discussions. Picture yourself catching up on the latest research while driving to work, hitting the gym, or even while doing chores around the house. It’s multitasking made smarter.&lt;/p&gt;
+
+&lt;p&gt; Illuminate isn’t just limited to academic papers either. The platform’s potential extends far beyond that, with the ability to adapt to other forms of narration. Whether for educational content, business reports, or any document-heavy field, this kind of AI-generated podcasting could become a versatile tool for delivering information in a more accessible and engaging format.&lt;/p&gt;
+
+&lt;h3&gt; A Glimpse Into the Future&lt;/h3&gt;
+
+&lt;p&gt;Illuminate is still in its early stages, currently available as a private beta. Google is letting select users test the waters while they continue refining the service. If you’re eager to see what the future of academic content consumption could look like, you can join the waitlist for access.&lt;/p&gt;
+
+&lt;p&gt;Curious to experience it for yourself? You can check out some sample audio discussions on the &lt;a href=&quot;https://illuminate.google.com/home?pli=1&quot;&gt;Google Illuminate&lt;/a&gt; website. Whether you’re an academic researcher, a student, or just someone who loves learning on the go, Illuminate has the potential to change how we interact with complex information.&lt;/p&gt;
+
+&lt;p&gt;In the end, this is more than just a novelty. It’s a glimpse into how AI can reshape content delivery, making it more convenient, engaging, and adaptable to our daily routines. The future of learning might just sound a lot like your favorite podcast.&lt;/p&gt;
+
+&lt;iframe width=&quot;1175&quot; height=&quot;661&quot; src=&quot;https://www.youtube.com/embed/mxlPGgfMJJs&quot; title=&quot;Using long-context to make knowledge accessible&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Stay tuned, because Illuminate could be the next big step in AI-driven information consumption.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Google Labs has a long tradition of inviting users to explore innovative technologies, with notable successes like Gmail, which began as an exclusive beta. Now, Google is unveiling Illuminate, a groundbreaking project that transforms academic papers into AI-generated audio discussions, styled like an NPR podcast. The concept is straightforward but powerful: Google's large language model, Gemini, creates a concise summary of a research paper and follows it up with a Q&amp;amp;A session. These are voiced by two AI-generated personas—a male interviewer and a female expert—who guide listeners through a brief, engaging conversation about the paper’s key points.</summary>
       
 
       
@@ -139,6 +251,48 @@
 
       
         <summary type="html">Introducing LLaVA v1.5 7B: The Next Level of Multimodal AI on GroqCloud</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Introducing Cerebras Inference - AI at Instant Speed</title>
+      <link href="http://localhost:4000/cerebras" rel="alternate" type="text/html" title="Introducing Cerebras Inference - AI at Instant Speed" />
+      <published>2024-08-27T00:00:00+03:00</published>
+      <updated>2024-08-27T00:00:00+03:00</updated>
+      <id>http://localhost:4000/cerebras</id>
+      <content type="html" xml:base="http://localhost:4000/cerebras">&lt;p&gt; Cerebras has unveiled its new AI inference solution, claiming it to be the fastest in the world, outpacing NVIDIA GPU-based clouds by 20 times and delivering industry-leading cost efficiency.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cerebras.ai/wp-content/uploads/2024/08/Screenshot-2024-08-26-at-11.39.02%E2%80%AFPM.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; Powered by the third-generation Wafer Scale Engine (WSE-3), this solution can process 1,800 tokens per second for Llama3.1 8B models and 450 tokens per second for Llama3.1 70B models, all while maintaining high accuracy with native 16-bit weights. The system's exceptional memory bandwidth and unique chip design eliminate traditional bottlenecks, enabling real-time AI responses. With open API access and competitive pricing, Cerebras Inference aims to revolutionize the development and deployment of large language models (LLMs) across various industries.&lt;/p&gt;
+
+&lt;p&gt; This breakthrough allows for more sophisticated AI workflows, such as enhanced real-time intelligence and complex tasks like code generation, which previously required extensive processing power and time. As Cerebras expands support to even larger models, its platform is set to open new possibilities in AI innovation.&lt;/p&gt;
+
+&lt;p&gt; To read more and benefit from those changes you can find out more &lt;a href=&quot;https://cerebras.ai/blog/introducing-cerebras-inference-ai-at-instant-speed&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Cerebras has unveiled its new AI inference solution, claiming it to be the fastest in the world, outpacing NVIDIA GPU-based clouds by 20 times and delivering industry-leading cost efficiency.</summary>
       
 
       
@@ -523,109 +677,6 @@
 
       
         <summary type="html">Google presents a music recommendation ranking system that uses Transformer models to better understand the sequential nature of user actions based on the current user context.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Nous Research presents Hermes 3</title>
-      <link href="http://localhost:4000/NousHermes3" rel="alternate" type="text/html" title="Nous Research presents Hermes 3" />
-      <published>2024-08-14T00:00:00+03:00</published>
-      <updated>2024-08-14T00:00:00+03:00</updated>
-      <id>http://localhost:4000/NousHermes3</id>
-      <content type="html" xml:base="http://localhost:4000/NousHermes3">&lt;p&gt;Hermes 3 contains advanced long-term context retention and multi-turn conversation capability, complex roleplaying and internal monologue abilities, and enhanced agentic function-calling.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://nousresearch.com/hermes3/&quot;&gt;Nous Research&lt;/a&gt; has released a comprehensive &lt;a href=&quot;https://nousresearch.com/wp-content/uploads/2024/08/Hermes-3-Technical-Report.pdf&quot;&gt;technical report&lt;/a&gt; on Hermes 3, an advanced AI model that represents a significant leap in the field of artificial intelligence. The report delves into the architecture, training methodologies, and real-world applications of Hermes 3, showcasing its potential to transform various industries. This article provides an overview of the key points discussed in the report, offering insights into the innovations and capabilities of Hermes 3.&lt;p&gt;
-
-&lt;p&gt;Hermes 3 stands out due to its innovative architecture, which blends traditional neural networks with cutting-edge transformer models. The report details how this hybrid architecture allows Hermes 3 to excel in processing both structured and unstructured data. By integrating elements of recurrent neural networks (RNNs) and transformers, Hermes 3 achieves a balance between sequential data processing and parallel processing capabilities. This makes it highly effective in tasks ranging from natural language processing to complex data analysis.&lt;p&gt;
-
-&lt;p&gt;The technical report outlines the advanced training methodologies employed in developing Hermes 3. One of the key strategies is the use of curriculum learning, where the model is trained on increasingly complex tasks, mimicking the way humans learn. This approach not only accelerates the training process but also enhances the model’s ability to generalize across different domains. Additionally, Nous Research has implemented a multi-phase training regimen, combining supervised learning, reinforcement learning, and unsupervised learning to maximize the model’s performance and adaptability.&lt;/p&gt;
-
-&lt;p&gt;A notable feature of Hermes 3 is its enhanced ability to understand and retain context over extended conversations or data sequences. The report highlights the model’s long-context retention capabilities, made possible by its advanced memory management techniques. Unlike earlier models that struggle with maintaining context in long sequences, Hermes 3 can accurately track and utilize contextual information, making it ideal for applications like conversational AI, document analysis, and complex decision-making processes.&lt;/p&gt;
-
-&lt;p&gt;Scalability is a core focus in the design of Hermes 3. The report emphasizes how the model’s architecture is optimized for deployment across various scales, from individual devices to large data centers. This scalability is achieved through efficient resource management and parallel processing techniques, which reduce computational overhead without compromising performance. Hermes 3’s ability to scale effectively makes it a versatile solution for different environments, from cloud-based applications to edge computing scenarios.&lt;/p&gt;
-
-&lt;p&gt;The report concludes by exploring the real-world applications of Hermes 3 across various industries. Some generation case scenarios are presented to get a small taste of the overall capabilities. Case studies highlighted in the report demonstrate the model’s versatility and effectiveness. The ability of Hermes 3 to handle diverse tasks with high accuracy and efficiency underscores its potential to drive innovation in sectors that require sophisticated AI solutions.&lt;/p&gt;
-
-&lt;p&gt;Hermes 3 is a testament to the advancements in AI research and development, offering a powerful blend of innovative architecture, advanced training methodologies, and enhanced contextual understanding. The technical report from Nous Research provides a detailed look into how Hermes 3 achieves its impressive performance while maintaining scalability, efficiency, and robust security features. As AI continues to evolve, Hermes 3 stands out as a cutting-edge solution capable of addressing complex challenges across a wide range of industries, paving the way for new possibilities in artificial intelligence.&lt;/p&gt;
-&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">Hermes 3 contains advanced long-term context retention and multi-turn conversation capability, complex roleplaying and internal monologue abilities, and enhanced agentic function-calling.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">California’s SB 1047 - A Weakened Bill on AI Safety</title>
-      <link href="http://localhost:4000/CaliforniaLaw" rel="alternate" type="text/html" title="California's SB 1047 - A Weakened Bill on AI Safety" />
-      <published>2024-08-14T00:00:00+03:00</published>
-      <updated>2024-08-14T00:00:00+03:00</updated>
-      <id>http://localhost:4000/CaliforniaLaw</id>
-      <content type="html" xml:base="http://localhost:4000/CaliforniaLaw">&lt;p&gt; California’s SB 1047, a bill initially aimed at preventing AI disasters, has been significantly weakened by amendments that reduce the state’s regulatory power, addressing concerns from AI firms while still holding developers liable for catastrophic events. &lt;/p&gt;
-
-&lt;p&gt; California's SB 1047, a bill originally designed to prevent AI-related disasters, has undergone significant changes following opposition from key players in Silicon Valley, including AI firm &lt;a href=&quot;https://www.anthropic.com&quot;&gt;Anthropic&lt;/a&gt;. The bill, now passed by the Appropriations Committee, has been softened to address concerns from the AI industry while still aiming to hold developers liable for AI models that cause catastrophic events.&lt;/p&gt;
-
-&lt;h3&gt; Key Amendments and Their Impact&lt;/h3&gt;
-
-&lt;p&gt; One of the most critical amendments removes the power of California’s attorney general to sue AI companies for negligent safety practices before a disaster occurs. This change, proposed by Anthropic, instead allows the attorney general to seek injunctive relief or sue after a catastrophe. This amendment significantly reduces the preemptive power of the state in regulating AI safety.&lt;/p&gt;
-
-&lt;p&gt; Another significant change is the elimination of the &lt;a href=&quot;https://thedispatch.com/newsletter/techne/regulating-frontier-models-in-ai/&quot;&gt;Frontier Model Division (FMD)&lt;/a&gt;, a proposed new government agency, from the bill. Instead, the responsibilities of the FMD are transferred to a newly expanded Board of Frontier Models within the Government Operations Agency. This board will be responsible for setting compute thresholds, issuing safety guidance, and establishing regulations for auditors, but its role is now more integrated into existing governmental structures.&lt;/p&gt;
-
-&lt;p&gt; Further amendments include a relaxation of liability measures for AI developers. AI labs are no longer required to submit safety test results under penalty of perjury, reducing the legal risks for these companies. The bill now asks developers to provide &quot;reasonable care&quot; instead of &quot;reasonable assurance&quot; that their AI models do not pose significant risks.&lt;/p&gt;
-
-&lt;p&gt; Additionally, the bill offers protections for open-source AI development. Developers who spend less than $10 million fine-tuning a model are not considered liable under SB 1047, shifting the responsibility to the original developers.&lt;/p&gt;
-
-&lt;h3&gt; Reactions and Future Prospects&lt;/h3&gt;
-
-&lt;p&gt; The changes have sparked mixed reactions. While these amendments are seen as a way to ease industry concerns and make the bill more palatable for Governor Newsom's approval, they have not fully satisfied critics. Some argue that the revisions are superficial and fail to address deeper issues, with some U.S. Congress members even urging a veto.&lt;/p&gt;
-
-&lt;p&gt; Despite these criticisms, SB 1047 is moving forward and is now headed to the California Assembly for a final vote. If passed, it will return to the Senate due to the amendments before potentially landing on Governor Newsom's desk for a final decision. The outcome will determine whether California adopts a more industry-friendly approach to AI regulation or maintains stricter oversight in the face of emerging technological risks.&lt;/p&gt;
-
-&lt;p&gt; For more information you can check &lt;a href=&quot;https://techcrunch.com/2024/08/15/california-weakens-bill-to-prevent-ai-disasters-before-final-vote-taking-advice-from-anthropic/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">California’s SB 1047, a bill initially aimed at preventing AI disasters, has been significantly weakened by amendments that reduce the state’s regulatory power, addressing concerns from AI firms while still holding developers liable for catastrophic events.</summary>
       
 
       

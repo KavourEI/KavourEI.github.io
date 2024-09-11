@@ -23,6 +23,67 @@
     
       
       <item>
+        <title>Exploring the Replit Agent - AI Power Coding for Developers</title>
+        
+          <description>&lt;p&gt;Replit has long been at the forefront of integrating AI into software development, and their latest offering, the &lt;strong&gt;Replit Agent&lt;/strong&gt;, is no exception. Currently available through a limited early access program, this AI-powered assistant is designed to help users create software projects from scratch using simple, natural language prompts. Whether you’re a seasoned developer or new to coding, Replit Agent aims to make building applications more intuitive and accessible.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 09 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/ReplitAgent</link>
+        <guid isPermaLink="true">http://localhost:4000/ReplitAgent</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google’s Illuminate - Transforming Academic Papers into AI-Generated Podcasts</title>
+        
+          <description>&lt;p&gt;Google Labs has a long tradition of inviting users to explore innovative technologies, with notable successes like Gmail, which began as an exclusive beta. Now, Google is unveiling Illuminate, a groundbreaking project that transforms academic papers into AI-generated audio discussions, styled like an NPR podcast. The concept is straightforward but powerful: Google's large language model, Gemini, creates a concise summary of a research paper and follows it up with a Q&amp;amp;A session. These are voiced by two AI-generated personas—a male interviewer and a female expert—who guide listeners through a brief, engaging conversation about the paper’s key points.
+
+&lt;/p&gt;
+</description>
+        
+        <pubDate>Mon, 09 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/GoogleIllumnate</link>
+        <guid isPermaLink="true">http://localhost:4000/GoogleIllumnate</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Theory, Analysis, and Best Practices for Sigmoid Self-Attention</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 06 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/SigmoidSelfAttntion</link>
+        <guid isPermaLink="true">http://localhost:4000/SigmoidSelfAttntion</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 06 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/LLMNovelResearchIdeas</link>
+        <guid isPermaLink="true">http://localhost:4000/LLMNovelResearchIdeas</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>OLMoE-Open Mixture of Experts Language Models</title>
         
           <description>&lt;h2&gt; Abstract &lt;/h2&gt;
@@ -618,6 +679,21 @@
         <link>
         http://localhost:4000/MicrosoftSpreadsheetLLM</link>
         <guid isPermaLink="true">http://localhost:4000/MicrosoftSpreadsheetLLM</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Selective Reflection-Tuning, Student-Selected Data Recycling for LLM Instruction-Tuning</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 07 Jul 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/SelectiveReflection</link>
+        <guid isPermaLink="true">http://localhost:4000/SelectiveReflection</guid>
       </item>
       
     

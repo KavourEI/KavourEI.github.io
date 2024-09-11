@@ -11,7 +11,7 @@
 
 
 
-    <title>RAG - Query Transformation</title>
+    <title>Theory, Analysis, and Best Practices for Sigmoid Self-Attention</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -36,30 +36,30 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="Data Science and AI News" />
     <link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon_DSW_black.png" type="image/png" />
-    <link rel="canonical" href="http://localhost:4000/rag2" />
+    <link rel="canonical" href="http://localhost:4000/SigmoidSelfAttntion" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Kavour" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="RAG - Query Transformation" />
-    <meta property="og:description" content="Welcome back, I hope you enjoyed the first part of this series where we are going to explore a portion portion of RAG tool. It is higly suggested that you take a look at all the projects of this series step by step and more importantly to code along this" />
-    <meta property="og:url" content="http://localhost:4000/rag2" />
-    <meta property="og:image" content="http://localhost:4000/assets/images/news_images/langchain.webp" />
+    <meta property="og:title" content="Theory, Analysis, and Best Practices for Sigmoid Self-Attention" />
+    <meta property="og:description" content="Abstract Attention is a key part of the transformer architecture. It is a sequence-to-sequence mapping that transforms each sequence element into a weighted sum of values. The weights are typically obtained as the softmax of dot products between keys and queries. Recent work has explored alternatives to softmax attention in" />
+    <meta property="og:url" content="http://localhost:4000/SigmoidSelfAttntion" />
+    <meta property="og:image" content="http://localhost:4000/assets/images/arxiv.jpeg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2024-07-29T00:00:00+03:00" />
-    <meta property="article:modified_time" content="2024-07-29T00:00:00+03:00" />
-    <meta property="article:tag" content="Project" />
+    <meta property="article:published_time" content="2024-09-06T00:00:00+03:00" />
+    <meta property="article:modified_time" content="2024-09-06T00:00:00+03:00" />
+    <meta property="article:tag" content="Research" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="RAG - Query Transformation" />
-    <meta name="twitter:description" content="Welcome back, I hope you enjoyed the first part of this series where we are going to explore a portion portion of RAG tool. It is higly suggested that you take a look at all the projects of this series step by step and more importantly to code along this" />
+    <meta name="twitter:title" content="Theory, Analysis, and Best Practices for Sigmoid Self-Attention" />
+    <meta name="twitter:description" content="Abstract Attention is a key part of the transformer architecture. It is a sequence-to-sequence mapping that transforms each sequence element into a weighted sum of values. The weights are typically obtained as the softmax of dot products between keys and queries. Recent work has explored alternatives to softmax attention in" />
     <meta name="twitter:url" content="http://localhost:4000/" />
-    <meta name="twitter:image" content="http://localhost:4000/assets/images/news_images/langchain.webp" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/images/arxiv.jpeg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Kavour" />
     <meta name="twitter:label2" content="Filed under" />
-    <meta name="twitter:data2" content="Project" />
+    <meta name="twitter:data2" content="Research" />
     <meta name="twitter:site" content="@" />
     <meta name="twitter:creator" content="@" />
     <meta property="og:image:width" content="1400" />
@@ -74,18 +74,18 @@
         "name": "Kavour",
         "logo": "http://localhost:4000/assets/images/favicon.png"
     },
-    "url": "http://localhost:4000/rag2",
+    "url": "http://localhost:4000/SigmoidSelfAttntion",
     "image": {
         "@type": "ImageObject",
-        "url": "http://localhost:4000/assets/images/news_images/langchain.webp",
+        "url": "http://localhost:4000/assets/images/arxiv.jpeg",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://localhost:4000/rag2"
+        "@id": "http://localhost:4000/SigmoidSelfAttntion"
     },
-    "description": "Welcome back, I hope you enjoyed the first part of this series where we are going to explore a portion portion of RAG tool. It is higly suggested that you take a look at all the projects of this series step by step and more importantly to code along this"
+    "description": "Abstract Attention is a key part of the transformer architecture. It is a sequence-to-sequence mapping that transforms each sequence element into a weighted sum of values. The weights are typically obtained as the softmax of dot products between keys and queries. Recent work has explored alternatives to softmax attention in"
 }
     </script>
 
@@ -98,7 +98,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="RAG - Query Transformation" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Theory, Analysis, and Best Practices for Sigmoid Self-Attention" href="/feed.xml" />
 
 
 </head>
@@ -167,187 +167,39 @@ into the {body} of the default.hbs template -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <article class="post-full  tag-project post ">
+        <article class="post-full  tag-research post ">
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="29 July 2024">29 July 2024</time>
+                    <time class="post-full-meta-date" datetime=" 6 September 2024"> 6 September 2024</time>
                     
                         <span class="date-divider">/</span>
                         
                             
-                               <a href='/tag/project/'>PROJECT</a>
+                               <a href='/tag/research/'>RESEARCH</a>
                             
                         
                     
                 </section>
-                <h1 class="post-full-title">RAG - Query Transformation</h1>
+                <h1 class="post-full-title">Theory, Analysis, and Best Practices for Sigmoid Self-Attention</h1>
             </header>
 
             
-            <figure class="post-full-image" style="background-image: url(/assets/images/news_images/langchain.webp)">
+            <figure class="post-full-image" style="background-image: url(/assets/images/arxiv.jpeg)">
             </figure>
             
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <p> Welcome back, I hope you enjoyed the <a href="https://kavourei.github.io/rag1">first part</a> of this series where we are going to explore a portion portion of RAG tool. It is higly suggested that you take a look at all the projects of this series step by step and more importantly to code along this project. If you don't code it out you won't get it.</p>
+                    <h2> Abstract </h2>
 
-<p> In this notebook we are going to take a look how to create an assistant that will help us modify our question. This technique is called Query transformation. Imagine Query Transformation as your search request going through a makeover montage in a movie. Your original query walks in a bit plain and straightforward, and then gets spruced up with the latest styles and smarts to become the most efficient, dashing version of itself. By rephrasing, optimizing, and enhancing your search terms, Query Transformation ensures that what you’re asking for is crystal clear and ready to fetch the best possible results. It’s like sending your query to a high-end stylist who makes sure it’s dressed to impress and ready to get exactly what you need! </p>
+<p> Attention is a key part of the transformer architecture. It is a sequence-to-sequence mapping that transforms each sequence element into a weighted sum of values. The weights are typically obtained as the softmax of dot products between keys and queries. Recent work has explored alternatives to softmax attention in transformers, such as ReLU and sigmoid activations. In this work, we revisit sigmoid attention and conduct an in-depth theoretical and empirical analysis. Theoretically, we prove that transformers with sigmoid attention are universal function approximators and benefit from improved regularity compared to softmax attention. Through detailed empirical analysis, we identify stabilization of large initial attention norms during the early stages of training as a crucial factor for the successful training of models with sigmoid attention, outperforming prior attempts. We also introduce FLASHSIGMOID, a hardware-aware and memory-efficient implementation of sigmoid attention yielding a 17% inference kernel speed-up over FLASHATTENTION2 on H100 GPUs. Experiments across language, vision, and speech show that properly normalized sigmoid attention matches the strong performance of softmax attention on a wide range of domains and scales, which previous attempts at sigmoid attention were unable to fully achieve. Our work unifies prior art and establishes best practices for sigmoid attention as a drop-in softmax replacement in transformers.</p>
 
-<p> It is taken for granted that you already have created a <code>.env</code> file as requested in the first part of this series.</p>
+<h2> Authors </h2>
 
-<h2> Modules Required </h2>
+<p> <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ramapuram,+J">Jason Ramapuram</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Danieli,+F">Federico Danieli</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Dhekane,+E">Eeshan Dhekane</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Weers,+F">Floris Weers</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Busbridge,+D">Dan Busbridge</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Ablin,+P">Pierre Ablin</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Likhomanenko,+T">Tatiana Likhomanenko</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Digani,+J">Jagrit Digani</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Gu,+Z">Zijin Gu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Shidani,+A">Amitis Shidani</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Webb,+R">Russ Webb</a></p>
 
-<pre><code>import os
-from dotenv import load_dotenv
-from langchain.prompts import ChatPromptTemplate
-from langchain.chat_models import AzureChatOpenAI
-from langchain_core.runnables import RunnablePassthrough
-from langchain_core.output_parsers import StrOutputParser
-from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.vectorstores import Chroma
-from langchain_openai import AzureOpenAIEmbeddings
-from langchain.load import loads, dumps
-from typing import List
-
-load_dotenv()
-</code></pre>
-
-<p> The <i>"new"</i> modules we are going to use in this section are </p>
-
-<ul>
-<li><strong>langchain.prompts.ChatPromptTemplate</strong>: <code>ChatPromptTemplate</code> is used to create templates for chat prompts. Using these templates can be used to standardize and structure the prompts that are fed into the language model, ensuring consistency and improving the quality of the generated responses.</li>
-<li><strong>langchain.load.loads</strong>: <code>loads</code> function is used to load data or configurations from a serialized format (such as JSON or YAML).</li>
-<li><strong>langchain.load.dumps</strong>: <code>dumps</code> function in the langchain library is used for serializing data or configurations into a specific format (like JSON or YAML).</li>
-<li><strong>typing.List</strong>: <code>List</code> class from this module is used to indicate that a variable is expected to be a list of a certain type.</li>
-</ul>
-
-<p> The main ingedient in our recipy in this series is always an LLM agent, which will assist us. As a result, the first step that will take us closer to this result, is to call our LLM model</p>
-
-<h2> LLM Agent and its Prompt </h2>
-
-<pre><code>llm_075 = AzureChatOpenAI(deployment_name=os.getenv('LLM_35_Deployment'),
-                         model_name=os.getenv('LLM_35_Model'),
-                         azure_endpoint=os.getenv('AZURE_OPENAI_ENDPOINT'),
-                         temperature=0.75,
-                         )
-</code></pre>
-
-<p> In this call we have set the <code>temperature</code> argument to be 0.75 (mind that it is an argument that takes value from the close interval [0,1]). But what this argument represent, right? Imagine the temperature argument in an LLM call as the spice level in a recipe. When you set the temperature low, it’s like adding just a pinch of spice, making the responses mild, predictable, and focused. Crank up the temperature, and it’s like dumping in hot sauce, making the responses more adventurous, creative, and sometimes a bit unpredictable. So, adjusting the temperature lets you control how bold or conservative the language model’s answers will be, ensuring your conversational dish is seasoned just to your taste! Since we need it to generate new questions similar, yet better formated to ours we need to use this spiciness.</p>
-
-<p> Next we are going to define a prompt. During the first part of this series we used a prompt from the self, where we requested it using the hub module. Now we are going to create our own. The reason for that is to give to our agent "personality" or better purpose for its existance.</p>
-
-<pre><code>prompt = ChatPromptTemplate.from_template(
-    """
-    You are a smart assistant. Your task is to create 5 questions, each phrased differently and from various perspectives, based on the given question, to retrieve relevant documents from a vector database. By offering multiple perspectives on the user's question, your aim is to help the user mitigate some of the constraints of distance-based similarity search. List these alternative questions, each on a new line. Original question: {question}
-    """
-)
-</code></pre>
-
-<h2> Chain Construction <h2>
-
-<p> Finally, we are ready to create our very first chain, in this section. Initially, we need to pass our question in the chain. Then we insert it to the prompt in th <code> {question} </code> place. After having our prompt ready-to-go, we "send" it to our LLM agent. Lastly, using <code>StrOutputParser()</code> and <code>(lambda x: "\n".join(x.split("\n")))</code> we exporet the results in a readable and nice format for us humans! 🤖 In general before setting up a chain it is suggested to think your steps one by one as simple as possible, define your functions/tools (if needed) and then set it up. Do not start from defining everything, as lated on you will miss something or will need to modify them as you need those steps to be "connected" somehow.</p>
-
-<p> By connected, I mean the <code> {question} </code> part in the prompt building, or in other cases more information like <code> {context} </code> etc. </p>
-
-<pre><code>
-generate_queries = (
-        {"question": RunnablePassthrough()}
-        | prompt
-        | llm_075
-        | StrOutputParser()
-        | (lambda x: "\n".join(x.split("\n")))
-)
-
-result = generate_queries.invoke("What do you know about Query Transforamtion?")
-print(result)
-</code></pre>
-
-<h2> Fusion Scores and uniqueness </h2>
-
-<p>Since we have generated our <i>better-formatted</i> question, we need to use them to get better-more relevant answers to our questions. There are many options, that you could experiment with. Here we are going to explore <a href="https://learn.microsoft.com/en-us/azure/search/hybrid-search-ranking">RAG-Fusion</a>. Through this process, relevant information for each question is retrieved. A union of the retrievals is created that keeps only the unique of them. Finally, a rank is measures and depending on our preference an answer is presented.</p>
-
-<pre><code>def rrf(results: List[List], k=60):
-    fused_scores = {}
-    for docs in results:        
-        for rank, doc in enumerate(docs):
-            doc_str = dumps(doc)
-            if doc_str not in fused_scores:
-                fused_scores[doc_str] = 0
-            previous_score = fused_scores[doc_str]
-            fused_scores[doc_str] += 1 / (rank + k)
-        reranked_results = [
-            (loads(doc), score)
-            for doc, score in sorted(fused_scores.items(), key=lambda x: x[1], reverse=True)
-        ]        
-        return reranked_results
-</code></pre>
-
-<p> Initially a dictionary is created to save the fused scores for each unique document retrieved (<code>fused_scores</code>). After that we iterate through each ranked document, and each document depending on its rank. We then create a key for each document. Either we add the document in the list (if it does not exists) or retrieve its score. Based on the question, we update the score using the provided RRF formula <code>1/(rank + k)</code>. Finally, we return the list of containing each document and its fused score in the format of tuples.</p>
-
-<p> After having this tool defined and set up in our toolbox, we can either us the previously defined prompt, or create a new one to continue with. Just for practise we are going to set up a new one where we are going to generate 3 questions, and not 5 as we did in the previously created prompth.</p>
-
-<pre><code>prompt = ChatPromptTemplate.from_template(
-    """
-    You are a smart assistant. Your task is to create 3 questions, each phrased differently and from various perspectives, based on the provided question, to retrieve relevant documents from a vector database. By offering multiple perspectives on the user's question, your aim is to help the user address some of the limitations of distance-based similarity search. List these alternative questions, each on a new line. Original question: {question}
-    """
-    )
-</code></pre>
-
-<p> So we have our LLM agent ready-to-go, its purpose of existance set, a new tool to generate the scores and retrieve the most relevant information. So you may wonder what is left. We now are ready to define a new chain to include everything we did.</p>
-
-<pre><code>generate_queries = (
-        {"question": RunnablePassthrough()}
-        | prompt
-        | llm_075
-        | StrOutputParser()
-        | (lambda x: x.split("\n"))
-)
-
-fusion_retrieval_chain = (
-        {'question': RunnablePassthrough()}
-        | generate_queries
-        | retriever.map()
-        | rrf
-)
-
-fusion_retrieval_chain.invoke("What are the benefits of Bert?")
-</code></pre>
-
-<h2> Food for thought </h2>
-
-<p> There are multiple other ways that you could modify the purpose of the LLM agent, your assistance, so that it could help you the way you want. For example, imagine that you have a complex question, where you are not sure how to provide/invoke it to your shiny and brand new chain. Or,  when providing it to your chain the results, you are getting back are not satisfying. Giving your agent a new slightly modified purpose, everything will be again bright and shiny. For example, you could use within your chain the following prompt:</p>
-
-<pre><code>decompostion_prompt = ChatPromptTemplate.from_template(
-    """
-    You are a helpful assistant capable of simplifying complex questions into smaller parts.
-    Your goal is to break down the given question into several sub-questions that can each be answered separately, ultimately addressing the main question.
-    List these sub-questions, each separated by a newline character.
-    Original question: {question}
-    Output (3 queries):
-    """
-)
-</code></pre>
-
-<p> Feeding this prompt to a new chain could save you from some time and simplify your question to reach to your goal, step by step.</p>
-
-<pre><code>query_generation_chain = (
-        {"question": RunnablePassthrough()}
-        | decompostion_prompt
-        | llm_075
-        | StrOutputParser()
-        | (lambda x: x.split("\n"))
-)
-
-questions = query_generation_chain.invoke("What are the benefits of LDA?")
-questions</code></pre>
-
-<p> 🚀 Imagine the possibilities and think about what you could do by defining a proper prompt based on you needs. 🚀 I hope you enjoyed this as much as I did and of course, learned something from it! In the next post of this series, we will explore Hypothetical Document Embeddings. We'll create our own documents, allowing their embedding vectors to identify neighborhoods in the corpus embedding space where similar real documents can be retrieved based on vector similarity.</p> 
-
-<p> <i>Be safe, code safer!</i></p>
-</h2></h2>
+<p>For more information go <a href="https://arxiv.org/abs/2409.04431">here</a></p>
 
                 </div>
             </section>
@@ -420,7 +272,7 @@ questions</code></pre>
                         <header class="read-next-card-header">
                             <small class="read-next-card-header-sitetitle">&mdash; Kavour &mdash;</small>
                             
-                                <h3 class="read-next-card-header-title"><a href="/tag/project/">Project</a></h3>
+                                <h3 class="read-next-card-header-title"><a href="/tag/research/">Research</a></h3>
                             
                         </header>
                         <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
@@ -430,73 +282,6 @@ questions</code></pre>
                                 
                                 
                                   
-                                    
-                                        
-                                        
-                                            <li><a href="/rag3">Multiple datasources - Route selections</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
                                 
                                   
                                 
@@ -507,22 +292,42 @@ questions</code></pre>
                                   
                                 
                                   
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
+                                    
+                                        
+                                        
+                                            <li><a href="/LLMNovelResearchIdeas">Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers</a></li>
+                                        
+                                    
                                   
                                 
                                   
                                     
                                         
                                         
-                                            <li><a href="/rag1">Introduction to RAG models</a></li>
+                                            <li><a href="/OLMoE">OLMoE-Open Mixture of Experts Language Models</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/DefenceOfRAG">In Defense of RAG in the Era of Long-Context Language Models</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
                                         
                                     
                                   
@@ -537,63 +342,6 @@ questions</code></pre>
                                 
                                   
                                 
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/jingle_or_no_jingle">Jingle or No Jingle. A Hilariously Serious Dive into PyTorch Image Classification for Santa Claus Detection. 🎄</a></li>
-                                        
-                                    
                                   
                                 
                                   
@@ -618,20 +366,239 @@ questions</code></pre>
                                   
                                 
                                   
+                                
+                                  
+                                
+                                  
                                     
                                         
                                         
                                     
                                   
                                 
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
                                   
                                 
                             </ul>
                         </div>
                         <footer class="read-next-card-footer">
-                            <a href="/tag/project/">
+                            <a href="/tag/research/">
                                 
-                                    See all 7 posts  →
+                                    See all 30 posts  →
                                 
                             </a>
                         </footer>
@@ -645,12 +612,12 @@ questions</code></pre>
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/HallucinationIndex">
-                <div class="post-card-image" style="background-image: url(/assets/images/news_images/galileo.png)"></div>
+            <a class="post-card-image-link" href="/GoogleIllumnate">
+                <div class="post-card-image" style="background-image: url(/assets/images/news_images/google_ai.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/HallucinationIndex">
+            <a class="post-card-content-link" href="/GoogleIllumnate">
                 <header class="post-card-header">
                     
                         
@@ -660,11 +627,11 @@ questions</code></pre>
                         
                     
 
-                    <h2 class="post-card-title">Introducing the Galileo Hallucination Index - A New Benchmark for AI Accuracy</h2>
+                    <h2 class="post-card-title">Google’s Illuminate - Transforming Academic Papers into AI-Generated Podcasts</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>Hallucination is a huge issue in the field of artificial intelligence. The accuracy and reliability of AI-generated content has become increasingly important in the last few years since people tend to rely on</p>
+                        <p>Google Labs has a long tradition of inviting users to explore innovative technologies, with notable successes like Gmail, which began as an exclusive beta. Now, Google is unveiling Illuminate, a groundbreaking project that</p>
                     
                 </section>
             </a>
@@ -689,7 +656,7 @@ questions</code></pre>
                 <span class="reading-time">
                     
                     
-                      1 min read
+                      3 min read
                     
                 </span>
             </footer>
@@ -704,12 +671,12 @@ questions</code></pre>
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/AppleIntelligenceFoundationLanguageModels">
+            <a class="post-card-image-link" href="/LLMNovelResearchIdeas">
                 <div class="post-card-image" style="background-image: url(/assets/images/arxiv.jpeg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/AppleIntelligenceFoundationLanguageModels">
+            <a class="post-card-content-link" href="/LLMNovelResearchIdeas">
                 <header class="post-card-header">
                     
                         
@@ -719,7 +686,7 @@ questions</code></pre>
                         
                     
 
-                    <h2 class="post-card-title">Apple Intelligence Foundation Language Models</h2>
+                    <h2 class="post-card-title">Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
@@ -774,14 +741,14 @@ questions</code></pre>
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">RAG - Query Transformation</div>
+    <div class="floating-header-title">Theory, Analysis, and Best Practices for Sigmoid Self-Attention</div>
         <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
         
-        <a class="floating-header-share-lin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://kavourei.github.io/rag2"
+        <a class="floating-header-share-lin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://kavourei.github.io/SigmoidSelfAttntion"
            onclick="window.open(this.href, 'share-linkedin', 'width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
     <path d="M29.63 0H2.37A2.368 2.368 0 0 0 0 2.37v27.26A2.368 2.368 0 0 0 2.37 32h27.26A2.368 2.368 0 0 0 32 29.63V2.37A2.368 2.368 0 0 0 29.63 0zM9.507 26.907H4.898V12.384h4.61v14.523zM7.202 10.295a2.669 2.669 0 1 1 .001-5.338 2.669 2.669 0 0 1 0 5.338zM27.102 26.907h-4.609v-7.187c0-1.713-.03-3.918-2.387-3.918-2.388 0-2.753 1.867-2.753 3.796v7.309h-4.611V12.384h4.428v1.987h.063c.617-1.167 2.123-2.397 4.369-2.397 4.674 0 5.533 3.076 5.533 7.073v7.86h-.001z"/>
@@ -789,7 +756,7 @@ questions</code></pre>
 
         </a>
 
-        <a class="floating-header-share-x" href="https://x.com/share?url=https://kavourei.github.io/rag2"
+        <a class="floating-header-share-x" href="https://x.com/share?url=https://kavourei.github.io/SigmoidSelfAttntion"
            onclick="window.open(this.href, 'share-x', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="480px" height="480px"><path d="M26.37,26l-8.795-12.822l0.015,0.012L25.52,4h-2.65l-6.46,7.48L11.28,4H4.33l8.211,11.971L12.54,15.97L3.88,26h2.65 l7.182-8.322L19.42,26H26.37z M10.23,6l12.34,18h-2.1L8.12,6H10.23z"/></svg>
         </a>

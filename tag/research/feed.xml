@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-09-09T12:24:03+03:00</updated>
+  <updated>2024-09-11T14:36:21+03:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -44,6 +44,90 @@
   
   
 
+  
+    <entry>
+      <title type="html">Theory, Analysis, and Best Practices for Sigmoid Self-Attention</title>
+      <link href="http://localhost:4000/SigmoidSelfAttntion" rel="alternate" type="text/html" title="Theory, Analysis, and Best Practices for Sigmoid Self-Attention" />
+      <published>2024-09-06T00:00:00+03:00</published>
+      <updated>2024-09-06T00:00:00+03:00</updated>
+      <id>http://localhost:4000/SigmoidSelfAttntion</id>
+      <content type="html" xml:base="http://localhost:4000/SigmoidSelfAttntion">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Attention is a key part of the transformer architecture. It is a sequence-to-sequence mapping that transforms each sequence element into a weighted sum of values. The weights are typically obtained as the softmax of dot products between keys and queries. Recent work has explored alternatives to softmax attention in transformers, such as ReLU and sigmoid activations. In this work, we revisit sigmoid attention and conduct an in-depth theoretical and empirical analysis. Theoretically, we prove that transformers with sigmoid attention are universal function approximators and benefit from improved regularity compared to softmax attention. Through detailed empirical analysis, we identify stabilization of large initial attention norms during the early stages of training as a crucial factor for the successful training of models with sigmoid attention, outperforming prior attempts. We also introduce FLASHSIGMOID, a hardware-aware and memory-efficient implementation of sigmoid attention yielding a 17% inference kernel speed-up over FLASHATTENTION2 on H100 GPUs. Experiments across language, vision, and speech show that properly normalized sigmoid attention matches the strong performance of softmax attention on a wide range of domains and scales, which previous attempts at sigmoid attention were unable to fully achieve. Our work unifies prior art and establishes best practices for sigmoid attention as a drop-in softmax replacement in transformers.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ramapuram,+J&quot;&gt;Jason Ramapuram&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Danieli,+F&quot;&gt;Federico Danieli&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dhekane,+E&quot;&gt;Eeshan Dhekane&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Weers,+F&quot;&gt;Floris Weers&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Busbridge,+D&quot;&gt;Dan Busbridge&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ablin,+P&quot;&gt;Pierre Ablin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Likhomanenko,+T&quot;&gt;Tatiana Likhomanenko&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Digani,+J&quot;&gt;Jagrit Digani&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Gu,+Z&quot;&gt;Zijin Gu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shidani,+A&quot;&gt;Amitis Shidani&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Webb,+R&quot;&gt;Russ Webb&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.04431&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers</title>
+      <link href="http://localhost:4000/LLMNovelResearchIdeas" rel="alternate" type="text/html" title="Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers" />
+      <published>2024-09-06T00:00:00+03:00</published>
+      <updated>2024-09-06T00:00:00+03:00</updated>
+      <id>http://localhost:4000/LLMNovelResearchIdeas</id>
+      <content type="html" xml:base="http://localhost:4000/LLMNovelResearchIdeas">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Recent advancements in large language models (LLMs) have sparked optimism about their potential to accelerate scientific discovery, with a growing number of works proposing research agents that autonomously generate and validate new ideas. Despite this, no evaluations have shown that LLM systems can take the very first step of producing novel, expert-level ideas, let alone perform the entire research process. We address this by establishing an experimental design that evaluates research idea generation while controlling for confounders and performs the first head-to-head comparison between expert NLP researchers and an LLM ideation agent. By recruiting over 100 NLP researchers to write novel ideas and blind reviews of both LLM and human ideas, we obtain the first statistically significant conclusion on current LLM capabilities for research ideation: we find LLM-generated ideas are judged as more novel (p &amp;lt; 0.05) than human expert ideas while being judged slightly weaker on feasibility. Studying our agent baselines closely, we identify open problems in building and evaluating research agents, including failures of LLM self-evaluation and their lack of diversity in generation. Finally, we acknowledge that human judgements of novelty can be difficult, even by experts, and propose an end-to-end study design which recruits researchers to execute these ideas into full projects, enabling us to study whether these novelty and feasibility judgements result in meaningful differences in research outcome.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Si,+C&quot;&gt;Chenglei Si&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+D&quot;&gt;Diyi Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hashimoto,+T&quot;&gt;Tatsunori Hashimoto&lt;/a&gt;&amp;lt;/a&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://www.arxiv.org/abs/2409.04109&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">OLMoE-Open Mixture of Experts Language Models</title>
@@ -355,90 +439,6 @@ In this work, we automate ToS (AutoToS), completely tak- ing the human out of th
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hu,+S&quot;&gt;Shengran Hu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lu,+C&quot;&gt;Cong Lu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Clune,+J&quot;&gt;Jeff Clune&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2408.08435&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters</title>
-      <link href="http://localhost:4000/HybridRAG" rel="alternate" type="text/html" title="Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters" />
-      <published>2024-08-06T00:00:00+03:00</published>
-      <updated>2024-08-06T00:00:00+03:00</updated>
-      <id>http://localhost:4000/HybridRAG</id>
-      <content type="html" xml:base="http://localhost:4000/HybridRAG">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Extraction and interpretation of intricate information from unstructured text data arising in financial applications, such as earnings call transcripts, present substantial challenges to large language models (LLMs) even using the current best practices to use Retrieval Augmented Generation (RAG) (referred to as VectorRAG techniques which utilize vector databases for information retrieval) due to challenges such as domain specific terminology and complex formats of the documents. We introduce a novel approach based on a combination, called HybridRAG, of the Knowledge Graphs (KGs) based RAG techniques (called GraphRAG) and VectorRAG techniques to enhance question-answer (Q&amp;amp;A) systems for information extraction from financial documents that is shown to be capable of generating accurate and contextually relevant answers. Using experiments on a set of financial earning call transcripts documents which come in the form of Q&amp;amp;A format, and hence provide a natural set of pairs of ground-truth Q&amp;amp;As, we show that HybridRAG which retrieves context from both vector database and KG outperforms both traditional VectorRAG and GraphRAG individually when evaluated at both the retrieval and generation stages in terms of retrieval accuracy and answer generation. The proposed technique has applications beyond the financial domain.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sarmah,+B&quot;&gt;Bhaskarjit Sarmah&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hall,+B&quot;&gt;Benika Hall&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Rao,+R&quot;&gt;Rohan Rao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Patel,+S&quot;&gt;Sunil Patel&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Pasquali,+S&quot;&gt;Stefano Pasquali&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Mehta,+D&quot;&gt;Dhagash Mehta&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2408.04948&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters</title>
-      <link href="http://localhost:4000/TransformerExplainer" rel="alternate" type="text/html" title="Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters" />
-      <published>2024-08-06T00:00:00+03:00</published>
-      <updated>2024-08-06T00:00:00+03:00</updated>
-      <id>http://localhost:4000/TransformerExplainer</id>
-      <content type="html" xml:base="http://localhost:4000/TransformerExplainer">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Transformers have revolutionized machine learning, yet their inner workings remain opaque to many. We present Transformer Explainer, an interactive visualization tool designed for non-experts to learn about Transformers through the GPT-2 model. Our tool helps users understand complex Transformer concepts by integrating a model overview and enabling smooth transitions across abstraction levels of mathematical operations and model structures. It runs a live GPT-2 instance locally in the user's browser, empowering users to experiment with their own input and observe in real-time how the internal components and parameters of the Transformer work together to predict the next tokens. Our tool requires no installation or special hardware, broadening the public's education access to modern generative AI techniques. Our open-sourced tool is available at &lt;a href=&quot;https://poloclub.github.io/transformer-explainer/&quot;&gt;this https URL&lt;/a&gt;. A video demo is available at &lt;a href=&quot;https://youtu.be/ECR4oAwocjs&quot;&gt;this https URL&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cho,+A&quot;&gt;Aeree Cho&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Kim,+G+C&quot;&gt;Grace C. Kim&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Karpekov,+A&quot;&gt;Alexander Karpekov&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Helbling,+A&quot;&gt;Alec Helbling&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+Z+J&quot;&gt;Zijie J. Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lee,+S&quot;&gt;Seongmin Lee&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hoover,+B&quot;&gt;Benjamin Hoover&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chau,+D+H&quot;&gt;Duen Horng Chau&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2408.04619&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
