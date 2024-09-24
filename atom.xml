@@ -8,6 +8,66 @@
     
       
       <item>
+        <title>DataGemma - Grounding AI in Real-World Data to Combat Hallucinations</title>
+        
+          <description>&lt;h3&gt;Introduction&lt;/h3&gt;
+
+</description>
+        
+        <pubDate>Thu, 12 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/GoogleDataGemma</link>
+        <guid isPermaLink="true">http://localhost:4000/GoogleDataGemma</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>How Adobe Firefly is Shaping the Future of Creative Workflows</title>
+        
+          <description>&lt;p&gt;Since its launch in March 2023, Adobe Firefly has transformed the creative landscape by offering innovative AI-powered features that enhance design, imaging, and vector workflows. These models have become integral to Creative Cloud and Adobe Express, enabling users to generate creative assets more efficiently. Now, Adobe is expanding Firefly's capabilities into the realm of video editing, preparing to revolutionize the process for editors and filmmakers. In this article, we’ll explore the journey of Firefly so far, its growing impact on the creative community, and its potential to reshape video production.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 11 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/AdobeFirefly</link>
+        <guid isPermaLink="true">http://localhost:4000/AdobeFirefly</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>LLaMA-Omni - Seamless Speech Interaction with Large Language Models</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 10 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/LlammaOmni</link>
+        <guid isPermaLink="true">http://localhost:4000/LlammaOmni</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>GroUSE - A Benchmark to Evaluate Evaluators in Grounded Question Answering</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 10 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/GroUSE</link>
+        <guid isPermaLink="true">http://localhost:4000/GroUSE</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>SambaNova Launches The World's Fastest AI Platform</title>
         
           <description>&lt;p&gt; In an exciting development for AI and machine learning, &lt;a href=&quot;https://sambanova.ai&quot;&gt;SambaNova Systems&lt;/a&gt; has announced the launch of SambaNova Cloud, the world’s fastest AI inference platform. Leveraging the power of its SN40L AI chip, SambaNova Cloud delivers unmatched speed and precision, running the groundbreaking Llama 3.1 405B model at an impressive 132 tokens per second (t/s). The platform is available to developers today, offering a powerful solution for building generative AI applications with both the largest and most capable open-source models.&lt;/p&gt;
@@ -79,6 +139,21 @@
         <link>
         http://localhost:4000/SigmoidSelfAttntion</link>
         <guid isPermaLink="true">http://localhost:4000/SigmoidSelfAttntion</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Open MAGVIT2 - An Open-Source Project Toward Democratizing Auto-regressive Visual Generation</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 06 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/MAGVIT2</link>
+        <guid isPermaLink="true">http://localhost:4000/MAGVIT2</guid>
       </item>
       
     
