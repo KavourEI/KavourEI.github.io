@@ -8,9 +8,69 @@
     
       
       <item>
+        <title>Open Source Generative AI Platform by Together AI</title>
+        
+          <description>&lt;p&gt; &lt;a href=&quot;https://www.together.ai/&quot;&gt;Together AI&lt;/a&gt;, a leading AI acceleration cloud, is transforming the way developers and businesses design, develop, and manage generative AI applications. By focusing on open-source models like &lt;a href=&quot;https://www.llama.com/&quot;&gt;Llama&lt;/a&gt;, Together AI is enabling developers to seamlessly navigate the entire AI lifecycle with tools that are both accessible and powerful. With the launch of innovative applications like &lt;a href=&quot;https://llamacoder.together.ai/&quot;&gt;LlamaCoder&lt;/a&gt;, the company continues to push the boundaries of what open-source generative AI can achieve.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 18 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/Llamacoder</link>
+        <guid isPermaLink="true">http://localhost:4000/Llamacoder</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Empowering YouTube creators with generative AI</title>
+        
+          <description>&lt;p&gt;YouTube is aiming to change that through the introduction of advanced generative AI tools that will help millions of creators realize their creative visions. By integrating cutting-edge AI models into its platform, YouTube aims to make video generation more accessible and intuitive, particularly through its YouTube Shorts feature.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 18 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/EmpYoutube</link>
+        <guid isPermaLink="true">http://localhost:4000/EmpYoutube</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Runway’s Gen-3 Alpha Video-to-Video</title>
+        
+          <description>&lt;p&gt;Runway has officially launched its Gen-3 Alpha Video-to-Video feature, which is now available on the web for all paid plans. This tool allows users to modify existing video content using simple text prompts.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 14 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/Vid2VidRunaway</link>
+        <guid isPermaLink="true">http://localhost:4000/Vid2VidRunaway</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Breaking reCAPTCHAv2</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 13 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/reCaptcha</link>
+        <guid isPermaLink="true">http://localhost:4000/reCaptcha</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>DataGemma - Grounding AI in Real-World Data to Combat Hallucinations</title>
         
-          <description>&lt;h3&gt;Introduction&lt;/h3&gt;
+          <description>&lt;p&gt;Large Language Models (LLMs) have revolutionized the AI landscape by providing powerful tools for generating human-like text, answering complex questions, and assisting with tasks like summarization and code generation. However, these models sometimes produce inaccurate information with confidence, a phenomenon known as &quot;hallucination.&quot; Addressing this issue is critical for enhancing AI reliability. Enter &lt;a href=&quot;https://ai.google.dev/gemma&quot;&gt;DataGemma&lt;/a&gt;, the first open model designed to reduce hallucinations by grounding LLMs in real-world statistical data from Google’s vast &lt;a href=&quot;https://datacommons.org/&quot;&gt;Data Commons&lt;/a&gt;. This article explores how DataGemma leverages the power of trusted data sources to improve the factual accuracy and reasoning of LLMs.&lt;/p&gt;
 
 </description>
         
@@ -18,6 +78,21 @@
         <link>
         http://localhost:4000/GoogleDataGemma</link>
         <guid isPermaLink="true">http://localhost:4000/GoogleDataGemma</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Advancing AI Reasoning - A Look at OpenAI’s o1 Model</title>
+        
+          <description>&lt;p&gt; Artificial intelligence notes progress almost daily in architecture as well as in problem-solving and reasoning, but OpenAI’s latest model, o1, marks a significant leap forward. Designed to excel in complex reasoning tasks, the o1 model has achieved remarkable results in competitive programming, academic benchmarks, and real-world applications. This article explores the cutting-edge capabilities of o1, from its performance in math and science challenges to its proficiency in coding and human-like reasoning.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 12 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/AdvReasoning</link>
+        <guid isPermaLink="true">http://localhost:4000/AdvReasoning</guid>
       </item>
       
     
@@ -93,6 +168,21 @@
         <link>
         http://localhost:4000/rag3</link>
         <guid isPermaLink="true">http://localhost:4000/rag3</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>LLMs Will Always Hallucinate, and We Need to Live With This</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 09 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/AlwaysHallucinate</link>
+        <guid isPermaLink="true">http://localhost:4000/AlwaysHallucinate</guid>
       </item>
       
     

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-09-24T13:23:49+03:00</updated>
+  <updated>2024-09-26T13:28:44+03:00</updated>
   <id>http://localhost:4000/tag/news/feed.xml</id>
 
   
@@ -44,6 +44,315 @@
   
   
 
+  
+    <entry>
+      <title type="html">Empowering YouTube creators with generative AI</title>
+      <link href="http://localhost:4000/EmpYoutube" rel="alternate" type="text/html" title="Empowering YouTube creators with generative AI" />
+      <published>2024-09-18T00:00:00+03:00</published>
+      <updated>2024-09-18T00:00:00+03:00</updated>
+      <id>http://localhost:4000/EmpYoutube</id>
+      <content type="html" xml:base="http://localhost:4000/EmpYoutube">&lt;p&gt;YouTube is aiming to change that through the introduction of advanced generative AI tools that will help millions of creators realize their creative visions. By integrating cutting-edge AI models into its platform, YouTube aims to make video generation more accessible and intuitive, particularly through its YouTube Shorts feature.&lt;/p&gt;
+
+&lt;video class=&quot;gdm-video-embed__player&quot; muted=&quot;&quot; playsinline=&quot;&quot; loop=&quot;&quot; data-autoplay=&quot;true&quot; autoplay=&quot;&quot;&gt;
+    &lt;source src=&quot;https://deepmind.google/api/blob/website/media/Veo_CreationMediaPicker.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;p&gt;YouTube is introducing &lt;a href=&quot;https://blog.youtube/news-and-events/made-on-youtube-2024&quot;&gt;Dream Screen&lt;/a&gt;, a new feature that allows creators to generate dynamic video content for Shorts using two advanced AI models—&lt;a href=&quot;https://deepmind.google/technologies/veo/&quot;&gt;Veo&lt;/a&gt; and &lt;a href=&quot;https://deepmind.google/technologies/imagen-3/&quot;&gt;Imagen 3&lt;/a&gt;. These models, built upon Google's decade-long innovation in &lt;a href=&quot;https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/&quot;&gt;Transformer architecture&lt;/a&gt; and diffusion models, have been refined for large-scale use. Dream Screen allows creators to input text prompts, generating four distinct images from which they can choose their preferred visual style. From there, Veo transforms the selected image into a high-quality, six-second video clip. These AI-generated video clips will initially be available for use as backgrounds, with standalone six-second video generation rolling out in 2025.&lt;/p&gt;
+
+&lt;p&gt;By launching these generative AI tools, YouTube is enhancing creative possibilities for its vast user base. The company hopes these innovations will inspire creators to bring their ideas to life in vivid and transformative ways. In addition to ensuring accessibility, YouTube is committed to transparency by labeling AI-generated content with watermarks and notifications. These advancements mark a significant step forward in democratizing creativity, empowering creators globally to push the boundaries of their imagination. To read more click &lt;a href=&quot;https://deepmind.google/discover/blog/empowering-youtube-creators-with-generative-ai/?utm_source=x&amp;amp;utm_medium=social&amp;amp;utm_campaign=&amp;amp;utm_content=&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">YouTube is aiming to change that through the introduction of advanced generative AI tools that will help millions of creators realize their creative visions. By integrating cutting-edge AI models into its platform, YouTube aims to make video generation more accessible and intuitive, particularly through its YouTube Shorts feature.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Open Source Generative AI Platform by Together AI</title>
+      <link href="http://localhost:4000/Llamacoder" rel="alternate" type="text/html" title="Open Source Generative AI Platform by Together AI" />
+      <published>2024-09-18T00:00:00+03:00</published>
+      <updated>2024-09-18T00:00:00+03:00</updated>
+      <id>http://localhost:4000/Llamacoder</id>
+      <content type="html" xml:base="http://localhost:4000/Llamacoder">&lt;p&gt; &lt;a href=&quot;https://www.together.ai/&quot;&gt;Together AI&lt;/a&gt;, a leading AI acceleration cloud, is transforming the way developers and businesses design, develop, and manage generative AI applications. By focusing on open-source models like &lt;a href=&quot;https://www.llama.com/&quot;&gt;Llama&lt;/a&gt;, Together AI is enabling developers to seamlessly navigate the entire AI lifecycle with tools that are both accessible and powerful. With the launch of innovative applications like &lt;a href=&quot;https://llamacoder.together.ai/&quot;&gt;LlamaCoder&lt;/a&gt;, the company continues to push the boundaries of what open-source generative AI can achieve.&lt;/p&gt;
+
+&lt;p&gt;To inspire developers working with Llama models, Together AI created LlamaCoder, an open-source web application that generates full applications from simple text prompts using the Llama 3.1 405B model. Since its release, LlamaCoder has gained rapid popularity, with more than 200,000 apps generated and over 2,000 GitHub stars. This success highlights the potential of Llama 3.1 405B, the first open-source model to excel at coding-based use cases. Developers have used LlamaCoder to create a range of applications, including quiz apps, pomodoro timers, and budgeting tools, demonstrating the model’s versatility and power.&lt;/p&gt;
+
+&lt;p&gt;In addition to LlamaCoder, Together AI has also developed other example apps using Llama 3.1, such as &lt;a href=&quot;https://llamatutor.together.ai/&quot;&gt;LlamaTutor&lt;/a&gt; for learning and &lt;a href=&quot;https://www.turboseek.io/&quot;&gt;TurboSeek&lt;/a&gt;, an AI-powered search engine. These applications showcase the extensive capabilities of the Llama models, which rival closed-source models while maintaining robust safety features for responsible development.&lt;/p&gt;
+
+&lt;video class=&quot;gdm-video-embed__player&quot; muted=&quot;&quot; playsinline=&quot;&quot; loop=&quot;&quot; data-autoplay=&quot;true&quot; autoplay=&quot;&quot;&gt;
+    &lt;source src=&quot;https://video.fath7-1.fna.fbcdn.net/o1/v/t2/f2/m69/AQPsmAks9NYq2Exz3Q9ipg8z8OSFrGOZ4-feeJNtDRttY4W0Ln48hJy6bDsH7pJ2ayMUG-8N_hYAA2V1tmtzpIOs.mp4?efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&amp;amp;_nc_ht=video.fath7-1.fna.fbcdn.net&amp;amp;_nc_cat=100&amp;amp;strext=1&amp;amp;vs=1352f9b7ee1846d2&amp;amp;_nc_vs=HBkcFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HTWRhYWh0aDlPU0hHNWdCQUxpZFNwYWV2UlFkYm1kakFBQUYVAALIAQBLB4gScHJvZ3Jlc3NpdmVfcmVjaXBlATENc3Vic2FtcGxlX2ZwcwAQdm1hZl9lbmFibGVfbnN1YgAgbWVhc3VyZV9vcmlnaW5hbF9yZXNvbHV0aW9uX3NzaW0AKGNvbXB1dGVfc3NpbV9vbmx5X2F0X29yaWdpbmFsX3Jlc29sdXRpb24AHXVzZV9sYW5jem9zX2Zvcl92cW1fdXBzY2FsaW5nABFkaXNhYmxlX3Bvc3RfcHZxcwAVACUAHIwXQAAAAAAAAAAREQAAACbAw4v_pOaIBRUCKAJDMxgLdnRzX3ByZXZpZXccF0BAk5WBBiTdGBlkYXNoX2gyNjQtYmFzaWMtZ2VuMl83MjBwEgAYGHZpZGVvcy52dHMuY2FsbGJhY2sucHJvZDgSVklERU9fVklFV19SRVFVRVNUGwqIFW9lbV90YXJnZXRfZW5jb2RlX3RhZwZvZXBfaGQTb2VtX3JlcXVlc3RfdGltZV9tcwEwDG9lbV9jZmdfcnVsZQd1bm11dGVkE29lbV9yb2lfcmVhY2hfY291bnQDOTk3EW9lbV9pc19leHBlcmltZW50AAxvZW1fdmlkZW9faWQPODY5NjA1MDU1MTM0NDIwEm9lbV92aWRlb19hc3NldF9pZA80MTIyMDc2MDg1NTk4ODgVb2VtX3ZpZGVvX3Jlc291cmNlX2lkEDE0MjY3MjQzODEzNTYyNTYcb2VtX3NvdXJjZV92aWRlb19lbmNvZGluZ19pZA84Mzc1NDQwNTE5MTQ3NDkOdnRzX3JlcXVlc3RfaWQAJQIcACW-ARsHiAFzBDkyMDQCY2QKMjAyNC0wOS0xNwNyY2IDOTAwA2FwcAVWaWRlbwJjdBFDTVNfTUVESUFfTUFOQUdFUhNvcmlnaW5hbF9kdXJhdGlvbl9zCTMzLjEzMzMzMwJ0cxVwcm9ncmVzc2l2ZV9lbmNvZGluZ3MA&amp;amp;ccb=9-4&amp;amp;oh=00_AYDGX13YwRdhTcLpLp10vqWSwagUlMQ06M72ImpDH8FhZg&amp;amp;oe=66F71DBF&amp;amp;_nc_sid=1d576d&amp;amp;_nc_rid=860686001678256&amp;amp;_nc_store_type=1&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;p&gt;With more than 150,000 developers and companies using the Together AI platform, the applications for Llama models are expanding across industries—from gaming to customer service and AI-driven benchmarks. The platform’s advanced inference engine, powered by technologies like &lt;a href=&quot;https://arxiv.org/html/2407.08608v1&quot;&gt;FlashAttention-3 kernels&lt;/a&gt; and RedPajama-based speculators, ensures unmatched performance and cost-efficiency for generative AI applications. Together AI’s commitment to open-source innovation is driving the rapid adoption of its platform, allowing developers and enterprises to maintain control over their data and models while fostering faster technological advancements. Find out more &lt;a href=&quot;https://ai.meta.com/blog/together-ai-llamacoder/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Together AI, a leading AI acceleration cloud, is transforming the way developers and businesses design, develop, and manage generative AI applications. By focusing on open-source models like Llama, Together AI is enabling developers to seamlessly navigate the entire AI lifecycle with tools that are both accessible and powerful. With the launch of innovative applications like LlamaCoder, the company continues to push the boundaries of what open-source generative AI can achieve.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Runway’s Gen-3 Alpha Video-to-Video</title>
+      <link href="http://localhost:4000/Vid2VidRunaway" rel="alternate" type="text/html" title="Runway’s Gen-3 Alpha Video-to-Video" />
+      <published>2024-09-14T00:00:00+03:00</published>
+      <updated>2024-09-14T00:00:00+03:00</updated>
+      <id>http://localhost:4000/Vid2VidRunaway</id>
+      <content type="html" xml:base="http://localhost:4000/Vid2VidRunaway">&lt;p&gt;Runway has officially launched its Gen-3 Alpha Video-to-Video feature, which is now available on the web for all paid plans. This tool allows users to modify existing video content using simple text prompts.&lt;/p&gt;
+
+&lt;p&gt;In the rapidly evolving world of AI-powered creativity, Runway has once again pushed the boundaries with the launch of its Gen-3 Alpha Video-to-Video feature. This innovative tool enables users to transform existing videos through simple text prompts, unlocking a new realm of creative possibilities. Whether it’s changing the weather, altering a scene’s style, or manipulating objects within a frame, Runway’s latest offering brings advanced video editing capabilities to anyone with a paid subscription. Let’s explore the key features, capabilities, and how to start using this game-changing tool.&lt;/p&gt;
+
+&lt;p&gt;Runway’s Gen-3 Alpha Video-to-Video tool introduces several groundbreaking features that allow for easy, intuitive video transformation:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt; &lt;strong&gt;Text-to-Video Transformation&lt;/strong&gt;
+&lt;p&gt;One of the most notable aspects of this tool is its ability to modify video content based on user-provided text descriptions. For instance, with a prompt like &quot;change the background to a beach sunset,&quot; the AI alters the video scene accordingly while preserving the original subjects and actions. This makes it easier for creators to bring new ideas to life without needing advanced video editing skills.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt; &lt;strong&gt;Style Transfer&lt;/strong&gt;
+&lt;p&gt;With the Video-to-Video tool, users can apply different visual styles to their footage, allowing for experimentation with a wide range of aesthetics. From retro film grain to futuristic sci-fi looks, this feature enhances the creative flexibility of video projects, offering a quick way to change the entire atmosphere of a video.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt; &lt;strong&gt;Weather and Lighting Adjustments&lt;/strong&gt;
+&lt;p&gt;Runway’s new tool goes beyond basic editing by enabling users to adjust environmental conditions in their videos. Creators can introduce elements like rain, snow, or even change the time of day within a scene. This opens up exciting new storytelling possibilities, allowing users to craft dynamic and engaging content with just a few clicks.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt; &lt;strong&gt;Object Manipulation&lt;/strong&gt;
+&lt;p&gt;For content creators looking to enhance their videos with special effects or product placements, the Video-to-Video feature enables precise manipulation of objects within a frame. This includes adding, removing, or altering objects—ideal for fixing continuity issues, introducing new elements, or customizing the visual narrative of a project.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Gen-3 Alpha Video to Video is now available on web for all paid plans. Video to Video represents a new control mechanism for precise movement, expressiveness and intent within generations. To use Video to Video, simply upload your input video, prompt in any aesthetic direction… &lt;a href=&quot;https://t.co/ZjRwVPyqem&quot;&gt;pic.twitter.com/ZjRwVPyqem&lt;/a&gt;&lt;/p&gt;&amp;mdash; Runway (@runwayml) &lt;a href=&quot;https://twitter.com/runwayml/status/1834711758335779300?ref_src=twsrc%5Etfw&quot;&gt;September 13, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Getting started with Runway’s Gen-3 Alpha Video-to-Video feature is straightforward. Here’s a step-by-step guide:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; Upload Input Video: Begin by uploading the video you want to modify to Runway’s platform.&lt;/li&gt;
+&lt;li&gt; Prompt Aesthetic Direction: Once uploaded, you can enter a text prompt to direct the AI in modifying the video. Alternatively, users can select from preset styles that match their creative vision.&lt;/li&gt;
+&lt;li&gt; AI Processing: The AI analyzes the video frame by frame, identifying key elements such as subjects, lighting, and backgrounds. It then processes the footage based on the instructions, generating new frames that seamlessly integrate the changes with the original content.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The entire process is streamlined, making it accessible for both seasoned professionals and newcomers alike.&lt;/p&gt;
+
+&lt;h3&gt; Availability and Pricing &lt;/h3&gt;
+
+&lt;p&gt;Runway has made its Gen-3 Alpha Video-to-Video feature available on the web for all paid plans. Here are the details regarding costs and supported video durations:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; Cost: Pricing is based on video length, with videos 5 seconds or shorter costing 50 credits, and videos longer than 5 seconds costing 100 credits.&lt;/li&gt;
+&lt;li&gt; Supported Durations: Users can transform videos up to 10 seconds in length.&lt;/li&gt;
+&lt;li&gt; Platform: The feature is accessible via &lt;a href=&quot;https://www.testingcatalog.com/tag/runway/&quot;&gt;Runway&lt;/a&gt;’s web platform, making it convenient for users with paid plans to start transforming their videos immediately.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Runway’s Gen-3 Alpha Video-to-Video feature brings cutting-edge AI-driven video editing capabilities to a broader audience. Whether it’s changing a video’s style, manipulating objects, or adjusting environmental elements, this tool empowers creators to make impressive changes with minimal effort. With its simple interface and powerful AI, Runway’s latest offering promises to be a game-changer in video content creation, making professional-level edits accessible to everyone. To read more visit the official &amp;lt;a href=https://www.testingcatalog.com/runway-released-gen-3-alpha-video-to-video-feature-for-paid-plans/'&amp;gt;blog post&amp;lt;/a&amp;gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Runway has officially launched its Gen-3 Alpha Video-to-Video feature, which is now available on the web for all paid plans. This tool allows users to modify existing video content using simple text prompts.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Advancing AI Reasoning - A Look at OpenAI’s o1 Model</title>
+      <link href="http://localhost:4000/AdvReasoning" rel="alternate" type="text/html" title="Advancing AI Reasoning - A Look at OpenAI’s o1 Model" />
+      <published>2024-09-12T00:00:00+03:00</published>
+      <updated>2024-09-12T00:00:00+03:00</updated>
+      <id>http://localhost:4000/AdvReasoning</id>
+      <content type="html" xml:base="http://localhost:4000/AdvReasoning">&lt;p&gt; Artificial intelligence notes progress almost daily in architecture as well as in problem-solving and reasoning, but OpenAI’s latest model, o1, marks a significant leap forward. Designed to excel in complex reasoning tasks, the o1 model has achieved remarkable results in competitive programming, academic benchmarks, and real-world applications. This article explores the cutting-edge capabilities of o1, from its performance in math and science challenges to its proficiency in coding and human-like reasoning.&lt;/p&gt;
+
+&lt;h3&gt;The Power of o1: Breaking Benchmarks and Rivaling Experts&lt;/h3&gt;
+
+&lt;p&gt;OpenAI's o1 model outperforms its predecessors and rivals human experts in various fields, particularly in reasoning-heavy tasks. In math, for instance, o1 solved 74% of problems from the prestigious AIME exam, placing it among the top 500 high school students in the U.S. With additional techniques like consensus sampling and re-ranking, its accuracy reached an impressive 93%. This is a significant improvement over earlier models like GPT-4o, which only solved 12% of the same problems.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://images.ctfassets.net/kftzwdyauwt9/7rMY55vLbGTlTiP9GdSOrf/0944e1cde904e896bc5bc6f3da7f16b6/compute-dark.png?w=3840&amp;amp;q=80&amp;amp;fm=webp&quot; /&gt;
+&lt;figcaption&gt;o1 performance smoothly improves with both train-time and test-time compute&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In science, o1 excelled on the GPQA diamond benchmark, designed to test advanced knowledge in chemistry, physics, and biology. When compared to PhD experts, o1 surpassed their performance, becoming the first AI model to do so on this difficult test. However, OpenAI clarifies that o1’s results &lt;strong&gt;do not imply&lt;/strong&gt; it is superior to PhDs across the board, but it does outshine them in certain types of problem-solving and that it is expected to solve some problems that a PhD would be expected to solve.&lt;/p&gt;
+
+&lt;p&gt;The model’s coding abilities are equally impressive. In the 2024 International Olympiad in Informatics (IOI), o1 ranked in the 49th percentile among human competitors. When relaxed constraints allowed for 10,000 submissions per problem, the model scored above the gold medal threshold, showcasing its problem-solving agility in algorithmic challenges. Additionally, in simulated programming contests on Codeforces, o1 achieved an Elo rating of 1807, outperforming 93% of human participants, a remarkable feat in competitive programming.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://cdn.openai.com/reasoning-evals/v3/headline-desktop-dark.png?w=3840&amp;amp;q=90&amp;amp;fm=webp&quot; /&gt;
+&lt;figcaption&gt;o1 greatly improves over GPT-4o on challenging reasoning benchmarks. Solid bars show pass@1 accuracy and the shaded region shows the performance of majority vote (consensus) with 64 samples.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://cdn.openai.com/reasoning-evals/v3/breakdown-dark.png?w=3840&amp;amp;q=90&amp;amp;fm=webp&quot; /&gt;
+&lt;figcaption&gt;o1 improves over GPT-4o on a wide range of benchmarks, including 54/57 MMLU subcategories. Seven are shown for illustration.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3&gt;Reinforcement Learning and Chain of Thought: The Key to o1's Success&lt;/h3&gt;
+
+&lt;p&gt;Central to o1's reasoning advancements is its ability to leverage a &lt;i&gt;&quot;chain of thought&quot;&lt;/i&gt; process, similar to how humans think through complex problems. This process allows the model to break down difficult questions, refine its approaches, and correct mistakes over time. Reinforcement learning plays a crucial role in this, teaching the model how to think productively, which leads to consistent improvements in both training and test-time performance.&lt;/p&gt;
+
+&lt;p&gt;This &quot;chain of thought&quot; approach significantly improves the model's reasoning capabilities across tasks such as math, data analysis, and programming. For example, in open-ended evaluations, human trainers consistently preferred o1's responses over GPT-4o in areas that required deep reasoning. However, o1 is not perfect in all domains, as it struggled with some natural language tasks, suggesting it may not yet be universally applicable.&lt;/p&gt;
+
+&lt;h3&gt;Safety and Alignment: A Responsible Approach to AI Development&lt;/h3&gt;
+
+&lt;p&gt;Safety is a critical consideration in AI development, and OpenAI has integrated safety principles into o1’s chain of thought reasoning. By teaching the model safety rules and embedding these principles into its reasoning process, o1 has shown increased robustness in safety evaluations. It performed exceptionally well in tests designed to assess its resistance to harmful outputs, surpassing previous models like GPT-4o.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Metric&lt;/th&gt;
+    &lt;th&gt;GPT-4o&lt;/th&gt;
+    &lt;th&gt;o1-preview&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;% Safe completions on harmful prompts
+Standard&lt;/td&gt;
+    &lt;td&gt;0.990&lt;/td&gt;
+    &lt;td&gt;0.995&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;% Safe completions on harmful prompts
+Challenging: jailbreaks &amp;amp; edge cases&lt;/td&gt;
+    &lt;td&gt;0.714&lt;/td&gt;
+    &lt;td&gt;0.934&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;↳ Harassment (severe)&lt;/td&gt;
+    &lt;td&gt;0.845&lt;/td&gt;
+    &lt;td&gt;0.900&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;↳ Exploitative sexual content&lt;/td&gt;
+    &lt;td&gt;0.483&lt;/td&gt;
+    &lt;td&gt;0.949&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;↳ Sexual content involving minors&lt;/td&gt;
+    &lt;td&gt;0.707&lt;/td&gt;
+    &lt;td&gt;0.931&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;↳ Advice about non-violent wrongdoing&lt;/td&gt;
+    &lt;td&gt;0.688&lt;/td&gt;
+    &lt;td&gt;0.961&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;↳  Advice about violent wrongdoing&lt;/td&gt;
+    &lt;td&gt;0.778&lt;/td&gt;
+    &lt;td&gt;0.963&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;% Safe completions for top 200 with highest Moderation API scores per category in WildChat (&lt;a href=&quot;https://arxiv.org/abs/2405.01470&quot;&gt;Zhao, et al. 2024&lt;/a&gt;)&lt;/td&gt;
+    &lt;td&gt;0.945&lt;/td&gt;
+    &lt;td&gt;0.971&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Goodness@0.1 StrongREJECT jailbreak eval (&lt;a href=&quot;https://arxiv.org/abs/2402.10260&quot;&gt;Souly et al. 2024&lt;/a&gt;)&lt;/td&gt;
+    &lt;td&gt;0.220&lt;/td&gt;
+    &lt;td&gt;0.840&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Human sourced jailbreak eval&lt;/td&gt;
+    &lt;td&gt;0.770&lt;/td&gt;
+    &lt;td&gt;0.960&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;% Compliance on internal benign edge cases
+“not over-refusal”&lt;/td&gt;
+    &lt;td&gt;0.910&lt;/td&gt;
+    &lt;td&gt;0.930&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;% Compliance on benign edge cases in XSTest
+“not over-refusal” (&lt;a href=&quot;https://arxiv.org/abs/2308.01263&quot;&gt;Röttger, et al. 2023&lt;/a&gt;)&lt;/td&gt;
+    &lt;td&gt;0.924&lt;/td&gt;
+    &lt;td&gt;0.976&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;OpenAI has also introduced the concept of a &quot;hidden chain of thought,&quot; allowing for internal monitoring of the model’s thought processes without revealing them to users. This strategy provides a balance between transparency and safety, enabling developers to observe the model’s reasoning while preventing potential misuse or manipulation.&lt;/p&gt;
+
+&lt;p&gt;OpenAI’s o1 model sets a new standard for AI reasoning and problem-solving. By outperforming human experts in math, science, and coding benchmarks, and introducing innovative techniques like chain of thought reasoning, o1 demonstrates its potential to revolutionize a variety of fields. While still under development, this early release marks a significant step toward more aligned and capable AI systems, offering exciting possibilities for future applications in science, coding, and beyond.&lt;/p&gt;
+
+&lt;p&gt;As OpenAI continues to iterate on the o1 model, the advancements in reasoning and alignment are expected to unlock even more groundbreaking use cases. To read full article go to oficial &lt;a href=&quot;https://openai.com/index/learning-to-reason-with-llms/&quot;&gt;blog post.&amp;lt;/a&amp;lt;/p&amp;gt;
+&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Artificial intelligence notes progress almost daily in architecture as well as in problem-solving and reasoning, but OpenAI’s latest model, o1, marks a significant leap forward. Designed to excel in complex reasoning tasks, the o1 model has achieved remarkable results in competitive programming, academic benchmarks, and real-world applications. This article explores the cutting-edge capabilities of o1, from its performance in math and science challenges to its proficiency in coding and human-like reasoning.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">DataGemma - Grounding AI in Real-World Data to Combat Hallucinations</title>
@@ -397,64 +706,6 @@ What makes Illuminate especially valuable is its potential to make academic cont
     </entry>
   
     <entry>
-      <title type="html">Introducing LLaVA V1.5 7B on GroqCloud</title>
-      <link href="http://localhost:4000/GroqLlava" rel="alternate" type="text/html" title="Introducing LLaVA V1.5 7B on GroqCloud" />
-      <published>2024-08-27T00:00:00+03:00</published>
-      <updated>2024-08-27T00:00:00+03:00</updated>
-      <id>http://localhost:4000/GroqLlava</id>
-      <content type="html" xml:base="http://localhost:4000/GroqLlava">&lt;p&gt;Introducing LLaVA v1.5 7B: The Next Level of Multimodal AI on GroqCloud&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://console.groq.com/?_gl=1*1v016td*_ga*OTczMzMxMDEyLjE3MjU4NjM4OTU.*_ga_4TD0X2GEZG*MTcyNTg2MjYzNS4xLjEuMTcyNTg2Mzg4Ni42MC4wLjA.&quot;&gt;GroqCloud&lt;/a&gt; has launched &lt;a href=&quot;https://huggingface.co/liuhaotian/llava-v1.5-7b&quot;&gt;LLaVA v1.5 7B&lt;/a&gt;, a state-of-the-art multimodal AI model that combines language, vision, and auditory capabilities.&lt;/p&gt;
-
-&lt;p&gt;LLaVA stands for &lt;i&gt;Large Language and Vision Assistant&lt;/i&gt;, a powerful multimodal model that combines the strengths of language and vision. Based on OpenAI’s CLIP and a fine-tuned version of Meta’s Llama 2 7B model, LLaVA uses visual instruction tuning to support image-based natural instruction following and visual reasoning capabilities. This allows LLaVA to perform a range of tasks, including:
-
-&lt;ul&gt;
-&lt;li&gt; Visual question answering: answering questions based on image content&lt;/li&gt;
-&lt;li&gt; Caption generation: generating text descriptions of images&lt;/li&gt;
-&lt;li&gt; Optical Character Recognition: identifying text in image&lt;/li&gt;
-&lt;li&gt; Multimodal dialogue: engaging in conversations that involve both text and images&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;When trained in September 2023, LLaVA v1.5 achieved state-of-the-art performance on a total of 7 benchmarks, including 5 academic VQA benchmarks. This demonstrates the model’s exceptional capabilities in understanding and generating text based on visual inputs.&lt;/p&gt;
-
-&lt;p&gt;Use Cases and Industry Benefits LLaVA v1.5 7B can transform industries like retail, finance, education, and manufacturing. Retailers can monitor inventory using image recognition, customer service chatbots can handle text and image queries, and factory lines can automate defect detection. In education, it can assist students by analyzing diagrams and generating explanations.&lt;/p&gt;
-
-&lt;p&gt;Real-World Applications From visual question answering in retail to image captioning for accessibility, LLaVA v1.5 opens up endless possibilities. It can aid quality control on factory lines, automate finance audits by analyzing documents, or enhance the learning experience with detailed image explanations.&lt;/p&gt;
-
-&lt;p&gt;Get Started with GroqCloud LLaVA v1.5 7B is now available on the &lt;a href=&quot;https://console.groq.com/?_gl=1*1pu1tte*_ga*OTczMzMxMDEyLjE3MjU4NjM4OTU.*_ga_4TD0X2GEZG*MTcyNTg2MjYzNS4xLjEuMTcyNTg2Mzg4Ni42MC4wLjA.&quot;&gt;GroqCloud Developer Console&lt;/a&gt;, allowing developers to experiment with its multimodal capabilities. This release marks GroqCloud’s expansion into supporting three modalities—image, audio, and text—offering immense potential for building innovative, real-world applications.&lt;/p&gt;
-
-&lt;p&gt;The Future of Multimodal AI With LLaVA v1.5 7B, developers can push the boundaries of what’s possible by seamlessly integrating visual, auditory, and textual inputs, unlocking a future where AI can understand and generate complex multimodal interactions. Start building with LLaVA today on GroqCloud and lead the way in the AI revolution.&lt;/p&gt;
-
-&lt;p&gt;Check full official article from &lt;a href=&quot;https://groq.com/introducing-llava-v1-5-7b-on-groqcloud-unlocking-the-power-of-multimodal-ai/&quot;&gt;Groq blog&lt;/a&gt;.&lt;/p&gt;
-&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">Introducing LLaVA v1.5 7B: The Next Level of Multimodal AI on GroqCloud</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">Introducing Cerebras Inference - AI at Instant Speed</title>
       <link href="http://localhost:4000/cerebras" rel="alternate" type="text/html" title="Introducing Cerebras Inference - AI at Instant Speed" />
       <published>2024-08-27T00:00:00+03:00</published>
@@ -490,163 +741,6 @@ What makes Illuminate especially valuable is its potential to make academic cont
 
       
         <summary type="html">Cerebras has unveiled its new AI inference solution, claiming it to be the fastest in the world, outpacing NVIDIA GPU-based clouds by 20 times and delivering industry-leading cost efficiency.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Revolutionizing Enterprise Applications with NVIDIA’s NIM Agent Blueprints</title>
-      <link href="http://localhost:4000/Prototype2Prompt" rel="alternate" type="text/html" title="Revolutionizing Enterprise Applications with NVIDIA's NIM Agent Blueprints" />
-      <published>2024-08-27T00:00:00+03:00</published>
-      <updated>2024-08-27T00:00:00+03:00</updated>
-      <id>http://localhost:4000/Prototype2Prompt</id>
-      <content type="html" xml:base="http://localhost:4000/Prototype2Prompt">&lt;p&gt; &lt;a href=&quot;https://www.nvidia.com/en-us/ai-data-science/ai-workflows/&quot;&gt;NVIDIA's NIM Agent Blueprints&lt;/a&gt; empower enterprises to build and deploy customized generative AI applications, driving business transformation and innovation across industries.&lt;/p&gt;
-
-&lt;p&gt; The generative AI landscape is evolving rapidly, moving from simple tools for content creation to sophisticated, enterprise-level applications powered by advanced open-source models like Google Gemma, Llama 3.1, and Microsoft Phi. The introduction of NVIDIA's NIM Agent Blueprints marks a significant step forward in this transformation, offering enterprises a comprehensive toolkit to develop customized AI applications that drive business growth and efficiency.&lt;/p&gt;
-
-&lt;p&gt; NVIDIA’s NIM Agent Blueprints are tailored AI workflows designed for specific business use cases, such as customer service chatbots, drug discovery, and enterprise data extraction. These blueprints provide developers with reference applications, code, and documentation, making it easier to build and deploy generative AI solutions. Importantly, the blueprints are not static; they enable continuous improvement through data-driven feedback loops, enhancing AI models over time.&lt;/p&gt;
-
-&lt;p&gt; The impact of NIM Agent Blueprints extends across industries, enabling enterprises to integrate AI into their workflows with greater ease and efficiency. Companies like ServiceNow are already leveraging these tools to enhance their digital platforms, driving significant AI-driven transformation. NVIDIA’s extensive ecosystem, including partners like Accenture, Deloitte, and global cloud providers, supports the deployment and optimization of these blueprints, ensuring they are scalable and effective across various business environments.&lt;/p&gt;
-
-&lt;p&gt; The first NIM Agent Blueprints available are:
-&lt;ul&gt;
-&lt;li&gt; digital human for customer service&lt;/li&gt;
-&lt;li&gt; generative virtual screening for accelerated drug discovery&lt;/li&gt;
-&lt;li&gt; multimodal PDF data extraction for enterprise RAG&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
-&lt;p&gt; As generative AI continues to advance, the collaboration between developers and data scientists becomes increasingly vital. NIM Agent Blueprints facilitate this collaboration, enabling teams to build, refine, and scale AI applications that not only meet today’s business needs but also adapt to future challenges. With continuous updates and a robust support network, NVIDIA’s NIM Agent Blueprints are set to become a cornerstone in the next phase of enterprise AI innovation, helping companies across the globe harness the full potential of generative AI.&lt;/p&gt;
-
-&lt;p&gt; To further dig deeper on the topic check full NVIDIA's blog article &lt;a href=&quot;https://blogs.nvidia.com/blog/nim-agent-blueprints/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">NVIDIA's NIM Agent Blueprints empower enterprises to build and deploy customized generative AI applications, driving business transformation and innovation across industries.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">The Jamba 1.5 Open Model Family-The Most Powerful and Efficient Long Context Models</title>
-      <link href="http://localhost:4000/JambaFamilyModels" rel="alternate" type="text/html" title="The Jamba 1.5 Open Model Family-The Most Powerful and Efficient Long Context Models" />
-      <published>2024-08-22T00:00:00+03:00</published>
-      <updated>2024-08-22T00:00:00+03:00</updated>
-      <id>http://localhost:4000/JambaFamilyModels</id>
-      <content type="html" xml:base="http://localhost:4000/JambaFamilyModels">&lt;p&gt; AI21 Labs has introduced the Jamba 1.5 family of models, designed to revolutionize enterprise-level AI with unmatched speed, efficiency, and quality. The models, Jamba 1.5 Mini and Jamba 1.5 Large, are built on the novel SSM-Transformer architecture, providing a massive 256K context window— the longest among open models—along with superior long-context handling and rapid processing speeds. The Jamba models are particularly suited for enterprise applications like document analysis and Retrieval Augmented Generation (RAG), excelling in both quality and cost efficiency.&lt;/p&gt;
-
-&lt;p&gt;Key Highlights:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt; &lt;strong&gt;Unrivaled Context Handling&lt;/strong&gt;: Jamba 1.5 models can manage up to 256K tokens, ensuring consistent performance across long contexts. This capability is vital for complex tasks like document summarization, reducing the need for frequent data chunking and retrievals. 
-&lt;img src=&quot;https://cdn.prod.website-files.com/60fd4503684b46390cc0d337/66c71115e631b0aa4bd06a97_66c710b9ad8290acfdc52f48_CW.png&quot; /&gt;
-&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Speed and Efficiency&lt;/strong&gt;: Both models are up to 2.5X faster in long-context processing compared to competitors. This speed is crucial for high-demand enterprise applications, ensuring that the models can scale efficiently with business needs.
-&lt;img src=&quot;https://cdn.prod.website-files.com/60fd4503684b46390cc0d337/66c71115e631b0aa4bd06a87_66c710cb7314119d3e21d680_Latency.png&quot; /&gt;
-&lt;img src=&quot;https://cdn.prod.website-files.com/60fd4503684b46390cc0d337/66c72337cc7cfd6770f21337_66c72247cbaac1cb8b65e1c5_image.png&quot; /&gt;
-&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Quality Performance&lt;/strong&gt;: Jamba 1.5 Mini outperforms models in its size class on benchmarks like Arena Hard, while Jamba 1.5 Large surpasses even the most advanced models, including Llama 3.1 70B and 405B. These models deliver top-tier quality and speed, making them a cost-effective solution for enterprises.
-&lt;img src=&quot;https://cdn.prod.website-files.com/60fd4503684b46390cc0d337/66c71115e631b0aa4bd06a8d_66c7110a035ebd88291a78f7_Mini%2520Quality.png&quot; /&gt;
-&lt;img src=&quot;https://cdn.prod.website-files.com/60fd4503684b46390cc0d337/66c71115e631b0aa4bd06a8a_66c710fef9b0bf20ca3b8f14_Large%2520Quality.png&quot; /&gt;
-&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Multilingual Capabilities&lt;/strong&gt;: Beyond English, Jamba 1.5 models support several languages, including Spanish, French, and Arabic, among others, making them versatile for global applications.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Developer-Ready&lt;/strong&gt;: The models natively support advanced features such as structured JSON output and function calling, and are available for download on platforms like Hugging Face.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Advanced Architecture&lt;/strong&gt;: The SSM-Transformer design combines the quality of Transformer models with the efficiency of AI21's Mamba framework. This design allows Jamba 1.5 models to handle extensive contexts with a lower memory footprint, even on single GPUs.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Quantization Breakthrough&lt;/strong&gt;: AI21 introduces ExpertsInt8, a novel quantization technique that reduces model size and enhances performance without sacrificing quality. This innovation enables the Jamba 1.5 Large model to fit on an 8-GPU node while maintaining its full 256K context capacity.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;AI21 Labs' Jamba 1.5 models set a new standard in AI performance, particularly for enterprise applications where speed, efficiency, and accuracy are paramount. These models are readily available on various cloud platforms, with more integrations on the horizon, ensuring broad accessibility for developers and businesses alike.&lt;/p&gt;
-
-&lt;p&gt; You can read full report from the official announcement &lt;a href=&quot;https://www.ai21.com/blog/announcing-jamba-model-family&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">AI21 Labs has introduced the Jamba 1.5 family of models, designed to revolutionize enterprise-level AI with unmatched speed, efficiency, and quality. The models, Jamba 1.5 Mini and Jamba 1.5 Large, are built on the novel SSM-Transformer architecture, providing a massive 256K context window— the longest among open models—along with superior long-context handling and rapid processing speeds. The Jamba models are particularly suited for enterprise applications like document analysis and Retrieval Augmented Generation (RAG), excelling in both quality and cost efficiency.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Enhancing retrieval augmented generation through drafting</title>
-      <link href="http://localhost:4000/SpeculativeRAGGoogle" rel="alternate" type="text/html" title="Enhancing retrieval augmented generation through drafting" />
-      <published>2024-08-21T00:00:00+03:00</published>
-      <updated>2024-08-21T00:00:00+03:00</updated>
-      <id>http://localhost:4000/SpeculativeRAGGoogle</id>
-      <content type="html" xml:base="http://localhost:4000/SpeculativeRAGGoogle">&lt;p&gt; In the evolving landscape of AI, large language models (LLMs) have become essential for generating human-like text. However, these models often struggle with accuracy, particularly when tasked with answering complex, knowledge-intensive questions. This challenge has given rise to Retrieval Augmented Generation (RAG) systems, which combine LLMs with external knowledge retrieval to improve the factual accuracy of responses. While RAG enhances accuracy, it comes with trade-offs in efficiency, especially when dealing with large amounts of retrieved data that require complex reasoning.&lt;/p&gt;
-
-&lt;p&gt;To address this, a novel framework called &lt;strong&gt;Speculative RAG&lt;/strong&gt; has been introduced. This approach optimizes the balance between accuracy and efficiency by leveraging a two-step process: drafting and verification. The process begins with a smaller, specialized LLM—referred to as the &lt;i&gt;RAG drafter&lt;/i&gt;—that generates multiple draft responses based on retrieved documents. These drafts are then fed into a larger, &lt;i&gt;generalist LLM&lt;/i&gt;—acting as the verifier—to select the most accurate and contextually appropriate response.&lt;/p&gt;
-
-&lt;p&gt;Speculative RAG employs a technique known as speculative decoding, which speeds up the inference process by allowing the specialist LLM to generate multiple drafts simultaneously. This method not only reduces the computational load on the larger LLM but also ensures that the final output is both accurate and efficient.&lt;/p&gt;
-
-&lt;p&gt;For instance, when asked a question like &quot;Which actress starred as Doralee Rhodes in the 1980 film Nine to Five?&quot;, the RAG system retrieves relevant documents from its knowledge base. The specialist drafter quickly generates several possible answers, each backed by its rationale. The generalist verifier then assesses these drafts, filtering out any inaccuracies—such as information mistakenly drawn from a related but incorrect source, like the Nine to Five musical—and selects the correct answer.&lt;/p&gt;
-
-&lt;p&gt;The effectiveness of Speculative RAG is demonstrated through rigorous benchmarking against standard RAG systems across datasets such as &lt;a href=&quot;https://aclanthology.org/P17-1147/&quot;&gt;TriviaQA&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/abs/2108.00573&quot;&gt;MuSiQue&lt;/a&gt;, &lt;a href=&quot;https://github.com/neemakot/Health-Fact-Checking&quot;&gt;PubHealth&lt;/a&gt;, and &lt;a href=&quot;https://allenai.org/data/arc&quot;&gt;ARC-Challenge&lt;/a&gt;. Results show that Speculative RAG not only achieves higher accuracy—outperforming traditional methods by up to 12.97% on some datasets—but also significantly reduces latency, cutting response times by as much as 51%. This dual improvement in both speed and accuracy represents a significant leap forward in the performance of RAG systems.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/gweb-research2023-media/images/Speculative_RAG_img2.width-800.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The success of Speculative RAG underscores the potential of collaborative AI architectures, where tasks are intelligently divided between specialized and generalist models. By offloading specific tasks to models optimized for those functions, Speculative RAG provides a robust framework for enhancing the quality of AI-generated content while maintaining efficiency. As AI continues to evolve, such innovations will be crucial in developing systems that are not only powerful but also reliable and quick, paving the way for more sophisticated and responsive AI applications.&lt;/p&gt;
-
-&lt;p&gt; You can read Google's research full blog post &lt;a href=&quot;https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/&quot;&gt;here&lt;/a&gt; or you can check our the &lt;a href=&quot;https://arxiv.org/pdf/2407.08223&quot;&gt;official paper&lt;/a&gt; published related to the topic.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">In the evolving landscape of AI, large language models (LLMs) have become essential for generating human-like text. However, these models often struggle with accuracy, particularly when tasked with answering complex, knowledge-intensive questions. This challenge has given rise to Retrieval Augmented Generation (RAG) systems, which combine LLMs with external knowledge retrieval to improve the factual accuracy of responses. While RAG enhances accuracy, it comes with trade-offs in efficiency, especially when dealing with large amounts of retrieved data that require complex reasoning.</summary>
       
 
       

@@ -1,4 +1,185 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-24T13:23:49+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kavour</title><subtitle>Data Science and AI News</subtitle><entry><title type="html">DataGemma - Grounding AI in Real-World Data to Combat Hallucinations</title><link href="http://localhost:4000/GoogleDataGemma" rel="alternate" type="text/html" title="DataGemma - Grounding AI in Real-World Data to Combat Hallucinations" /><published>2024-09-12T00:00:00+03:00</published><updated>2024-09-12T00:00:00+03:00</updated><id>http://localhost:4000/GoogleDataGemma</id><content type="html" xml:base="http://localhost:4000/GoogleDataGemma">&lt;p&gt;Large Language Models (LLMs) have revolutionized the AI landscape by providing powerful tools for generating human-like text, answering complex questions, and assisting with tasks like summarization and code generation. However, these models sometimes produce inaccurate information with confidence, a phenomenon known as &quot;hallucination.&quot; Addressing this issue is critical for enhancing AI reliability. Enter &lt;a href=&quot;https://ai.google.dev/gemma&quot;&gt;DataGemma&lt;/a&gt;, the first open model designed to reduce hallucinations by grounding LLMs in real-world statistical data from Google’s vast &lt;a href=&quot;https://datacommons.org/&quot;&gt;Data Commons&lt;/a&gt;. This article explores how DataGemma leverages the power of trusted data sources to improve the factual accuracy and reasoning of LLMs.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-26T13:28:44+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kavour</title><subtitle>Data Science and AI News</subtitle><entry><title type="html">Empowering YouTube creators with generative AI</title><link href="http://localhost:4000/EmpYoutube" rel="alternate" type="text/html" title="Empowering YouTube creators with generative AI" /><published>2024-09-18T00:00:00+03:00</published><updated>2024-09-18T00:00:00+03:00</updated><id>http://localhost:4000/EmpYoutube</id><content type="html" xml:base="http://localhost:4000/EmpYoutube">&lt;p&gt;YouTube is aiming to change that through the introduction of advanced generative AI tools that will help millions of creators realize their creative visions. By integrating cutting-edge AI models into its platform, YouTube aims to make video generation more accessible and intuitive, particularly through its YouTube Shorts feature.&lt;/p&gt;
+
+&lt;video class=&quot;gdm-video-embed__player&quot; muted=&quot;&quot; playsinline=&quot;&quot; loop=&quot;&quot; data-autoplay=&quot;true&quot; autoplay=&quot;&quot;&gt;
+    &lt;source src=&quot;https://deepmind.google/api/blob/website/media/Veo_CreationMediaPicker.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;p&gt;YouTube is introducing &lt;a href=&quot;https://blog.youtube/news-and-events/made-on-youtube-2024&quot;&gt;Dream Screen&lt;/a&gt;, a new feature that allows creators to generate dynamic video content for Shorts using two advanced AI models—&lt;a href=&quot;https://deepmind.google/technologies/veo/&quot;&gt;Veo&lt;/a&gt; and &lt;a href=&quot;https://deepmind.google/technologies/imagen-3/&quot;&gt;Imagen 3&lt;/a&gt;. These models, built upon Google's decade-long innovation in &lt;a href=&quot;https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/&quot;&gt;Transformer architecture&lt;/a&gt; and diffusion models, have been refined for large-scale use. Dream Screen allows creators to input text prompts, generating four distinct images from which they can choose their preferred visual style. From there, Veo transforms the selected image into a high-quality, six-second video clip. These AI-generated video clips will initially be available for use as backgrounds, with standalone six-second video generation rolling out in 2025.&lt;/p&gt;
+
+&lt;p&gt;By launching these generative AI tools, YouTube is enhancing creative possibilities for its vast user base. The company hopes these innovations will inspire creators to bring their ideas to life in vivid and transformative ways. In addition to ensuring accessibility, YouTube is committed to transparency by labeling AI-generated content with watermarks and notifications. These advancements mark a significant step forward in democratizing creativity, empowering creators globally to push the boundaries of their imagination. To read more click &lt;a href=&quot;https://deepmind.google/discover/blog/empowering-youtube-creators-with-generative-ai/?utm_source=x&amp;amp;utm_medium=social&amp;amp;utm_campaign=&amp;amp;utm_content=&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">YouTube is aiming to change that through the introduction of advanced generative AI tools that will help millions of creators realize their creative visions. By integrating cutting-edge AI models into its platform, YouTube aims to make video generation more accessible and intuitive, particularly through its YouTube Shorts feature.</summary></entry><entry><title type="html">Open Source Generative AI Platform by Together AI</title><link href="http://localhost:4000/Llamacoder" rel="alternate" type="text/html" title="Open Source Generative AI Platform by Together AI" /><published>2024-09-18T00:00:00+03:00</published><updated>2024-09-18T00:00:00+03:00</updated><id>http://localhost:4000/Llamacoder</id><content type="html" xml:base="http://localhost:4000/Llamacoder">&lt;p&gt; &lt;a href=&quot;https://www.together.ai/&quot;&gt;Together AI&lt;/a&gt;, a leading AI acceleration cloud, is transforming the way developers and businesses design, develop, and manage generative AI applications. By focusing on open-source models like &lt;a href=&quot;https://www.llama.com/&quot;&gt;Llama&lt;/a&gt;, Together AI is enabling developers to seamlessly navigate the entire AI lifecycle with tools that are both accessible and powerful. With the launch of innovative applications like &lt;a href=&quot;https://llamacoder.together.ai/&quot;&gt;LlamaCoder&lt;/a&gt;, the company continues to push the boundaries of what open-source generative AI can achieve.&lt;/p&gt;
+
+&lt;p&gt;To inspire developers working with Llama models, Together AI created LlamaCoder, an open-source web application that generates full applications from simple text prompts using the Llama 3.1 405B model. Since its release, LlamaCoder has gained rapid popularity, with more than 200,000 apps generated and over 2,000 GitHub stars. This success highlights the potential of Llama 3.1 405B, the first open-source model to excel at coding-based use cases. Developers have used LlamaCoder to create a range of applications, including quiz apps, pomodoro timers, and budgeting tools, demonstrating the model’s versatility and power.&lt;/p&gt;
+
+&lt;p&gt;In addition to LlamaCoder, Together AI has also developed other example apps using Llama 3.1, such as &lt;a href=&quot;https://llamatutor.together.ai/&quot;&gt;LlamaTutor&lt;/a&gt; for learning and &lt;a href=&quot;https://www.turboseek.io/&quot;&gt;TurboSeek&lt;/a&gt;, an AI-powered search engine. These applications showcase the extensive capabilities of the Llama models, which rival closed-source models while maintaining robust safety features for responsible development.&lt;/p&gt;
+
+&lt;video class=&quot;gdm-video-embed__player&quot; muted=&quot;&quot; playsinline=&quot;&quot; loop=&quot;&quot; data-autoplay=&quot;true&quot; autoplay=&quot;&quot;&gt;
+    &lt;source src=&quot;https://video.fath7-1.fna.fbcdn.net/o1/v/t2/f2/m69/AQPsmAks9NYq2Exz3Q9ipg8z8OSFrGOZ4-feeJNtDRttY4W0Ln48hJy6bDsH7pJ2ayMUG-8N_hYAA2V1tmtzpIOs.mp4?efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&amp;amp;_nc_ht=video.fath7-1.fna.fbcdn.net&amp;amp;_nc_cat=100&amp;amp;strext=1&amp;amp;vs=1352f9b7ee1846d2&amp;amp;_nc_vs=HBkcFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HTWRhYWh0aDlPU0hHNWdCQUxpZFNwYWV2UlFkYm1kakFBQUYVAALIAQBLB4gScHJvZ3Jlc3NpdmVfcmVjaXBlATENc3Vic2FtcGxlX2ZwcwAQdm1hZl9lbmFibGVfbnN1YgAgbWVhc3VyZV9vcmlnaW5hbF9yZXNvbHV0aW9uX3NzaW0AKGNvbXB1dGVfc3NpbV9vbmx5X2F0X29yaWdpbmFsX3Jlc29sdXRpb24AHXVzZV9sYW5jem9zX2Zvcl92cW1fdXBzY2FsaW5nABFkaXNhYmxlX3Bvc3RfcHZxcwAVACUAHIwXQAAAAAAAAAAREQAAACbAw4v_pOaIBRUCKAJDMxgLdnRzX3ByZXZpZXccF0BAk5WBBiTdGBlkYXNoX2gyNjQtYmFzaWMtZ2VuMl83MjBwEgAYGHZpZGVvcy52dHMuY2FsbGJhY2sucHJvZDgSVklERU9fVklFV19SRVFVRVNUGwqIFW9lbV90YXJnZXRfZW5jb2RlX3RhZwZvZXBfaGQTb2VtX3JlcXVlc3RfdGltZV9tcwEwDG9lbV9jZmdfcnVsZQd1bm11dGVkE29lbV9yb2lfcmVhY2hfY291bnQDOTk3EW9lbV9pc19leHBlcmltZW50AAxvZW1fdmlkZW9faWQPODY5NjA1MDU1MTM0NDIwEm9lbV92aWRlb19hc3NldF9pZA80MTIyMDc2MDg1NTk4ODgVb2VtX3ZpZGVvX3Jlc291cmNlX2lkEDE0MjY3MjQzODEzNTYyNTYcb2VtX3NvdXJjZV92aWRlb19lbmNvZGluZ19pZA84Mzc1NDQwNTE5MTQ3NDkOdnRzX3JlcXVlc3RfaWQAJQIcACW-ARsHiAFzBDkyMDQCY2QKMjAyNC0wOS0xNwNyY2IDOTAwA2FwcAVWaWRlbwJjdBFDTVNfTUVESUFfTUFOQUdFUhNvcmlnaW5hbF9kdXJhdGlvbl9zCTMzLjEzMzMzMwJ0cxVwcm9ncmVzc2l2ZV9lbmNvZGluZ3MA&amp;amp;ccb=9-4&amp;amp;oh=00_AYDGX13YwRdhTcLpLp10vqWSwagUlMQ06M72ImpDH8FhZg&amp;amp;oe=66F71DBF&amp;amp;_nc_sid=1d576d&amp;amp;_nc_rid=860686001678256&amp;amp;_nc_store_type=1&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;p&gt;With more than 150,000 developers and companies using the Together AI platform, the applications for Llama models are expanding across industries—from gaming to customer service and AI-driven benchmarks. The platform’s advanced inference engine, powered by technologies like &lt;a href=&quot;https://arxiv.org/html/2407.08608v1&quot;&gt;FlashAttention-3 kernels&lt;/a&gt; and RedPajama-based speculators, ensures unmatched performance and cost-efficiency for generative AI applications. Together AI’s commitment to open-source innovation is driving the rapid adoption of its platform, allowing developers and enterprises to maintain control over their data and models while fostering faster technological advancements. Find out more &lt;a href=&quot;https://ai.meta.com/blog/together-ai-llamacoder/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">Together AI, a leading AI acceleration cloud, is transforming the way developers and businesses design, develop, and manage generative AI applications. By focusing on open-source models like Llama, Together AI is enabling developers to seamlessly navigate the entire AI lifecycle with tools that are both accessible and powerful. With the launch of innovative applications like LlamaCoder, the company continues to push the boundaries of what open-source generative AI can achieve.</summary></entry><entry><title type="html">Runway’s Gen-3 Alpha Video-to-Video</title><link href="http://localhost:4000/Vid2VidRunaway" rel="alternate" type="text/html" title="Runway’s Gen-3 Alpha Video-to-Video" /><published>2024-09-14T00:00:00+03:00</published><updated>2024-09-14T00:00:00+03:00</updated><id>http://localhost:4000/Vid2VidRunaway</id><content type="html" xml:base="http://localhost:4000/Vid2VidRunaway">&lt;p&gt;Runway has officially launched its Gen-3 Alpha Video-to-Video feature, which is now available on the web for all paid plans. This tool allows users to modify existing video content using simple text prompts.&lt;/p&gt;
+
+&lt;p&gt;In the rapidly evolving world of AI-powered creativity, Runway has once again pushed the boundaries with the launch of its Gen-3 Alpha Video-to-Video feature. This innovative tool enables users to transform existing videos through simple text prompts, unlocking a new realm of creative possibilities. Whether it’s changing the weather, altering a scene’s style, or manipulating objects within a frame, Runway’s latest offering brings advanced video editing capabilities to anyone with a paid subscription. Let’s explore the key features, capabilities, and how to start using this game-changing tool.&lt;/p&gt;
+
+&lt;p&gt;Runway’s Gen-3 Alpha Video-to-Video tool introduces several groundbreaking features that allow for easy, intuitive video transformation:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt; &lt;strong&gt;Text-to-Video Transformation&lt;/strong&gt;
+&lt;p&gt;One of the most notable aspects of this tool is its ability to modify video content based on user-provided text descriptions. For instance, with a prompt like &quot;change the background to a beach sunset,&quot; the AI alters the video scene accordingly while preserving the original subjects and actions. This makes it easier for creators to bring new ideas to life without needing advanced video editing skills.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt; &lt;strong&gt;Style Transfer&lt;/strong&gt;
+&lt;p&gt;With the Video-to-Video tool, users can apply different visual styles to their footage, allowing for experimentation with a wide range of aesthetics. From retro film grain to futuristic sci-fi looks, this feature enhances the creative flexibility of video projects, offering a quick way to change the entire atmosphere of a video.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt; &lt;strong&gt;Weather and Lighting Adjustments&lt;/strong&gt;
+&lt;p&gt;Runway’s new tool goes beyond basic editing by enabling users to adjust environmental conditions in their videos. Creators can introduce elements like rain, snow, or even change the time of day within a scene. This opens up exciting new storytelling possibilities, allowing users to craft dynamic and engaging content with just a few clicks.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt; &lt;strong&gt;Object Manipulation&lt;/strong&gt;
+&lt;p&gt;For content creators looking to enhance their videos with special effects or product placements, the Video-to-Video feature enables precise manipulation of objects within a frame. This includes adding, removing, or altering objects—ideal for fixing continuity issues, introducing new elements, or customizing the visual narrative of a project.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Gen-3 Alpha Video to Video is now available on web for all paid plans. Video to Video represents a new control mechanism for precise movement, expressiveness and intent within generations. To use Video to Video, simply upload your input video, prompt in any aesthetic direction… &lt;a href=&quot;https://t.co/ZjRwVPyqem&quot;&gt;pic.twitter.com/ZjRwVPyqem&lt;/a&gt;&lt;/p&gt;&amp;mdash; Runway (@runwayml) &lt;a href=&quot;https://twitter.com/runwayml/status/1834711758335779300?ref_src=twsrc%5Etfw&quot;&gt;September 13, 2024&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Getting started with Runway’s Gen-3 Alpha Video-to-Video feature is straightforward. Here’s a step-by-step guide:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; Upload Input Video: Begin by uploading the video you want to modify to Runway’s platform.&lt;/li&gt;
+&lt;li&gt; Prompt Aesthetic Direction: Once uploaded, you can enter a text prompt to direct the AI in modifying the video. Alternatively, users can select from preset styles that match their creative vision.&lt;/li&gt;
+&lt;li&gt; AI Processing: The AI analyzes the video frame by frame, identifying key elements such as subjects, lighting, and backgrounds. It then processes the footage based on the instructions, generating new frames that seamlessly integrate the changes with the original content.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The entire process is streamlined, making it accessible for both seasoned professionals and newcomers alike.&lt;/p&gt;
+
+&lt;h3&gt; Availability and Pricing &lt;/h3&gt;
+
+&lt;p&gt;Runway has made its Gen-3 Alpha Video-to-Video feature available on the web for all paid plans. Here are the details regarding costs and supported video durations:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; Cost: Pricing is based on video length, with videos 5 seconds or shorter costing 50 credits, and videos longer than 5 seconds costing 100 credits.&lt;/li&gt;
+&lt;li&gt; Supported Durations: Users can transform videos up to 10 seconds in length.&lt;/li&gt;
+&lt;li&gt; Platform: The feature is accessible via &lt;a href=&quot;https://www.testingcatalog.com/tag/runway/&quot;&gt;Runway&lt;/a&gt;’s web platform, making it convenient for users with paid plans to start transforming their videos immediately.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Runway’s Gen-3 Alpha Video-to-Video feature brings cutting-edge AI-driven video editing capabilities to a broader audience. Whether it’s changing a video’s style, manipulating objects, or adjusting environmental elements, this tool empowers creators to make impressive changes with minimal effort. With its simple interface and powerful AI, Runway’s latest offering promises to be a game-changer in video content creation, making professional-level edits accessible to everyone. To read more visit the official &amp;lt;a href=https://www.testingcatalog.com/runway-released-gen-3-alpha-video-to-video-feature-for-paid-plans/'&amp;gt;blog post&amp;lt;/a&amp;gt;.&lt;/p&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">Runway has officially launched its Gen-3 Alpha Video-to-Video feature, which is now available on the web for all paid plans. This tool allows users to modify existing video content using simple text prompts.</summary></entry><entry><title type="html">Breaking reCAPTCHAv2</title><link href="http://localhost:4000/reCaptcha" rel="alternate" type="text/html" title="Breaking reCAPTCHAv2" /><published>2024-09-13T00:00:00+03:00</published><updated>2024-09-13T00:00:00+03:00</updated><id>http://localhost:4000/reCaptcha</id><content type="html" xml:base="http://localhost:4000/reCaptcha">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Our work examines the efficacy of employing advanced machine learning methods to solve captchas from Google's reCAPTCHAv2 system. We evaluate the effectiveness of automated systems in solving captchas by utilizing advanced YOLO models for image segmentation and classification. Our main result is that we can solve 100% of the captchas, while previous work only solved 68-71%. Furthermore, our findings suggest that there is no significant difference in the number of challenges humans and bots must solve to pass the captchas in reCAPTCHAv2. This implies that current AI technologies can exploit advanced image-based captchas. We also look under the hood of reCAPTCHAv2, and find evidence that reCAPTCHAv2 is heavily based on cookie and browser history data when evaluating whether a user is human or not. The code is provided alongside this paper.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Plesner,+A&quot;&gt;Andreas Plesner&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Vontobel,+T&quot;&gt;Tobias Vontobel&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wattenhofer,+R&quot;&gt;Roger Wattenhofer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.08831&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="research" /><summary type="html">Abstract</summary></entry><entry><title type="html">Advancing AI Reasoning - A Look at OpenAI’s o1 Model</title><link href="http://localhost:4000/AdvReasoning" rel="alternate" type="text/html" title="Advancing AI Reasoning - A Look at OpenAI’s o1 Model" /><published>2024-09-12T00:00:00+03:00</published><updated>2024-09-12T00:00:00+03:00</updated><id>http://localhost:4000/AdvReasoning</id><content type="html" xml:base="http://localhost:4000/AdvReasoning">&lt;p&gt; Artificial intelligence notes progress almost daily in architecture as well as in problem-solving and reasoning, but OpenAI’s latest model, o1, marks a significant leap forward. Designed to excel in complex reasoning tasks, the o1 model has achieved remarkable results in competitive programming, academic benchmarks, and real-world applications. This article explores the cutting-edge capabilities of o1, from its performance in math and science challenges to its proficiency in coding and human-like reasoning.&lt;/p&gt;
+
+&lt;h3&gt;The Power of o1: Breaking Benchmarks and Rivaling Experts&lt;/h3&gt;
+
+&lt;p&gt;OpenAI's o1 model outperforms its predecessors and rivals human experts in various fields, particularly in reasoning-heavy tasks. In math, for instance, o1 solved 74% of problems from the prestigious AIME exam, placing it among the top 500 high school students in the U.S. With additional techniques like consensus sampling and re-ranking, its accuracy reached an impressive 93%. This is a significant improvement over earlier models like GPT-4o, which only solved 12% of the same problems.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://images.ctfassets.net/kftzwdyauwt9/7rMY55vLbGTlTiP9GdSOrf/0944e1cde904e896bc5bc6f3da7f16b6/compute-dark.png?w=3840&amp;amp;q=80&amp;amp;fm=webp&quot; /&gt;
+&lt;figcaption&gt;o1 performance smoothly improves with both train-time and test-time compute&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In science, o1 excelled on the GPQA diamond benchmark, designed to test advanced knowledge in chemistry, physics, and biology. When compared to PhD experts, o1 surpassed their performance, becoming the first AI model to do so on this difficult test. However, OpenAI clarifies that o1’s results &lt;strong&gt;do not imply&lt;/strong&gt; it is superior to PhDs across the board, but it does outshine them in certain types of problem-solving and that it is expected to solve some problems that a PhD would be expected to solve.&lt;/p&gt;
+
+&lt;p&gt;The model’s coding abilities are equally impressive. In the 2024 International Olympiad in Informatics (IOI), o1 ranked in the 49th percentile among human competitors. When relaxed constraints allowed for 10,000 submissions per problem, the model scored above the gold medal threshold, showcasing its problem-solving agility in algorithmic challenges. Additionally, in simulated programming contests on Codeforces, o1 achieved an Elo rating of 1807, outperforming 93% of human participants, a remarkable feat in competitive programming.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://cdn.openai.com/reasoning-evals/v3/headline-desktop-dark.png?w=3840&amp;amp;q=90&amp;amp;fm=webp&quot; /&gt;
+&lt;figcaption&gt;o1 greatly improves over GPT-4o on challenging reasoning benchmarks. Solid bars show pass@1 accuracy and the shaded region shows the performance of majority vote (consensus) with 64 samples.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;https://cdn.openai.com/reasoning-evals/v3/breakdown-dark.png?w=3840&amp;amp;q=90&amp;amp;fm=webp&quot; /&gt;
+&lt;figcaption&gt;o1 improves over GPT-4o on a wide range of benchmarks, including 54/57 MMLU subcategories. Seven are shown for illustration.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3&gt;Reinforcement Learning and Chain of Thought: The Key to o1's Success&lt;/h3&gt;
+
+&lt;p&gt;Central to o1's reasoning advancements is its ability to leverage a &lt;i&gt;&quot;chain of thought&quot;&lt;/i&gt; process, similar to how humans think through complex problems. This process allows the model to break down difficult questions, refine its approaches, and correct mistakes over time. Reinforcement learning plays a crucial role in this, teaching the model how to think productively, which leads to consistent improvements in both training and test-time performance.&lt;/p&gt;
+
+&lt;p&gt;This &quot;chain of thought&quot; approach significantly improves the model's reasoning capabilities across tasks such as math, data analysis, and programming. For example, in open-ended evaluations, human trainers consistently preferred o1's responses over GPT-4o in areas that required deep reasoning. However, o1 is not perfect in all domains, as it struggled with some natural language tasks, suggesting it may not yet be universally applicable.&lt;/p&gt;
+
+&lt;h3&gt;Safety and Alignment: A Responsible Approach to AI Development&lt;/h3&gt;
+
+&lt;p&gt;Safety is a critical consideration in AI development, and OpenAI has integrated safety principles into o1’s chain of thought reasoning. By teaching the model safety rules and embedding these principles into its reasoning process, o1 has shown increased robustness in safety evaluations. It performed exceptionally well in tests designed to assess its resistance to harmful outputs, surpassing previous models like GPT-4o.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Metric&lt;/th&gt;
+    &lt;th&gt;GPT-4o&lt;/th&gt;
+    &lt;th&gt;o1-preview&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;% Safe completions on harmful prompts
+Standard&lt;/td&gt;
+    &lt;td&gt;0.990&lt;/td&gt;
+    &lt;td&gt;0.995&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;% Safe completions on harmful prompts
+Challenging: jailbreaks &amp;amp; edge cases&lt;/td&gt;
+    &lt;td&gt;0.714&lt;/td&gt;
+    &lt;td&gt;0.934&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;↳ Harassment (severe)&lt;/td&gt;
+    &lt;td&gt;0.845&lt;/td&gt;
+    &lt;td&gt;0.900&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;↳ Exploitative sexual content&lt;/td&gt;
+    &lt;td&gt;0.483&lt;/td&gt;
+    &lt;td&gt;0.949&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;↳ Sexual content involving minors&lt;/td&gt;
+    &lt;td&gt;0.707&lt;/td&gt;
+    &lt;td&gt;0.931&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;↳ Advice about non-violent wrongdoing&lt;/td&gt;
+    &lt;td&gt;0.688&lt;/td&gt;
+    &lt;td&gt;0.961&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;↳  Advice about violent wrongdoing&lt;/td&gt;
+    &lt;td&gt;0.778&lt;/td&gt;
+    &lt;td&gt;0.963&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;% Safe completions for top 200 with highest Moderation API scores per category in WildChat (&lt;a href=&quot;https://arxiv.org/abs/2405.01470&quot;&gt;Zhao, et al. 2024&lt;/a&gt;)&lt;/td&gt;
+    &lt;td&gt;0.945&lt;/td&gt;
+    &lt;td&gt;0.971&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Goodness@0.1 StrongREJECT jailbreak eval (&lt;a href=&quot;https://arxiv.org/abs/2402.10260&quot;&gt;Souly et al. 2024&lt;/a&gt;)&lt;/td&gt;
+    &lt;td&gt;0.220&lt;/td&gt;
+    &lt;td&gt;0.840&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Human sourced jailbreak eval&lt;/td&gt;
+    &lt;td&gt;0.770&lt;/td&gt;
+    &lt;td&gt;0.960&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;% Compliance on internal benign edge cases
+“not over-refusal”&lt;/td&gt;
+    &lt;td&gt;0.910&lt;/td&gt;
+    &lt;td&gt;0.930&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;% Compliance on benign edge cases in XSTest
+“not over-refusal” (&lt;a href=&quot;https://arxiv.org/abs/2308.01263&quot;&gt;Röttger, et al. 2023&lt;/a&gt;)&lt;/td&gt;
+    &lt;td&gt;0.924&lt;/td&gt;
+    &lt;td&gt;0.976&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;OpenAI has also introduced the concept of a &quot;hidden chain of thought,&quot; allowing for internal monitoring of the model’s thought processes without revealing them to users. This strategy provides a balance between transparency and safety, enabling developers to observe the model’s reasoning while preventing potential misuse or manipulation.&lt;/p&gt;
+
+&lt;p&gt;OpenAI’s o1 model sets a new standard for AI reasoning and problem-solving. By outperforming human experts in math, science, and coding benchmarks, and introducing innovative techniques like chain of thought reasoning, o1 demonstrates its potential to revolutionize a variety of fields. While still under development, this early release marks a significant step toward more aligned and capable AI systems, offering exciting possibilities for future applications in science, coding, and beyond.&lt;/p&gt;
+
+&lt;p&gt;As OpenAI continues to iterate on the o1 model, the advancements in reasoning and alignment are expected to unlock even more groundbreaking use cases. To read full article go to oficial &lt;a href=&quot;https://openai.com/index/learning-to-reason-with-llms/&quot;&gt;blog post.&amp;lt;/a&amp;lt;/p&amp;gt;
+&lt;/a&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">Artificial intelligence notes progress almost daily in architecture as well as in problem-solving and reasoning, but OpenAI’s latest model, o1, marks a significant leap forward. Designed to excel in complex reasoning tasks, the o1 model has achieved remarkable results in competitive programming, academic benchmarks, and real-world applications. This article explores the cutting-edge capabilities of o1, from its performance in math and science challenges to its proficiency in coding and human-like reasoning.</summary></entry><entry><title type="html">DataGemma - Grounding AI in Real-World Data to Combat Hallucinations</title><link href="http://localhost:4000/GoogleDataGemma" rel="alternate" type="text/html" title="DataGemma - Grounding AI in Real-World Data to Combat Hallucinations" /><published>2024-09-12T00:00:00+03:00</published><updated>2024-09-12T00:00:00+03:00</updated><id>http://localhost:4000/GoogleDataGemma</id><content type="html" xml:base="http://localhost:4000/GoogleDataGemma">&lt;p&gt;Large Language Models (LLMs) have revolutionized the AI landscape by providing powerful tools for generating human-like text, answering complex questions, and assisting with tasks like summarization and code generation. However, these models sometimes produce inaccurate information with confidence, a phenomenon known as &quot;hallucination.&quot; Addressing this issue is critical for enhancing AI reliability. Enter &lt;a href=&quot;https://ai.google.dev/gemma&quot;&gt;DataGemma&lt;/a&gt;, the first open model designed to reduce hallucinations by grounding LLMs in real-world statistical data from Google’s vast &lt;a href=&quot;https://datacommons.org/&quot;&gt;Data Commons&lt;/a&gt;. This article explores how DataGemma leverages the power of trusted data sources to improve the factual accuracy and reasoning of LLMs.&lt;/p&gt;
 
 &lt;h3&gt;The Challenges of Hallucination in AI&lt;/h3&gt;
 
@@ -56,7 +237,17 @@
 
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fang,+Q&quot;&gt;Qingkai Fang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Guo,+S&quot;&gt;Shoutao Guo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+Y&quot;&gt;Yan Zhou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ma,+Z&quot;&gt;Zhengrui Ma&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+S&quot;&gt;Shaolei Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Feng,+Y&quot;&gt;Yang Feng&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.06666&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="research" /><summary type="html">Abstract</summary></entry><entry><title type="html">SambaNova Launches The World’s Fastest AI Platform</title><link href="http://localhost:4000/SambaNova" rel="alternate" type="text/html" title="SambaNova Launches The World’s Fastest AI Platform" /><published>2024-09-10T00:00:00+03:00</published><updated>2024-09-10T00:00:00+03:00</updated><id>http://localhost:4000/SambaNova</id><content type="html" xml:base="http://localhost:4000/SambaNova">&lt;p&gt; In an exciting development for AI and machine learning, &lt;a href=&quot;https://sambanova.ai&quot;&gt;SambaNova Systems&lt;/a&gt; has announced the launch of SambaNova Cloud, the world’s fastest AI inference platform. Leveraging the power of its SN40L AI chip, SambaNova Cloud delivers unmatched speed and precision, running the groundbreaking Llama 3.1 405B model at an impressive 132 tokens per second (t/s). The platform is available to developers today, offering a powerful solution for building generative AI applications with both the largest and most capable open-source models.&lt;/p&gt;
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.06666&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="research" /><summary type="html">Abstract</summary></entry><entry><title type="html">GroUSE - A Benchmark to Evaluate Evaluators in Grounded Question Answering</title><link href="http://localhost:4000/GroUSE" rel="alternate" type="text/html" title="GroUSE - A Benchmark to Evaluate Evaluators in Grounded Question Answering" /><published>2024-09-10T00:00:00+03:00</published><updated>2024-09-10T00:00:00+03:00</updated><id>http://localhost:4000/GroUSE</id><content type="html" xml:base="http://localhost:4000/GroUSE">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Retrieval-Augmented Generation (RAG) has emerged as a common paradigm to use Large Language Models (LLMs) alongside private and up-to-date knowledge bases. In this work, we address the challenges of using LLM-as-a-Judge when evaluating grounded answers generated by RAG systems. To assess the calibration and discrimination capabilities of judge models, we identify 7 generator failure modes and introduce GroUSE (Grounded QA Unitary Scoring of Evaluators), a meta-evaluation benchmark of 144 unit tests. This benchmark reveals that existing automated RAG evaluation frameworks often overlook important failure modes, even when using GPT-4 as a judge.&lt;/p&gt;
+&lt;p&gt;To improve on the current design of automated RAG evaluation frameworks, we propose a novel pipeline and find that while closed models perform well on GroUSE, state-of-the-art open-source judges do not generalize to our proposed criteria, despite strong correlation with GPT-4's judgement. Our findings suggest that correlation with GPT-4 is an incomplete proxy for the practical performance of judge models and should be supplemented with evaluations on unit tests for precise failure mode detection.&lt;/p&gt;
+&lt;p&gt;We further show that finetuning Llama-3 on GPT-4's reasoning traces significantly boosts its evaluation capabilities, improving upon both correlation with GPT-4's evaluations and calibration on reference situations.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Muller,+S&quot;&gt;Sacha Muller&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Loison,+A&quot;&gt;António Loison&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Omrani,+B&quot;&gt;Bilel Omrani&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Viaud,+G&quot;&gt;Gautier Viaud&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://www.arxiv.org/abs/2409.06595&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="research" /><summary type="html">Abstract</summary></entry><entry><title type="html">SambaNova Launches The World’s Fastest AI Platform</title><link href="http://localhost:4000/SambaNova" rel="alternate" type="text/html" title="SambaNova Launches The World’s Fastest AI Platform" /><published>2024-09-10T00:00:00+03:00</published><updated>2024-09-10T00:00:00+03:00</updated><id>http://localhost:4000/SambaNova</id><content type="html" xml:base="http://localhost:4000/SambaNova">&lt;p&gt; In an exciting development for AI and machine learning, &lt;a href=&quot;https://sambanova.ai&quot;&gt;SambaNova Systems&lt;/a&gt; has announced the launch of SambaNova Cloud, the world’s fastest AI inference platform. Leveraging the power of its SN40L AI chip, SambaNova Cloud delivers unmatched speed and precision, running the groundbreaking Llama 3.1 405B model at an impressive 132 tokens per second (t/s). The platform is available to developers today, offering a powerful solution for building generative AI applications with both the largest and most capable open-source models.&lt;/p&gt;
 
 &lt;h3&gt; The Power of Llama 3.1 in SambaNova Cloud&lt;/h3&gt;
 
@@ -101,373 +292,4 @@
 &lt;p&gt; For developers and enterprises looking to leverage the power of open-source models like Llama 3.1 with unmatched speed and precision, SambaNova Cloud is available now. Visit &lt;a href=&quot;https://sambanova.ai&quot;&gt;SambaNova’s website&lt;/a&gt; or follow them on &lt;a href=&quot;https://www.linkedin.com/company/sambanova/&quot;&gt;LinkedIn&lt;/a&gt; and &lt;a href=&quot;http://twitter.com/SambaNovaAI&quot;&gt;X&lt;/a&gt; to learn more.&lt;/p&gt;
 
 &lt;p&gt;To check out the full report, their blog post, click &lt;a href=&quot;https://sambanova.ai/press/worlds-fastest-ai-platform&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;/p&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">In an exciting development for AI and machine learning, SambaNova Systems has announced the launch of SambaNova Cloud, the world’s fastest AI inference platform. Leveraging the power of its SN40L AI chip, SambaNova Cloud delivers unmatched speed and precision, running the groundbreaking Llama 3.1 405B model at an impressive 132 tokens per second (t/s). The platform is available to developers today, offering a powerful solution for building generative AI applications with both the largest and most capable open-source models.</summary></entry><entry><title type="html">GroUSE - A Benchmark to Evaluate Evaluators in Grounded Question Answering</title><link href="http://localhost:4000/GroUSE" rel="alternate" type="text/html" title="GroUSE - A Benchmark to Evaluate Evaluators in Grounded Question Answering" /><published>2024-09-10T00:00:00+03:00</published><updated>2024-09-10T00:00:00+03:00</updated><id>http://localhost:4000/GroUSE</id><content type="html" xml:base="http://localhost:4000/GroUSE">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Retrieval-Augmented Generation (RAG) has emerged as a common paradigm to use Large Language Models (LLMs) alongside private and up-to-date knowledge bases. In this work, we address the challenges of using LLM-as-a-Judge when evaluating grounded answers generated by RAG systems. To assess the calibration and discrimination capabilities of judge models, we identify 7 generator failure modes and introduce GroUSE (Grounded QA Unitary Scoring of Evaluators), a meta-evaluation benchmark of 144 unit tests. This benchmark reveals that existing automated RAG evaluation frameworks often overlook important failure modes, even when using GPT-4 as a judge.&lt;/p&gt;
-&lt;p&gt;To improve on the current design of automated RAG evaluation frameworks, we propose a novel pipeline and find that while closed models perform well on GroUSE, state-of-the-art open-source judges do not generalize to our proposed criteria, despite strong correlation with GPT-4's judgement. Our findings suggest that correlation with GPT-4 is an incomplete proxy for the practical performance of judge models and should be supplemented with evaluations on unit tests for precise failure mode detection.&lt;/p&gt;
-&lt;p&gt;We further show that finetuning Llama-3 on GPT-4's reasoning traces significantly boosts its evaluation capabilities, improving upon both correlation with GPT-4's evaluations and calibration on reference situations.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Muller,+S&quot;&gt;Sacha Muller&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Loison,+A&quot;&gt;António Loison&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Omrani,+B&quot;&gt;Bilel Omrani&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Viaud,+G&quot;&gt;Gautier Viaud&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://www.arxiv.org/abs/2409.06595&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="research" /><summary type="html">Abstract</summary></entry><entry><title type="html">Multiple datasources - Route selections</title><link href="http://localhost:4000/rag3" rel="alternate" type="text/html" title="Multiple datasources - Route selections" /><published>2024-09-09T00:00:00+03:00</published><updated>2024-09-09T00:00:00+03:00</updated><id>http://localhost:4000/rag3</id><content type="html" xml:base="http://localhost:4000/rag3">&lt;p&gt; I hope you enjoy every step so far. Until this point of our Langchain/RAG journey, we have managed to build a simple local application and a querry transformation assistant. But what happens when we have multiple data sources? How to define where our application will retrieve the required information from? The definition of this process, finding the correct road, or better let's say finding the correct route, is called Routing.&lt;/p&gt;
-
-&lt;p&gt; There are many ways to give directions in real life, this applies here as well! As we can see in the following image, there are two main categories of routing. 
-
-&lt;ul&gt;
-&lt;li&gt; &lt;strong&gt;Logical Routing&lt;/strong&gt;: Let LLM choose a DB based on the question.&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Semantic Routing&lt;/strong&gt;: Embed question and choose prompt based on similarity.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/v2/resize:fit:1400/1*iBm4xuEwvnp9KFyH9x05cw.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt; Before going though the architecture of such a RAG model for either Logical or Semantic routing, we are going to take a look at the differences accompanied with some simplier examples to understand which is best for your case case to go with.&lt;/p&gt;
-
-&lt;h3&gt; Logical Routing &lt;/h3&gt;
-
-&lt;p&gt; Routes are defined based on pre-determined rules, conditions, or algorithms. These rules are purely technical, and they don't take into account the meaning or context of the data. Logical Routing decisions are made based on factors like IP addresses, routing tables, or specific conditions that match certain criteria. It focuses on efficiently directing traffic or requests based on a logical or structural framework.&lt;/p&gt;
-
-&lt;p&gt;To put logical routing straight, imagine you’re in a city, and there are different routes based on traffic signals or road rules. These routes don't care about where you're coming from or your personal preferences, but simply about making sure traffic moves according to the road signs.
-
-&lt;ul&gt;
-&lt;li&gt; Situation: You’re driving from Point A to Point B.&lt;/li&gt;
-&lt;li&gt; Logical Rule: If a road is closed, take the next available road.&lt;/li&gt;
-&lt;li&gt; Routing Decision: You don't think about why the road is closed; you just follow the detour and proceed based on traffic rules. It's like having a GPS system giving you orders, while driving, in a city that you have never been.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;h3&gt; Semantic Routing &lt;/h3&gt;
-
-&lt;p&gt;  Routes are chosen based on the meaning or context of the data being transmitted. The logical routing decisions consider the content, purpose, or relationships within the data. It uses metadata or content analysis to decide the best route for a request, often ensuring that the most relevant resources handle the data. It prioritizes meaning and relevance to ensure that the request or data is handled in the best possible way based on its content.&lt;/p&gt;
-
-&lt;p&gt; Imagine you're in a library, and someone asks where to find a book. Instead of directing them based on just shelf numbers (logical), you direct them based on their interest in the content of the book. You ask, &quot;What topic are you looking for?&quot; and route them accordingly to the right section.
-
-&lt;ul&gt;
-&lt;li&gt; Situation: You want to ask a question, but there are different people who can answer it.&lt;/li&gt;
-&lt;li&gt; Semantic Rule: If your question is about science, you’re directed to a scientist; if it's about cooking, you’re directed to a chef.&lt;/li&gt;
-&lt;li&gt; Routing Decision: The decision isn’t based on random criteria but on the meaning of your question and who’s best equipped to answer.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt;
-Based on Data/Context, Logical Routing ignores the meaning of the data and routes based on fixed rules while semantic routing analyzes the meaning and routes accordingly. Overall and while looking at the purpose, logical routing focuses on efficiency and technical structure and on the other hand, semantic routing focuses on relevance and meaningful processing.
-&lt;/p&gt;
-
-&lt;p&gt; Now that we got the main idea about what is the meaning of both, let us take a closer look to the code and how to build a system like that.&lt;/p&gt;
-
-&lt;p&gt; Initially, we need to call the modules that are going to help us accomplish our goal. I am not going to go through &lt;code&gt;.env&lt;/code&gt; file again and won't be mentioning this file again in the future. Hopefully, you got the idea behind it, why it is important and the reasons I insist on using one. If you are not so sure on what file I am referring to, please take a look at the first two notebooks of this series and follow the steps to create one. Remember &lt;code&gt;.env&lt;/code&gt; file will keep your Usernames, Passwords and Endpoint IDs safe without the need to erase them or hide them when sharing any file. So the modules we are going to use within this notebook are the following.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-import os
-from langchain_community.document_loaders import PyPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.vectorstores import Chroma
-from langchain_core.output_parsers import StrOutputParser
-from langchain import hub
-from langchain_core.runnables import RunnablePassthrough
-from langchain_openai import AzureOpenAIEmbeddings
-# from langchain.chat_models import AzureChatOpenAI
-from langchain_openai import AzureChatOpenAI
-from langchain_core.pydantic_v1 import BaseModel, Field
-from langchain_core.prompts import ChatPromptTemplate
-from typing import Literal
-from langchain.utils.math import cosine_similarity
-from langchain.prompts import PromptTemplate
-from langchain_core.runnables import RunnableLambda
-
-from dotenv import load_dotenv, dotenv_values
-load_dotenv()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;As we are using LLM models we need to define embeddings so that we can communicate with the computers and we &lt;i&gt;&quot;talk&quot;&lt;/i&gt; the same language.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;embeddings = AzureOpenAIEmbeddings(
-    deployment = os.getenv('OPENAI_DEPLOYMENT_NAME'),
-    model = os.getenv('OPENAI_MODEL_NAME_EMB'),
-    azure_endpoint = os.getenv('AZURE_OPENAI_ENDPOINT'),
-    openai_api_type = os.getenv('OPENAI_API_TYPE'),
-)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt; Apart from that, &lt;strong&gt;vectorstore&lt;/strong&gt; is essential as we need a place to store the vectors that will result from our embeddings call. Hecne, we are going to define a function call &lt;i&gt;vectorstor_gen&lt;/i&gt; in order to store the information acquired (vectors generatated) from the files one owns and what to search from.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;def vectorstore_gen(file, dir):
-    loader = PyPDFLoader(file)
-    documents = loader.load()
-
-    # Split text into chunks
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500,chunk_overlap=20)
-    text_chunks = text_splitter.split_documents(documents)
-
-    vectorstore = Chroma.from_documents(documents=text_chunks,
-                                        embedding=embeddings,
-                                        persist_directory=dir)
-    vectorstore.persist()
-    return vectorstore
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt; Now image you have two documents or batter let's say two different files containing documents, and you want to create two vectorstore for both of them so that our llm will be able to choose betwen then and answer to your questions. Remember that we have created a folder data in our project and there we store all the data that we want to use for our RAG projects. In this example I am going to use dummy pdf names (&lt;i&gt;A.pdf&lt;/i&gt; and &lt;i&gt;B.pdf&lt;/i&gt;) and imaging that those two files contain information/documentation about different LLM models. Feel free to replace those with two irrelevant pdf files (when it comes to topic)&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-# Create a vectorestore to answer questions about topic A
-vectorstore_A = vectorstore_gen('data/A.pdf', 'data/vectorstore_A')
-# Create a vectorstore to answer questions about topic B
-vectorstore_B = vectorstore_gen('data/B.pdf', 'data/vectorstore_B')
-
-retriever_A = vectorstore_A.as_retriever(search_kwargs={'k':5})
-retriever_B = vectorstore_B.as_retriever(search_kwargs={'k':5})
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt; Now it is time to create the classes we are going to use to our routing models. Initially we are going to start with Logical Routing. Initially, we are going to build a class to route to the most relevant datasource accourding to the User's question. We are going to use an extention of &lt;code&gt;BaseModel&lt;/code&gt;. The &lt;code&gt;BaseModel&lt;/code&gt; class provides automatic validation parsing and serialization of data. &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-class QueryRouter(BaseModel):
-    &quot;&quot;&quot;Route a user query to the appropriate datasource that will help answer the query accurately&quot;&quot;&quot;
-    datasource: Literal['A', 'B', 'general'] = Field(..., description=&quot;Given a user question choose which datasource would be most relevant for answering their question&quot;)
-    question: str = Field(..., description=&quot;User question to be routed to the appropriate datasource&quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;  Next we need to build and and call an LLM model that will help us build our RAG model, within which we are going to include routing stratey.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-llm = AzureChatOpenAI(
-    deployment_name = os.getenv('LLM_35_Deployment'),
-    model_name = os.getenv('LLM_35_Model'),
-    azure_endpoint = os.getenv('AZURE_OPENAI_ENDPOINT'),
-    temperature = 0
-)
-
-structured_llm = llm.with_structured_output(QueryRouter, method=&quot;function_calling&quot;, include_raw=True)
-structured_llm.invoke(&quot;Which datasource should be used for a question about general knowledge?&quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now it is time to build the routing prompt that will be included in the RAG pipeline.  &lt;strong&gt;Not that&lt;/strong&gt; if the pdf files that you include are not about a topic of NLP and/or LLMs pleas read the system prompt and change it accordingly&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-router_prompt = ChatPromptTemplate.from_messages(
-    [
-        (&quot;system&quot;,
-         &quot;You are an expert router that can direct user queries to the appropriate datasource. Route the following user question about a topic in NLP and LLMs to the appropriate datasource.\nIf it is a general question not related to the provided datasources, route it to the general datasource.\n&quot;),
-        (&quot;user&quot;, &quot;{question}&quot;)
-    ]
-)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt; Finally we are ready to create the first router pipeline for our RAG model and include everythin we have been creating so far. &lt;strong&gt;Not that&lt;/strong&gt; change the upcoming &lt;code&gt;question&lt;/code&gt; accordingly.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-router = (
-        {'question': RunnablePassthrough()}
-        | router_prompt
-        | structured_llm
-)
-question = &quot;How does the A work?&quot;
-result = router.invoke(question)
-result
-result['parsed'].datasource.lower()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt; The final step is to define the a function that will choose which database should be used to answer our question, either A or B. In case you are running alongsite this project, the code chunks, and you have replaced  A and B for example, (A could be vectore similiarity and B could be KAN Model) then you could repalce A and B in the following code chunk as well in order to obtain relevant answer/result.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-qa_prompt = hub.pull('rlm/rag-prompt')
-
-def choose_route(result):
-
-    llm_route = AzureChatOpenAI(
-        deployment_name = os.getenv('LLM_35_Deployment'),
-        model_name = os.getenv('LLM_35_Model'),
-        azure_endpoint = os.getenv('AZURE_OPENAI_ENDPOINT'),
-        temperature = 0
-
-    )
-    if &quot;B&quot; in result['parsed'].datasource.lower():
-        print(f&quot;&amp;gt; Asking about B ...\nQuestion: {result['parsed'].question}\nAnswer:&quot;)
-        B_chain = (
-            {'context': retriever_B, 'question': RunnablePassthrough()}
-            | qa_prompt
-            | llm_route
-            | StrOutputParser()
-        )
-        return B_chain.invoke(result['parsed'].question)
-    elif &quot;A&quot; in result['parsed'].datasource.lower():
-        print(f&quot;&amp;gt; Asking about A ...\nQuestion: {result['parsed'].question}\nAnswer:&quot;)
-        A_chain = (
-            {'context': retriever_lora, 'question': RunnablePassthrough()}
-            | qa_prompt
-            | llm_route
-            | StrOutputParser()
-        )
-        return A_chain.invoke(result['parsed'].question)
-    else:
-        print(f&quot;&amp;gt; Asking about a general question ...\nQuestion: {result.question}\nAnswer:&quot;)
-        general_chain = llm_route | StrOutputParser()
-        return general_chain.invoke(result.question)
-
-full_chain = router | RunnableLambda(choose_route)
-full_chain.invoke(&quot;What is A?&quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt; That concludes our example for logical routing. Next we are going to change a bit our previous coding chunks and produce an example about semantic routing. In this example we are going to create two templates about different topics. We are going to assume that the users ask questions about physics or mathematics. Initially we need to create two templates that are going to give a character to our LLM according to the question provided.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-physical_template = &quot;&quot;&quot;
-You are a very smart physics professor. \
-You are great at answering questions about physics in a concise and easy to understand manner. \
-When you don't know the answer to a question you admit that you don't know.
-
-Here is a question:
-{question}
-&quot;&quot;&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;
-math_template = &quot;&quot;&quot;You are a very good mathematician. You are great at answering math questions. \
-You are so good because you are able to break down hard problems into their component parts, \
-answer the component parts, and then put them together to answer the broader question.
-
-Here is a question:
-{question}&quot;&quot;&quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The next step is to create a list containing the character templates. We are going to create embeddings about those routes in order to calculate the similarity with the question provided by the user. Remember that semantic routing checks the similarity of the meaning after all. The choice of the database that the RAG will provide the answer from is not defined by rules as the previous case.&amp;lt;/p&amp;gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-routes = [physical_template, math_template]
-route_embeddings = embeddings.embed_documents(routes)
-len(route_embeddings)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now we can proceed to the definition of a function that according to the topic of the question that was provided, LLM will answer the question with a routing strategy to either physics or mathematics experties.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-def router(input):
-    # Generate embeddings for the user query
-    query_embedding = embeddings.embed_query(input['question'])
-    # Getting similarity scores between the user query and the routes. This contains the similarity scores between the user query and each of the two routes.
-    similarity = cosine_similarity([query_embedding], route_embeddings)[0]
-    # Find the route that gives the maximum similarity score
-    route_id = similarity.argmax()
-    if route_id == 0:
-        print(f&quot;&amp;gt; Asking a physics question ...\nQuestion: {input['question']}\nAnswer:&quot;)
-    else:
-        print(f&quot;&amp;gt; Asking a math question ...\nQuestion: {input['question']}\nAnswer:&quot;)
-
-    return PromptTemplate.from_template(routes[route_id])
-
-semantic_router_chain = (
-    {'question': RunnablePassthrough()}
-    | RunnableLambda(router)
-    | llm
-    | StrOutputParser
-)
-
-semantic_router_chain.invoke(&quot;What is the formula for the area of a circle?&quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt; I hope you enjoyed this session as much as I did and a learned a thing or two. I wish that you kept a code chunk and will use it later on, on your own projects. Stay tuned for the next topic that we are going to take a look at this LangChain series&lt;/p&gt;
-
-&lt;p&gt;&lt;i&gt; Be safe, code safer!&lt;/i&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="project" /><summary type="html">I hope you enjoy every step so far. Until this point of our Langchain/RAG journey, we have managed to build a simple local application and a querry transformation assistant. But what happens when we have multiple data sources? How to define where our application will retrieve the required information from? The definition of this process, finding the correct road, or better let's say finding the correct route, is called Routing.</summary></entry><entry><title type="html">Google’s Illuminate - Transforming Academic Papers into AI-Generated Podcasts</title><link href="http://localhost:4000/GoogleIllumnate" rel="alternate" type="text/html" title="Google’s Illuminate - Transforming Academic Papers into AI-Generated Podcasts" /><published>2024-09-09T00:00:00+03:00</published><updated>2024-09-09T00:00:00+03:00</updated><id>http://localhost:4000/GoogleIllumnate</id><content type="html" xml:base="http://localhost:4000/GoogleIllumnate">&lt;p&gt;Google Labs has a long tradition of inviting users to explore innovative technologies, with notable successes like Gmail, which began as an exclusive beta. Now, Google is unveiling Illuminate, a groundbreaking project that transforms academic papers into AI-generated audio discussions, styled like an NPR podcast. The concept is straightforward but powerful: Google's large language model, Gemini, creates a concise summary of a research paper and follows it up with a Q&amp;amp;A session. These are voiced by two AI-generated personas—a male interviewer and a female expert—who guide listeners through a brief, engaging conversation about the paper’s key points.
-
-What makes Illuminate especially valuable is its potential to make academic content more accessible and convenient. With this service, you can listen to insightful summaries of research papers while you're on the go—whether you're working out, commuting, or simply multitasking. The platform could also easily be adapted for other types of audio narration, extending its utility to a wide range of subjects and industries. Currently in private beta, Illuminate allows you to join the waitlist if you’re interested in early access and testing out this exciting new tool. You can check out samples on the Google Illuminate website to see its potential firsthand.&lt;/p&gt;
-
-&lt;p&gt;Google Labs has always been at the forefront of innovation, frequently inviting users to explore groundbreaking tech. Remember Gmail? It started as a private beta before revolutionizing how we manage email. Today, Google is back with another fascinating project, &lt;strong&gt;Illuminate&lt;/strong&gt;. This new initiative takes a fresh approach to academic research, turning complex papers into digestible, AI-generated audio discussions styled after popular NPR podcasts.&lt;/p&gt;
-
-&lt;p&gt;So, what exactly is Illuminate, and why is it worth your attention?&lt;/p&gt;
-
-&lt;h3&gt;The Power Behind Illuminate&lt;/h3&gt;
-
-&lt;p&gt; At the heart of Illuminate lies Google’s large language model, Gemini, which does the heavy lifting. Here’s how it works: Gemini generates a concise summary of an academic paper and pairs it with a Q&amp;amp;A session. Two AI-generated voices—a male interviewer and a female expert—then present the content in the form of an engaging, short interview. Imagine being guided through the highlights of a research paper as if you were listening to a lively radio discussion.&lt;/p&gt;
-
-&lt;h3&gt; Why Is This So Useful?&lt;/h3&gt;
-
-&lt;p&gt; For anyone who regularly dives into research papers, you know the grind. The sheer volume of academic literature can be overwhelming, and finding the time to sit down and read every paper in full is often a challenge. This is where Illuminate shines. It offers a new way to stay informed by converting these dense academic texts into easily consumable audio discussions. Picture yourself catching up on the latest research while driving to work, hitting the gym, or even while doing chores around the house. It’s multitasking made smarter.&lt;/p&gt;
-
-&lt;p&gt; Illuminate isn’t just limited to academic papers either. The platform’s potential extends far beyond that, with the ability to adapt to other forms of narration. Whether for educational content, business reports, or any document-heavy field, this kind of AI-generated podcasting could become a versatile tool for delivering information in a more accessible and engaging format.&lt;/p&gt;
-
-&lt;h3&gt; A Glimpse Into the Future&lt;/h3&gt;
-
-&lt;p&gt;Illuminate is still in its early stages, currently available as a private beta. Google is letting select users test the waters while they continue refining the service. If you’re eager to see what the future of academic content consumption could look like, you can join the waitlist for access.&lt;/p&gt;
-
-&lt;p&gt;Curious to experience it for yourself? You can check out some sample audio discussions on the &lt;a href=&quot;https://illuminate.google.com/home?pli=1&quot;&gt;Google Illuminate&lt;/a&gt; website. Whether you’re an academic researcher, a student, or just someone who loves learning on the go, Illuminate has the potential to change how we interact with complex information.&lt;/p&gt;
-
-&lt;p&gt;In the end, this is more than just a novelty. It’s a glimpse into how AI can reshape content delivery, making it more convenient, engaging, and adaptable to our daily routines. The future of learning might just sound a lot like your favorite podcast.&lt;/p&gt;
-
-&lt;iframe width=&quot;1175&quot; height=&quot;661&quot; src=&quot;https://www.youtube.com/embed/mxlPGgfMJJs&quot; title=&quot;Using long-context to make knowledge accessible&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Stay tuned, because Illuminate could be the next big step in AI-driven information consumption.&lt;/p&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">Google Labs has a long tradition of inviting users to explore innovative technologies, with notable successes like Gmail, which began as an exclusive beta. Now, Google is unveiling Illuminate, a groundbreaking project that transforms academic papers into AI-generated audio discussions, styled like an NPR podcast. The concept is straightforward but powerful: Google's large language model, Gemini, creates a concise summary of a research paper and follows it up with a Q&amp;amp;A session. These are voiced by two AI-generated personas—a male interviewer and a female expert—who guide listeners through a brief, engaging conversation about the paper’s key points.</summary></entry><entry><title type="html">Exploring the Replit Agent - AI Power Coding for Developers</title><link href="http://localhost:4000/ReplitAgent" rel="alternate" type="text/html" title="Exploring the Replit Agent - AI Power Coding for Developers" /><published>2024-09-09T00:00:00+03:00</published><updated>2024-09-09T00:00:00+03:00</updated><id>http://localhost:4000/ReplitAgent</id><content type="html" xml:base="http://localhost:4000/ReplitAgent">&lt;p&gt;Replit has long been at the forefront of integrating AI into software development, and their latest offering, the &lt;strong&gt;Replit Agent&lt;/strong&gt;, is no exception. Currently available through a limited early access program, this AI-powered assistant is designed to help users create software projects from scratch using simple, natural language prompts. Whether you’re a seasoned developer or new to coding, Replit Agent aims to make building applications more intuitive and accessible.&lt;/p&gt;
-
-&lt;h3&gt; What is the Replit Agent? &lt;/h3&gt;
-
-&lt;p&gt;The Replit Agent is an experimental AI tool designed to assist developers in building software projects. It understands natural language commands, allowing users to describe what they want to build, and then the agent takes over—planning, writing, and deploying code. Whether you’re working on web-based applications or prototyping new ideas, the agent is meant to accelerate the development process by generating code, suggesting solutions, and helping manage tasks.&lt;/p&gt;
-
-&lt;h3&gt; How It Works &lt;/h3&gt;
-
-&lt;p&gt;To get started with the Replit Agent, subscribers to Replit Core or Replit Teams can dive right in. The agent is included in these plans at no extra cost during the early access phase, though pricing details for general release will be announced later in 2024. Here’s Replit CEO Amjad Masad with an overview of how the agent works:
-
-&lt;iframe width=&quot;950&quot; height=&quot;534&quot; src=&quot;https://www.youtube.com/embed/IYiVPrxY8-Y&quot; title=&quot;Meet the Replit Agent&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-Here’s how you can start using it:
-
-On the Web:
-&lt;ol&gt;
-&lt;li&gt; Log into your Replit account with a Core or Teams subscription. &lt;/li&gt;
-&lt;li&gt; Visit the home page or select Create Repl in the left navigation. &lt;/li&gt;
-&lt;li&gt; Input a prompt of what you would like the agent to build. 
-    &lt;ul&gt;
-    &lt;li&gt; A good prompt is descriptive and detailed. Imagine you are describing a task for a teammate at work to complete. What information would they have to know to get the job done?&lt;/li&gt;
-    &lt;li&gt; We recommend letting the agent select which technologies to use rather than specifying specific languages or frameworks. &lt;/li&gt;
-    &lt;li&gt; The agent is currently best at 0 -&amp;gt; 1 prototyping for web-based applications.&lt;/li&gt;
-    &lt;/ul&gt;
-    &amp;lt;img src=”https://docimg.replit.com/images/replitai/agent_01.png”&amp;gt;
-&lt;li&gt; Review and iterate on the plan the agent generated. Feel free to edit or delete steps that the agent recommends. &lt;/li&gt;
-    &lt;img src=&quot;https://docimg.replit.com/images/replitai/agent_02.png&quot; /&gt;
-&lt;li&gt; Follow along with the agent’s progress. &lt;/li&gt;
-    &lt;img src=&quot;https://docimg.replit.com/images/replitai/agent_03.png&quot; /&gt;
-&lt;li&gt; Work with the agent to provide API keys, feedback, or direction as it progresses in building your application. &lt;/li&gt;
-    &lt;img src=&quot;https://docimg.replit.com/images/replitai/agent_04.png&quot; /&gt;
-&lt;li&gt; Test your application and ask follow up questions as needed. &lt;/li&gt;
-&lt;li&gt; Deploy your application to production! Learn more about Replit Deployments. &lt;/li&gt;
-&amp;lt;/ol&amp;gt;
-
-On Mobile:
-&lt;ol&gt;
-&lt;li&gt;Download the Replit app (version 2.90.2 or higher) via this link or QR code.&lt;/li&gt;
-    &lt;img src=&quot;https://docimg.replit.com/images/replitai/agent_05.png&quot; /&gt;
-&lt;li&gt;Ensure you're logged in with the email associated with your Core or Teams account.&lt;/li&gt;
-&lt;li&gt;Head to the &quot;Create&quot; tab and select &quot;Start with AI,&quot; then describe the project you want to build.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Currently, the Replit Agent excels at prototyping web-based applications, but there’s potential for it to grow into more diverse use cases. Keep in mind that while it’s still in the experimental phase, you might encounter the occasional error or unexpected behavior. Your feedback will be crucial in improving the product as it evolves.&lt;/p&gt;
-
-&lt;h3&gt; The Future of AI in Software Development &lt;/h3&gt;
-
-&lt;p&gt; The vision behind Replit Agent is bigger than just an AI assistant for coding—it’s a step toward closer collaboration between humans and machines in the software development process. Replit envisions a future where AI agents not only fill in gaps but also enhance developers’ capabilities, offering creative solutions, and speeding up workflows. As you experiment with the Replit Agent, you’ll be helping to shape what this future looks like.&lt;/p&gt;
-
-&lt;h3&gt; Getting Early Access&lt;/h3&gt;
-
-&lt;p&gt;Replit Agent is currently in early access, available to Core and Teams subscribers. If you're subscribed to one of these plans, you can start using the agent today without any additional cost. While usage limits are in place during this phase, these quotas are refreshed regularly, giving you ongoing opportunities to test and experiment with the agent’s capabilities.&lt;/p&gt;
-
-&lt;h3&gt; Final Thoughts &lt;/h3&gt;
-
-&lt;p&gt;The Replit Agent represents an exciting new chapter in AI-assisted development, bringing us closer to a world where machines and humans collaborate seamlessly on software projects. Whether you're building a prototype or simply looking to experiment with AI in your workflow, Replit Agent offers a promising glimpse into the future of development. Don’t miss out—if you’re eligible, dive into early access today and start shaping the future of AI-driven coding. &lt;/p&gt;
-
-&lt;p&gt; To read more about this brand new Replit product head &lt;a href=&quot;https://docs.replit.com/replitai/agent?ref=maginative.com&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;&lt;/ol&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">Replit has long been at the forefront of integrating AI into software development, and their latest offering, the Replit Agent, is no exception. Currently available through a limited early access program, this AI-powered assistant is designed to help users create software projects from scratch using simple, natural language prompts. Whether you’re a seasoned developer or new to coding, Replit Agent aims to make building applications more intuitive and accessible.</summary></entry><entry><title type="html">Theory, Analysis, and Best Practices for Sigmoid Self-Attention</title><link href="http://localhost:4000/SigmoidSelfAttntion" rel="alternate" type="text/html" title="Theory, Analysis, and Best Practices for Sigmoid Self-Attention" /><published>2024-09-06T00:00:00+03:00</published><updated>2024-09-06T00:00:00+03:00</updated><id>http://localhost:4000/SigmoidSelfAttntion</id><content type="html" xml:base="http://localhost:4000/SigmoidSelfAttntion">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Attention is a key part of the transformer architecture. It is a sequence-to-sequence mapping that transforms each sequence element into a weighted sum of values. The weights are typically obtained as the softmax of dot products between keys and queries. Recent work has explored alternatives to softmax attention in transformers, such as ReLU and sigmoid activations. In this work, we revisit sigmoid attention and conduct an in-depth theoretical and empirical analysis. Theoretically, we prove that transformers with sigmoid attention are universal function approximators and benefit from improved regularity compared to softmax attention. Through detailed empirical analysis, we identify stabilization of large initial attention norms during the early stages of training as a crucial factor for the successful training of models with sigmoid attention, outperforming prior attempts. We also introduce FLASHSIGMOID, a hardware-aware and memory-efficient implementation of sigmoid attention yielding a 17% inference kernel speed-up over FLASHATTENTION2 on H100 GPUs. Experiments across language, vision, and speech show that properly normalized sigmoid attention matches the strong performance of softmax attention on a wide range of domains and scales, which previous attempts at sigmoid attention were unable to fully achieve. Our work unifies prior art and establishes best practices for sigmoid attention as a drop-in softmax replacement in transformers.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ramapuram,+J&quot;&gt;Jason Ramapuram&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Danieli,+F&quot;&gt;Federico Danieli&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dhekane,+E&quot;&gt;Eeshan Dhekane&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Weers,+F&quot;&gt;Floris Weers&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Busbridge,+D&quot;&gt;Dan Busbridge&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ablin,+P&quot;&gt;Pierre Ablin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Likhomanenko,+T&quot;&gt;Tatiana Likhomanenko&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Digani,+J&quot;&gt;Jagrit Digani&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Gu,+Z&quot;&gt;Zijin Gu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shidani,+A&quot;&gt;Amitis Shidani&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Webb,+R&quot;&gt;Russ Webb&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.04431&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="research" /><summary type="html">Abstract</summary></entry><entry><title type="html">Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers</title><link href="http://localhost:4000/LLMNovelResearchIdeas" rel="alternate" type="text/html" title="Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers" /><published>2024-09-06T00:00:00+03:00</published><updated>2024-09-06T00:00:00+03:00</updated><id>http://localhost:4000/LLMNovelResearchIdeas</id><content type="html" xml:base="http://localhost:4000/LLMNovelResearchIdeas">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Recent advancements in large language models (LLMs) have sparked optimism about their potential to accelerate scientific discovery, with a growing number of works proposing research agents that autonomously generate and validate new ideas. Despite this, no evaluations have shown that LLM systems can take the very first step of producing novel, expert-level ideas, let alone perform the entire research process. We address this by establishing an experimental design that evaluates research idea generation while controlling for confounders and performs the first head-to-head comparison between expert NLP researchers and an LLM ideation agent. By recruiting over 100 NLP researchers to write novel ideas and blind reviews of both LLM and human ideas, we obtain the first statistically significant conclusion on current LLM capabilities for research ideation: we find LLM-generated ideas are judged as more novel (p &amp;lt; 0.05) than human expert ideas while being judged slightly weaker on feasibility. Studying our agent baselines closely, we identify open problems in building and evaluating research agents, including failures of LLM self-evaluation and their lack of diversity in generation. Finally, we acknowledge that human judgements of novelty can be difficult, even by experts, and propose an end-to-end study design which recruits researchers to execute these ideas into full projects, enabling us to study whether these novelty and feasibility judgements result in meaningful differences in research outcome.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Si,+C&quot;&gt;Chenglei Si&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+D&quot;&gt;Diyi Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hashimoto,+T&quot;&gt;Tatsunori Hashimoto&lt;/a&gt;&amp;lt;/a&amp;gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://www.arxiv.org/abs/2409.04109&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="research" /><summary type="html">Abstract</summary></entry></feed>
+&lt;/p&gt;&lt;/p&gt;</content><author><name>Kavour</name></author><category term="news" /><summary type="html">In an exciting development for AI and machine learning, SambaNova Systems has announced the launch of SambaNova Cloud, the world’s fastest AI inference platform. Leveraging the power of its SN40L AI chip, SambaNova Cloud delivers unmatched speed and precision, running the groundbreaking Llama 3.1 405B model at an impressive 132 tokens per second (t/s). The platform is available to developers today, offering a powerful solution for building generative AI applications with both the largest and most capable open-source models.</summary></entry></feed>
