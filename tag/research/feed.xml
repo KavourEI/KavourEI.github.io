@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-09-26T13:28:44+03:00</updated>
+  <updated>2024-09-29T10:48:18+03:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -44,6 +44,90 @@
   
   
 
+  
+    <entry>
+      <title type="html">Rereading Improves Reasoning in Large Language Models</title>
+      <link href="http://localhost:4000/rereading" rel="alternate" type="text/html" title="Rereading Improves Reasoning in Large Language Models" />
+      <published>2024-09-21T00:00:00+03:00</published>
+      <updated>2024-09-21T00:00:00+03:00</updated>
+      <id>http://localhost:4000/rereading</id>
+      <content type="html" xml:base="http://localhost:4000/rereading">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; To enhance the reasoning capabilities of off-the-shelf Large Language Models (LLMs), we introduce a simple, yet general and effective prompting method, Re2, i.e., &lt;strong&gt;Re&lt;/strong&gt;-&lt;strong&gt;Re&lt;/strong&gt;ading the question as input. Unlike most thought-eliciting prompting methods, such as Chain-of-Thought (CoT), which aim to elicit the reasoning process in the output, Re2 shifts the focus to the input by processing questions twice, thereby enhancing the understanding process. Consequently, Re2 demonstrates strong generality and compatibility with most thought-eliciting prompting methods, including CoT. Crucially, Re2 facilitates a &quot;bidirectional&quot; encoding in unidirectional decoder-only LLMs because the first pass could provide global information for the second pass. We begin with a preliminary empirical study as the foundation of Re2, illustrating its potential to enable &quot;bidirectional&quot; attention mechanisms. We then evaluate Re2 on extensive reasoning benchmarks across 14 datasets, spanning 112 experiments, to validate its effectiveness and generality. Our findings indicate that, with the exception of a few scenarios on vanilla ChatGPT, Re2 consistently enhances the reasoning performance of LLMs through a simple re-reading strategy. Further analyses reveal Re2's adaptability, showing how it can be effectively integrated with different LLMs, thought-eliciting prompting, and ensemble strategies. Our code is available at &lt;a href=&quot;https://github.com/Tebmer/Rereading-LLM-Reasoning/&quot;&gt;this https URL&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+X&quot;&gt;Xiaohan Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tao,+C&quot;&gt;Chongyang Tao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shen,+T&quot;&gt;Tao Shen&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+C&quot;&gt;Can Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+H&quot;&gt;Hongbo Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Long,+G&quot;&gt;Guodong Long&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lou,+J&quot;&gt;Jian-guang Lou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ma,+S&quot;&gt;Shuai Ma&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2309.06275&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Qwen2.5-Coder Technical Report</title>
+      <link href="http://localhost:4000/QwenTechRep" rel="alternate" type="text/html" title="Qwen2.5-Coder Technical Report" />
+      <published>2024-09-18T00:00:00+03:00</published>
+      <updated>2024-09-18T00:00:00+03:00</updated>
+      <id>http://localhost:4000/QwenTechRep</id>
+      <content type="html" xml:base="http://localhost:4000/QwenTechRep">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; In this report, we introduce the Qwen2.5-Coder series, a significant upgrade from its predecessor, CodeQwen1.5. This series includes two models: Qwen2.5-Coder-1.5B and Qwen2.5-Coder-7B. As a code-specific model, Qwen2.5-Coder is built upon the Qwen2.5 architecture and continues pretrained on a vast corpus of over 5.5 trillion tokens. Through meticulous data cleaning, scalable synthetic data generation, and balanced data mixing, Qwen2.5-Coder demonstrates impressive code generation capabilities while retaining general versatility. The model has been evaluated on a wide range of code-related tasks, achieving state-of-the-art (SOTA) performance across more than 10 benchmarks, including code generation, completion, reasoning, and repair, consistently outperforming larger models of the same model size. We believe that the release of the Qwen2.5-Coder series will not only push the boundaries of research in code intelligence but also, through its permissive licensing, encourage broader adoption by developers in real-world applications.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hui,+B&quot;&gt;Binyuan Hui&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+J&quot;&gt;Jian Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cui,+Z&quot;&gt;Zeyu Cui&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+J&quot;&gt;Jiaxi Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+D&quot;&gt;Dayiheng Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+L&quot;&gt;Lei Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+T&quot;&gt;Tianyu Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+J&quot;&gt;Jiajun Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yu,+B&quot;&gt;Bowen Yu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dang,+K&quot;&gt;Kai Dang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+A&quot;&gt;An Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Men,+R&quot;&gt;Rui Men&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Huang,+F&quot;&gt;Fei Huang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ren,+X&quot;&gt;Xingzhang Ren&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ren,+X&quot;&gt;Xuancheng Ren&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+J&quot;&gt;Jingren Zhou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lin,+J&quot;&gt;Junyang Lin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.12186&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Breaking reCAPTCHAv2</title>
@@ -88,20 +172,22 @@
     </entry>
   
     <entry>
-      <title type="html">LLaMA-Omni - Seamless Speech Interaction with Large Language Models</title>
-      <link href="http://localhost:4000/LlammaOmni" rel="alternate" type="text/html" title="LLaMA-Omni - Seamless Speech Interaction with Large Language Models" />
+      <title type="html">GroUSE - A Benchmark to Evaluate Evaluators in Grounded Question Answering</title>
+      <link href="http://localhost:4000/GroUSE" rel="alternate" type="text/html" title="GroUSE - A Benchmark to Evaluate Evaluators in Grounded Question Answering" />
       <published>2024-09-10T00:00:00+03:00</published>
       <updated>2024-09-10T00:00:00+03:00</updated>
-      <id>http://localhost:4000/LlammaOmni</id>
-      <content type="html" xml:base="http://localhost:4000/LlammaOmni">&lt;h2&gt; Abstract &lt;/h2&gt;
+      <id>http://localhost:4000/GroUSE</id>
+      <content type="html" xml:base="http://localhost:4000/GroUSE">&lt;h2&gt; Abstract &lt;/h2&gt;
 
-&lt;p&gt; Models like GPT-4o enable real-time interaction with large language models (LLMs) through speech, significantly enhancing user experience compared to traditional text-based interaction. However, there is still a lack of exploration on how to build speech interaction models based on open-source LLMs. To address this, we propose LLaMA-Omni, a novel model architecture designed for low-latency and high-quality speech interaction with LLMs. LLaMA-Omni integrates a pretrained speech encoder, a speech adaptor, an LLM, and a streaming speech decoder. It eliminates the need for speech transcription, and can simultaneously generate text and speech responses directly from speech instructions with extremely low latency. We build our model based on the latest Llama-3.1-8B-Instruct model. To align the model with speech interaction scenarios, we construct a dataset named InstructS2S-200K, which includes 200K speech instructions and corresponding speech responses. Experimental results show that compared to previous speech-language models, LLaMA-Omni provides better responses in both content and style, with a response latency as low as 226ms. Additionally, training LLaMA-Omni takes less than 3 days on just 4 GPUs, paving the way for the efficient development of speech-language models in the future.&lt;/p&gt;
+&lt;p&gt; Retrieval-Augmented Generation (RAG) has emerged as a common paradigm to use Large Language Models (LLMs) alongside private and up-to-date knowledge bases. In this work, we address the challenges of using LLM-as-a-Judge when evaluating grounded answers generated by RAG systems. To assess the calibration and discrimination capabilities of judge models, we identify 7 generator failure modes and introduce GroUSE (Grounded QA Unitary Scoring of Evaluators), a meta-evaluation benchmark of 144 unit tests. This benchmark reveals that existing automated RAG evaluation frameworks often overlook important failure modes, even when using GPT-4 as a judge.&lt;/p&gt;
+&lt;p&gt;To improve on the current design of automated RAG evaluation frameworks, we propose a novel pipeline and find that while closed models perform well on GroUSE, state-of-the-art open-source judges do not generalize to our proposed criteria, despite strong correlation with GPT-4's judgement. Our findings suggest that correlation with GPT-4 is an incomplete proxy for the practical performance of judge models and should be supplemented with evaluations on unit tests for precise failure mode detection.&lt;/p&gt;
+&lt;p&gt;We further show that finetuning Llama-3 on GPT-4's reasoning traces significantly boosts its evaluation capabilities, improving upon both correlation with GPT-4's evaluations and calibration on reference situations.&lt;/p&gt;
 
 &lt;h2&gt; Authors &lt;/h2&gt;
 
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fang,+Q&quot;&gt;Qingkai Fang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Guo,+S&quot;&gt;Shoutao Guo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+Y&quot;&gt;Yan Zhou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ma,+Z&quot;&gt;Zhengrui Ma&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+S&quot;&gt;Shaolei Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Feng,+Y&quot;&gt;Yang Feng&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Muller,+S&quot;&gt;Sacha Muller&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Loison,+A&quot;&gt;António Loison&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Omrani,+B&quot;&gt;Bilel Omrani&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Viaud,+G&quot;&gt;Gautier Viaud&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.06666&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;For more information go &lt;a href=&quot;https://www.arxiv.org/abs/2409.06595&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -130,22 +216,20 @@
     </entry>
   
     <entry>
-      <title type="html">GroUSE - A Benchmark to Evaluate Evaluators in Grounded Question Answering</title>
-      <link href="http://localhost:4000/GroUSE" rel="alternate" type="text/html" title="GroUSE - A Benchmark to Evaluate Evaluators in Grounded Question Answering" />
+      <title type="html">LLaMA-Omni - Seamless Speech Interaction with Large Language Models</title>
+      <link href="http://localhost:4000/LlammaOmni" rel="alternate" type="text/html" title="LLaMA-Omni - Seamless Speech Interaction with Large Language Models" />
       <published>2024-09-10T00:00:00+03:00</published>
       <updated>2024-09-10T00:00:00+03:00</updated>
-      <id>http://localhost:4000/GroUSE</id>
-      <content type="html" xml:base="http://localhost:4000/GroUSE">&lt;h2&gt; Abstract &lt;/h2&gt;
+      <id>http://localhost:4000/LlammaOmni</id>
+      <content type="html" xml:base="http://localhost:4000/LlammaOmni">&lt;h2&gt; Abstract &lt;/h2&gt;
 
-&lt;p&gt; Retrieval-Augmented Generation (RAG) has emerged as a common paradigm to use Large Language Models (LLMs) alongside private and up-to-date knowledge bases. In this work, we address the challenges of using LLM-as-a-Judge when evaluating grounded answers generated by RAG systems. To assess the calibration and discrimination capabilities of judge models, we identify 7 generator failure modes and introduce GroUSE (Grounded QA Unitary Scoring of Evaluators), a meta-evaluation benchmark of 144 unit tests. This benchmark reveals that existing automated RAG evaluation frameworks often overlook important failure modes, even when using GPT-4 as a judge.&lt;/p&gt;
-&lt;p&gt;To improve on the current design of automated RAG evaluation frameworks, we propose a novel pipeline and find that while closed models perform well on GroUSE, state-of-the-art open-source judges do not generalize to our proposed criteria, despite strong correlation with GPT-4's judgement. Our findings suggest that correlation with GPT-4 is an incomplete proxy for the practical performance of judge models and should be supplemented with evaluations on unit tests for precise failure mode detection.&lt;/p&gt;
-&lt;p&gt;We further show that finetuning Llama-3 on GPT-4's reasoning traces significantly boosts its evaluation capabilities, improving upon both correlation with GPT-4's evaluations and calibration on reference situations.&lt;/p&gt;
+&lt;p&gt; Models like GPT-4o enable real-time interaction with large language models (LLMs) through speech, significantly enhancing user experience compared to traditional text-based interaction. However, there is still a lack of exploration on how to build speech interaction models based on open-source LLMs. To address this, we propose LLaMA-Omni, a novel model architecture designed for low-latency and high-quality speech interaction with LLMs. LLaMA-Omni integrates a pretrained speech encoder, a speech adaptor, an LLM, and a streaming speech decoder. It eliminates the need for speech transcription, and can simultaneously generate text and speech responses directly from speech instructions with extremely low latency. We build our model based on the latest Llama-3.1-8B-Instruct model. To align the model with speech interaction scenarios, we construct a dataset named InstructS2S-200K, which includes 200K speech instructions and corresponding speech responses. Experimental results show that compared to previous speech-language models, LLaMA-Omni provides better responses in both content and style, with a response latency as low as 226ms. Additionally, training LLaMA-Omni takes less than 3 days on just 4 GPUs, paving the way for the efficient development of speech-language models in the future.&lt;/p&gt;
 
 &lt;h2&gt; Authors &lt;/h2&gt;
 
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Muller,+S&quot;&gt;Sacha Muller&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Loison,+A&quot;&gt;António Loison&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Omrani,+B&quot;&gt;Bilel Omrani&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Viaud,+G&quot;&gt;Gautier Viaud&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fang,+Q&quot;&gt;Qingkai Fang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Guo,+S&quot;&gt;Shoutao Guo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+Y&quot;&gt;Yan Zhou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ma,+Z&quot;&gt;Zhengrui Ma&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+S&quot;&gt;Shaolei Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Feng,+Y&quot;&gt;Yang Feng&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;For more information go &lt;a href=&quot;https://www.arxiv.org/abs/2409.06595&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.06666&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -356,90 +440,6 @@
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Muennighoff,+N&quot;&gt;Niklas Muennighoff&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Soldaini,+L&quot;&gt;Luca Soldaini&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Groeneveld,+D&quot;&gt;Dirk Groeneveld&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lo,+K&quot;&gt;Kyle Lo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Morrison,+J&quot;&gt;Jacob Morrison&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Min,+S&quot;&gt;Sewon Min&lt;/a&gt;,  &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shi,+W&quot;&gt;Weijia Shi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Walsh,+P&quot;&gt;Pete Walsh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tafjord,+O&quot;&gt;Oyvind Tafjord&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lambert,+N&quot;&gt;Nathan Lambert&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Gu,+Y&quot;&gt;Yuling Gu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Arora,+S&quot;&gt;Shane Arora&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Bhagia,+A&quot;&gt;Akshita Bhagia&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Schwenk,+D&quot;&gt;Dustin Schwenk&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wadden,+D&quot;&gt;David Wadden&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wettig,+A&quot;&gt;Alexander Wettig&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hui,+B&quot;&gt;Binyuan Hui&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dettmers,+T&quot;&gt;Tim Dettmers&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Kiela,+D&quot;&gt;Douwe Kiela&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Farhadi,+A&quot;&gt;Ali Farhadi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Smith,+N+A&quot;&gt;Noah A. Smith&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Koh,+P+W&quot;&gt;Pang Wei Koh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Singh,+A&quot;&gt;Amanpreet Singh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hajishirzi,+H&quot;&gt;Hannaneh Hajishirzi&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.02060&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">In Defense of RAG in the Era of Long-Context Language Models</title>
-      <link href="http://localhost:4000/DefenceOfRAG" rel="alternate" type="text/html" title="In Defense of RAG in the Era of Long-Context Language Models" />
-      <published>2024-09-03T00:00:00+03:00</published>
-      <updated>2024-09-03T00:00:00+03:00</updated>
-      <id>http://localhost:4000/DefenceOfRAG</id>
-      <content type="html" xml:base="http://localhost:4000/DefenceOfRAG">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Overcoming the limited context limitations in early-generation LLMs, retrieval-augmented generation (RAG) has been a reliable solution for context-based answer generation in the past. Recently, the emergence of long-context LLMs allows the models to incorporate much longer text sequences, making RAG less attractive. Recent studies show that long-context LLMs significantly outperform RAG in long-context applications. Unlike the existing works favoring the long-context LLM over RAG, we argue that the extremely long context in LLMs suffers from a diminished focus on relevant information and leads to potential degradation in answer quality. This paper revisits the RAG in long-context answer generation. We propose an order-preserve retrieval-augmented generation (OP-RAG) mechanism, which significantly improves the performance of RAG for long-context question-answer applications. With OP-RAG, as the number of retrieved chunks increases, the answer quality initially rises, and then declines, forming an inverted U-shaped curve. There exist sweet points where OP-RAG could achieve higher answer quality with much less tokens than long-context LLM taking the whole context as input. Extensive experiments on public benchmark demonstrate the superiority of our OP-RAG.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Akkiraju,+R&quot;&gt;Rama Akkiraju&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yu,+T&quot;&gt;Tan Yu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+A&quot;&gt;Anbang Xu&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.01666&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">FLUX that Plays Music</title>
-      <link href="http://localhost:4000/FLUXthatPlaysMusic" rel="alternate" type="text/html" title="FLUX that Plays Music" />
-      <published>2024-09-01T00:00:00+03:00</published>
-      <updated>2024-09-01T00:00:00+03:00</updated>
-      <id>http://localhost:4000/FLUXthatPlaysMusic</id>
-      <content type="html" xml:base="http://localhost:4000/FLUXthatPlaysMusic">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; This paper explores a simple extension of diffusion-based rectified flow Transformers for text-to-music generation, termed as FluxMusic. Generally, along with design in advanced Flux\footnote{this https URL} model, we transfers it into a latent VAE space of mel-spectrum. It involves first applying a sequence of independent attention to the double text-music stream, followed by a stacked single music stream for denoised patch prediction. We employ multiple pre-trained text encoders to sufficiently capture caption semantic information as well as inference flexibility. In between, coarse textual information, in conjunction with time step embeddings, is utilized in a modulation mechanism, while fine-grained textual details are concatenated with the music patch sequence as inputs. Through an in-depth study, we demonstrate that rectified flow training with an optimized architecture significantly outperforms established diffusion methods for the text-to-music task, as evidenced by various automatic metrics and human preference evaluations. Our experimental data, code, and model weights are made publicly available at: &lt;a href=&quot;https://github.com/feizc/FluxMusic&quot;&gt;this URL&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fei,+Z&quot;&gt;Zhengcong Fei&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fan,+M&quot;&gt;Mingyuan Fan&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yu,+C&quot;&gt;Changqian Yu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Huang,+J&quot;&gt;Junshi Huang&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.00587&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       

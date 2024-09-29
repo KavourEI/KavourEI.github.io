@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-09-26T13:28:44+03:00</updated>
+  <updated>2024-09-29T10:48:18+03:00</updated>
   <id>http://localhost:4000/tag/news/feed.xml</id>
 
   
@@ -46,20 +46,20 @@
 
   
     <entry>
-      <title type="html">Empowering YouTube creators with generative AI</title>
-      <link href="http://localhost:4000/EmpYoutube" rel="alternate" type="text/html" title="Empowering YouTube creators with generative AI" />
-      <published>2024-09-18T00:00:00+03:00</published>
-      <updated>2024-09-18T00:00:00+03:00</updated>
-      <id>http://localhost:4000/EmpYoutube</id>
-      <content type="html" xml:base="http://localhost:4000/EmpYoutube">&lt;p&gt;YouTube is aiming to change that through the introduction of advanced generative AI tools that will help millions of creators realize their creative visions. By integrating cutting-edge AI models into its platform, YouTube aims to make video generation more accessible and intuitive, particularly through its YouTube Shorts feature.&lt;/p&gt;
+      <title type="html">PDLP - A Breakthrough in Large-Scale Linear Programming</title>
+      <link href="http://localhost:4000/PDLP" rel="alternate" type="text/html" title="PDLP - A Breakthrough in Large-Scale Linear Programming" />
+      <published>2024-09-20T00:00:00+03:00</published>
+      <updated>2024-09-20T00:00:00+03:00</updated>
+      <id>http://localhost:4000/PDLP</id>
+      <content type="html" xml:base="http://localhost:4000/PDLP">&lt;p&gt;Linear programming (LP) has been a cornerstone of optimization across various industries for decades, but traditional methods face challenges when applied to large-scale problems. PDLP, a groundbreaking first-order method-based solver, overcomes these limitations by offering improved scalability and efficiency, making it a powerful tool for solving complex LP tasks.&lt;/p&gt;
 
-&lt;video class=&quot;gdm-video-embed__player&quot; muted=&quot;&quot; playsinline=&quot;&quot; loop=&quot;&quot; data-autoplay=&quot;true&quot; autoplay=&quot;&quot;&gt;
-    &lt;source src=&quot;https://deepmind.google/api/blob/website/media/Veo_CreationMediaPicker.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-&lt;/video&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Linear_programming&quot;&gt;Linear programming&lt;/a&gt; (LP) problems has long been a fundamental component of optimization in numerous industries, including manufacturing, networking, and logistics. Since its inception in the 1940s, methods like the &lt;a href=&quot;https://en.wikipedia.org/wiki/Simplex_algorithm&quot;&gt;simplex algorithm&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Interior-point_method&quot;&gt;interior-point&lt;/a&gt; techniques have been widely used but face challenges in scaling to larger problems. PDLP (Primal-Dual Hybrid Gradient Enhanced for LP) is an innovative solver that addresses these limitations. Developed since 2018 and recently awarded the Beale–Orchard-Hays Prize, PDLP offers a &lt;a href=&quot;https://en.wikipedia.org/wiki/Category:First_order_methods&quot;&gt;first-order&lt;/a&gt; method (FOM) based approach that excels at large-scale linear programming tasks.&lt;/p&gt;
 
-&lt;p&gt;YouTube is introducing &lt;a href=&quot;https://blog.youtube/news-and-events/made-on-youtube-2024&quot;&gt;Dream Screen&lt;/a&gt;, a new feature that allows creators to generate dynamic video content for Shorts using two advanced AI models—&lt;a href=&quot;https://deepmind.google/technologies/veo/&quot;&gt;Veo&lt;/a&gt; and &lt;a href=&quot;https://deepmind.google/technologies/imagen-3/&quot;&gt;Imagen 3&lt;/a&gt;. These models, built upon Google's decade-long innovation in &lt;a href=&quot;https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/&quot;&gt;Transformer architecture&lt;/a&gt; and diffusion models, have been refined for large-scale use. Dream Screen allows creators to input text prompts, generating four distinct images from which they can choose their preferred visual style. From there, Veo transforms the selected image into a high-quality, six-second video clip. These AI-generated video clips will initially be available for use as backgrounds, with standalone six-second video generation rolling out in 2025.&lt;/p&gt;
+&lt;p&gt;Traditional LP solvers often struggle with memory and hardware-related challenges, particularly when faced with large problem sizes. These issues arise due to the reliance on matrix factorizations, which demand significant memory and are incompatible with modern computational technologies such as GPUs and distributed systems. PDLP, however, utilizes &lt;a href=&quot;https://en.wikipedia.org/wiki/Matrix_multiplication#Definitions&quot;&gt;matrix-vector multiplication&lt;/a&gt;, which reduces memory requirements and enhances computational scalability. Built on the &lt;a href=&quot;https://link.springer.com/article/10.1007/s10851-010-0251-1&quot;&gt;primal-dual hybrid gradient&lt;/a&gt; (PDHG) algorithm, PDLP improves its reliability through adaptive restarts, preconditioning, and step-size adjustments. These enhancements allow it to converge faster and more efficiently, making it ideal for solving large-scale LP problems.&lt;/p&gt;
 
-&lt;p&gt;By launching these generative AI tools, YouTube is enhancing creative possibilities for its vast user base. The company hopes these innovations will inspire creators to bring their ideas to life in vivid and transformative ways. In addition to ensuring accessibility, YouTube is committed to transparency by labeling AI-generated content with watermarks and notifications. These advancements mark a significant step forward in democratizing creativity, empowering creators globally to push the boundaries of their imagination. To read more click &lt;a href=&quot;https://deepmind.google/discover/blog/empowering-youtube-creators-with-generative-ai/?utm_source=x&amp;amp;utm_medium=social&amp;amp;utm_campaign=&amp;amp;utm_content=&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+&lt;p&gt;PDLP is a game-changer for computational optimization, enabling faster and more scalable LP solving across a variety of applications. Whether optimizing network traffic in Google’s data centers or solving the massive Traveling Salesman Problem, PDLP pushes the boundaries of what is achievable in the field. Its open-source nature and growing adoption in both academic and commercial settings reflect its potential for broader impact, paving the way for new innovations in optimization technologies.&lt;/p&gt;
+
+&lt;p&gt;To find out more about its enhancements, applications and the way everything is accomplished, read more on Google Research &lt;a href=&quot;https://research.google/blog/scaling-up-linear-programming-with-pdlp/&quot;&gt;blob post&lt;/a&gt;.&lt;/p&gt;</content>
 
       
       
@@ -80,7 +80,7 @@
       
 
       
-        <summary type="html">YouTube is aiming to change that through the introduction of advanced generative AI tools that will help millions of creators realize their creative visions. By integrating cutting-edge AI models into its platform, YouTube aims to make video generation more accessible and intuitive, particularly through its YouTube Shorts feature.</summary>
+        <summary type="html">Linear programming (LP) has been a cornerstone of optimization across various industries for decades, but traditional methods face challenges when applied to large-scale problems. PDLP, a groundbreaking first-order method-based solver, overcomes these limitations by offering improved scalability and efficiency, making it a powerful tool for solving complex LP tasks.</summary>
       
 
       
@@ -125,6 +125,48 @@
 
       
         <summary type="html">Together AI, a leading AI acceleration cloud, is transforming the way developers and businesses design, develop, and manage generative AI applications. By focusing on open-source models like Llama, Together AI is enabling developers to seamlessly navigate the entire AI lifecycle with tools that are both accessible and powerful. With the launch of innovative applications like LlamaCoder, the company continues to push the boundaries of what open-source generative AI can achieve.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Empowering YouTube creators with generative AI</title>
+      <link href="http://localhost:4000/EmpYoutube" rel="alternate" type="text/html" title="Empowering YouTube creators with generative AI" />
+      <published>2024-09-18T00:00:00+03:00</published>
+      <updated>2024-09-18T00:00:00+03:00</updated>
+      <id>http://localhost:4000/EmpYoutube</id>
+      <content type="html" xml:base="http://localhost:4000/EmpYoutube">&lt;p&gt;YouTube is aiming to change that through the introduction of advanced generative AI tools that will help millions of creators realize their creative visions. By integrating cutting-edge AI models into its platform, YouTube aims to make video generation more accessible and intuitive, particularly through its YouTube Shorts feature.&lt;/p&gt;
+
+&lt;video class=&quot;gdm-video-embed__player&quot; muted=&quot;&quot; playsinline=&quot;&quot; loop=&quot;&quot; data-autoplay=&quot;true&quot; autoplay=&quot;&quot;&gt;
+    &lt;source src=&quot;https://deepmind.google/api/blob/website/media/Veo_CreationMediaPicker.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;p&gt;YouTube is introducing &lt;a href=&quot;https://blog.youtube/news-and-events/made-on-youtube-2024&quot;&gt;Dream Screen&lt;/a&gt;, a new feature that allows creators to generate dynamic video content for Shorts using two advanced AI models—&lt;a href=&quot;https://deepmind.google/technologies/veo/&quot;&gt;Veo&lt;/a&gt; and &lt;a href=&quot;https://deepmind.google/technologies/imagen-3/&quot;&gt;Imagen 3&lt;/a&gt;. These models, built upon Google's decade-long innovation in &lt;a href=&quot;https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/&quot;&gt;Transformer architecture&lt;/a&gt; and diffusion models, have been refined for large-scale use. Dream Screen allows creators to input text prompts, generating four distinct images from which they can choose their preferred visual style. From there, Veo transforms the selected image into a high-quality, six-second video clip. These AI-generated video clips will initially be available for use as backgrounds, with standalone six-second video generation rolling out in 2025.&lt;/p&gt;
+
+&lt;p&gt;By launching these generative AI tools, YouTube is enhancing creative possibilities for its vast user base. The company hopes these innovations will inspire creators to bring their ideas to life in vivid and transformative ways. In addition to ensuring accessibility, YouTube is committed to transparency by labeling AI-generated content with watermarks and notifications. These advancements mark a significant step forward in democratizing creativity, empowering creators globally to push the boundaries of their imagination. To read more click &lt;a href=&quot;https://deepmind.google/discover/blog/empowering-youtube-creators-with-generative-ai/?utm_source=x&amp;amp;utm_medium=social&amp;amp;utm_campaign=&amp;amp;utm_content=&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">YouTube is aiming to change that through the introduction of advanced generative AI tools that will help millions of creators realize their creative visions. By integrating cutting-edge AI models into its platform, YouTube aims to make video generation more accessible and intuitive, particularly through its YouTube Shorts feature.</summary>
       
 
       
@@ -699,48 +741,6 @@ What makes Illuminate especially valuable is its potential to make academic cont
 
       
         <summary type="html">Google Labs has a long tradition of inviting users to explore innovative technologies, with notable successes like Gmail, which began as an exclusive beta. Now, Google is unveiling Illuminate, a groundbreaking project that transforms academic papers into AI-generated audio discussions, styled like an NPR podcast. The concept is straightforward but powerful: Google's large language model, Gemini, creates a concise summary of a research paper and follows it up with a Q&amp;amp;A session. These are voiced by two AI-generated personas—a male interviewer and a female expert—who guide listeners through a brief, engaging conversation about the paper’s key points.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Introducing Cerebras Inference - AI at Instant Speed</title>
-      <link href="http://localhost:4000/cerebras" rel="alternate" type="text/html" title="Introducing Cerebras Inference - AI at Instant Speed" />
-      <published>2024-08-27T00:00:00+03:00</published>
-      <updated>2024-08-27T00:00:00+03:00</updated>
-      <id>http://localhost:4000/cerebras</id>
-      <content type="html" xml:base="http://localhost:4000/cerebras">&lt;p&gt; Cerebras has unveiled its new AI inference solution, claiming it to be the fastest in the world, outpacing NVIDIA GPU-based clouds by 20 times and delivering industry-leading cost efficiency.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://cerebras.ai/wp-content/uploads/2024/08/Screenshot-2024-08-26-at-11.39.02%E2%80%AFPM.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt; Powered by the third-generation Wafer Scale Engine (WSE-3), this solution can process 1,800 tokens per second for Llama3.1 8B models and 450 tokens per second for Llama3.1 70B models, all while maintaining high accuracy with native 16-bit weights. The system's exceptional memory bandwidth and unique chip design eliminate traditional bottlenecks, enabling real-time AI responses. With open API access and competitive pricing, Cerebras Inference aims to revolutionize the development and deployment of large language models (LLMs) across various industries.&lt;/p&gt;
-
-&lt;p&gt; This breakthrough allows for more sophisticated AI workflows, such as enhanced real-time intelligence and complex tasks like code generation, which previously required extensive processing power and time. As Cerebras expands support to even larger models, its platform is set to open new possibilities in AI innovation.&lt;/p&gt;
-
-&lt;p&gt; To read more and benefit from those changes you can find out more &lt;a href=&quot;https://cerebras.ai/blog/introducing-cerebras-inference-ai-at-instant-speed&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">Cerebras has unveiled its new AI inference solution, claiming it to be the fastest in the world, outpacing NVIDIA GPU-based clouds by 20 times and delivering industry-leading cost efficiency.</summary>
       
 
       

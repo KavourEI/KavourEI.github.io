@@ -8,6 +8,51 @@
     
       
       <item>
+        <title>Rereading Improves Reasoning in Large Language Models</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 21 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/rereading</link>
+        <guid isPermaLink="true">http://localhost:4000/rereading</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>PDLP - A Breakthrough in Large-Scale Linear Programming</title>
+        
+          <description>&lt;p&gt;Linear programming (LP) has been a cornerstone of optimization across various industries for decades, but traditional methods face challenges when applied to large-scale problems. PDLP, a groundbreaking first-order method-based solver, overcomes these limitations by offering improved scalability and efficiency, making it a powerful tool for solving complex LP tasks.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 20 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/PDLP</link>
+        <guid isPermaLink="true">http://localhost:4000/PDLP</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Qwen2.5-Coder Technical Report</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Wed, 18 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/QwenTechRep</link>
+        <guid isPermaLink="true">http://localhost:4000/QwenTechRep</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Open Source Generative AI Platform by Together AI</title>
         
           <description>&lt;p&gt; &lt;a href=&quot;https://www.together.ai/&quot;&gt;Together AI&lt;/a&gt;, a leading AI acceleration cloud, is transforming the way developers and businesses design, develop, and manage generative AI applications. By focusing on open-source models like &lt;a href=&quot;https://www.llama.com/&quot;&gt;Llama&lt;/a&gt;, Together AI is enabling developers to seamlessly navigate the entire AI lifecycle with tools that are both accessible and powerful. With the launch of innovative applications like &lt;a href=&quot;https://llamacoder.together.ai/&quot;&gt;LlamaCoder&lt;/a&gt;, the company continues to push the boundaries of what open-source generative AI can achieve.&lt;/p&gt;
@@ -589,6 +634,21 @@
         <link>
         http://localhost:4000/AIScientist</link>
         <guid isPermaLink="true">http://localhost:4000/AIScientist</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>MoMa - Efficient Early-Fusion Pre-training with Mixture of Modality-Aware Experts</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 12 Aug 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/Moma</link>
+        <guid isPermaLink="true">http://localhost:4000/Moma</guid>
       </item>
       
     
