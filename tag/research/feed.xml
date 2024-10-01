@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-09-29T10:48:18+03:00</updated>
+  <updated>2024-10-01T12:10:38+03:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -88,6 +88,132 @@
     </entry>
   
     <entry>
+      <title type="html">Michelangelo-Long Context Evaluations Beyond Haystacks via Latent Structure Queries</title>
+      <link href="http://localhost:4000/Michelangelo" rel="alternate" type="text/html" title="Michelangelo-Long Context Evaluations Beyond Haystacks via Latent Structure Queries" />
+      <published>2024-09-20T00:00:00+03:00</published>
+      <updated>2024-09-20T00:00:00+03:00</updated>
+      <id>http://localhost:4000/Michelangelo</id>
+      <content type="html" xml:base="http://localhost:4000/Michelangelo">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; We introduce Michelangelo: a minimal, synthetic, and unleaked long-context reasoning evaluation for large language models which is also easy to automatically score. This evaluation is derived via a novel, unifying framework for evaluations over arbitrarily long contexts which measure the model's ability to do more than retrieve a single piece of information from its context. The central idea of the Latent Structure Queries framework (LSQ) is to construct tasks which require a model to ``chisel away'' the irrelevant information in the context, revealing a latent structure in the context. To verify a model's understanding of this latent structure, we query the model for details of the structure. Using LSQ, we produce three diagnostic long-context evaluations across code and natural-language domains intended to provide a stronger signal of long-context language model capabilities. We perform evaluations on several state-of-the-art models and demonstrate both that a) the proposed evaluations are high-signal and b) that there is significant room for improvement in synthesizing long-context information.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Vodrahalli,+K&quot;&gt;Kiran Vodrahalli&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ontanon,+S&quot;&gt;Santiago Ontanon&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tripuraneni,+N&quot;&gt;Nilesh Tripuraneni&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+K&quot;&gt;Kelvin Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Jain,+S&quot;&gt;Sanil Jain&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shivanna,+R&quot;&gt;Rakesh Shivanna&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hui,+J&quot;&gt;Jeffrey Hui&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dikkala,+N&quot;&gt;Nishanth Dikkala&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Kazemi,+M&quot;&gt;Mehran Kazemi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fatemi,+B&quot;&gt;Bahare Fatemi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Anil,+R&quot;&gt;Rohan Anil&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dyer,+E&quot;&gt;Ethan Dyer&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shakeri,+S&quot;&gt;Siamak Shakeri&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Vij,+R&quot;&gt;Roopali Vij&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Mehta,+H&quot;&gt;Harsh Mehta&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ramasesh,+V&quot;&gt;Vinay Ramasesh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Le,+Q&quot;&gt;Quoc Le&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chi,+E&quot;&gt;Ed Chi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lu,+Y&quot;&gt;Yifeng Lu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Firat,+O&quot;&gt;Orhan Firat&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lazaridou,+A&quot;&gt;Angeliki Lazaridou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lespiau,+J&quot;&gt;Jean-Baptiste Lespiau&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Attaluri,+N&quot;&gt;Nithya Attaluri&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Olszewska,+K&quot;&gt;Kate Olszewska&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.12640&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">LLMs Still Can’t Plan; Can LRMs? A Preliminary Evaluation of OpenAI’s o1 on PlanBench</title>
+      <link href="http://localhost:4000/EvaluationOpenAIo1" rel="alternate" type="text/html" title="LLMs Still Can't Plan; Can LRMs? A Preliminary Evaluation of OpenAI's o1 on PlanBench" />
+      <published>2024-09-20T00:00:00+03:00</published>
+      <updated>2024-09-20T00:00:00+03:00</updated>
+      <id>http://localhost:4000/EvaluationOpenAIo1</id>
+      <content type="html" xml:base="http://localhost:4000/EvaluationOpenAIo1">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; The ability to plan a course of action that achieves a desired state of affairs has long been considered a core competence of intelligent agents and has been an integral part of AI research since its inception. With the advent of large language models (LLMs), there has been considerable interest in the question of whether or not they possess such planning abilities. PlanBench, an extensible benchmark we developed in 2022, soon after the release of GPT3, has remained an important tool for evaluating the planning abilities of LLMs. Despite the slew of new private and open source LLMs since GPT3, progress on this benchmark has been surprisingly slow. OpenAI claims that their recent o1 (Strawberry) model has been specifically constructed and trained to escape the normal limitations of autoregressive LLMs--making it a new kind of model: a Large Reasoning Model (LRM). Using this development as a catalyst, this paper takes a comprehensive look at how well current LLMs and new LRMs do on PlanBench. As we shall see, while o1's performance is a quantum improvement on the benchmark, outpacing the competition, it is still far from saturating it. This improvement also brings to the fore questions about accuracy, efficiency, and guarantees which must be considered before deploying such systems.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Valmeekam,+K&quot;&gt;Karthik Valmeekam&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Stechly,+K&quot;&gt;Kaya Stechly&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Kambhampati,+S&quot;&gt;Subbarao Kambhampati&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.13373&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Training Language Models to Self-Correct via Reinforcement Learning</title>
+      <link href="http://localhost:4000/SelfCorrection" rel="alternate" type="text/html" title="Training Language Models to Self-Correct via Reinforcement Learning" />
+      <published>2024-09-19T00:00:00+03:00</published>
+      <updated>2024-09-19T00:00:00+03:00</updated>
+      <id>http://localhost:4000/SelfCorrection</id>
+      <content type="html" xml:base="http://localhost:4000/SelfCorrection">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in modern LLMs. Existing approaches for training self-correction either require multiple models or rely on a more capable model or other forms of supervision. To this end, we develop a multi-turn online reinforcement learning (RL) approach, SCoRe, that significantly improves an LLM's self-correction ability using entirely self-generated data. To build SCoRe, we first show that variants of supervised fine-tuning (SFT) on offline model-generated correction traces are insufficient for instilling self-correction behavior. In particular, we observe that training via SFT either suffers from a distribution mismatch between the training data and the model's own responses or implicitly prefers only a certain mode of correction behavior that is often not effective at test time. SCoRe addresses these challenges by training under the model's own distribution of self-generated correction traces and using appropriate regularization to steer the learning process into learning a self-correction strategy that is effective at test time as opposed to simply fitting high-reward responses for a given prompt. This regularization prescribes running a first phase of RL on a base model to generate a policy initialization that is less susceptible to collapse and then using a reward bonus to amplify self-correction during training. When applied to Gemini 1.0 Pro and 1.5 Flash models, we find that SCoRe achieves state-of-the-art self-correction performance, improving the base models' self-correction by 15.6% and 9.1% respectively on the MATH and HumanEval benchmarks.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Kumar,+A&quot;&gt;Aviral Kumar&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhuang,+V&quot;&gt;Vincent Zhuang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Agarwal,+R&quot;&gt;Rishabh Agarwal&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Su,+Y&quot;&gt;Yi Su&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Co-Reyes,+J+D&quot;&gt;John D Co-Reyes&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Singh,+A&quot;&gt;Avi Singh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Baumli,+K&quot;&gt;Kate Baumli&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Iqbal,+S&quot;&gt;Shariq Iqbal&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Bishop,+C&quot;&gt;Colton Bishop&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Roelofs,+R&quot;&gt;Rebecca Roelofs&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+L+M&quot;&gt;Lei M Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=McKinney,+K&quot;&gt;Kay McKinney&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shrivastava,+D&quot;&gt;Disha Shrivastava&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Paduraru,+C&quot;&gt;Cosmin Paduraru&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tucker,+G&quot;&gt;George Tucker&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Precup,+D&quot;&gt;Doina Precup&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Behbahani,+F&quot;&gt;Feryal Behbahani&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Faust,+A&quot;&gt;Aleksandra Faust&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.12917&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Qwen2.5-Coder Technical Report</title>
       <link href="http://localhost:4000/QwenTechRep" rel="alternate" type="text/html" title="Qwen2.5-Coder Technical Report" />
       <published>2024-09-18T00:00:00+03:00</published>
@@ -130,6 +256,48 @@
     </entry>
   
     <entry>
+      <title type="html">Kolmogorov-Arnold Transformer</title>
+      <link href="http://localhost:4000/KolArnoldTransformers" rel="alternate" type="text/html" title="Kolmogorov-Arnold Transformer" />
+      <published>2024-09-16T00:00:00+03:00</published>
+      <updated>2024-09-16T00:00:00+03:00</updated>
+      <id>http://localhost:4000/KolArnoldTransformers</id>
+      <content type="html" xml:base="http://localhost:4000/KolArnoldTransformers">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Transformers stand as the cornerstone of mordern deep learning. Traditionally, these models rely on multi-layer perceptron (MLP) layers to mix the information between channels. In this paper, we introduce the Kolmogorov-Arnold Transformer (KAT), a novel architecture that replaces MLP layers with Kolmogorov-Arnold Network (KAN) layers to enhance the expressiveness and performance of the model. Integrating KANs into transformers, however, is no easy feat, especially when scaled up. Specifically, we identify three key challenges: (C1) Base function. The standard B-spline function used in KANs is not optimized for parallel computing on modern hardware, resulting in slower inference speeds. (C2) Parameter and Computation Inefficiency. KAN requires a unique function for each input-output pair, making the computation extremely large. (C3) Weight initialization. The initialization of weights in KANs is particularly challenging due to their learnable activation functions, which are critical for achieving convergence in deep neural networks. To overcome the aforementioned challenges, we propose three key solutions: (S1) Rational basis. We replace B-spline functions with rational functions to improve compatibility with modern GPUs. By implementing this in CUDA, we achieve faster computations. (S2) Group KAN. We share the activation weights through a group of neurons, to reduce the computational load without sacrificing performance. (S3) Variance-preserving initialization. We carefully initialize the activation weights to make sure that the activation variance is maintained across layers. With these designs, KAT scales effectively and readily outperforms traditional MLP-based transformers.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+X&quot;&gt;Xingyi Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+X&quot;&gt;Xinchao Wang&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.10594&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Breaking reCAPTCHAv2</title>
       <link href="http://localhost:4000/reCaptcha" rel="alternate" type="text/html" title="Breaking reCAPTCHAv2" />
       <published>2024-09-13T00:00:00+03:00</published>
@@ -144,6 +312,48 @@
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Plesner,+A&quot;&gt;Andreas Plesner&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Vontobel,+T&quot;&gt;Tobias Vontobel&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wattenhofer,+R&quot;&gt;Roger Wattenhofer&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.08831&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">LLaMA-Omni - Seamless Speech Interaction with Large Language Models</title>
+      <link href="http://localhost:4000/LlammaOmni" rel="alternate" type="text/html" title="LLaMA-Omni - Seamless Speech Interaction with Large Language Models" />
+      <published>2024-09-10T00:00:00+03:00</published>
+      <updated>2024-09-10T00:00:00+03:00</updated>
+      <id>http://localhost:4000/LlammaOmni</id>
+      <content type="html" xml:base="http://localhost:4000/LlammaOmni">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Models like GPT-4o enable real-time interaction with large language models (LLMs) through speech, significantly enhancing user experience compared to traditional text-based interaction. However, there is still a lack of exploration on how to build speech interaction models based on open-source LLMs. To address this, we propose LLaMA-Omni, a novel model architecture designed for low-latency and high-quality speech interaction with LLMs. LLaMA-Omni integrates a pretrained speech encoder, a speech adaptor, an LLM, and a streaming speech decoder. It eliminates the need for speech transcription, and can simultaneously generate text and speech responses directly from speech instructions with extremely low latency. We build our model based on the latest Llama-3.1-8B-Instruct model. To align the model with speech interaction scenarios, we construct a dataset named InstructS2S-200K, which includes 200K speech instructions and corresponding speech responses. Experimental results show that compared to previous speech-language models, LLaMA-Omni provides better responses in both content and style, with a response latency as low as 226ms. Additionally, training LLaMA-Omni takes less than 3 days on just 4 GPUs, paving the way for the efficient development of speech-language models in the future.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fang,+Q&quot;&gt;Qingkai Fang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Guo,+S&quot;&gt;Shoutao Guo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+Y&quot;&gt;Yan Zhou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ma,+Z&quot;&gt;Zhengrui Ma&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+S&quot;&gt;Shaolei Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Feng,+Y&quot;&gt;Yang Feng&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.06666&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -216,48 +426,6 @@
     </entry>
   
     <entry>
-      <title type="html">LLaMA-Omni - Seamless Speech Interaction with Large Language Models</title>
-      <link href="http://localhost:4000/LlammaOmni" rel="alternate" type="text/html" title="LLaMA-Omni - Seamless Speech Interaction with Large Language Models" />
-      <published>2024-09-10T00:00:00+03:00</published>
-      <updated>2024-09-10T00:00:00+03:00</updated>
-      <id>http://localhost:4000/LlammaOmni</id>
-      <content type="html" xml:base="http://localhost:4000/LlammaOmni">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Models like GPT-4o enable real-time interaction with large language models (LLMs) through speech, significantly enhancing user experience compared to traditional text-based interaction. However, there is still a lack of exploration on how to build speech interaction models based on open-source LLMs. To address this, we propose LLaMA-Omni, a novel model architecture designed for low-latency and high-quality speech interaction with LLMs. LLaMA-Omni integrates a pretrained speech encoder, a speech adaptor, an LLM, and a streaming speech decoder. It eliminates the need for speech transcription, and can simultaneously generate text and speech responses directly from speech instructions with extremely low latency. We build our model based on the latest Llama-3.1-8B-Instruct model. To align the model with speech interaction scenarios, we construct a dataset named InstructS2S-200K, which includes 200K speech instructions and corresponding speech responses. Experimental results show that compared to previous speech-language models, LLaMA-Omni provides better responses in both content and style, with a response latency as low as 226ms. Additionally, training LLaMA-Omni takes less than 3 days on just 4 GPUs, paving the way for the efficient development of speech-language models in the future.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fang,+Q&quot;&gt;Qingkai Fang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Guo,+S&quot;&gt;Shoutao Guo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+Y&quot;&gt;Yan Zhou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ma,+Z&quot;&gt;Zhengrui Ma&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+S&quot;&gt;Shaolei Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Feng,+Y&quot;&gt;Yang Feng&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.06666&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">LLMs Will Always Hallucinate, and We Need to Live With This</title>
       <link href="http://localhost:4000/AlwaysHallucinate" rel="alternate" type="text/html" title="LLMs Will Always Hallucinate, and We Need to Live With This" />
       <published>2024-09-09T00:00:00+03:00</published>
@@ -272,174 +440,6 @@
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/stat?searchtype=author&amp;amp;query=Banerjee,+S&quot;&gt;Sourav Banerjee&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/stat?searchtype=author&amp;amp;query=Agarwal,+A&quot;&gt;Ayushi Agarwal&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/stat?searchtype=author&amp;amp;query=Singla,+S&quot;&gt;Saloni Singla&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.05746&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Theory, Analysis, and Best Practices for Sigmoid Self-Attention</title>
-      <link href="http://localhost:4000/SigmoidSelfAttntion" rel="alternate" type="text/html" title="Theory, Analysis, and Best Practices for Sigmoid Self-Attention" />
-      <published>2024-09-06T00:00:00+03:00</published>
-      <updated>2024-09-06T00:00:00+03:00</updated>
-      <id>http://localhost:4000/SigmoidSelfAttntion</id>
-      <content type="html" xml:base="http://localhost:4000/SigmoidSelfAttntion">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Attention is a key part of the transformer architecture. It is a sequence-to-sequence mapping that transforms each sequence element into a weighted sum of values. The weights are typically obtained as the softmax of dot products between keys and queries. Recent work has explored alternatives to softmax attention in transformers, such as ReLU and sigmoid activations. In this work, we revisit sigmoid attention and conduct an in-depth theoretical and empirical analysis. Theoretically, we prove that transformers with sigmoid attention are universal function approximators and benefit from improved regularity compared to softmax attention. Through detailed empirical analysis, we identify stabilization of large initial attention norms during the early stages of training as a crucial factor for the successful training of models with sigmoid attention, outperforming prior attempts. We also introduce FLASHSIGMOID, a hardware-aware and memory-efficient implementation of sigmoid attention yielding a 17% inference kernel speed-up over FLASHATTENTION2 on H100 GPUs. Experiments across language, vision, and speech show that properly normalized sigmoid attention matches the strong performance of softmax attention on a wide range of domains and scales, which previous attempts at sigmoid attention were unable to fully achieve. Our work unifies prior art and establishes best practices for sigmoid attention as a drop-in softmax replacement in transformers.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ramapuram,+J&quot;&gt;Jason Ramapuram&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Danieli,+F&quot;&gt;Federico Danieli&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dhekane,+E&quot;&gt;Eeshan Dhekane&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Weers,+F&quot;&gt;Floris Weers&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Busbridge,+D&quot;&gt;Dan Busbridge&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ablin,+P&quot;&gt;Pierre Ablin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Likhomanenko,+T&quot;&gt;Tatiana Likhomanenko&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Digani,+J&quot;&gt;Jagrit Digani&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Gu,+Z&quot;&gt;Zijin Gu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shidani,+A&quot;&gt;Amitis Shidani&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Webb,+R&quot;&gt;Russ Webb&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.04431&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Open MAGVIT2 - An Open-Source Project Toward Democratizing Auto-regressive Visual Generation</title>
-      <link href="http://localhost:4000/MAGVIT2" rel="alternate" type="text/html" title="Open MAGVIT2 - An Open-Source Project Toward Democratizing Auto-regressive Visual Generation" />
-      <published>2024-09-06T00:00:00+03:00</published>
-      <updated>2024-09-06T00:00:00+03:00</updated>
-      <id>http://localhost:4000/MAGVIT2</id>
-      <content type="html" xml:base="http://localhost:4000/MAGVIT2">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; We present Open-MAGVIT2, a family of auto-regressive image generation models ranging from 300M to 1.5B. The Open-MAGVIT2 project produces an open-source replication of Google's MAGVIT-v2 tokenizer, a tokenizer with a super-large codebook (i.e., &lt;math&gt;&lt;msup&gt;&lt;mi&gt;2&lt;/mi&gt;&lt;mn&gt;18&lt;/mn&gt;&lt;/msup&gt;&lt;/math&gt; codes), and achieves the state-of-the-art reconstruction performance (1.17 rFID) on ImageNet 256×256. Furthermore, we explore its application in plain auto-regressive models and validate scalability properties. To assist auto-regressive models in predicting with a super-large vocabulary, we factorize it into two sub-vocabulary of different sizes by asymmetric token factorization, and further introduce &quot;next sub-token prediction&quot; to enhance sub-token interaction for better generation quality. We release all models and codes to foster innovation and creativity in the field of auto-regressive visual generation.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Luo,+Z&quot;&gt;Zhuoyan Luo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shi,+F&quot;&gt;Fengyuan Shi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ge,+Y&quot;&gt;Yixiao Ge&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+Y&quot;&gt;Yujiu Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+L&quot;&gt;Limin Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shan,+Y&quot;&gt;Ying Shan&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.04410&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers</title>
-      <link href="http://localhost:4000/LLMNovelResearchIdeas" rel="alternate" type="text/html" title="Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers" />
-      <published>2024-09-06T00:00:00+03:00</published>
-      <updated>2024-09-06T00:00:00+03:00</updated>
-      <id>http://localhost:4000/LLMNovelResearchIdeas</id>
-      <content type="html" xml:base="http://localhost:4000/LLMNovelResearchIdeas">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Recent advancements in large language models (LLMs) have sparked optimism about their potential to accelerate scientific discovery, with a growing number of works proposing research agents that autonomously generate and validate new ideas. Despite this, no evaluations have shown that LLM systems can take the very first step of producing novel, expert-level ideas, let alone perform the entire research process. We address this by establishing an experimental design that evaluates research idea generation while controlling for confounders and performs the first head-to-head comparison between expert NLP researchers and an LLM ideation agent. By recruiting over 100 NLP researchers to write novel ideas and blind reviews of both LLM and human ideas, we obtain the first statistically significant conclusion on current LLM capabilities for research ideation: we find LLM-generated ideas are judged as more novel (p &amp;lt; 0.05) than human expert ideas while being judged slightly weaker on feasibility. Studying our agent baselines closely, we identify open problems in building and evaluating research agents, including failures of LLM self-evaluation and their lack of diversity in generation. Finally, we acknowledge that human judgements of novelty can be difficult, even by experts, and propose an end-to-end study design which recruits researchers to execute these ideas into full projects, enabling us to study whether these novelty and feasibility judgements result in meaningful differences in research outcome.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Si,+C&quot;&gt;Chenglei Si&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+D&quot;&gt;Diyi Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hashimoto,+T&quot;&gt;Tatsunori Hashimoto&lt;/a&gt;&amp;lt;/a&amp;gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://www.arxiv.org/abs/2409.04109&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">OLMoE-Open Mixture of Experts Language Models</title>
-      <link href="http://localhost:4000/OLMoE" rel="alternate" type="text/html" title="OLMoE-Open Mixture of Experts Language Models" />
-      <published>2024-09-03T00:00:00+03:00</published>
-      <updated>2024-09-03T00:00:00+03:00</updated>
-      <id>http://localhost:4000/OLMoE</id>
-      <content type="html" xml:base="http://localhost:4000/OLMoE">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; We introduce OLMoE, a fully open, state-of-the-art language model leveraging sparse Mixture-of-Experts (MoE). OLMoE-1B-7B has 7 billion (B) parameters but uses only 1B per input token. We pretrain it on 5 trillion tokens and further adapt it to create OLMoE-1B-7B-Instruct. Our models outperform all available models with similar active parameters, even surpassing larger ones like Llama2-13B-Chat and DeepSeekMoE-16B. We present various experiments on MoE training, analyze routing in our model showing high specialization, and open-source all aspects of our work: model weights, training data, code, and logs.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Muennighoff,+N&quot;&gt;Niklas Muennighoff&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Soldaini,+L&quot;&gt;Luca Soldaini&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Groeneveld,+D&quot;&gt;Dirk Groeneveld&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lo,+K&quot;&gt;Kyle Lo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Morrison,+J&quot;&gt;Jacob Morrison&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Min,+S&quot;&gt;Sewon Min&lt;/a&gt;,  &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shi,+W&quot;&gt;Weijia Shi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Walsh,+P&quot;&gt;Pete Walsh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tafjord,+O&quot;&gt;Oyvind Tafjord&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lambert,+N&quot;&gt;Nathan Lambert&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Gu,+Y&quot;&gt;Yuling Gu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Arora,+S&quot;&gt;Shane Arora&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Bhagia,+A&quot;&gt;Akshita Bhagia&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Schwenk,+D&quot;&gt;Dustin Schwenk&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wadden,+D&quot;&gt;David Wadden&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wettig,+A&quot;&gt;Alexander Wettig&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hui,+B&quot;&gt;Binyuan Hui&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dettmers,+T&quot;&gt;Tim Dettmers&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Kiela,+D&quot;&gt;Douwe Kiela&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Farhadi,+A&quot;&gt;Ali Farhadi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Smith,+N+A&quot;&gt;Noah A. Smith&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Koh,+P+W&quot;&gt;Pang Wei Koh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Singh,+A&quot;&gt;Amanpreet Singh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hajishirzi,+H&quot;&gt;Hannaneh Hajishirzi&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.02060&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       

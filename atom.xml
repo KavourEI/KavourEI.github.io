@@ -8,6 +8,66 @@
     
       
       <item>
+        <title>Updated production-ready Gemini models, reduced 1.5 Pro pricing, increased rate limits, and more</title>
+        
+          <description>&lt;p&gt; Intel has announced the release of its new Xeon 6 with Performance-cores (P-cores) and Gaudi 3 AI accelerators, offering double the performance for AI and HPC workloads. These innovations deliver significant improvements in performance per watt, with optimized total cost of ownership (TCO), enabling businesses to scale AI infrastructure efficiently.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 24 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/Xeon6NGaudi3</link>
+        <guid isPermaLink="true">http://localhost:4000/Xeon6NGaudi3</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Updated production-ready Gemini models, reduced 1.5 Pro pricing, increased rate limits, and more</title>
+        
+          <description>&lt;p&gt;Google has released two updated AI models, Gemini-1.5-Pro-002 and Gemini-1.5-Flash-002, featuring enhanced performance, faster outputs, and significantly reduced costs. These models improve upon the Gemini 1.5 series with a focus on text, code, and multimodal tasks, making them highly versatile and accessible for developers through &lt;a href=&quot;https://aistudio.google.com/app/prompts/new_chat?model=gemini-1.5-pro-002&quot;&gt;Google AI Studio&lt;/a&gt; and the &lt;a href=&quot;https://ai.google.dev/gemini-api/docs/models/gemini&quot;&gt;Gemini API&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 24 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/GeminiModelsUpdate</link>
+        <guid isPermaLink="true">http://localhost:4000/GeminiModelsUpdate</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>NVIDIA Unveils Llama 3.1-Nemotron-51B</title>
+        
+          <description>&lt;p&gt;NVIDIA has introduced the Llama 3.1-Nemotron-51B language model, derived from Meta’s Llama-3.1-70B, showcasing superior accuracy and efficiency. This model leverages Neural Architecture Search (NAS) to balance performance with cost, making it accessible for diverse applications on a single NVIDIA H100 GPU.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 23 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/Nemotron51B</link>
+        <guid isPermaLink="true">http://localhost:4000/Nemotron51B</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>IBM and NASA Unveil Open-Source AI Model for Weather and Climate Innovation</title>
+        
+          <description>&lt;p&gt;IBM and NASA have introduced a groundbreaking AI foundation model designed to address weather and climate challenges. The open-source model promises a more flexible and scalable approach, providing advanced solutions for short-term weather forecasting and long-term climate projections, available for download on Hugging Face.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 23 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/IBMnNasa</link>
+        <guid isPermaLink="true">http://localhost:4000/IBMnNasa</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Rereading Improves Reasoning in Large Language Models</title>
         
           <description>&lt;h2&gt; Abstract &lt;/h2&gt;
@@ -23,6 +83,36 @@
     
       
       <item>
+        <title>Michelangelo-Long Context Evaluations Beyond Haystacks via Latent Structure Queries</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 20 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/Michelangelo</link>
+        <guid isPermaLink="true">http://localhost:4000/Michelangelo</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>LLMs Still Can't Plan; Can LRMs? A Preliminary Evaluation of OpenAI's o1 on PlanBench</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 20 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/EvaluationOpenAIo1</link>
+        <guid isPermaLink="true">http://localhost:4000/EvaluationOpenAIo1</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>PDLP - A Breakthrough in Large-Scale Linear Programming</title>
         
           <description>&lt;p&gt;Linear programming (LP) has been a cornerstone of optimization across various industries for decades, but traditional methods face challenges when applied to large-scale problems. PDLP, a groundbreaking first-order method-based solver, overcomes these limitations by offering improved scalability and efficiency, making it a powerful tool for solving complex LP tasks.&lt;/p&gt;
@@ -33,6 +123,21 @@
         <link>
         http://localhost:4000/PDLP</link>
         <guid isPermaLink="true">http://localhost:4000/PDLP</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Training Language Models to Self-Correct via Reinforcement Learning</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Thu, 19 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/SelfCorrection</link>
+        <guid isPermaLink="true">http://localhost:4000/SelfCorrection</guid>
       </item>
       
     
@@ -78,6 +183,21 @@
         <link>
         http://localhost:4000/EmpYoutube</link>
         <guid isPermaLink="true">http://localhost:4000/EmpYoutube</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Kolmogorov-Arnold Transformer</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 16 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/KolArnoldTransformers</link>
+        <guid isPermaLink="true">http://localhost:4000/KolArnoldTransformers</guid>
       </item>
       
     
