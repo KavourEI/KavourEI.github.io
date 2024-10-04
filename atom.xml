@@ -8,6 +8,51 @@
     
       
       <item>
+        <title>Molmo - Leading Multimodal AI</title>
+        
+          <description>&lt;p&gt; Molmo is a groundbreaking family of open, state-of-the-art multimodal AI models. Our top model rivals proprietary systems across both academic benchmarks and human evaluations, while our smaller models outperform competitors up to 10 times their size.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 25 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/Molmo</link>
+        <guid isPermaLink="true">http://localhost:4000/Molmo</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing Llama 3.2- A New Era of Accessible AI Models</title>
+        
+          <description>&lt;p&gt;Meta's latest release, Llama 3.2, builds on the success of the Llama 3.1 models and aims to make AI more accessible to developers of all levels. With a range of powerful models designed to run on edge and mobile devices, Llama 3.2 opens the door to greater innovation and responsible AI development.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 25 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/Llama32</link>
+        <guid isPermaLink="true">http://localhost:4000/Llama32</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Meet the Assistant Editor - Your New No-Code Sidekick for Customizing Agents in LangGraph Studio!</title>
+        
+          <description>&lt;p&gt; &lt;a href=&quot;https://blog.langchain.dev/langgraph-studio-the-first-agent-ide/&quot;&gt;LangGraph Studio&lt;/a&gt; just got a major upgrade with the new &lt;a href=&quot;https://langchain-ai.github.io/langgraph/cloud/how-tos/assistant_versioning/?ref=blog.langchain.dev&quot;&gt;Assistant Editor&lt;/a&gt;, a tool that lets you tweak and customize LLM-powered agents without touching any code. Whether you’re a developer or a business user, this visual editor makes it a breeze to adjust agent behavior with real-time previews and built-in version control.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 25 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/LangAgent</link>
+        <guid isPermaLink="true">http://localhost:4000/LangAgent</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Updated production-ready Gemini models, reduced 1.5 Pro pricing, increased rate limits, and more</title>
         
           <description>&lt;p&gt; Intel has announced the release of its new Xeon 6 with Performance-cores (P-cores) and Gaudi 3 AI accelerators, offering double the performance for AI and HPC workloads. These innovations deliver significant improvements in performance per watt, with optimized total cost of ownership (TCO), enabling businesses to scale AI infrastructure efficiently.&lt;/p&gt;

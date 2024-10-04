@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-10-01T12:10:38+03:00</updated>
+  <updated>2024-10-04T15:35:33+03:00</updated>
   <id>http://localhost:4000/tag/news/feed.xml</id>
 
   
@@ -46,31 +46,60 @@
 
   
     <entry>
-      <title type="html">Updated production-ready Gemini models, reduced 1.5 Pro pricing, increased rate limits, and more</title>
-      <link href="http://localhost:4000/GeminiModelsUpdate" rel="alternate" type="text/html" title="Updated production-ready Gemini models, reduced 1.5 Pro pricing, increased rate limits, and more" />
-      <published>2024-09-24T00:00:00+03:00</published>
-      <updated>2024-09-24T00:00:00+03:00</updated>
-      <id>http://localhost:4000/GeminiModelsUpdate</id>
-      <content type="html" xml:base="http://localhost:4000/GeminiModelsUpdate">&lt;p&gt;Google has released two updated AI models, Gemini-1.5-Pro-002 and Gemini-1.5-Flash-002, featuring enhanced performance, faster outputs, and significantly reduced costs. These models improve upon the Gemini 1.5 series with a focus on text, code, and multimodal tasks, making them highly versatile and accessible for developers through &lt;a href=&quot;https://aistudio.google.com/app/prompts/new_chat?model=gemini-1.5-pro-002&quot;&gt;Google AI Studio&lt;/a&gt; and the &lt;a href=&quot;https://ai.google.dev/gemini-api/docs/models/gemini&quot;&gt;Gemini API&lt;/a&gt;.&lt;/p&gt;
+      <title type="html">Molmo - Leading Multimodal AI</title>
+      <link href="http://localhost:4000/Molmo" rel="alternate" type="text/html" title="Molmo - Leading Multimodal AI" />
+      <published>2024-09-25T00:00:00+03:00</published>
+      <updated>2024-09-25T00:00:00+03:00</updated>
+      <id>http://localhost:4000/Molmo</id>
+      <content type="html" xml:base="http://localhost:4000/Molmo">&lt;p&gt; Molmo is a groundbreaking family of open, state-of-the-art multimodal AI models. Our top model rivals proprietary systems across both academic benchmarks and human evaluations, while our smaller models outperform competitors up to 10 times their size.&lt;/p&gt;
 
-&lt;p&gt;Google has introduced two powerful updates to its Gemini 1.5 model series: the Gemini-1.5-Pro-002 and Gemini-1.5-Flash-002. These models bring significant improvements in speed, efficiency, and cost, continuing the momentum from previous releases. With a focus on providing developers with faster outputs, reduced latency, and more affordable pricing, these models are ideal for a wide range of use cases, from long-context text synthesis to advanced multimodal applications. Both models are accessible via Google AI Studio and the Gemini API, making them easier to integrate for developers and larger organizations using Google Cloud and &lt;a href=&quot;https://cloud.google.com/vertex-ai&quot;&gt;Vertex AI&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe width=&quot;1024&quot; height=&quot;576&quot; src=&quot;https://www.youtube.com/embed/spBxYa3eAlA&quot; title=&quot;👋 Meet Molmo: A Family of Open State-of-the-Art Multimodal AI Models&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;The Gemini 1.5 models are designed to perform exceptionally well across various text, code, and multimodal tasks. These capabilities allow them to handle complex tasks like processing &lt;a href=&quot;https://ai.google.dev/gemini-api/docs/document-processing&quot;&gt;1,000-page PDFs&lt;/a&gt;, answering questions about large code repositories, and analyzing hour-long videos. The latest updates to Gemini 1.5 Pro and Flash build on these strengths, with significant improvements in performance metrics and model efficiency. For example, both models have seen a ~20% boost in math benchmarks and 7% better results in the MMLU-Pro benchmark, positioning them as top performers in their class.&lt;/p&gt;
+&lt;p&gt; Although current multimodal models can interpret diverse data and express it in natural language, Molmo goes further. By learning to point at objects it perceives, Molmo facilitates richer interactions with the physical and virtual world, unlocking the potential for next-gen applications that can both act and interact within their environments.&lt;/p&gt;
 
-&lt;p&gt;To make the models more developer-friendly, Google has reduced the default output length by 5-20%, ensuring concise responses without sacrificing accuracy. Additionally, the models now offer faster output generation and drastically lower latency, allowing developers to work more efficiently and at scale.&lt;/p&gt;
+&lt;h3&gt; Open, Cutting-Edge, and Actionable&lt;/h3&gt;
 
-&lt;p&gt; Some of the key features we can clearly see reading though the official post are:&lt;/p&gt;
+&lt;p&gt; Most advanced multimodal models today are proprietary, and efforts to create open models have lagged behind. Often, the best-performing open models rely heavily on synthetic data derived from proprietary systems. Consequently, the AI community lacks critical foundational knowledge to develop high-performing vision-language models (VLMs) from scratch.&lt;/p&gt;
+
+&lt;p&gt; Molmo fills this gap. Our VLM pipeline—spanning weights, code, data, and evaluations—is entirely open, starting with a pre-trained vision encoder (CLIP) and language-only LLMs, free from reliance on proprietary models. A core innovation is our highly detailed image caption dataset, built entirely from speech-based human descriptions, and a diverse fine-tuning dataset that includes 2D pointing data, enabling Molmo to respond not only with language but also with gestures. This opens up new opportunities for VLMs to interact with both virtual and physical worlds.&lt;/p&gt;
+
+&lt;p&gt; The best model in the Molmo family outshines other open models and compares favorably with leading proprietary systems like GPT-4V, Claude 3.5, and Gemini 1.5. Starting today, we are releasing select model weights, inference code, and a public demo of Molmo-7B-D, with full model weights and data coming soon.&lt;/p&gt;
+
+&lt;h3&gt; PixMo: Quality Over Quantity in Data&lt;/h3&gt;
+
+&lt;p&gt; While many VLMs are trained on billions of noisy web-sourced image-text pairs, leading to hallucinations in model output, Molmo takes a different path by emphasizing data quality over quantity. Our models are trained on fewer than 1 million high-quality image-text pairs, allowing them to perform better with significantly less data.&lt;p&gt;
+
+&lt;p&gt; The cornerstone of Molmo's success is its training data, PixMo, which consists of two main types: (1) dense captioning data for multimodal pre-training and (2) supervised fine-tuning data for tasks like question answering, document reading, and pointing. Unlike other approaches that distill existing VLMs, we focus on building from scratch, collecting dense captions from human annotators using speech, a method that yields richer and more detailed descriptions than written annotations. This process generated detailed audio descriptions for 712,000 images across 50 key topics.&lt;/p&gt;
+
+&lt;p&gt; Our fine-tuning data includes both academic datasets and newly collected data, designed to enhance capabilities like answering open-ended questions, improving OCR tasks, and pointing to specific elements in images. This pointing ability is crucial for future interactions between VLMs and agents, such as robots identifying objects or web agents locating UI elements.&lt;/p&gt;
+
+&lt;h3&gt; Benchmarking and Human Evaluations&lt;/h3&gt;
+
+&lt;p&gt; Vision-language model evaluation is evolving, and academic benchmarks only provide part of the picture. To complement these, we also conduct large-scale human preference evaluations. Our results draw from 325,231 pairwise comparisons across 27 models, the largest human preference study for multimodal models to date.&lt;/p&gt;
+
+&lt;p&gt; Our findings show that Molmo performs competitively across both academic benchmarks and human evaluations. In particular:&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt; Massive Cost Reduction: Gemini 1.5 Pro now offers a 64% price reduction for input tokens and a 52% reduction for output tokens for prompts under 128K tokens, driving down the cost of development.&lt;/li&gt;
-    &lt;img src=&quot;https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Pro_Price_Chart_GRHV7Tk.original.png&quot; /&gt;
-&lt;li&gt; Increased Rate Limits: Paid tier rate limits are doubled for 1.5 Flash (up to 2,000 RPM) and tripled for 1.5 Pro (up to 1,000 RPM).&lt;/li&gt;
-&lt;li&gt; Speed and Latency Improvements: Both models are now 2x faster and feature 3x less latency, allowing for quicker and more efficient processing.&lt;/li&gt;
-    &lt;img src=&quot;https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image3_HthRi7g.original.png&quot; /&gt;
-&lt;li&gt; Multimodal Capabilities: Enhanced support for complex tasks like video understanding, large-scale document synthesis, and code generation.&lt;/li&gt;
-&lt;li&gt; Developer-Controlled Filters: Updated &lt;a href=&quot;https://ai.google.dev/gemini-api/docs/safety-settings&quot;&gt;safety filters&lt;/a&gt; allow developers to configure the models to best suit their needs, with filters no longer applied by default.&lt;/li&gt;
+&lt;li&gt; MolmoE-1B, a highly efficient model, nearly matches GPT-4V on both benchmarks and user preferences.&lt;/li&gt;
+&lt;li&gt; Molmo-7B comfortably sits between GPT-4V and GPT-4o, outperforming Pixtral 12B.&lt;/li&gt;
+&lt;li&gt; Our top model, Molmo-72B, achieves the highest academic scores and ranks second in human evaluations, just behind GPT-4o.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The release of the Gemini-1.5-Pro-002 and Gemini-1.5-Flash-002 models underscores Google’s commitment to making AI development more efficient, affordable, and versatile. With substantial improvements in speed, accuracy, and cost-efficiency, these models are a powerful tool for developers working on text, code, and multimodal projects. The reduction in costs, coupled with increased rate limits and faster output, ensures that Gemini 1.5 models can cater to diverse needs in AI development, from startups to large-scale enterprises. As Google continues to refine these models, the future of AI-driven innovation looks brighter than ever. To read full article, in the Google for Developers blog, go &lt;a href=&quot;https://developers.googleblog.com/en/updated-gemini-models-reduced-15-pro-pricing-increased-rate-limits-and-more/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+&lt;h3&gt; Model Architecture&lt;/h3&gt;
+
+&lt;p&gt; Molmo’s architecture follows a simple yet powerful framework: a pre-trained vision encoder combined with a language model. It consists of four parts:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; Pre-processor: Converts input images into multiscale, multi-crop versions.&lt;/li&gt;
+&lt;li&gt; ViT Image Encoder: Maps the images into vision tokens.&lt;/li&gt;
+&lt;li&gt; Connector: Projects vision tokens into the language model’s input dimension.&lt;/li&gt;
+&lt;li&gt; Decoder-only Transformer LLM: Generates the final output.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; Our models use OpenAI's ViT-L/14 CLIP model as the vision encoder and various LLMs at different scales, such as OLMo-7B-1024 and OLMoE-1B-7B-0924, depending on the model size. The training process involves two stages: multimodal pre-training for caption generation and supervised fine-tuning, with all parameters updated throughout.&lt;/p&gt;
+
+&lt;p&gt; By innovating in both data collection and model architecture, Molmo pushes the boundaries of what open AI models can achieve, offering a robust, high-performing alternative to proprietary systems. To read full report, you check the official &lt;a href=&quot;https://molmo.allenai.org/blog&quot;&gt;announcement&lt;/a&gt;. There you will be able to experiment with a provided demo or other interesting informationpr ovideed, like the &lt;a href=&quot;https://arxiv.org/abs/2409.17146&quot;&gt;technical report&lt;/a&gt; presented.&lt;/p&gt;
+&lt;/p&gt;&lt;/p&gt;</content>
 
       
       
@@ -91,7 +120,150 @@
       
 
       
-        <summary type="html">Google has released two updated AI models, Gemini-1.5-Pro-002 and Gemini-1.5-Flash-002, featuring enhanced performance, faster outputs, and significantly reduced costs. These models improve upon the Gemini 1.5 series with a focus on text, code, and multimodal tasks, making them highly versatile and accessible for developers through Google AI Studio and the Gemini API.</summary>
+        <summary type="html">Molmo is a groundbreaking family of open, state-of-the-art multimodal AI models. Our top model rivals proprietary systems across both academic benchmarks and human evaluations, while our smaller models outperform competitors up to 10 times their size.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Introducing Llama 3.2- A New Era of Accessible AI Models</title>
+      <link href="http://localhost:4000/Llama32" rel="alternate" type="text/html" title="Introducing Llama 3.2- A New Era of Accessible AI Models" />
+      <published>2024-09-25T00:00:00+03:00</published>
+      <updated>2024-09-25T00:00:00+03:00</updated>
+      <id>http://localhost:4000/Llama32</id>
+      <content type="html" xml:base="http://localhost:4000/Llama32">&lt;p&gt;Meta's latest release, Llama 3.2, builds on the success of the Llama 3.1 models and aims to make AI more accessible to developers of all levels. With a range of powerful models designed to run on edge and mobile devices, Llama 3.2 opens the door to greater innovation and responsible AI development.&lt;/p&gt;
+
+&lt;p&gt;Meta has just unveiled Llama 3.2, an exciting update to its suite of AI models that brings new opportunities for developers, particularly those with limited resources. As announced by Meta CEO Mark Zuckerberg, Llama 3.2 includes smaller, more efficient models designed to run on edge devices and mobile platforms. These lightweight models (1B and 3B parameters) are perfect for on-device applications, while larger models (11B and 90B) are optimized for image reasoning tasks, opening up new possibilities for applications that need to integrate vision and language capabilities.&lt;/p&gt;
+
+&lt;h3&gt;Key Features of Llama 3.2&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt; &lt;u&gt;Vision and Language Integration&lt;/u&gt; &lt;/li&gt;
+&lt;p&gt; The 11B and 90B models represent a breakthrough in combining language and image processing capabilities. These models support tasks like document-level understanding, image captioning, and visual grounding. For example, businesses can use Llama 3.2 to analyze graphs, maps, and other visual data, quickly providing insights and answers based on visual inputs.&lt;/p&gt;
+&lt;li&gt; &lt;u&gt;Lightweight Models for Edge and Mobile Devices&lt;/u&gt; &lt;/li&gt;
+&lt;p&gt;The 1B and 3B models are designed for on-device applications, bringing AI capabilities directly to mobile and edge platforms. This shift enables developers to build apps that offer privacy by keeping data on the device, while delivering real-time responsiveness. These models are ideal for use cases like summarizing messages or setting up meetings based on tool integration, without needing a constant cloud connection.&lt;/p&gt;
+&lt;li&gt; &lt;u&gt;Open and Accessible&lt;/u&gt; &lt;/li&gt;
+&lt;p&gt;Meta's commitment to openness continues with Llama 3.2, which is available for download on platforms like Hugging Face, and ready for development on partner platforms from AMD to AWS. Developers can access and build with Llama models more easily than ever, leveraging the &lt;a href=&quot;https://github.com/meta-llama/llama-stack&quot;&gt;Llama Stack&lt;/a&gt;—a new API framework designed to simplify integration and customization of Llama models across cloud, on-prem, and mobile environments.&lt;/p&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Training and Model Improvements&lt;/h3&gt;
+
+&lt;p&gt; The release of Llama 3.2 reflects significant advancements in AI model training, particularly in how Meta has developed the models to handle image inputs. By adding image adapters and leveraging pre-trained language models, Llama 3.2 allows for seamless transitions between text and image processing. This architecture maintains all the text-based capabilities of the previous Llama models while adding a powerful new dimension of image understanding.&lt;/p&gt;
+
+&lt;p&gt; In addition, lightweight models have been fine-tuned using pruning and knowledge distillation, enabling them to fit on smaller devices while retaining impressive performance. These improvements result in models that are not only highly capable but also efficient, offering new possibilities for edge computing and personalized AI applications.&lt;/p&gt;
+
+&lt;h3&gt; A Collaborative Effort for Responsible AI&lt;/h3&gt;
+&lt;p&gt; Llama 3.2 isn't just about technical innovation—Meta is also focused on responsible AI development. The release includes the Llama Guard 3 feature, which adds safeguards to ensure safe deployment of both text and image models. This aligns with Meta’s continued emphasis on sharing research and &lt;a href=&quot;https://ai.meta.com/blog/responsible-ai-connect-2024/&quot;&gt;tools&lt;/a&gt; openly to promote responsible use across the AI community.&lt;/p&gt;
+
+&lt;p&gt; As part of this release, Meta has partnered with over 25 companies, including major tech players like IBM, Microsoft, and Intel, to deliver an ecosystem of services designed to support Llama 3.2 from day one. Meta is also working with partners like Qualcomm, MediaTek, and Arm to optimize models for mobile deployment, ensuring the accessibility and security of these powerful AI tools.&lt;/p&gt;
+
+&lt;p&gt;Llama 3.2 is a major milestone in AI development, making advanced AI capabilities more accessible to a broader range of developers. Whether you’re building for cloud, mobile, or on-prem environments, Llama 3.2 offers models that are efficient, powerful, and responsibly designed. With this release, Meta continues to push the boundaries of what open, accessible, and ethical AI can achieve, and the future of AI development looks brighter than ever.&lt;/p&gt;
+
+&lt;p&gt; If you're a developer eager to explore the potential of Llama 3.2, visit &lt;a href=&quot;https://llama.meta.com/&quot;&gt;llama.com&lt;/a&gt; or &lt;a href=&quot;https://huggingface.co/meta-llama&quot;&gt;Hugging Face&lt;/a&gt; to get started today. On the other hand if you want to read full report or check out the sample videos provided, go to the official Meta &lt;a href=&quot;https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/?utm_source=twitter&amp;amp;utm_medium=organic_social&amp;amp;utm_content=video&amp;amp;utm_campaign=llama32&quot;&gt;blog post&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Meta's latest release, Llama 3.2, builds on the success of the Llama 3.1 models and aims to make AI more accessible to developers of all levels. With a range of powerful models designed to run on edge and mobile devices, Llama 3.2 opens the door to greater innovation and responsible AI development.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Meet the Assistant Editor - Your New No-Code Sidekick for Customizing Agents in LangGraph Studio!</title>
+      <link href="http://localhost:4000/LangAgent" rel="alternate" type="text/html" title="Meet the Assistant Editor - Your New No-Code Sidekick for Customizing Agents in LangGraph Studio!" />
+      <published>2024-09-25T00:00:00+03:00</published>
+      <updated>2024-09-25T00:00:00+03:00</updated>
+      <id>http://localhost:4000/LangAgent</id>
+      <content type="html" xml:base="http://localhost:4000/LangAgent">&lt;p&gt; &lt;a href=&quot;https://blog.langchain.dev/langgraph-studio-the-first-agent-ide/&quot;&gt;LangGraph Studio&lt;/a&gt; just got a major upgrade with the new &lt;a href=&quot;https://langchain-ai.github.io/langgraph/cloud/how-tos/assistant_versioning/?ref=blog.langchain.dev&quot;&gt;Assistant Editor&lt;/a&gt;, a tool that lets you tweak and customize LLM-powered agents without touching any code. Whether you’re a developer or a business user, this visual editor makes it a breeze to adjust agent behavior with real-time previews and built-in version control.&lt;/p&gt;
+
+&lt;h3&gt; What Are &lt;a href=&quot;https://langchain-ai.github.io/langgraph/cloud/concepts/api/?ref=blog.langchain.dev#assistants&quot;&gt;Assistants&lt;/a&gt;, Anyway?&lt;/h3&gt;
+
+&lt;p&gt; Okay, before we dive into the juicy stuff, here’s a quick reminder of what is meant by &quot;assistants&quot; in LangGraph. Think of them as instances of a graph with specific settings, like choosing different toppings for your pizza. You get to make quick changes to how the agent behaves without messing with the underlying graph logic. And that's huge because...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; Experimenting is a breeze: Developers, you’ll love this. You can try out different &lt;a href=&quot;https://langchain-ai.github.io/langgraph/cloud/concepts/api/?ref=blog.langchain.dev#assistants&quot;&gt;configurations&lt;/a&gt; in no time, and see what works best without breaking anything.&lt;/li&gt;
+&lt;li&gt; No code? No problem: If you’re on the business side, you can still get in there and tweak the agents to match your use cases without needing a developer on speed dial.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; And here’s the best part: these assistants can all share the same basic graph, but they can have different prompts, models, and settings. So you can mix it up however you want, easily.&lt;/p&gt;
+
+&lt;h3&gt; Meet the Star of the Show: The Assistant Editor!&lt;/h3&gt;
+
+&lt;p&gt; The Assistant Editor is your shiny new tool for creating and editing assistants visually. No more guessing or fiddling around with confusing code. Here's what you can do:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; &lt;strong&gt; Super Easy Configuration&lt;/strong&gt;: Adjust prompts, swap models, and change other settings using a simple interface. If you can drag and drop, you’re already a pro.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt; Real-Time Preview&lt;/strong&gt;: Try out different configurations and see them in action right away—no waiting, no fuss.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt; Version Control&lt;/strong&gt;: Save different versions of your assistant setups, track changes, and roll back to previous ones if needed. It’s like having an undo button for your agents!&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt; Collaboration Mode&lt;/strong&gt;: Share your assistant configurations with your team. Whether you're brainstorming ideas or looking for feedback, it's all in one place for easy access.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt; Why You’ll Love It&lt;/h3&gt;
+
+&lt;p&gt; The Assistant Editor is built with everyone in mind. Here’s why it's a game-changer for different folks:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; &lt;strong&gt;Developers&lt;/strong&gt;: Experiment away! You can swap out prompts, test new models, or adjust settings in a snap. Plus, version control means you can track all your tweaks and even compare performance across different setups. No more guessing what went wrong!&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Business Users&lt;/strong&gt;: Want to customize how your agent behaves? Now you can do it yourself without touching a single line of code. This visual editor brings your ideas to life and helps you shape agent interactions to fit your specific needs. It’s like having your own personal assistant... for your assistant!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt; How to Get Started? It’s Easy!&lt;/h3&gt;
+
+&lt;p&gt; Ready to play around with the Assistant Editor? Here’s how to dive in:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt; &lt;strong&gt; Update LangGraph Studio&lt;/strong&gt;: Make sure you’re running the latest version.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt; Open Your Project&lt;/strong&gt;: Go ahead, load up your LangGraph project.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt; Find the “Assistants” Dropdown&lt;/strong&gt;: You’ll see a shiny new dropdown menu waiting for you.&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt; Create or Edit&lt;/strong&gt;: Either whip up a brand-new assistant or tweak an existing one. Go wild!&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt; Want a Guided Tour?&lt;/strong&gt;: There is a &lt;a href=&quot;https://youtu.be/XQYe3u5e_c4?ref=blog.langchain.dev&quot;&gt;YouTube video&lt;/a&gt; ready to walk you through the whole process, plus some &lt;a href=&quot;https://langchain-ai.github.io/langgraph/cloud/how-tos/assistant_versioning/?ref=blog.langchain.dev&quot;&gt;detailed documentation&lt;/a&gt; if you’re into reading. (But hey, YouTube’s more fun, right?)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt; What’s Coming Next?&lt;/h3&gt;
+
+&lt;p&gt; Oh, this is just the beginning. Next steps are listed to make LangGraph Studio a full-on graphical interface for everything LangGraph-related, so soon we'll be able to manage agents like a boss. Every endpoint in the API? You’ll be able to use it, right from the Studio. Imagine how much more efficient that’ll make things! 😎&lt;/p&gt;
+
+&lt;p&gt; So, what are you waiting for? Go ahead and give the Assistant Editor a spin—you’ll love it!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">LangGraph Studio just got a major upgrade with the new Assistant Editor, a tool that lets you tweak and customize LLM-powered agents without touching any code. Whether you’re a developer or a business user, this visual editor makes it a breeze to adjust agent behavior with real-time previews and built-in version control.</summary>
       
 
       
@@ -158,6 +330,59 @@
 
       
         <summary type="html">Intel has announced the release of its new Xeon 6 with Performance-cores (P-cores) and Gaudi 3 AI accelerators, offering double the performance for AI and HPC workloads. These innovations deliver significant improvements in performance per watt, with optimized total cost of ownership (TCO), enabling businesses to scale AI infrastructure efficiently.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Updated production-ready Gemini models, reduced 1.5 Pro pricing, increased rate limits, and more</title>
+      <link href="http://localhost:4000/GeminiModelsUpdate" rel="alternate" type="text/html" title="Updated production-ready Gemini models, reduced 1.5 Pro pricing, increased rate limits, and more" />
+      <published>2024-09-24T00:00:00+03:00</published>
+      <updated>2024-09-24T00:00:00+03:00</updated>
+      <id>http://localhost:4000/GeminiModelsUpdate</id>
+      <content type="html" xml:base="http://localhost:4000/GeminiModelsUpdate">&lt;p&gt;Google has released two updated AI models, Gemini-1.5-Pro-002 and Gemini-1.5-Flash-002, featuring enhanced performance, faster outputs, and significantly reduced costs. These models improve upon the Gemini 1.5 series with a focus on text, code, and multimodal tasks, making them highly versatile and accessible for developers through &lt;a href=&quot;https://aistudio.google.com/app/prompts/new_chat?model=gemini-1.5-pro-002&quot;&gt;Google AI Studio&lt;/a&gt; and the &lt;a href=&quot;https://ai.google.dev/gemini-api/docs/models/gemini&quot;&gt;Gemini API&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Google has introduced two powerful updates to its Gemini 1.5 model series: the Gemini-1.5-Pro-002 and Gemini-1.5-Flash-002. These models bring significant improvements in speed, efficiency, and cost, continuing the momentum from previous releases. With a focus on providing developers with faster outputs, reduced latency, and more affordable pricing, these models are ideal for a wide range of use cases, from long-context text synthesis to advanced multimodal applications. Both models are accessible via Google AI Studio and the Gemini API, making them easier to integrate for developers and larger organizations using Google Cloud and &lt;a href=&quot;https://cloud.google.com/vertex-ai&quot;&gt;Vertex AI&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Gemini 1.5 models are designed to perform exceptionally well across various text, code, and multimodal tasks. These capabilities allow them to handle complex tasks like processing &lt;a href=&quot;https://ai.google.dev/gemini-api/docs/document-processing&quot;&gt;1,000-page PDFs&lt;/a&gt;, answering questions about large code repositories, and analyzing hour-long videos. The latest updates to Gemini 1.5 Pro and Flash build on these strengths, with significant improvements in performance metrics and model efficiency. For example, both models have seen a ~20% boost in math benchmarks and 7% better results in the MMLU-Pro benchmark, positioning them as top performers in their class.&lt;/p&gt;
+
+&lt;p&gt;To make the models more developer-friendly, Google has reduced the default output length by 5-20%, ensuring concise responses without sacrificing accuracy. Additionally, the models now offer faster output generation and drastically lower latency, allowing developers to work more efficiently and at scale.&lt;/p&gt;
+
+&lt;p&gt; Some of the key features we can clearly see reading though the official post are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; Massive Cost Reduction: Gemini 1.5 Pro now offers a 64% price reduction for input tokens and a 52% reduction for output tokens for prompts under 128K tokens, driving down the cost of development.&lt;/li&gt;
+    &lt;img src=&quot;https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Pro_Price_Chart_GRHV7Tk.original.png&quot; /&gt;
+&lt;li&gt; Increased Rate Limits: Paid tier rate limits are doubled for 1.5 Flash (up to 2,000 RPM) and tripled for 1.5 Pro (up to 1,000 RPM).&lt;/li&gt;
+&lt;li&gt; Speed and Latency Improvements: Both models are now 2x faster and feature 3x less latency, allowing for quicker and more efficient processing.&lt;/li&gt;
+    &lt;img src=&quot;https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image3_HthRi7g.original.png&quot; /&gt;
+&lt;li&gt; Multimodal Capabilities: Enhanced support for complex tasks like video understanding, large-scale document synthesis, and code generation.&lt;/li&gt;
+&lt;li&gt; Developer-Controlled Filters: Updated &lt;a href=&quot;https://ai.google.dev/gemini-api/docs/safety-settings&quot;&gt;safety filters&lt;/a&gt; allow developers to configure the models to best suit their needs, with filters no longer applied by default.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The release of the Gemini-1.5-Pro-002 and Gemini-1.5-Flash-002 models underscores Google’s commitment to making AI development more efficient, affordable, and versatile. With substantial improvements in speed, accuracy, and cost-efficiency, these models are a powerful tool for developers working on text, code, and multimodal projects. The reduction in costs, coupled with increased rate limits and faster output, ensures that Gemini 1.5 models can cater to diverse needs in AI development, from startups to large-scale enterprises. As Google continues to refine these models, the future of AI-driven innovation looks brighter than ever. To read full article, in the Google for Developers blog, go &lt;a href=&quot;https://developers.googleblog.com/en/updated-gemini-models-reduced-15-pro-pricing-increased-rate-limits-and-more/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Google has released two updated AI models, Gemini-1.5-Pro-002 and Gemini-1.5-Flash-002, featuring enhanced performance, faster outputs, and significantly reduced costs. These models improve upon the Gemini 1.5 series with a focus on text, code, and multimodal tasks, making them highly versatile and accessible for developers through Google AI Studio and the Gemini API.</summary>
       
 
       
@@ -458,287 +683,6 @@
 
       
         <summary type="html">YouTube is aiming to change that through the introduction of advanced generative AI tools that will help millions of creators realize their creative visions. By integrating cutting-edge AI models into its platform, YouTube aims to make video generation more accessible and intuitive, particularly through its YouTube Shorts feature.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Runway’s Gen-3 Alpha Video-to-Video</title>
-      <link href="http://localhost:4000/Vid2VidRunaway" rel="alternate" type="text/html" title="Runway’s Gen-3 Alpha Video-to-Video" />
-      <published>2024-09-14T00:00:00+03:00</published>
-      <updated>2024-09-14T00:00:00+03:00</updated>
-      <id>http://localhost:4000/Vid2VidRunaway</id>
-      <content type="html" xml:base="http://localhost:4000/Vid2VidRunaway">&lt;p&gt;Runway has officially launched its Gen-3 Alpha Video-to-Video feature, which is now available on the web for all paid plans. This tool allows users to modify existing video content using simple text prompts.&lt;/p&gt;
-
-&lt;p&gt;In the rapidly evolving world of AI-powered creativity, Runway has once again pushed the boundaries with the launch of its Gen-3 Alpha Video-to-Video feature. This innovative tool enables users to transform existing videos through simple text prompts, unlocking a new realm of creative possibilities. Whether it’s changing the weather, altering a scene’s style, or manipulating objects within a frame, Runway’s latest offering brings advanced video editing capabilities to anyone with a paid subscription. Let’s explore the key features, capabilities, and how to start using this game-changing tool.&lt;/p&gt;
-
-&lt;p&gt;Runway’s Gen-3 Alpha Video-to-Video tool introduces several groundbreaking features that allow for easy, intuitive video transformation:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt; &lt;strong&gt;Text-to-Video Transformation&lt;/strong&gt;
-&lt;p&gt;One of the most notable aspects of this tool is its ability to modify video content based on user-provided text descriptions. For instance, with a prompt like &quot;change the background to a beach sunset,&quot; the AI alters the video scene accordingly while preserving the original subjects and actions. This makes it easier for creators to bring new ideas to life without needing advanced video editing skills.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt; &lt;strong&gt;Style Transfer&lt;/strong&gt;
-&lt;p&gt;With the Video-to-Video tool, users can apply different visual styles to their footage, allowing for experimentation with a wide range of aesthetics. From retro film grain to futuristic sci-fi looks, this feature enhances the creative flexibility of video projects, offering a quick way to change the entire atmosphere of a video.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt; &lt;strong&gt;Weather and Lighting Adjustments&lt;/strong&gt;
-&lt;p&gt;Runway’s new tool goes beyond basic editing by enabling users to adjust environmental conditions in their videos. Creators can introduce elements like rain, snow, or even change the time of day within a scene. This opens up exciting new storytelling possibilities, allowing users to craft dynamic and engaging content with just a few clicks.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt; &lt;strong&gt;Object Manipulation&lt;/strong&gt;
-&lt;p&gt;For content creators looking to enhance their videos with special effects or product placements, the Video-to-Video feature enables precise manipulation of objects within a frame. This includes adding, removing, or altering objects—ideal for fixing continuity issues, introducing new elements, or customizing the visual narrative of a project.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Gen-3 Alpha Video to Video is now available on web for all paid plans. Video to Video represents a new control mechanism for precise movement, expressiveness and intent within generations. To use Video to Video, simply upload your input video, prompt in any aesthetic direction… &lt;a href=&quot;https://t.co/ZjRwVPyqem&quot;&gt;pic.twitter.com/ZjRwVPyqem&lt;/a&gt;&lt;/p&gt;&amp;mdash; Runway (@runwayml) &lt;a href=&quot;https://twitter.com/runwayml/status/1834711758335779300?ref_src=twsrc%5Etfw&quot;&gt;September 13, 2024&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Getting started with Runway’s Gen-3 Alpha Video-to-Video feature is straightforward. Here’s a step-by-step guide:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt; Upload Input Video: Begin by uploading the video you want to modify to Runway’s platform.&lt;/li&gt;
-&lt;li&gt; Prompt Aesthetic Direction: Once uploaded, you can enter a text prompt to direct the AI in modifying the video. Alternatively, users can select from preset styles that match their creative vision.&lt;/li&gt;
-&lt;li&gt; AI Processing: The AI analyzes the video frame by frame, identifying key elements such as subjects, lighting, and backgrounds. It then processes the footage based on the instructions, generating new frames that seamlessly integrate the changes with the original content.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The entire process is streamlined, making it accessible for both seasoned professionals and newcomers alike.&lt;/p&gt;
-
-&lt;h3&gt; Availability and Pricing &lt;/h3&gt;
-
-&lt;p&gt;Runway has made its Gen-3 Alpha Video-to-Video feature available on the web for all paid plans. Here are the details regarding costs and supported video durations:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt; Cost: Pricing is based on video length, with videos 5 seconds or shorter costing 50 credits, and videos longer than 5 seconds costing 100 credits.&lt;/li&gt;
-&lt;li&gt; Supported Durations: Users can transform videos up to 10 seconds in length.&lt;/li&gt;
-&lt;li&gt; Platform: The feature is accessible via &lt;a href=&quot;https://www.testingcatalog.com/tag/runway/&quot;&gt;Runway&lt;/a&gt;’s web platform, making it convenient for users with paid plans to start transforming their videos immediately.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Runway’s Gen-3 Alpha Video-to-Video feature brings cutting-edge AI-driven video editing capabilities to a broader audience. Whether it’s changing a video’s style, manipulating objects, or adjusting environmental elements, this tool empowers creators to make impressive changes with minimal effort. With its simple interface and powerful AI, Runway’s latest offering promises to be a game-changer in video content creation, making professional-level edits accessible to everyone. To read more visit the official &amp;lt;a href=https://www.testingcatalog.com/runway-released-gen-3-alpha-video-to-video-feature-for-paid-plans/'&amp;gt;blog post&amp;lt;/a&amp;gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">Runway has officially launched its Gen-3 Alpha Video-to-Video feature, which is now available on the web for all paid plans. This tool allows users to modify existing video content using simple text prompts.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">DataGemma - Grounding AI in Real-World Data to Combat Hallucinations</title>
-      <link href="http://localhost:4000/GoogleDataGemma" rel="alternate" type="text/html" title="DataGemma - Grounding AI in Real-World Data to Combat Hallucinations" />
-      <published>2024-09-12T00:00:00+03:00</published>
-      <updated>2024-09-12T00:00:00+03:00</updated>
-      <id>http://localhost:4000/GoogleDataGemma</id>
-      <content type="html" xml:base="http://localhost:4000/GoogleDataGemma">&lt;p&gt;Large Language Models (LLMs) have revolutionized the AI landscape by providing powerful tools for generating human-like text, answering complex questions, and assisting with tasks like summarization and code generation. However, these models sometimes produce inaccurate information with confidence, a phenomenon known as &quot;hallucination.&quot; Addressing this issue is critical for enhancing AI reliability. Enter &lt;a href=&quot;https://ai.google.dev/gemma&quot;&gt;DataGemma&lt;/a&gt;, the first open model designed to reduce hallucinations by grounding LLMs in real-world statistical data from Google’s vast &lt;a href=&quot;https://datacommons.org/&quot;&gt;Data Commons&lt;/a&gt;. This article explores how DataGemma leverages the power of trusted data sources to improve the factual accuracy and reasoning of LLMs.&lt;/p&gt;
-
-&lt;h3&gt;The Challenges of Hallucination in AI&lt;/h3&gt;
-
-&lt;p&gt;As AI models grow more advanced, they demonstrate remarkable capabilities in various domains. They can sift through extensive text databases, generate creative ideas, and even draft software code. Yet, despite their strengths, they are prone to hallucinations—generating outputs that are either partially or entirely incorrect. This challenge is particularly problematic when AI models are used in fields requiring high accuracy, such as research, policymaking, and data analysis. For AI to become a more dependable tool, it must consistently provide accurate information grounded in verifiable facts.&lt;/p&gt;
-
-&lt;h3&gt;Introducing DataGemma and Data Commons&lt;/h3&gt;
-
-&lt;p&gt;DataGemma is Google’s innovative solution to the hallucination problem. It works by connecting LLMs to the Data Commons, a public knowledge graph filled with over 240 billion data points across numerous statistical variables. This data is sourced from reputable organizations like the United Nations (UN), World Health Organization (WHO), and the Centers for Disease Control and Prevention (CDC). The wealth of reliable information within Data Commons spans topics like health, economics, demographics, and environmental trends.&lt;/p&gt;
-
-&lt;p&gt;By integrating Data Commons, DataGemma ensures that LLMs can access real-world, trustworthy data during their response generation process. This connection allows AI systems to verify statistical claims, reducing the likelihood of hallucinations and improving the overall factual accuracy of the responses generated by models.&lt;/p&gt;
-
-&lt;h3&gt;Grounding LLMs with DataGemma: RIG and RAG Approaches&lt;/h3&gt;
-
-&lt;p&gt;DataGemma employs two primary techniques to mitigate hallucinations: RIG (Retrieval-Interleaved Generation) and RAG (Retrieval-Augmented Generation).&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&amp;lt;a href=https://colab.research.google.com/github/datacommonsorg/llm-tools/blob/master/notebooks/datagemma_rig.ipynb'&amp;gt;RIG&amp;lt;/a&amp;gt; (Retrieval-Interleaved Generation) – This method allows models to proactively query trusted sources, such as Data Commons, during the response generation process. If the model encounters a statistical query or data-related prompt, it retrieves accurate information from Data Commons before finalizing its response. This proactive retrieval helps the model fact-check its output, greatly minimizing the chances of hallucinating.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://colab.research.google.com/github/datacommonsorg/llm-tools/blob/master/notebooks/datagemma_rag.ipynb&quot;&gt;RAG&lt;/a&gt; (Retrieval-Augmented Generation) – RAG enables LLMs to go beyond their initial training data, pulling in additional contextual information from external sources. In the case of DataGemma, the model utilizes a long context window to retrieve relevant information from Data Commons before generating a response. By doing so, DataGemma enhances the depth and accuracy of responses, offering more informed insights.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Preliminary &lt;a href=&quot;http://datacommons.org/link/DataGemmaPaper&quot;&gt;research&lt;/a&gt; indicates that these techniques significantly reduce hallucinations, especially when handling numerical facts. Early tests have shown promising results, suggesting that users across research, decision-making, and curiosity-driven explorations will experience more reliable interactions with AI models.&lt;/p&gt;
-
-&lt;p&gt;The launch of DataGemma marks a significant advancement in addressing the issue of hallucination in large language models. By connecting AI to the rich, real-world data housed in Google’s Data Commons, DataGemma offers a pathway to more reliable and factually grounded AI outputs. The integration of retrieval techniques like RIG and RAG demonstrates how LLMs can be anchored in trustworthy data, making them more dependable for users across industries.&lt;/p&gt;
-
-&lt;p&gt;As the technology continues to evolve, the improvements seen in DataGemma are a crucial step toward making AI not only more sophisticated but also more accurate and trustworthy. By ensuring that AI provides factual and context-rich information, we are closer to building a future where these models become indispensable tools for informed decision-making and deeper understanding of the world around us.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">Large Language Models (LLMs) have revolutionized the AI landscape by providing powerful tools for generating human-like text, answering complex questions, and assisting with tasks like summarization and code generation. However, these models sometimes produce inaccurate information with confidence, a phenomenon known as &quot;hallucination.&quot; Addressing this issue is critical for enhancing AI reliability. Enter DataGemma, the first open model designed to reduce hallucinations by grounding LLMs in real-world statistical data from Google’s vast Data Commons. This article explores how DataGemma leverages the power of trusted data sources to improve the factual accuracy and reasoning of LLMs.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Advancing AI Reasoning - A Look at OpenAI’s o1 Model</title>
-      <link href="http://localhost:4000/AdvReasoning" rel="alternate" type="text/html" title="Advancing AI Reasoning - A Look at OpenAI’s o1 Model" />
-      <published>2024-09-12T00:00:00+03:00</published>
-      <updated>2024-09-12T00:00:00+03:00</updated>
-      <id>http://localhost:4000/AdvReasoning</id>
-      <content type="html" xml:base="http://localhost:4000/AdvReasoning">&lt;p&gt; Artificial intelligence notes progress almost daily in architecture as well as in problem-solving and reasoning, but OpenAI’s latest model, o1, marks a significant leap forward. Designed to excel in complex reasoning tasks, the o1 model has achieved remarkable results in competitive programming, academic benchmarks, and real-world applications. This article explores the cutting-edge capabilities of o1, from its performance in math and science challenges to its proficiency in coding and human-like reasoning.&lt;/p&gt;
-
-&lt;h3&gt;The Power of o1: Breaking Benchmarks and Rivaling Experts&lt;/h3&gt;
-
-&lt;p&gt;OpenAI's o1 model outperforms its predecessors and rivals human experts in various fields, particularly in reasoning-heavy tasks. In math, for instance, o1 solved 74% of problems from the prestigious AIME exam, placing it among the top 500 high school students in the U.S. With additional techniques like consensus sampling and re-ranking, its accuracy reached an impressive 93%. This is a significant improvement over earlier models like GPT-4o, which only solved 12% of the same problems.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src=&quot;https://images.ctfassets.net/kftzwdyauwt9/7rMY55vLbGTlTiP9GdSOrf/0944e1cde904e896bc5bc6f3da7f16b6/compute-dark.png?w=3840&amp;amp;q=80&amp;amp;fm=webp&quot; /&gt;
-&lt;figcaption&gt;o1 performance smoothly improves with both train-time and test-time compute&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;In science, o1 excelled on the GPQA diamond benchmark, designed to test advanced knowledge in chemistry, physics, and biology. When compared to PhD experts, o1 surpassed their performance, becoming the first AI model to do so on this difficult test. However, OpenAI clarifies that o1’s results &lt;strong&gt;do not imply&lt;/strong&gt; it is superior to PhDs across the board, but it does outshine them in certain types of problem-solving and that it is expected to solve some problems that a PhD would be expected to solve.&lt;/p&gt;
-
-&lt;p&gt;The model’s coding abilities are equally impressive. In the 2024 International Olympiad in Informatics (IOI), o1 ranked in the 49th percentile among human competitors. When relaxed constraints allowed for 10,000 submissions per problem, the model scored above the gold medal threshold, showcasing its problem-solving agility in algorithmic challenges. Additionally, in simulated programming contests on Codeforces, o1 achieved an Elo rating of 1807, outperforming 93% of human participants, a remarkable feat in competitive programming.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src=&quot;https://cdn.openai.com/reasoning-evals/v3/headline-desktop-dark.png?w=3840&amp;amp;q=90&amp;amp;fm=webp&quot; /&gt;
-&lt;figcaption&gt;o1 greatly improves over GPT-4o on challenging reasoning benchmarks. Solid bars show pass@1 accuracy and the shaded region shows the performance of majority vote (consensus) with 64 samples.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-&lt;img src=&quot;https://cdn.openai.com/reasoning-evals/v3/breakdown-dark.png?w=3840&amp;amp;q=90&amp;amp;fm=webp&quot; /&gt;
-&lt;figcaption&gt;o1 improves over GPT-4o on a wide range of benchmarks, including 54/57 MMLU subcategories. Seven are shown for illustration.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3&gt;Reinforcement Learning and Chain of Thought: The Key to o1's Success&lt;/h3&gt;
-
-&lt;p&gt;Central to o1's reasoning advancements is its ability to leverage a &lt;i&gt;&quot;chain of thought&quot;&lt;/i&gt; process, similar to how humans think through complex problems. This process allows the model to break down difficult questions, refine its approaches, and correct mistakes over time. Reinforcement learning plays a crucial role in this, teaching the model how to think productively, which leads to consistent improvements in both training and test-time performance.&lt;/p&gt;
-
-&lt;p&gt;This &quot;chain of thought&quot; approach significantly improves the model's reasoning capabilities across tasks such as math, data analysis, and programming. For example, in open-ended evaluations, human trainers consistently preferred o1's responses over GPT-4o in areas that required deep reasoning. However, o1 is not perfect in all domains, as it struggled with some natural language tasks, suggesting it may not yet be universally applicable.&lt;/p&gt;
-
-&lt;h3&gt;Safety and Alignment: A Responsible Approach to AI Development&lt;/h3&gt;
-
-&lt;p&gt;Safety is a critical consideration in AI development, and OpenAI has integrated safety principles into o1’s chain of thought reasoning. By teaching the model safety rules and embedding these principles into its reasoning process, o1 has shown increased robustness in safety evaluations. It performed exceptionally well in tests designed to assess its resistance to harmful outputs, surpassing previous models like GPT-4o.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tr&gt;
-    &lt;th&gt;Metric&lt;/th&gt;
-    &lt;th&gt;GPT-4o&lt;/th&gt;
-    &lt;th&gt;o1-preview&lt;/th&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;% Safe completions on harmful prompts
-Standard&lt;/td&gt;
-    &lt;td&gt;0.990&lt;/td&gt;
-    &lt;td&gt;0.995&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;% Safe completions on harmful prompts
-Challenging: jailbreaks &amp;amp; edge cases&lt;/td&gt;
-    &lt;td&gt;0.714&lt;/td&gt;
-    &lt;td&gt;0.934&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;↳ Harassment (severe)&lt;/td&gt;
-    &lt;td&gt;0.845&lt;/td&gt;
-    &lt;td&gt;0.900&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;↳ Exploitative sexual content&lt;/td&gt;
-    &lt;td&gt;0.483&lt;/td&gt;
-    &lt;td&gt;0.949&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;↳ Sexual content involving minors&lt;/td&gt;
-    &lt;td&gt;0.707&lt;/td&gt;
-    &lt;td&gt;0.931&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;↳ Advice about non-violent wrongdoing&lt;/td&gt;
-    &lt;td&gt;0.688&lt;/td&gt;
-    &lt;td&gt;0.961&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;↳  Advice about violent wrongdoing&lt;/td&gt;
-    &lt;td&gt;0.778&lt;/td&gt;
-    &lt;td&gt;0.963&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;% Safe completions for top 200 with highest Moderation API scores per category in WildChat (&lt;a href=&quot;https://arxiv.org/abs/2405.01470&quot;&gt;Zhao, et al. 2024&lt;/a&gt;)&lt;/td&gt;
-    &lt;td&gt;0.945&lt;/td&gt;
-    &lt;td&gt;0.971&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Goodness@0.1 StrongREJECT jailbreak eval (&lt;a href=&quot;https://arxiv.org/abs/2402.10260&quot;&gt;Souly et al. 2024&lt;/a&gt;)&lt;/td&gt;
-    &lt;td&gt;0.220&lt;/td&gt;
-    &lt;td&gt;0.840&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Human sourced jailbreak eval&lt;/td&gt;
-    &lt;td&gt;0.770&lt;/td&gt;
-    &lt;td&gt;0.960&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;% Compliance on internal benign edge cases
-“not over-refusal”&lt;/td&gt;
-    &lt;td&gt;0.910&lt;/td&gt;
-    &lt;td&gt;0.930&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;% Compliance on benign edge cases in XSTest
-“not over-refusal” (&lt;a href=&quot;https://arxiv.org/abs/2308.01263&quot;&gt;Röttger, et al. 2023&lt;/a&gt;)&lt;/td&gt;
-    &lt;td&gt;0.924&lt;/td&gt;
-    &lt;td&gt;0.976&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;p&gt;OpenAI has also introduced the concept of a &quot;hidden chain of thought,&quot; allowing for internal monitoring of the model’s thought processes without revealing them to users. This strategy provides a balance between transparency and safety, enabling developers to observe the model’s reasoning while preventing potential misuse or manipulation.&lt;/p&gt;
-
-&lt;p&gt;OpenAI’s o1 model sets a new standard for AI reasoning and problem-solving. By outperforming human experts in math, science, and coding benchmarks, and introducing innovative techniques like chain of thought reasoning, o1 demonstrates its potential to revolutionize a variety of fields. While still under development, this early release marks a significant step toward more aligned and capable AI systems, offering exciting possibilities for future applications in science, coding, and beyond.&lt;/p&gt;
-
-&lt;p&gt;As OpenAI continues to iterate on the o1 model, the advancements in reasoning and alignment are expected to unlock even more groundbreaking use cases. To read full article go to oficial &lt;a href=&quot;https://openai.com/index/learning-to-reason-with-llms/&quot;&gt;blog post.&amp;lt;/a&amp;lt;/p&amp;gt;
-&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">Artificial intelligence notes progress almost daily in architecture as well as in problem-solving and reasoning, but OpenAI’s latest model, o1, marks a significant leap forward. Designed to excel in complex reasoning tasks, the o1 model has achieved remarkable results in competitive programming, academic benchmarks, and real-world applications. This article explores the cutting-edge capabilities of o1, from its performance in math and science challenges to its proficiency in coding and human-like reasoning.</summary>
       
 
       
