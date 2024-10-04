@@ -6,7 +6,7 @@ language: 'en-uk'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: 'https://kavourei.github.io'
+baseurl: '/'
 
 # Website info
 title: Kavour
@@ -16,6 +16,7 @@ logo: assets/images/favicon.png
 logo_dark: assets/images/favicon_DSW_black.png
 favicon: assets/images/favicon_DSW_black.png
 CNAME: https://kavourei.github.io/
+
 
 # Social info
 navigation: True # show the navbar links
