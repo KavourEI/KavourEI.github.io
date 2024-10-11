@@ -188,6 +188,21 @@
     
       
       <item>
+        <title>Enhancing AI Performance with Contextual Retrieval</title>
+        
+          <description>&lt;p&gt;This article explores the innovative approach of Contextual Retrieval, a method that enhances the performance of AI models by improving information retrieval accuracy. By combining contextual embeddings and BM25 techniques, this method significantly reduces retrieval failures, leading to better AI responses in various applications.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 19 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/AntContRag</link>
+        <guid isPermaLink="true">http://localhost:4000/AntContRag</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Qwen2.5-Coder Technical Report</title>
         
           <description>&lt;h2&gt; Abstract &lt;/h2&gt;
