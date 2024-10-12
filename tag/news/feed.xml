@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-10-12T03:00:44+03:00</updated>
+  <updated>2024-10-12T12:24:44+03:00</updated>
   <id>http://localhost:4000/tag/news/feed.xml</id>
 
   
@@ -44,6 +44,205 @@
   
   
 
+  
+    <entry>
+      <title type="html">Meta’s Movie GenAI for Video</title>
+      <link href="http://localhost:4000/MetaMovie" rel="alternate" type="text/html" title="Meta's Movie GenAI for Video" />
+      <published>2024-10-03T00:00:00+03:00</published>
+      <updated>2024-10-03T00:00:00+03:00</updated>
+      <id>http://localhost:4000/MetaMovie</id>
+      <content type="html" xml:base="http://localhost:4000/MetaMovie">&lt;p&gt;Meta has introduced Movie Gen, a groundbreaking generative AI model designed to enhance creativity in video and audio production. This model offers advanced capabilities in video generation, personalized video creation, precise editing, and audio generation, aiming to empower creators of all backgrounds.&lt;/p&gt;
+
+&lt;p&gt;Meta's latest innovation, Movie Gen, is set to transform the landscape of generative AI in media production. Designed for aspiring filmmakers and content creators alike, this model leverages simple text inputs to produce high-quality videos and sounds, while also enabling users to edit existing content seamlessly. With its ability to outperform similar models in various tasks, Movie Gen represents a significant advancement in AI technology.&lt;/p&gt;
+
+&lt;iframe width=&quot;800&quot; height=&quot;450&quot; src=&quot;https://video.fath4-2.fna.fbcdn.net/o1/v/t2/f2/m69/AQPiVwlpt0o56n5kQnldQ-we0lKIfuMSlf2lM95Qmas72Go9TJysToEl6buU1jqT1QnEVTAizFxQpbhKHlJiFJiY.mp4?efg=eyJ2ZW5jb2RlX3RhZyI6Im9lcF9oZCJ9&amp;amp;_nc_ht=video.fath4-2.fna.fbcdn.net&amp;amp;_nc_cat=107&amp;amp;strext=1&amp;amp;vs=3d8ab693f43fa921&amp;amp;_nc_vs=HBksFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HQWJwaHh2aWozQmFxeUVEQU1kUnNVTmt2RUl6Ym1kakFBQUYVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dPbVJoaHNvYTdpRHk4TURBQkVSZVhnUTJkSlhickZxQUFBRhUCAsgBAEsHiBJwcm9ncmVzc2l2ZV9yZWNpcGUBMQ1zdWJzYW1wbGVfZnBzABB2bWFmX2VuYWJsZV9uc3ViACBtZWFzdXJlX29yaWdpbmFsX3Jlc29sdXRpb25fc3NpbQAoY29tcHV0ZV9zc2ltX29ubHlfYXRfb3JpZ2luYWxfcmVzb2x1dGlvbgAddXNlX2xhbmN6b3NfZm9yX3ZxbV91cHNjYWxpbmcAEWRpc2FibGVfcG9zdF9wdnFzABUAJQAcjBdAAAAAAAAAABERAAAAJr7Mjd7xmusNFQIoA0MzZRgLdnRzX3ByZXZpZXccF0A6G-dsi0OWGBlkYXNoX2gyNjQtYmFzaWMtZ2VuMl83MjBwEgAYGHZpZGVvcy52dHMuY2FsbGJhY2sucHJvZDgSVklERU9fVklFV19SRVFVRVNUGwqIFW9lbV90YXJnZXRfZW5jb2RlX3RhZwZvZXBfaGQTb2VtX3JlcXVlc3RfdGltZV9tcwEwDG9lbV9jZmdfcnVsZQd1bm11dGVkE29lbV9yb2lfcmVhY2hfY291bnQDOTk3EW9lbV9pc19leHBlcmltZW50AAxvZW1fdmlkZW9faWQPNTIzNTI5ODIwNjM2Nzg0Em9lbV92aWRlb19hc3NldF9pZA8zODg5NTMzMzQyNjgzNjIVb2VtX3ZpZGVvX3Jlc291cmNlX2lkEDM4OTQ5MzIxMjc0NjIxNzUcb2VtX3NvdXJjZV92aWRlb19lbmNvZGluZ19pZA81Mzk4NDQzNTUwODI0MTcOdnRzX3JlcXVlc3RfaWQAJQIcACW-ARsHiAFzBDE3MDUCY2QKMjAyNC0xMC0wMwNyY2IDOTAwA2FwcAVWaWRlbwJjdBFDTVNfTUVESUFfTUFOQUdFUhNvcmlnaW5hbF9kdXJhdGlvbl9zCTI2LjEwOTQxNwJ0cxVwcm9ncmVzc2l2ZV9lbmNvZGluZ3MA&amp;amp;ccb=9-4&amp;amp;oh=00_AYBDxIAh0BZG36VY4IE--vV8XLgjKngY7T4tE9Al2dkvZg&amp;amp;oe=670C1C0A&amp;amp;_nc_sid=1d576d&amp;amp;_nc_rid=299321509316915&amp;amp;_nc_store_type=1&quot;&gt; &lt;/iframe&gt;
+
+&lt;p&gt;Movie Gen is part of Meta's ongoing commitment to sharing foundational AI research with the community. This journey began with the Make-A-Scene series, which enabled the creation of images, audio, video, and 3D animations. Following this, the Llama Image foundation models improved the quality of image and video generation. Now, Movie Gen combines these advancements into a comprehensive suite that allows for unprecedented control over creative outputs.&lt;/p&gt;
+
+&lt;p&gt;Movie Gen boasts four primary capabilities:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Video Generation:&lt;/strong&gt; Generates high-definition videos from text prompts.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Personalized Video Generation:&lt;/strong&gt; Creates customized videos featuring specific individuals based on their images and text prompts.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Precise Video Editing:&lt;/strong&gt; Allows for detailed edits on existing videos using both video and text inputs.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Audio Generation:&lt;/strong&gt; Produces high-quality audio that syncs with generated or edited videos.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The video generation feature utilizes a 30B parameter transformer model capable of producing videos up to 16 seconds long at a rate of 16 frames per second. This model excels at reasoning about object motion and interactions within the scene, making it a state-of-the-art solution for generating dynamic video content.&lt;/p&gt;
+
+&lt;p&gt;This feature takes personalization a step further by combining a person's image with relevant text prompts to create unique videos that maintain the individual's identity and motion. The results have been recognized as state-of-the-art in preserving human likeness while generating engaging content.&lt;/p&gt;
+
+&lt;p&gt;The editing variant of Movie Gen allows users to make localized edits—like adding or removing elements—while preserving the original content. This capability combines advanced image editing techniques with video generation, enabling users to achieve desired outcomes without requiring specialized skills.&lt;/p&gt;
+
+&lt;p&gt;The audio generation model can produce high-fidelity audio that complements video content. It supports various audio elements such as ambient sounds and instrumental music, achieving state-of-the-art performance in aligning audio with both video and text prompts.&lt;/p&gt;
+
+&lt;p&gt;The development of these models involved numerous technical innovations in architecture and training methodologies. A/B human evaluations show that users prefer Movie Gen’s outputs over competing models across all four capabilities. While these results are promising, Meta acknowledges that further optimizations are necessary to enhance inference speed and overall quality.&lt;/p&gt;
+
+&lt;p&gt;Looking forward, Meta aims to collaborate closely with filmmakers and creators to refine Movie Gen based on user feedback. The goal is to create tools that not only enhance creativity but also open new avenues for self-expression. Future applications could include personalized animated greetings or dynamic storytelling videos shared across social media platforms.&lt;/p&gt;
+
+&lt;p&gt;The introduction of Movie Gen marks a pivotal moment in generative AI technology for media production. By providing powerful tools that democratize access to high-quality video and audio creation, Meta is empowering individuals to bring their artistic visions to life like never before. As this technology continues to evolve, the possibilities for creativity and innovation are boundless.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for further developments as Meta continues to push the boundaries of what generative AI can achieve in the world of media! You can read full article &lt;a href=&quot;https://ai.meta.com/blog/movie-gen-media-foundation-models-generative-ai-video/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Meta has introduced Movie Gen, a groundbreaking generative AI model designed to enhance creativity in video and audio production. This model offers advanced capabilities in video generation, personalized video creation, precise editing, and audio generation, aiming to empower creators of all backgrounds.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Introducing Canvas-A New Era for ChatGPT Collaboration</title>
+      <link href="http://localhost:4000/OpenAICanvas" rel="alternate" type="text/html" title="Introducing Canvas-A New Era for ChatGPT Collaboration" />
+      <published>2024-10-03T00:00:00+03:00</published>
+      <updated>2024-10-03T00:00:00+03:00</updated>
+      <id>http://localhost:4000/OpenAICanvas</id>
+      <content type="html" xml:base="http://localhost:4000/OpenAICanvas">&lt;p&gt;OpenAI has unveiled Canvas, a new interface for ChatGPT that enhances collaboration on writing and coding projects. This innovative feature allows users to work side by side with the AI, providing tools for inline feedback, version control, and targeted editing.&lt;/p&gt;
+
+&lt;p&gt;OpenAI has taken a significant step forward in the realm of AI-assisted creativity and coding with the introduction of Canvas. This new interface transforms how users interact with ChatGPT, enabling a more collaborative and efficient workflow that goes beyond simple text-based conversations.&lt;/p&gt;
+
+&lt;p&gt;Canvas is an early beta feature built on the GPT-4o model that opens in a separate window, allowing users to collaborate with ChatGPT on projects in real-time. This interface is designed to facilitate writing and coding tasks that require iterative editing and revisions, making it easier for users to refine their ideas and outputs.&lt;/p&gt;
+
+&lt;p&gt;The traditional chat interface often falls short for complex projects requiring detailed edits. Canvas addresses this limitation by allowing users to highlight specific sections of text or code, enabling ChatGPT to provide inline feedback and suggestions tailored to the entire project context.&lt;/p&gt;
+
+&lt;h4&gt;Key Features of Canvas&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Direct Editing:&lt;/strong&gt; Users can directly edit text or code within the Canvas interface.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Inline Suggestions:&lt;/strong&gt; ChatGPT offers real-time suggestions and feedback on highlighted sections.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Version Control:&lt;/strong&gt; Users can restore previous versions of their work easily using a back button.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Writing Shortcuts:&lt;/strong&gt; A variety of shortcuts enable quick adjustments such as changing document length or reading level.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Coding is inherently iterative, and Canvas simplifies this process by allowing users to track changes more effectively. The model provides various coding shortcuts that enhance the development experience.&lt;/p&gt;
+
+&lt;h3&gt;Coding Shortcuts Include:&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Review Code:&lt;/strong&gt; Inline suggestions help improve code quality.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Add Logs:&lt;/strong&gt; Print statements can be inserted to assist with debugging.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Add Comments:&lt;/strong&gt; Comments can be added for clarity within the code.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Fix Bugs:&lt;/strong&gt; The model can detect and rewrite problematic code snippets.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Port to Other Languages:&lt;/strong&gt; Code can be translated into various programming languages like JavaScript, Python, and more.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The underlying GPT-4o model has been trained specifically for collaboration, allowing it to understand when to open a Canvas and how to make targeted edits. OpenAI's research team has focused on developing core behaviors that enhance this collaborative experience.&lt;/p&gt;
+
+&lt;h3&gt;Core Behaviors Include:&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Triggering Canvas:&lt;/strong&gt; The model intelligently decides when to open a Canvas based on user prompts.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Diverse Content Generation:&lt;/strong&gt; It can generate various types of content effectively.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Edit and Rewrite:&lt;/strong&gt; The model makes targeted edits or rewrites based on user selections.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Inline Critique:&lt;/strong&gt; Provides constructive feedback on user-generated content.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The introduction of Canvas marks a significant evolution in how users interact with AI tools. OpenAI plans to rapidly improve its capabilities based on user feedback during this early beta phase, aiming to enhance both functionality and user experience further.&lt;/p&gt;
+
+&lt;p&gt;The launch of Canvas represents a transformative approach to working with ChatGPT, making it an invaluable tool for writers and developers alike. As OpenAI continues to refine this feature, users can look forward to an even more powerful collaborative experience that enhances creativity and productivity in their projects.&lt;/p&gt;
+
+&lt;p&gt;This new interface not only streamlines workflows but also empowers users by providing them with greater control over their creative processes. Stay tuned for future updates as OpenAI expands the capabilities of Canvas! Check for more infor and integration videos in the OpenAI's official &lt;a href=&quot;https://openai.com/index/introducing-canvas/&quot;&gt;blog post&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">OpenAI has unveiled Canvas, a new interface for ChatGPT that enhances collaboration on writing and coding projects. This innovative feature allows users to work side by side with the AI, providing tools for inline feedback, version control, and targeted editing.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Gemini 1.5 Flash-8B Available for Developers</title>
+      <link href="http://localhost:4000/Gemini15" rel="alternate" type="text/html" title="Gemini 1.5 Flash-8B Available for Developers" />
+      <published>2024-10-03T00:00:00+03:00</published>
+      <updated>2024-10-03T00:00:00+03:00</updated>
+      <id>http://localhost:4000/Gemini15</id>
+      <content type="html" xml:base="http://localhost:4000/Gemini15">&lt;p&gt;Google has officially launched Gemini 1.5 Flash-8B, a lightweight and efficient model optimized for various tasks, now available for production use. This release aims to empower developers with the lowest cost per intelligence among Gemini models, enhancing capabilities in chat, transcription, and long-context language translation.&lt;/p&gt;
+
+&lt;p&gt;In an exciting development for AI enthusiasts and developers, Google has announced that Gemini 1.5 Flash-8B is now generally available for use. This latest variant of the Gemini model is designed to be lightweight and efficient, making it particularly suitable for high-volume tasks across multiple applications.&lt;/p&gt;
+
+&lt;p&gt;Gemini 1.5 Flash-8B is a smaller and faster version of the original Gemini 1.5 Flash model, which was introduced earlier this year at Google I/O. Over the past few months, Google DeepMind has worked diligently to refine this model based on developer feedback, pushing the boundaries of its performance capabilities.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image2_st96QjR.original.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Key Features&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Optimized Performance:&lt;/strong&gt; Flash-8B nearly matches the performance of its predecessor across various benchmarks, excelling in tasks such as chat, transcription, and long-context language translation.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;High Volume Capability:&lt;/strong&gt; The model is particularly well-suited for high-volume multimodal use cases and long-context summarization tasks.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Cost Efficiency:&lt;/strong&gt; It offers the lowest cost per intelligence of any Gemini model, making it an attractive option for developers looking to manage expenses while maximizing output.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Developers can access Gemini 1.5 Flash-8B for free via &lt;a href=&quot;https://aistudio.google.com/app/prompts/new_chat?model=gemini-1.5-flash-8b-002&quot;&gt;Google AI Studio&lt;/a&gt; and the &lt;a href=&quot;https://ai.google.dev/gemini-api/docs/models/gemini&quot;&gt;Gemini API&lt;/a&gt;. This accessibility allows developers to integrate the model into their applications seamlessly.&lt;/p&gt;
+
+&lt;p&gt;The pricing for using Gemini 1.5 Flash-8B will begin on Monday, October 14th, for those on the paid tier. This new pricing structure reflects Google's ongoing commitment to reducing developer costs while providing powerful tools for innovation.&lt;/p&gt;
+
+&lt;p&gt;To enhance usability, Google has doubled the &lt;a href=&quot;https://ai.google.dev/pricing&quot;&gt;rate limits&lt;/a&gt; for the 1.5 Flash-8B model, allowing developers to send up to 4,000 requests per minute (RPM). This increase facilitates smoother operations and better handling of high-volume tasks.&lt;/p&gt;
+
+&lt;p&gt;The release of Gemini 1.5 Flash-8B marks a significant step in Google's efforts to provide best-in-class small models informed by developer feedback and rigorous testing. As Google continues to innovate in this space, further updates and enhancements are anticipated.&lt;/p&gt;
+
+&lt;p&gt;The general availability of Gemini 1.5 Flash-8B opens new avenues for developers looking to leverage advanced AI capabilities in their projects. With its focus on speed, efficiency, and cost-effectiveness, this model is poised to become a valuable asset in various applications ranging from chatbots to language translation services.&lt;/p&gt;
+
+&lt;p&gt;To read full article click &lt;a href=&quot;https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/&quot;&gt;here&lt;/a&gt;. Happy building and stay tuned for more updates!&lt;p&gt;
+&lt;/p&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Google has officially launched Gemini 1.5 Flash-8B, a lightweight and efficient model optimized for various tasks, now available for production use. This release aims to empower developers with the lowest cost per intelligence among Gemini models, enhancing capabilities in chat, transcription, and long-context language translation.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Introducing FLUX1.1 Pro and the BFL API</title>
@@ -540,231 +739,6 @@
 
       
         <summary type="html">Intel has announced the release of its new Xeon 6 with Performance-cores (P-cores) and Gaudi 3 AI accelerators, offering double the performance for AI and HPC workloads. These innovations deliver significant improvements in performance per watt, with optimized total cost of ownership (TCO), enabling businesses to scale AI infrastructure efficiently.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Updated production-ready Gemini models, reduced 1.5 Pro pricing, increased rate limits, and more</title>
-      <link href="http://localhost:4000/GeminiModelsUpdate" rel="alternate" type="text/html" title="Updated production-ready Gemini models, reduced 1.5 Pro pricing, increased rate limits, and more" />
-      <published>2024-09-24T00:00:00+03:00</published>
-      <updated>2024-09-24T00:00:00+03:00</updated>
-      <id>http://localhost:4000/GeminiModelsUpdate</id>
-      <content type="html" xml:base="http://localhost:4000/GeminiModelsUpdate">&lt;p&gt;Google has released two updated AI models, Gemini-1.5-Pro-002 and Gemini-1.5-Flash-002, featuring enhanced performance, faster outputs, and significantly reduced costs. These models improve upon the Gemini 1.5 series with a focus on text, code, and multimodal tasks, making them highly versatile and accessible for developers through &lt;a href=&quot;https://aistudio.google.com/app/prompts/new_chat?model=gemini-1.5-pro-002&quot;&gt;Google AI Studio&lt;/a&gt; and the &lt;a href=&quot;https://ai.google.dev/gemini-api/docs/models/gemini&quot;&gt;Gemini API&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Google has introduced two powerful updates to its Gemini 1.5 model series: the Gemini-1.5-Pro-002 and Gemini-1.5-Flash-002. These models bring significant improvements in speed, efficiency, and cost, continuing the momentum from previous releases. With a focus on providing developers with faster outputs, reduced latency, and more affordable pricing, these models are ideal for a wide range of use cases, from long-context text synthesis to advanced multimodal applications. Both models are accessible via Google AI Studio and the Gemini API, making them easier to integrate for developers and larger organizations using Google Cloud and &lt;a href=&quot;https://cloud.google.com/vertex-ai&quot;&gt;Vertex AI&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The Gemini 1.5 models are designed to perform exceptionally well across various text, code, and multimodal tasks. These capabilities allow them to handle complex tasks like processing &lt;a href=&quot;https://ai.google.dev/gemini-api/docs/document-processing&quot;&gt;1,000-page PDFs&lt;/a&gt;, answering questions about large code repositories, and analyzing hour-long videos. The latest updates to Gemini 1.5 Pro and Flash build on these strengths, with significant improvements in performance metrics and model efficiency. For example, both models have seen a ~20% boost in math benchmarks and 7% better results in the MMLU-Pro benchmark, positioning them as top performers in their class.&lt;/p&gt;
-
-&lt;p&gt;To make the models more developer-friendly, Google has reduced the default output length by 5-20%, ensuring concise responses without sacrificing accuracy. Additionally, the models now offer faster output generation and drastically lower latency, allowing developers to work more efficiently and at scale.&lt;/p&gt;
-
-&lt;p&gt; Some of the key features we can clearly see reading though the official post are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt; Massive Cost Reduction: Gemini 1.5 Pro now offers a 64% price reduction for input tokens and a 52% reduction for output tokens for prompts under 128K tokens, driving down the cost of development.&lt;/li&gt;
-    &lt;img src=&quot;https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Pro_Price_Chart_GRHV7Tk.original.png&quot; /&gt;
-&lt;li&gt; Increased Rate Limits: Paid tier rate limits are doubled for 1.5 Flash (up to 2,000 RPM) and tripled for 1.5 Pro (up to 1,000 RPM).&lt;/li&gt;
-&lt;li&gt; Speed and Latency Improvements: Both models are now 2x faster and feature 3x less latency, allowing for quicker and more efficient processing.&lt;/li&gt;
-    &lt;img src=&quot;https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image3_HthRi7g.original.png&quot; /&gt;
-&lt;li&gt; Multimodal Capabilities: Enhanced support for complex tasks like video understanding, large-scale document synthesis, and code generation.&lt;/li&gt;
-&lt;li&gt; Developer-Controlled Filters: Updated &lt;a href=&quot;https://ai.google.dev/gemini-api/docs/safety-settings&quot;&gt;safety filters&lt;/a&gt; allow developers to configure the models to best suit their needs, with filters no longer applied by default.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The release of the Gemini-1.5-Pro-002 and Gemini-1.5-Flash-002 models underscores Google’s commitment to making AI development more efficient, affordable, and versatile. With substantial improvements in speed, accuracy, and cost-efficiency, these models are a powerful tool for developers working on text, code, and multimodal projects. The reduction in costs, coupled with increased rate limits and faster output, ensures that Gemini 1.5 models can cater to diverse needs in AI development, from startups to large-scale enterprises. As Google continues to refine these models, the future of AI-driven innovation looks brighter than ever. To read full article, in the Google for Developers blog, go &lt;a href=&quot;https://developers.googleblog.com/en/updated-gemini-models-reduced-15-pro-pricing-increased-rate-limits-and-more/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">Google has released two updated AI models, Gemini-1.5-Pro-002 and Gemini-1.5-Flash-002, featuring enhanced performance, faster outputs, and significantly reduced costs. These models improve upon the Gemini 1.5 series with a focus on text, code, and multimodal tasks, making them highly versatile and accessible for developers through Google AI Studio and the Gemini API.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">NVIDIA Unveils Llama 3.1-Nemotron-51B</title>
-      <link href="http://localhost:4000/Nemotron51B" rel="alternate" type="text/html" title="NVIDIA Unveils Llama 3.1-Nemotron-51B" />
-      <published>2024-09-23T00:00:00+03:00</published>
-      <updated>2024-09-23T00:00:00+03:00</updated>
-      <id>http://localhost:4000/Nemotron51B</id>
-      <content type="html" xml:base="http://localhost:4000/Nemotron51B">&lt;p&gt;NVIDIA has introduced the Llama 3.1-Nemotron-51B language model, derived from Meta’s Llama-3.1-70B, showcasing superior accuracy and efficiency. This model leverages Neural Architecture Search (NAS) to balance performance with cost, making it accessible for diverse applications on a single NVIDIA H100 GPU.&lt;/p&gt;
-
-&lt;p&gt;NVIDIA's release of the Llama 3.1-Nemotron-51B marks a significant milestone in language model technology, blending cutting-edge efficiency with accuracy. This model, derived from Meta’s Llama-3.1-70B, is tailored using a novel Neural Architecture Search (NAS) approach that prioritizes workload efficiency and cost optimization. By fitting seamlessly on a single NVIDIA H100 GPU, it brings down the cost of running advanced AI models, opening new opportunities for both enterprises and developers.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://build.nvidia.com/nvidia/llama-3_1-nemotron-51b-instruct&quot;&gt;Llama 3.1-Nemotron-51B-Instruct&lt;/a&gt;, developed using NAS and knowledge distillation techniques, delivers a groundbreaking balance between accuracy and cost-efficiency. While maintaining nearly the same accuracy as its reference model, Llama-3.1-70B, the Nemotron version achieves 2.2x faster inference. The model reduces the memory footprint and enables running 4x larger workloads on a single GPU, significantly enhancing throughput and reducing costs. Optimized for use in cloud, data centers, and edge devices, the model offers flexibility for various deployment scenarios, including Kubernetes and NIM blueprints.&lt;/p&gt;
-
-&lt;p&gt; On the positive side of things we can say that Nemotron-51B is:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt; 2.2x faster inference compared to Llama-3.1-70B&lt;/li&gt;
-    &lt;table&gt;
-        &lt;tr&gt;
-            &lt;td&gt;&lt;/td&gt;
-            &lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;Accuracy&lt;/strong&gt;&lt;/td&gt;
-            &lt;td colspan=&quot;2&quot;&gt;&lt;strong&gt;Efficiency&lt;/strong&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;MT Bench&lt;/strong&gt;&lt;/td&gt;
-            &lt;td&gt;&lt;strong&gt;MMLU&lt;/strong&gt;&lt;/td&gt;
-            &lt;td&gt;&lt;strong&gt;Text generation (128/1024)&lt;/strong&gt;&lt;/td&gt;
-            &lt;td&gt;&lt;strong&gt;Summarization/ RAG (2048/128)&lt;/strong&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;&lt;strong&gt;Llama-3.1- Nemotron-51B- Instruct&lt;/strong&gt;&lt;/td&gt;
-            &lt;td&gt;8.99&lt;/td&gt;
-            &lt;td&gt;80.2%&lt;/td&gt;
-            &lt;td&gt;6472&lt;/td&gt;
-            &lt;td&gt;653&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;&lt;strong&gt;Llama 3.1-70B- Instruct&lt;/strong&gt;&lt;/td&gt;
-            &lt;td&gt;8.93&lt;/td&gt;
-            &lt;td&gt;81.66%&lt;/td&gt;
-            &lt;td&gt;2975&lt;/td&gt;
-            &lt;td&gt;339&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;&lt;strong&gt;Llama 3.1-70B- Instruct (single GPU)&lt;/strong&gt;&lt;/td&gt;
-            &lt;td&gt;—&lt;/td&gt;
-            &lt;td&gt;—&lt;/td&gt;
-            &lt;td&gt;1274&lt;/td&gt;
-            &lt;td&gt;301&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;&lt;strong&gt;Llama 3-70B&lt;/strong&gt;&lt;/td&gt;
-            &lt;td&gt;8.94&lt;/td&gt;
-            &lt;td&gt;80.17%&lt;/td&gt;
-            &lt;td&gt;2975&lt;/td&gt;
-            &lt;td&gt;339&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;/table&gt;
-&lt;li&gt; reduced memory footprint and FLOPs&lt;/li&gt;
-&lt;li&gt; can run larger workloads on a single GPU&lt;/li&gt;
-&lt;li&gt; superior cost-efficiency (accuracy per dollar)&lt;/li&gt;
-    &lt;img src=&quot;https://developer-blogs.nvidia.com/wp-content/uploads/2024/09/Accuracy-vs.-Throughput-performance-of-Llama-3.1-Nemotron-51B.png&quot; /&gt;
-&lt;li&gt; simplified deployment through NVIDIA NIM microservices&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt; On the other hanb we can clearly see that there is:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt; a slight accuracy tradeoff in favor of cost and efficiency&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Some of the key features presented are the following:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt; Neural Architecture Search (NAS): NAS allows the model to efficiently utilize a zoo of non-standard transformer blocks, optimizing for specific hardware constraints.&lt;/li&gt;
-&lt;li&gt; Optimized for NVIDIA H100: The model fits on a single H100 GPU, making it accessible for high-demand workloads.&lt;/li&gt;
-&lt;li&gt; Reduced Memory and FLOPs: The unique architecture reduces memory usage while maintaining competitive accuracy.&lt;/li&gt;
-&lt;li&gt; High Throughput: The model supports larger batch sizes and delivers tokens per second efficiently, making it ideal for real-time applications.&lt;/li&gt;
-&lt;li&gt; NIM Integration: Llama 3.1-Nemotron-51B is packaged as a microservice through NVIDIA NIM, simplifying the deployment process for developers.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The Llama 3.1-Nemotron-51B sets a new benchmark in the balance between efficiency and accuracy. By leveraging advanced Neural Architecture Search (NAS), NVIDIA has created a model that breaks the efficient frontier, delivering unparalleled performance at reduced costs. This model represents a significant leap forward for developers looking to deploy powerful AI models in real-world scenarios, offering an ideal tradeoff between performance and affordability. If interested and want to find out more, you can go to &lt;a href=&quot;https://developer.nvidia.com/blog/advancing-the-accuracy-efficiency-frontier-with-llama-3-1-nemotron-51b/&quot;&gt; official blog post&lt;/a&gt; of NVIDIA.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">NVIDIA has introduced the Llama 3.1-Nemotron-51B language model, derived from Meta’s Llama-3.1-70B, showcasing superior accuracy and efficiency. This model leverages Neural Architecture Search (NAS) to balance performance with cost, making it accessible for diverse applications on a single NVIDIA H100 GPU.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">IBM and NASA Unveil Open-Source AI Model for Weather and Climate Innovation</title>
-      <link href="http://localhost:4000/IBMnNasa" rel="alternate" type="text/html" title="IBM and NASA Unveil Open-Source AI Model for Weather and Climate Innovation" />
-      <published>2024-09-23T00:00:00+03:00</published>
-      <updated>2024-09-23T00:00:00+03:00</updated>
-      <id>http://localhost:4000/IBMnNasa</id>
-      <content type="html" xml:base="http://localhost:4000/IBMnNasa">&lt;p&gt;IBM and NASA have introduced a groundbreaking AI foundation model designed to address weather and climate challenges. The open-source model promises a more flexible and scalable approach, providing advanced solutions for short-term weather forecasting and long-term climate projections, available for download on Hugging Face.&lt;/p&gt;
-
-&lt;h3&gt;IBM and NASA Launch a New AI Model for Weather and Climate&lt;/h3&gt;
-
-&lt;p&gt;In a significant step for meteorology and climate science, IBM and NASA have collaborated to develop a new &lt;a href=&quot;https://www.ibm.com/topics/artificial-intelligence&quot;&gt;AI&lt;/a&gt; foundation model tailored for a wide range of weather and climate use cases. With contributions from Oak Ridge National Laboratory, this model, dubbed &amp;lt;a href=https://arxiv.org/abs/2409.13598'&amp;gt;Prithvi WxC&amp;lt;/a&amp;gt;, stands out for its versatility and scalability, offering an advanced tool for tackling weather forecasts and climate predictions.&lt;/p&gt;
-
-&lt;p&gt;Unlike traditional models, Prithvi WxC can be fine-tuned to suit different scales—global, regional, or local—making it adaptable for various scientific and industry applications. Whether it’s creating localized weather forecasts or refining long-term climate simulations, this AI model represents a leap forward in environmental analysis.&lt;/p&gt;
-
-&lt;h3&gt;Groundbreaking Applications: From Severe Weather to Climate Projections&lt;/h3&gt;
-
-&lt;p&gt;The weather and climate foundation model offers more than just incremental improvements—it opens new possibilities for tackling complex environmental problems. The model's flexible architecture enables it to be used for multiple applications, including creating targeted forecasts from local data and improving the resolution of global climate simulations. In one notable experiment, the model reconstructed global surface temperatures using only 5% of the original data, highlighting its potential for data assimilation and forecasting in data-sparse environments.&lt;/p&gt;
-
-&lt;p&gt;Two specialized fine-tuned versions of the model are available for specific use cases:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt; Climate and Weather Data Downscaling: This version enhances spatial resolution by up to 12x, making it ideal for generating high-resolution climate projections from low-resolution inputs such as temperature, precipitation, and wind data. This version is now available on the IBM Granite Hugging Face page.&lt;/li&gt;
-&lt;li&gt; Gravity Wave Parameterization: Gravity waves, which influence atmospheric processes like cloud formation and turbulence, have long posed challenges for accurate modeling. The AI model’s ability to better estimate these waves could significantly improve numerical weather and climate models. This fine-tuned version is part of the NASA-IBM Prithvi models on Hugging Face.&lt;/li&gt;
-&lt;li&gt; Collaborative Innovation and the Path Forward: The model builds on years of collaboration between IBM, NASA, and Oak Ridge National Laboratory, with each partner contributing their expertise to enhance AI's role in climate science. Pre-trained on 40 years of Earth observation data from NASA’s MERRA-2 dataset, the model's ability to operate on various scales makes it unique in the field.&lt;/li&gt;
-
-&lt;p&gt;According to IBM’s Juan Bernabe-Moreno, the model’s flexibility sets it apart from other large AI models, which often focus on specific datasets or singular applications like forecasting. The new weather and climate foundation model, however, is designed to accommodate multiple inputs and outputs, allowing it to run on both global and local contexts. This opens new doors for studying phenomena like hurricanes, atmospheric rivers, and long-term climate risks.&lt;/p&gt;
-
-&lt;h3&gt;Open Access and Future Impact&lt;/h3&gt;
-
-&lt;p&gt;Making the model open-source on Hugging Face is a pivotal step (you can access it through the &amp;lt;a href=https://huggingface.co/Prithvi-WxC'&amp;gt;NASA-IBM Hugging Face&amp;lt;/a&amp;gt; page and the downscaling mode can be accessed thgouth the &lt;a href=&quot;https://huggingface.co/ibm-granite&quot;&gt;IBM Granite Hugging Face&lt;/a&gt; page ), democratizing access to cutting-edge climate AI tools. Two versions—the downscaling and gravity wave parameterization models—are now accessible to researchers, developers, and businesses alike. This move follows IBM and NASA’s prior success with the Prithvi geospatial foundation model, which has been used to study disaster patterns, biodiversity, and land-use changes.&lt;/p&gt;
-
-&lt;p&gt;Already, IBM is collaborating with Environment and Climate Change Canada (ECCC) to test the model’s capacity for short-term precipitation forecasting and other advanced use cases. This type of real-time application shows the model’s potential to transform not just climate research but also the way industries, governments, and communities respond to weather events.&lt;/p&gt;
-
-&lt;h3&gt;IBM’s Broader Vision for AI and Climate&lt;/h3&gt;
-
-&lt;p&gt;IBM's long-standing commitment to AI and climate solutions is evident in its continued partnerships and innovations. This model is part of a broader effort to use AI to address some of the world’s most pressing environmental challenges. As Arjun Shankar of Oak Ridge National Laboratory notes, this collaboration is key to supporting breakthroughs in computational science, a critical component in improving the accuracy of climate models.&lt;/p&gt;
-
-&lt;p&gt;With rapid climate change altering weather patterns globally, models like Prithvi WxC are poised to play an increasingly vital role in both understanding and mitigating the impacts of climate change. By making advanced AI tools available to the scientific and business communities, IBM and NASA are empowering more stakeholders to engage with climate science and make informed decisions in the face of future risks.&lt;/p&gt;
-
-&lt;p&gt;In conclusion, IBM and NASA's release of the Prithvi WxC weather and climate foundation model marks a major milestone in the integration of AI with environmental science. Its open-source availability promises to accelerate innovation across industries and research fields, making advanced weather forecasting and climate modeling more accessible than ever before. With this new tool in the hands of developers and scientists, the future of climate research is looking smarter, faster, and more scalable. If are as excited as I am and want to find out more about it check out full article &lt;a href=&quot;https://newsroom.ibm.com/2024-09-23-ibm-and-nasa-release-open-source-ai-model-on-hugging-face-for-weather-and-climate-applications&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">IBM and NASA have introduced a groundbreaking AI foundation model designed to address weather and climate challenges. The open-source model promises a more flexible and scalable approach, providing advanced solutions for short-term weather forecasting and long-term climate projections, available for download on Hugging Face.</summary>
       
 
       

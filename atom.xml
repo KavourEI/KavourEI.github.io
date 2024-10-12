@@ -8,6 +8,66 @@
     
       
       <item>
+        <title>Meta's Movie GenAI for Video</title>
+        
+          <description>&lt;p&gt;Meta has introduced Movie Gen, a groundbreaking generative AI model designed to enhance creativity in video and audio production. This model offers advanced capabilities in video generation, personalized video creation, precise editing, and audio generation, aiming to empower creators of all backgrounds.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 03 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/MetaMovie</link>
+        <guid isPermaLink="true">http://localhost:4000/MetaMovie</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing Canvas-A New Era for ChatGPT Collaboration</title>
+        
+          <description>&lt;p&gt;OpenAI has unveiled Canvas, a new interface for ChatGPT that enhances collaboration on writing and coding projects. This innovative feature allows users to work side by side with the AI, providing tools for inline feedback, version control, and targeted editing.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 03 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/OpenAICanvas</link>
+        <guid isPermaLink="true">http://localhost:4000/OpenAICanvas</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Gemini 1.5 Flash-8B Available for Developers</title>
+        
+          <description>&lt;p&gt;Google has officially launched Gemini 1.5 Flash-8B, a lightweight and efficient model optimized for various tasks, now available for production use. This release aims to empower developers with the lowest cost per intelligence among Gemini models, enhancing capabilities in chat, transcription, and long-context language translation.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 03 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/Gemini15</link>
+        <guid isPermaLink="true">http://localhost:4000/Gemini15</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Were RNNs All We Needed?</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Wed, 02 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/RNNneeded</link>
+        <guid isPermaLink="true">http://localhost:4000/RNNneeded</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Introducing FLUX1.1 Pro and the BFL API</title>
         
           <description>&lt;p&gt;Black Forest Labs has announced the launch of FLUX1.1 Pro, their most advanced generative model to date, alongside the beta release of the BFL API. This development aims to enhance the capabilities of creators and developers by providing faster, higher-quality image generation and customizable API options.&lt;/p&gt;
@@ -48,6 +108,66 @@
         <link>
         http://localhost:4000/AnacondaGenAI</link>
         <guid isPermaLink="true">http://localhost:4000/AnacondaGenAI</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Logic-of-Thought. Injecting Logic into Contexts for Full Reasoning in Large Language Models</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 30 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/redefineRLHF</link>
+        <guid isPermaLink="true">http://localhost:4000/redefineRLHF</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Diffusion-based Visual Foundation Model for High-quality Dense Prediction</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Thu, 26 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/Lotus</link>
+        <guid isPermaLink="true">http://localhost:4000/Lotus</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Logic-of-Thought. Injecting Logic into Contexts for Full Reasoning in Large Language Models</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Thu, 26 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/LogicOfThough</link>
+        <guid isPermaLink="true">http://localhost:4000/LogicOfThough</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>VPTQ-Extreme Low-bit Vector Post-Training Quantization for Large Language Models</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Wed, 25 Sep 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/VPTQ</link>
+        <guid isPermaLink="true">http://localhost:4000/VPTQ</guid>
       </item>
       
     

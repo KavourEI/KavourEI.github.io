@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-10-12T03:00:44+03:00</updated>
+  <updated>2024-10-12T12:24:44+03:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -44,6 +44,218 @@
   
   
 
+  
+    <entry>
+      <title type="html">Were RNNs All We Needed?</title>
+      <link href="http://localhost:4000/RNNneeded" rel="alternate" type="text/html" title="Were RNNs All We Needed?" />
+      <published>2024-10-02T00:00:00+03:00</published>
+      <updated>2024-10-02T00:00:00+03:00</updated>
+      <id>http://localhost:4000/RNNneeded</id>
+      <content type="html" xml:base="http://localhost:4000/RNNneeded">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; The scalability limitations of Transformers regarding sequence length have renewed interest in recurrent sequence models that are parallelizable during training. As a result, many novel recurrent architectures, such as S4, Mamba, and Aaren, have been proposed that achieve comparable performance. In this work, we revisit traditional recurrent neural networks (RNNs) from over a decade ago: LSTMs (1997) and GRUs (2014). While these models were slow due to requiring to backpropagate through time (BPTT), we show that by removing their hidden state dependencies from their input, forget, and update gates, LSTMs and GRUs no longer need to BPTT and can be efficiently trained in parallel. Building on this, we introduce minimal versions (minLSTMs and minGRUs) that (1) use significantly fewer parameters than their traditional counterparts and (2) are fully parallelizable during training (175x faster for a sequence of length 512). Lastly, we show that these stripped-down versions of decade-old RNNs match the empirical performance of recent sequence models.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Feng,+L&quot;&gt;Leo Feng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tung,+F&quot;&gt;Frederick Tung&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ahmed,+M+O&quot;&gt;Mohamed Osama Ahmed&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Bengio,+Y&quot;&gt;Yoshua Bengio&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hajimirsadegh,+H&quot;&gt;Hossein Hajimirsadegh&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.01201&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Logic-of-Thought. Injecting Logic into Contexts for Full Reasoning in Large Language Models</title>
+      <link href="http://localhost:4000/redefineRLHF" rel="alternate" type="text/html" title="Logic-of-Thought. Injecting Logic into Contexts for Full Reasoning in Large Language Models" />
+      <published>2024-09-30T00:00:00+03:00</published>
+      <updated>2024-09-30T00:00:00+03:00</updated>
+      <id>http://localhost:4000/redefineRLHF</id>
+      <content type="html" xml:base="http://localhost:4000/redefineRLHF">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Reinforcement learning from human feedback (RLHF) has become the leading approach for fine-tuning large language models (LLM). However, RLHF has limitations in multi-task learning (MTL) due to challenges of reward hacking and extreme multi-objective optimization (i.e., trade-off of multiple and/or sometimes conflicting objectives). Applying RLHF for MTL currently requires careful tuning of the weights for reward model and data combinations. This is often done via human intuition and does not generalize. In this work, we introduce a novel post-training paradigm which we called Constrained Generative Policy Optimization (CGPO). The core of CGPO is Mixture of Judges (MoJ) with cost-efficient constrained policy optimization with stratification, which can identify the perfect blend in RLHF in a principled manner. It shows strong empirical results with theoretical guarantees, does not require extensive hyper-parameter tuning, and is plug-and-play in common post-training pipelines. Together, this can detect and mitigate reward hacking behaviors while reaching a pareto-optimal point across an extremely large number of objectives.
+Our empirical evaluations demonstrate that CGPO significantly outperforms standard RLHF algorithms like PPO and DPO across various tasks including general chat, STEM questions, instruction following, and coding. Specifically, CGPO shows improvements of 7.4% in AlpacaEval-2 (general chat), 12.5% in Arena-Hard (STEM &amp;amp; reasoning), and consistent gains in other domains like math and coding. Notably, PPO, while commonly used, is prone to severe reward hacking in popular coding benchmarks, which CGPO successfully addresses. This breakthrough in RLHF not only tackles reward hacking and extreme multi-objective optimization challenges but also advances the state-of-the-art in aligning general-purpose LLMs for diverse applications.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+T&quot;&gt;Tengyu Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Helenowski,+E&quot;&gt;Eryk Helenowski&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sankararaman,+K+A&quot;&gt;Karthik Abinav Sankararaman&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Jin,+D&quot;&gt;Di Jin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Peng,+K&quot;&gt;Kaiyan Peng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Han,+E&quot;&gt;Eric Han&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Nie,+S&quot;&gt;Shaoliang Nie&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhu,+C&quot;&gt;Chen Zhu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+H&quot;&gt;Hejia Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+W&quot;&gt;Wenxuan Zhou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zeng,+Z&quot;&gt;Zhouhao Zeng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=He,+Y&quot;&gt;Yun He&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Mandyam,+K&quot;&gt;Karishma Mandyam&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Talabzadeh,+A&quot;&gt;Arya Talabzadeh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Khabsa,+M&quot;&gt;Madian Khabsa&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cohen,+G&quot;&gt;Gabriel Cohen&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tian,+Y&quot;&gt;Yuandong Tian&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ma,+H&quot;&gt;Hao Ma&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+S&quot;&gt;Sinong Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fang,+H&quot;&gt;Han Fang&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.20370&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Diffusion-based Visual Foundation Model for High-quality Dense Prediction</title>
+      <link href="http://localhost:4000/Lotus" rel="alternate" type="text/html" title="Diffusion-based Visual Foundation Model for High-quality Dense Prediction" />
+      <published>2024-09-26T00:00:00+03:00</published>
+      <updated>2024-09-26T00:00:00+03:00</updated>
+      <id>http://localhost:4000/Lotus</id>
+      <content type="html" xml:base="http://localhost:4000/Lotus">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Leveraging the visual priors of pre-trained text-to-image diffusion models offers a promising solution to enhance zero-shot generalization in dense prediction tasks. However, existing methods often uncritically use the original diffusion formulation, which may not be optimal due to the fundamental differences between dense prediction and image generation. In this paper, we provide a systemic analysis of the diffusion formulation for the dense prediction, focusing on both quality and efficiency. And we find that the original parameterization type for image generation, which learns to predict noise, is harmful for dense prediction; the multi-step noising/denoising diffusion process is also unnecessary and challenging to optimize. Based on these insights, we introduce Lotus, a diffusion-based visual foundation model with a simple yet effective adaptation protocol for dense prediction. Specifically, Lotus is trained to directly predict annotations instead of noise, thereby avoiding harmful variance. We also reformulate the diffusion process into a single-step procedure, simplifying optimization and significantly boosting inference speed. Additionally, we introduce a novel tuning strategy called detail preserver, which achieves more accurate and fine-grained predictions. Without scaling up the training data or model capacity, Lotus achieves SoTA performance in zero-shot depth and normal estimation across various datasets. It also enhances efficiency, being significantly faster than most existing diffusion-based methods. Lotus' superior quality and efficiency also enable a wide range of practical applications, such as joint estimation, single/multi-view 3D reconstruction, etc. Project page: &lt;a href=&quot;https://lotus3d.github.io/&quot;&gt;this https URL&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=He,+J&quot;&gt;Jing He&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Li,+H&quot;&gt;Haodong Li&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yin,+W&quot;&gt;Wei Yin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liang,+Y&quot;&gt;Yixun Liang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Li,+L&quot;&gt;Leheng Li&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+K&quot;&gt;Kaiqiang Zhou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+H&quot;&gt;Hongbo Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+B&quot;&gt;Bingbing Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chen,+Y&quot;&gt;Ying-Cong Chen&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.18124&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Logic-of-Thought. Injecting Logic into Contexts for Full Reasoning in Large Language Models</title>
+      <link href="http://localhost:4000/LogicOfThough" rel="alternate" type="text/html" title="Logic-of-Thought. Injecting Logic into Contexts for Full Reasoning in Large Language Models" />
+      <published>2024-09-26T00:00:00+03:00</published>
+      <updated>2024-09-26T00:00:00+03:00</updated>
+      <id>http://localhost:4000/LogicOfThough</id>
+      <content type="html" xml:base="http://localhost:4000/LogicOfThough">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Large Language Models (LLMs) have demonstrated remarkable capabilities across various tasks but their performance in complex logical reasoning tasks remains unsatisfactory. Although some prompting methods, such as Chain-of-Thought, can improve the reasoning ability of LLMs to some extent, they suffer from an unfaithful issue where derived conclusions may not align with the generated reasoning chain. To address this issue, some studies employ the approach of propositional logic to further enhance logical reasoning abilities of LLMs. However, the potential omissions in the extraction of logical expressions in these methods can cause information loss in the logical reasoning process, thereby generating incorrect results. To this end, we propose Logic-of-Thought (LoT) prompting which employs propositional logic to generate expanded logical information from input context, and utilizes the generated logical information as an additional augmentation to the input prompts, thereby enhancing the capability of logical reasoning. The LoT is orthogonal to existing prompting methods and can be seamlessly integrated with them. Extensive experiments demonstrate that LoT boosts the performance of various prompting methods with a striking margin across five logical reasoning tasks. In particular, the LoT enhances Chain-of-Thought's performance on the ReClor dataset by +4.35%; moreover, it improves Chain-of-Thought with Self-Consistency's performance on LogiQA by +5%; additionally, it boosts performance of Tree-of-Thoughts on ProofWriter dataset by +8%.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+T&quot;&gt;Tongxuan Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+W&quot;&gt;Wenjiang Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Huang,+W&quot;&gt;Weizhe Huang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+X&quot;&gt;Xingyu Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+J&quot;&gt;Jiaxing Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+H&quot;&gt;Hailong Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Li,+J&quot;&gt;Jing Li&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.17539&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">VPTQ-Extreme Low-bit Vector Post-Training Quantization for Large Language Models</title>
+      <link href="http://localhost:4000/VPTQ" rel="alternate" type="text/html" title="VPTQ-Extreme Low-bit Vector Post-Training Quantization for Large Language Models" />
+      <published>2024-09-25T00:00:00+03:00</published>
+      <updated>2024-09-25T00:00:00+03:00</updated>
+      <id>http://localhost:4000/VPTQ</id>
+      <content type="html" xml:base="http://localhost:4000/VPTQ">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Scaling model size significantly challenges the deployment and inference of Large Language Models (LLMs). Due to the redundancy in LLM weights, recent research has focused on pushing weight-only quantization to extremely low-bit (even down to 2 bits). It reduces memory requirements, optimizes storage costs, and decreases memory bandwidth needs during inference. However, due to numerical representation limitations, traditional scalar-based weight quantization struggles to achieve such extreme low-bit. Recent research on Vector Quantization (VQ) for LLMs has demonstrated the potential for extremely low-bit model quantization by compressing vectors into indices using lookup tables.
+In this paper, we introduce Vector Post-Training Quantization (VPTQ) for extremely low-bit quantization of LLMs. We use Second-Order Optimization to formulate the LLM VQ problem and guide our quantization algorithm design by solving the optimization. We further refine the weights using Channel-Independent Second-Order Optimization for a granular VQ. In addition, by decomposing the optimization problem, we propose a brief and effective codebook initialization algorithm. We also extend VPTQ to support residual and outlier quantization, which enhances model accuracy and further compresses the model. Our experimental results show that VPTQ reduces model quantization perplexity by 0.01-0.34 on LLaMA-2, 0.38-0.68 on Mistral-7B, 4.41-7.34 on LLaMA-3 over SOTA at 2-bit, with an average accuracy improvement of 0.79-1.5% on LLaMA-2, 1% on Mistral-7B, 11-22% on LLaMA-3 on QA tasks on average. We only utilize 10.4-18.6% of the quantization algorithm execution time, resulting in a 1.6-1.8× increase in inference throughput compared to SOTA.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+Y&quot;&gt;Yifei Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wen,+J&quot;&gt;Jicheng Wen&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+Y&quot;&gt;Yang Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ye,+S&quot;&gt;Shengyu Ye&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+L+L&quot;&gt;Li Lyna Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cao,+T&quot;&gt;Ting Cao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Li,+C&quot;&gt;Cheng Li&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+M&quot;&gt;Mao Yang&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.17066&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Rereading Improves Reasoning in Large Language Models</title>
@@ -228,218 +440,6 @@
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hui,+B&quot;&gt;Binyuan Hui&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+J&quot;&gt;Jian Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cui,+Z&quot;&gt;Zeyu Cui&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+J&quot;&gt;Jiaxi Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+D&quot;&gt;Dayiheng Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+L&quot;&gt;Lei Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+T&quot;&gt;Tianyu Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+J&quot;&gt;Jiajun Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yu,+B&quot;&gt;Bowen Yu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dang,+K&quot;&gt;Kai Dang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+A&quot;&gt;An Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Men,+R&quot;&gt;Rui Men&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Huang,+F&quot;&gt;Fei Huang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ren,+X&quot;&gt;Xingzhang Ren&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ren,+X&quot;&gt;Xuancheng Ren&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+J&quot;&gt;Jingren Zhou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lin,+J&quot;&gt;Junyang Lin&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.12186&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Kolmogorov-Arnold Transformer</title>
-      <link href="http://localhost:4000/KolArnoldTransformers" rel="alternate" type="text/html" title="Kolmogorov-Arnold Transformer" />
-      <published>2024-09-16T00:00:00+03:00</published>
-      <updated>2024-09-16T00:00:00+03:00</updated>
-      <id>http://localhost:4000/KolArnoldTransformers</id>
-      <content type="html" xml:base="http://localhost:4000/KolArnoldTransformers">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Transformers stand as the cornerstone of mordern deep learning. Traditionally, these models rely on multi-layer perceptron (MLP) layers to mix the information between channels. In this paper, we introduce the Kolmogorov-Arnold Transformer (KAT), a novel architecture that replaces MLP layers with Kolmogorov-Arnold Network (KAN) layers to enhance the expressiveness and performance of the model. Integrating KANs into transformers, however, is no easy feat, especially when scaled up. Specifically, we identify three key challenges: (C1) Base function. The standard B-spline function used in KANs is not optimized for parallel computing on modern hardware, resulting in slower inference speeds. (C2) Parameter and Computation Inefficiency. KAN requires a unique function for each input-output pair, making the computation extremely large. (C3) Weight initialization. The initialization of weights in KANs is particularly challenging due to their learnable activation functions, which are critical for achieving convergence in deep neural networks. To overcome the aforementioned challenges, we propose three key solutions: (S1) Rational basis. We replace B-spline functions with rational functions to improve compatibility with modern GPUs. By implementing this in CUDA, we achieve faster computations. (S2) Group KAN. We share the activation weights through a group of neurons, to reduce the computational load without sacrificing performance. (S3) Variance-preserving initialization. We carefully initialize the activation weights to make sure that the activation variance is maintained across layers. With these designs, KAT scales effectively and readily outperforms traditional MLP-based transformers.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+X&quot;&gt;Xingyi Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+X&quot;&gt;Xinchao Wang&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.10594&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Breaking reCAPTCHAv2</title>
-      <link href="http://localhost:4000/reCaptcha" rel="alternate" type="text/html" title="Breaking reCAPTCHAv2" />
-      <published>2024-09-13T00:00:00+03:00</published>
-      <updated>2024-09-13T00:00:00+03:00</updated>
-      <id>http://localhost:4000/reCaptcha</id>
-      <content type="html" xml:base="http://localhost:4000/reCaptcha">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Our work examines the efficacy of employing advanced machine learning methods to solve captchas from Google's reCAPTCHAv2 system. We evaluate the effectiveness of automated systems in solving captchas by utilizing advanced YOLO models for image segmentation and classification. Our main result is that we can solve 100% of the captchas, while previous work only solved 68-71%. Furthermore, our findings suggest that there is no significant difference in the number of challenges humans and bots must solve to pass the captchas in reCAPTCHAv2. This implies that current AI technologies can exploit advanced image-based captchas. We also look under the hood of reCAPTCHAv2, and find evidence that reCAPTCHAv2 is heavily based on cookie and browser history data when evaluating whether a user is human or not. The code is provided alongside this paper.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Plesner,+A&quot;&gt;Andreas Plesner&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Vontobel,+T&quot;&gt;Tobias Vontobel&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wattenhofer,+R&quot;&gt;Roger Wattenhofer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.08831&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">LLaMA-Omni - Seamless Speech Interaction with Large Language Models</title>
-      <link href="http://localhost:4000/LlammaOmni" rel="alternate" type="text/html" title="LLaMA-Omni - Seamless Speech Interaction with Large Language Models" />
-      <published>2024-09-10T00:00:00+03:00</published>
-      <updated>2024-09-10T00:00:00+03:00</updated>
-      <id>http://localhost:4000/LlammaOmni</id>
-      <content type="html" xml:base="http://localhost:4000/LlammaOmni">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Models like GPT-4o enable real-time interaction with large language models (LLMs) through speech, significantly enhancing user experience compared to traditional text-based interaction. However, there is still a lack of exploration on how to build speech interaction models based on open-source LLMs. To address this, we propose LLaMA-Omni, a novel model architecture designed for low-latency and high-quality speech interaction with LLMs. LLaMA-Omni integrates a pretrained speech encoder, a speech adaptor, an LLM, and a streaming speech decoder. It eliminates the need for speech transcription, and can simultaneously generate text and speech responses directly from speech instructions with extremely low latency. We build our model based on the latest Llama-3.1-8B-Instruct model. To align the model with speech interaction scenarios, we construct a dataset named InstructS2S-200K, which includes 200K speech instructions and corresponding speech responses. Experimental results show that compared to previous speech-language models, LLaMA-Omni provides better responses in both content and style, with a response latency as low as 226ms. Additionally, training LLaMA-Omni takes less than 3 days on just 4 GPUs, paving the way for the efficient development of speech-language models in the future.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fang,+Q&quot;&gt;Qingkai Fang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Guo,+S&quot;&gt;Shoutao Guo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+Y&quot;&gt;Yan Zhou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ma,+Z&quot;&gt;Zhengrui Ma&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+S&quot;&gt;Shaolei Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Feng,+Y&quot;&gt;Yang Feng&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.06666&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">GroUSE - A Benchmark to Evaluate Evaluators in Grounded Question Answering</title>
-      <link href="http://localhost:4000/GroUSE" rel="alternate" type="text/html" title="GroUSE - A Benchmark to Evaluate Evaluators in Grounded Question Answering" />
-      <published>2024-09-10T00:00:00+03:00</published>
-      <updated>2024-09-10T00:00:00+03:00</updated>
-      <id>http://localhost:4000/GroUSE</id>
-      <content type="html" xml:base="http://localhost:4000/GroUSE">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Retrieval-Augmented Generation (RAG) has emerged as a common paradigm to use Large Language Models (LLMs) alongside private and up-to-date knowledge bases. In this work, we address the challenges of using LLM-as-a-Judge when evaluating grounded answers generated by RAG systems. To assess the calibration and discrimination capabilities of judge models, we identify 7 generator failure modes and introduce GroUSE (Grounded QA Unitary Scoring of Evaluators), a meta-evaluation benchmark of 144 unit tests. This benchmark reveals that existing automated RAG evaluation frameworks often overlook important failure modes, even when using GPT-4 as a judge.&lt;/p&gt;
-&lt;p&gt;To improve on the current design of automated RAG evaluation frameworks, we propose a novel pipeline and find that while closed models perform well on GroUSE, state-of-the-art open-source judges do not generalize to our proposed criteria, despite strong correlation with GPT-4's judgement. Our findings suggest that correlation with GPT-4 is an incomplete proxy for the practical performance of judge models and should be supplemented with evaluations on unit tests for precise failure mode detection.&lt;/p&gt;
-&lt;p&gt;We further show that finetuning Llama-3 on GPT-4's reasoning traces significantly boosts its evaluation capabilities, improving upon both correlation with GPT-4's evaluations and calibration on reference situations.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Muller,+S&quot;&gt;Sacha Muller&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Loison,+A&quot;&gt;António Loison&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Omrani,+B&quot;&gt;Bilel Omrani&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Viaud,+G&quot;&gt;Gautier Viaud&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://www.arxiv.org/abs/2409.06595&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">LLMs Will Always Hallucinate, and We Need to Live With This</title>
-      <link href="http://localhost:4000/AlwaysHallucinate" rel="alternate" type="text/html" title="LLMs Will Always Hallucinate, and We Need to Live With This" />
-      <published>2024-09-09T00:00:00+03:00</published>
-      <updated>2024-09-09T00:00:00+03:00</updated>
-      <id>http://localhost:4000/AlwaysHallucinate</id>
-      <content type="html" xml:base="http://localhost:4000/AlwaysHallucinate">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; As Large Language Models become more ubiquitous across domains, it becomes important to examine their inherent limitations critically. This work argues that hallucinations in language models are not just occasional errors but an inevitable feature of these systems. We demonstrate that hallucinations stem from the fundamental mathematical and logical structure of LLMs. It is, therefore, impossible to eliminate them through architectural improvements, dataset enhancements, or fact-checking mechanisms. Our analysis draws on computational theory and Godel's First Incompleteness Theorem, which references the undecidability of problems like the Halting, Emptiness, and Acceptance Problems. We demonstrate that every stage of the LLM process-from training data compilation to fact retrieval, intent classification, and text generation-will have a non-zero probability of producing hallucinations. This work introduces the concept of Structural Hallucination as an intrinsic nature of these systems. By establishing the mathematical certainty of hallucinations, we challenge the prevailing notion that they can be fully mitigated.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/stat?searchtype=author&amp;amp;query=Banerjee,+S&quot;&gt;Sourav Banerjee&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/stat?searchtype=author&amp;amp;query=Agarwal,+A&quot;&gt;Ayushi Agarwal&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/stat?searchtype=author&amp;amp;query=Singla,+S&quot;&gt;Saloni Singla&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.05746&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
