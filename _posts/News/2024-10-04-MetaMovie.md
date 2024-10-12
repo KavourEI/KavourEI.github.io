@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/images/news_images/google_ai.jpg
+cover: assets/images/news_images/meta.jpeg
 navigation: True
 title: Meta's Movie GenAI for Video
 date: 2024-10-03
