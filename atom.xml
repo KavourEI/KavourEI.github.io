@@ -8,6 +8,51 @@
     
       
       <item>
+        <title>Introducing FLUX1.1 Pro and the BFL API</title>
+        
+          <description>&lt;p&gt;Black Forest Labs has announced the launch of FLUX1.1 Pro, their most advanced generative model to date, alongside the beta release of the BFL API. This development aims to enhance the capabilities of creators and developers by providing faster, higher-quality image generation and customizable API options.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 02 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/Flux11pro</link>
+        <guid isPermaLink="true">http://localhost:4000/Flux11pro</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>An AI Companion for Everyone</title>
+        
+          <description>&lt;p&gt;This article discusses Microsoft's vision for a new AI companion, Copilot, designed to enhance human experiences by providing personalized support and assistance. With features like voice interaction and contextual understanding, Copilot aims to simplify daily tasks while prioritizing user privacy and security.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 01 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/MicAICopilot</link>
+        <guid isPermaLink="true">http://localhost:4000/MicAICopilot</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Anaconda AI Navigator Empowering Generative AI on Desktops</title>
+        
+          <description>&lt;p&gt;Anaconda has launched AI Navigator, a free desktop application that allows users to securely access and run over 200 pre-trained generative AI models locally. This innovative tool aims to democratize AI access while ensuring data privacy and security for both individuals and enterprises.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 01 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/AnacondaGenAI</link>
+        <guid isPermaLink="true">http://localhost:4000/AnacondaGenAI</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Molmo - Leading Multimodal AI</title>
         
           <description>&lt;p&gt; Molmo is a groundbreaking family of open, state-of-the-art multimodal AI models. Our top model rivals proprietary systems across both academic benchmarks and human evaluations, while our smaller models outperform competitors up to 10 times their size.&lt;/p&gt;
