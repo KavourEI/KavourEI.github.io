@@ -8,6 +8,51 @@
     
       
       <item>
+        <title>Pixtral 12B</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Wed, 09 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/Pixtral</link>
+        <guid isPermaLink="true">http://localhost:4000/Pixtral</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>MLE-bench:/ Evaluating Machine Learning Agents on Machine Learning Engineering</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Wed, 09 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/MLEBench</link>
+        <guid isPermaLink="true">http://localhost:4000/MLEBench</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>One Initialization to Rule them All:/ Fine-tuning via Explained Variance Adaptation</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Wed, 09 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/FTVarAdapt</link>
+        <guid isPermaLink="true">http://localhost:4000/FTVarAdapt</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Neuromnia a Pioneering AI Solutions for Autism Care with Llama</title>
         
           <description>&lt;p&gt;&lt;a href=&quot;https://neuromnia.com/&quot;&gt;Neuromnia&lt;/a&gt; has launched an innovative AI-driven platform leveraging Llama 3.1 to enhance Applied Behavior Analysis (ABA) therapy for individuals with &lt;a href=&quot;https://www.cdc.gov/autism/data-research/index.html#:~:text=About%201%20in%2036%20children,Read%20Summary%5D&quot;&gt;autism&lt;/a&gt;. By automating treatment planning and documentation, Neuromnia aims to improve clinician productivity and access to care while addressing workforce shortages in the ABA industry.&lt;/p&gt;
@@ -33,6 +78,36 @@
         <link>
         http://localhost:4000/LonTermMemory</link>
         <guid isPermaLink="true">http://localhost:4000/LonTermMemory</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Differential Transformer</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 07 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/DiffTransf</link>
+        <guid isPermaLink="true">http://localhost:4000/DiffTransf</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Contextual Document Embeddings</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Thu, 03 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/ContDocEmb</link>
+        <guid isPermaLink="true">http://localhost:4000/ContDocEmb</guid>
       </item>
       
     
