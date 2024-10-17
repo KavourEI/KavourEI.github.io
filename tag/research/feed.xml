@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-10-14T10:28:44+03:00</updated>
+  <updated>2024-10-17T14:03:41+03:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -88,8 +88,8 @@
     </entry>
   
     <entry>
-      <title type="html">MLE-bench:/ Evaluating Machine Learning Agents on Machine Learning Engineering</title>
-      <link href="http://localhost:4000/MLEBench" rel="alternate" type="text/html" title="MLE-bench:/ Evaluating Machine Learning Agents on Machine Learning Engineering" />
+      <title type="html">MLE-bench:Evaluating Machine Learning Agents on Machine Learning Engineering</title>
+      <link href="http://localhost:4000/MLEBench" rel="alternate" type="text/html" title="MLE-bench:Evaluating Machine Learning Agents on Machine Learning Engineering" />
       <published>2024-10-09T00:00:00+03:00</published>
       <updated>2024-10-09T00:00:00+03:00</updated>
       <id>http://localhost:4000/MLEBench</id>

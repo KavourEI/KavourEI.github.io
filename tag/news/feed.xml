@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-10-14T10:28:44+03:00</updated>
+  <updated>2024-10-17T14:03:41+03:00</updated>
   <id>http://localhost:4000/tag/news/feed.xml</id>
 
   
@@ -97,6 +97,71 @@
 
       
         <summary type="html">Neuromnia has launched an innovative AI-driven platform leveraging Llama 3.1 to enhance Applied Behavior Analysis (ABA) therapy for individuals with autism. By automating treatment planning and documentation, Neuromnia aims to improve clinician productivity and access to care while addressing workforce shortages in the ABA industry.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Introducing Palmyra X 004:Revolutionizing AI Tool Calling</title>
+      <link href="http://localhost:4000/Palmyra" rel="alternate" type="text/html" title="Introducing Palmyra X 004:Revolutionizing AI Tool Calling" />
+      <published>2024-10-09T00:00:00+03:00</published>
+      <updated>2024-10-09T00:00:00+03:00</updated>
+      <id>http://localhost:4000/Palmyra</id>
+      <content type="html" xml:base="http://localhost:4000/Palmyra">&lt;p&gt; Writer.com has launched Palmyra X 004, a cutting-edge model that sets a new standard for tool calling in AI applications. With enhanced capabilities for integrating external systems, generating code, and managing extensive context, this model aims to empower developers to build more efficient and scalable AI solutions.&lt;/p&gt;
+
+&lt;p&gt;The landscape of enterprise AI is rapidly evolving, and &lt;a href=&quot;https://writer.com&quot;&gt;Writer&lt;/a&gt; is at the forefront with the &lt;a href=&quot;https://writer.com/blog/actions-with-palmyra-x-004/&quot;&gt;introduction of Palmyra X 004&lt;/a&gt;. This latest model not only enhances the interaction between AI applications and external tools but also addresses the challenges of inefficiency and error-prone processes that have historically plagued AI integration.&lt;/p&gt;
+
+&lt;p&gt;Tool calling refers to the ability of an AI model to interact with external systems and services, enabling it to perform complex tasks beyond its built-in knowledge. Palmyra X 004 excels in this area, allowing developers to automate workflows and reduce repetitive coding efforts. This capability is crucial for scaling AI applications effectively in a business environment.&lt;/p&gt;
+
+&lt;p&gt; Som of the benefits you may notice while using Palmyra X004, and some reasons you may consider adding this model to your toolkit are:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Actionable Tool Calling:&lt;/strong&gt; The model can execute actions in external systems through tool calling, significantly expanding its functional capabilities.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Automatic Data Integration:&lt;/strong&gt; A &lt;a href=&quot;https://dev.writer.com/api-guides/kg-chat&quot;&gt;built-in Retrieval-Augmented Generation (RAG)&lt;/a&gt; tool facilitates seamless data integration.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Code Generation:&lt;/strong&gt; The model can generate code snippets, simplifying the development process.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;128k Context Window:&lt;/strong&gt; This feature allows for handling extensive information in a single interaction.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Structured Output Generation:&lt;/strong&gt; Coming soon, this will simplify system integration by providing formatted responses.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Palmyra X 004 has achieved remarkable results on various benchmarks, including the Berkeley Function Calling Leaderboard. It outperforms other leading models such as those from OpenAI, Anthropic, Meta, and Google. Notably, it ranks as the top model for tool calling capabilities and API selection.&lt;/p&gt;
+
+&lt;p&gt;The model boasts an impressive overall accuracy of 78.76% in identifying and executing correct tool calls. Additionally, it excels in structuring calls with an average performance of 87.93%, demonstrating its ability to interpret user inputs accurately and generate appropriate parameters for execution. Its execution performance also stands out at 88.27%, showcasing its efficiency in carrying out actions across enterprise systems.&lt;/p&gt;
+
+&lt;p&gt;The full-stack design of Palmyra X 004 sets it apart from other models by allowing seamless integration with existing enterprise tools and workflows. Developers can utilize low-code development tools within AI Studio to create applications that leverage built-in RAG capabilities and call upon other no-code Writer apps as microservices.&lt;/p&gt;
+
+&lt;p&gt;This predefined RAG tool enables real-time data retrieval from a company's Knowledge Graph without requiring custom development. By showing its reasoning process and citing sources behind outputs, Palmyra X 004 ensures that each tool call is context-aware and explainable.&lt;/p&gt;
+
+&lt;p&gt;To utilize tool calling effectively, developers must define functions within their applications that describe how the LLM should interact with external systems. For instance, a function like `get_product_info()` can be employed to retrieve product data from an API. Once defined using a JSON schema, these functions allow Palmyra X 004 to process user queries intelligently and execute the necessary actions.&lt;/p&gt;
+
+&lt;p&gt;Writer.com provides comprehensive guides for developers looking to implement these features in their applications. By following step-by-step instructions, developers can harness the full potential of Palmyra X 004’s tool calling capabilities.&lt;/p&gt;
+
+&lt;p&gt;The release of Palmyra X 004 marks a significant advancement in AI application development. By empowering developers with robust tools for creating scalable and efficient applications, Writer.com is redefining how enterprises can leverage AI technology to enhance their operations.&lt;/p&gt;
+
+&lt;p&gt;The introduction of Palmyra X 004 represents a pivotal moment for AI integration within enterprise environments. With its innovative tool calling capabilities and commitment to affordability without sacrificing accuracy or reliability, Writer.com is setting new standards for what is possible with AI technology. As businesses continue to seek effective solutions for automation and efficiency, Palmyra X 004 stands ready to meet these demands head-on.&lt;/p&gt;
+
+&lt;p&gt;Explore the capabilities of Palmyra X 004 in &lt;a href=&quot;https://writer.com/product/ai-studio/&quot;&gt;Writer AI Studio&lt;/a&gt; today and discover how you can begin building the next generation of AI-powered workflows! You can visit &lt;a href=&quot;https://writer.com/engineering/actions-with-palmyra-x-004/&quot;&gt;here&lt;/a&gt; to find out more and see read full Writer.com relevant announcements.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Writer.com has launched Palmyra X 004, a cutting-edge model that sets a new standard for tool calling in AI applications. With enhanced capabilities for integrating external systems, generating code, and managing extensive context, this model aims to empower developers to build more efficient and scalable AI solutions.</summary>
       
 
       
@@ -652,67 +717,6 @@
 
       
         <summary type="html">Molmo is a groundbreaking family of open, state-of-the-art multimodal AI models. Our top model rivals proprietary systems across both academic benchmarks and human evaluations, while our smaller models outperform competitors up to 10 times their size.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Introducing Llama 3.2- A New Era of Accessible AI Models</title>
-      <link href="http://localhost:4000/Llama32" rel="alternate" type="text/html" title="Introducing Llama 3.2- A New Era of Accessible AI Models" />
-      <published>2024-09-25T00:00:00+03:00</published>
-      <updated>2024-09-25T00:00:00+03:00</updated>
-      <id>http://localhost:4000/Llama32</id>
-      <content type="html" xml:base="http://localhost:4000/Llama32">&lt;p&gt;Meta's latest release, Llama 3.2, builds on the success of the Llama 3.1 models and aims to make AI more accessible to developers of all levels. With a range of powerful models designed to run on edge and mobile devices, Llama 3.2 opens the door to greater innovation and responsible AI development.&lt;/p&gt;
-
-&lt;p&gt;Meta has just unveiled Llama 3.2, an exciting update to its suite of AI models that brings new opportunities for developers, particularly those with limited resources. As announced by Meta CEO Mark Zuckerberg, Llama 3.2 includes smaller, more efficient models designed to run on edge devices and mobile platforms. These lightweight models (1B and 3B parameters) are perfect for on-device applications, while larger models (11B and 90B) are optimized for image reasoning tasks, opening up new possibilities for applications that need to integrate vision and language capabilities.&lt;/p&gt;
-
-&lt;h3&gt;Key Features of Llama 3.2&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt; &lt;u&gt;Vision and Language Integration&lt;/u&gt; &lt;/li&gt;
-&lt;p&gt; The 11B and 90B models represent a breakthrough in combining language and image processing capabilities. These models support tasks like document-level understanding, image captioning, and visual grounding. For example, businesses can use Llama 3.2 to analyze graphs, maps, and other visual data, quickly providing insights and answers based on visual inputs.&lt;/p&gt;
-&lt;li&gt; &lt;u&gt;Lightweight Models for Edge and Mobile Devices&lt;/u&gt; &lt;/li&gt;
-&lt;p&gt;The 1B and 3B models are designed for on-device applications, bringing AI capabilities directly to mobile and edge platforms. This shift enables developers to build apps that offer privacy by keeping data on the device, while delivering real-time responsiveness. These models are ideal for use cases like summarizing messages or setting up meetings based on tool integration, without needing a constant cloud connection.&lt;/p&gt;
-&lt;li&gt; &lt;u&gt;Open and Accessible&lt;/u&gt; &lt;/li&gt;
-&lt;p&gt;Meta's commitment to openness continues with Llama 3.2, which is available for download on platforms like Hugging Face, and ready for development on partner platforms from AMD to AWS. Developers can access and build with Llama models more easily than ever, leveraging the &lt;a href=&quot;https://github.com/meta-llama/llama-stack&quot;&gt;Llama Stack&lt;/a&gt;—a new API framework designed to simplify integration and customization of Llama models across cloud, on-prem, and mobile environments.&lt;/p&gt;
-&lt;/ol&gt;
-
-&lt;h3&gt;Training and Model Improvements&lt;/h3&gt;
-
-&lt;p&gt; The release of Llama 3.2 reflects significant advancements in AI model training, particularly in how Meta has developed the models to handle image inputs. By adding image adapters and leveraging pre-trained language models, Llama 3.2 allows for seamless transitions between text and image processing. This architecture maintains all the text-based capabilities of the previous Llama models while adding a powerful new dimension of image understanding.&lt;/p&gt;
-
-&lt;p&gt; In addition, lightweight models have been fine-tuned using pruning and knowledge distillation, enabling them to fit on smaller devices while retaining impressive performance. These improvements result in models that are not only highly capable but also efficient, offering new possibilities for edge computing and personalized AI applications.&lt;/p&gt;
-
-&lt;h3&gt; A Collaborative Effort for Responsible AI&lt;/h3&gt;
-&lt;p&gt; Llama 3.2 isn't just about technical innovation—Meta is also focused on responsible AI development. The release includes the Llama Guard 3 feature, which adds safeguards to ensure safe deployment of both text and image models. This aligns with Meta’s continued emphasis on sharing research and &lt;a href=&quot;https://ai.meta.com/blog/responsible-ai-connect-2024/&quot;&gt;tools&lt;/a&gt; openly to promote responsible use across the AI community.&lt;/p&gt;
-
-&lt;p&gt; As part of this release, Meta has partnered with over 25 companies, including major tech players like IBM, Microsoft, and Intel, to deliver an ecosystem of services designed to support Llama 3.2 from day one. Meta is also working with partners like Qualcomm, MediaTek, and Arm to optimize models for mobile deployment, ensuring the accessibility and security of these powerful AI tools.&lt;/p&gt;
-
-&lt;p&gt;Llama 3.2 is a major milestone in AI development, making advanced AI capabilities more accessible to a broader range of developers. Whether you’re building for cloud, mobile, or on-prem environments, Llama 3.2 offers models that are efficient, powerful, and responsibly designed. With this release, Meta continues to push the boundaries of what open, accessible, and ethical AI can achieve, and the future of AI development looks brighter than ever.&lt;/p&gt;
-
-&lt;p&gt; If you're a developer eager to explore the potential of Llama 3.2, visit &lt;a href=&quot;https://llama.meta.com/&quot;&gt;llama.com&lt;/a&gt; or &lt;a href=&quot;https://huggingface.co/meta-llama&quot;&gt;Hugging Face&lt;/a&gt; to get started today. On the other hand if you want to read full report or check out the sample videos provided, go to the official Meta &lt;a href=&quot;https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/?utm_source=twitter&amp;amp;utm_medium=organic_social&amp;amp;utm_content=video&amp;amp;utm_campaign=llama32&quot;&gt;blog post&lt;/a&gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">Meta's latest release, Llama 3.2, builds on the success of the Llama 3.1 models and aims to make AI more accessible to developers of all levels. With a range of powerful models designed to run on edge and mobile devices, Llama 3.2 opens the door to greater innovation and responsible AI development.</summary>
       
 
       
