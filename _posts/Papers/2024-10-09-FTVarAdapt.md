@@ -3,7 +3,7 @@ layout: post
 current: post
 cover:  assets/images/arxiv.jpeg
 navigation: True
-title: One Initialization to Rule them All:/ Fine-tuning via Explained Variance Adaptation
+title: One Initialization to Rule them All:Fine-tuning via Explained Variance Adaptation
 date: 2024-10-09
 tags: [research]
 class: post-templat
