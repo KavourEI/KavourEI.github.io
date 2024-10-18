@@ -8,6 +8,66 @@
     
       
       <item>
+        <title>Introducing Internal Knowledge Search and Spaces by Perplexity</title>
+        
+          <description>&lt;p&gt;Perplexity AI has launched Internal Knowledge Search and Spaces, innovative features designed to enhance information retrieval and collaboration within teams. These tools aim to streamline access to knowledge and improve productivity by allowing users to create customized environments for their specific needs.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 17 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/perplexity</link>
+        <guid isPermaLink="true">http://localhost:4000/perplexity</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Zamba2-7B:Setting New Standards for Small Language Models</title>
+        
+          <description>&lt;p&gt;Zyphra has introduced Zamba2-7B, a state-of-the-art small language model that outperforms leading competitors in both quality and performance. Designed for on-device and consumer GPU applications, Zamba2-7B offers exceptional efficiency and capabilities for natural language tasks.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 14 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/Zamba</link>
+        <guid isPermaLink="true">http://localhost:4000/Zamba</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Adobe Launches Firefly Video Model</title>
+        
+          <description>&lt;p&gt;Adobe has unveiled the Firefly Video Model, expanding its suite of generative AI tools to include video capabilities designed for commercial safety. With enhanced features for video editing and integration into popular Adobe applications, this model aims to revolutionize content creation for professionals.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 14 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/AdobeFirefly</link>
+        <guid isPermaLink="true">http://localhost:4000/AdobeFirefly</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing ARIA:The First Open Multimodal Native MoE Model</title>
+        
+          <description>&lt;p&gt;Rhymes.ai has launched ARIA, the first open multimodal native mixture of experts (MoE) model, designed to enhance AI capabilities across various applications. With its innovative architecture and advanced features, ARIA aims to set a new standard in the realm of multimodal AI, enabling more efficient processing of diverse data types.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 10 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/Aria</link>
+        <guid isPermaLink="true">http://localhost:4000/Aria</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Pixtral 12B</title>
         
           <description>&lt;h2&gt; Abstract &lt;/h2&gt;
@@ -23,7 +83,7 @@
     
       
       <item>
-        <title>MLE-bench:/ Evaluating Machine Learning Agents on Machine Learning Engineering</title>
+        <title>MLE-bench:Evaluating Machine Learning Agents on Machine Learning Engineering</title>
         
           <description>&lt;h2&gt; Abstract &lt;/h2&gt;
 
@@ -38,7 +98,7 @@
     
       
       <item>
-        <title>One Initialization to Rule them All:/ Fine-tuning via Explained Variance Adaptation</title>
+        <title>One Initialization to Rule them All:Fine-tuning via Explained Variance Adaptation</title>
         
           <description>&lt;h2&gt; Abstract &lt;/h2&gt;
 
@@ -53,7 +113,7 @@
     
       
       <item>
-        <title>Introducing Palmyra X 004:/ Revolutionizing AI Tool Calling</title>
+        <title>Introducing Palmyra X 004:Revolutionizing AI Tool Calling</title>
         
           <description>&lt;p&gt; Writer.com has launched Palmyra X 004, a cutting-edge model that sets a new standard for tool calling in AI applications. With enhanced capabilities for integrating external systems, generating code, and managing extensive context, this model aims to empower developers to build more efficient and scalable AI solutions.&lt;/p&gt;
 
@@ -93,6 +153,21 @@
         <link>
         http://localhost:4000/LonTermMemory</link>
         <guid isPermaLink="true">http://localhost:4000/LonTermMemory</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>GSM-Symbolic:Understanding the Limitations of Mathematical Reasoning in Large Language Models</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 07 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/GSM</link>
+        <guid isPermaLink="true">http://localhost:4000/GSM</guid>
       </item>
       
     

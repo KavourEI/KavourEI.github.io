@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-10-17T14:03:41+03:00</updated>
+  <updated>2024-10-18T12:40:27+03:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -130,8 +130,8 @@
     </entry>
   
     <entry>
-      <title type="html">One Initialization to Rule them All:/ Fine-tuning via Explained Variance Adaptation</title>
-      <link href="http://localhost:4000/FTVarAdapt" rel="alternate" type="text/html" title="One Initialization to Rule them All:/ Fine-tuning via Explained Variance Adaptation" />
+      <title type="html">One Initialization to Rule them All:Fine-tuning via Explained Variance Adaptation</title>
+      <link href="http://localhost:4000/FTVarAdapt" rel="alternate" type="text/html" title="One Initialization to Rule them All:Fine-tuning via Explained Variance Adaptation" />
       <published>2024-10-09T00:00:00+03:00</published>
       <updated>2024-10-09T00:00:00+03:00</updated>
       <id>http://localhost:4000/FTVarAdapt</id>
@@ -144,6 +144,49 @@
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Paischer,+F&quot;&gt;Fabian Paischer&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hauzenberger,+L&quot;&gt;Lukas Hauzenberger&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Schmied,+T&quot;&gt;Thomas Schmied&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Alkin,+B&quot;&gt;Benedikt Alkin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Deisenroth,+M+P&quot;&gt;Marc Peter Deisenroth&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hochreiter,+S&quot;&gt;Sepp Hochreiter&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.07170&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">GSM-Symbolic:Understanding the Limitations of Mathematical Reasoning in Large Language Models</title>
+      <link href="http://localhost:4000/GSM" rel="alternate" type="text/html" title="GSM-Symbolic:Understanding the Limitations of Mathematical Reasoning in Large Language Models" />
+      <published>2024-10-07T00:00:00+03:00</published>
+      <updated>2024-10-07T00:00:00+03:00</updated>
+      <id>http://localhost:4000/GSM</id>
+      <content type="html" xml:base="http://localhost:4000/GSM">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Recent advancements in Large Language Models (LLMs) have sparked interest in their formal reasoning capabilities, particularly in mathematics. The GSM8K benchmark is widely used to assess the mathematical reasoning of models on grade-school-level questions. While the performance of LLMs on GSM8K has significantly improved in recent years, it remains unclear whether their mathematical reasoning capabilities have genuinely advanced, raising questions about the reliability of the reported metrics. To address these concerns, we conduct a large-scale study on several SOTA open and closed models. To overcome the limitations of existing evaluations, we introduce GSM-Symbolic, an improved benchmark created from symbolic templates that allow for the generation of a diverse set of questions. GSM-Symbolic enables more controllable evaluations, providing key insights and more reliable metrics for measuring the reasoning capabilities of &lt;a href=&quot;http://models.our/&quot;&gt;this http URL&lt;/a&gt; findings reveal that LLMs exhibit noticeable variance when responding to different instantiations of the same question. Specifically, the performance of all models declines when only the numerical values in the question are altered in the GSM-Symbolic benchmark. Furthermore, we investigate the fragility of mathematical reasoning in these models and show that their performance significantly deteriorates as the number of clauses in a question increases. We hypothesize that this decline is because current LLMs cannot perform genuine logical reasoning; they replicate reasoning steps from their training data. Adding a single clause that seems relevant to the question causes significant performance drops (up to 65%) across all state-of-the-art models, even though the clause doesn't contribute to the reasoning chain needed for the final answer. Overall, our work offers a more nuanced understanding of LLMs' capabilities and limitations in mathematical reasoning.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Mirzadeh,+I&quot;&gt;Iman Mirzadeh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Alizadeh,+K&quot;&gt;Keivan Alizadeh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shahrokhi,+H&quot;&gt;Hooman Shahrokhi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tuzel,+O&quot;&gt;Oncel Tuzel&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Bengio,+S&quot;&gt;Samy Bengio&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Farajtabar,+M&quot;&gt;Mehrdad Farajtabar&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.05229&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -397,48 +440,6 @@ Our empirical evaluations demonstrate that CGPO significantly outperforms standa
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=He,+J&quot;&gt;Jing He&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Li,+H&quot;&gt;Haodong Li&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yin,+W&quot;&gt;Wei Yin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liang,+Y&quot;&gt;Yixun Liang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Li,+L&quot;&gt;Leheng Li&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+K&quot;&gt;Kaiqiang Zhou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+H&quot;&gt;Hongbo Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+B&quot;&gt;Bingbing Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chen,+Y&quot;&gt;Ying-Cong Chen&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.18124&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Logic-of-Thought. Injecting Logic into Contexts for Full Reasoning in Large Language Models</title>
-      <link href="http://localhost:4000/LogicOfThough" rel="alternate" type="text/html" title="Logic-of-Thought. Injecting Logic into Contexts for Full Reasoning in Large Language Models" />
-      <published>2024-09-26T00:00:00+03:00</published>
-      <updated>2024-09-26T00:00:00+03:00</updated>
-      <id>http://localhost:4000/LogicOfThough</id>
-      <content type="html" xml:base="http://localhost:4000/LogicOfThough">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Large Language Models (LLMs) have demonstrated remarkable capabilities across various tasks but their performance in complex logical reasoning tasks remains unsatisfactory. Although some prompting methods, such as Chain-of-Thought, can improve the reasoning ability of LLMs to some extent, they suffer from an unfaithful issue where derived conclusions may not align with the generated reasoning chain. To address this issue, some studies employ the approach of propositional logic to further enhance logical reasoning abilities of LLMs. However, the potential omissions in the extraction of logical expressions in these methods can cause information loss in the logical reasoning process, thereby generating incorrect results. To this end, we propose Logic-of-Thought (LoT) prompting which employs propositional logic to generate expanded logical information from input context, and utilizes the generated logical information as an additional augmentation to the input prompts, thereby enhancing the capability of logical reasoning. The LoT is orthogonal to existing prompting methods and can be seamlessly integrated with them. Extensive experiments demonstrate that LoT boosts the performance of various prompting methods with a striking margin across five logical reasoning tasks. In particular, the LoT enhances Chain-of-Thought's performance on the ReClor dataset by +4.35%; moreover, it improves Chain-of-Thought with Self-Consistency's performance on LogiQA by +5%; additionally, it boosts performance of Tree-of-Thoughts on ProofWriter dataset by +8%.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+T&quot;&gt;Tongxuan Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+W&quot;&gt;Wenjiang Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Huang,+W&quot;&gt;Weizhe Huang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+X&quot;&gt;Xingyu Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+J&quot;&gt;Jiaxing Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+H&quot;&gt;Hailong Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Li,+J&quot;&gt;Jing Li&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.17539&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
