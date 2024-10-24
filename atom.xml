@@ -23,6 +23,66 @@
     
       
       <item>
+        <title>PyTorch 2.5 Speeding things up</title>
+        
+          <description>&lt;p&gt;The release of PyTorch 2.5 introduces significant enhancements, including a new CuDNN backend for SDPA and optimizations in the TorchInductor CPU backend. These updates aim to improve performance and streamline user experience across various machine learning tasks.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 17 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/PyTorchUpdate</link>
+        <guid isPermaLink="true">http://localhost:4000/PyTorchUpdate</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing the prompt() Function:Enhancing SQL with LLMs</title>
+        
+          <description>&lt;p&gt;MotherDuck has launched the &lt;code&gt;prompt()&lt;/code&gt; function, a groundbreaking feature that integrates large language models (LLMs) directly into SQL, allowing users to generate, summarize, and extract structured data efficiently. This new capability democratizes access to advanced natural language processing techniques, making it easier for developers to leverage AI in their data workflows.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 17 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/LLMwSQL</link>
+        <guid isPermaLink="true">http://localhost:4000/LLMwSQL</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Agent-as-a-Judge:Evaluate Agents with Agents</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Wed, 16 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/AgentJudge</link>
+        <guid isPermaLink="true">http://localhost:4000/AgentJudge</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Thinking LLMs:General Instruction Following with Thought Generation</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 14 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/ThinkingLLM</link>
+        <guid isPermaLink="true">http://localhost:4000/ThinkingLLM</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Zamba2-7B:Setting New Standards for Small Language Models</title>
         
           <description>&lt;p&gt;Zyphra has introduced Zamba2-7B, a state-of-the-art small language model that outperforms leading competitors in both quality and performance. Designed for on-device and consumer GPU applications, Zamba2-7B offers exceptional efficiency and capabilities for natural language tasks.&lt;/p&gt;
@@ -48,6 +108,21 @@
         <link>
         http://localhost:4000/AdobeFirefly</link>
         <guid isPermaLink="true">http://localhost:4000/AdobeFirefly</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Scaling Laws For Diffusion Transformers</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Thu, 10 Oct 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/ScalingLaws</link>
+        <guid isPermaLink="true">http://localhost:4000/ScalingLaws</guid>
       </item>
       
     

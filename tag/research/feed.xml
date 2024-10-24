@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-10-18T12:40:27+03:00</updated>
+  <updated>2024-10-24T14:03:49+03:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -44,6 +44,132 @@
   
   
 
+  
+    <entry>
+      <title type="html">Agent-as-a-Judge:Evaluate Agents with Agents</title>
+      <link href="http://localhost:4000/AgentJudge" rel="alternate" type="text/html" title="Agent-as-a-Judge:Evaluate Agents with Agents" />
+      <published>2024-10-16T00:00:00+03:00</published>
+      <updated>2024-10-16T00:00:00+03:00</updated>
+      <id>http://localhost:4000/AgentJudge</id>
+      <content type="html" xml:base="http://localhost:4000/AgentJudge">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Contemporary evaluation techniques are inadequate for agentic systems. These approaches either focus exclusively on final outcomes -- ignoring the step-by-step nature of agentic systems, or require excessive manual labour. To address this, we introduce the Agent-as-a-Judge framework, wherein agentic systems are used to evaluate agentic systems. This is an organic extension of the LLM-as-a-Judge framework, incorporating agentic features that enable intermediate feedback for the entire task-solving process. We apply the Agent-as-a-Judge to the task of code generation. To overcome issues with existing benchmarks and provide a proof-of-concept testbed for Agent-as-a-Judge, we present DevAI, a new benchmark of 55 realistic automated AI development tasks. It includes rich manual annotations, like a total of 365 hierarchical user requirements. We benchmark three of the popular agentic systems using Agent-as-a-Judge and find it dramatically outperforms LLM-as-a-Judge and is as reliable as our human evaluation baseline. Altogether, we believe that Agent-as-a-Judge marks a concrete step forward for modern agentic systems -- by providing rich and reliable reward signals necessary for dynamic and scalable self-improvement. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhuge,+M&quot;&gt;Mingchen Zhuge&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhao,+C&quot;&gt;Changsheng Zhao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ashley,+D&quot;&gt;Dylan Ashley&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+W&quot;&gt;Wenyi Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Khizbullin,+D&quot;&gt;Dmitrii Khizbullin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xiong,+Y&quot;&gt;Yunyang Xiong&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+Z&quot;&gt;Zechun Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chang,+E&quot;&gt;Ernie Chang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Krishnamoorthi,+R&quot;&gt;Raghuraman Krishnamoorthi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tian,+Y&quot;&gt;Yuandong Tian&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shi,+Y&quot;&gt;Yangyang Shi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chandra,+V&quot;&gt;Vikas Chandra&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Schmidhuber,+J&quot;&gt;Jürgen Schmidhuber&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.10934&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Thinking LLMs:General Instruction Following with Thought Generation</title>
+      <link href="http://localhost:4000/ThinkingLLM" rel="alternate" type="text/html" title="Thinking LLMs:General Instruction Following with Thought Generation" />
+      <published>2024-10-14T00:00:00+03:00</published>
+      <updated>2024-10-14T00:00:00+03:00</updated>
+      <id>http://localhost:4000/ThinkingLLM</id>
+      <content type="html" xml:base="http://localhost:4000/ThinkingLLM">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; LLMs are typically trained to answer user questions or follow instructions similarly to how human experts respond. However, in the standard alignment framework they lack the basic ability of explicit thinking before answering. Thinking is important for complex questions that require reasoning and planning -- but can be applied to any task. We propose a training method for equipping existing LLMs with such thinking abilities for general instruction following without use of additional human data. We achieve this by an iterative search and optimization procedure that explores the space of possible thought generations, allowing the model to learn how to think without direct supervision. For each instruction, the thought candidates are scored using a judge model to evaluate their responses only, and then optimized via preference optimization. We show that this procedure leads to superior performance on AlpacaEval and Arena-Hard, and shows gains from thinking on non-reasoning categories such as marketing, health and general knowledge, in addition to more traditional reasoning &amp;amp; problem-solving tasks. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wu,+T&quot;&gt;Tianhao Wu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lan,+J&quot;&gt;Janice Lan&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yuan,+W&quot;&gt;Weizhe Yuan&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Jiao,+J&quot;&gt;Jiantao Jiao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Weston,+J&quot;&gt;Jason Weston&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sukhbaatar,+S&quot;&gt;Sainbayar Sukhbaatar&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.10630&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Scaling Laws For Diffusion Transformers</title>
+      <link href="http://localhost:4000/ScalingLaws" rel="alternate" type="text/html" title="Scaling Laws For Diffusion Transformers" />
+      <published>2024-10-10T00:00:00+03:00</published>
+      <updated>2024-10-10T00:00:00+03:00</updated>
+      <id>http://localhost:4000/ScalingLaws</id>
+      <content type="html" xml:base="http://localhost:4000/ScalingLaws">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Diffusion transformers (DiT) have already achieved appealing synthesis and scaling properties in content recreation, e.g., image and video generation. However, scaling laws of DiT are less explored, which usually offer precise predictions regarding optimal model size and data requirements given a specific compute budget. Therefore, experiments across a broad range of compute budgets, from 1e17 to 6e18 FLOPs are conducted to confirm the existence of scaling laws in DiT for the first time. Concretely, the loss of pretraining DiT also follows a power-law relationship with the involved compute. Based on the scaling law, we can not only determine the optimal model size and required data but also accurately predict the text-to-image generation loss given a model with 1B parameters and a compute budget of 1e21 FLOPs. Additionally, we also demonstrate that the trend of pre-training loss matches the generation performances (e.g., FID), even across various datasets, which complements the mapping from compute to synthesis quality and thus provides a predictable benchmark that assesses model performance and data quality at a reduced cost. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liang,+Z&quot;&gt;Zhengyang Liang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=He,+H&quot;&gt;Hao He&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+C&quot;&gt;Ceyuan Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dai,+B&quot;&gt;Bo Dai&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.08184&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Pixtral 12B</title>
@@ -313,133 +439,6 @@
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+S&quot;&gt;Shiyang Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Patel,+A&quot;&gt;Aakash Patel&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Rizvi,+S+A&quot;&gt;Syed A Rizvi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+N&quot;&gt;Nianchen Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=He,+S&quot;&gt;Sizhuang He&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Karbasi,+A&quot;&gt;Amin Karbasi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zappala,+E&quot;&gt;Emanuele Zappala&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=van+Dijk,+D&quot;&gt;David van Dijk&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.02536&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Were RNNs All We Needed?</title>
-      <link href="http://localhost:4000/RNNneeded" rel="alternate" type="text/html" title="Were RNNs All We Needed?" />
-      <published>2024-10-02T00:00:00+03:00</published>
-      <updated>2024-10-02T00:00:00+03:00</updated>
-      <id>http://localhost:4000/RNNneeded</id>
-      <content type="html" xml:base="http://localhost:4000/RNNneeded">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; The scalability limitations of Transformers regarding sequence length have renewed interest in recurrent sequence models that are parallelizable during training. As a result, many novel recurrent architectures, such as S4, Mamba, and Aaren, have been proposed that achieve comparable performance. In this work, we revisit traditional recurrent neural networks (RNNs) from over a decade ago: LSTMs (1997) and GRUs (2014). While these models were slow due to requiring to backpropagate through time (BPTT), we show that by removing their hidden state dependencies from their input, forget, and update gates, LSTMs and GRUs no longer need to BPTT and can be efficiently trained in parallel. Building on this, we introduce minimal versions (minLSTMs and minGRUs) that (1) use significantly fewer parameters than their traditional counterparts and (2) are fully parallelizable during training (175x faster for a sequence of length 512). Lastly, we show that these stripped-down versions of decade-old RNNs match the empirical performance of recent sequence models.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Feng,+L&quot;&gt;Leo Feng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tung,+F&quot;&gt;Frederick Tung&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ahmed,+M+O&quot;&gt;Mohamed Osama Ahmed&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Bengio,+Y&quot;&gt;Yoshua Bengio&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hajimirsadegh,+H&quot;&gt;Hossein Hajimirsadegh&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.01201&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Logic-of-Thought. Injecting Logic into Contexts for Full Reasoning in Large Language Models</title>
-      <link href="http://localhost:4000/redefineRLHF" rel="alternate" type="text/html" title="Logic-of-Thought. Injecting Logic into Contexts for Full Reasoning in Large Language Models" />
-      <published>2024-09-30T00:00:00+03:00</published>
-      <updated>2024-09-30T00:00:00+03:00</updated>
-      <id>http://localhost:4000/redefineRLHF</id>
-      <content type="html" xml:base="http://localhost:4000/redefineRLHF">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Reinforcement learning from human feedback (RLHF) has become the leading approach for fine-tuning large language models (LLM). However, RLHF has limitations in multi-task learning (MTL) due to challenges of reward hacking and extreme multi-objective optimization (i.e., trade-off of multiple and/or sometimes conflicting objectives). Applying RLHF for MTL currently requires careful tuning of the weights for reward model and data combinations. This is often done via human intuition and does not generalize. In this work, we introduce a novel post-training paradigm which we called Constrained Generative Policy Optimization (CGPO). The core of CGPO is Mixture of Judges (MoJ) with cost-efficient constrained policy optimization with stratification, which can identify the perfect blend in RLHF in a principled manner. It shows strong empirical results with theoretical guarantees, does not require extensive hyper-parameter tuning, and is plug-and-play in common post-training pipelines. Together, this can detect and mitigate reward hacking behaviors while reaching a pareto-optimal point across an extremely large number of objectives.
-Our empirical evaluations demonstrate that CGPO significantly outperforms standard RLHF algorithms like PPO and DPO across various tasks including general chat, STEM questions, instruction following, and coding. Specifically, CGPO shows improvements of 7.4% in AlpacaEval-2 (general chat), 12.5% in Arena-Hard (STEM &amp;amp; reasoning), and consistent gains in other domains like math and coding. Notably, PPO, while commonly used, is prone to severe reward hacking in popular coding benchmarks, which CGPO successfully addresses. This breakthrough in RLHF not only tackles reward hacking and extreme multi-objective optimization challenges but also advances the state-of-the-art in aligning general-purpose LLMs for diverse applications.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+T&quot;&gt;Tengyu Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Helenowski,+E&quot;&gt;Eryk Helenowski&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sankararaman,+K+A&quot;&gt;Karthik Abinav Sankararaman&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Jin,+D&quot;&gt;Di Jin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Peng,+K&quot;&gt;Kaiyan Peng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Han,+E&quot;&gt;Eric Han&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Nie,+S&quot;&gt;Shaoliang Nie&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhu,+C&quot;&gt;Chen Zhu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+H&quot;&gt;Hejia Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+W&quot;&gt;Wenxuan Zhou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zeng,+Z&quot;&gt;Zhouhao Zeng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=He,+Y&quot;&gt;Yun He&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Mandyam,+K&quot;&gt;Karishma Mandyam&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Talabzadeh,+A&quot;&gt;Arya Talabzadeh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Khabsa,+M&quot;&gt;Madian Khabsa&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cohen,+G&quot;&gt;Gabriel Cohen&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tian,+Y&quot;&gt;Yuandong Tian&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ma,+H&quot;&gt;Hao Ma&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+S&quot;&gt;Sinong Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fang,+H&quot;&gt;Han Fang&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.20370&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Diffusion-based Visual Foundation Model for High-quality Dense Prediction</title>
-      <link href="http://localhost:4000/Lotus" rel="alternate" type="text/html" title="Diffusion-based Visual Foundation Model for High-quality Dense Prediction" />
-      <published>2024-09-26T00:00:00+03:00</published>
-      <updated>2024-09-26T00:00:00+03:00</updated>
-      <id>http://localhost:4000/Lotus</id>
-      <content type="html" xml:base="http://localhost:4000/Lotus">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Leveraging the visual priors of pre-trained text-to-image diffusion models offers a promising solution to enhance zero-shot generalization in dense prediction tasks. However, existing methods often uncritically use the original diffusion formulation, which may not be optimal due to the fundamental differences between dense prediction and image generation. In this paper, we provide a systemic analysis of the diffusion formulation for the dense prediction, focusing on both quality and efficiency. And we find that the original parameterization type for image generation, which learns to predict noise, is harmful for dense prediction; the multi-step noising/denoising diffusion process is also unnecessary and challenging to optimize. Based on these insights, we introduce Lotus, a diffusion-based visual foundation model with a simple yet effective adaptation protocol for dense prediction. Specifically, Lotus is trained to directly predict annotations instead of noise, thereby avoiding harmful variance. We also reformulate the diffusion process into a single-step procedure, simplifying optimization and significantly boosting inference speed. Additionally, we introduce a novel tuning strategy called detail preserver, which achieves more accurate and fine-grained predictions. Without scaling up the training data or model capacity, Lotus achieves SoTA performance in zero-shot depth and normal estimation across various datasets. It also enhances efficiency, being significantly faster than most existing diffusion-based methods. Lotus' superior quality and efficiency also enable a wide range of practical applications, such as joint estimation, single/multi-view 3D reconstruction, etc. Project page: &lt;a href=&quot;https://lotus3d.github.io/&quot;&gt;this https URL&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=He,+J&quot;&gt;Jing He&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Li,+H&quot;&gt;Haodong Li&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yin,+W&quot;&gt;Wei Yin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liang,+Y&quot;&gt;Yixun Liang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Li,+L&quot;&gt;Leheng Li&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+K&quot;&gt;Kaiqiang Zhou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+H&quot;&gt;Hongbo Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+B&quot;&gt;Bingbing Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chen,+Y&quot;&gt;Ying-Cong Chen&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2409.18124&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       

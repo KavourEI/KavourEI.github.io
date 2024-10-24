@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-10-18T12:40:27+03:00</updated>
+  <updated>2024-10-24T14:03:49+03:00</updated>
   <id>http://localhost:4000/tag/news/feed.xml</id>
 
   
@@ -44,6 +44,67 @@
   
   
 
+  
+    <entry>
+      <title type="html">PyTorch 2.5 Speeding things up</title>
+      <link href="http://localhost:4000/PyTorchUpdate" rel="alternate" type="text/html" title="PyTorch 2.5 Speeding things up" />
+      <published>2024-10-17T00:00:00+03:00</published>
+      <updated>2024-10-17T00:00:00+03:00</updated>
+      <id>http://localhost:4000/PyTorchUpdate</id>
+      <content type="html" xml:base="http://localhost:4000/PyTorchUpdate">&lt;p&gt;The release of PyTorch 2.5 introduces significant enhancements, including a new CuDNN backend for SDPA and optimizations in the TorchInductor CPU backend. These updates aim to improve performance and streamline user experience across various machine learning tasks.&lt;/p&gt;
+
+&lt;h3&gt;Key Features and Insights&lt;/h3&gt;
+
+&lt;h3&gt;Beta Features&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;CuDNN Backend for SDPA:&lt;/strong&gt; This new backend offers speed improvements by default on NVIDIA H100 GPUs, achieving up to 75% faster performance compared to FlashAttentionV2.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Regional Compilation:&lt;/strong&gt; The torch.compile feature allows for regional compilation of repeated nn.Module instances without recompilation, reducing cold startup times while maintaining performance.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;TorchInductor CPU Backend Optimization:&lt;/strong&gt; Enhancements include CPP backend code generation and support for various data types, delivering consistent performance improvements across multiple benchmark suites.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Prototype Features&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;FlexAttention:&lt;/strong&gt; A flexible API for implementing diverse attention mechanisms with improved memory efficiency.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Compiled Autograd:&lt;/strong&gt; Captures the entire backward pass, allowing for deferred tracing that is resilient to forward pass disruptions.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Flight Recorder:&lt;/strong&gt; A debugging tool that helps identify issues in stuck jobs by capturing runtime information.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Max-autotune Support:&lt;/strong&gt; Profiles multiple implementations at compile time to select the best-performing one for GEMM operations.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Enhanced Intel GPU Support:&lt;/strong&gt; Improved support for Intel GPUs to accelerate machine learning workflows on both Data Center and Client GPUs.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;FP16 Support:&lt;/strong&gt; Float16 is now supported on CPU paths for both eager mode and TorchInductor, enhancing performance in neural network tasks.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Autoload Device Extension:&lt;/strong&gt; Streamlines integration of out-of-tree device extensions by automating loading processes.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;TorchInductor on Windows:&lt;/strong&gt; The Inductor CPU backend is now compatible with Windows environments, supporting multiple compilers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This release comprises 4095 commits from 504 contributors, reflecting the ongoing commitment of the PyTorch community to enhance its capabilities.&lt;/p&gt;
+
+&lt;p&gt;To read full article and explore all new updates provided by this update check the &lt;a href=&quot;https://pytorch.org/blog/pytorch2-5/&quot;&gt;official blog post&lt;/a&gt; by PyTorch&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">The release of PyTorch 2.5 introduces significant enhancements, including a new CuDNN backend for SDPA and optimizations in the TorchInductor CPU backend. These updates aim to improve performance and streamline user experience across various machine learning tasks.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Introducing Internal Knowledge Search and Spaces by Perplexity</title>
@@ -98,38 +159,27 @@
     </entry>
   
     <entry>
-      <title type="html">Adobe Launches Firefly Video Model</title>
-      <link href="http://localhost:4000/AdobeFirefly" rel="alternate" type="text/html" title="Adobe Launches Firefly Video Model" />
-      <published>2024-10-14T00:00:00+03:00</published>
-      <updated>2024-10-14T00:00:00+03:00</updated>
-      <id>http://localhost:4000/AdobeFirefly</id>
-      <content type="html" xml:base="http://localhost:4000/AdobeFirefly">&lt;p&gt;Adobe has unveiled the Firefly Video Model, expanding its suite of generative AI tools to include video capabilities designed for commercial safety. With enhanced features for video editing and integration into popular Adobe applications, this model aims to revolutionize content creation for professionals.&lt;/p&gt;
+      <title type="html">Introducing the prompt() Function:Enhancing SQL with LLMs</title>
+      <link href="http://localhost:4000/LLMwSQL" rel="alternate" type="text/html" title="Introducing the prompt() Function:Enhancing SQL with LLMs" />
+      <published>2024-10-17T00:00:00+03:00</published>
+      <updated>2024-10-17T00:00:00+03:00</updated>
+      <id>http://localhost:4000/LLMwSQL</id>
+      <content type="html" xml:base="http://localhost:4000/LLMwSQL">&lt;p&gt;MotherDuck has launched the &lt;code&gt;prompt()&lt;/code&gt; function, a groundbreaking feature that integrates large language models (LLMs) directly into SQL, allowing users to generate, summarize, and extract structured data efficiently. This new capability democratizes access to advanced natural language processing techniques, making it easier for developers to leverage AI in their data workflows.&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/puEgugluadk?si=P4KsYVEHdZMkaaMC&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;In recent years, the costs associated with running large language models (LLMs) have significantly decreased, making advanced natural language processing techniques more accessible. The emergence of small language models (SLMs) like OpenAI’s gpt-4o-mini has further contributed to this trend, enabling cost-effective integration of AI capabilities into various applications. MotherDuck is excited to announce the introduction of the &lt;code&gt;prompt()&lt;/code&gt; function, which simplifies the use of LLMs and SLMs within SQL queries, allowing users to generate and summarize text as well as extract structured data without needing separate infrastructure.&lt;/p&gt;
 
-&lt;p&gt;On October 14, 2024, during Adobe MAX, the world’s largest creativity conference, Adobe announced the launch of the Firefly Video Model (beta). This model marks a significant expansion of Adobe's Firefly family of generative AI models, which has already gained traction in image generation since its initial release. With over 13 billion images generated since March 2023, the Firefly suite is rapidly becoming a go-to resource for creative professionals.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;prompt()&lt;/code&gt; function currently supports OpenAI's gpt-4o-mini and gpt-4o models, providing flexibility in terms of cost-effectiveness and performance. In its preview release, users can apply gpt-4o-mini-based prompts to all rows in a table, unlocking use cases such as bulk text summarization and structured data extraction. The function allows for single-row and constant inputs with gpt-4o, enabling high-quality responses ideal for retrieval-augmented generation (RAG) scenarios. Users can specify the model for inference using the optional (model:=) parameter, which enhances customization based on specific needs. Additionally, the prompt function supports returning structured output through parameters like &lt;stron g=&quot;&quot;&gt;struct&amp;lt;/strong&amp;gt; and &lt;strong&gt;struct_descr&lt;/strong&gt;, facilitating integration into analytical workflows.&amp;lt;/p&amp;gt;
 
-&lt;p&gt;The Firefly Video Model is the first publicly available video model explicitly designed to be safe for commercial use. This innovative tool allows creators to generate and edit video content efficiently while ensuring compliance with licensing and copyright considerations. As part of its beta launch, Adobe is gathering feedback from a select group of creative professionals to refine the model further.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;prompt()&lt;/code&gt; function is designed for various practical applications. One prominent use case is text summarization; for instance, users can retrieve concise summaries from a text column in a dataset by executing a simple SQL query that applies the prompt function across multiple rows. In testing, processing 100 rows took approximately 2.8 seconds, showcasing significant speed improvements compared to traditional methods that would take hours without concurrency. Another compelling application is converting unstructured data into structured formats. By utilizing the struct and struct_descr parameters, users can extract specific information—such as topics, sentiments, and technologies mentioned in comments—transforming raw text into easily analyzable structured outputs.&lt;/p&gt;
 
-&lt;p&gt;The Firefly Video Model includes several standout features that enhance its functionality. The &lt;strong&gt;&lt;a href=&quot;https://blog.adobe.com/en/publish/2024/10/14/generative-extend-in-premiere-pro&quot;&gt;Generative Extend&lt;/a&gt;&lt;/strong&gt; feature allows users to seamlessly extend video clips, filling gaps in footage and smoothing transitions within Adobe Premiere Pro. Additionally, users can generate videos directly from text prompts with controls for camera angles and motion through the &lt;strong&gt;Text to Video&lt;/strong&gt; feature. The &lt;strong&gt;Image to Video&lt;/strong&gt; capability enables creators to transform still images or illustrations into dynamic video clips, adding a new dimension to their visual storytelling. Furthermore, the latest Firefly Image 3 model offers image generation that is up to four times faster than previous iterations, while the &lt;strong&gt;Generative Workspace in &lt;a href=&quot;https://blog.adobe.com/en/publish/2024/10/14/photoshop-delivers-powerful-innovation-for-image-editing-ideation-3d-design-more&quot;&gt;Photoshop&lt;/a&gt;&lt;/strong&gt; fosters creativity and collaboration by enabling designers to brainstorm and iterate concepts quickly.&lt;/p&gt;
+&lt;p&gt;The performance of the &lt;code&gt;prompt()&lt;/code&gt; function is noteworthy; it allows for concurrent processing of multiple requests to enhance efficiency significantly. For example, when extracting structured information from a dataset like Hacker News, users can achieve high accuracy while maintaining reasonable compute costs. However, it is essential to consider practical limitations; for certain tasks like extracting email addresses from text, traditional SQL methods such as regex may be more efficient and reliable than using LLMs.&lt;/p&gt;
 
-&lt;p&gt;The Firefly Video Model integrates seamlessly with various Adobe applications including Photoshop, Illustrator, and Premiere Pro. This integration enhances workflows by allowing users to leverage generative AI capabilities across different platforms. For instance, the Generative Shape Fill and Text to Pattern features in Illustrator empower designers to create unique artwork rapidly.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;prompt()&lt;/code&gt; function is currently available in Preview for MotherDuck users on both Free Trial and Standard Plans. To start exploring this functionality, users are encouraged to consult the &lt;a href=&quot;https://motherduck.com/docs/sql-reference/motherduck-sql-reference/ai-functions/prompt/&quot;&gt;documentation&lt;/a&gt; provided by MotherDuck. Notably, while running the &lt;code&gt;prompt()&lt;/code&gt; function over large datasets can incur higher compute costs compared to other analytical queries, MotherDuck has set quotas to manage usage effectively—Free Trial users receive 40 compute unit hours per day while Standard Plan users have similar limits that can be adjusted upon request.&lt;/p&gt;
 
-&lt;p&gt;Adobe also introduced new offerings aimed at enterprises through Firefly Services. These include:&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://blog.adobe.com/en/publish/2024/10/14/oliver-supercharges-its-ai-content-creation-with-help-from-adobe-firefly-services&quot;&gt;Dubbing and Lip Sync&lt;/a&gt;:&lt;/strong&gt; This feature uses generative AI to translate spoken dialogue into multiple languages while maintaining the original voice's sound and lip movements.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Bulk Create:&lt;/strong&gt; Aimed at enhancing efficiency, this tool allows creative professionals to edit large volumes of images quickly, streamlining tasks such as resizing and background removal.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;The introduction of the &lt;code&gt;prompt()&lt;/code&gt; function represents a significant advancement in integrating LLMs with SQL databases. By enabling users to harness the power of AI within their existing workflows seamlessly, MotherDuck is paving the way for more efficient data processing and analysis. As developers explore this new functionality, they are invited to share their experiences and feedback through community channels to foster collaboration and innovation.&lt;/p&gt;
 
-&lt;p&gt;Leading brands like PepsiCo/Gatorade, IBM, Mattel, and Deloitte have already utilized Adobe Firefly to optimize their workflows and scale content creation. By automating repetitive tasks, these companies can focus more on exploring their creative visions rather than getting bogged down by technical details.&lt;/p&gt;
-
-&lt;p&gt;Adobe emphasizes responsible innovation through its &lt;a href=&quot;https://www.adobe.com/ai/overview/ethics.html&quot;&gt;AI Ethics principles—accountability&lt;/a&gt;, responsibility, and transparency. The company has trained its Firefly models on licensed content from Adobe Stock and public domain sources. Furthermore, Adobe promotes Content Credentials as a standard for transparency in digital content creation, allowing users to understand how content was generated or modified.&lt;/p&gt;
-
-&lt;p&gt;The Firefly Video Model is currently available in a limited public beta at firefly.adobe.com (there is a waiting list &lt;a href=&quot;https://www.adobe.com/products/firefly/features/ai-video-generator.html&quot;&gt;here&lt;/a&gt;). During this phase, generations are free of charge. Adobe plans to provide additional information regarding pricing and offers once the model moves beyond beta testing.&lt;/p&gt;
-
-&lt;p&gt;The launch of the Firefly Video Model represents a significant leap forward in generative AI tools for creative professionals. By integrating advanced video capabilities into its existing suite of applications, Adobe is empowering users to create high-quality content more efficiently than ever before. As feedback from the beta phase rolls in, Adobe aims to refine these tools further, solidifying its position as a leader in creative technology.&lt;/p&gt;
-
-&lt;p&gt;For more information about the Firefly Video Model and other innovations from &amp;lt;a href=https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=http%3A%2F%2Fwww.adobe.com&amp;amp;esheet=53380676&amp;amp;newsitemid=20230413005364&amp;amp;lan=en-US&amp;amp;anchor=www.adobe.com&amp;amp;index=10&amp;amp;md5=415c333dd2658050a4e133a58c1983ec'&amp;gt;Adobe&amp;lt;/a&amp;gt;, visit their &lt;a href=&quot;https://news.adobe.com/news/2024/10/101424-adobe-launches-firefly-video-model&quot;&gt;official website&lt;/a&gt;.&lt;/p&gt;</content>
+&lt;p&gt;For further details on how to utilize the prompt() function and its capabilities, visit MotherDuck's &lt;a href=&quot;https://motherduck.com/&quot;&gt;official website&lt;/a&gt; or check &lt;a href=&quot;https://motherduck.com/blog/sql-llm-prompt-function-gpt-models&quot;&gt;official announcement&lt;/a&gt;.&lt;/p&gt;
+&lt;/stron&gt;&lt;/p&gt;</content>
 
       
       
@@ -150,7 +200,7 @@
       
 
       
-        <summary type="html">Adobe has unveiled the Firefly Video Model, expanding its suite of generative AI tools to include video capabilities designed for commercial safety. With enhanced features for video editing and integration into popular Adobe applications, this model aims to revolutionize content creation for professionals.</summary>
+        <summary type="html">MotherDuck has launched the prompt() function, a groundbreaking feature that integrates large language models (LLMs) directly into SQL, allowing users to generate, summarize, and extract structured data efficiently. This new capability democratizes access to advanced natural language processing techniques, making it easier for developers to leverage AI in their data workflows.</summary>
       
 
       
@@ -223,6 +273,66 @@
     </entry>
   
     <entry>
+      <title type="html">Adobe Launches Firefly Video Model</title>
+      <link href="http://localhost:4000/AdobeFirefly" rel="alternate" type="text/html" title="Adobe Launches Firefly Video Model" />
+      <published>2024-10-14T00:00:00+03:00</published>
+      <updated>2024-10-14T00:00:00+03:00</updated>
+      <id>http://localhost:4000/AdobeFirefly</id>
+      <content type="html" xml:base="http://localhost:4000/AdobeFirefly">&lt;p&gt;Adobe has unveiled the Firefly Video Model, expanding its suite of generative AI tools to include video capabilities designed for commercial safety. With enhanced features for video editing and integration into popular Adobe applications, this model aims to revolutionize content creation for professionals.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/puEgugluadk?si=P4KsYVEHdZMkaaMC&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;On October 14, 2024, during Adobe MAX, the world’s largest creativity conference, Adobe announced the launch of the Firefly Video Model (beta). This model marks a significant expansion of Adobe's Firefly family of generative AI models, which has already gained traction in image generation since its initial release. With over 13 billion images generated since March 2023, the Firefly suite is rapidly becoming a go-to resource for creative professionals.&lt;/p&gt;
+
+&lt;p&gt;The Firefly Video Model is the first publicly available video model explicitly designed to be safe for commercial use. This innovative tool allows creators to generate and edit video content efficiently while ensuring compliance with licensing and copyright considerations. As part of its beta launch, Adobe is gathering feedback from a select group of creative professionals to refine the model further.&lt;/p&gt;
+
+&lt;p&gt;The Firefly Video Model includes several standout features that enhance its functionality. The &lt;strong&gt;&lt;a href=&quot;https://blog.adobe.com/en/publish/2024/10/14/generative-extend-in-premiere-pro&quot;&gt;Generative Extend&lt;/a&gt;&lt;/strong&gt; feature allows users to seamlessly extend video clips, filling gaps in footage and smoothing transitions within Adobe Premiere Pro. Additionally, users can generate videos directly from text prompts with controls for camera angles and motion through the &lt;strong&gt;Text to Video&lt;/strong&gt; feature. The &lt;strong&gt;Image to Video&lt;/strong&gt; capability enables creators to transform still images or illustrations into dynamic video clips, adding a new dimension to their visual storytelling. Furthermore, the latest Firefly Image 3 model offers image generation that is up to four times faster than previous iterations, while the &lt;strong&gt;Generative Workspace in &lt;a href=&quot;https://blog.adobe.com/en/publish/2024/10/14/photoshop-delivers-powerful-innovation-for-image-editing-ideation-3d-design-more&quot;&gt;Photoshop&lt;/a&gt;&lt;/strong&gt; fosters creativity and collaboration by enabling designers to brainstorm and iterate concepts quickly.&lt;/p&gt;
+
+&lt;p&gt;The Firefly Video Model integrates seamlessly with various Adobe applications including Photoshop, Illustrator, and Premiere Pro. This integration enhances workflows by allowing users to leverage generative AI capabilities across different platforms. For instance, the Generative Shape Fill and Text to Pattern features in Illustrator empower designers to create unique artwork rapidly.&lt;/p&gt;
+
+&lt;p&gt;Adobe also introduced new offerings aimed at enterprises through Firefly Services. These include:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://blog.adobe.com/en/publish/2024/10/14/oliver-supercharges-its-ai-content-creation-with-help-from-adobe-firefly-services&quot;&gt;Dubbing and Lip Sync&lt;/a&gt;:&lt;/strong&gt; This feature uses generative AI to translate spoken dialogue into multiple languages while maintaining the original voice's sound and lip movements.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Bulk Create:&lt;/strong&gt; Aimed at enhancing efficiency, this tool allows creative professionals to edit large volumes of images quickly, streamlining tasks such as resizing and background removal.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Leading brands like PepsiCo/Gatorade, IBM, Mattel, and Deloitte have already utilized Adobe Firefly to optimize their workflows and scale content creation. By automating repetitive tasks, these companies can focus more on exploring their creative visions rather than getting bogged down by technical details.&lt;/p&gt;
+
+&lt;p&gt;Adobe emphasizes responsible innovation through its &lt;a href=&quot;https://www.adobe.com/ai/overview/ethics.html&quot;&gt;AI Ethics principles—accountability&lt;/a&gt;, responsibility, and transparency. The company has trained its Firefly models on licensed content from Adobe Stock and public domain sources. Furthermore, Adobe promotes Content Credentials as a standard for transparency in digital content creation, allowing users to understand how content was generated or modified.&lt;/p&gt;
+
+&lt;p&gt;The Firefly Video Model is currently available in a limited public beta at firefly.adobe.com (there is a waiting list &lt;a href=&quot;https://www.adobe.com/products/firefly/features/ai-video-generator.html&quot;&gt;here&lt;/a&gt;). During this phase, generations are free of charge. Adobe plans to provide additional information regarding pricing and offers once the model moves beyond beta testing.&lt;/p&gt;
+
+&lt;p&gt;The launch of the Firefly Video Model represents a significant leap forward in generative AI tools for creative professionals. By integrating advanced video capabilities into its existing suite of applications, Adobe is empowering users to create high-quality content more efficiently than ever before. As feedback from the beta phase rolls in, Adobe aims to refine these tools further, solidifying its position as a leader in creative technology.&lt;/p&gt;
+
+&lt;p&gt;For more information about the Firefly Video Model and other innovations from &amp;lt;a href=https://cts.businesswire.com/ct/CT?id=smartlink&amp;amp;url=http%3A%2F%2Fwww.adobe.com&amp;amp;esheet=53380676&amp;amp;newsitemid=20230413005364&amp;amp;lan=en-US&amp;amp;anchor=www.adobe.com&amp;amp;index=10&amp;amp;md5=415c333dd2658050a4e133a58c1983ec'&amp;gt;Adobe&amp;lt;/a&amp;gt;, visit their &lt;a href=&quot;https://news.adobe.com/news/2024/10/101424-adobe-launches-firefly-video-model&quot;&gt;official website&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Adobe has unveiled the Firefly Video Model, expanding its suite of generative AI tools to include video capabilities designed for commercial safety. With enhanced features for video editing and integration into popular Adobe applications, this model aims to revolutionize content creation for professionals.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Introducing ARIA:The First Open Multimodal Native MoE Model</title>
       <link href="http://localhost:4000/Aria" rel="alternate" type="text/html" title="Introducing ARIA:The First Open Multimodal Native MoE Model" />
       <published>2024-10-10T00:00:00+03:00</published>
@@ -270,6 +380,64 @@
 
       
         <summary type="html">Rhymes.ai has launched ARIA, the first open multimodal native mixture of experts (MoE) model, designed to enhance AI capabilities across various applications. With its innovative architecture and advanced features, ARIA aims to set a new standard in the realm of multimodal AI, enabling more efficient processing of diverse data types.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Neuromnia a Pioneering AI Solutions for Autism Care with Llama</title>
+      <link href="http://localhost:4000/Neuronomnia" rel="alternate" type="text/html" title="Neuromnia a Pioneering AI Solutions for Autism Care with Llama" />
+      <published>2024-10-09T00:00:00+03:00</published>
+      <updated>2024-10-09T00:00:00+03:00</updated>
+      <id>http://localhost:4000/Neuronomnia</id>
+      <content type="html" xml:base="http://localhost:4000/Neuronomnia">&lt;p&gt;&lt;a href=&quot;https://neuromnia.com/&quot;&gt;Neuromnia&lt;/a&gt; has launched an innovative AI-driven platform leveraging Llama 3.1 to enhance Applied Behavior Analysis (ABA) therapy for individuals with &lt;a href=&quot;https://www.cdc.gov/autism/data-research/index.html#:~:text=About%201%20in%2036%20children,Read%20Summary%5D&quot;&gt;autism&lt;/a&gt;. By automating treatment planning and documentation, Neuromnia aims to improve clinician productivity and access to care while addressing workforce shortages in the ABA industry.&lt;/p&gt;
+
+&lt;p&gt;As autism affects one in 36 children, the demand for effective care solutions is higher than ever. Neuromnia is stepping up to meet this challenge by providing clinicians, parents, and teachers with advanced AI tools designed to enhance productivity and improve treatment quality. Their latest development, Nia, is a human-centric AI co-pilot built on &lt;a href=&quot;https://ai.meta.com/blog/meta-llama-3-1/&quot;&gt;Llama 3.1&lt;/a&gt;, specifically tailored for Applied Behavior Analysis (ABA) therapy.&lt;/p&gt;
+
+&lt;p&gt;Neuromnia's journey with Llama 3.1 began in May 2024 during the research and testing phase of product development. The team quickly recognized that the 70B model offered the natural language processing capabilities necessary to support their mission. Initially, they utilized Llama to generate behavior intervention plans and skill acquisition recommendations based on client case histories.&lt;/p&gt;
+
+&lt;p&gt;Co-Founder &amp;amp; Chief Product Officer Josh Farrow, a Board Certified Behavior Analyst (BCBA), played a crucial role in curating a dataset that would help reduce the administrative burden on clinicians. According to Co-Founder &amp;amp; CEO Jay Gupta, “After testing with Llama, we were impressed by its state-of-the-art performance in natural language processing tasks.” This collaboration between clinical expertise and advanced AI technology has enabled Neuromnia to build a comprehensive dataset aimed at improving care delivery.&lt;/p&gt;
+
+&lt;p&gt;Open source has been instrumental for startups like Neuromnia in developing scalable solutions without incurring prohibitive costs. The availability of open-source large language models (LLMs) like Llama 3.1 allows teams to leverage community advancements and contributions, refining their capabilities to meet the specific needs of the ABA industry.&lt;/p&gt;
+
+&lt;p&gt;Gupta emphasizes that open source empowers them to build and scale their solutions without falling into vendor lock-in traps. The support from the community has proven invaluable for guidance on LLM creation and deployment.&lt;/p&gt;
+
+&lt;p&gt;Nia is specifically designed to tackle workforce shortages in the ABA field by automating critical elements of treatment planning, documentation, and modification. By suggesting key treatment components—such as goals and intervention strategies—Nia reduces the time clinicians spend on repetitive tasks, allowing them to manage larger caseloads more efficiently.&lt;/p&gt;
+
+&lt;p&gt;The platform also aims to address high burnout and turnover rates among ABA professionals by enhancing productivity through AI-powered capabilities. Gupta notes that many clinics lack robust analytics tools; however, Neuromnia provides automated insights that optimize the entire treatment process from intake to discharge.&lt;/p&gt;
+
+&lt;p&gt;With the release of Llama 3.1, Neuromnia has taken Nia’s capabilities to new heights. After resolving initial misconfigurations through trial and error, the team successfully integrated Llama into their platform. Techniques such as prompt engineering and retrieval-augmented generation (RAG) have been employed to enhance model output quality.&lt;/p&gt;
+
+&lt;p&gt;The team has trained the LLM on clinician-created synthetic data to ensure accurate and context-appropriate recommendations within Nia’s software. Gupta explains that while out-of-the-box LLMs can struggle with complex tasks, they have significantly reduced error rates through a combination of fine-tuning and advanced techniques like semantic search.&lt;/p&gt;
+
+&lt;p&gt;Looking ahead, Neuromnia remains committed to leveraging Llama for ongoing improvements in autism care solutions. They are dedicated to evaluating each new release of Llama to ensure their platform stays cutting-edge and capable of meeting growing demands.&lt;/p&gt;
+
+&lt;p&gt;The launch of Neuromnia’s platform represents a significant step forward in autism care by combining advanced AI technology with clinical expertise. By automating key processes within ABA therapy, Neuromnia not only enhances clinician productivity but also improves access to quality care for families affected by autism. As they continue to innovate with Llama, Neuromnia is poised to make a lasting impact on the field of autism support.&lt;/p&gt;
+
+&lt;p&gt;For more information about Neuromnia’s initiatives and updates, visit their &lt;a href=&quot;https://www.neuromnia.com/&quot;&gt;website&lt;/a&gt;. To read full post, visit &lt;a href=&quot;https://ai.meta.com/blog/neuromnia-autism-aba-therapy-built-with-llama/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Neuromnia has launched an innovative AI-driven platform leveraging Llama 3.1 to enhance Applied Behavior Analysis (ABA) therapy for individuals with autism. By automating treatment planning and documentation, Neuromnia aims to improve clinician productivity and access to care while addressing workforce shortages in the ABA industry.</summary>
       
 
       
@@ -335,64 +503,6 @@
 
       
         <summary type="html">Writer.com has launched Palmyra X 004, a cutting-edge model that sets a new standard for tool calling in AI applications. With enhanced capabilities for integrating external systems, generating code, and managing extensive context, this model aims to empower developers to build more efficient and scalable AI solutions.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Neuromnia a Pioneering AI Solutions for Autism Care with Llama</title>
-      <link href="http://localhost:4000/Neuronomnia" rel="alternate" type="text/html" title="Neuromnia a Pioneering AI Solutions for Autism Care with Llama" />
-      <published>2024-10-09T00:00:00+03:00</published>
-      <updated>2024-10-09T00:00:00+03:00</updated>
-      <id>http://localhost:4000/Neuronomnia</id>
-      <content type="html" xml:base="http://localhost:4000/Neuronomnia">&lt;p&gt;&lt;a href=&quot;https://neuromnia.com/&quot;&gt;Neuromnia&lt;/a&gt; has launched an innovative AI-driven platform leveraging Llama 3.1 to enhance Applied Behavior Analysis (ABA) therapy for individuals with &lt;a href=&quot;https://www.cdc.gov/autism/data-research/index.html#:~:text=About%201%20in%2036%20children,Read%20Summary%5D&quot;&gt;autism&lt;/a&gt;. By automating treatment planning and documentation, Neuromnia aims to improve clinician productivity and access to care while addressing workforce shortages in the ABA industry.&lt;/p&gt;
-
-&lt;p&gt;As autism affects one in 36 children, the demand for effective care solutions is higher than ever. Neuromnia is stepping up to meet this challenge by providing clinicians, parents, and teachers with advanced AI tools designed to enhance productivity and improve treatment quality. Their latest development, Nia, is a human-centric AI co-pilot built on &lt;a href=&quot;https://ai.meta.com/blog/meta-llama-3-1/&quot;&gt;Llama 3.1&lt;/a&gt;, specifically tailored for Applied Behavior Analysis (ABA) therapy.&lt;/p&gt;
-
-&lt;p&gt;Neuromnia's journey with Llama 3.1 began in May 2024 during the research and testing phase of product development. The team quickly recognized that the 70B model offered the natural language processing capabilities necessary to support their mission. Initially, they utilized Llama to generate behavior intervention plans and skill acquisition recommendations based on client case histories.&lt;/p&gt;
-
-&lt;p&gt;Co-Founder &amp;amp; Chief Product Officer Josh Farrow, a Board Certified Behavior Analyst (BCBA), played a crucial role in curating a dataset that would help reduce the administrative burden on clinicians. According to Co-Founder &amp;amp; CEO Jay Gupta, “After testing with Llama, we were impressed by its state-of-the-art performance in natural language processing tasks.” This collaboration between clinical expertise and advanced AI technology has enabled Neuromnia to build a comprehensive dataset aimed at improving care delivery.&lt;/p&gt;
-
-&lt;p&gt;Open source has been instrumental for startups like Neuromnia in developing scalable solutions without incurring prohibitive costs. The availability of open-source large language models (LLMs) like Llama 3.1 allows teams to leverage community advancements and contributions, refining their capabilities to meet the specific needs of the ABA industry.&lt;/p&gt;
-
-&lt;p&gt;Gupta emphasizes that open source empowers them to build and scale their solutions without falling into vendor lock-in traps. The support from the community has proven invaluable for guidance on LLM creation and deployment.&lt;/p&gt;
-
-&lt;p&gt;Nia is specifically designed to tackle workforce shortages in the ABA field by automating critical elements of treatment planning, documentation, and modification. By suggesting key treatment components—such as goals and intervention strategies—Nia reduces the time clinicians spend on repetitive tasks, allowing them to manage larger caseloads more efficiently.&lt;/p&gt;
-
-&lt;p&gt;The platform also aims to address high burnout and turnover rates among ABA professionals by enhancing productivity through AI-powered capabilities. Gupta notes that many clinics lack robust analytics tools; however, Neuromnia provides automated insights that optimize the entire treatment process from intake to discharge.&lt;/p&gt;
-
-&lt;p&gt;With the release of Llama 3.1, Neuromnia has taken Nia’s capabilities to new heights. After resolving initial misconfigurations through trial and error, the team successfully integrated Llama into their platform. Techniques such as prompt engineering and retrieval-augmented generation (RAG) have been employed to enhance model output quality.&lt;/p&gt;
-
-&lt;p&gt;The team has trained the LLM on clinician-created synthetic data to ensure accurate and context-appropriate recommendations within Nia’s software. Gupta explains that while out-of-the-box LLMs can struggle with complex tasks, they have significantly reduced error rates through a combination of fine-tuning and advanced techniques like semantic search.&lt;/p&gt;
-
-&lt;p&gt;Looking ahead, Neuromnia remains committed to leveraging Llama for ongoing improvements in autism care solutions. They are dedicated to evaluating each new release of Llama to ensure their platform stays cutting-edge and capable of meeting growing demands.&lt;/p&gt;
-
-&lt;p&gt;The launch of Neuromnia’s platform represents a significant step forward in autism care by combining advanced AI technology with clinical expertise. By automating key processes within ABA therapy, Neuromnia not only enhances clinician productivity but also improves access to quality care for families affected by autism. As they continue to innovate with Llama, Neuromnia is poised to make a lasting impact on the field of autism support.&lt;/p&gt;
-
-&lt;p&gt;For more information about Neuromnia’s initiatives and updates, visit their &lt;a href=&quot;https://www.neuromnia.com/&quot;&gt;website&lt;/a&gt;. To read full post, visit &lt;a href=&quot;https://ai.meta.com/blog/neuromnia-autism-aba-therapy-built-with-llama/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">Neuromnia has launched an innovative AI-driven platform leveraging Llama 3.1 to enhance Applied Behavior Analysis (ABA) therapy for individuals with autism. By automating treatment planning and documentation, Neuromnia aims to improve clinician productivity and access to care while addressing workforce shortages in the ABA industry.</summary>
       
 
       
@@ -521,141 +631,6 @@
 
       
         <summary type="html">Meta has introduced Movie Gen, a groundbreaking generative AI model designed to enhance creativity in video and audio production. This model offers advanced capabilities in video generation, personalized video creation, precise editing, and audio generation, aiming to empower creators of all backgrounds.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Introducing Canvas-A New Era for ChatGPT Collaboration</title>
-      <link href="http://localhost:4000/OpenAICanvas" rel="alternate" type="text/html" title="Introducing Canvas-A New Era for ChatGPT Collaboration" />
-      <published>2024-10-03T00:00:00+03:00</published>
-      <updated>2024-10-03T00:00:00+03:00</updated>
-      <id>http://localhost:4000/OpenAICanvas</id>
-      <content type="html" xml:base="http://localhost:4000/OpenAICanvas">&lt;p&gt;OpenAI has unveiled Canvas, a new interface for ChatGPT that enhances collaboration on writing and coding projects. This innovative feature allows users to work side by side with the AI, providing tools for inline feedback, version control, and targeted editing.&lt;/p&gt;
-
-&lt;p&gt;OpenAI has taken a significant step forward in the realm of AI-assisted creativity and coding with the introduction of Canvas. This new interface transforms how users interact with ChatGPT, enabling a more collaborative and efficient workflow that goes beyond simple text-based conversations.&lt;/p&gt;
-
-&lt;p&gt;Canvas is an early beta feature built on the GPT-4o model that opens in a separate window, allowing users to collaborate with ChatGPT on projects in real-time. This interface is designed to facilitate writing and coding tasks that require iterative editing and revisions, making it easier for users to refine their ideas and outputs.&lt;/p&gt;
-
-&lt;p&gt;The traditional chat interface often falls short for complex projects requiring detailed edits. Canvas addresses this limitation by allowing users to highlight specific sections of text or code, enabling ChatGPT to provide inline feedback and suggestions tailored to the entire project context.&lt;/p&gt;
-
-&lt;h4&gt;Key Features of Canvas&lt;/h4&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Direct Editing:&lt;/strong&gt; Users can directly edit text or code within the Canvas interface.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Inline Suggestions:&lt;/strong&gt; ChatGPT offers real-time suggestions and feedback on highlighted sections.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Version Control:&lt;/strong&gt; Users can restore previous versions of their work easily using a back button.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Writing Shortcuts:&lt;/strong&gt; A variety of shortcuts enable quick adjustments such as changing document length or reading level.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Coding is inherently iterative, and Canvas simplifies this process by allowing users to track changes more effectively. The model provides various coding shortcuts that enhance the development experience.&lt;/p&gt;
-
-&lt;h3&gt;Coding Shortcuts Include:&lt;/h3&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Review Code:&lt;/strong&gt; Inline suggestions help improve code quality.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Add Logs:&lt;/strong&gt; Print statements can be inserted to assist with debugging.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Add Comments:&lt;/strong&gt; Comments can be added for clarity within the code.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Fix Bugs:&lt;/strong&gt; The model can detect and rewrite problematic code snippets.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Port to Other Languages:&lt;/strong&gt; Code can be translated into various programming languages like JavaScript, Python, and more.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The underlying GPT-4o model has been trained specifically for collaboration, allowing it to understand when to open a Canvas and how to make targeted edits. OpenAI's research team has focused on developing core behaviors that enhance this collaborative experience.&lt;/p&gt;
-
-&lt;h3&gt;Core Behaviors Include:&lt;/h3&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Triggering Canvas:&lt;/strong&gt; The model intelligently decides when to open a Canvas based on user prompts.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Diverse Content Generation:&lt;/strong&gt; It can generate various types of content effectively.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Edit and Rewrite:&lt;/strong&gt; The model makes targeted edits or rewrites based on user selections.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Inline Critique:&lt;/strong&gt; Provides constructive feedback on user-generated content.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The introduction of Canvas marks a significant evolution in how users interact with AI tools. OpenAI plans to rapidly improve its capabilities based on user feedback during this early beta phase, aiming to enhance both functionality and user experience further.&lt;/p&gt;
-
-&lt;p&gt;The launch of Canvas represents a transformative approach to working with ChatGPT, making it an invaluable tool for writers and developers alike. As OpenAI continues to refine this feature, users can look forward to an even more powerful collaborative experience that enhances creativity and productivity in their projects.&lt;/p&gt;
-
-&lt;p&gt;This new interface not only streamlines workflows but also empowers users by providing them with greater control over their creative processes. Stay tuned for future updates as OpenAI expands the capabilities of Canvas! Check for more infor and integration videos in the OpenAI's official &lt;a href=&quot;https://openai.com/index/introducing-canvas/&quot;&gt;blog post&lt;/a&gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">OpenAI has unveiled Canvas, a new interface for ChatGPT that enhances collaboration on writing and coding projects. This innovative feature allows users to work side by side with the AI, providing tools for inline feedback, version control, and targeted editing.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Gemini 1.5 Flash-8B Available for Developers</title>
-      <link href="http://localhost:4000/Gemini15" rel="alternate" type="text/html" title="Gemini 1.5 Flash-8B Available for Developers" />
-      <published>2024-10-03T00:00:00+03:00</published>
-      <updated>2024-10-03T00:00:00+03:00</updated>
-      <id>http://localhost:4000/Gemini15</id>
-      <content type="html" xml:base="http://localhost:4000/Gemini15">&lt;p&gt;Google has officially launched Gemini 1.5 Flash-8B, a lightweight and efficient model optimized for various tasks, now available for production use. This release aims to empower developers with the lowest cost per intelligence among Gemini models, enhancing capabilities in chat, transcription, and long-context language translation.&lt;/p&gt;
-
-&lt;p&gt;In an exciting development for AI enthusiasts and developers, Google has announced that Gemini 1.5 Flash-8B is now generally available for use. This latest variant of the Gemini model is designed to be lightweight and efficient, making it particularly suitable for high-volume tasks across multiple applications.&lt;/p&gt;
-
-&lt;p&gt;Gemini 1.5 Flash-8B is a smaller and faster version of the original Gemini 1.5 Flash model, which was introduced earlier this year at Google I/O. Over the past few months, Google DeepMind has worked diligently to refine this model based on developer feedback, pushing the boundaries of its performance capabilities.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image2_st96QjR.original.png&quot; /&gt;&lt;/p&gt;
-
-&lt;h3&gt;Key Features&lt;/h3&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Optimized Performance:&lt;/strong&gt; Flash-8B nearly matches the performance of its predecessor across various benchmarks, excelling in tasks such as chat, transcription, and long-context language translation.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;High Volume Capability:&lt;/strong&gt; The model is particularly well-suited for high-volume multimodal use cases and long-context summarization tasks.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Cost Efficiency:&lt;/strong&gt; It offers the lowest cost per intelligence of any Gemini model, making it an attractive option for developers looking to manage expenses while maximizing output.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Developers can access Gemini 1.5 Flash-8B for free via &lt;a href=&quot;https://aistudio.google.com/app/prompts/new_chat?model=gemini-1.5-flash-8b-002&quot;&gt;Google AI Studio&lt;/a&gt; and the &lt;a href=&quot;https://ai.google.dev/gemini-api/docs/models/gemini&quot;&gt;Gemini API&lt;/a&gt;. This accessibility allows developers to integrate the model into their applications seamlessly.&lt;/p&gt;
-
-&lt;p&gt;The pricing for using Gemini 1.5 Flash-8B will begin on Monday, October 14th, for those on the paid tier. This new pricing structure reflects Google's ongoing commitment to reducing developer costs while providing powerful tools for innovation.&lt;/p&gt;
-
-&lt;p&gt;To enhance usability, Google has doubled the &lt;a href=&quot;https://ai.google.dev/pricing&quot;&gt;rate limits&lt;/a&gt; for the 1.5 Flash-8B model, allowing developers to send up to 4,000 requests per minute (RPM). This increase facilitates smoother operations and better handling of high-volume tasks.&lt;/p&gt;
-
-&lt;p&gt;The release of Gemini 1.5 Flash-8B marks a significant step in Google's efforts to provide best-in-class small models informed by developer feedback and rigorous testing. As Google continues to innovate in this space, further updates and enhancements are anticipated.&lt;/p&gt;
-
-&lt;p&gt;The general availability of Gemini 1.5 Flash-8B opens new avenues for developers looking to leverage advanced AI capabilities in their projects. With its focus on speed, efficiency, and cost-effectiveness, this model is poised to become a valuable asset in various applications ranging from chatbots to language translation services.&lt;/p&gt;
-
-&lt;p&gt;To read full article click &lt;a href=&quot;https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/&quot;&gt;here&lt;/a&gt;. Happy building and stay tuned for more updates!&lt;p&gt;
-&lt;/p&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">Google has officially launched Gemini 1.5 Flash-8B, a lightweight and efficient model optimized for various tasks, now available for production use. This release aims to empower developers with the lowest cost per intelligence among Gemini models, enhancing capabilities in chat, transcription, and long-context language translation.</summary>
       
 
       
