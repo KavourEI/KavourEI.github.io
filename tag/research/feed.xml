@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-11-12T11:44:00+02:00</updated>
+  <updated>2024-11-12T12:24:16+02:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -44,6 +44,51 @@
   
   
 
+  
+    <entry>
+      <title type="html">Large Language Models Reflect the Ideology of their Creators</title>
+      <link href="http://localhost:4000/CreatorsIdeology" rel="alternate" type="text/html" title="Large Language Models Reflect the Ideology of their Creators" />
+      <published>2024-10-24T00:00:00+03:00</published>
+      <updated>2024-10-24T00:00:00+03:00</updated>
+      <id>http://localhost:4000/CreatorsIdeology</id>
+      <content type="html" xml:base="http://localhost:4000/CreatorsIdeology">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Large language models (LLMs) are trained on vast amounts of data to generate natural language, enabling them to perform tasks like text summarization and question answering. These models have become popular in artificial intelligence (AI) assistants like ChatGPT and already play an influential role in how humans access information. However, the behavior of LLMs varies depending on their design, training, and use.
+In this paper, we uncover notable diversity in the ideological stance exhibited across different LLMs and languages in which they are accessed. We do this by prompting a diverse panel of popular LLMs to describe a large number of prominent and controversial personalities from recent world history, both in English and in Chinese. By identifying and analyzing moral assessments reflected in the generated descriptions, we find consistent normative differences between how the same LLM responds in Chinese compared to English. Similarly, we identify normative disagreements between Western and non-Western LLMs about prominent actors in geopolitical conflicts. Furthermore, popularly hypothesized disparities in political goals among Western models are reflected in significant normative differences related to inclusion, social inequality, and political scandals.
+Our results show that the ideological stance of an LLM often reflects the worldview of its creators. This raises important concerns around technological and regulatory efforts with the stated aim of making LLMs ideologically `unbiased', and it poses risks for political instrumentalization. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Buyl,+M&quot;&gt;Maarten Buyl&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Rogiers,+A&quot;&gt;Alexander Rogiers&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Noels,+S&quot;&gt;Sander Noels&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dominguez-Catena,+I&quot;&gt;Iris Dominguez-Catena&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Heiter,+E&quot;&gt;Edith Heiter&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Romero,+R&quot;&gt;Raphael Romero&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Johary,+I&quot;&gt;Iman Johary&lt;/a&gt;
+, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Mara,+A&quot;&gt;Alexandru-Cristian Mara&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lijffijt,+J&quot;&gt;Jefrey Lijffijt&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=De+Bie,+T&quot;&gt;Tijl De Bie&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.18417&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">A Theoretical Understanding of Chain-of-Thought:Coherent Reasoning and Error-Aware Demonstration</title>
@@ -402,49 +447,6 @@
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Paischer,+F&quot;&gt;Fabian Paischer&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hauzenberger,+L&quot;&gt;Lukas Hauzenberger&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Schmied,+T&quot;&gt;Thomas Schmied&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Alkin,+B&quot;&gt;Benedikt Alkin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Deisenroth,+M+P&quot;&gt;Marc Peter Deisenroth&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hochreiter,+S&quot;&gt;Sepp Hochreiter&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.07170&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">GSM-Symbolic:Understanding the Limitations of Mathematical Reasoning in Large Language Models</title>
-      <link href="http://localhost:4000/GSM" rel="alternate" type="text/html" title="GSM-Symbolic:Understanding the Limitations of Mathematical Reasoning in Large Language Models" />
-      <published>2024-10-07T00:00:00+03:00</published>
-      <updated>2024-10-07T00:00:00+03:00</updated>
-      <id>http://localhost:4000/GSM</id>
-      <content type="html" xml:base="http://localhost:4000/GSM">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Recent advancements in Large Language Models (LLMs) have sparked interest in their formal reasoning capabilities, particularly in mathematics. The GSM8K benchmark is widely used to assess the mathematical reasoning of models on grade-school-level questions. While the performance of LLMs on GSM8K has significantly improved in recent years, it remains unclear whether their mathematical reasoning capabilities have genuinely advanced, raising questions about the reliability of the reported metrics. To address these concerns, we conduct a large-scale study on several SOTA open and closed models. To overcome the limitations of existing evaluations, we introduce GSM-Symbolic, an improved benchmark created from symbolic templates that allow for the generation of a diverse set of questions. GSM-Symbolic enables more controllable evaluations, providing key insights and more reliable metrics for measuring the reasoning capabilities of &lt;a href=&quot;http://models.our/&quot;&gt;this http URL&lt;/a&gt; findings reveal that LLMs exhibit noticeable variance when responding to different instantiations of the same question. Specifically, the performance of all models declines when only the numerical values in the question are altered in the GSM-Symbolic benchmark. Furthermore, we investigate the fragility of mathematical reasoning in these models and show that their performance significantly deteriorates as the number of clauses in a question increases. We hypothesize that this decline is because current LLMs cannot perform genuine logical reasoning; they replicate reasoning steps from their training data. Adding a single clause that seems relevant to the question causes significant performance drops (up to 65%) across all state-of-the-art models, even though the clause doesn't contribute to the reasoning chain needed for the final answer. Overall, our work offers a more nuanced understanding of LLMs' capabilities and limitations in mathematical reasoning.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Mirzadeh,+I&quot;&gt;Iman Mirzadeh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Alizadeh,+K&quot;&gt;Keivan Alizadeh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shahrokhi,+H&quot;&gt;Hooman Shahrokhi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tuzel,+O&quot;&gt;Oncel Tuzel&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Bengio,+S&quot;&gt;Samy Bengio&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Farajtabar,+M&quot;&gt;Mehrdad Farajtabar&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.05229&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
