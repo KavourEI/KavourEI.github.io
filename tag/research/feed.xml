@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-11-04T16:28:10+02:00</updated>
+  <updated>2024-11-12T11:44:00+02:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -44,6 +44,94 @@
   
   
 
+  
+    <entry>
+      <title type="html">A Theoretical Understanding of Chain-of-Thought:Coherent Reasoning and Error-Aware Demonstration</title>
+      <link href="http://localhost:4000/CoT" rel="alternate" type="text/html" title="A Theoretical Understanding of Chain-of-Thought:Coherent Reasoning and Error-Aware Demonstration" />
+      <published>2024-10-21T00:00:00+03:00</published>
+      <updated>2024-10-21T00:00:00+03:00</updated>
+      <id>http://localhost:4000/CoT</id>
+      <content type="html" xml:base="http://localhost:4000/CoT">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Few-shot Chain-of-Thought (CoT) prompting has demonstrated strong performance in improving the reasoning capabilities of large language models (LLMs). While theoretical investigations have been conducted to understand CoT, the underlying transformer used in these studies isolates the CoT reasoning process into separated in-context learning steps (Stepwise ICL). In this work, we theoretically show that, compared to Stepwise ICL, the transformer gains better error correction ability and more accurate predictions if the reasoning from earlier steps (Coherent CoT) is integrated. Given that this coherent reasoning changes the behavior of the transformer, we further investigate the sensitivity of the transformer with Coherent CoT when the demonstration examples are corrupted at the inference stage. Our theoretical results indicate that the transformer is more sensitive to errors in intermediate reasoning steps than the final outcome. Building upon this observation, we propose an improvement on CoT by incorporating both correct and incorrect reasoning paths in the demonstration. Our experiments validate the effectiveness of the proposed approach. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cui,+Y&quot; rel=&quot;nofollow&quot;&gt;Yingqian Cui&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=He,+P&quot; rel=&quot;nofollow&quot;&gt;Pengfei He&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tang,+X&quot; rel=&quot;nofollow&quot;&gt;Xianfeng Tang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=He,+Q&quot; rel=&quot;nofollow&quot;&gt;Qi He&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Luo,+C&quot; rel=&quot;nofollow&quot;&gt;Chen Luo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tang,+J&quot; rel=&quot;nofollow&quot;&gt;Jiliang Tang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xing,+Y&quot; rel=&quot;nofollow&quot;&gt;Yue Xing&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.16540&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Looking Inward:Language Models Can Learn About Themselves by Introspection</title>
+      <link href="http://localhost:4000/Introspection" rel="alternate" type="text/html" title="Looking Inward:Language Models Can Learn About Themselves by Introspection" />
+      <published>2024-10-17T00:00:00+03:00</published>
+      <updated>2024-10-17T00:00:00+03:00</updated>
+      <id>http://localhost:4000/Introspection</id>
+      <content type="html" xml:base="http://localhost:4000/Introspection">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Humans acquire knowledge by observing the external world, but also by introspection. Introspection gives a person privileged access to their current state of mind (e.g., thoughts and feelings) that is not accessible to external observers. Can LLMs introspect? We define introspection as acquiring knowledge that is not contained in or derived from training data but instead originates from internal states. Such a capability could enhance model interpretability. Instead of painstakingly analyzing a model's internal workings, we could simply ask the model about its beliefs, world models, and goals. More speculatively, an introspective model might self-report on whether it possesses certain internal states such as subjective feelings or desires and this could inform us about the moral status of these states. Such self-reports would not be entirely dictated by the model's training data.&lt;/p&gt;
+
+&lt;p&gt;We study introspection by finetuning LLMs to predict properties of their own behavior in hypothetical scenarios. For example, &quot;Given the input P, would your output favor the short- or long-term option?&quot; If a model M1 can introspect, it should outperform a different model M2 in predicting M1's behavior even if M2 is trained on M1's ground-truth behavior. The idea is that M1 has privileged access to its own behavioral tendencies, and this enables it to predict itself better than M2 (even if M2 is generally stronger).&lt;/p&gt;
+
+&lt;p&gt;In experiments with GPT-4, GPT-4o, and Llama-3 models (each finetuned to predict itself), we find that the model M1 outperforms M2 in predicting itself, providing evidence for introspection. Notably, M1 continues to predict its behavior accurately even after we intentionally modify its ground-truth behavior. However, while we successfully elicit introspection on simple tasks, we are unsuccessful on more complex tasks or those requiring out-of-distribution generalization. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Binder,+F+J&quot; rel=&quot;nofollow&quot;&gt;Felix J Binder&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chua,+J&quot; rel=&quot;nofollow&quot;&gt;James Chua&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Korbak,+T&quot; rel=&quot;nofollow&quot;&gt;Tomek Korbak&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sleight,+H&quot; rel=&quot;nofollow&quot;&gt;Henry Sleight&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hughes,+J&quot; rel=&quot;nofollow&quot;&gt;John Hughes&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Long,+R&quot; rel=&quot;nofollow&quot;&gt;Robert Long&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Perez,+E&quot; rel=&quot;nofollow&quot;&gt;Ethan Perez&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Turpin,+M&quot; rel=&quot;nofollow&quot;&gt;Miles Turpin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Evans,+O&quot; rel=&quot;nofollow&quot;&gt;Owain Evans&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.13787&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Agent-as-a-Judge:Evaluate Agents with Agents</title>
@@ -216,48 +304,6 @@
     </entry>
   
     <entry>
-      <title type="html">One Initialization to Rule them All:Fine-tuning via Explained Variance Adaptation</title>
-      <link href="http://localhost:4000/FTVarAdapt" rel="alternate" type="text/html" title="One Initialization to Rule them All:Fine-tuning via Explained Variance Adaptation" />
-      <published>2024-10-09T00:00:00+03:00</published>
-      <updated>2024-10-09T00:00:00+03:00</updated>
-      <id>http://localhost:4000/FTVarAdapt</id>
-      <content type="html" xml:base="http://localhost:4000/FTVarAdapt">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Foundation models (FMs) are pre-trained on large-scale datasets and then fine-tuned on a downstream task for a specific application. The most successful and most commonly used fine-tuning method is to update the pre-trained weights via a low-rank adaptation (LoRA). LoRA introduces new weight matrices that are usually initialized at random with a uniform rank distribution across model weights. Recent works focus on weight-driven initialization or learning of adaptive ranks during training. Both approaches have only been investigated in isolation, resulting in slow convergence or a uniform rank distribution, in turn leading to sub-optimal performance. We propose to enhance LoRA by initializing the new weights in a data-driven manner by computing singular value decomposition on minibatches of activation vectors. Then, we initialize the LoRA matrices with the obtained right-singular vectors and re-distribute ranks among all weight matrices to explain the maximal amount of variance and continue the standard LoRA fine-tuning procedure. This results in our new method Explained Variance Adaptation (EVA). We apply EVA to a variety of fine-tuning tasks ranging from language generation and understanding to image classification and reinforcement learning. EVA exhibits faster convergence than competitors and attains the highest average score across a multitude of tasks per domain.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Paischer,+F&quot;&gt;Fabian Paischer&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hauzenberger,+L&quot;&gt;Lukas Hauzenberger&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Schmied,+T&quot;&gt;Thomas Schmied&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Alkin,+B&quot;&gt;Benedikt Alkin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Deisenroth,+M+P&quot;&gt;Marc Peter Deisenroth&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hochreiter,+S&quot;&gt;Sepp Hochreiter&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.07170&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">Pixtral 12B</title>
       <link href="http://localhost:4000/Pixtral" rel="alternate" type="text/html" title="Pixtral 12B" />
       <published>2024-10-09T00:00:00+03:00</published>
@@ -342,6 +388,48 @@
     </entry>
   
     <entry>
+      <title type="html">One Initialization to Rule them All:Fine-tuning via Explained Variance Adaptation</title>
+      <link href="http://localhost:4000/FTVarAdapt" rel="alternate" type="text/html" title="One Initialization to Rule them All:Fine-tuning via Explained Variance Adaptation" />
+      <published>2024-10-09T00:00:00+03:00</published>
+      <updated>2024-10-09T00:00:00+03:00</updated>
+      <id>http://localhost:4000/FTVarAdapt</id>
+      <content type="html" xml:base="http://localhost:4000/FTVarAdapt">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Foundation models (FMs) are pre-trained on large-scale datasets and then fine-tuned on a downstream task for a specific application. The most successful and most commonly used fine-tuning method is to update the pre-trained weights via a low-rank adaptation (LoRA). LoRA introduces new weight matrices that are usually initialized at random with a uniform rank distribution across model weights. Recent works focus on weight-driven initialization or learning of adaptive ranks during training. Both approaches have only been investigated in isolation, resulting in slow convergence or a uniform rank distribution, in turn leading to sub-optimal performance. We propose to enhance LoRA by initializing the new weights in a data-driven manner by computing singular value decomposition on minibatches of activation vectors. Then, we initialize the LoRA matrices with the obtained right-singular vectors and re-distribute ranks among all weight matrices to explain the maximal amount of variance and continue the standard LoRA fine-tuning procedure. This results in our new method Explained Variance Adaptation (EVA). We apply EVA to a variety of fine-tuning tasks ranging from language generation and understanding to image classification and reinforcement learning. EVA exhibits faster convergence than competitors and attains the highest average score across a multitude of tasks per domain.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Paischer,+F&quot;&gt;Fabian Paischer&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hauzenberger,+L&quot;&gt;Lukas Hauzenberger&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Schmied,+T&quot;&gt;Thomas Schmied&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Alkin,+B&quot;&gt;Benedikt Alkin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Deisenroth,+M+P&quot;&gt;Marc Peter Deisenroth&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hochreiter,+S&quot;&gt;Sepp Hochreiter&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.07170&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">GSM-Symbolic:Understanding the Limitations of Mathematical Reasoning in Large Language Models</title>
       <link href="http://localhost:4000/GSM" rel="alternate" type="text/html" title="GSM-Symbolic:Understanding the Limitations of Mathematical Reasoning in Large Language Models" />
       <published>2024-10-07T00:00:00+03:00</published>
@@ -357,90 +445,6 @@
 &lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.05229&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Differential Transformer</title>
-      <link href="http://localhost:4000/DiffTransf" rel="alternate" type="text/html" title="Differential Transformer" />
-      <published>2024-10-07T00:00:00+03:00</published>
-      <updated>2024-10-07T00:00:00+03:00</updated>
-      <id>http://localhost:4000/DiffTransf</id>
-      <content type="html" xml:base="http://localhost:4000/DiffTransf">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Transformer tends to overallocate attention to irrelevant context. In this work, we introduce Diff Transformer, which amplifies attention to the relevant context while canceling noise. Specifically, the differential attention mechanism calculates attention scores as the difference between two separate softmax attention maps. The subtraction cancels noise, promoting the emergence of sparse attention patterns. Experimental results on language modeling show that Diff Transformer outperforms Transformer in various settings of scaling up model size and training tokens. More intriguingly, it offers notable advantages in practical applications, such as long-context modeling, key information retrieval, hallucination mitigation, in-context learning, and reduction of activation outliers. By being less distracted by irrelevant context, Diff Transformer can mitigate hallucination in question answering and text summarization. For in-context learning, Diff Transformer not only enhances accuracy but is also more robust to order permutation, which was considered as a chronic robustness issue. The results position Diff Transformer as a highly effective and promising architecture to advance large language models.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ye,+T&quot;&gt;Tianzhu Ye&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dong,+L&quot;&gt;Li Dong&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xia,+Y&quot;&gt;Yuqing Xia&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sun,+Y&quot;&gt;Yutao Sun&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhu,+Y&quot;&gt;Yi Zhu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Huang,+G&quot;&gt;Gao Huang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wei,+F&quot;&gt;Furu Wei&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.05258&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Contextual Document Embeddings</title>
-      <link href="http://localhost:4000/ContDocEmb" rel="alternate" type="text/html" title="Contextual Document Embeddings" />
-      <published>2024-10-03T00:00:00+03:00</published>
-      <updated>2024-10-03T00:00:00+03:00</updated>
-      <id>http://localhost:4000/ContDocEmb</id>
-      <content type="html" xml:base="http://localhost:4000/ContDocEmb">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Dense document embeddings are central to neural retrieval. The dominant paradigm is to train and construct embeddings by running encoders directly on individual documents. In this work, we argue that these embeddings, while effective, are implicitly out-of-context for targeted use cases of retrieval, and that a contextualized document embedding should take into account both the document and neighboring documents in context - analogous to contextualized word embeddings. We propose two complementary methods for contextualized document embeddings: first, an alternative contrastive learning objective that explicitly incorporates the document neighbors into the intra-batch contextual loss; second, a new contextual architecture that explicitly encodes neighbor document information into the encoded representation. Results show that both methods achieve better performance than biencoders in several settings, with differences especially pronounced out-of-domain. We achieve state-of-the-art results on the MTEB benchmark with no hard negative mining, score distillation, dataset-specific instructions, intra-GPU example-sharing, or extremely large batch sizes. Our method can be applied to improve performance on any contrastive learning dataset and any biencoder.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Morris,+J+X&quot;&gt;John X. Morris&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Rush,+A+M&quot;&gt;Alexander M. Rush&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.02525&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
