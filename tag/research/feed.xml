@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-11-12T12:24:16+02:00</updated>
+  <updated>2024-11-15T19:09:11+02:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -44,6 +44,90 @@
   
   
 
+  
+    <entry>
+      <title type="html">Mixtures of In-Context Learners</title>
+      <link href="http://localhost:4000/InContextLearners" rel="alternate" type="text/html" title="Mixtures of In-Context Learners" />
+      <published>2024-11-05T00:00:00+02:00</published>
+      <updated>2024-11-05T00:00:00+02:00</updated>
+      <id>http://localhost:4000/InContextLearners</id>
+      <content type="html" xml:base="http://localhost:4000/InContextLearners">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; In-context learning (ICL) adapts LLMs by providing demonstrations without fine-tuning the model parameters; however, it does not differentiate between demonstrations and quadratically increases the complexity of Transformer LLMs, exhausting the memory. As a solution, we propose Mixtures of In-Context Learners (MoICL), a novel approach to treat subsets of demonstrations as experts and learn a weighting function to merge their output distributions based on a training set. In our experiments, we show performance improvements on 5 out of 7 classification datasets compared to a set of strong baselines (up to +13\% compared to ICL and LENS). Moreover, we enhance the Pareto frontier of ICL by reducing the inference time needed to achieve the same performance with fewer demonstrations. Finally, MoICL is more robust to out-of-domain (up to +11\%), imbalanced (up to +49\%), or noisy demonstrations (up to +38\%) or can filter these out from datasets. Overall, MoICL is a more expressive approach to learning from demonstrations without exhausting the context window or memory. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hong,+G&quot; rel=&quot;nofollow&quot;&gt;Giwon Hong&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=van+Krieken,+E&quot; rel=&quot;nofollow&quot;&gt;Emile van Krieken&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ponti,+E&quot; rel=&quot;nofollow&quot;&gt;Edoardo Ponti&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Malkin,+N&quot; rel=&quot;nofollow&quot;&gt;Nikolay Malkin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Minervini,+P&quot; rel=&quot;nofollow&quot;&gt;Pasquale Minervini&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.20771&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">MrT5:Dynamic Token Merging for Efficient Byte-level Language Models</title>
+      <link href="http://localhost:4000/DynamicToken" rel="alternate" type="text/html" title="MrT5:Dynamic Token Merging for Efficient Byte-level Language Models" />
+      <published>2024-10-28T00:00:00+02:00</published>
+      <updated>2024-10-28T00:00:00+02:00</updated>
+      <id>http://localhost:4000/DynamicToken</id>
+      <content type="html" xml:base="http://localhost:4000/DynamicToken">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Models that rely on subword tokenization have significant drawbacks, such as sensitivity to character-level noise like spelling errors and inconsistent compression rates across different languages and scripts. While character- or byte-level models like ByT5 attempt to address these concerns, they have not gained widespread adoption -- processing raw byte streams without tokenization results in significantly longer sequence lengths, making training and inference inefficient. This work introduces MrT5 (MergeT5), a more efficient variant of ByT5 that integrates a token deletion mechanism in its encoder to dynamically shorten the input sequence length. After processing through a fixed number of encoder layers, a learnt delete gate determines which tokens are to be removed and which are to be retained for subsequent layers. MrT5 effectively ``merges'' critical information from deleted tokens into a more compact sequence, leveraging contextual information from the remaining tokens. In continued pre-training experiments, we find that MrT5 can achieve significant gains in inference runtime with minimal effect on performance. When trained on English text, MrT5 demonstrates the capability to transfer its deletion feature zero-shot across several languages, with significant additional improvements following multilingual training. Furthermore, MrT5 shows comparable accuracy to ByT5 on downstream evaluations such as XNLI and character-level tasks while reducing sequence lengths by up to 80%. Our approach presents a solution to the practical limitations of existing byte-level models. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Kallini,+J&quot; rel=&quot;nofollow&quot;&gt;Julie Kallini&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Murty,+S&quot; rel=&quot;nofollow&quot;&gt;Shikhar Murty&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Manning,+C+D&quot; rel=&quot;nofollow&quot;&gt;Christopher D. Manning&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Potts,+C&quot; rel=&quot;nofollow&quot;&gt;Christopher Potts&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Csord%C3%A1s,+R&quot; rel=&quot;nofollow&quot;&gt;Róbert Csordás&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.20771&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Large Language Models Reflect the Ideology of their Creators</title>
@@ -363,90 +447,6 @@ Our results show that the ideological stance of an LLM often reflects the worldv
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Agrawal,+P&quot;&gt;Pravesh Agrawal&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Antoniak,+S&quot;&gt;Szymon Antoniak&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hanna,+E+B&quot;&gt;Emma Bou Hanna&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Bout,+B&quot;&gt;Baptiste Bout&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chaplot,+D&quot;&gt;Devendra Chaplot&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chudnovsky,+J&quot;&gt;Jessica Chudnovsky&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Costa,+D&quot;&gt;Diogo Costa&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=De+Monicault,+B&quot;&gt;Baudouin De Monicault&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Garg,+S&quot;&gt;Saurabh Garg&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Gervet,+T&quot;&gt;Theophile Gervet&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ghosh,+S&quot;&gt;Soham Ghosh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=H%C3%A9liou,+A&quot;&gt;Amélie Héliou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Jacob,+P&quot;&gt;Paul Jacob&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Jiang,+A+Q&quot;&gt;Albert Q. Jiang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Khandelwal,+K&quot;&gt;Kartik Khandelwal&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lacroix,+T&quot;&gt;Timothée Lacroix&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lample,+G&quot;&gt;Guillaume Lample&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Casas,+D+L&quot;&gt;Diego Las Casas&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lavril,+T&quot;&gt;Thibaut Lavril&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Scao,+T+L&quot;&gt;Teven Le Scao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lo,+A&quot;&gt;Andy Lo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Marshall,+W&quot;&gt;William Marshall&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Martin,+L&quot;&gt;Louis Martin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Mensch,+A&quot;&gt;Arthur Mensch&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Muddireddy,+P&quot;&gt;Pavankumar Muddireddy&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Nemychnikova,+V&quot;&gt;Valera Nemychnikova&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Pellat,+M&quot;&gt;Marie Pellat&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Von+Platen,+P&quot;&gt;Patrick Von Platen&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Raghuraman,+N&quot;&gt;Nikhil Raghuraman&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Rozi%C3%A8re,+B&quot;&gt;Baptiste Rozière&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sablayrolles,+A&quot;&gt;Alexandre Sablayrolles&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Saulnier,+L&quot;&gt;Lucile Saulnier&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sauvestre,+R&quot;&gt;Romain Sauvestre&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shang,+W&quot;&gt;Wendy Shang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Soletskyi,+R&quot;&gt;Roman Soletskyi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Stewart,+L&quot;&gt;Lawrence Stewart&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Stock,+P&quot;&gt;Pierre Stock&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Studnia,+J&quot;&gt;Joachim Studnia&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Subramanian,+S&quot;&gt;Sandeep Subramanian&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Vaze,+S&quot;&gt;Sagar Vaze&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+T&quot;&gt;Thomas Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+S&quot;&gt;Sophia Yang&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.07073&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">MLE-bench:Evaluating Machine Learning Agents on Machine Learning Engineering</title>
-      <link href="http://localhost:4000/MLEBench" rel="alternate" type="text/html" title="MLE-bench:Evaluating Machine Learning Agents on Machine Learning Engineering" />
-      <published>2024-10-09T00:00:00+03:00</published>
-      <updated>2024-10-09T00:00:00+03:00</updated>
-      <id>http://localhost:4000/MLEBench</id>
-      <content type="html" xml:base="http://localhost:4000/MLEBench">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; We introduce MLE-bench, a benchmark for measuring how well AI agents perform at machine learning engineering. To this end, we curate 75 ML engineering-related competitions from Kaggle, creating a diverse set of challenging tasks that test real-world ML engineering skills such as training models, preparing datasets, and running experiments. We establish human baselines for each competition using Kaggle's publicly available leaderboards. We use open-source agent scaffolds to evaluate several frontier language models on our benchmark, finding that the best-performing setup--OpenAI's o1-preview with AIDE scaffolding--achieves at least the level of a Kaggle bronze medal in 16.9% of competitions. In addition to our main results, we investigate various forms of resource scaling for AI agents and the impact of contamination from pre-training. We open-source our benchmark code (this http URL) to facilitate future research in understanding the ML engineering capabilities of AI agents.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chan,+J+S&quot;&gt;Jun Shern Chan&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chowdhury,+N&quot;&gt;Neil Chowdhury&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Jaffe,+O&quot;&gt;Oliver Jaffe&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Aung,+J&quot;&gt;James Aung&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sherburn,+D&quot;&gt;Dane Sherburn&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Mays,+E&quot;&gt;Evan Mays&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Starace,+G&quot;&gt;Giulio Starace&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+K&quot;&gt;Kevin Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Maksin,+L&quot;&gt;Leon Maksin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Patwardhan,+T&quot;&gt;Tejal Patwardhan&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Weng,+L&quot;&gt;Lilian Weng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=M%C4%85dry,+A&quot;&gt;Aleksander Mądry&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.07095&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">One Initialization to Rule them All:Fine-tuning via Explained Variance Adaptation</title>
-      <link href="http://localhost:4000/FTVarAdapt" rel="alternate" type="text/html" title="One Initialization to Rule them All:Fine-tuning via Explained Variance Adaptation" />
-      <published>2024-10-09T00:00:00+03:00</published>
-      <updated>2024-10-09T00:00:00+03:00</updated>
-      <id>http://localhost:4000/FTVarAdapt</id>
-      <content type="html" xml:base="http://localhost:4000/FTVarAdapt">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Foundation models (FMs) are pre-trained on large-scale datasets and then fine-tuned on a downstream task for a specific application. The most successful and most commonly used fine-tuning method is to update the pre-trained weights via a low-rank adaptation (LoRA). LoRA introduces new weight matrices that are usually initialized at random with a uniform rank distribution across model weights. Recent works focus on weight-driven initialization or learning of adaptive ranks during training. Both approaches have only been investigated in isolation, resulting in slow convergence or a uniform rank distribution, in turn leading to sub-optimal performance. We propose to enhance LoRA by initializing the new weights in a data-driven manner by computing singular value decomposition on minibatches of activation vectors. Then, we initialize the LoRA matrices with the obtained right-singular vectors and re-distribute ranks among all weight matrices to explain the maximal amount of variance and continue the standard LoRA fine-tuning procedure. This results in our new method Explained Variance Adaptation (EVA). We apply EVA to a variety of fine-tuning tasks ranging from language generation and understanding to image classification and reinforcement learning. EVA exhibits faster convergence than competitors and attains the highest average score across a multitude of tasks per domain.&lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Paischer,+F&quot;&gt;Fabian Paischer&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hauzenberger,+L&quot;&gt;Lukas Hauzenberger&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Schmied,+T&quot;&gt;Thomas Schmied&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Alkin,+B&quot;&gt;Benedikt Alkin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Deisenroth,+M+P&quot;&gt;Marc Peter Deisenroth&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hochreiter,+S&quot;&gt;Sepp Hochreiter&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.07170&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       

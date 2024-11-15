@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-11-12T12:24:16+02:00</updated>
+  <updated>2024-11-15T19:09:11+02:00</updated>
   <id>http://localhost:4000/tag/news/feed.xml</id>
 
   
@@ -44,6 +44,172 @@
   
   
 
+  
+    <entry>
+      <title type="html">Introducing ChatGPT Search:A New Era of Information Retrieval</title>
+      <link href="http://localhost:4000/GPTSearch" rel="alternate" type="text/html" title="Introducing ChatGPT Search:A New Era of Information Retrieval" />
+      <published>2024-10-31T00:00:00+02:00</published>
+      <updated>2024-10-31T00:00:00+02:00</updated>
+      <id>http://localhost:4000/GPTSearch</id>
+      <content type="html" xml:base="http://localhost:4000/GPTSearch">&lt;p&gt;OpenAI has unveiled ChatGPT Search, a powerful new feature that combines natural language processing with web search capabilities, providing users with fast, relevant answers and direct links to high-quality sources.&lt;/p&gt;
+
+&lt;p&gt;The way we interact with information is evolving, and OpenAI is at the forefront of this transformation with the introduction of ChatGPT Search. This innovative feature enables users to obtain timely answers to their queries while seamlessly integrating web search results into the chat experience. By blending conversational AI with real-time information retrieval, ChatGPT Search aims to enhance user engagement and satisfaction.&lt;/p&gt;
+
+&lt;p&gt;ChatGPT Search is a newly launched feature that allows users to ask questions in a natural, conversational manner and receive answers that may include links to relevant web sources. This capability eliminates the need for multiple searches across different platforms, streamlining the process of finding accurate and up-to-date information. Users can initiate a web search either automatically based on their queries or manually by clicking the web search icon.&lt;/p&gt;
+
+&lt;h3&gt;Key Features of ChatGPT Search&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Timely Answers:&lt;/strong&gt; Users can receive fast responses to their inquiries, including access to current sports scores, news updates, stock quotes, and more.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Source Linking:&lt;/strong&gt; Each chat response includes links to original sources, allowing users to explore further information directly from reputable publishers.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Enhanced Contextual Understanding:&lt;/strong&gt; ChatGPT can consider the full context of previous interactions to provide more accurate and relevant follow-up answers.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;User-Centric Design:&lt;/strong&gt; The interface is designed for ease of use, enabling seamless integration of search results into conversations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The integration of search functionality within ChatGPT represents a significant advancement in how users access information. By allowing for a conversational approach to queries, OpenAI enables users to engage with data in a more intuitive manner. This not only enhances user experience but also encourages deeper exploration of topics through follow-up questions and discussions.&lt;/p&gt;
+
+&lt;p&gt;OpenAI has actively collaborated with numerous publishers and news organizations to ensure that ChatGPT Search delivers high-quality content. Partners include well-known entities such as the Associated Press, Reuters, and Financial Times. This collaboration ensures that users are directed to credible sources while providing publishers an opportunity to reach broader audiences through the platform.&lt;/p&gt;
+
+&lt;p&gt;The search model utilized in ChatGPT Search is a fine-tuned version of GPT-4o. It employs advanced synthetic data generation techniques and leverages third-party search providers along with content from OpenAI's partners. This sophisticated technology allows for efficient retrieval of relevant information tailored to user inquiries.&lt;/p&gt;
+
+&lt;p&gt;OpenAI plans to continue enhancing ChatGPT Search by focusing on areas such as shopping and travel, utilizing the reasoning capabilities of its o1 series models for deeper research. Future updates will also expand access to Free users and improve functionalities across various platforms, including Advanced Voice and canvas integrations.&lt;/p&gt;
+
+&lt;p&gt;By combining the strengths of conversational AI with real-time web search capabilities, OpenAI is setting a new standard for how users interact with information online. As this technology continues to develop, it promises to transform not only how we find answers but also how we engage with content across the web. If you are eager to find out more about this new tool that is offered, visit &lt;a href=&quot;https://openai.com/index/introducing-chatgpt-search/&quot;&gt;official blog post&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">OpenAI has unveiled ChatGPT Search, a powerful new feature that combines natural language processing with web search capabilities, providing users with fast, relevant answers and direct links to high-quality sources.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Bringing Developer Choice to GitHub Copilot</title>
+      <link href="http://localhost:4000/hub" rel="alternate" type="text/html" title="Bringing Developer Choice to GitHub Copilot" />
+      <published>2024-10-29T00:00:00+02:00</published>
+      <updated>2024-10-29T00:00:00+02:00</updated>
+      <id>http://localhost:4000/hub</id>
+      <content type="html" xml:base="http://localhost:4000/hub">&lt;p&gt;This article explores GitHub's recent initiative to enhance developer choice within GitHub Copilot by introducing multiple large language models (LLMs) and integrating the Perplexity AI extension, allowing developers to select the AI tools that best suit their coding needs.&lt;/p&gt;
+
+&lt;p&gt;GitHub Copilot has revolutionized the way developers interact with code, leveraging advanced AI to assist in various programming tasks. As the landscape of AI continues to evolve, GitHub recognizes the importance of offering developers a choice in the models they utilize, enhancing both flexibility and efficiency in software development. The recent integration of Perplexity AI further enriches this experience by providing real-time web search capabilities directly within the coding environment.&lt;/p&gt;
+
+&lt;p&gt;The latest update from GitHub introduces a multi-model approach to Copilot, allowing developers to choose from several advanced LLMs. This shift is driven by the recognition that different models excel at various tasks, and by providing options, GitHub aims to empower developers to select the tools that work best for their specific needs. Models included in this rollout are Anthropic’s Claude 3.5 Sonnet, Google’s Gemini 1.5 Pro, and OpenAI’s o1-preview and o1-mini.&lt;/p&gt;
+
+&lt;p&gt;Claude 3.5 Sonnet is designed to handle coding tasks throughout the software development lifecycle. Its capabilities range from initial design phases to bug fixes and optimizations. This model excels particularly in managing complex, multi-step coding tasks, making it an invaluable tool for developers working on legacy applications or those needing significant code refactoring.&lt;/p&gt;
+
+&lt;p&gt;The Gemini 1.5 Pro model from Google showcases remarkable versatility with its two-million-token context window and multi-modal processing abilities. This allows it to handle not just code but also images, audio, video, and text simultaneously. Such features enable rapid response times for coding suggestions and documentation, enhancing the overall efficiency of coding workflows.&lt;/p&gt;
+
+&lt;p&gt;OpenAI's latest models, o1-preview and o1-mini, offer advanced reasoning capabilities that surpass those of previous iterations like GPT-4o. These models allow for a deeper understanding of code constraints and edge cases, which translates into more efficient coding solutions and higher quality outputs. Developers using these models can expect improved performance in generating code that meets specific requirements.&lt;/p&gt;
+
+&lt;p&gt;The integration of Perplexity AI into GitHub Copilot enhances the overall development experience by providing up-to-date web search functionality directly within the IDE. Developers can access real-time information about industry trends, technical solutions, and emerging technologies without leaving their coding environment. By tagging **@perplexityai** in their Copilot chat window, users can quickly retrieve current documentation or ask specific coding questions, ensuring they have the most accurate information at their fingertips.&lt;/p&gt;
+
+&lt;p&gt;A key aspect of this update is the emphasis on developer control. With the introduction of multi-model choice and the Perplexity extension, individual developers can now select which foundational LLM they wish to use directly within their development environment—whether it be VS Code or GitHub.com. Organizations can also manage which models are enabled for their teams, ensuring that everyone has access to the most suitable tools for their projects.&lt;/p&gt;
+
+&lt;p&gt;In addition to enhancing Copilot's functionality, GitHub also unveiled GitHub Spark at the Universe event. This AI-native tool allows users to build applications entirely through natural language prompts. Users can create fully functional micro apps that integrate AI features without needing to manage cloud resources actively. The iterative feedback loop provided by Spark enables users to visualize their applications as they develop them, fostering creativity and efficiency.&lt;/p&gt;
+
+&lt;p&gt;The introduction of multi-model choice within GitHub Copilot, along with the integration of Perplexity AI, marks a significant advancement in how developers can leverage AI in their workflows when using GitHub services (who doesn't lets be honest here 😛). By allowing developers to select from various powerful LLMs tailored for specific tasks and providing real-time web search capabilities, GitHub is not only enhancing productivity but also reinforcing its commitment to being an open platform that prioritizes developer agency. As AI continues to evolve, such innovations will play a crucial role in shaping the future of software development.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">This article explores GitHub's recent initiative to enhance developer choice within GitHub Copilot by introducing multiple large language models (LLMs) and integrating the Perplexity AI extension, allowing developers to select the AI tools that best suit their coding needs.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Amazon Q:Developer Inline Chat for Enhanced Productivity</title>
+      <link href="http://localhost:4000/aws" rel="alternate" type="text/html" title="Amazon Q:Developer Inline Chat for Enhanced Productivity" />
+      <published>2024-10-29T00:00:00+02:00</published>
+      <updated>2024-10-29T00:00:00+02:00</updated>
+      <id>http://localhost:4000/aws</id>
+      <content type="html" xml:base="http://localhost:4000/aws">&lt;p&gt;Amazon has introduced &lt;a href=&quot;https://aws.amazon.com/q/developer/&quot;&gt;Amazon Q&lt;/a&gt;, a new &lt;a href=&quot;https://aws.amazon.com/about-aws/whats-new/2024/10/amazon-q-developer-inline-chat-streamline-developer-experience/&quot;&gt;inline chat&lt;/a&gt; feature designed to enhance developer productivity by providing real-time assistance and collaboration tools directly within the development environment.&lt;/p&gt;
+
+&lt;p&gt;In the fast-paced world of software development, efficiency and collaboration are key to success. Amazon Web Services (AWS) has recognized this need and launched Amazon Q, an innovative inline chat feature that integrates seamlessly into development workflows. This new tool aims to facilitate communication among team members while providing instant access to information and resources, ultimately enhancing productivity.&lt;/p&gt;
+
+&lt;p&gt;Amazon Q is a developer-focused inline chat application that allows teams to communicate directly within their coding environments. This feature eliminates the need to switch between different applications for messaging and collaboration, streamlining the workflow for developers. By integrating chat functionality into the development process, Amazon Q enables real-time discussions and quick decision-making, which are crucial in agile development settings.&lt;/p&gt;
+
+&lt;h3&gt;Key Features of Amazon Q&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Inline Communication:&lt;/strong&gt; Developers can engage in conversations without leaving their coding environment, reducing context switching and maintaining focus.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Instant Access to Resources:&lt;/strong&gt; The chat feature allows users to share code snippets, documentation links, and other resources instantly, fostering collaboration.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Integration with AWS Services:&lt;/strong&gt; Amazon Q is designed to work seamlessly with other AWS services, enabling developers to leverage cloud capabilities while communicating.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Enhanced Collaboration:&lt;/strong&gt; Teams can easily discuss code changes, troubleshoot issues, and share feedback in real-time, improving overall project efficiency.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The introduction of inline chat tools like Amazon Q addresses a critical need in modern software development: real-time collaboration. As teams become more distributed and remote work becomes increasingly common, the ability to communicate effectively without disrupting the flow of work is essential. Amazon Q empowers developers to maintain momentum while collaborating on projects, ensuring that everyone stays aligned and informed.&lt;/p&gt;
+
+&lt;p&gt;Amazon Q can be particularly beneficial in various scenarios:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Code Reviews:&lt;/strong&gt; Developers can discuss code changes as they happen, providing immediate feedback and reducing the time spent on formal review processes.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Bug Fixing:&lt;/strong&gt; When issues arise, team members can quickly gather in the chat to troubleshoot problems collaboratively.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Project Planning:&lt;/strong&gt; Teams can use Amazon Q to brainstorm ideas and outline project requirements in real time.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Knowledge Sharing:&lt;/strong&gt; New team members can ask questions and receive guidance from experienced colleagues instantly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The launch of Amazon Q marks a significant step forward in enhancing developer productivity through improved communication tools. By integrating inline chat functionality into the development environment, AWS is addressing the challenges of collaboration in modern software development. As teams continue to adapt to remote work and agile methodologies, tools like Amazon Q will play a crucial role in fostering effective communication and driving project success.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Amazon has introduced Amazon Q, a new inline chat feature designed to enhance developer productivity by providing real-time assistance and collaboration tools directly within the development environment.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Introducing Stable Diffusion 3.5 A New Era in Image Generation</title>
@@ -468,168 +634,6 @@
 
       
         <summary type="html">Cohere has launched Multimodal Embed 3, a cutting-edge multimodal AI search model that significantly enhances the ability to search and analyze image data. This model aims to unlock real business value by improving the integration of text and image data, paving the way for more effective AI-driven applications.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Introducing Internal Knowledge Search and Spaces by Perplexity</title>
-      <link href="http://localhost:4000/perplexity" rel="alternate" type="text/html" title="Introducing Internal Knowledge Search and Spaces by Perplexity" />
-      <published>2024-10-17T00:00:00+03:00</published>
-      <updated>2024-10-17T00:00:00+03:00</updated>
-      <id>http://localhost:4000/perplexity</id>
-      <content type="html" xml:base="http://localhost:4000/perplexity">&lt;p&gt;Perplexity AI has launched Internal Knowledge Search and Spaces, innovative features designed to enhance information retrieval and collaboration within teams. These tools aim to streamline access to knowledge and improve productivity by allowing users to create customized environments for their specific needs.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/LqKZAHeCkEg?si=Lbi6TDCAYDz_0fvn&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;In an era where information overload is a common challenge, Perplexity AI has introduced two groundbreaking features: &lt;strong&gt;Internal Knowledge Search&lt;/strong&gt; and &lt;strong&gt;Spaces&lt;/strong&gt;. These tools are designed to empower users by enhancing their ability to find relevant information quickly and collaborate effectively within their teams. By focusing on personalized knowledge management, Perplexity AI aims to transform how individuals and organizations interact with data.&lt;/p&gt;
-
-&lt;p&gt;Effective knowledge management is crucial for organizations looking to maintain a competitive edge. As teams grow and projects become more complex, the ability to access and share information seamlessly becomes paramount. Internal Knowledge Search addresses this need by providing a powerful search capability that allows users to sift through vast amounts of data effortlessly. This feature not only enhances individual productivity but also fosters a culture of collaboration as team members can easily share insights and findings.&lt;/p&gt;
-
-&lt;p&gt;The Internal Knowledge Search feature enables users to conduct deep searches across internal documents, notes, and other resources, making it easier to locate specific information quickly. This capability is enhanced by advanced filtering options that allow users to refine their searches based on various criteria. Meanwhile, Spaces offers a customizable environment where teams can organize their projects, share resources, and collaborate in real-time. Users can create dedicated spaces for different projects or topics, ensuring that relevant information is always at hand. Together, these features create a cohesive ecosystem that enhances both individual and team productivity.&lt;/p&gt;
-
-&lt;p&gt;The integration of Internal Knowledge Search into the Perplexity platform is designed with user experience in mind. Users can initiate searches using natural language queries, making the process intuitive and accessible even for those who may not be tech-savvy. The results are displayed in a user-friendly format, allowing individuals to quickly identify the most pertinent information. In addition, the Spaces feature enables teams to set up their workspaces tailored to their specific workflows, facilitating smoother collaboration and communication.&lt;/p&gt;
-
-&lt;p&gt;Organizations across various sectors can benefit from these new features. For instance, research teams can utilize Internal Knowledge Search to locate relevant studies or data points swiftly, while marketing teams can leverage Spaces to brainstorm ideas and track campaign progress in a centralized location. By streamlining access to information and enhancing collaborative efforts, these tools empower teams to work more efficiently and effectively.&lt;/p&gt;
-
-&lt;p&gt;As Perplexity AI continues to innovate, the introduction of Internal Knowledge Search and Spaces represents a significant step toward improving how individuals manage knowledge and collaborate within teams. The company is committed to refining these features based on user feedback, ensuring they meet the evolving needs of its user base. With these tools at their disposal, organizations can look forward to a future where accessing and sharing knowledge becomes second nature.&lt;/p&gt;
-
-&lt;p&gt;The launch of Internal Knowledge Search and Spaces by Perplexity AI marks an important milestone in the realm of knowledge management and collaboration tools. By focusing on user-friendly interfaces and powerful search capabilities, these features are set to transform how teams interact with information. As organizations strive for greater efficiency in their operations, the ability to harness internal knowledge effectively will be crucial for success.&lt;/p&gt;
-
-&lt;p&gt;To to explore these new features further, visit Perplexity AI's official &amp;lt; a href='https://www.perplexity.ai/hub/blog/introducing-internal-knowledge-search-and-spaces?fob=fX3q7wR73cDzq5Dk'&amp;gt;blog post&amp;lt;/a&amp;gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">Perplexity AI has launched Internal Knowledge Search and Spaces, innovative features designed to enhance information retrieval and collaboration within teams. These tools aim to streamline access to knowledge and improve productivity by allowing users to create customized environments for their specific needs.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">PyTorch 2.5 Speeding things up</title>
-      <link href="http://localhost:4000/PyTorchUpdate" rel="alternate" type="text/html" title="PyTorch 2.5 Speeding things up" />
-      <published>2024-10-17T00:00:00+03:00</published>
-      <updated>2024-10-17T00:00:00+03:00</updated>
-      <id>http://localhost:4000/PyTorchUpdate</id>
-      <content type="html" xml:base="http://localhost:4000/PyTorchUpdate">&lt;p&gt;The release of PyTorch 2.5 introduces significant enhancements, including a new CuDNN backend for SDPA and optimizations in the TorchInductor CPU backend. These updates aim to improve performance and streamline user experience across various machine learning tasks.&lt;/p&gt;
-
-&lt;h3&gt;Key Features and Insights&lt;/h3&gt;
-
-&lt;h3&gt;Beta Features&lt;/h3&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;CuDNN Backend for SDPA:&lt;/strong&gt; This new backend offers speed improvements by default on NVIDIA H100 GPUs, achieving up to 75% faster performance compared to FlashAttentionV2.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Regional Compilation:&lt;/strong&gt; The torch.compile feature allows for regional compilation of repeated nn.Module instances without recompilation, reducing cold startup times while maintaining performance.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;TorchInductor CPU Backend Optimization:&lt;/strong&gt; Enhancements include CPP backend code generation and support for various data types, delivering consistent performance improvements across multiple benchmark suites.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Prototype Features&lt;/h3&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;FlexAttention:&lt;/strong&gt; A flexible API for implementing diverse attention mechanisms with improved memory efficiency.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Compiled Autograd:&lt;/strong&gt; Captures the entire backward pass, allowing for deferred tracing that is resilient to forward pass disruptions.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Flight Recorder:&lt;/strong&gt; A debugging tool that helps identify issues in stuck jobs by capturing runtime information.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Max-autotune Support:&lt;/strong&gt; Profiles multiple implementations at compile time to select the best-performing one for GEMM operations.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Enhanced Intel GPU Support:&lt;/strong&gt; Improved support for Intel GPUs to accelerate machine learning workflows on both Data Center and Client GPUs.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;FP16 Support:&lt;/strong&gt; Float16 is now supported on CPU paths for both eager mode and TorchInductor, enhancing performance in neural network tasks.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Autoload Device Extension:&lt;/strong&gt; Streamlines integration of out-of-tree device extensions by automating loading processes.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;TorchInductor on Windows:&lt;/strong&gt; The Inductor CPU backend is now compatible with Windows environments, supporting multiple compilers.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This release comprises 4095 commits from 504 contributors, reflecting the ongoing commitment of the PyTorch community to enhance its capabilities.&lt;/p&gt;
-
-&lt;p&gt;To read full article and explore all new updates provided by this update check the &lt;a href=&quot;https://pytorch.org/blog/pytorch2-5/&quot;&gt;official blog post&lt;/a&gt; by PyTorch&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">The release of PyTorch 2.5 introduces significant enhancements, including a new CuDNN backend for SDPA and optimizations in the TorchInductor CPU backend. These updates aim to improve performance and streamline user experience across various machine learning tasks.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Introducing the prompt() Function:Enhancing SQL with LLMs</title>
-      <link href="http://localhost:4000/LLMwSQL" rel="alternate" type="text/html" title="Introducing the prompt() Function:Enhancing SQL with LLMs" />
-      <published>2024-10-17T00:00:00+03:00</published>
-      <updated>2024-10-17T00:00:00+03:00</updated>
-      <id>http://localhost:4000/LLMwSQL</id>
-      <content type="html" xml:base="http://localhost:4000/LLMwSQL">&lt;p&gt;MotherDuck has launched the &lt;code&gt;prompt()&lt;/code&gt; function, a groundbreaking feature that integrates large language models (LLMs) directly into SQL, allowing users to generate, summarize, and extract structured data efficiently. This new capability democratizes access to advanced natural language processing techniques, making it easier for developers to leverage AI in their data workflows.&lt;/p&gt;
-
-&lt;p&gt;In recent years, the costs associated with running large language models (LLMs) have significantly decreased, making advanced natural language processing techniques more accessible. The emergence of small language models (SLMs) like OpenAI’s gpt-4o-mini has further contributed to this trend, enabling cost-effective integration of AI capabilities into various applications. MotherDuck is excited to announce the introduction of the &lt;code&gt;prompt()&lt;/code&gt; function, which simplifies the use of LLMs and SLMs within SQL queries, allowing users to generate and summarize text as well as extract structured data without needing separate infrastructure.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code&gt;prompt()&lt;/code&gt; function currently supports OpenAI's gpt-4o-mini and gpt-4o models, providing flexibility in terms of cost-effectiveness and performance. In its preview release, users can apply gpt-4o-mini-based prompts to all rows in a table, unlocking use cases such as bulk text summarization and structured data extraction. The function allows for single-row and constant inputs with gpt-4o, enabling high-quality responses ideal for retrieval-augmented generation (RAG) scenarios. Users can specify the model for inference using the optional (model:=) parameter, which enhances customization based on specific needs. Additionally, the prompt function supports returning structured output through parameters like &lt;stron g=&quot;&quot;&gt;struct&amp;lt;/strong&amp;gt; and &lt;strong&gt;struct_descr&lt;/strong&gt;, facilitating integration into analytical workflows.&amp;lt;/p&amp;gt;
-
-&lt;p&gt;The &lt;code&gt;prompt()&lt;/code&gt; function is designed for various practical applications. One prominent use case is text summarization; for instance, users can retrieve concise summaries from a text column in a dataset by executing a simple SQL query that applies the prompt function across multiple rows. In testing, processing 100 rows took approximately 2.8 seconds, showcasing significant speed improvements compared to traditional methods that would take hours without concurrency. Another compelling application is converting unstructured data into structured formats. By utilizing the struct and struct_descr parameters, users can extract specific information—such as topics, sentiments, and technologies mentioned in comments—transforming raw text into easily analyzable structured outputs.&lt;/p&gt;
-
-&lt;p&gt;The performance of the &lt;code&gt;prompt()&lt;/code&gt; function is noteworthy; it allows for concurrent processing of multiple requests to enhance efficiency significantly. For example, when extracting structured information from a dataset like Hacker News, users can achieve high accuracy while maintaining reasonable compute costs. However, it is essential to consider practical limitations; for certain tasks like extracting email addresses from text, traditional SQL methods such as regex may be more efficient and reliable than using LLMs.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code&gt;prompt()&lt;/code&gt; function is currently available in Preview for MotherDuck users on both Free Trial and Standard Plans. To start exploring this functionality, users are encouraged to consult the &lt;a href=&quot;https://motherduck.com/docs/sql-reference/motherduck-sql-reference/ai-functions/prompt/&quot;&gt;documentation&lt;/a&gt; provided by MotherDuck. Notably, while running the &lt;code&gt;prompt()&lt;/code&gt; function over large datasets can incur higher compute costs compared to other analytical queries, MotherDuck has set quotas to manage usage effectively—Free Trial users receive 40 compute unit hours per day while Standard Plan users have similar limits that can be adjusted upon request.&lt;/p&gt;
-
-&lt;p&gt;The introduction of the &lt;code&gt;prompt()&lt;/code&gt; function represents a significant advancement in integrating LLMs with SQL databases. By enabling users to harness the power of AI within their existing workflows seamlessly, MotherDuck is paving the way for more efficient data processing and analysis. As developers explore this new functionality, they are invited to share their experiences and feedback through community channels to foster collaboration and innovation.&lt;/p&gt;
-
-&lt;p&gt;For further details on how to utilize the prompt() function and its capabilities, visit MotherDuck's &lt;a href=&quot;https://motherduck.com/&quot;&gt;official website&lt;/a&gt; or check &lt;a href=&quot;https://motherduck.com/blog/sql-llm-prompt-function-gpt-models&quot;&gt;official announcement&lt;/a&gt;.&lt;/p&gt;
-&lt;/stron&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">MotherDuck has launched the prompt() function, a groundbreaking feature that integrates large language models (LLMs) directly into SQL, allowing users to generate, summarize, and extract structured data efficiently. This new capability democratizes access to advanced natural language processing techniques, making it easier for developers to leverage AI in their data workflows.</summary>
       
 
       
