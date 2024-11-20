@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>A New Era in AI-Powered Development by Codeium</title>
+        
+          <description>&lt;p&gt; &lt;a href=&quot;https://codeium.com/&quot;&gt;Codeium&lt;/a&gt; has introduced Windsurf, a cutting-edge AI-powered development tool designed to enhance coding efficiency and streamline workflows for developers across various programming languages.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 13 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/WindSurf</link>
+        <guid isPermaLink="true">http://localhost:4000/WindSurf</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>A New Era in Open-Source Code Models</title>
         
           <description>&lt;p&gt;The Qwen2.5-Coder series has been launched as a powerful and versatile open-source code model family, offering state-of-the-art performance across various programming tasks and supporting multiple model sizes to cater to diverse developer needs.&lt;/p&gt;
@@ -33,6 +48,36 @@
         <link>
         http://localhost:4000/AdobeLOreal</link>
         <guid isPermaLink="true">http://localhost:4000/AdobeLOreal</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>OpenCoder The Open Cookbook for Top-Tier Code Large Language Models</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 09 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/OpenCoder</link>
+        <guid isPermaLink="true">http://localhost:4000/OpenCoder</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Mixture-of-Transformers:A Sparse and Scalable Architecture for Multi-Modal Foundation Models</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 09 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/multiTransf</link>
+        <guid isPermaLink="true">http://localhost:4000/multiTransf</guid>
       </item>
       
     
@@ -408,21 +453,6 @@
         <link>
         http://localhost:4000/Aria</link>
         <guid isPermaLink="true">http://localhost:4000/Aria</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>OpenCoder The Open Cookbook for Top-Tier Code Large Language Models</title>
-        
-          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
-
-</description>
-        
-        <pubDate>Wed, 09 Oct 2024 00:00:00 +0300</pubDate>
-        <link>
-        http://localhost:4000/OpenCoder</link>
-        <guid isPermaLink="true">http://localhost:4000/OpenCoder</guid>
       </item>
       
     

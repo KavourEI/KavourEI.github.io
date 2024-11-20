@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-11-20T21:51:51+02:00</updated>
+  <updated>2024-11-21T01:16:37+02:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -44,6 +44,90 @@
   
   
 
+  
+    <entry>
+      <title type="html">Mixture-of-Transformers:A Sparse and Scalable Architecture for Multi-Modal Foundation Models</title>
+      <link href="http://localhost:4000/multiTransf" rel="alternate" type="text/html" title="Mixture-of-Transformers:A Sparse and Scalable Architecture for Multi-Modal Foundation Models" />
+      <published>2024-11-09T00:00:00+02:00</published>
+      <updated>2024-11-09T00:00:00+02:00</updated>
+      <id>http://localhost:4000/multiTransf</id>
+      <content type="html" xml:base="http://localhost:4000/multiTransf">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; The development of large language models (LLMs) has expanded to multi-modal systems capable of processing text, images, and speech within a unified framework. Training these models demands significantly larger datasets and computational resources compared to text-only LLMs. To address the scaling challenges, we introduce Mixture-of-Transformers (MoT), a sparse multi-modal transformer architecture that significantly reduces pretraining computational costs. MoT decouples non-embedding parameters of the model by modality -- including feed-forward networks, attention matrices, and layer normalization -- enabling modality-specific processing with global self-attention over the full input sequence. We evaluate MoT across multiple settings and model scales. In the Chameleon 7B setting (autoregressive text-and-image generation), MoT matches the dense baseline's performance using only 55.8\% of the FLOPs. When extended to include speech, MoT reaches speech performance comparable to the dense baseline with only 37.2\% of the FLOPs. In the Transfusion setting, where text and image are trained with different objectives, a 7B MoT model matches the image modality performance of the dense baseline with one third of the FLOPs, and a 760M MoT model outperforms a 1.4B dense baseline across key image generation metrics. System profiling further highlights MoT's practical benefits, achieving dense baseline image quality in 47.2\% of the wall-clock time and text quality in 75.6\% of the wall-clock time (measured on AWS p4de.24xlarge instances with NVIDIA A100 GPUs). &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liang,+W&quot; rel=&quot;nofollow&quot;&gt;Weixin Liang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yu,+L&quot; rel=&quot;nofollow&quot;&gt;Lili Yu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Luo,+L&quot; rel=&quot;nofollow&quot;&gt;Liang Luo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Iyer,+S&quot; rel=&quot;nofollow&quot;&gt;Srinivasan Iyer&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dong,+N&quot; rel=&quot;nofollow&quot;&gt;Ning Dong&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+C&quot; rel=&quot;nofollow&quot;&gt;Chunting Zhou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ghosh,+G&quot; rel=&quot;nofollow&quot;&gt;Gargi Ghosh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lewis,+M&quot; rel=&quot;nofollow&quot;&gt;Mike Lewis&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yih,+W&quot; rel=&quot;nofollow&quot;&gt;Wen-tau Yih&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zettlemoyer,+L&quot; rel=&quot;nofollow&quot;&gt;Luke Zettlemoyer&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lin,+X+V&quot; rel=&quot;nofollow&quot;&gt;Xi Victoria Lin&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.04996&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">OpenCoder The Open Cookbook for Top-Tier Code Large Language Models</title>
+      <link href="http://localhost:4000/OpenCoder" rel="alternate" type="text/html" title="OpenCoder The Open Cookbook for Top-Tier Code Large Language Models" />
+      <published>2024-11-09T00:00:00+02:00</published>
+      <updated>2024-11-09T00:00:00+02:00</updated>
+      <id>http://localhost:4000/OpenCoder</id>
+      <content type="html" xml:base="http://localhost:4000/OpenCoder">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Large language models (LLMs) for code have become indispensable in various domains, including code generation, reasoning tasks and agent systems. While open-access code LLMs are increasingly approaching the performance levels of proprietary models, high-quality code LLMs suitable for rigorous scientific investigation, particularly those with reproducible data processing pipelines and transparent training protocols, remain limited. The scarcity is due to various challenges, including resource constraints, ethical considerations, and the competitive advantages of keeping models advanced. To address the gap, we introduce OpenCoder, a top-tier code LLM that not only achieves performance comparable to leading models but also serves as an &quot;open cookbook&quot; for the research community. Unlike most prior efforts, we release not only model weights and inference code, but also the reproducible training data, complete data processing pipeline, rigorous experimental ablation results, and detailed training protocols for open scientific research. Through this comprehensive release, we identify the key ingredients for building a top-tier code LLM: (1) code optimized heuristic rules for data cleaning and methods for data deduplication, (2) recall of text corpus related to code and (3) high-quality synthetic data in both annealing and supervised fine-tuning stages. By offering this level of openness, we aim to broaden access to all aspects of a top-tier code LLM, with OpenCoder serving as both a powerful model and an open foundation to accelerate research, and enable reproducible advancements in code AI. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Huang,+S&quot; rel=&quot;nofollow&quot;&gt;Siming Huang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cheng,+T&quot; rel=&quot;nofollow&quot;&gt;Tianhao Cheng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+J&quot; rel=&quot;nofollow&quot;&gt;J.K. Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hao,+J&quot; rel=&quot;nofollow&quot;&gt;Jiaran Hao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Song,+L&quot; rel=&quot;nofollow&quot;&gt;Liuyihan Song&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+Y&quot; rel=&quot;nofollow&quot;&gt;Yang Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+J&quot; rel=&quot;nofollow&quot;&gt;J. Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+J&quot; rel=&quot;nofollow&quot;&gt;J.H. Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+C&quot; rel=&quot;nofollow&quot;&gt;Chenchen Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chai,+L&quot; rel=&quot;nofollow&quot;&gt;Linzheng Chai&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yuan,+R&quot; rel=&quot;nofollow&quot;&gt;Ruifeng Yuan&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+Z&quot; rel=&quot;nofollow&quot;&gt;Zhaoxiang Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fu,+J&quot; rel=&quot;nofollow&quot;&gt;Jie Fu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+Q&quot; rel=&quot;nofollow&quot;&gt;Qian Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+G&quot; rel=&quot;nofollow&quot;&gt;Ge Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+Z&quot; rel=&quot;nofollow&quot;&gt;Zili Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Qi,+Y&quot; rel=&quot;nofollow&quot;&gt;Yuan Qi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+Y&quot; rel=&quot;nofollow&quot;&gt;Yinghui Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chu,+W&quot; rel=&quot;nofollow&quot;&gt;Wei Chu&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.04905&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Mixtures of In-Context Learners</title>
@@ -263,48 +347,6 @@ Our results show that the ideological stance of an LLM often reflects the worldv
     </entry>
   
     <entry>
-      <title type="html">Agent-as-a-Judge:Evaluate Agents with Agents</title>
-      <link href="http://localhost:4000/AgentJudge" rel="alternate" type="text/html" title="Agent-as-a-Judge:Evaluate Agents with Agents" />
-      <published>2024-10-16T00:00:00+03:00</published>
-      <updated>2024-10-16T00:00:00+03:00</updated>
-      <id>http://localhost:4000/AgentJudge</id>
-      <content type="html" xml:base="http://localhost:4000/AgentJudge">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Contemporary evaluation techniques are inadequate for agentic systems. These approaches either focus exclusively on final outcomes -- ignoring the step-by-step nature of agentic systems, or require excessive manual labour. To address this, we introduce the Agent-as-a-Judge framework, wherein agentic systems are used to evaluate agentic systems. This is an organic extension of the LLM-as-a-Judge framework, incorporating agentic features that enable intermediate feedback for the entire task-solving process. We apply the Agent-as-a-Judge to the task of code generation. To overcome issues with existing benchmarks and provide a proof-of-concept testbed for Agent-as-a-Judge, we present DevAI, a new benchmark of 55 realistic automated AI development tasks. It includes rich manual annotations, like a total of 365 hierarchical user requirements. We benchmark three of the popular agentic systems using Agent-as-a-Judge and find it dramatically outperforms LLM-as-a-Judge and is as reliable as our human evaluation baseline. Altogether, we believe that Agent-as-a-Judge marks a concrete step forward for modern agentic systems -- by providing rich and reliable reward signals necessary for dynamic and scalable self-improvement. &lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhuge,+M&quot;&gt;Mingchen Zhuge&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhao,+C&quot;&gt;Changsheng Zhao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ashley,+D&quot;&gt;Dylan Ashley&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+W&quot;&gt;Wenyi Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Khizbullin,+D&quot;&gt;Dmitrii Khizbullin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xiong,+Y&quot;&gt;Yunyang Xiong&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+Z&quot;&gt;Zechun Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chang,+E&quot;&gt;Ernie Chang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Krishnamoorthi,+R&quot;&gt;Raghuraman Krishnamoorthi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tian,+Y&quot;&gt;Yuandong Tian&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shi,+Y&quot;&gt;Yangyang Shi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chandra,+V&quot;&gt;Vikas Chandra&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Schmidhuber,+J&quot;&gt;Jürgen Schmidhuber&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.10934&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models</title>
       <link href="http://localhost:4000/TimeConsistencyModels" rel="alternate" type="text/html" title="Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models" />
       <published>2024-10-16T00:00:00+03:00</published>
@@ -349,6 +391,48 @@ Our results show that the ideological stance of an LLM often reflects the worldv
     </entry>
   
     <entry>
+      <title type="html">Agent-as-a-Judge:Evaluate Agents with Agents</title>
+      <link href="http://localhost:4000/AgentJudge" rel="alternate" type="text/html" title="Agent-as-a-Judge:Evaluate Agents with Agents" />
+      <published>2024-10-16T00:00:00+03:00</published>
+      <updated>2024-10-16T00:00:00+03:00</updated>
+      <id>http://localhost:4000/AgentJudge</id>
+      <content type="html" xml:base="http://localhost:4000/AgentJudge">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Contemporary evaluation techniques are inadequate for agentic systems. These approaches either focus exclusively on final outcomes -- ignoring the step-by-step nature of agentic systems, or require excessive manual labour. To address this, we introduce the Agent-as-a-Judge framework, wherein agentic systems are used to evaluate agentic systems. This is an organic extension of the LLM-as-a-Judge framework, incorporating agentic features that enable intermediate feedback for the entire task-solving process. We apply the Agent-as-a-Judge to the task of code generation. To overcome issues with existing benchmarks and provide a proof-of-concept testbed for Agent-as-a-Judge, we present DevAI, a new benchmark of 55 realistic automated AI development tasks. It includes rich manual annotations, like a total of 365 hierarchical user requirements. We benchmark three of the popular agentic systems using Agent-as-a-Judge and find it dramatically outperforms LLM-as-a-Judge and is as reliable as our human evaluation baseline. Altogether, we believe that Agent-as-a-Judge marks a concrete step forward for modern agentic systems -- by providing rich and reliable reward signals necessary for dynamic and scalable self-improvement. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhuge,+M&quot;&gt;Mingchen Zhuge&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhao,+C&quot;&gt;Changsheng Zhao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ashley,+D&quot;&gt;Dylan Ashley&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+W&quot;&gt;Wenyi Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Khizbullin,+D&quot;&gt;Dmitrii Khizbullin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xiong,+Y&quot;&gt;Yunyang Xiong&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+Z&quot;&gt;Zechun Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chang,+E&quot;&gt;Ernie Chang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Krishnamoorthi,+R&quot;&gt;Raghuraman Krishnamoorthi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tian,+Y&quot;&gt;Yuandong Tian&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shi,+Y&quot;&gt;Yangyang Shi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chandra,+V&quot;&gt;Vikas Chandra&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Schmidhuber,+J&quot;&gt;Jürgen Schmidhuber&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.10934&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Thinking LLMs:General Instruction Following with Thought Generation</title>
       <link href="http://localhost:4000/ThinkingLLM" rel="alternate" type="text/html" title="Thinking LLMs:General Instruction Following with Thought Generation" />
       <published>2024-10-14T00:00:00+03:00</published>
@@ -363,90 +447,6 @@ Our results show that the ideological stance of an LLM often reflects the worldv
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wu,+T&quot;&gt;Tianhao Wu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lan,+J&quot;&gt;Janice Lan&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yuan,+W&quot;&gt;Weizhe Yuan&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Jiao,+J&quot;&gt;Jiantao Jiao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Weston,+J&quot;&gt;Jason Weston&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sukhbaatar,+S&quot;&gt;Sainbayar Sukhbaatar&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.10630&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Scaling Laws For Diffusion Transformers</title>
-      <link href="http://localhost:4000/ScalingLaws" rel="alternate" type="text/html" title="Scaling Laws For Diffusion Transformers" />
-      <published>2024-10-10T00:00:00+03:00</published>
-      <updated>2024-10-10T00:00:00+03:00</updated>
-      <id>http://localhost:4000/ScalingLaws</id>
-      <content type="html" xml:base="http://localhost:4000/ScalingLaws">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Diffusion transformers (DiT) have already achieved appealing synthesis and scaling properties in content recreation, e.g., image and video generation. However, scaling laws of DiT are less explored, which usually offer precise predictions regarding optimal model size and data requirements given a specific compute budget. Therefore, experiments across a broad range of compute budgets, from 1e17 to 6e18 FLOPs are conducted to confirm the existence of scaling laws in DiT for the first time. Concretely, the loss of pretraining DiT also follows a power-law relationship with the involved compute. Based on the scaling law, we can not only determine the optimal model size and required data but also accurately predict the text-to-image generation loss given a model with 1B parameters and a compute budget of 1e21 FLOPs. Additionally, we also demonstrate that the trend of pre-training loss matches the generation performances (e.g., FID), even across various datasets, which complements the mapping from compute to synthesis quality and thus provides a predictable benchmark that assesses model performance and data quality at a reduced cost. &lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liang,+Z&quot;&gt;Zhengyang Liang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=He,+H&quot;&gt;Hao He&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+C&quot;&gt;Ceyuan Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dai,+B&quot;&gt;Bo Dai&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.08184&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">OpenCoder The Open Cookbook for Top-Tier Code Large Language Models</title>
-      <link href="http://localhost:4000/OpenCoder" rel="alternate" type="text/html" title="OpenCoder The Open Cookbook for Top-Tier Code Large Language Models" />
-      <published>2024-10-09T00:00:00+03:00</published>
-      <updated>2024-10-09T00:00:00+03:00</updated>
-      <id>http://localhost:4000/OpenCoder</id>
-      <content type="html" xml:base="http://localhost:4000/OpenCoder">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Large language models (LLMs) for code have become indispensable in various domains, including code generation, reasoning tasks and agent systems. While open-access code LLMs are increasingly approaching the performance levels of proprietary models, high-quality code LLMs suitable for rigorous scientific investigation, particularly those with reproducible data processing pipelines and transparent training protocols, remain limited. The scarcity is due to various challenges, including resource constraints, ethical considerations, and the competitive advantages of keeping models advanced. To address the gap, we introduce OpenCoder, a top-tier code LLM that not only achieves performance comparable to leading models but also serves as an &quot;open cookbook&quot; for the research community. Unlike most prior efforts, we release not only model weights and inference code, but also the reproducible training data, complete data processing pipeline, rigorous experimental ablation results, and detailed training protocols for open scientific research. Through this comprehensive release, we identify the key ingredients for building a top-tier code LLM: (1) code optimized heuristic rules for data cleaning and methods for data deduplication, (2) recall of text corpus related to code and (3) high-quality synthetic data in both annealing and supervised fine-tuning stages. By offering this level of openness, we aim to broaden access to all aspects of a top-tier code LLM, with OpenCoder serving as both a powerful model and an open foundation to accelerate research, and enable reproducible advancements in code AI. &lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Huang,+S&quot; rel=&quot;nofollow&quot;&gt;Siming Huang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cheng,+T&quot; rel=&quot;nofollow&quot;&gt;Tianhao Cheng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+J&quot; rel=&quot;nofollow&quot;&gt;J.K. Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hao,+J&quot; rel=&quot;nofollow&quot;&gt;Jiaran Hao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Song,+L&quot; rel=&quot;nofollow&quot;&gt;Liuyihan Song&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+Y&quot; rel=&quot;nofollow&quot;&gt;Yang Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+J&quot; rel=&quot;nofollow&quot;&gt;J. Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+J&quot; rel=&quot;nofollow&quot;&gt;J.H. Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+C&quot; rel=&quot;nofollow&quot;&gt;Chenchen Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chai,+L&quot; rel=&quot;nofollow&quot;&gt;Linzheng Chai&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yuan,+R&quot; rel=&quot;nofollow&quot;&gt;Ruifeng Yuan&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+Z&quot; rel=&quot;nofollow&quot;&gt;Zhaoxiang Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fu,+J&quot; rel=&quot;nofollow&quot;&gt;Jie Fu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+Q&quot; rel=&quot;nofollow&quot;&gt;Qian Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+G&quot; rel=&quot;nofollow&quot;&gt;Ge Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+Z&quot; rel=&quot;nofollow&quot;&gt;Zili Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Qi,+Y&quot; rel=&quot;nofollow&quot;&gt;Yuan Qi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+Y&quot; rel=&quot;nofollow&quot;&gt;Yinghui Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chu,+W&quot; rel=&quot;nofollow&quot;&gt;Wei Chu&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.04905&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
