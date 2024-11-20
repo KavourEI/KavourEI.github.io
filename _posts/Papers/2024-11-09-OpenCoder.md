@@ -4,7 +4,7 @@ current: post
 cover:  assets/images/arxiv.jpeg
 navigation: True
 title: OpenCoder The Open Cookbook for Top-Tier Code Large Language Models
-date: 2024-10-09
+date: 2024-11-09
 tags: [research]
 class: post-templat
 subclass: 'post'
