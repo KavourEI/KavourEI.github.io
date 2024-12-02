@@ -17,8 +17,6 @@ author: Kavour
 
 <h2> Authors </h2>
 
-<p> <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lu,+C" rel="nofollow">Cheng Lu</a>
-, 
-<a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Song,+Y" rel="nofollow">Yang Song</a> </p>
+<p> <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Lu,+C" rel="nofollow">Cheng Lu</a>, <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Song,+Y" rel="nofollow">Yang Song</a> </p>
 
 <p>For more information go <a href='https://arxiv.org/abs/2410.11081'>here</a></p>
