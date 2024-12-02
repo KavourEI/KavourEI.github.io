@@ -8,6 +8,96 @@
     
       
       <item>
+        <title>Insights from HeyNeo on Exploring the Future of AI and Productivity</title>
+        
+          <description>&lt;p&gt;HeyNeo's blog serves as a platform for sharing insights on the intersection of artificial intelligence and productivity, offering valuable resources and discussions aimed at enhancing user experience and efficiency in various domains.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 15 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/heyneo</link>
+        <guid isPermaLink="true">http://localhost:4000/heyneo</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>A Breakthrough in Multimodal AI for Edge Devices by Nexa.AI's OmniVision</title>
+        
+          <description>&lt;p&gt;Nexa AI's OmniVision is a compact multimodal model designed for processing both visual and text inputs, optimized for edge devices, showcasing significant advancements in art analysis, scene comprehension, and more.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 15 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Nexa</link>
+        <guid isPermaLink="true">http://localhost:4000/Nexa</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>A Breakthrough in Long-Context Processing using Qwen2.5-Turbo</title>
+        
+          <description>&lt;p&gt;The Qwen2.5-Turbo model has been launched, featuring significant enhancements in long-context processing capabilities, faster inference speeds, and cost efficiency, positioning it as a leading solution for developers requiring advanced AI functionalities.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 15 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/ExtContextLenght</link>
+        <guid isPermaLink="true">http://localhost:4000/ExtContextLenght</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Revolutionizing Synthetic Data Generation with Orca-AgentInstruct</title>
+        
+          <description>&lt;p&gt;Microsoft's Orca-AgentInstruct presents a novel approach to synthetic data generation, leveraging agentic flows to create high-quality datasets that enhance the performance of language models, demonstrating significant improvements across various benchmarks.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 14 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/OrcaAgentInstruct</link>
+        <guid isPermaLink="true">http://localhost:4000/OrcaAgentInstruct</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Revolutionizing Productivity and Interaction with ChatGPT application</title>
+        
+          <description>&lt;p&gt;OpenAI has launched the ChatGPT desktop application, designed to enhance user productivity by integrating advanced conversational AI capabilities directly into the desktop environment, allowing for seamless interaction with various applications and tools.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 14 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/ChatGPTapp</link>
+        <guid isPermaLink="true">http://localhost:4000/ChatGPTapp</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>The Launch of Anthropic's Prompt Improver</title>
+        
+          <description>&lt;p&gt;Anthropic has launched the Prompt Improver, a tool designed to enhance the quality of prompts used with its AI models, enabling developers to create more reliable and effective AI applications through advanced prompt engineering techniques.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 14 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/AnthropicPromptImprover</link>
+        <guid isPermaLink="true">http://localhost:4000/AnthropicPromptImprover</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>A New Era in AI-Powered Development by Codeium</title>
         
           <description>&lt;p&gt; &lt;a href=&quot;https://codeium.com/&quot;&gt;Codeium&lt;/a&gt; has introduced Windsurf, a cutting-edge AI-powered development tool designed to enhance coding efficiency and streamline workflows for developers across various programming languages.&lt;/p&gt;
@@ -18,6 +108,21 @@
         <link>
         http://localhost:4000/WindSurf</link>
         <guid isPermaLink="true">http://localhost:4000/WindSurf</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Rapid Response:Mitigating LLM Jailbreaks with a Few Examples</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 12 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/RapidResponse</link>
+        <guid isPermaLink="true">http://localhost:4000/RapidResponse</guid>
       </item>
       
     
@@ -153,6 +258,21 @@
         <link>
         http://localhost:4000/StableDiff</link>
         <guid isPermaLink="true">http://localhost:4000/StableDiff</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>LoRA vs Full Fine-tuning:An Illusion of Equivalence</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 28 Oct 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/LoraVSFT</link>
+        <guid isPermaLink="true">http://localhost:4000/LoraVSFT</guid>
       </item>
       
     
@@ -2256,6 +2376,21 @@
         <link>
         http://localhost:4000/VeoAstraGemini</link>
         <guid isPermaLink="true">http://localhost:4000/VeoAstraGemini</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>LoRA Learns Less and Forgets Less</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Thu, 25 Apr 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/RAGCache</link>
+        <guid isPermaLink="true">http://localhost:4000/RAGCache</guid>
       </item>
       
     

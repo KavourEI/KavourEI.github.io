@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-11-21T01:16:37+02:00</updated>
+  <updated>2024-12-02T17:02:16+02:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -46,20 +46,20 @@
 
   
     <entry>
-      <title type="html">Mixture-of-Transformers:A Sparse and Scalable Architecture for Multi-Modal Foundation Models</title>
-      <link href="http://localhost:4000/multiTransf" rel="alternate" type="text/html" title="Mixture-of-Transformers:A Sparse and Scalable Architecture for Multi-Modal Foundation Models" />
-      <published>2024-11-09T00:00:00+02:00</published>
-      <updated>2024-11-09T00:00:00+02:00</updated>
-      <id>http://localhost:4000/multiTransf</id>
-      <content type="html" xml:base="http://localhost:4000/multiTransf">&lt;h2&gt; Abstract &lt;/h2&gt;
+      <title type="html">Rapid Response:Mitigating LLM Jailbreaks with a Few Examples</title>
+      <link href="http://localhost:4000/RapidResponse" rel="alternate" type="text/html" title="Rapid Response:Mitigating LLM Jailbreaks with a Few Examples" />
+      <published>2024-11-12T00:00:00+02:00</published>
+      <updated>2024-11-12T00:00:00+02:00</updated>
+      <id>http://localhost:4000/RapidResponse</id>
+      <content type="html" xml:base="http://localhost:4000/RapidResponse">&lt;h2&gt; Abstract &lt;/h2&gt;
 
-&lt;p&gt; The development of large language models (LLMs) has expanded to multi-modal systems capable of processing text, images, and speech within a unified framework. Training these models demands significantly larger datasets and computational resources compared to text-only LLMs. To address the scaling challenges, we introduce Mixture-of-Transformers (MoT), a sparse multi-modal transformer architecture that significantly reduces pretraining computational costs. MoT decouples non-embedding parameters of the model by modality -- including feed-forward networks, attention matrices, and layer normalization -- enabling modality-specific processing with global self-attention over the full input sequence. We evaluate MoT across multiple settings and model scales. In the Chameleon 7B setting (autoregressive text-and-image generation), MoT matches the dense baseline's performance using only 55.8\% of the FLOPs. When extended to include speech, MoT reaches speech performance comparable to the dense baseline with only 37.2\% of the FLOPs. In the Transfusion setting, where text and image are trained with different objectives, a 7B MoT model matches the image modality performance of the dense baseline with one third of the FLOPs, and a 760M MoT model outperforms a 1.4B dense baseline across key image generation metrics. System profiling further highlights MoT's practical benefits, achieving dense baseline image quality in 47.2\% of the wall-clock time and text quality in 75.6\% of the wall-clock time (measured on AWS p4de.24xlarge instances with NVIDIA A100 GPUs). &lt;/p&gt;
+&lt;p&gt; As large language models (LLMs) grow more powerful, ensuring their safety against misuse becomes crucial. While researchers have focused on developing robust defenses, no method has yet achieved complete invulnerability to attacks. We propose an alternative approach: instead of seeking perfect adversarial robustness, we develop rapid response techniques to look to block whole classes of jailbreaks after observing only a handful of attacks. To study this setting, we develop RapidResponseBench, a benchmark that measures a defense's robustness against various jailbreak strategies after adapting to a few observed examples. We evaluate five rapid response methods, all of which use jailbreak proliferation, where we automatically generate additional jailbreaks similar to the examples observed. Our strongest method, which fine-tunes an input classifier to block proliferated jailbreaks, reduces attack success rate by a factor greater than 240 on an in-distribution set of jailbreaks and a factor greater than 15 on an out-of-distribution set, having observed just one example of each jailbreaking strategy. Moreover, further studies suggest that the quality of proliferation model and number of proliferated examples play an key role in the effectiveness of this defense. Overall, our results highlight the potential of responding rapidly to novel jailbreaks to limit LLM misuse. &lt;/p&gt;
 
 &lt;h2&gt; Authors &lt;/h2&gt;
 
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liang,+W&quot; rel=&quot;nofollow&quot;&gt;Weixin Liang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yu,+L&quot; rel=&quot;nofollow&quot;&gt;Lili Yu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Luo,+L&quot; rel=&quot;nofollow&quot;&gt;Liang Luo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Iyer,+S&quot; rel=&quot;nofollow&quot;&gt;Srinivasan Iyer&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dong,+N&quot; rel=&quot;nofollow&quot;&gt;Ning Dong&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+C&quot; rel=&quot;nofollow&quot;&gt;Chunting Zhou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ghosh,+G&quot; rel=&quot;nofollow&quot;&gt;Gargi Ghosh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lewis,+M&quot; rel=&quot;nofollow&quot;&gt;Mike Lewis&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yih,+W&quot; rel=&quot;nofollow&quot;&gt;Wen-tau Yih&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zettlemoyer,+L&quot; rel=&quot;nofollow&quot;&gt;Luke Zettlemoyer&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lin,+X+V&quot; rel=&quot;nofollow&quot;&gt;Xi Victoria Lin&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Peng,+A&quot; rel=&quot;nofollow&quot;&gt;Alwin Peng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Michael,+J&quot; rel=&quot;nofollow&quot;&gt;Julian Michael&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sleight,+H&quot; rel=&quot;nofollow&quot;&gt;Henry Sleight&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Perez,+E&quot; rel=&quot;nofollow&quot;&gt;Ethan Perez&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sharma,+M&quot; rel=&quot;nofollow&quot;&gt;Mrinank Sharma&lt;/a&gt; &lt;/p&gt;
 
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.04996&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.07494&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -130,6 +130,48 @@
     </entry>
   
     <entry>
+      <title type="html">Mixture-of-Transformers:A Sparse and Scalable Architecture for Multi-Modal Foundation Models</title>
+      <link href="http://localhost:4000/multiTransf" rel="alternate" type="text/html" title="Mixture-of-Transformers:A Sparse and Scalable Architecture for Multi-Modal Foundation Models" />
+      <published>2024-11-09T00:00:00+02:00</published>
+      <updated>2024-11-09T00:00:00+02:00</updated>
+      <id>http://localhost:4000/multiTransf</id>
+      <content type="html" xml:base="http://localhost:4000/multiTransf">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; The development of large language models (LLMs) has expanded to multi-modal systems capable of processing text, images, and speech within a unified framework. Training these models demands significantly larger datasets and computational resources compared to text-only LLMs. To address the scaling challenges, we introduce Mixture-of-Transformers (MoT), a sparse multi-modal transformer architecture that significantly reduces pretraining computational costs. MoT decouples non-embedding parameters of the model by modality -- including feed-forward networks, attention matrices, and layer normalization -- enabling modality-specific processing with global self-attention over the full input sequence. We evaluate MoT across multiple settings and model scales. In the Chameleon 7B setting (autoregressive text-and-image generation), MoT matches the dense baseline's performance using only 55.8\% of the FLOPs. When extended to include speech, MoT reaches speech performance comparable to the dense baseline with only 37.2\% of the FLOPs. In the Transfusion setting, where text and image are trained with different objectives, a 7B MoT model matches the image modality performance of the dense baseline with one third of the FLOPs, and a 760M MoT model outperforms a 1.4B dense baseline across key image generation metrics. System profiling further highlights MoT's practical benefits, achieving dense baseline image quality in 47.2\% of the wall-clock time and text quality in 75.6\% of the wall-clock time (measured on AWS p4de.24xlarge instances with NVIDIA A100 GPUs). &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liang,+W&quot; rel=&quot;nofollow&quot;&gt;Weixin Liang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yu,+L&quot; rel=&quot;nofollow&quot;&gt;Lili Yu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Luo,+L&quot; rel=&quot;nofollow&quot;&gt;Liang Luo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Iyer,+S&quot; rel=&quot;nofollow&quot;&gt;Srinivasan Iyer&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dong,+N&quot; rel=&quot;nofollow&quot;&gt;Ning Dong&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+C&quot; rel=&quot;nofollow&quot;&gt;Chunting Zhou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ghosh,+G&quot; rel=&quot;nofollow&quot;&gt;Gargi Ghosh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lewis,+M&quot; rel=&quot;nofollow&quot;&gt;Mike Lewis&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yih,+W&quot; rel=&quot;nofollow&quot;&gt;Wen-tau Yih&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zettlemoyer,+L&quot; rel=&quot;nofollow&quot;&gt;Luke Zettlemoyer&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lin,+X+V&quot; rel=&quot;nofollow&quot;&gt;Xi Victoria Lin&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.04996&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Mixtures of In-Context Learners</title>
       <link href="http://localhost:4000/InContextLearners" rel="alternate" type="text/html" title="Mixtures of In-Context Learners" />
       <published>2024-11-05T00:00:00+02:00</published>
@@ -144,6 +186,48 @@
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hong,+G&quot; rel=&quot;nofollow&quot;&gt;Giwon Hong&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=van+Krieken,+E&quot; rel=&quot;nofollow&quot;&gt;Emile van Krieken&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ponti,+E&quot; rel=&quot;nofollow&quot;&gt;Edoardo Ponti&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Malkin,+N&quot; rel=&quot;nofollow&quot;&gt;Nikolay Malkin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Minervini,+P&quot; rel=&quot;nofollow&quot;&gt;Pasquale Minervini&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.20771&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">LoRA vs Full Fine-tuning:An Illusion of Equivalence</title>
+      <link href="http://localhost:4000/LoraVSFT" rel="alternate" type="text/html" title="LoRA vs Full Fine-tuning:An Illusion of Equivalence" />
+      <published>2024-10-28T00:00:00+02:00</published>
+      <updated>2024-10-28T00:00:00+02:00</updated>
+      <id>http://localhost:4000/LoraVSFT</id>
+      <content type="html" xml:base="http://localhost:4000/LoraVSFT">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Fine-tuning is a crucial paradigm for adapting pre-trained large language models to downstream tasks. Recently, methods like Low-Rank Adaptation (LoRA) have been shown to match the performance of fully fine-tuned models on various tasks with an extreme reduction in the number of trainable parameters. Even in settings where both methods learn similarly accurate models, \emph{are their learned solutions really equivalent?} We study how different fine-tuning methods change pre-trained models by analyzing the model's weight matrices through the lens of their spectral properties. We find that full fine-tuning and LoRA yield weight matrices whose singular value decompositions exhibit very different structure; moreover, the fine-tuned models themselves show distinct generalization behaviors when tested outside the adaptation task's distribution. More specifically, we first show that the weight matrices trained with LoRA have new, high-ranking singular vectors, which we call \emph{intruder dimensions}. Intruder dimensions do not appear during full fine-tuning. Second, we show that LoRA models with intruder dimensions, despite achieving similar performance to full fine-tuning on the target task, become worse models of the pre-training distribution and adapt less robustly to multiple tasks sequentially. Higher-rank, rank-stabilized LoRA models closely mirror full fine-tuning, even when performing on par with lower-rank LoRA models on the same tasks. These results suggest that models updated with LoRA and full fine-tuning access different parts of parameter space, even when they perform equally on the fine-tuned distribution. We conclude by examining why intruder dimensions appear in LoRA fine-tuned models, why they are undesirable, and how their effects can be minimized. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shuttleworth,+R&quot; rel=&quot;nofollow&quot;&gt;Reece Shuttleworth&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Andreas,+J&quot; rel=&quot;nofollow&quot;&gt;Jacob Andreas&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Torralba,+A&quot; rel=&quot;nofollow&quot;&gt;Antonio Torralba&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sharma,+P&quot; rel=&quot;nofollow&quot;&gt;Pratyusha Sharma&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.21228&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -347,50 +431,6 @@ Our results show that the ideological stance of an LLM often reflects the worldv
     </entry>
   
     <entry>
-      <title type="html">Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models</title>
-      <link href="http://localhost:4000/TimeConsistencyModels" rel="alternate" type="text/html" title="Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models" />
-      <published>2024-10-16T00:00:00+03:00</published>
-      <updated>2024-10-16T00:00:00+03:00</updated>
-      <id>http://localhost:4000/TimeConsistencyModels</id>
-      <content type="html" xml:base="http://localhost:4000/TimeConsistencyModels">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Consistency models (CMs) are a powerful class of diffusion-based generative models optimized for fast sampling. Most existing CMs are trained using discretized timesteps, which introduce additional hyperparameters and are prone to discretization errors. While continuous-time formulations can mitigate these issues, their success has been limited by training instability. To address this, we propose a simplified theoretical framework that unifies previous parameterizations of diffusion models and CMs, identifying the root causes of instability. Based on this analysis, we introduce key improvements in diffusion process parameterization, network architecture, and training objectives. These changes enable us to train continuous-time CMs at an unprecedented scale, reaching 1.5B parameters on ImageNet 512x512. Our proposed training algorithm, using only two sampling steps, achieves FID scores of 2.06 on CIFAR-10, 1.48 on ImageNet 64x64, and 1.88 on ImageNet 512x512, narrowing the gap in FID scores with the best existing diffusion models to within 10%. &lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lu,+C&quot; rel=&quot;nofollow&quot;&gt;Cheng Lu&lt;/a&gt;
-, 
-&lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Song,+Y&quot; rel=&quot;nofollow&quot;&gt;Yang Song&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.11081&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">Agent-as-a-Judge:Evaluate Agents with Agents</title>
       <link href="http://localhost:4000/AgentJudge" rel="alternate" type="text/html" title="Agent-as-a-Judge:Evaluate Agents with Agents" />
       <published>2024-10-16T00:00:00+03:00</published>
@@ -405,48 +445,6 @@ Our results show that the ideological stance of an LLM often reflects the worldv
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhuge,+M&quot;&gt;Mingchen Zhuge&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhao,+C&quot;&gt;Changsheng Zhao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ashley,+D&quot;&gt;Dylan Ashley&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+W&quot;&gt;Wenyi Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Khizbullin,+D&quot;&gt;Dmitrii Khizbullin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xiong,+Y&quot;&gt;Yunyang Xiong&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+Z&quot;&gt;Zechun Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chang,+E&quot;&gt;Ernie Chang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Krishnamoorthi,+R&quot;&gt;Raghuraman Krishnamoorthi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tian,+Y&quot;&gt;Yuandong Tian&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shi,+Y&quot;&gt;Yangyang Shi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chandra,+V&quot;&gt;Vikas Chandra&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Schmidhuber,+J&quot;&gt;Jürgen Schmidhuber&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.10934&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Thinking LLMs:General Instruction Following with Thought Generation</title>
-      <link href="http://localhost:4000/ThinkingLLM" rel="alternate" type="text/html" title="Thinking LLMs:General Instruction Following with Thought Generation" />
-      <published>2024-10-14T00:00:00+03:00</published>
-      <updated>2024-10-14T00:00:00+03:00</updated>
-      <id>http://localhost:4000/ThinkingLLM</id>
-      <content type="html" xml:base="http://localhost:4000/ThinkingLLM">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; LLMs are typically trained to answer user questions or follow instructions similarly to how human experts respond. However, in the standard alignment framework they lack the basic ability of explicit thinking before answering. Thinking is important for complex questions that require reasoning and planning -- but can be applied to any task. We propose a training method for equipping existing LLMs with such thinking abilities for general instruction following without use of additional human data. We achieve this by an iterative search and optimization procedure that explores the space of possible thought generations, allowing the model to learn how to think without direct supervision. For each instruction, the thought candidates are scored using a judge model to evaluate their responses only, and then optimized via preference optimization. We show that this procedure leads to superior performance on AlpacaEval and Arena-Hard, and shows gains from thinking on non-reasoning categories such as marketing, health and general knowledge, in addition to more traditional reasoning &amp;amp; problem-solving tasks. &lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wu,+T&quot;&gt;Tianhao Wu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lan,+J&quot;&gt;Janice Lan&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yuan,+W&quot;&gt;Weizhe Yuan&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Jiao,+J&quot;&gt;Jiantao Jiao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Weston,+J&quot;&gt;Jason Weston&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sukhbaatar,+S&quot;&gt;Sainbayar Sukhbaatar&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.10630&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
