@@ -8,6 +8,81 @@
     
       
       <item>
+        <title>SAMURAI:Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 25 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Samurai</link>
+        <guid isPermaLink="true">http://localhost:4000/Samurai</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Marco-o1:Towards Open Reasoning Models for Open-Ended Solutions</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 25 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Marcoo1</link>
+        <guid isPermaLink="true">http://localhost:4000/Marcoo1</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Transforming Video Creation with GenAI</title>
+        
+          <description>&lt;p&gt; Guidde is revolutionizing the video creation process by seamlessly integrating workflows and personal passions, making video production effortless and accessible for everyone!&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 21 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/WorkPassionVid</link>
+        <guid isPermaLink="true">http://localhost:4000/WorkPassionVid</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Advancing Open Source AI with Tülu 3</title>
+        
+          <description>&lt;p&gt; The release of Tülu 3 marks a significant advancement in open-source language model post-training, providing comprehensive tools and datasets to empower developers and researchers.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 21 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Tulu3</link>
+        <guid isPermaLink="true">http://localhost:4000/Tulu3</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Understanding Anthropic's API Rate Limits</title>
+        
+          <description>&lt;p&gt; Anthropic has established comprehensive rate limits for its API to ensure fair usage and prevent abuse, which are crucial for developers and organizations utilizing its services.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 21 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/AnthRateLimits</link>
+        <guid isPermaLink="true">http://localhost:4000/AnthRateLimits</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Empowering IT Teams with Microsoft Copilot Actions</title>
         
           <description>&lt;p&gt; Microsoft has unveiled Copilot Actions, a suite of new agents and tools designed to enhance the efficiency and productivity of IT teams.&lt;/p&gt;
@@ -213,6 +288,21 @@
         <link>
         http://localhost:4000/InContextLearners</link>
         <guid isPermaLink="true">http://localhost:4000/InContextLearners</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>LoRA vs Full Fine-tuning:An Illusion of Equivalence</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 01 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/ErrorBar</link>
+        <guid isPermaLink="true">http://localhost:4000/ErrorBar</guid>
       </item>
       
     
