@@ -8,6 +8,32 @@
     
       
       <item>
+        <title></title>
+        
+          <description></description>
+        
+        <pubDate>Fri, 03 Jan 2025 10:37:20 +0200</pubDate>
+        <link>
+        http://localhost:4000/2024-11-26-Olm2</link>
+        <guid isPermaLink="true">http://localhost:4000/2024-11-26-Olm2</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title></title>
+        
+          <description></description>
+        
+        <pubDate>Fri, 03 Jan 2025 10:37:20 +0200</pubDate>
+        <link>
+        http://localhost:4000/2024-11-26-ControlNets</link>
+        <guid isPermaLink="true">http://localhost:4000/2024-11-26-ControlNets</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>SAMURAI:Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory</title>
         
           <description>&lt;h2&gt; Abstract &lt;/h2&gt;
@@ -33,6 +59,96 @@
         <link>
         http://localhost:4000/Marcoo1</link>
         <guid isPermaLink="true">http://localhost:4000/Marcoo1</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>A New Standard for AI Integration with the introduction of Model Context Protocol</title>
+        
+          <description>&lt;p&gt; Anthropic has launched the Model Context Protocol (MCP), an open standard designed to facilitate seamless connections between AI assistants and various data sources, aiming to enhance the relevance and quality of AI-generated responses.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 25 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/ModelContProtocol</link>
+        <guid isPermaLink="true">http://localhost:4000/ModelContProtocol</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Runway introduced frames</title>
+        
+          <description>&lt;p&gt;Runway has presented Frames, a groundbreaking base model for image generation that enhances stylistic control and visual fidelity, enabling creators to design unique worlds with precision.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 25 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Frames</link>
+        <guid isPermaLink="true">http://localhost:4000/Frames</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>The Swiss Army Knife of Sound Generation is called Fugatto</title>
+        
+          <description>&lt;p&gt; NVIDIA's Fugatto is a revolutionary generative AI sound model that allows users to create and manipulate audio through text prompts, offering unprecedented control over music, voices, and soundscapes.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 25 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/FlexMusic</link>
+        <guid isPermaLink="true">http://localhost:4000/FlexMusic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>A New Era in AI Development with Amazon and Anthropic</title>
+        
+          <description>&lt;p&gt; Anthropic has expanded its collaboration with Amazon Web Services (AWS), establishing a robust partnership aimed at advancing AI development through significant investments and the optimization of machine learning hardware.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 22 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/AmazAnthr</link>
+        <guid isPermaLink="true">http://localhost:4000/AmazAnthr</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Rapid Response:Mitigating LLM Jailbreaks with a Few Examples</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Thu, 21 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/TransLearnCont</link>
+        <guid isPermaLink="true">http://localhost:4000/TransLearnCont</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>People and AI towards red teaming</title>
+        
+          <description>&lt;p&gt; OpenAI is enhancing its red teaming strategies by integrating human expertise and automated systems to identify potential risks in AI models, ensuring safer and more reliable AI technologies.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 21 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/redteaming</link>
+        <guid isPermaLink="true">http://localhost:4000/redteaming</guid>
       </item>
       
     

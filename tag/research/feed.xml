@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2024-12-08T16:34:28+02:00</updated>
+  <updated>2025-01-03T10:42:15+02:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -102,6 +102,48 @@
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+C&quot; rel=&quot;nofollow&quot;&gt;Cheng-Yen Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Huang,+H&quot; rel=&quot;nofollow&quot;&gt;Hsiang-Wei Huang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chai,+W&quot; rel=&quot;nofollow&quot;&gt;Wenhao Chai&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Jiang,+Z&quot; rel=&quot;nofollow&quot;&gt;Zhongyu Jiang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hwang,+J&quot; rel=&quot;nofollow&quot;&gt;Jenq-Neng Hwang&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.11922&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Rapid Response:Mitigating LLM Jailbreaks with a Few Examples</title>
+      <link href="http://localhost:4000/TransLearnCont" rel="alternate" type="text/html" title="Rapid Response:Mitigating LLM Jailbreaks with a Few Examples" />
+      <published>2024-11-21T00:00:00+02:00</published>
+      <updated>2024-11-21T00:00:00+02:00</updated>
+      <id>http://localhost:4000/TransLearnCont</id>
+      <content type="html" xml:base="http://localhost:4000/TransLearnCont">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Deep reinforcement learning (RL) is a powerful approach to complex decision making. However, one issue that limits its practical application is its brittleness, sometimes failing to train in the presence of small changes in the environment. Motivated by the success of zero-shot transfer-where pre-trained models perform well on related tasks-we consider the problem of selecting a good set of training tasks to maximize generalization performance across a range of tasks. Given the high cost of training, it is critical to select training tasks strategically, but not well understood how to do so. We hence introduce Model-Based Transfer Learning (MBTL), which layers on top of existing RL methods to effectively solve contextual RL problems. MBTL models the generalization performance in two parts: 1) the performance set point, modeled using Gaussian processes, and 2) performance loss (generalization gap), modeled as a linear function of contextual similarity. MBTL combines these two pieces of information within a Bayesian optimization (BO) framework to strategically select training tasks. We show theoretically that the method exhibits sublinear regret in the number of training tasks and discuss conditions to further tighten regret bounds. We experimentally validate our methods using urban traffic and standard continuous control benchmarks. The experimental results suggest that MBTL can achieve up to 50x improved sample efficiency compared with canonical independent training and multi-task training. Further experiments demonstrate the efficacy of BO and the insensitivity to the underlying RL algorithm and hyperparameters. This work lays the foundations for investigating explicit modeling of generalization, thereby enabling principled yet effective methods for contextual RL. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cho,+J&quot; rel=&quot;nofollow&quot;&gt;Jung-Hoon Cho&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Jayawardana,+V&quot; rel=&quot;nofollow&quot;&gt;Vindula Jayawardana&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Li,+S&quot; rel=&quot;nofollow&quot;&gt;Sirui Li&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wu,+C&quot; rel=&quot;nofollow&quot;&gt;Cathy Wu&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2408.04498&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -340,48 +382,6 @@
     </entry>
   
     <entry>
-      <title type="html">MrT5:Dynamic Token Merging for Efficient Byte-level Language Models</title>
-      <link href="http://localhost:4000/DynamicToken" rel="alternate" type="text/html" title="MrT5:Dynamic Token Merging for Efficient Byte-level Language Models" />
-      <published>2024-10-28T00:00:00+02:00</published>
-      <updated>2024-10-28T00:00:00+02:00</updated>
-      <id>http://localhost:4000/DynamicToken</id>
-      <content type="html" xml:base="http://localhost:4000/DynamicToken">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Models that rely on subword tokenization have significant drawbacks, such as sensitivity to character-level noise like spelling errors and inconsistent compression rates across different languages and scripts. While character- or byte-level models like ByT5 attempt to address these concerns, they have not gained widespread adoption -- processing raw byte streams without tokenization results in significantly longer sequence lengths, making training and inference inefficient. This work introduces MrT5 (MergeT5), a more efficient variant of ByT5 that integrates a token deletion mechanism in its encoder to dynamically shorten the input sequence length. After processing through a fixed number of encoder layers, a learnt delete gate determines which tokens are to be removed and which are to be retained for subsequent layers. MrT5 effectively ``merges'' critical information from deleted tokens into a more compact sequence, leveraging contextual information from the remaining tokens. In continued pre-training experiments, we find that MrT5 can achieve significant gains in inference runtime with minimal effect on performance. When trained on English text, MrT5 demonstrates the capability to transfer its deletion feature zero-shot across several languages, with significant additional improvements following multilingual training. Furthermore, MrT5 shows comparable accuracy to ByT5 on downstream evaluations such as XNLI and character-level tasks while reducing sequence lengths by up to 80%. Our approach presents a solution to the practical limitations of existing byte-level models. &lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Kallini,+J&quot; rel=&quot;nofollow&quot;&gt;Julie Kallini&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Murty,+S&quot; rel=&quot;nofollow&quot;&gt;Shikhar Murty&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Manning,+C+D&quot; rel=&quot;nofollow&quot;&gt;Christopher D. Manning&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Potts,+C&quot; rel=&quot;nofollow&quot;&gt;Christopher Potts&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Csord%C3%A1s,+R&quot; rel=&quot;nofollow&quot;&gt;Róbert Csordás&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.20771&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">LoRA vs Full Fine-tuning:An Illusion of Equivalence</title>
       <link href="http://localhost:4000/LoraVSFT" rel="alternate" type="text/html" title="LoRA vs Full Fine-tuning:An Illusion of Equivalence" />
       <published>2024-10-28T00:00:00+02:00</published>
@@ -424,23 +424,20 @@
     </entry>
   
     <entry>
-      <title type="html">Large Language Models Reflect the Ideology of their Creators</title>
-      <link href="http://localhost:4000/CreatorsIdeology" rel="alternate" type="text/html" title="Large Language Models Reflect the Ideology of their Creators" />
-      <published>2024-10-24T00:00:00+03:00</published>
-      <updated>2024-10-24T00:00:00+03:00</updated>
-      <id>http://localhost:4000/CreatorsIdeology</id>
-      <content type="html" xml:base="http://localhost:4000/CreatorsIdeology">&lt;h2&gt; Abstract &lt;/h2&gt;
+      <title type="html">MrT5:Dynamic Token Merging for Efficient Byte-level Language Models</title>
+      <link href="http://localhost:4000/DynamicToken" rel="alternate" type="text/html" title="MrT5:Dynamic Token Merging for Efficient Byte-level Language Models" />
+      <published>2024-10-28T00:00:00+02:00</published>
+      <updated>2024-10-28T00:00:00+02:00</updated>
+      <id>http://localhost:4000/DynamicToken</id>
+      <content type="html" xml:base="http://localhost:4000/DynamicToken">&lt;h2&gt; Abstract &lt;/h2&gt;
 
-&lt;p&gt; Large language models (LLMs) are trained on vast amounts of data to generate natural language, enabling them to perform tasks like text summarization and question answering. These models have become popular in artificial intelligence (AI) assistants like ChatGPT and already play an influential role in how humans access information. However, the behavior of LLMs varies depending on their design, training, and use.
-In this paper, we uncover notable diversity in the ideological stance exhibited across different LLMs and languages in which they are accessed. We do this by prompting a diverse panel of popular LLMs to describe a large number of prominent and controversial personalities from recent world history, both in English and in Chinese. By identifying and analyzing moral assessments reflected in the generated descriptions, we find consistent normative differences between how the same LLM responds in Chinese compared to English. Similarly, we identify normative disagreements between Western and non-Western LLMs about prominent actors in geopolitical conflicts. Furthermore, popularly hypothesized disparities in political goals among Western models are reflected in significant normative differences related to inclusion, social inequality, and political scandals.
-Our results show that the ideological stance of an LLM often reflects the worldview of its creators. This raises important concerns around technological and regulatory efforts with the stated aim of making LLMs ideologically `unbiased', and it poses risks for political instrumentalization. &lt;/p&gt;
+&lt;p&gt; Models that rely on subword tokenization have significant drawbacks, such as sensitivity to character-level noise like spelling errors and inconsistent compression rates across different languages and scripts. While character- or byte-level models like ByT5 attempt to address these concerns, they have not gained widespread adoption -- processing raw byte streams without tokenization results in significantly longer sequence lengths, making training and inference inefficient. This work introduces MrT5 (MergeT5), a more efficient variant of ByT5 that integrates a token deletion mechanism in its encoder to dynamically shorten the input sequence length. After processing through a fixed number of encoder layers, a learnt delete gate determines which tokens are to be removed and which are to be retained for subsequent layers. MrT5 effectively ``merges'' critical information from deleted tokens into a more compact sequence, leveraging contextual information from the remaining tokens. In continued pre-training experiments, we find that MrT5 can achieve significant gains in inference runtime with minimal effect on performance. When trained on English text, MrT5 demonstrates the capability to transfer its deletion feature zero-shot across several languages, with significant additional improvements following multilingual training. Furthermore, MrT5 shows comparable accuracy to ByT5 on downstream evaluations such as XNLI and character-level tasks while reducing sequence lengths by up to 80%. Our approach presents a solution to the practical limitations of existing byte-level models. &lt;/p&gt;
 
 &lt;h2&gt; Authors &lt;/h2&gt;
 
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Buyl,+M&quot;&gt;Maarten Buyl&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Rogiers,+A&quot;&gt;Alexander Rogiers&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Noels,+S&quot;&gt;Sander Noels&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dominguez-Catena,+I&quot;&gt;Iris Dominguez-Catena&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Heiter,+E&quot;&gt;Edith Heiter&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Romero,+R&quot;&gt;Raphael Romero&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Johary,+I&quot;&gt;Iman Johary&lt;/a&gt;
-, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Mara,+A&quot;&gt;Alexandru-Cristian Mara&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lijffijt,+J&quot;&gt;Jefrey Lijffijt&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=De+Bie,+T&quot;&gt;Tijl De Bie&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Kallini,+J&quot; rel=&quot;nofollow&quot;&gt;Julie Kallini&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Murty,+S&quot; rel=&quot;nofollow&quot;&gt;Shikhar Murty&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Manning,+C+D&quot; rel=&quot;nofollow&quot;&gt;Christopher D. Manning&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Potts,+C&quot; rel=&quot;nofollow&quot;&gt;Christopher Potts&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Csord%C3%A1s,+R&quot; rel=&quot;nofollow&quot;&gt;Róbert Csordás&lt;/a&gt; &lt;/p&gt;
 
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.18417&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.20771&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
