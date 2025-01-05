@@ -8,27 +8,77 @@
     
       
       <item>
-        <title></title>
+        <title>Exploring QwQ-32B:A New Frontier in AI Reasoning</title>
         
-          <description></description>
+          <description>&lt;p&gt; The QwQ-32B model by the Qwen Team represents a significant advancement in AI reasoning capabilities, showcasing impressive performance in mathematical problem-solving and programming while highlighting its limitations and potential for future development.&lt;/p&gt;
+
+</description>
         
-        <pubDate>Fri, 03 Jan 2025 10:37:20 +0200</pubDate>
+        <pubDate>Thu, 28 Nov 2024 00:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/2024-11-26-Olm2</link>
-        <guid isPermaLink="true">http://localhost:4000/2024-11-26-Olm2</guid>
+        http://localhost:4000/QwQ</link>
+        <guid isPermaLink="true">http://localhost:4000/QwQ</guid>
       </item>
       
     
       
       <item>
-        <title></title>
+        <title>Transforming Reading with GenFM on ElevenReader</title>
         
-          <description></description>
+          <description>&lt;p&gt; ElevenLabs has enhanced its ElevenReader app with GenFM, enabling users to generate personalized podcasts from various text formats, thereby revolutionizing the way people consume written content.&lt;/p&gt;
+
+</description>
         
-        <pubDate>Fri, 03 Jan 2025 10:37:20 +0200</pubDate>
+        <pubDate>Wed, 27 Nov 2024 00:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/2024-11-26-ControlNets</link>
-        <guid isPermaLink="true">http://localhost:4000/2024-11-26-ControlNets</guid>
+        http://localhost:4000/GenFM</link>
+        <guid isPermaLink="true">http://localhost:4000/GenFM</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Star Attention:Efficient LLM Inference over Long Sequences</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 26 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/StarAttention</link>
+        <guid isPermaLink="true">http://localhost:4000/StarAttention</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Advancing Open Language Models by OlMo 2</title>
+        
+          <description>&lt;p&gt; The release of OLMo 2 marks a showcase on improved performance and stability through innovative training techniques and comprehensive evaluation frameworks.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 26 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Olm2</link>
+        <guid isPermaLink="true">http://localhost:4000/Olm2</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing ControlNets for Stable Diffusion 3.5 Large</title>
+        
+          <description>&lt;p&gt; Stability AI has launched three new ControlNets—Blur, Canny, and Depth—for &lt;a href=&quot;https://stability.ai/news/introducing-stable-diffusion-3-5&quot;&gt;Stable 
+Diffusion 3.5 Large&lt;/a&gt;, enhancing image generation capabilities with precision and versatility for various applications.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 26 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/ControlNets</link>
+        <guid isPermaLink="true">http://localhost:4000/ControlNets</guid>
       </item>
       
     
@@ -404,6 +454,21 @@
         <link>
         http://localhost:4000/InContextLearners</link>
         <guid isPermaLink="true">http://localhost:4000/InContextLearners</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>DynaSaur:Large Language Agents Beyond Predefined Actions</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 04 Nov 2024 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/DynaSaur</link>
+        <guid isPermaLink="true">http://localhost:4000/DynaSaur</guid>
       </item>
       
     

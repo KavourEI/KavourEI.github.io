@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2025-01-03T10:42:15+02:00</updated>
+  <updated>2025-01-05T19:49:31+02:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -46,20 +46,20 @@
 
   
     <entry>
-      <title type="html">Marco-o1:Towards Open Reasoning Models for Open-Ended Solutions</title>
-      <link href="http://localhost:4000/Marcoo1" rel="alternate" type="text/html" title="Marco-o1:Towards Open Reasoning Models for Open-Ended Solutions" />
-      <published>2024-11-25T00:00:00+02:00</published>
-      <updated>2024-11-25T00:00:00+02:00</updated>
-      <id>http://localhost:4000/Marcoo1</id>
-      <content type="html" xml:base="http://localhost:4000/Marcoo1">&lt;h2&gt; Abstract &lt;/h2&gt;
+      <title type="html">Star Attention:Efficient LLM Inference over Long Sequences</title>
+      <link href="http://localhost:4000/StarAttention" rel="alternate" type="text/html" title="Star Attention:Efficient LLM Inference over Long Sequences" />
+      <published>2024-11-26T00:00:00+02:00</published>
+      <updated>2024-11-26T00:00:00+02:00</updated>
+      <id>http://localhost:4000/StarAttention</id>
+      <content type="html" xml:base="http://localhost:4000/StarAttention">&lt;h2&gt; Abstract &lt;/h2&gt;
 
-&lt;p&gt; Currently OpenAI o1 sparks a surge of interest in the study of large reasoning models (LRM). Building on this momentum, Marco-o1 not only focuses on disciplines with standard answers, such as mathematics, physics, and coding -- which are well-suited for reinforcement learning (RL) -- but also places greater emphasis on open-ended resolutions. We aim to address the question: ''Can the o1 model effectively generalize to broader domains where clear standards are absent and rewards are challenging to quantify?'' Marco-o1 is powered by Chain-of-Thought (CoT) fine-tuning, Monte Carlo Tree Search (MCTS), reflection mechanisms, and innovative reasoning strategies -- optimized for complex real-world problem-solving tasks. &lt;/p&gt;
+&lt;p&gt; Inference with Transformer-based Large Language Models (LLMs) on long sequences is both costly and slow due to the quadratic complexity of the self-attention mechanism. We introduce Star Attention, a two-phase block-sparse approximation that improves computational efficiency by sharding attention across multiple hosts while minimizing communication overhead. In the first phase, the context is processed using blockwise-local attention across hosts, in parallel. In the second phase, query and response tokens attend to all prior cached tokens through sequence-global attention. Star Attention integrates seamlessly with most Transformer-based LLMs trained with global attention, reducing memory requirements and inference time by up to 11x while preserving 95-100% of accuracy. &lt;/p&gt;
 
 &lt;h2&gt; Authors &lt;/h2&gt;
 
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhao,+Y&quot; rel=&quot;nofollow&quot;&gt;Yu Zhao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yin,+H&quot; rel=&quot;nofollow&quot;&gt;Huifeng Yin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zeng,+B&quot; rel=&quot;nofollow&quot;&gt;Bo Zeng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+H&quot; rel=&quot;nofollow&quot;&gt;Hao Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shi,+T&quot; rel=&quot;nofollow&quot;&gt;Tianqi Shi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lyu,+C&quot; rel=&quot;nofollow&quot;&gt;Chenyang Lyu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+L&quot; rel=&quot;nofollow&quot;&gt;Longyue Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Luo,+W&quot; rel=&quot;nofollow&quot;&gt;Weihua Luo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+K&quot; rel=&quot;nofollow&quot;&gt;Kaifu Zhang&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Acharya,+S&quot; rel=&quot;nofollow&quot;&gt;Shantanu Acharya&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Jia,+F&quot; rel=&quot;nofollow&quot;&gt;Fei Jia&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ginsburg,+B&quot; rel=&quot;nofollow&quot;&gt;Boris Ginsburg&lt;/a&gt; &lt;/p&gt;
 
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.14405&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.17116&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -102,6 +102,48 @@
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+C&quot; rel=&quot;nofollow&quot;&gt;Cheng-Yen Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Huang,+H&quot; rel=&quot;nofollow&quot;&gt;Hsiang-Wei Huang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chai,+W&quot; rel=&quot;nofollow&quot;&gt;Wenhao Chai&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Jiang,+Z&quot; rel=&quot;nofollow&quot;&gt;Zhongyu Jiang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hwang,+J&quot; rel=&quot;nofollow&quot;&gt;Jenq-Neng Hwang&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.11922&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Marco-o1:Towards Open Reasoning Models for Open-Ended Solutions</title>
+      <link href="http://localhost:4000/Marcoo1" rel="alternate" type="text/html" title="Marco-o1:Towards Open Reasoning Models for Open-Ended Solutions" />
+      <published>2024-11-25T00:00:00+02:00</published>
+      <updated>2024-11-25T00:00:00+02:00</updated>
+      <id>http://localhost:4000/Marcoo1</id>
+      <content type="html" xml:base="http://localhost:4000/Marcoo1">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Currently OpenAI o1 sparks a surge of interest in the study of large reasoning models (LRM). Building on this momentum, Marco-o1 not only focuses on disciplines with standard answers, such as mathematics, physics, and coding -- which are well-suited for reinforcement learning (RL) -- but also places greater emphasis on open-ended resolutions. We aim to address the question: ''Can the o1 model effectively generalize to broader domains where clear standards are absent and rewards are challenging to quantify?'' Marco-o1 is powered by Chain-of-Thought (CoT) fine-tuning, Monte Carlo Tree Search (MCTS), reflection mechanisms, and innovative reasoning strategies -- optimized for complex real-world problem-solving tasks. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhao,+Y&quot; rel=&quot;nofollow&quot;&gt;Yu Zhao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yin,+H&quot; rel=&quot;nofollow&quot;&gt;Huifeng Yin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zeng,+B&quot; rel=&quot;nofollow&quot;&gt;Bo Zeng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+H&quot; rel=&quot;nofollow&quot;&gt;Hao Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shi,+T&quot; rel=&quot;nofollow&quot;&gt;Tianqi Shi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lyu,+C&quot; rel=&quot;nofollow&quot;&gt;Chenyang Lyu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+L&quot; rel=&quot;nofollow&quot;&gt;Longyue Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Luo,+W&quot; rel=&quot;nofollow&quot;&gt;Weihua Luo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+K&quot; rel=&quot;nofollow&quot;&gt;Kaifu Zhang&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.14405&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -340,6 +382,48 @@
     </entry>
   
     <entry>
+      <title type="html">DynaSaur:Large Language Agents Beyond Predefined Actions</title>
+      <link href="http://localhost:4000/DynaSaur" rel="alternate" type="text/html" title="DynaSaur:Large Language Agents Beyond Predefined Actions" />
+      <published>2024-11-04T00:00:00+02:00</published>
+      <updated>2024-11-04T00:00:00+02:00</updated>
+      <id>http://localhost:4000/DynaSaur</id>
+      <content type="html" xml:base="http://localhost:4000/DynaSaur">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Existing LLM agent systems typically select actions from a fixed and predefined set at every step. While this approach is effective in closed, narrowly-scoped environments, we argue that it presents two major challenges when deploying LLM agents in real-world scenarios: (1) selecting from a fixed set of actions significantly restricts the planning and acting capabilities of LLM agents, and (2) this approach requires substantial human effort to enumerate and implement all possible actions, which becomes impractical in complex environments with a vast number of potential actions. In this work, we propose an LLM agent framework that enables the dynamic creation and composition of actions in an online manner. In this framework, the agent interacts with the environment by generating and executing programs written in a general-purpose programming language at each step. Furthermore, generated actions are accumulated over time for future reuse. Our extensive experiments on the GAIA benchmark demonstrate that this framework offers significantly greater flexibility and outperforms previous methods. Notably, it allows an LLM agent to recover in scenarios where no relevant action exists in the predefined set or when existing actions fail due to unforeseen edge cases. At the time of writing, we hold the top position on the GAIA public leaderboard. Our code can be found in &lt;a href=&quot;https://github.com/adobe-research/dynasaur&quot;&gt;this https URL&lt;/a&gt;. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Nguyen,+D&quot; rel=&quot;nofollow&quot;&gt;Dang Nguyen&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lai,+V+D&quot; rel=&quot;nofollow&quot;&gt;Viet Dac Lai&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yoon,+S&quot; rel=&quot;nofollow&quot;&gt;Seunghyun Yoon&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Rossi,+R+A&quot; rel=&quot;nofollow&quot;&gt;Ryan A. Rossi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhao,+H&quot; rel=&quot;nofollow&quot;&gt;Handong Zhao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+R&quot; rel=&quot;nofollow&quot;&gt;Ruiyi Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Mathur,+P&quot; rel=&quot;nofollow&quot;&gt;Puneet Mathur&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lipka,+N&quot; rel=&quot;nofollow&quot;&gt;Nedim Lipka&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+Y&quot; rel=&quot;nofollow&quot;&gt;Yu Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Bui,+T&quot; rel=&quot;nofollow&quot;&gt;Trung Bui&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dernoncourt,+F&quot; rel=&quot;nofollow&quot;&gt;Franck Dernoncourt&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+T&quot; rel=&quot;nofollow&quot;&gt;Tianyi Zhou&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.01747&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">LoRA vs Full Fine-tuning:An Illusion of Equivalence</title>
       <link href="http://localhost:4000/ErrorBar" rel="alternate" type="text/html" title="LoRA vs Full Fine-tuning:An Illusion of Equivalence" />
       <published>2024-11-01T00:00:00+02:00</published>
@@ -354,90 +438,6 @@
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/stat?searchtype=author&amp;amp;query=Miller,+E&quot; rel=&quot;nofollow&quot;&gt;Evan Miller&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.00640&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">LoRA vs Full Fine-tuning:An Illusion of Equivalence</title>
-      <link href="http://localhost:4000/LoraVSFT" rel="alternate" type="text/html" title="LoRA vs Full Fine-tuning:An Illusion of Equivalence" />
-      <published>2024-10-28T00:00:00+02:00</published>
-      <updated>2024-10-28T00:00:00+02:00</updated>
-      <id>http://localhost:4000/LoraVSFT</id>
-      <content type="html" xml:base="http://localhost:4000/LoraVSFT">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Fine-tuning is a crucial paradigm for adapting pre-trained large language models to downstream tasks. Recently, methods like Low-Rank Adaptation (LoRA) have been shown to match the performance of fully fine-tuned models on various tasks with an extreme reduction in the number of trainable parameters. Even in settings where both methods learn similarly accurate models, \emph{are their learned solutions really equivalent?} We study how different fine-tuning methods change pre-trained models by analyzing the model's weight matrices through the lens of their spectral properties. We find that full fine-tuning and LoRA yield weight matrices whose singular value decompositions exhibit very different structure; moreover, the fine-tuned models themselves show distinct generalization behaviors when tested outside the adaptation task's distribution. More specifically, we first show that the weight matrices trained with LoRA have new, high-ranking singular vectors, which we call \emph{intruder dimensions}. Intruder dimensions do not appear during full fine-tuning. Second, we show that LoRA models with intruder dimensions, despite achieving similar performance to full fine-tuning on the target task, become worse models of the pre-training distribution and adapt less robustly to multiple tasks sequentially. Higher-rank, rank-stabilized LoRA models closely mirror full fine-tuning, even when performing on par with lower-rank LoRA models on the same tasks. These results suggest that models updated with LoRA and full fine-tuning access different parts of parameter space, even when they perform equally on the fine-tuned distribution. We conclude by examining why intruder dimensions appear in LoRA fine-tuned models, why they are undesirable, and how their effects can be minimized. &lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shuttleworth,+R&quot; rel=&quot;nofollow&quot;&gt;Reece Shuttleworth&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Andreas,+J&quot; rel=&quot;nofollow&quot;&gt;Jacob Andreas&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Torralba,+A&quot; rel=&quot;nofollow&quot;&gt;Antonio Torralba&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sharma,+P&quot; rel=&quot;nofollow&quot;&gt;Pratyusha Sharma&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.21228&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">MrT5:Dynamic Token Merging for Efficient Byte-level Language Models</title>
-      <link href="http://localhost:4000/DynamicToken" rel="alternate" type="text/html" title="MrT5:Dynamic Token Merging for Efficient Byte-level Language Models" />
-      <published>2024-10-28T00:00:00+02:00</published>
-      <updated>2024-10-28T00:00:00+02:00</updated>
-      <id>http://localhost:4000/DynamicToken</id>
-      <content type="html" xml:base="http://localhost:4000/DynamicToken">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Models that rely on subword tokenization have significant drawbacks, such as sensitivity to character-level noise like spelling errors and inconsistent compression rates across different languages and scripts. While character- or byte-level models like ByT5 attempt to address these concerns, they have not gained widespread adoption -- processing raw byte streams without tokenization results in significantly longer sequence lengths, making training and inference inefficient. This work introduces MrT5 (MergeT5), a more efficient variant of ByT5 that integrates a token deletion mechanism in its encoder to dynamically shorten the input sequence length. After processing through a fixed number of encoder layers, a learnt delete gate determines which tokens are to be removed and which are to be retained for subsequent layers. MrT5 effectively ``merges'' critical information from deleted tokens into a more compact sequence, leveraging contextual information from the remaining tokens. In continued pre-training experiments, we find that MrT5 can achieve significant gains in inference runtime with minimal effect on performance. When trained on English text, MrT5 demonstrates the capability to transfer its deletion feature zero-shot across several languages, with significant additional improvements following multilingual training. Furthermore, MrT5 shows comparable accuracy to ByT5 on downstream evaluations such as XNLI and character-level tasks while reducing sequence lengths by up to 80%. Our approach presents a solution to the practical limitations of existing byte-level models. &lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Kallini,+J&quot; rel=&quot;nofollow&quot;&gt;Julie Kallini&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Murty,+S&quot; rel=&quot;nofollow&quot;&gt;Shikhar Murty&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Manning,+C+D&quot; rel=&quot;nofollow&quot;&gt;Christopher D. Manning&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Potts,+C&quot; rel=&quot;nofollow&quot;&gt;Christopher Potts&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Csord%C3%A1s,+R&quot; rel=&quot;nofollow&quot;&gt;Róbert Csordás&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.20771&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
