@@ -1,0 +1,25 @@
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .pagination a, .pagination span {
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    color: #333;
+  }
+  .pagination a:hover {
+    background-color: #f5f5f5;
+  }
+
+.pagination a.first-page, .pagination a.last-page {
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    color: #333;
+}
+.pagination a.first-page:hover, .pagination a.last-page:hover {
+    background-color: #f5f5f5;
+}
