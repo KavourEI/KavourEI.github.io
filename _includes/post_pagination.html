@@ -1,13 +1,28 @@
 <nav class="pagination" role="pagination">
+    <!-- First Page Button -->
+    {% if paginator.page > 1 %}
+        <a class="first-page" href="{{ site.baseurl }}" title="First Page">&laquo; First</a>
+    {% endif %}
+
+    <!-- Newer Posts Button -->
     {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
             <a class="newer-posts" href="{{ site.baseurl }}" title="Previous Page">&laquo; Newer Posts</a>
         {% else %}
             <a class="newer-posts" href="{{ site.baseurl }}page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Newer Posts</a>
-      {% endif %}
+        {% endif %}
     {% endif %}
+
+    <!-- Current Page Indicator -->
     <span class="page-number"> Page {{ paginator.page }} of {{ paginator.total_pages }} </span>
-    {% if paginator.next_page %} 
+
+    <!-- Older Posts Button -->
+    {% if paginator.next_page %}
         <a class="older-posts" href="{{ site.baseurl }}page{{ paginator.next_page }}/" title="Next Page">Older Posts &raquo;</a>
-    {% endif %} 
+    {% endif %}
+
+    <!-- Last Page Button -->
+    {% if paginator.page < paginator.total_pages %}
+        <a class="last-page" href="{{ site.baseurl }}page{{ paginator.total_pages }}/" title="Last Page">Last &raquo;</a>
+    {% endif %}
 </nav>
