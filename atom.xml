@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>Mistral AI Unveils Mistral Small 3 - A High-Performance, Latency-Optimized Model</title>
+        
+          <description>&lt;p&gt;Mistral AI has introduced Mistral Small 3, a 24-billion-parameter model optimized for low latency, delivering performance comparable to larger models while maintaining efficiency. Released under the Apache 2.0 license, it offers a versatile solution for various AI applications.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 30 Jan 2025 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/mistralsmall</link>
+        <guid isPermaLink="true">http://localhost:4000/mistralsmall</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Exploring QwQ-32B:A New Frontier in AI Reasoning</title>
         
           <description>&lt;p&gt; The QwQ-32B model by the Qwen Team represents a significant advancement in AI reasoning capabilities, showcasing impressive performance in mathematical problem-solving and programming while highlighting its limitations and potential for future development.&lt;/p&gt;
@@ -2662,6 +2677,21 @@ Diffusion 3.5 Large&lt;/a&gt;, enhancing image generation capabilities with prec
         <link>
         http://localhost:4000/VeoAstraGemini</link>
         <guid isPermaLink="true">http://localhost:4000/VeoAstraGemini</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>DeepSeekMath Pushing the Limits of Mathematical Reasoning in Open Language Models</title>
+        
+          <description>&lt;p&gt; &lt;a href=&quot;https://arxiv.org/abs/2405.09673&quot;&gt;LoRA&lt;/a&gt; compared to full finetuning, shows strong regularization effects.. &lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 27 Apr 2024 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/DeepSeekMath</link>
+        <guid isPermaLink="true">http://localhost:4000/DeepSeekMath</guid>
       </item>
       
     
