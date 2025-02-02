@@ -1,25 +1,39 @@
+/* Default styles for pagination */
 .pagination {
-    text-align: center;
-    margin-top: 20px;
-  }
-  .pagination a, .pagination span {
-    margin: 0 5px;
-    padding: 5px 10px;
-    text-decoration: none;
-    border: 1px solid #ddd;
-    color: #333;
-  }
-  .pagination a:hover {
-    background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pagination .first-page,
+.pagination .newer-posts,
+.pagination .page-number,
+.pagination .older-posts,
+.pagination .last-page {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .pagination {
+      flex-direction: column;
+      align-items: stretch;
   }
 
-.pagination a.first-page, .pagination a.last-page {
-    margin: 0 5px;
-    padding: 5px 10px;
-    text-decoration: none;
-    border: 1px solid #ddd;
-    color: #333;
-}
-.pagination a.first-page:hover, .pagination a.last-page:hover {
-    background-color: #f5f5f5;
+  .pagination .first-page,
+  .pagination .last-page {
+      order: 1; /* Move First and Last buttons to the bottom */
+  }
+
+  .pagination .newer-posts,
+  .pagination .older-posts {
+      order: 0; /* Keep Newer and Older Posts buttons at the top */
+  }
+
+  .pagination .page-number {
+      order: 2; /* Keep the page number in the middle */
+  }
 }
