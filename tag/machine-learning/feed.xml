@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/machine-learning/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2025-02-02T15:23:54+02:00</updated>
+  <updated>2025-02-02T15:37:58+02:00</updated>
   <id>http://localhost:4000/tag/machine-learning/feed.xml</id>
 
   
@@ -75,7 +75,6 @@ The libraries that we are going to use.&lt;/h2&gt;
   library(tidytext)
 &lt;/code&gt;&lt;/pre&gt;
 
-
 &lt;p&gt; As you can see we are going to use:
 &lt;ul&gt;
 &lt;li&gt; &lt;strong&gt;tidyverse&lt;/strong&gt; library: in order to manipulate data. This library will load all the excited and Wonderfull constructed parts of this universe a.k.a. ggplot, dplyr, tidyr, purrr, stringr, etc. You can accomplish great manipulation goals by using those libraries!&lt;/li&gt;
@@ -91,7 +90,7 @@ The libraries that we are going to use.&lt;/h2&gt;
 &lt;p&gt;We will now move forward to the step which in my opinion is the most important in a  process of model building. This step if neglected or completed recklessly, can result in a model that would not perform as expected and most certainly, would not give us back the results as expected. Anyways, in order to be able to complete this step, we need to have data to preprocess. We load the data downloaded as follows :&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  bbc &lt;- read.csv('/Users/...your_path.../bbc_news.csv', stringsAsFactors = FALSE)
+  bbc &amp;lt;- read.csv('/Users/...your_path.../bbc_news.csv', stringsAsFactors = FALSE)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The data as you may have already have seen, contain the following variables:
@@ -106,14 +105,14 @@ Initially, I would like to apologise of the explanations on guid and link variab
 &lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  bbc2 &lt;- bbc %&gt;% 
+  bbc2 &amp;lt;- bbc %&amp;gt;% 
   select(title, description)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;As a first toward preprocessing we are going to convert this dataset into a corpus. Corpus is a collection of data (text or audio) which are organised as dataset.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  bbc.corpus &lt;- corpus(bbc2, text_field = 'description')
+  bbc.corpus &amp;lt;- corpus(bbc2, text_field = 'description')
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt; Next in line are the changes that needed to be done in the given dataset. Namely, we need to tokenize that dataset. Apart from that we need to remove punctuation as the special characters do not contain and relevant information for topic indications. For the same reasons, we need to remove the numbers and of course the stopwords&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;  of English language.  &lt;/p&gt;
@@ -123,20 +122,20 @@ Initially, I would like to apologise of the explanations on guid and link variab
 &lt;p&gt;Finally, we are going to convert the whole corpus to lower characters. This is done so that the model will not judge same words like Legislation and legislation as two different words only for the first letter. Those steps are completed with the following commands:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  bbc.corpus.tokens &lt;- tokens(bbc.corpus, remove_punct = TRUE, remove_numbers = TRUE)
-  bbc.corpus.tokens &lt;- tokens_remove(bbc.corpus.tokens, stopwords(&quot;english&quot;))
-  bbc.corpus.tokens &lt;- tokens_wordstem(bbc.corpus.tokens, language = 'english')
-  bbc.corpus.tokens &lt;- tokens_tolower(bbc.corpus.tokens)
+  bbc.corpus.tokens &amp;lt;- tokens(bbc.corpus, remove_punct = TRUE, remove_numbers = TRUE)
+  bbc.corpus.tokens &amp;lt;- tokens_remove(bbc.corpus.tokens, stopwords(&quot;english&quot;))
+  bbc.corpus.tokens &amp;lt;- tokens_wordstem(bbc.corpus.tokens, language = 'english')
+  bbc.corpus.tokens &amp;lt;- tokens_tolower(bbc.corpus.tokens)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;At this point your object bbc.corpus.tokens should look like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_1.png&quot; alt=&quot;bbc.corpus.tokens&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_1.png&quot; alt=&quot;bbc.corpus.tokens&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Finally, we are going to create a sparse &lt;strong&gt;document-feature matrix&lt;/strong&gt; with the &lt;em&gt;dfm&lt;/em&gt; function. This is needed in order for LDA function to work.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  dfm_bbc &lt;- dfm(bbc.corpus.tokens)
+  dfm_bbc &amp;lt;- dfm(bbc.corpus.tokens)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;That is all for the preprocessing step. Before moving to the next step which the model building, I feel the need to tell you the following. NLP preprocessing depends on the context of data that you have and the goal you want to achieve. You really need to think this through. In our case, you will see some words later on like the word &lt;mark&gt;say&lt;/mark&gt; or &lt;mark&gt;seem&lt;/mark&gt;, that you may think it is better to remove after the first results due to the fact that those words appear in many topic groups. This may result in a more thorough view of your groups. If this is your goal, this is fine way to go. Therefore, If your goal is to make this model let's say more general and try to predict other text data with it I advise you to think it twice, which words should be removed, which should stay and what is the reason and result of such action.&lt;/p&gt;
@@ -159,9 +158,9 @@ Initially, I would like to apologise of the explanations on guid and link variab
 &lt;p&gt;Of course apart from those, there are other arguments that you may want/need to tune but the least required so that we proceed are the aforementioned ones. So before running our model, I am going to search the number of topics with the help of ldatuning::FindTopicNumber() function as I indicated earlier. Initially we need to convert our dfm to an object of class DocumentTermMatrix as described earlier.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  new.dtm &lt;- convert(dfm_bbc, to = 'topicmodels')
+  new.dtm &amp;lt;- convert(dfm_bbc, to = 'topicmodels')
 
-  result &lt;- FindTopicsNumber(
+  result &amp;lt;- FindTopicsNumber(
     new.dtm,
     topics = seq(from = 2, to = 15, by = 1),
     metrics = c(&quot;Griffiths2004&quot;, &quot;CaoJuan2009&quot;, &quot;Arun2010&quot;, &quot;Deveaud2014&quot;),
@@ -174,7 +173,7 @@ Initially, I would like to apologise of the explanations on guid and link variab
 
 &lt;p&gt;Due to the seed, this should result to the following metrics matrix:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_2.png&quot; alt=&quot;results&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_2.png&quot; alt=&quot;results&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The package &lt;em&gt;ldatuning&lt;/em&gt; provide to us a way to visually check the results with the usage of the function &lt;em&gt;FindTopicsNumber_plot&lt;/em&gt;:&lt;/p&gt;
 
@@ -182,7 +181,7 @@ Initially, I would like to apologise of the explanations on guid and link variab
   FindTopicsNumber_plot(result)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_3.png&quot; alt=&quot;find_topics_number&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_3.png&quot; alt=&quot;find_topics_number&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Our goal here, as you can see is to choose K-candidate (number of topics) that either maximise the bottom or minimise the top. I am not going to go through the metrics and how they are calculated but I will leave a reference at the end if you are interested. From the results produces (mainly the plot 🫥) the best candidate is K=3. This is obtained by the CaoJuan2009 metric. I have excluded the usage of the other three due to the fact that they do not converge. Here I am aiming for results on the level of field like politics, sports etc. If you would like more detailed clustering, for example foreign policy, domestic policy, soccer, basketball, etc then I advise you to search for 20 or even higher number of topics. &lt;/p&gt;
 
@@ -206,25 +205,25 @@ Initially, I would like to apologise of the explanations on guid and link variab
 &lt;p&gt;Perplexity and Coherence have their pros and cons. Here we are going to use perplexity to continue. Coherence is not hard to be computed though (hint use topic_coherence of package topicdoc). Here for the perplexity, I have decided to create two vectors with some of  possible values of alpha and beta and then compute all the perplexity values for a set of test data. The computations and results are the following&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  alpha_values &lt;- seq(from =0.1,to = 1, by = 0.1)
+  alpha_values &amp;lt;- seq(from =0.1,to = 1, by = 0.1)
   alpha_values
-  beta_values &lt;- seq(from =0.1,to = 1, by = 0.1)
+  beta_values &amp;lt;- seq(from =0.1,to = 1, by = 0.1)
   beta_values
   
-  n &lt;- length(alpha_values)
-  result_matrix &lt;- matrix(0, n * n, 3)
+  n &amp;lt;- length(alpha_values)
+  result_matrix &amp;lt;- matrix(0, n * n, 3)
   
-  row_num &lt;- 1
+  row_num &amp;lt;- 1
   for (i in 1:n) {
     for (j in 1:n) {
-      result_matrix[row_num, 1] &lt;- alpha_values[i]
-      result_matrix[row_num, 2] &lt;- beta_values[j]
+      result_matrix[row_num, 1] &amp;lt;- alpha_values[i]
+      result_matrix[row_num, 2] &amp;lt;- beta_values[j]
       
-      m &lt;- LDA(train_dtm, k=3, method = 'Gibbs', control = list(alpha = alpha_values[i], seed = 1234), beta = beta_values[j])
-      perp.value &lt;- perplexity(m, test_dtm)
+      m &amp;lt;- LDA(train_dtm, k=3, method = 'Gibbs', control = list(alpha = alpha_values[i], seed = 1234), beta = beta_values[j])
+      perp.value &amp;lt;- perplexity(m, test_dtm)
       
-      result_matrix[row_num, 3] &lt;- perp.value
-      row_num &lt;- row_num + 1
+      result_matrix[row_num, 3] &amp;lt;- perp.value
+      row_num &amp;lt;- row_num + 1
     }
   }
 &lt;/code&gt;&lt;/pre&gt;
@@ -237,7 +236,7 @@ Initially, I would like to apologise of the explanations on guid and link variab
 
 and the result till this point should be :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_4.png&quot; alt=&quot;ResList&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_4.png&quot; alt=&quot;ResList&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We see here the setting for hyperparameter alpha is 0.2 whereas for beta according to perplexity measure it makes no difference. Recall the meaning of them and try to understand what 0.2 means.&lt;/p&gt;
 &lt;p&gt;As a result, we are ready to build our model according to those settings and proceed to the final act of this article where we will review the results of it.&lt;/p&gt;
@@ -247,59 +246,59 @@ and the result till this point should be :&lt;/p&gt;
 &lt;p&gt;After having gathered all the information needed and went through all required preprocessing step it is time to build the model. This is done with the help of &lt;em&gt;LDA&lt;/em&gt; function of package &lt;em&gt;topicmodels&lt;/em&gt;. &lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  model.lda &lt;- LDA(new.dtm, k = 3, method = &quot;Gibbs&quot;, control = list(alpha = 0.2, seed = 1234))
+  model.lda &amp;lt;- LDA(new.dtm, k = 3, method = &quot;Gibbs&quot;, control = list(alpha = 0.2, seed = 1234))
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;From this point and on, you can check many very interesting statistics like the per-topic-per-word probability &lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  news.topics &lt;- tidy(m_final, matrix = 'beta')
+  news.topics &amp;lt;- tidy(m_final, matrix = 'beta')
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;where you can see what is the probability of each word belonging to a topic:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topc_bbc_5.png&quot; alt=&quot;topic_term_beta&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topc_bbc_5.png&quot; alt=&quot;topic_term_beta&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;or the top terms per topic in order to draw conclusions on the actual humanly communicated context of topic&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  top.terms &lt;- news.topics %&gt;% 
-    group_by(topic) %&gt;% 
-    top_n(5) %&gt;% 
-    ungroup() %&gt;% 
+  top.terms &amp;lt;- news.topics %&amp;gt;% 
+    group_by(topic) %&amp;gt;% 
+    top_n(5) %&amp;gt;% 
+    ungroup() %&amp;gt;% 
     arrange(topic, -beta)
 
-  top.terms %&gt;% 
-    mutate(term = reorder(term, beta)) %&gt;% 
+  top.terms %&amp;gt;% 
+    mutate(term = reorder(term, beta)) %&amp;gt;% 
     ggplot(aes(term, beta, fill = factor(topic))) +
     geom_col(show.legend = TRUE) +
     facet_wrap(~ topic, scales = 'free') +
     coord_flip()
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_6.png&quot; alt=&quot;term_beta&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_6.png&quot; alt=&quot;term_beta&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can see here the word say that I mentioned in the beginning... 😉 Here we can get an idea about each topic that the model clustered our BBC news data. I would say, a topic about sports, a topic about news related to Ukraine, and a topic of domestic (UK) news. Finally I would like you to copy paste this final part of chunk, and check out the result!&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-  new.dtm.2 &lt;- new.dtm[slam::row_sums(new.dtm) &gt; 0, ]
-  phi &lt;- as.matrix(posterior(m_final)$terms)
-  theta &lt;- as.matrix(posterior(m_final)$topics)
-  vocab &lt;- colnames(phi)
-  doc.length &lt;- slam::row_sums(new.dtm)
-  term.freq &lt;- slam::col_sums(new.dtm)[match(vocab, colnames(new.dtm))]
+  new.dtm.2 &amp;lt;- new.dtm[slam::row_sums(new.dtm) &amp;gt; 0, ]
+  phi &amp;lt;- as.matrix(posterior(m_final)$terms)
+  theta &amp;lt;- as.matrix(posterior(m_final)$topics)
+  vocab &amp;lt;- colnames(phi)
+  doc.length &amp;lt;- slam::row_sums(new.dtm)
+  term.freq &amp;lt;- slam::col_sums(new.dtm)[match(vocab, colnames(new.dtm))]
   
-  json &lt;- createJSON(phi = phi, theta = theta, vocab = vocab, doc.length = doc.length, term.frequency = term.freq)
+  json &amp;lt;- createJSON(phi = phi, theta = theta, vocab = vocab, doc.length = doc.length, term.frequency = term.freq)
   serVis(json)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_7.png&quot; alt=&quot;LDAvis_res&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/LDA_BBC/topic_bbc_7.png&quot; alt=&quot;LDAvis_res&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This chunk will create an interactive app as the following where you can explore the capabilities available there. You can check out all the words that are included in every topic.&lt;/p&gt;
 
 &lt;p&gt;Overall, I believe that you have a good idea and all the tools to start exploring LDA yourself. I hope you've enjoyed the implementation presented here. Feel free to copy paste any part of the code, insert your data and explore nlp world from a different perspective.&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;Be safe, code safer!&lt;/p&gt;</content>
 
@@ -380,7 +379,7 @@ and the result till this point should be :&lt;/p&gt;
 
 &lt;p&gt;Having understood the fundamentals I believe that is time to try and explore how LDA woks and go through the process itself. The structure of LDA is the following:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/lda_fund/lda_basic_1&quot; alt=&quot;lda_model_architecture&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/lda_fund/lda_basic_1&quot; alt=&quot;lda_model_architecture&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;where:
 &lt;ul&gt;
@@ -426,7 +425,8 @@ and the result till this point should be :&lt;/p&gt;
 
 &lt;p&gt;I believe that you now have a solid idea about topic modelling, how LDA process works and what is the meaning of every part of it. In the future I am going to come back with an example on LDA computed probably with the help of R programming Language, so stay tuned!&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;hr /&gt;
+
 &lt;p&gt;Be safe, code safer!&lt;/p&gt;</content>
 
       
