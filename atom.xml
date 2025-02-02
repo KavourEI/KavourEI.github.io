@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>Tülu 3 405B The New Heavyweight Champion in AI Models</title>
+        
+          <description>&lt;p&gt;Hold onto your hats, all of you people! The Allen Institute for AI has just unleashed &lt;a href=&quot;https://allenai.org/blog/tulu-3-technical&quot;&gt;Tülu 3 405B&lt;/a&gt;, a colossal 405-billion-parameter model that's not just flexing its muscles but also outpacing the competition. This update is setting new benchmarks, leaving rivals like DeepSeek V3 and GPT-4o &lt;i&gt;in the dust&lt;/i&gt;, all while being as open-source as a community cookbook.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 30 Jan 2025 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/tulu3</link>
+        <guid isPermaLink="true">http://localhost:4000/tulu3</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Mistral AI Unveils Mistral Small 3 - A High-Performance, Latency-Optimized Model</title>
         
           <description>&lt;p&gt;Mistral AI has introduced Mistral Small 3, a 24-billion-parameter model optimized for low latency, delivering performance comparable to larger models while maintaining efficiency. Released under the Apache 2.0 license, it offers a versatile solution for various AI applications.&lt;/p&gt;
@@ -18,6 +33,21 @@
         <link>
         http://localhost:4000/mistralsmall</link>
         <guid isPermaLink="true">http://localhost:4000/mistralsmall</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>DeepSeek-R1 Teams Up with NVIDIA NIM A Power Duo in AI</title>
+        
+          <description>&lt;p&gt;DeepSeek-R1, a 671-billion-parameter model known for its exceptional reasoning capabilities, is now available as an NVIDIA NIM microservice. This collaboration promises to deliver high-speed, efficient AI solutions for complex tasks.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 30 Jan 2025 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/NVIDIADSR1</link>
+        <guid isPermaLink="true">http://localhost:4000/NVIDIADSR1</guid>
       </item>
       
     
