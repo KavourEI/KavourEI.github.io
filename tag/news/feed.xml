@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/news/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2025-02-02T15:41:54+02:00</updated>
+  <updated>2025-02-10T02:21:40+02:00</updated>
   <id>http://localhost:4000/tag/news/feed.xml</id>
 
   
@@ -44,6 +44,107 @@
   
   
 
+  
+    <entry>
+      <title type="html">GitHub Copilot - The Agent Awakens</title>
+      <link href="http://localhost:4000/GitAgent" rel="alternate" type="text/html" title="GitHub Copilot - The Agent Awakens" />
+      <published>2025-02-06T00:00:00+02:00</published>
+      <updated>2025-02-06T00:00:00+02:00</updated>
+      <id>http://localhost:4000/GitAgent</id>
+      <content type="html" xml:base="http://localhost:4000/GitAgent">&lt;p&gt;GitHub has unveiled a groundbreaking &lt;a href=&quot;https://github.com/features/copilot/whats-new?utm_source=agent-awakens-announcement&amp;amp;utm_medium=blogtop&amp;amp;utm_campaign=agentic-ai&quot;&gt;update to Copilot&lt;/a&gt;: the new agent mode. This enhancement empowers Copilot to autonomously iterate on its code, identify errors, and rectify them, significantly boosting developer productivity.&lt;/p&gt;
+
+&lt;iframe width=&quot;699&quot; height=&quot;393&quot; src=&quot;https://www.youtube.com/embed/of--3Fq1M3w&quot; title=&quot;Agent mode and new models in GitHub Copilot Chat: Visual Studio Code&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;GitHub announced the agent mode for Copilot, available in Visual Studio Code. This feature enables Copilot to suggest terminal commands and prompts developers to execute them. It also analyzes runtime errors with self-healing capabilities, allowing it to recognize and automatically fix issues in the code. This advancement transforms Copilot from a passive assistant into an active collaborator in the development process.&lt;/p&gt;
+
+&lt;p&gt;Alongside agent mode, GitHub announced the general availability of Copilot Edits. This feature allows developers to make code changes more efficiently, streamlining the development process and reducing the time spent on manual edits. Copilot Edits leverages AI to suggest contextually relevant modifications, enhancing code quality and consistency.&lt;/p&gt;
+
+&lt;p&gt;GitHub also provided a preview of their Software Engineering (SWE) agent. This agent is designed to assist developers by providing intelligent code suggestions, automating repetitive tasks, and improving overall code quality. The SWE agent represents a significant step forward in integrating AI into the software development lifecycle, offering developers a powerful tool to enhance their coding experience.&lt;/p&gt;
+
+&lt;p&gt;With the introduction of agent mode, the general availability of Copilot Edits, and the preview of the SWE agent, GitHub is redefining the role of AI in software development. These innovations aim to make coding more efficient, intuitive, and collaborative, ushering in a new era of intelligent development tools. There are many more capabilities and resources in the &lt;a href=&quot;https://github.blog/news-insights/product-news/github-copilot-the-agent-awakens/&quot;&gt;official announcement&lt;/a&gt; for you to explore. So don't hacitate if you are interested and get your hands dirty!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">GitHub has unveiled a groundbreaking update to Copilot: the new agent mode. This enhancement empowers Copilot to autonomously iterate on its code, identify errors, and rectify them, significantly boosting developer productivity.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Tülu 3 405B The New Heavyweight Champion in AI Models</title>
+      <link href="http://localhost:4000/tulu3" rel="alternate" type="text/html" title="Tülu 3 405B The New Heavyweight Champion in AI Models" />
+      <published>2025-01-30T00:00:00+02:00</published>
+      <updated>2025-01-30T00:00:00+02:00</updated>
+      <id>http://localhost:4000/tulu3</id>
+      <content type="html" xml:base="http://localhost:4000/tulu3">&lt;p&gt;Hold onto your hats, all of you people! The Allen Institute for AI has just unleashed &lt;a href=&quot;https://allenai.org/blog/tulu-3-technical&quot;&gt;Tülu 3 405B&lt;/a&gt;, a colossal 405-billion-parameter model that's not just flexing its muscles but also outpacing the competition. This update is setting new benchmarks, leaving rivals like DeepSeek V3 and GPT-4o &lt;i&gt;in the dust&lt;/i&gt;, all while being as open-source as a community cookbook.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.datocms-assets.com/64837/1738270804-image-23.png?fit=max&amp;amp;fm=webp&amp;amp;h=810&amp;amp;w=1550&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On January 30, 2025, the Allen Institute for AI (Ai2) proudly introduced Tülu 3 405B, marking the first time fully open post-training recipes have been applied to such a massive open-weight model. Building upon the success of their previous Tülu 3 release, this model demonstrates that size does matter, especially when combined with innovative training techniques. Tülu 3 405B doesn't just compete; it often surpasses models like DeepSeek V3 and GPT-4o, and leaves prior open-weight models, including Llama 3.1 405B Instruct and Nous Hermes 3 405B, eating its dust on many standard benchmarks.&lt;/p&gt;
+
+&lt;p&gt;So, how did Ai2 cook up this powerhouse? They scaled their proven Tülu 3 post-training recipe to the Llama-405B base model, following a five-step program:&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;&lt;strong&gt;Data Delicacy:&lt;/strong&gt; Carefully curating and synthesizing data targeting core skills.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Supervised Finetuning (SFT):&lt;/strong&gt; Applying a finely selected mix of prompts and their completions.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Direct Preference Optimization (DPO):&lt;/strong&gt; Tweaking the model based on both off- and on-policy preference data.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Reinforcement Learning with Verifiable Rewards (RLVR):&lt;/strong&gt; A fresh, RL-based method to boost specific skills with rewards you can take to the bank.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Evaluation Extravaganza:&lt;/strong&gt; Implementing a standardized suite for development, decontamination, and final evaluation stages.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In the training arena, Ai2 employed their novel RLVR approach, focusing on tasks with clear-cut answers like math problems and precise instructions. To handle the 405B scale, they deployed the model using vLLM with 16-way tensor parallelism, utilizing 240 GPUs for training. Each RLVR iteration involved approximately 550 seconds for inference, 25 seconds for weight transfer, and 1500 seconds for training. Interestingly, they discovered that feeding the model exclusively MATH data, rather than a mix, yielded better results at this scale—a testament to the model's appetite for complex, specialized tasks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.datocms-assets.com/64837/1738199366-rlvr-diagram.png?dpr=2&amp;amp;fit=max&amp;amp;fm=webp&amp;amp;h=810&amp;amp;w=1550&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tülu 3 405B isn't just big; it's a top performer. It achieves competitive or superior results compared to both DeepSeek V3 and GPT-4o, while also surpassing prior open-weight post-trained models of the same size on many standard benchmarks. Notably, the Reinforcement Learning from Verifiable Rewards (RLVR) framework improved MATH performance more significantly at this larger scale, echoing findings in the DeepSeek-R1 report. Overall, Tülu 3 405B shows a consistent edge over DeepSeek V3, especially when safety benchmarks are in play.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.datocms-assets.com/64837/1738199543-405b_rl.png?dpr=2&amp;amp;fit=max&amp;amp;fm=webp&amp;amp;h=810&amp;amp;w=1550&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With Tülu 3 405B, Ai2 has not only scaled up their model parameters but also the impact of open-source AI. This release underscores the scalability and effectiveness of their post-training recipe at an unprecedented scale, setting a new standard in the AI community. As Tülu 3 405B continues to flex its capabilities, it's clear that the future of AI is not just about bigger models, but smarter, more open ones too. To get started and find out more detailes about the afforementioned updates you can visit official &lt;a href=&quot;https://allenai.org/blog/tulu-3-405B&quot;&gt;blog post&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="news" />
+      
+
+      
+        <summary type="html">Hold onto your hats, all of you people! The Allen Institute for AI has just unleashed Tülu 3 405B, a colossal 405-billion-parameter model that's not just flexing its muscles but also outpacing the competition. This update is setting new benchmarks, leaving rivals like DeepSeek V3 and GPT-4o in the dust, all while being as open-source as a community cookbook.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Mistral AI Unveils Mistral Small 3 - A High-Performance, Latency-Optimized Model</title>
@@ -152,63 +253,6 @@
 
       
         <summary type="html">DeepSeek-R1, a 671-billion-parameter model known for its exceptional reasoning capabilities, is now available as an NVIDIA NIM microservice. This collaboration promises to deliver high-speed, efficient AI solutions for complex tasks.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Tülu 3 405B The New Heavyweight Champion in AI Models</title>
-      <link href="http://localhost:4000/tulu3" rel="alternate" type="text/html" title="Tülu 3 405B The New Heavyweight Champion in AI Models" />
-      <published>2025-01-30T00:00:00+02:00</published>
-      <updated>2025-01-30T00:00:00+02:00</updated>
-      <id>http://localhost:4000/tulu3</id>
-      <content type="html" xml:base="http://localhost:4000/tulu3">&lt;p&gt;Hold onto your hats, all of you people! The Allen Institute for AI has just unleashed &lt;a href=&quot;https://allenai.org/blog/tulu-3-technical&quot;&gt;Tülu 3 405B&lt;/a&gt;, a colossal 405-billion-parameter model that's not just flexing its muscles but also outpacing the competition. This update is setting new benchmarks, leaving rivals like DeepSeek V3 and GPT-4o &lt;i&gt;in the dust&lt;/i&gt;, all while being as open-source as a community cookbook.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.datocms-assets.com/64837/1738270804-image-23.png?fit=max&amp;amp;fm=webp&amp;amp;h=810&amp;amp;w=1550&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;On January 30, 2025, the Allen Institute for AI (Ai2) proudly introduced Tülu 3 405B, marking the first time fully open post-training recipes have been applied to such a massive open-weight model. Building upon the success of their previous Tülu 3 release, this model demonstrates that size does matter, especially when combined with innovative training techniques. Tülu 3 405B doesn't just compete; it often surpasses models like DeepSeek V3 and GPT-4o, and leaves prior open-weight models, including Llama 3.1 405B Instruct and Nous Hermes 3 405B, eating its dust on many standard benchmarks.&lt;/p&gt;
-
-&lt;p&gt;So, how did Ai2 cook up this powerhouse? They scaled their proven Tülu 3 post-training recipe to the Llama-405B base model, following a five-step program:&lt;/p&gt;
-&lt;ol&gt;
-    &lt;li&gt;&lt;strong&gt;Data Delicacy:&lt;/strong&gt; Carefully curating and synthesizing data targeting core skills.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Supervised Finetuning (SFT):&lt;/strong&gt; Applying a finely selected mix of prompts and their completions.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Direct Preference Optimization (DPO):&lt;/strong&gt; Tweaking the model based on both off- and on-policy preference data.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Reinforcement Learning with Verifiable Rewards (RLVR):&lt;/strong&gt; A fresh, RL-based method to boost specific skills with rewards you can take to the bank.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Evaluation Extravaganza:&lt;/strong&gt; Implementing a standardized suite for development, decontamination, and final evaluation stages.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;In the training arena, Ai2 employed their novel RLVR approach, focusing on tasks with clear-cut answers like math problems and precise instructions. To handle the 405B scale, they deployed the model using vLLM with 16-way tensor parallelism, utilizing 240 GPUs for training. Each RLVR iteration involved approximately 550 seconds for inference, 25 seconds for weight transfer, and 1500 seconds for training. Interestingly, they discovered that feeding the model exclusively MATH data, rather than a mix, yielded better results at this scale—a testament to the model's appetite for complex, specialized tasks.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.datocms-assets.com/64837/1738199366-rlvr-diagram.png?dpr=2&amp;amp;fit=max&amp;amp;fm=webp&amp;amp;h=810&amp;amp;w=1550&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Tülu 3 405B isn't just big; it's a top performer. It achieves competitive or superior results compared to both DeepSeek V3 and GPT-4o, while also surpassing prior open-weight post-trained models of the same size on many standard benchmarks. Notably, the Reinforcement Learning from Verifiable Rewards (RLVR) framework improved MATH performance more significantly at this larger scale, echoing findings in the DeepSeek-R1 report. Overall, Tülu 3 405B shows a consistent edge over DeepSeek V3, especially when safety benchmarks are in play.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.datocms-assets.com/64837/1738199543-405b_rl.png?dpr=2&amp;amp;fit=max&amp;amp;fm=webp&amp;amp;h=810&amp;amp;w=1550&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;With Tülu 3 405B, Ai2 has not only scaled up their model parameters but also the impact of open-source AI. This release underscores the scalability and effectiveness of their post-training recipe at an unprecedented scale, setting a new standard in the AI community. As Tülu 3 405B continues to flex its capabilities, it's clear that the future of AI is not just about bigger models, but smarter, more open ones too. To get started and find out more detailes about the afforementioned updates you can visit official &lt;a href=&quot;https://allenai.org/blog/tulu-3-405B&quot;&gt;blog post&lt;/a&gt;.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">Hold onto your hats, all of you people! The Allen Institute for AI has just unleashed Tülu 3 405B, a colossal 405-billion-parameter model that's not just flexing its muscles but also outpacing the competition. This update is setting new benchmarks, leaving rivals like DeepSeek V3 and GPT-4o in the dust, all while being as open-source as a community cookbook.</summary>
       
 
       
@@ -604,82 +648,6 @@ continues to innovate and expand its offerings, users can look forward to even m
 
       
         <summary type="html">Runway has presented Frames, a groundbreaking base model for image generation that enhances stylistic control and visual fidelity, enabling creators to design unique worlds with precision.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">The Swiss Army Knife of Sound Generation is called Fugatto</title>
-      <link href="http://localhost:4000/FlexMusic" rel="alternate" type="text/html" title="The Swiss Army Knife of Sound Generation is called Fugatto" />
-      <published>2024-11-25T00:00:00+02:00</published>
-      <updated>2024-11-25T00:00:00+02:00</updated>
-      <id>http://localhost:4000/FlexMusic</id>
-      <content type="html" xml:base="http://localhost:4000/FlexMusic">&lt;p&gt; NVIDIA's Fugatto is a revolutionary generative AI sound model that allows users to create and manipulate audio through text prompts, offering unprecedented control over music, voices, and soundscapes.&lt;/p&gt;
-
-&lt;p&gt;The landscape of audio production is undergoing a transformation with the introduction of advanced generative AI technologies. NVIDIA's latest innovation, &lt;strong&gt;Fugatto&lt;/strong&gt;, represents a significant leap forward in sound generation and manipulation. This foundational generative audio transformer model empowers users to create, modify, and transform audio using simple text prompts, enabling a level of control and creativity previously unattainable. This article explores the capabilities of Fugatto, its applications across various industries, and the technology that powers it.&lt;/p&gt;
-
-&lt;h3&gt;What is Fugatto?&lt;/h3&gt;
-&lt;p&gt;Fugatto, short for Foundational Generative Audio Transformer Opus 1, is designed to generate or transform any mix of music, voices, and sounds based on user-defined prompts. Unlike traditional models that may specialize in one aspect of audio production—such as composing music or altering voices—Fugatto combines these functions into a versatile tool that can create entirely new sounds on demand.&lt;/p&gt;
-&lt;p&gt;As Ido Zmishlany, a multi-platinum producer and songwriter, remarked, “The idea that I can create entirely new sounds on the fly in the studio is incredible.” This capability positions Fugat to as a &quot;Swiss Army knife&quot; for sound production.&lt;/p&gt;
-
-&lt;h3&gt;Key Features of Fugatto&lt;/h3&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Multi-Task Audio Generation:&lt;/strong&gt; Fugatto supports numerous tasks including music composition, voice modulation, and sound effects creation.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Emergent Properties:&lt;/strong&gt; The model showcases emergent properties that arise from the interaction of its trained abilities, allowing for complex audio outputs from simple prompts.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Artistic Control:&lt;/strong&gt; Users can combine free-form instructions to achieve desired tonal qualities and emotional expressions in their audio outputs.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Applications Across Industries&lt;/h3&gt;
-&lt;p&gt;The versatility of Fugatto opens up numerous possibilities across various fields:&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Music Production:&lt;/strong&gt; Producers can use Fugatto to quickly prototype song ideas by experimenting with different styles and instruments.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Advertising:&lt;/strong&gt; Ad agencies can tailor voiceovers for different regions by applying various accents and emotional tones to existing campaigns.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Language Learning:&lt;/strong&gt; Language learning platforms can personalize experiences by using familiar voices for instructional content.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Video Game Development:&lt;/strong&gt; Developers can modify existing audio assets or create new sounds dynamically based on gameplay actions.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;A Unique Approach to Sound Creation&lt;/h3&gt;
-&lt;p&gt;NVIDIA's team behind Fugatto has developed several innovative techniques that enhance the model's capabilities. One notable feature is called &lt;strong&gt;ComposableART&lt;/strong&gt;, which allows users to combine multiple instructions during inference. For instance, a user could prompt the model to generate speech with a specific emotional tone in a particular accent.&lt;/p&gt;
-&lt;p&gt;This fine-grained control over attributes enables users to explore artistic expressions in ways that were previously limited. Rohan Badlani, an AI researcher involved in designing these features, noted that this approach allows users to feel like artists themselves while working with the technology.&lt;/p&gt;
-
-&lt;h3&gt;The Technology Behind Fugatto&lt;/h3&gt;
-&lt;p&gt;The foundation of Fugatto lies in its architecture as a generative transformer model. It utilizes 2.5 billion parameters and was trained on an extensive dataset using NVIDIA DGX systems equipped with powerful NVIDIA H100 Tensor Core GPUs. This robust infrastructure enables Fugatto to perform complex audio tasks with high fidelity.&lt;/p&gt;
-&lt;p&gt;The development process involved creating a blended dataset containing millions of audio samples. The team employed innovative strategies to generate diverse data inputs while achieving accurate performance across various tasks without needing additional data.&lt;/p&gt;
-
-&lt;h3&gt;User Experience: Creating New Sounds&lt;/h3&gt;
-&lt;p&gt;A standout capability of Fugatto is its ability to generate novel sounds based on user descriptions. For example, it can produce unique sound effects like making a trumpet bark or a saxophone meow—demonstrating its versatility in sound design. Moreover, with fine-tuning using small amounts of singing data, Fugatto can generate high-quality singing voices from text prompts.&lt;/p&gt;
-
-&lt;h3&gt;The Future of Audio Production&lt;/h3&gt;
-&lt;p&gt;The introduction of Fugatto signals an exciting new chapter in audio production technology. By providing creators with powerful tools to manipulate sound through intuitive text prompts, NVIDIA is paving the way for innovative applications across music, film, gaming, and beyond. As Zmishlany suggests, “With AI, we’re writing the next chapter of music,” highlighting the transformative potential of this technology.&lt;/p&gt;
-
-&lt;h3&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;NVIDIA's Fugatto stands at the forefront of generative AI sound models, offering unprecedented flexibility and creativity for users across various industries. With its ability to generate and transform audio based on simple prompts, Fugatto not only enhances traditional sound production methods but also opens up new avenues for artistic expression. As this technology continues to evolve, it will undoubtedly reshape how we create and interact with sound in our daily lives.&lt;/p&gt;
-
-&lt;p&gt;&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="news" />
-      
-
-      
-        <summary type="html">NVIDIA's Fugatto is a revolutionary generative AI sound model that allows users to create and manipulate audio through text prompts, offering unprecedented control over music, voices, and soundscapes.</summary>
       
 
       

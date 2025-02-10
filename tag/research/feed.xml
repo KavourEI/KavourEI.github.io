@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2025-02-02T15:41:54+02:00</updated>
+  <updated>2025-02-10T02:21:40+02:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -44,6 +44,90 @@
   
   
 
+  
+    <entry>
+      <title type="html">Gold-medalist Performance in Solving Olympiad Geometry with AlphaGeometry2</title>
+      <link href="http://localhost:4000/Olymp" rel="alternate" type="text/html" title="Gold-medalist Performance in Solving Olympiad Geometry with AlphaGeometry2" />
+      <published>2025-02-05T00:00:00+02:00</published>
+      <updated>2025-02-05T00:00:00+02:00</updated>
+      <id>http://localhost:4000/Olymp</id>
+      <content type="html" xml:base="http://localhost:4000/Olymp">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; We present AlphaGeometry2, a significantly improved version of AlphaGeometry introduced in Trinh et al. (2024), which has now surpassed an average gold medalist in solving Olympiad geometry problems. To achieve this, we first extend the original AlphaGeometry language to tackle harder problems involving movements of objects, and problems containing linear equations of angles, ratios, and distances. This, together with other additions, has markedly improved the coverage rate of the AlphaGeometry language on International Math Olympiads (IMO) 2000-2024 geometry problems from 66% to 88%. The search process of AlphaGeometry2 has also been greatly improved through the use of Gemini architecture for better language modeling, and a novel knowledge-sharing mechanism that combines multiple search trees. Together with further enhancements to the symbolic engine and synthetic data generation, we have significantly boosted the overall solving rate of AlphaGeometry2 to 84% for all geometry problems over the last 25 years, compared to 54% previously. AlphaGeometry2 was also part of the system that achieved silver-medal standard at IMO 2024 &lt;a href=&quot;https://dpmd.ai/imo-silver&quot;&gt;this https URL&lt;/a&gt;. Last but not least, we report progress towards using AlphaGeometry2 as a part of a fully automated system that reliably solves geometry problems directly from natural language input. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chervonyi,+Y&quot; rel=&quot;nofollow&quot;&gt;Yuri Chervonyi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Trinh,+T+H&quot; rel=&quot;nofollow&quot;&gt;Trieu H. Trinh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ol%C5%A1%C3%A1k,+M&quot; rel=&quot;nofollow&quot;&gt;Miroslav Olšák&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+X&quot; rel=&quot;nofollow&quot;&gt;Xiaomeng Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Nguyen,+H&quot; rel=&quot;nofollow&quot;&gt;Hoang Nguyen&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Menegali,+M&quot; rel=&quot;nofollow&quot;&gt;Marcelo Menegali&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Jung,+J&quot; rel=&quot;nofollow&quot;&gt;Junehyuk Jung&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Verma,+V&quot; rel=&quot;nofollow&quot;&gt;Vikas Verma&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Le,+Q+V&quot; rel=&quot;nofollow&quot;&gt;Quoc V. Le&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Luong,+T&quot; rel=&quot;nofollow&quot;&gt;Thang Luong&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2502.03544&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">s1-Simple test-time scaling</title>
+      <link href="http://localhost:4000/TestScaling" rel="alternate" type="text/html" title="s1-Simple test-time scaling" />
+      <published>2025-01-31T00:00:00+02:00</published>
+      <updated>2025-01-31T00:00:00+02:00</updated>
+      <id>http://localhost:4000/TestScaling</id>
+      <content type="html" xml:base="http://localhost:4000/TestScaling">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Test-time scaling is a promising new approach to language modeling that uses extra test-time compute to improve performance. Recently, OpenAI's o1 model showed this capability but did not publicly share its methodology, leading to many replication efforts. We seek the simplest approach to achieve test-time scaling and strong reasoning performance. First, we curate a small dataset s1K of 1,000 questions paired with reasoning traces relying on three criteria we validate through ablations: difficulty, diversity, and quality. Second, we develop budget forcing to control test-time compute by forcefully terminating the model's thinking process or lengthening it by appending &quot;Wait&quot; multiple times to the model's generation when it tries to end. This can lead the model to double-check its answer, often fixing incorrect reasoning steps. After supervised finetuning the Qwen2.5-32B-Instruct language model on s1K and equipping it with budget forcing, our model s1-32B exceeds o1-preview on competition math questions by up to 27% (MATH and AIME24). Further, scaling s1-32B with budget forcing allows extrapolating beyond its performance without test-time intervention: from 50% to 57% on AIME24. Our model, data, and code are open-source at &lt;a href=&quot;https://github.com/simplescaling/s1&quot;&gt;this https URL&lt;/a&gt;. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Muennighoff,+N&quot; rel=&quot;nofollow&quot;&gt;Niklas Muennighoff&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+Z&quot; rel=&quot;nofollow&quot;&gt;Zitong Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shi,+W&quot; rel=&quot;nofollow&quot;&gt;Weijia Shi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Li,+X+L&quot; rel=&quot;nofollow&quot;&gt;Xiang Lisa Li&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fei-Fei,+L&quot; rel=&quot;nofollow&quot;&gt;Li Fei-Fei&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hajishirzi,+H&quot; rel=&quot;nofollow&quot;&gt;Hannaneh Hajishirzi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zettlemoyer,+L&quot; rel=&quot;nofollow&quot;&gt;Luke Zettlemoyer&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liang,+P&quot; rel=&quot;nofollow&quot;&gt;Percy Liang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cand%C3%A8s,+E&quot; rel=&quot;nofollow&quot;&gt;Emmanuel Candès&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hashimoto,+T&quot; rel=&quot;nofollow&quot;&gt;Tatsunori Hashimoto&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2501.19393&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Star Attention:Efficient LLM Inference over Long Sequences</title>
@@ -354,90 +438,6 @@
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hong,+G&quot; rel=&quot;nofollow&quot;&gt;Giwon Hong&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=van+Krieken,+E&quot; rel=&quot;nofollow&quot;&gt;Emile van Krieken&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ponti,+E&quot; rel=&quot;nofollow&quot;&gt;Edoardo Ponti&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Malkin,+N&quot; rel=&quot;nofollow&quot;&gt;Nikolay Malkin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Minervini,+P&quot; rel=&quot;nofollow&quot;&gt;Pasquale Minervini&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.20771&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">DynaSaur:Large Language Agents Beyond Predefined Actions</title>
-      <link href="http://localhost:4000/DynaSaur" rel="alternate" type="text/html" title="DynaSaur:Large Language Agents Beyond Predefined Actions" />
-      <published>2024-11-04T00:00:00+02:00</published>
-      <updated>2024-11-04T00:00:00+02:00</updated>
-      <id>http://localhost:4000/DynaSaur</id>
-      <content type="html" xml:base="http://localhost:4000/DynaSaur">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Existing LLM agent systems typically select actions from a fixed and predefined set at every step. While this approach is effective in closed, narrowly-scoped environments, we argue that it presents two major challenges when deploying LLM agents in real-world scenarios: (1) selecting from a fixed set of actions significantly restricts the planning and acting capabilities of LLM agents, and (2) this approach requires substantial human effort to enumerate and implement all possible actions, which becomes impractical in complex environments with a vast number of potential actions. In this work, we propose an LLM agent framework that enables the dynamic creation and composition of actions in an online manner. In this framework, the agent interacts with the environment by generating and executing programs written in a general-purpose programming language at each step. Furthermore, generated actions are accumulated over time for future reuse. Our extensive experiments on the GAIA benchmark demonstrate that this framework offers significantly greater flexibility and outperforms previous methods. Notably, it allows an LLM agent to recover in scenarios where no relevant action exists in the predefined set or when existing actions fail due to unforeseen edge cases. At the time of writing, we hold the top position on the GAIA public leaderboard. Our code can be found in &lt;a href=&quot;https://github.com/adobe-research/dynasaur&quot;&gt;this https URL&lt;/a&gt;. &lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Nguyen,+D&quot; rel=&quot;nofollow&quot;&gt;Dang Nguyen&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lai,+V+D&quot; rel=&quot;nofollow&quot;&gt;Viet Dac Lai&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yoon,+S&quot; rel=&quot;nofollow&quot;&gt;Seunghyun Yoon&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Rossi,+R+A&quot; rel=&quot;nofollow&quot;&gt;Ryan A. Rossi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhao,+H&quot; rel=&quot;nofollow&quot;&gt;Handong Zhao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+R&quot; rel=&quot;nofollow&quot;&gt;Ruiyi Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Mathur,+P&quot; rel=&quot;nofollow&quot;&gt;Puneet Mathur&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lipka,+N&quot; rel=&quot;nofollow&quot;&gt;Nedim Lipka&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+Y&quot; rel=&quot;nofollow&quot;&gt;Yu Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Bui,+T&quot; rel=&quot;nofollow&quot;&gt;Trung Bui&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dernoncourt,+F&quot; rel=&quot;nofollow&quot;&gt;Franck Dernoncourt&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+T&quot; rel=&quot;nofollow&quot;&gt;Tianyi Zhou&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.01747&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">LoRA vs Full Fine-tuning:An Illusion of Equivalence</title>
-      <link href="http://localhost:4000/ErrorBar" rel="alternate" type="text/html" title="LoRA vs Full Fine-tuning:An Illusion of Equivalence" />
-      <published>2024-11-01T00:00:00+02:00</published>
-      <updated>2024-11-01T00:00:00+02:00</updated>
-      <id>http://localhost:4000/ErrorBar</id>
-      <content type="html" xml:base="http://localhost:4000/ErrorBar">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Evaluations are critical for understanding the capabilities of large language models (LLMs). Fundamentally, evaluations are experiments; but the literature on evaluations has largely ignored the literature from other sciences on experiment analysis and planning. This article shows researchers with some training in statistics how to think about and analyze data from language model evaluations. Conceptualizing evaluation questions as having been drawn from an unseen super-population, we present formulas for analyzing evaluation data, measuring differences between two models, and planning an evaluation experiment. We make a number of specific recommendations for running language model evaluations and reporting experiment results in a way that minimizes statistical noise and maximizes informativeness. &lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/stat?searchtype=author&amp;amp;query=Miller,+E&quot; rel=&quot;nofollow&quot;&gt;Evan Miller&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.00640&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
