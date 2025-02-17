@@ -4,7 +4,7 @@ current: post
 cover:  assets/images/arxiv.jpeg
 navigation: True
 title: Learn-by-interact A Data-Centric Framework for Self-Adaptive Agents in Realistic Environments
-date: 2025-02-18
+date: 2025-01-18
 tags: [research]
 class: post-templat
 subclass: 'post'
