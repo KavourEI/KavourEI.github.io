@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2025-02-10T02:21:40+02:00</updated>
+  <updated>2025-02-17T12:12:00+02:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -102,6 +102,48 @@
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Muennighoff,+N&quot; rel=&quot;nofollow&quot;&gt;Niklas Muennighoff&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+Z&quot; rel=&quot;nofollow&quot;&gt;Zitong Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Shi,+W&quot; rel=&quot;nofollow&quot;&gt;Weijia Shi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Li,+X+L&quot; rel=&quot;nofollow&quot;&gt;Xiang Lisa Li&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fei-Fei,+L&quot; rel=&quot;nofollow&quot;&gt;Li Fei-Fei&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hajishirzi,+H&quot; rel=&quot;nofollow&quot;&gt;Hannaneh Hajishirzi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zettlemoyer,+L&quot; rel=&quot;nofollow&quot;&gt;Luke Zettlemoyer&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liang,+P&quot; rel=&quot;nofollow&quot;&gt;Percy Liang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cand%C3%A8s,+E&quot; rel=&quot;nofollow&quot;&gt;Emmanuel Candès&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hashimoto,+T&quot; rel=&quot;nofollow&quot;&gt;Tatsunori Hashimoto&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2501.19393&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Learn-by-interact A Data-Centric Framework for Self-Adaptive Agents in Realistic Environments</title>
+      <link href="http://localhost:4000/DataCleric" rel="alternate" type="text/html" title="Learn-by-interact A Data-Centric Framework for Self-Adaptive Agents in Realistic Environments" />
+      <published>2025-01-18T00:00:00+02:00</published>
+      <updated>2025-01-18T00:00:00+02:00</updated>
+      <id>http://localhost:4000/DataCleric</id>
+      <content type="html" xml:base="http://localhost:4000/DataCleric">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; Autonomous agents powered by large language models (LLMs) have the potential to enhance human capabilities, assisting with digital tasks from sending emails to performing data analysis. The abilities of existing LLMs at such tasks are often hindered by the lack of high-quality agent data from the corresponding environments they interact with. We propose Learn-by-interact, a data-centric framework to adapt LLM agents to any given environments without human annotations. Learn-by-interact synthesizes trajectories of agent-environment interactions based on documentations, and constructs instructions by summarizing or abstracting the interaction histories, a process called backward construction. We assess the quality of our synthetic data by using them in both training-based scenarios and training-free in-context learning (ICL), where we craft innovative retrieval approaches optimized for agents. Extensive experiments on SWE-bench, WebArena, OSWorld and Spider2-V spanning across realistic coding, web, and desktop environments show the effectiveness of Learn-by-interact in various downstream agentic tasks -- baseline results are improved by up to 12.2\% for ICL with Claude-3.5 and 19.5\% for training with Codestral-22B. We further demonstrate the critical role of backward construction, which provides up to 14.0\% improvement for training. Our ablation studies demonstrate the efficiency provided by our synthesized data in ICL and the superiority of our retrieval pipeline over alternative approaches like conventional retrieval-augmented generation (RAG). We expect that Learn-by-interact will serve as a foundation for agent data synthesis as LLMs are increasingly deployed at real-world environments. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Su,+H&quot; rel=&quot;nofollow&quot;&gt;Hongjin Su&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sun,+R&quot; rel=&quot;nofollow&quot;&gt;Ruoxi Sun&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yoon,+J&quot; rel=&quot;nofollow&quot;&gt;Jinsung Yoon&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yin,+P&quot; rel=&quot;nofollow&quot;&gt;Pengcheng Yin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yu,+T&quot; rel=&quot;nofollow&quot;&gt;Tao Yu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ar%C4%B1k,+S+%C3%96&quot; rel=&quot;nofollow&quot;&gt;Sercan Ö. Arık&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2501.10893&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
@@ -396,48 +438,6 @@
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liang,+W&quot; rel=&quot;nofollow&quot;&gt;Weixin Liang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yu,+L&quot; rel=&quot;nofollow&quot;&gt;Lili Yu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Luo,+L&quot; rel=&quot;nofollow&quot;&gt;Liang Luo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Iyer,+S&quot; rel=&quot;nofollow&quot;&gt;Srinivasan Iyer&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dong,+N&quot; rel=&quot;nofollow&quot;&gt;Ning Dong&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+C&quot; rel=&quot;nofollow&quot;&gt;Chunting Zhou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ghosh,+G&quot; rel=&quot;nofollow&quot;&gt;Gargi Ghosh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lewis,+M&quot; rel=&quot;nofollow&quot;&gt;Mike Lewis&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yih,+W&quot; rel=&quot;nofollow&quot;&gt;Wen-tau Yih&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zettlemoyer,+L&quot; rel=&quot;nofollow&quot;&gt;Luke Zettlemoyer&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lin,+X+V&quot; rel=&quot;nofollow&quot;&gt;Xi Victoria Lin&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.04996&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Mixtures of In-Context Learners</title>
-      <link href="http://localhost:4000/InContextLearners" rel="alternate" type="text/html" title="Mixtures of In-Context Learners" />
-      <published>2024-11-05T00:00:00+02:00</published>
-      <updated>2024-11-05T00:00:00+02:00</updated>
-      <id>http://localhost:4000/InContextLearners</id>
-      <content type="html" xml:base="http://localhost:4000/InContextLearners">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; In-context learning (ICL) adapts LLMs by providing demonstrations without fine-tuning the model parameters; however, it does not differentiate between demonstrations and quadratically increases the complexity of Transformer LLMs, exhausting the memory. As a solution, we propose Mixtures of In-Context Learners (MoICL), a novel approach to treat subsets of demonstrations as experts and learn a weighting function to merge their output distributions based on a training set. In our experiments, we show performance improvements on 5 out of 7 classification datasets compared to a set of strong baselines (up to +13\% compared to ICL and LENS). Moreover, we enhance the Pareto frontier of ICL by reducing the inference time needed to achieve the same performance with fewer demonstrations. Finally, MoICL is more robust to out-of-domain (up to +11\%), imbalanced (up to +49\%), or noisy demonstrations (up to +38\%) or can filter these out from datasets. Overall, MoICL is a more expressive approach to learning from demonstrations without exhausting the context window or memory. &lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hong,+G&quot; rel=&quot;nofollow&quot;&gt;Giwon Hong&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=van+Krieken,+E&quot; rel=&quot;nofollow&quot;&gt;Emile van Krieken&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ponti,+E&quot; rel=&quot;nofollow&quot;&gt;Edoardo Ponti&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Malkin,+N&quot; rel=&quot;nofollow&quot;&gt;Nikolay Malkin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Minervini,+P&quot; rel=&quot;nofollow&quot;&gt;Pasquale Minervini&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2410.20771&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
