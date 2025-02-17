@@ -3,7 +3,7 @@ layout: post
 current: post
 cover: assets/images/news_images/codeium.jpg
 navigation: True
-title: Codeium's Windsurf Wave 3: A Leap Forward in AI-Powered Coding
+title: Codeium's Windsurf Wave 3-A Leap Forward in AI-Powered Coding
 date: 2025-02-13
 tags: [news]
 class: post-template
