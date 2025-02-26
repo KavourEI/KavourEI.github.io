@@ -8,6 +8,64 @@
     
       
       <item>
+        <title>Introducing Claude 3.7 Sonnet-Pioneering Hybrid Reasoning in AI</title>
+        
+          <description>&lt;p&gt;Anthropic has unveiled Claude 3.7 Sonnet, a groundbreaking AI model that seamlessly integrates rapid responses with in-depth reasoning capabilities. This release also introduces Claude Code, an agentic coding tool designed to enhance developer productivity directly from the command line.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Mon, 24 Feb 2025 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Sonnet</link>
+        <guid isPermaLink="true">http://localhost:4000/Sonnet</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Real-Time Self-Improvement for LLMs with RAGSys</title>
+        
+          <description>&lt;p&gt;This article provides a concise summary of Crossing Minds' blog post on using Retrieval Augmented Generation (RAG) to enable real-time self-improvement in large language models. It highlights the core concepts of dynamic context retrieval, prompt optimization, and continuous feedback integration that allow LLMs to evolve and adapt without retraining.&lt;/p&gt;
+
+&lt;p&gt;The blog post introduces a novel framework that transforms the traditional RAG approach from a static retrieval system into a dynamic optimization process. Instead of simply appending relevant documents or examples to a query, this system refines the prompt in real time by selecting the most useful contexts based on their measured utility.&lt;/p&gt;
+
+&lt;p&gt;Central to the framework is the breakdown of RAG into its key components: the query, the prompt, the response, and, importantly, the context. The retriever identifies high-utility information—whether documents, tailored instructions, or few-shot examples—while the composer integrates this information into a well-structured prompt that maximizes the LLM's output quality.&lt;/p&gt;
+
+&lt;p&gt;This innovative approach allows LLMs to benefit from continuous feedback. Every interaction, whether it results in a positive or negative outcome, is recorded and used to adjust the retrieval strategy. Negative outcomes trigger corrective instructions that are automatically generated and stored, enabling the system to self-correct over time without needing to retrain the model.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, when an interaction produces a desirable response, it is stored as a high-utility example. These examples reinforce successful behavior and are used as few-shot prompts in future queries, ensuring that the model continuously learns and adapts based on its real-world performance.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, the blog explains that this dynamic retrieval approach shifts the focus from similarity-based selection to utility-driven optimization. By measuring how each piece of context improves response quality, the system can prioritize information that has a tangible impact on the LLM’s performance, ultimately creating a feedback loop that drives continuous improvement.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, the framework presented in the blog post represents a significant evolution in the way LLMs are fine-tuned and optimized. By integrating real-time feedback and leveraging dynamic retrieval to tailor each prompt, the system closes the loop between interaction and improvement, enabling LLMs to become more accurate, reliable, and adaptable to the ever-changing landscape of user needs.&lt;/p&gt;
+
+&lt;p&gt;This approach not only enhances the quality of responses but also offers a scalable solution for deploying LLMs in diverse applications, where rapid adaptation and continuous learning are critical for success.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sun, 23 Feb 2025 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/selfimpRAG</link>
+        <guid isPermaLink="true">http://localhost:4000/selfimpRAG</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Goku-Flow Based Video Generative Foundation Models</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 18 Feb 2025 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Goku</link>
+        <guid isPermaLink="true">http://localhost:4000/Goku</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Codeium's Windsurf Wave 3-A Leap Forward in AI-Powered Coding</title>
         
           <description>&lt;p&gt;The latest update from Codeium, Windsurf Wave 3, introduces significant improvements in AI-powered code completion and development workflows. Let's take a closer look though, on the updates and changes provided.&lt;/p&gt;

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2025-02-17T12:12:00+02:00</updated>
+  <updated>2025-02-26T11:20:18+02:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -44,6 +44,48 @@
   
   
 
+  
+    <entry>
+      <title type="html">Goku-Flow Based Video Generative Foundation Models</title>
+      <link href="http://localhost:4000/Goku" rel="alternate" type="text/html" title="Goku-Flow Based Video Generative Foundation Models" />
+      <published>2025-02-18T00:00:00+02:00</published>
+      <updated>2025-02-18T00:00:00+02:00</updated>
+      <id>http://localhost:4000/Goku</id>
+      <content type="html" xml:base="http://localhost:4000/Goku">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; This paper introduces Goku, a state-of-the-art family of joint image-and-video generation models leveraging rectified flow Transformers to achieve industry-leading performance. We detail the foundational elements enabling high-quality visual generation, including the data curation pipeline, model architecture design, flow formulation, and advanced infrastructure for efficient and robust large-scale training. The Goku models demonstrate superior performance in both qualitative and quantitative evaluations, setting new benchmarks across major tasks. Specifically, Goku achieves 0.76 on GenEval and 83.65 on DPG-Bench for text-to-image generation, and 84.85 on VBench for text-to-video tasks. We believe that this work provides valuable insights and practical advancements for the research community in developing joint image-and-video generation models. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chen,+S&quot; rel=&quot;nofollow&quot;&gt;Shoufa Chen&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ge,+C&quot; rel=&quot;nofollow&quot;&gt;Chongjian Ge&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+Y&quot; rel=&quot;nofollow&quot;&gt;Yuqi Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+Y&quot; rel=&quot;nofollow&quot;&gt;Yida Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhu,+F&quot; rel=&quot;nofollow&quot;&gt;Fengda Zhu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+H&quot; rel=&quot;nofollow&quot;&gt;Hao Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hao,+H&quot; rel=&quot;nofollow&quot;&gt;Hongxiang Hao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wu,+H&quot; rel=&quot;nofollow&quot;&gt;Hui Wu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lai,+Z&quot; rel=&quot;nofollow&quot;&gt;Zhichao Lai&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hu,+Y&quot; rel=&quot;nofollow&quot;&gt;Yifei Hu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lin,+T&quot; rel=&quot;nofollow&quot;&gt;Ting-Che Lin&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+S&quot; rel=&quot;nofollow&quot;&gt;Shilong Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Li,+F&quot; rel=&quot;nofollow&quot;&gt;Fu Li&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Li,+C&quot; rel=&quot;nofollow&quot;&gt;Chuan Li&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+X&quot; rel=&quot;nofollow&quot;&gt;Xing Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Peng,+Y&quot; rel=&quot;nofollow&quot;&gt;Yanghua Peng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sun,+P&quot; rel=&quot;nofollow&quot;&gt;Peize Sun&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Luo,+P&quot; rel=&quot;nofollow&quot;&gt;Ping Luo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Jiang,+Y&quot; rel=&quot;nofollow&quot;&gt;Yi Jiang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yuan,+Z&quot; rel=&quot;nofollow&quot;&gt;Zehuan Yuan&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Peng,+B&quot; rel=&quot;nofollow&quot;&gt;Bingyue Peng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+X&quot; rel=&quot;nofollow&quot;&gt;Xiaobing Liu&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2502.04896&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Gold-medalist Performance in Solving Olympiad Geometry with AlphaGeometry2</title>
@@ -396,48 +438,6 @@
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Huang,+S&quot; rel=&quot;nofollow&quot;&gt;Siming Huang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cheng,+T&quot; rel=&quot;nofollow&quot;&gt;Tianhao Cheng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+J&quot; rel=&quot;nofollow&quot;&gt;J.K. Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hao,+J&quot; rel=&quot;nofollow&quot;&gt;Jiaran Hao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Song,+L&quot; rel=&quot;nofollow&quot;&gt;Liuyihan Song&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+Y&quot; rel=&quot;nofollow&quot;&gt;Yang Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+J&quot; rel=&quot;nofollow&quot;&gt;J. Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+J&quot; rel=&quot;nofollow&quot;&gt;J.H. Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+C&quot; rel=&quot;nofollow&quot;&gt;Chenchen Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chai,+L&quot; rel=&quot;nofollow&quot;&gt;Linzheng Chai&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yuan,+R&quot; rel=&quot;nofollow&quot;&gt;Ruifeng Yuan&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+Z&quot; rel=&quot;nofollow&quot;&gt;Zhaoxiang Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fu,+J&quot; rel=&quot;nofollow&quot;&gt;Jie Fu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+Q&quot; rel=&quot;nofollow&quot;&gt;Qian Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+G&quot; rel=&quot;nofollow&quot;&gt;Ge Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+Z&quot; rel=&quot;nofollow&quot;&gt;Zili Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Qi,+Y&quot; rel=&quot;nofollow&quot;&gt;Yuan Qi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+Y&quot; rel=&quot;nofollow&quot;&gt;Yinghui Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chu,+W&quot; rel=&quot;nofollow&quot;&gt;Wei Chu&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.04905&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Mixture-of-Transformers:A Sparse and Scalable Architecture for Multi-Modal Foundation Models</title>
-      <link href="http://localhost:4000/multiTransf" rel="alternate" type="text/html" title="Mixture-of-Transformers:A Sparse and Scalable Architecture for Multi-Modal Foundation Models" />
-      <published>2024-11-09T00:00:00+02:00</published>
-      <updated>2024-11-09T00:00:00+02:00</updated>
-      <id>http://localhost:4000/multiTransf</id>
-      <content type="html" xml:base="http://localhost:4000/multiTransf">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; The development of large language models (LLMs) has expanded to multi-modal systems capable of processing text, images, and speech within a unified framework. Training these models demands significantly larger datasets and computational resources compared to text-only LLMs. To address the scaling challenges, we introduce Mixture-of-Transformers (MoT), a sparse multi-modal transformer architecture that significantly reduces pretraining computational costs. MoT decouples non-embedding parameters of the model by modality -- including feed-forward networks, attention matrices, and layer normalization -- enabling modality-specific processing with global self-attention over the full input sequence. We evaluate MoT across multiple settings and model scales. In the Chameleon 7B setting (autoregressive text-and-image generation), MoT matches the dense baseline's performance using only 55.8\% of the FLOPs. When extended to include speech, MoT reaches speech performance comparable to the dense baseline with only 37.2\% of the FLOPs. In the Transfusion setting, where text and image are trained with different objectives, a 7B MoT model matches the image modality performance of the dense baseline with one third of the FLOPs, and a 760M MoT model outperforms a 1.4B dense baseline across key image generation metrics. System profiling further highlights MoT's practical benefits, achieving dense baseline image quality in 47.2\% of the wall-clock time and text quality in 75.6\% of the wall-clock time (measured on AWS p4de.24xlarge instances with NVIDIA A100 GPUs). &lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liang,+W&quot; rel=&quot;nofollow&quot;&gt;Weixin Liang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yu,+L&quot; rel=&quot;nofollow&quot;&gt;Lili Yu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Luo,+L&quot; rel=&quot;nofollow&quot;&gt;Liang Luo&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Iyer,+S&quot; rel=&quot;nofollow&quot;&gt;Srinivasan Iyer&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dong,+N&quot; rel=&quot;nofollow&quot;&gt;Ning Dong&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhou,+C&quot; rel=&quot;nofollow&quot;&gt;Chunting Zhou&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ghosh,+G&quot; rel=&quot;nofollow&quot;&gt;Gargi Ghosh&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lewis,+M&quot; rel=&quot;nofollow&quot;&gt;Mike Lewis&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yih,+W&quot; rel=&quot;nofollow&quot;&gt;Wen-tau Yih&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zettlemoyer,+L&quot; rel=&quot;nofollow&quot;&gt;Luke Zettlemoyer&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lin,+X+V&quot; rel=&quot;nofollow&quot;&gt;Xi Victoria Lin&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.04996&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
