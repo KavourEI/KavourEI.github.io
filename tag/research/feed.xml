@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2025-02-26T11:20:18+02:00</updated>
+  <updated>2025-02-27T17:12:23+02:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -46,10 +46,52 @@
 
   
     <entry>
+      <title type="html">Qwen2.5-VL Technical Report</title>
+      <link href="http://localhost:4000/Qween_tr" rel="alternate" type="text/html" title="Qwen2.5-VL Technical Report" />
+      <published>2025-02-19T00:00:00+02:00</published>
+      <updated>2025-02-19T00:00:00+02:00</updated>
+      <id>http://localhost:4000/Qween_tr</id>
+      <content type="html" xml:base="http://localhost:4000/Qween_tr">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt; We introduce Qwen2.5-VL, the latest flagship model of Qwen vision-language series, which demonstrates significant advancements in both foundational capabilities and innovative functionalities. Qwen2.5-VL achieves a major leap forward in understanding and interacting with the world through enhanced visual recognition, precise object localization, robust document parsing, and long-video comprehension. A standout feature of Qwen2.5-VL is its ability to localize objects using bounding boxes or points accurately. It provides robust structured data extraction from invoices, forms, and tables, as well as detailed analysis of charts, diagrams, and layouts. To handle complex inputs, Qwen2.5-VL introduces dynamic resolution processing and absolute time encoding, enabling it to process images of varying sizes and videos of extended durations (up to hours) with second-level event localization. This allows the model to natively perceive spatial scales and temporal dynamics without relying on traditional normalization techniques. By training a native dynamic-resolution Vision Transformer (ViT) from scratch and incorporating Window Attention, we reduce computational overhead while maintaining native resolution. As a result, Qwen2.5-VL excels not only in static image and document understanding but also as an interactive visual agent capable of reasoning, tool usage, and task execution in real-world scenarios such as operating computers and mobile devices. Qwen2.5-VL is available in three sizes, addressing diverse use cases from edge AI to high-performance computing. The flagship Qwen2.5-VL-72B model matches state-of-the-art models like GPT-4o and Claude 3.5 Sonnet, particularly excelling in document and diagram understanding. Additionally, Qwen2.5-VL maintains robust linguistic performance, preserving the core language competencies of the Qwen2.5 LLM. &lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Bai,+S&quot; rel=&quot;nofollow&quot;&gt;Shuai Bai&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chen,+K&quot; rel=&quot;nofollow&quot;&gt;Keqin Chen&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+X&quot; rel=&quot;nofollow&quot;&gt;Xuejing Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+J&quot; rel=&quot;nofollow&quot;&gt;Jialin Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ge,+W&quot; rel=&quot;nofollow&quot;&gt;Wenbin Ge&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Song,+S&quot; rel=&quot;nofollow&quot;&gt;Sibo Song&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Dang,+K&quot; rel=&quot;nofollow&quot;&gt;Kai Dang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+P&quot; rel=&quot;nofollow&quot;&gt;Peng Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+S&quot; rel=&quot;nofollow&quot;&gt;Shijie Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Tang,+J&quot; rel=&quot;nofollow&quot;&gt;Jun Tang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhong,+H&quot; rel=&quot;nofollow&quot;&gt;Humen Zhong&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhu,+Y&quot; rel=&quot;nofollow&quot;&gt;Yuanzhi Zhu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+M&quot; rel=&quot;nofollow&quot;&gt;Mingkun Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Li,+Z&quot; rel=&quot;nofollow&quot;&gt;Zhaohai Li&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wan,+J&quot; rel=&quot;nofollow&quot;&gt;Jianqiang Wan&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+P&quot; rel=&quot;nofollow&quot;&gt;Pengfei Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ding,+W&quot; rel=&quot;nofollow&quot;&gt;Wei Ding&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fu,+Z&quot; rel=&quot;nofollow&quot;&gt;Zheren Fu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+Y&quot; rel=&quot;nofollow&quot;&gt;Yiheng Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Ye,+J&quot; rel=&quot;nofollow&quot;&gt;Jiabo Ye&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+X&quot; rel=&quot;nofollow&quot;&gt;Xi Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xie,+T&quot; rel=&quot;nofollow&quot;&gt;Tianbao Xie&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cheng,+Z&quot; rel=&quot;nofollow&quot;&gt;Zesen Cheng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+H&quot; rel=&quot;nofollow&quot;&gt;Hang Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+Z&quot; rel=&quot;nofollow&quot;&gt;Zhibo Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+H&quot; rel=&quot;nofollow&quot;&gt;Haiyang Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Lin,+J&quot; rel=&quot;nofollow&quot;&gt;Junyang Lin&lt;/a&gt;, (additional authors not shown)&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2502.13923&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Goku-Flow Based Video Generative Foundation Models</title>
       <link href="http://localhost:4000/Goku" rel="alternate" type="text/html" title="Goku-Flow Based Video Generative Foundation Models" />
-      <published>2025-02-18T00:00:00+02:00</published>
-      <updated>2025-02-18T00:00:00+02:00</updated>
+      <published>2025-02-07T00:00:00+02:00</published>
+      <updated>2025-02-07T00:00:00+02:00</updated>
       <id>http://localhost:4000/Goku</id>
       <content type="html" xml:base="http://localhost:4000/Goku">&lt;h2&gt; Abstract &lt;/h2&gt;
 
@@ -396,48 +438,6 @@
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Peng,+A&quot; rel=&quot;nofollow&quot;&gt;Alwin Peng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Michael,+J&quot; rel=&quot;nofollow&quot;&gt;Julian Michael&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sleight,+H&quot; rel=&quot;nofollow&quot;&gt;Henry Sleight&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Perez,+E&quot; rel=&quot;nofollow&quot;&gt;Ethan Perez&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sharma,+M&quot; rel=&quot;nofollow&quot;&gt;Mrinank Sharma&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.07494&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">OpenCoder The Open Cookbook for Top-Tier Code Large Language Models</title>
-      <link href="http://localhost:4000/OpenCoder" rel="alternate" type="text/html" title="OpenCoder The Open Cookbook for Top-Tier Code Large Language Models" />
-      <published>2024-11-09T00:00:00+02:00</published>
-      <updated>2024-11-09T00:00:00+02:00</updated>
-      <id>http://localhost:4000/OpenCoder</id>
-      <content type="html" xml:base="http://localhost:4000/OpenCoder">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; Large language models (LLMs) for code have become indispensable in various domains, including code generation, reasoning tasks and agent systems. While open-access code LLMs are increasingly approaching the performance levels of proprietary models, high-quality code LLMs suitable for rigorous scientific investigation, particularly those with reproducible data processing pipelines and transparent training protocols, remain limited. The scarcity is due to various challenges, including resource constraints, ethical considerations, and the competitive advantages of keeping models advanced. To address the gap, we introduce OpenCoder, a top-tier code LLM that not only achieves performance comparable to leading models but also serves as an &quot;open cookbook&quot; for the research community. Unlike most prior efforts, we release not only model weights and inference code, but also the reproducible training data, complete data processing pipeline, rigorous experimental ablation results, and detailed training protocols for open scientific research. Through this comprehensive release, we identify the key ingredients for building a top-tier code LLM: (1) code optimized heuristic rules for data cleaning and methods for data deduplication, (2) recall of text corpus related to code and (3) high-quality synthetic data in both annealing and supervised fine-tuning stages. By offering this level of openness, we aim to broaden access to all aspects of a top-tier code LLM, with OpenCoder serving as both a powerful model and an open foundation to accelerate research, and enable reproducible advancements in code AI. &lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Huang,+S&quot; rel=&quot;nofollow&quot;&gt;Siming Huang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cheng,+T&quot; rel=&quot;nofollow&quot;&gt;Tianhao Cheng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+J&quot; rel=&quot;nofollow&quot;&gt;J.K. Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Hao,+J&quot; rel=&quot;nofollow&quot;&gt;Jiaran Hao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Song,+L&quot; rel=&quot;nofollow&quot;&gt;Liuyihan Song&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+Y&quot; rel=&quot;nofollow&quot;&gt;Yang Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yang,+J&quot; rel=&quot;nofollow&quot;&gt;J. Yang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+J&quot; rel=&quot;nofollow&quot;&gt;J.H. Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+C&quot; rel=&quot;nofollow&quot;&gt;Chenchen Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chai,+L&quot; rel=&quot;nofollow&quot;&gt;Linzheng Chai&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Yuan,+R&quot; rel=&quot;nofollow&quot;&gt;Ruifeng Yuan&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+Z&quot; rel=&quot;nofollow&quot;&gt;Zhaoxiang Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Fu,+J&quot; rel=&quot;nofollow&quot;&gt;Jie Fu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Liu,+Q&quot; rel=&quot;nofollow&quot;&gt;Qian Liu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhang,+G&quot; rel=&quot;nofollow&quot;&gt;Ge Zhang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wang,+Z&quot; rel=&quot;nofollow&quot;&gt;Zili Wang&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Qi,+Y&quot; rel=&quot;nofollow&quot;&gt;Yuan Qi&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+Y&quot; rel=&quot;nofollow&quot;&gt;Yinghui Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Chu,+W&quot; rel=&quot;nofollow&quot;&gt;Wei Chu&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.04905&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       

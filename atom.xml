@@ -8,6 +8,49 @@
     
       
       <item>
+        <title></title>
+        
+          <description></description>
+        
+        <pubDate>Thu, 27 Feb 2025 17:02:59 +0200</pubDate>
+        <link>
+        http://localhost:4000/2025-02-18-R1Perp</link>
+        <guid isPermaLink="true">http://localhost:4000/2025-02-18-R1Perp</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google Introduces Free Gemini Code Assist for Developers</title>
+        
+          <description>&lt;p&gt; Google's latest blog post announces the release of &lt;a href=&quot;https://codeassist.google/products/individual&quot;&gt;Gemini Code Assist&lt;/a&gt;, a free AI-powered coding assistant designed to enhance developer productivity. This article provides a summary of the key features, benefits, and implications of this tool for developers worldwide.&lt;/p&gt;
+
+&lt;p&gt;Google’s Gemini Code Assist is an AI-driven coding assistant that helps developers write, debug, and optimize their code more efficiently. The tool integrates seamlessly into popular development environments, providing real-time code suggestions, explanations, and auto-completions to streamline the coding process.&lt;/p&gt;
+
+&lt;p&gt;One of the standout features of Gemini Code Assist is its ability to understand and generate code in multiple programming languages. By leveraging advanced AI models, it offers high-quality code suggestions that align with best practices, making it particularly useful for both beginner and experienced developers.&lt;/p&gt;
+
+&lt;p&gt;Google highlights that Gemini Code Assist is designed to improve code quality and efficiency. Developers can use the tool to automatically generate code snippets, detect potential bugs, and even refactor code to improve readability and performance.&lt;/p&gt;
+
+&lt;p&gt;A key advantage of the tool is its deep integration with Google Cloud and other development ecosystems. This enables seamless collaboration between teams, as developers can receive context-aware suggestions based on their specific projects and environments.&lt;/p&gt;
+
+&lt;p&gt;Security is another major focus of Gemini Code Assist. Google has incorporated safeguards to prevent the generation of insecure or vulnerable code. The tool is continuously updated with best practices to ensure that developers write secure and efficient software.&lt;/p&gt;
+
+&lt;p&gt;By making Gemini Code Assist free, Google aims to democratize access to AI-powered development tools. This move is expected to empower a wider audience of developers, including students, hobbyists, and professionals, by giving them access to cutting-edge AI-driven coding assistance.&lt;/p&gt;
+
+&lt;p&gt;Another noteworthy aspect of Gemini Code Assist is its role in boosting developer productivity. By reducing the time spent on repetitive coding tasks and debugging, developers can focus more on creative problem-solving and building innovative applications.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, Google's launch of Gemini Code Assist marks a significant step in AI-driven software development. By providing a free, intelligent coding assistant, Google is equipping developers with a powerful tool to enhance efficiency, security, and collaboration in modern software projects. You can find more on the &lt;a href=&quot;https://blog.google/technology/developers/gemini-code-assist-free/&quot;&gt;official blog post&lt;/a&gt;. Give it a shot and try it out, it may be the case for your needs.&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 25 Feb 2025 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/GeminiCodeAssistant</link>
+        <guid isPermaLink="true">http://localhost:4000/GeminiCodeAssistant</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Introducing Claude 3.7 Sonnet-Pioneering Hybrid Reasoning in AI</title>
         
           <description>&lt;p&gt;Anthropic has unveiled Claude 3.7 Sonnet, a groundbreaking AI model that seamlessly integrates rapid responses with in-depth reasoning capabilities. This release also introduces Claude Code, an agentic coding tool designed to enhance developer productivity directly from the command line.&lt;/p&gt;
@@ -25,7 +68,7 @@
       <item>
         <title>Real-Time Self-Improvement for LLMs with RAGSys</title>
         
-          <description>&lt;p&gt;This article provides a concise summary of Crossing Minds' blog post on using Retrieval Augmented Generation (RAG) to enable real-time self-improvement in large language models. It highlights the core concepts of dynamic context retrieval, prompt optimization, and continuous feedback integration that allow LLMs to evolve and adapt without retraining.&lt;/p&gt;
+          <description>&lt;p&gt;Let's take a quick look at Crossing Minds' blog post on using Retrieval Augmented Generation (RAG) to enable real-time self-improvement in large language models. We will highlight the core concepts of dynamic context retrieval, prompt optimization, and continuous feedback integration that allow LLMs to evolve and adapt without retraining.&lt;/p&gt;
 
 &lt;p&gt;The blog post introduces a novel framework that transforms the traditional RAG approach from a static retrieval system into a dynamic optimization process. Instead of simply appending relevant documents or examples to a query, this system refines the prompt in real time by selecting the most useful contexts based on their measured utility.&lt;/p&gt;
 
@@ -33,13 +76,6 @@
 
 &lt;p&gt;This innovative approach allows LLMs to benefit from continuous feedback. Every interaction, whether it results in a positive or negative outcome, is recorded and used to adjust the retrieval strategy. Negative outcomes trigger corrective instructions that are automatically generated and stored, enabling the system to self-correct over time without needing to retrain the model.&lt;/p&gt;
 
-&lt;p&gt;On the other hand, when an interaction produces a desirable response, it is stored as a high-utility example. These examples reinforce successful behavior and are used as few-shot prompts in future queries, ensuring that the model continuously learns and adapts based on its real-world performance.&lt;/p&gt;
-
-&lt;p&gt;Furthermore, the blog explains that this dynamic retrieval approach shifts the focus from similarity-based selection to utility-driven optimization. By measuring how each piece of context improves response quality, the system can prioritize information that has a tangible impact on the LLM’s performance, ultimately creating a feedback loop that drives continuous improvement.&lt;/p&gt;
-
-&lt;p&gt;In conclusion, the framework presented in the blog post represents a significant evolution in the way LLMs are fine-tuned and optimized. By integrating real-time feedback and leveraging dynamic retrieval to tailor each prompt, the system closes the loop between interaction and improvement, enabling LLMs to become more accurate, reliable, and adaptable to the ever-changing landscape of user needs.&lt;/p&gt;
-
-&lt;p&gt;This approach not only enhances the quality of responses but also offers a scalable solution for deploying LLMs in diverse applications, where rapid adaptation and continuous learning are critical for success.&lt;/p&gt;
 </description>
         
         <pubDate>Sun, 23 Feb 2025 00:00:00 +0200</pubDate>
@@ -51,16 +87,37 @@
     
       
       <item>
-        <title>Goku-Flow Based Video Generative Foundation Models</title>
+        <title>Qwen2.5-VL Technical Report</title>
         
           <description>&lt;h2&gt; Abstract &lt;/h2&gt;
 
 </description>
         
-        <pubDate>Tue, 18 Feb 2025 00:00:00 +0200</pubDate>
+        <pubDate>Wed, 19 Feb 2025 00:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/Goku</link>
-        <guid isPermaLink="true">http://localhost:4000/Goku</guid>
+        http://localhost:4000/Qween_tr</link>
+        <guid isPermaLink="true">http://localhost:4000/Qween_tr</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Accelerating Scientific Breakthroughs with an AI Co-Scientist</title>
+        
+          <description>&lt;p&gt;Google Research has unveiled an AI co-scientist, a multi-agent system powered by Gemini 2.0, designed to collaborate with scientists in generating novel hypotheses and accelerating biomedical discoveries. Although somehow out of my knowledge fields, I will try to highlight the most important issues and key concepts for you.&lt;/p&gt;
+
+&lt;p&gt;Google Research introduced the AI co-scientist, a groundbreaking multi-agent AI system utilizing &lt;a href=&quot;https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/&quot;&gt;Gemini 2.0 technology&lt;/a&gt;. This virtual collaborator is engineered to assist scientists in formulating new hypotheses and expediting the pace of scientific and biomedical research. By integrating advanced reasoning capabilities, the &lt;a href=&quot;https://storage.googleapis.com/coscientist_paper/ai_coscientist.pdf&quot;&gt;AI co-scientist&lt;/a&gt; can process vast amounts of scientific literature, identify patterns, and propose innovative research directions.&lt;/p&gt;
+
+&lt;p&gt;Developed by a team led by Google Fellow Juraj Gottweis and Research Lead Vivek Natarajan, the AI co-scientist aims to function as a virtual collaborator, enhancing the efficiency and creativity of scientific research. The system has undergone testing in collaboration with institutions such as Stanford University and Imperial College London, demonstrating its potential to revolutionize the research process.&lt;/p&gt;
+
+&lt;p&gt;In practical applications, the AI co-scientist has shown remarkable proficiency. For instance, in a study focused on &lt;a href=&quot;https://pmc.ncbi.nlm.nih.gov/articles/PMC546435/&quot;&gt;liver fibrosis&lt;/a&gt;, the AI provided promising solutions with the potential to inhibit disease progression, suggesting improvements over expert-generated solutions. These findings indicate that AI can effectively augment and accelerate the work of expert scientists without replacing them, fostering increased scientific collaboration.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 19 Feb 2025 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/coScientist</link>
+        <guid isPermaLink="true">http://localhost:4000/coScientist</guid>
       </item>
       
     
@@ -106,6 +163,21 @@
         <link>
         http://localhost:4000/AnthropicEconomicIndex</link>
         <guid isPermaLink="true">http://localhost:4000/AnthropicEconomicIndex</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Goku-Flow Based Video Generative Foundation Models</title>
+        
+          <description>&lt;h2&gt; Abstract &lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 07 Feb 2025 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/Goku</link>
+        <guid isPermaLink="true">http://localhost:4000/Goku</guid>
       </item>
       
     
