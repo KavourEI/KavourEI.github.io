@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/research/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2025-03-02T20:09:57+02:00</updated>
+  <updated>2025-03-02T20:33:49+02:00</updated>
   <id>http://localhost:4000/tag/research/feed.xml</id>
 
   
@@ -44,6 +44,48 @@
   
   
 
+  
+    <entry>
+      <title type="html">Chain of Draft:Thinking Faster by Writing Less</title>
+      <link href="http://localhost:4000/ThinkFaster" rel="alternate" type="text/html" title="Chain of Draft:Thinking Faster by Writing Less" />
+      <published>2025-02-25T00:00:00+02:00</published>
+      <updated>2025-02-25T00:00:00+02:00</updated>
+      <id>http://localhost:4000/ThinkFaster</id>
+      <content type="html" xml:base="http://localhost:4000/ThinkFaster">&lt;h2&gt; Abstract &lt;/h2&gt;
+
+&lt;p&gt;Large Language Models (LLMs) have demonstrated remarkable performance in solving complex reasoning tasks through mechanisms like Chain-of-Thought (CoT) prompting, which emphasizes verbose, step-by-step reasoning. However, humans typically employ a more efficient strategy: drafting concise intermediate thoughts that capture only essential information. In this work, we propose Chain of Draft (CoD), a novel paradigm inspired by human cognitive processes, where LLMs generate minimalistic yet informative intermediate reasoning outputs while solving tasks. By reducing verbosity and focusing on critical insights, CoD matches or surpasses CoT in accuracy while using as little as only 7.6% of the tokens, significantly reducing cost and latency across various reasoning tasks.&lt;/p&gt;
+
+&lt;h2&gt; Authors &lt;/h2&gt;
+
+&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xu,+S&quot; rel=&quot;nofollow&quot;&gt;Silei Xu&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Xie,+W&quot; rel=&quot;nofollow&quot;&gt;Wenhao Xie&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Zhao,+L&quot; rel=&quot;nofollow&quot;&gt;Lingxiao Zhao&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=He,+P&quot; rel=&quot;nofollow&quot;&gt;Pengcheng He&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2502.18600&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Kavour</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="research" />
+      
+
+      
+        <summary type="html">Abstract</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Qwen2.5-VL Technical Report</title>
@@ -396,48 +438,6 @@
 &lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Cho,+J&quot; rel=&quot;nofollow&quot;&gt;Jung-Hoon Cho&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Jayawardana,+V&quot; rel=&quot;nofollow&quot;&gt;Vindula Jayawardana&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Li,+S&quot; rel=&quot;nofollow&quot;&gt;Sirui Li&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Wu,+C&quot; rel=&quot;nofollow&quot;&gt;Cathy Wu&lt;/a&gt; &lt;/p&gt;
 
 &lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2408.04498&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Kavour</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="research" />
-      
-
-      
-        <summary type="html">Abstract</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Rapid Response:Mitigating LLM Jailbreaks with a Few Examples</title>
-      <link href="http://localhost:4000/RapidResponse" rel="alternate" type="text/html" title="Rapid Response:Mitigating LLM Jailbreaks with a Few Examples" />
-      <published>2024-11-12T00:00:00+02:00</published>
-      <updated>2024-11-12T00:00:00+02:00</updated>
-      <id>http://localhost:4000/RapidResponse</id>
-      <content type="html" xml:base="http://localhost:4000/RapidResponse">&lt;h2&gt; Abstract &lt;/h2&gt;
-
-&lt;p&gt; As large language models (LLMs) grow more powerful, ensuring their safety against misuse becomes crucial. While researchers have focused on developing robust defenses, no method has yet achieved complete invulnerability to attacks. We propose an alternative approach: instead of seeking perfect adversarial robustness, we develop rapid response techniques to look to block whole classes of jailbreaks after observing only a handful of attacks. To study this setting, we develop RapidResponseBench, a benchmark that measures a defense's robustness against various jailbreak strategies after adapting to a few observed examples. We evaluate five rapid response methods, all of which use jailbreak proliferation, where we automatically generate additional jailbreaks similar to the examples observed. Our strongest method, which fine-tunes an input classifier to block proliferated jailbreaks, reduces attack success rate by a factor greater than 240 on an in-distribution set of jailbreaks and a factor greater than 15 on an out-of-distribution set, having observed just one example of each jailbreaking strategy. Moreover, further studies suggest that the quality of proliferation model and number of proliferated examples play an key role in the effectiveness of this defense. Overall, our results highlight the potential of responding rapidly to novel jailbreaks to limit LLM misuse. &lt;/p&gt;
-
-&lt;h2&gt; Authors &lt;/h2&gt;
-
-&lt;p&gt; &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Peng,+A&quot; rel=&quot;nofollow&quot;&gt;Alwin Peng&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Michael,+J&quot; rel=&quot;nofollow&quot;&gt;Julian Michael&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sleight,+H&quot; rel=&quot;nofollow&quot;&gt;Henry Sleight&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Perez,+E&quot; rel=&quot;nofollow&quot;&gt;Ethan Perez&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/search/cs?searchtype=author&amp;amp;query=Sharma,+M&quot; rel=&quot;nofollow&quot;&gt;Mrinank Sharma&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;For more information go &lt;a href=&quot;https://arxiv.org/abs/2411.07494&quot;&gt;here&lt;/a&gt;&lt;/p&gt;</content>
 
       
       
