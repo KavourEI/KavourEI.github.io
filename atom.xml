@@ -8,6 +8,34 @@
     
       
       <item>
+        <title></title>
+        
+          <description></description>
+        
+        <pubDate>Wed, 16 Apr 2025 13:31:12 +0300</pubDate>
+        <link>
+        http://localhost:4000/2025-04-11-CopilotChat</link>
+        <guid isPermaLink="true">http://localhost:4000/2025-04-11-CopilotChat</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Google's Agent Development Kit (ADK) - Simplifying Multi-Agent Application Development</title>
+        
+          <description>&lt;p&gt; Google has introduced &lt;a href=&quot;https://developers.googleblog.com/en/agent-development-kit-easy-to-build-multi-agent-applications/?utm_source=kavourei.github.io&quot;&gt;the Agent Development Kit (ADK)&lt;/a&gt;, an open-source framework designed to streamline the creation of intelligent, autonomous multi-agent systems for diverse deployment environments.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 01 Apr 2025 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/AgentDevKit</link>
+        <guid isPermaLink="true">http://localhost:4000/AgentDevKit</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Qwen 2.5 Omni - The Model That Does Everything But Your Taxes (Probably)</title>
         
           <description>&lt;p&gt;Alright, tech enthusiasts, buckle up! The wizards over at Qwen have cooked up something &lt;a href=&quot;https://qwenlm.github.io/blog/qwen2.5-omni/?&quot;&gt;truly magical&lt;/a&gt; – or, you know, meticulously engineered – called &lt;strong&gt;Qwen2.5-Omni&lt;/strong&gt;. And no, it's not a new kitchen appliance (though I bet it could write a killer recipe). It's an end-to-end multimodal model so comprehensive, it might just replace your entire tech support team...and maybe your dog walker. Just kidding... mostly.&lt;/p&gt;
@@ -270,6 +298,21 @@
         <link>
         http://localhost:4000/Majorana</link>
         <guid isPermaLink="true">http://localhost:4000/Majorana</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing Grok 3. The next generation AI assistant by xAI</title>
+        
+          <description>&lt;p&gt; xAI has &lt;a href=&quot;https://x.ai/news/grok-3/?utm_source=kavourei.github.io&quot;&gt;unveiled Grok 3&lt;/a&gt;, an advanced AI assistant integrated with GPT-4 Turbo and new features designed to enhance user interactions, accessibility, and productivity across multiple platforms.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 19 Feb 2025 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/GroqReasoning</link>
+        <guid isPermaLink="true">http://localhost:4000/GroqReasoning</guid>
       </item>
       
     
