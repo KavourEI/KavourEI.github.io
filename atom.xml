@@ -8,14 +8,61 @@
     
       
       <item>
-        <title></title>
+        <title>Mistral Medium 3 - Frontier Performance at a Fraction of the Cost</title>
         
-          <description></description>
+          <description>&lt;p&gt; Mistral AI’s newly launched &lt;a href=&quot;https://mistral.ai/news/mistral-medium-3/?utm_source=kavourei.github.io&quot;&gt;Mistral Medium 3&lt;/a&gt; model delivers state-of-the-art performance close to much larger models while slashing costs by 8 times and simplifying enterprise deployment, improving efficiency and scalability of AI solutions.&lt;/p&gt;
+
+</description>
         
-        <pubDate>Wed, 16 Apr 2025 13:31:12 +0300</pubDate>
+        <pubDate>Wed, 07 May 2025 00:00:00 +0300</pubDate>
         <link>
-        http://localhost:4000/2025-04-11-CopilotChat</link>
-        <guid isPermaLink="true">http://localhost:4000/2025-04-11-CopilotChat</guid>
+        http://localhost:4000/Medium3</link>
+        <guid isPermaLink="true">http://localhost:4000/Medium3</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Create and Edit Images with Gemini 2.0 Flash Preview</title>
+        
+          <description>&lt;p&gt; Google has launched a preview of &lt;a href=&quot;https://developers.googleblog.com/en/generate-images-gemini-2-0-flash-preview/?utm_source=kavourei.github.io&quot;&gt;Gemini 2.0 Flash’s image generation and editing capabilities&lt;/a&gt;, enabling developers to integrate conversational image creation with higher rate limits via the Gemini API on Google AI Studio and Vertex AI.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 07 May 2025 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/Gemini2Image</link>
+        <guid isPermaLink="true">http://localhost:4000/Gemini2Image</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Introducing Web Search on the Anthropic API</title>
+        
+          <description>&lt;p&gt; Anthropic has launched &lt;a hre=&quot;https://www.anthropic.com/news/web-search-api/?utm_source=kavourei.github.io&quot;&gt;web search capabilities on its API&lt;/a&gt;, enabling Claude-powered applications to access and integrate up-to-date information from across the web, enhancing AI responses with current, real-world data.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 07 May 2025 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/AnthropicWebSearch</link>
+        <guid isPermaLink="true">http://localhost:4000/AnthropicWebSearch</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>GitHub Copilot Chat Integrates Gemini 2.5 Pro - A Public Preview</title>
+        
+          <description>&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2025-04-11-copilot-chat-users-can-use-the-gemini-2-5-pro-model-in-public-preview/?utm_source=kavourei.github.io&quot;&gt;GitHub Copilot Chat&lt;/a&gt; users can now access the Gemini 2.5 Pro model in public preview, enhancing code understanding and generation capabilities within the development workflow.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Fri, 11 Apr 2025 00:00:00 +0300</pubDate>
+        <link>
+        http://localhost:4000/CopilotChat</link>
+        <guid isPermaLink="true">http://localhost:4000/CopilotChat</guid>
       </item>
       
     
