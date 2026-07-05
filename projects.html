@@ -21,6 +21,40 @@
   @keyframes modalIn { from { opacity:0; transform:translateY(20px) scale(.98); } to { opacity:1; transform:translateY(0) scale(1); } }
   @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
   @keyframes projIn { from { opacity:0; transform:translateY(20px); } to { opacity:1; transform:translateY(0); } }
+  .tag-filters::-webkit-scrollbar { display: none; }
+  .tag-fade { display: none; }
+  @media (max-width: 680px) {
+    .proj-topbar { flex-wrap: wrap; row-gap: 12px; }
+    .tag-filters-wrap { margin: 0 0 40px; }
+    .tag-filters {
+      flex-wrap: nowrap !important;
+      overflow-x: auto !important;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      padding-bottom: 4px !important;
+      cursor: grab;
+    }
+    .tag-filters button { flex: 0 0 auto; }
+    .tag-fade {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      position: absolute;
+      top: 0; right: 0; bottom: 4px;
+      width: 44px;
+      padding-right: 4px;
+      color: var(--muted, #8b95a7);
+      background: linear-gradient(90deg, transparent, var(--bg, #0a0e1a) 75%);
+      pointer-events: none;
+      animation: fadeIn .4s ease;
+    }
+    .proj-grid { grid-template-columns: 1fr !important; gap: 22px !important; }
+    .proj-card { padding: 32px 28px !important; }
+    .proj-title { font-size: 26px !important; }
+    .proj-summary { font-size: 16px !important; }
+    .proj-tag { font-size: 12px !important; padding: 5px 12px !important; }
+    .modal-card { padding: 30px 22px 32px !important; }
+  }
 </style>
 </helmet>
 <div ref="{{ root }}" style="{{ themeVars }}; --accent:#4ade80; min-height:100vh; background:var(--bg,#0a0e1a); color:var(--text,#e8edf5); font-family:'Sora',system-ui,sans-serif; position:relative; overflow-x:hidden; transition:background .5s ease, color .5s ease;">
@@ -35,7 +69,7 @@
   <div style="position:relative; z-index:1; max-width:1080px; margin:0 auto; padding:0 28px;">
 
     <!-- top bar -->
-    <div style="display:flex; align-items:center; justify-content:space-between; padding:26px 0 0;">
+    <div class="proj-topbar" style="display:flex; align-items:center; justify-content:space-between; padding:26px 0 0;">
       <a href="index.html" style="text-decoration:none; display:flex; align-items:center; gap:8px; color:var(--muted,#8b95a7); font-family:'JetBrains Mono',monospace; font-size:13px; letter-spacing:.14em; transition:all .3s ease;" style-hover="color:var(--accent); box-shadow:0 0 16px 2px rgba(74,222,128,.55);">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>BACK
       </a>
@@ -59,26 +93,31 @@
     </header>
 
     <!-- FILTERS -->
-    <div style="display:flex; flex-wrap:wrap; gap:10px; padding:0 0 30px;">
-      <sc-for list="{{ tagFilters }}" as="f" hint-placeholder-count="5">
-        <button onClick="{{ f.onClick }}" style="{{ f.style }}" style-hover="border-color:var(--accent);">{{ f.label }}</button>
-      </sc-for>
+    <div class="tag-filters-wrap" style="position:relative; margin:0 0 44px;">
+      <div ref="{{ tagScroll }}" class="tag-filters" style="display:flex; flex-wrap:wrap; gap:10px; padding:0 0 10px;">
+        <sc-for list="{{ tagFilters }}" as="f" hint-placeholder-count="5">
+          <button onClick="{{ f.onClick }}" style="{{ f.style }}" style-hover="border-color:var(--accent);">{{ f.label }}</button>
+        </sc-for>
+      </div>
+      <div class="tag-fade" aria-hidden="true">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+      </div>
     </div>
 
     <!-- PROJECT GRID -->
     <section style="padding:0 0 60px;">
-      <div ref="{{ grid }}" style="display:grid; grid-template-columns:repeat(2, 1fr); gap:20px;">
+      <div ref="{{ grid }}" class="proj-grid" style="display:grid; grid-template-columns:repeat(2, 1fr); gap:20px;">
         <sc-for list="{{ visibleProjects }}" as="p" hint-placeholder-count="4">
-          <div onClick="{{ p.onOpen }}" data-proj-card style="animation:projIn .5s ease {{ p.animDelay }} backwards; transition:border-color .3s ease, box-shadow .3s ease, transform .3s ease; cursor:pointer; display:flex; flex-direction:column; background:var(--card,rgba(255,255,255,.03)); border:1px solid var(--border,rgba(255,255,255,.1)); border-radius:18px; padding:26px; overflow:hidden; position:relative;" style-hover="border-color:var(--accent); box-shadow:0 20px 46px -22px var(--accent); transform:translateY(-4px);">
+          <div onClick="{{ p.onOpen }}" data-proj-card class="proj-card" style="animation:projIn .5s ease {{ p.animDelay }} backwards; transition:border-color .3s ease, box-shadow .3s ease, transform .3s ease; cursor:pointer; display:flex; flex-direction:column; background:var(--card,rgba(255,255,255,.03)); border:1px solid var(--border,rgba(255,255,255,.1)); border-radius:18px; padding:26px; overflow:hidden; position:relative;" style-hover="border-color:var(--accent); box-shadow:0 20px 46px -22px var(--accent); transform:translateY(-4px);">
             <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:16px;">
               <span style="font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.1em; color:var(--muted,#8b95a7);">{{ p.num }}</span>
               <span style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.06em; color:var(--muted,#8b95a7);">{{ p.year }}</span>
             </div>
-            <h3 style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:22px; margin:0 0 10px; letter-spacing:-.01em;">{{ p.title }}</h3>
-            <p style="font-size:14.5px; line-height:1.6; color:var(--muted,#8b95a7); margin:0 0 20px; text-wrap:pretty; flex:1;">{{ p.summary }}</p>
+            <h3 class="proj-title" style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:22px; margin:0 0 10px; letter-spacing:-.01em;">{{ p.title }}</h3>
+            <p class="proj-summary" style="font-size:14.5px; line-height:1.6; color:var(--muted,#8b95a7); margin:0 0 20px; text-wrap:pretty; flex:1;">{{ p.summary }}</p>
             <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:18px;">
               <sc-for list="{{ p.tags }}" as="tag" hint-placeholder-count="3">
-                <span style="font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.08em; color:var(--accent); background:var(--accent-dim,rgba(74,222,128,.14)); padding:4px 10px; border-radius:6px;">{{ tag }}</span>
+                <span class="proj-tag" style="font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.08em; color:var(--accent); background:var(--accent-dim,rgba(74,222,128,.14)); padding:4px 10px; border-radius:6px;">{{ tag }}</span>
               </sc-for>
             </div>
             <div style="display:flex; align-items:center; gap:8px; font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.08em; color:var(--accent);">
@@ -102,7 +141,7 @@
   <!-- MODAL -->
   <sc-if value="{{ activeProject }}" hint-placeholder-val="{{ false }}">
     <div onClick="{{ closeModal }}" style="position:fixed; inset:0; z-index:50; background:rgba(4,8,16,.72); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); display:flex; align-items:flex-start; justify-content:center; padding:60px 24px; overflow-y:auto; animation:fadeIn .25s ease;">
-      <div onClick="{{ stop }}" style="position:relative; width:100%; max-width:720px; background:var(--modal,#0e1424); border:1px solid var(--border,rgba(255,255,255,.12)); border-radius:22px; padding:40px 44px 44px; animation:modalIn .35s cubic-bezier(.2,.8,.2,1); box-shadow:0 40px 100px -30px rgba(0,0,0,.7);">
+      <div onClick="{{ stop }}" class="modal-card" style="position:relative; width:100%; max-width:720px; background:var(--modal,#0e1424); border:1px solid var(--border,rgba(255,255,255,.12)); border-radius:22px; padding:40px 44px 44px; animation:modalIn .35s cubic-bezier(.2,.8,.2,1); box-shadow:0 40px 100px -30px rgba(0,0,0,.7);">
         <button onClick="{{ closeModal }}" aria-label="Close" style="position:absolute; top:20px; right:20px; cursor:pointer; display:flex; align-items:center; justify-content:center; width:38px; height:38px; border-radius:50%; background:var(--surface,rgba(255,255,255,.05)); border:1px solid var(--border,rgba(255,255,255,.12)); color:var(--text,#e8edf5); transition:all .3s ease;" style-hover="border-color:var(--accent); color:var(--accent); transform:rotate(90deg); box-shadow:0 0 16px 2px rgba(74,222,128,.55);">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
         </button>
@@ -192,6 +231,7 @@ class Component extends DCLogic {
     return {
       root: (el) => { this.rootEl = el; },
       grid: (el) => { this.gridEl = el; },
+      tagScroll: (el) => { this.tagScrollEl = el; },
       themeVars,
       isDark: dark,
       isLight: !dark,
@@ -207,6 +247,49 @@ class Component extends DCLogic {
 
   openModal(id) {
     this.setState({ activeId: id });
+  }
+
+  componentDidMount() {
+    const el = this.tagScrollEl;
+    if (!el) return;
+    let dragging = false, moved = false, startX = 0, startScroll = 0;
+    this._tagOnDown = (e) => {
+      if (e.pointerType === 'touch') return; // native touch scrolling already works
+      dragging = true; moved = false;
+      startX = e.clientX;
+      startScroll = el.scrollLeft;
+      el.setPointerCapture(e.pointerId);
+      el.style.cursor = 'grabbing';
+    };
+    this._tagOnMove = (e) => {
+      if (!dragging) return;
+      const dx = e.clientX - startX;
+      if (Math.abs(dx) > 4) moved = true;
+      el.scrollLeft = startScroll - dx;
+    };
+    this._tagOnUp = (e) => {
+      dragging = false;
+      el.style.cursor = 'grab';
+      if (e.pointerId != null && el.hasPointerCapture?.(e.pointerId)) el.releasePointerCapture(e.pointerId);
+    };
+    this._tagOnClickCapture = (e) => {
+      if (moved) { e.stopPropagation(); e.preventDefault(); }
+    };
+    el.addEventListener('pointerdown', this._tagOnDown);
+    el.addEventListener('pointermove', this._tagOnMove);
+    el.addEventListener('pointerup', this._tagOnUp);
+    el.addEventListener('pointercancel', this._tagOnUp);
+    el.addEventListener('click', this._tagOnClickCapture, true);
+  }
+
+  componentWillUnmount() {
+    const el = this.tagScrollEl;
+    if (!el) return;
+    el.removeEventListener('pointerdown', this._tagOnDown);
+    el.removeEventListener('pointermove', this._tagOnMove);
+    el.removeEventListener('pointerup', this._tagOnUp);
+    el.removeEventListener('pointercancel', this._tagOnUp);
+    el.removeEventListener('click', this._tagOnClickCapture, true);
   }
 
 }
