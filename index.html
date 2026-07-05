@@ -171,7 +171,7 @@ class Component extends DCLogic {
       : '--bg:#f4f7fb; --text:#0f1a2c; --muted:#5a6576; --surface:rgba(10,20,40,.03); --card:rgba(255,255,255,.75); --border:rgba(10,20,40,.10); --line:rgba(10,20,40,.05); --line-strong:rgba(10,20,40,.20); --accent-dim:rgba(22,163,74,.12); --dot-idle:rgba(10,20,40,.25); --grid-op:.7; --orb-a:.14; --orb-b:.10;';
 
     return {
-      photoSlotProps: { style: { width: '100%', aspectRatio: '5/7', display: 'block', borderRadius: '25px', overflow: 'hidden' } },
+      photoSlotProps: { style: { width: '100%', height: 'auto', aspectRatio: '5/7', display: 'block', borderRadius: '25px', overflow: 'hidden' } },
       root: (el) => { this.rootEl = el; },
       rail: (el) => { this.railEl = el; },
       progress: (el) => { this.progressEl = el; },
